@@ -1,0 +1,146 @@
+{
+    "renders": [
+        {
+            "image":{
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/starrynight_pray/starrynight_pray.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "position": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "screen_width + 1",
+                    "height": "screen_height + 1"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "1",
+                    "height": "1"
+                }
+            }
+        },
+        {
+            "image":{
+                "parent": "builtin/text",
+                "image": "customloadingscreen:font/ascii.png",
+                "position_type": "TOP_LEFT",
+                "offset_pos": "TOP_LEFT",
+                "text": "' Memory Usage: ' + memory_used() + 'MB / ' + memory_max() + 'MB'",
+                "position": {
+                    "x": 0,
+                    "y": 10
+                },
+                "colour": "0xffffffff"
+            }
+        },
+        {
+            "image":{
+                "parent": "builtin/text",
+                "image": "customloadingscreen:font/ascii.png",
+                "position_type": "TOP_RIGHT",
+                "offset_pos": "TOP_RIGHT",
+                "text": "'(' + floor(mem_percent * 100) + '% Used) '",
+                "position": {
+                    "x": "0",
+                    "y": "10",
+                    "width": "0",
+                    "height": "0"
+                },
+                "colour": "mem_color"
+            }
+        },
+        {
+            "image":{
+                "parent": "builtin/text",
+                "image": "customloadingscreen:font/ascii.png",
+                "position_type": "TOP_LEFT",
+                "offset_pos": "TOP_LEFT",
+                "text": "' Loading Time: ' + floor(time / 60) + 'm ' + floor((time % 60) / 10) + floor(time % 60 % 10) + 's'",
+                "position": {
+                    "x": 0,
+                    "y": 20
+                },
+                "colour": "0xFFFFFFFF"
+            }
+        },
+        {
+            "image":{
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/starrynight_pray/ram_bar.png",
+                "position_type": "TOP_LEFT",
+                "offset_pos": "TOP_LEFT",
+                "position": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "screen_width * mem_percent",
+                    "height": "6"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "mem_percent",
+                    "height": "1"
+                }
+            }
+        },
+        {
+            "image":{
+                "parent": "builtin/text",
+                "image": "customloadingscreen:font/ascii.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "text": "status",
+                "position": {
+                    "x": "0",
+                    "y": "screen_height * 0.3 + 15",
+                    "width": "0",
+                    "height": "0"
+                },
+                "colour": "0xFF1E90FF"
+            }
+        },
+        {
+            "image":{
+                "parent": "builtin/text",
+                "image": "customloadingscreen:font/ascii.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "text": "sub_status",
+                "position": {
+                    "x": "0",
+                    "y": "screen_height * 0.3 + 25",
+                    "width": "0",
+                    "height": "0"
+                },
+                "colour": "0xFF1E90FF"
+            }
+        },
+        {
+            "image":{
+                "parent": "builtin/text",
+                "image": "customloadingscreen:font/ascii.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "text": "(floor(percentage * 100)) + '.' + (floor(percentage * 1000) % 10) + '%'",
+                "position": {
+                    "x": "0",
+                    "y": "screen_height * 0.3 - 15",
+                    "width": "0",
+                    "height": "0"
+                },
+                "colour": "0xFFFFFFFF"
+            }
+        },
+        "starrynight_pray/progress_bar",
+        "starrynight_pray/progress_round"
+    ],
+    "variables": {
+        "mem_percent": "((floor(memory_used() * 100) + 0.0) / (floor(memory_max() * 100) + 0.0))",
+        "mem_color": "(mem_percent < 0.7) ? 0x64dd17 : ((mem_percent < 0.8) ? 0xffeb3b : ((mem_percent < 0.9) ? 0xffc400 : 0xff5252))"
+    },
+    "functions": [],
+    "factories": [
+    ],
+    "actions": []
+}

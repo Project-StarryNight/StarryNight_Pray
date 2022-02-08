@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="bottomcenter">
+        <line>
+            <str>{offhandlargeicon}{offhandname}$d|$r{mainhandlargeicon}{mainhandname}</str>
+        </line>
+
+        <line>
+            <str>$e{offhanddamageleft}$f / $e{offhandmaxdamage}$d|$e{mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+    </lines>
+
+    <lines at="topleft">
+        <line>
+        <str> </str>
+        </line>
+
+        <line>
+        <operation>
+            <str>GT</str>
+            <var>fps</var>
+                <num>143</num>
+                <num>119</num>
+                <num>89</num>
+                <num>74</num>
+                <num>59</num>
+                <num>29</num>
+                <num>15</num>
+                <num>0</num>
+                    <str>$5FPS:{fps}</str>
+                    <str>$dFPS:{fps}</str>
+                    <str>$3FPS:{fps}</str>
+                    <str>$bFPS:{fps}</str>
+                    <str>$aFPS:{fps}</str>
+                    <str>$eFPS:{fps}</str>
+                    <str>$cFPS:{fps}</str>
+                    <str>$4FPS:{fps}</str>
+        </operation>
+            <str>$7 | $eEnt:$e{entitiestotal}$6/$c{entitiesrendered}</str>
+
+            <str>$7 | $bMEM$f: </str>
+                <op>
+                    <str>le</str>
+                    <pct>
+                        <var>memused</var>
+                        <var>memmax</var>
+                    </pct>
+                    <num>70</num>
+                    <num>80</num>
+                    <num>90</num>
+                    <num>100</num>
+                    <str>$a</str>
+                    <str>$e</str>
+                    <str>$c</str>
+                    <str>$4</str>
+                </op>
+                <round>
+                    <div>
+                        <var>memused</var>
+                        <num>1048576000</num>
+                    </div>
+                    <num>1</num>
+                </round>
+                <str>G$f (</str>
+                <op>
+                    <str>le</str>
+                    <pct>
+                        <var>memused</var>
+                        <var>memmax</var>
+                    </pct>
+                    <num>70</num>
+                    <num>85</num>
+                    <num>90</num>
+                    <num>100</num>
+                    <str>$a</str>
+                    <str>$e</str>
+                    <str>$c</str>
+                    <str>$4</str>
+                    <str />
+                </op>
+                <round>
+                    <pct>
+                        <var>memused</var>
+                        <var>memmax</var>
+                    </pct>
+                    <num>0</num>
+                </round>
+            <str>%$f)$f</str>
+            <op>
+                <str>gt</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>92</num>
+                <num>0</num>
+                <str>$c</str>
+                <str />
+            </op>
+
+        <str>$7丨$eDay:{day}$c$7丨$eTime:{mctime24}</str>
+        </line>
+
+
+        <line>
+            <str>$bPlayer: {nearbyplayericon0}$d{nearbyplayername0} $a{nearbyplayerdistance0}m$r</str>
+        </line>
+
+        <line>
+            <str>$bPlayer: {nearbyplayericon1}$d{nearbyplayername1} $a{nearbyplayerdistance1}m$r</str>
+        </line>
+
+                <line>
+            <if>
+                <var>invisible</var>
+                <str>$7当前处于隐身状态 </str>
+            </if>
+            <if>
+                <var>inwater</var>
+                <str>$b当前处于水中</str>
+            </if>
+        </line>
+    </lines>
+
+    <lines at="topcenter">
+        <line>
+            <operation>
+                <str>EQ</str>
+                <var>abrroughdirection</var>
+                    <num>E</num>
+                    <num>S</num>
+                    <num>W</num>
+                    <num>N</num>
+                        <str>$5东</str>
+                        <str>$5南</str>
+                        <str>$5西</str>
+                        <str>$5北</str>
+            </operation>
+                        <str> $7丨$cX:{xi} $aY:{yi} $9Z:{zi}</str>
+        </line>
+    </lines>
+
+    <lines at="bottomright">
+        <line>
+            <op>
+                <str>GE</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>60</num>
+                <num>35</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c! </str>
+                <str>$4!! </str>
+                <str>$a10</str>
+            </op>
+            <round>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>% {helmetlargeicon}</str>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+
+        <line>
+            <op>
+                <str>GE</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>60</num>
+                <num>35</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c! </str>
+                <str>$4!! </str>
+                <str>$a10</str>
+            </op>
+            <round>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>% {chestplatelargeicon}</str>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+
+        <line>
+            <op>
+                <str>GE</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>60</num>
+                <num>35</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c! </str>
+                <str>$4!! </str>
+                <str>$a10</str>
+            </op>
+            <round>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>% {leggingslargeicon}</str>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+
+        <line>
+            <op>
+                <str>GE</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>60</num>
+                <num>35</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c! </str>
+                <str>$4!! </str>
+                <str>$a10</str>
+            </op>
+            <round>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>% {bootslargeicon}</str>
+        </line>
+    </lines>
+
+    <lines at="bottomleft">
+
+    </lines>
+
+    <lines at="middlecenter">
+    <line>
+
+            <operation>
+                <str>GE</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>98</num>
+                <num>95</num>
+                    <str>$4内存占用过高,请检查是否为程序分配足够内存</str>
+                    <str>$c内存占用高</str>
+            </operation>
+    </line>
+
+    <line>
+        <op>
+            <str>GT</str>
+            <var>speed</var>
+            <num>150</num>
+            <str>$4飞的太快了,快停下来</str>
+        </op>
+    </line>
+
+    </lines>
+
+    <lines at="topright">
+    <line>
+    </line>
+    </lines>
+
+</config>

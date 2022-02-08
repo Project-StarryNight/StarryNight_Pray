@@ -1,0 +1,11 @@
+type = customizablemenus
+
+mezz.jei.gui.recipes.RecipesGui {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
+net.minecraft.client.gui.GuiMultiplayer {
+}
+

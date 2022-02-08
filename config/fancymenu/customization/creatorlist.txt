@@ -1,0 +1,49 @@
+type = menu
+
+customization-meta {
+  identifier = creatorlist
+  randomgroup = 1
+  smallerthanheight = 1180
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/mainmenu/starrynight_pray.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\back_hovered-2.png
+  label = 
+  loopbackgroundanimations = true
+  x = -160
+  width = 80
+  actionid = ec3de163-8508-4214-ad7d-05feeb887f2b1643698132471
+  action = addbutton
+  y = -115
+  backgroundnormal = resources\mainmenu\back-2.png
+  value = net.minecraft.client.gui.GuiMainMenu
+  height = 20
+}
+
+customization {
+  path = resources/mainmenu/creators-5.png
+  orientation = mid-centered
+  x = -160
+  width = 320
+  actionid = 1be6531d-affc-4657-8ca3-4e7dc337b9981643697934195
+  action = addtexture
+  y = -90
+  height = 180
+}
+

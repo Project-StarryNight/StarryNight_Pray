@@ -1,0 +1,73 @@
+{
+  "guiScale": 4,
+  "hudScale": 3,
+  "tooltipScale": 3,
+  "customIndividualGuiScales": {
+    "gregtech.api.gui.impl.ModularUIGui": {
+      "scale": 3,
+      "name": "gregtech.api.gui.impl.ModularUIGui"
+    },
+    "journeymap.client.ui.fullscreen.MapChat": {
+      "scale": 4,
+      "name": "journeymap.client.ui.fullscreen.MapChat"
+    },
+    "journeymap.client.ui.fullscreen.Fullscreen": {
+      "scale": 4,
+      "name": "journeymap.client.ui.fullscreen.Fullscreen"
+    },
+    "gregtech.api.gui.widgets.AdvancedTextWidget$WrapScreen": {
+      "scale": 3,
+      "name": "gregtech.api.gui.widgets.AdvancedTextWidget$WrapScreen"
+    }
+  },
+  "customGroupGuiScales": {},
+  "loggedGuiClassNames": [
+    "net.optifine.gui.GuiAnimationSettingsOF",
+    "net.optifine.gui.GuiOtherSettingsOF",
+    "guichaguri.betterfps.gui.GuiBetterFpsConfig",
+    "guichaguri.betterfps.gui.GuiRestartDialog",
+    "the_fireplace.ias.gui.GuiAccountSelector",
+    "pl.asie.foamfix.client.gui.FoamFixGuiFactory$ConfigGui",
+    "com.therandomlabs.randompatches.config.RPGuiConfig",
+    "net.minecraft.client.gui.GuiScreenResourcePacks",
+    "net.minecraft.client.gui.GuiMultiplayer",
+    "net.minecraft.client.gui.GuiCreateWorld",
+    "net.minecraft.client.gui.GuiDownloadTerrain",
+    "journeymap.client.ui.dialog.AboutDialog",
+    "journeymap.client.ui.waypoint.WaypointEditor",
+    "journeymap.client.ui.fullscreen.Fullscreen",
+    "journeymap.client.ui.fullscreen.MapChat",
+    "bre.smoothfont.gui.GuiConfigAdvanced",
+    "bre.smoothfont.gui.GuiFontSelection",
+    "bre.smoothfont.gui.GuiConfigScreen",
+    "mezz.jei.config.JEIModConfigGui",
+    "net.minecraftforge.fml.client.config.GuiMessageDialog",
+    "mcjty.theoneprobe.config.TopModConfigGui",
+    "net.minecraftforge.fml.client.GuiModList",
+    "mezz.jei.gui.recipes.RecipesGui",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG$GuiDeleteEntry",
+    "spazley.scalingguis.gui.guiconfig.GuiSelectDeleteSG",
+    "spazley.scalingguis.gui.guiconfig.GuiSelectStringSG",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG$GuiNewScale",
+    "net.minecraft.client.gui.GuiChat",
+    "net.optifine.gui.GuiChatOF",
+    "net.optifine.shaders.gui.GuiShaders",
+    "net.optifine.gui.GuiQualitySettingsOF",
+    "net.optifine.gui.GuiDetailSettingsOF",
+    "net.optifine.gui.GuiPerformanceSettingsOF",
+    "net.minecraft.client.gui.GuiMainMenu",
+    "net.minecraft.client.gui.GuiWorldSelection",
+    "net.minecraft.client.gui.GuiScreenWorking",
+    "net.minecraft.client.gui.inventory.GuiInventory",
+    "net.minecraft.client.gui.inventory.GuiContainerCreative",
+    "gregtech.api.gui.impl.ModularUIGui",
+    "gregtech.api.gui.widgets.AdvancedTextWidget$WrapScreen",
+    "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.minecraft.client.gui.GuiVideoSettings",
+    "net.minecraftforge.fml.client.config.GuiConfig",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
+  ],
+  "blacklistGuiClassNames": [],
+  "dynamicGuiScales": []
+}

@@ -1,0 +1,261 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  smallerthanheight = 1080
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/customloadingscreen/image/starrynight_pray/starrynight_pray.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/mainmenu/bottom_right-5.png
+  orientation = bottom-right
+  x = -168
+  width = 168
+  actionid = 4897be94-6cb5-4c59-99f9-c021d77ea1d31643712367862
+  action = addtexture
+  y = -23
+  height = 23
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\singleplayer_hovered-7.png
+  label = 
+  loopbackgroundanimations = true
+  x = -210
+  width = 100
+  actionid = 278792db-409e-4e52-ba9a-ed65c396f0591643638749659
+  action = addbutton
+  y = -42
+  backgroundnormal = resources\mainmenu\singleplayer-7.png
+  value = net.minecraft.client.gui.GuiWorldSelection
+  height = 40
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\multiplayer_hovered-9.png
+  label = 
+  loopbackgroundanimations = true
+  x = -105
+  width = 100
+  actionid = cd71c2e4-20ab-4e90-a5db-46171a4fd4e81643639866080
+  action = addbutton
+  y = -42
+  backgroundnormal = resources\mainmenu\multiplayer-10.png
+  value = net.minecraft.client.gui.GuiMultiplayer
+  height = 40
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\mods_hovered_small-3.png
+  label = 
+  loopbackgroundanimations = true
+  x = -105
+  width = 100
+  actionid = 5985282b-45d0-40bc-9bf5-94b26dfc6a011643642753648
+  action = addbutton
+  y = 3
+  backgroundnormal = resources\mainmenu\mods_small-2.png
+  value = net.minecraftforge.fml.client.GuiModList
+  height = 40
+}
+
+customization {
+  path = resources/mainmenu/bottem_left-10.png
+  orientation = bottom-left
+  x = -2
+  width = 162
+  actionid = 38650046-70bf-4d51-93a8-774fb02e819e1643691553137
+  action = addtexture
+  y = -55
+  height = 56
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\settings_hovered_small-2.png
+  label = 
+  loopbackgroundanimations = true
+  x = -210
+  width = 100
+  actionid = b5b1e478-c2e7-4e45-b50a-ceddc5e022371643644520369
+  action = addbutton
+  y = 3
+  backgroundnormal = resources\mainmenu\settings_small-2.png
+  value = net.minecraft.client.gui.GuiOptions
+  height = 40
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\mainmenu\language_hovered-5.png
+  label = 
+  loopbackgroundanimations = true
+  x = -210
+  width = 100
+  actionid = d6bae89e-db9e-4cc4-b26c-a6777912b2171643647018377
+  action = addbutton
+  y = 48
+  backgroundnormal = resources\mainmenu\language-4.png
+  value = net.minecraft.client.gui.GuiLanguage
+  height = 40
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  backgroundhovered = resources\mainmenu\exit_hovered-6.png
+  label = 
+  loopbackgroundanimations = true
+  x = -105
+  width = 100
+  actionid = c062274e-d4af-4602-b91f-7166946cba3d1643648199983
+  action = addbutton
+  y = 48
+  backgroundnormal = resources\mainmenu\exit-5.png
+  value = 
+  height = 40
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 18
+  actionid = 40200b7b-5394-4da5-a732-22a89cd53edc1643688218181
+  action = addtext
+  y = -44
+  scale = 1.0
+  alignment = left
+  value = §a你好！§b%playername%！
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 18
+  actionid = 5cc09a63-8df3-4759-a86c-da3c61a0a6e81643691247520
+  action = addtext
+  y = -34
+  scale = 1.0
+  alignment = left
+  value = §bStarrynight §bPray§e ★
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 18
+  actionid = cbaf945d-3152-403b-8d09-200ee385f7ee1643691332437
+  action = addtext
+  y = -24
+  scale = 1.0
+  alignment = left
+  value = §aForge版本：§b%version:forge%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 18
+  actionid = ab33ee37-b0a6-467c-9c0a-a54edc1682af1643691373137
+  action = addtext
+  y = -14
+  scale = 1.0
+  alignment = left
+  value = §a已加载 §b%loadedmods% §a个模组
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = resources\mainmenu\creators_button_hovered-1.png
+  description = &a点击查看整合包创作人员列表~
+  label = 
+  loopbackgroundanimations = true
+  x = -255
+  width = 40
+  actionid = cba1e953-4dcb-4d5b-85c9-122de60999e11643699165739
+  action = addbutton
+  y = 48
+  backgroundnormal = resources\mainmenu\creators_button-1.png
+  value = creatorlist
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  basecolor = #00FF7F
+  shadow = true
+  splashfilepath = resources\mainmenu\splashes.txt
+  rotation = -20.0
+  x = 200
+  actionid = fc515916-63b6-4cab-bb57-aa83311604591643702244839
+  action = addsplash
+  y = 70
+  scale = 1.0
+  refresh = true
+  bouncing = true
+}
+
