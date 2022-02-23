@@ -122,9 +122,10 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_nei.options.keys.gui.botania_corporea_request:0
+key_key.infinity_armor.noclip:40
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
-key_nei.options.keys.gui.botania_corporea_request:0
 key_FpsReducer.key.guiOpen:0
 key_FpsReducer.key.forceIdle:0
 key_ALT Menu:56
@@ -146,6 +147,9 @@ key_key.mineshot.ortho.rotate_left:203
 key_key.mineshot.ortho.rotate_right:205
 key_key.mineshot.ortho.rotate_up:200
 key_key.mineshot.ortho.rotate_down:208
+key_Open Matter Scanner GUI:0
+key_Android Ability key:45
+key_Android Switch Ability key:19
 key_开关喷气背包:45
 key_打开火箭界面:0
 key_切换 RCS:19
