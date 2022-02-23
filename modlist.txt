@@ -53,7 +53,6 @@
         [末影接口_导管][EnderIO-conduits-1.12.2-5.3.70]
 
     -[延迟监视][LagGoggles-1.12.2-5.8-132]
-    -[精美菜单][fancymenu_forge_2.6.0_MC_1.12-1.12.2]
     -[模块化路由器][modular-routers-1.12.2-3.3.0-33]
     -[神秘时代 6][Thaumcraft-1.12.2-6.1.BETA26]
         (附属)
@@ -259,3 +258,4 @@
     -[界面模糊效果][Blur-1.0.4-14.jar]
     -[物品放大][itemzoom_1.12.2-1.11]
     -[自定义加载界面][CustomLoadingScreen-1.12.2-1.5.6]
+    -[精美菜单][fancymenu_forge_2.6.0_MC_1.12-1.12.2]
