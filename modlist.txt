@@ -217,6 +217,7 @@
     [停用][匠魂矿辞缓存][TinkersOreDictCache-1.0]
     -[泡沫修复][foamfix-0.10.14-1.12.2]
     -[原版修复][VanillaFix-1.0.10-150]
+    -[BUG 修复][AnotherCommonBugFix-1.2.5-1.12.2]
 
     功能:
     -[TOP 检测器][theoneprobe-1.12-1.4.28]
