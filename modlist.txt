@@ -5,7 +5,7 @@
     -[Mixin兼容][[___MixinCompat-0.8___]]
     -[CrT][CraftTweaker2-1.12-4.1.20.673]
     -[CoT][ContentTweaker-1.12.2-4.10.0]
-    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.1-beta]
+    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.2-beta]
     -[应用能源 2][appliedenergistics2-rv6-stable-7][MOD已修改]
         (附属)
         -[封包合成][PackagedAuto-1.12.2-1.0.5.18]
