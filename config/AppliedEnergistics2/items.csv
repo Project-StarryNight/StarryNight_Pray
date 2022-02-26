@@ -1294,23 +1294,6 @@ aeadditions:pattern.fluid:0, ME流体模板: 飞扬之清风
 aeadditions:pattern.fluid:0, ME流体模板: 板块之层岩
 aeadditions:pattern.fluid:0, ME流体模板: 元始魔力
 aeadditions:pattern.fluid:0, ME流体模板: 液态魔力
-aeadditions:pattern.fluid:0, ME流体模板: 金
-aeadditions:pattern.fluid:0, ME流体模板: 铁
-aeadditions:pattern.fluid:0, ME流体模板: 铁等离子体
-aeadditions:pattern.fluid:0, ME流体模板: 烈焰
-aeadditions:pattern.fluid:0, ME流体模板: 铜
-aeadditions:pattern.fluid:0, ME流体模板: 锡
-aeadditions:pattern.fluid:0, ME流体模板: 银
-aeadditions:pattern.fluid:0, ME流体模板: 铅
-aeadditions:pattern.fluid:0, ME流体模板: 镍
-aeadditions:pattern.fluid:0, ME流体模板: 镍等离子体
-aeadditions:pattern.fluid:0, ME流体模板: 铂金
-aeadditions:pattern.fluid:0, ME流体模板: 铱
-aeadditions:pattern.fluid:0, ME流体模板: 钢
-aeadditions:pattern.fluid:0, ME流体模板: 琥珀金
-aeadditions:pattern.fluid:0, ME流体模板: 殷钢
-aeadditions:pattern.fluid:0, ME流体模板: 青铜
-aeadditions:pattern.fluid:0, ME流体模板: 硫磺
 aeadditions:pattern.fluid:0, ME流体模板: 铝
 aeadditions:pattern.fluid:0, ME流体模板: 镅
 aeadditions:pattern.fluid:0, ME流体模板: 锑
@@ -1326,18 +1309,24 @@ aeadditions:pattern.fluid:0, ME流体模板: 铈
 aeadditions:pattern.fluid:0, ME流体模板: 氯
 aeadditions:pattern.fluid:0, ME流体模板: 铬
 aeadditions:pattern.fluid:0, ME流体模板: 钴
+aeadditions:pattern.fluid:0, ME流体模板: 铜
 aeadditions:pattern.fluid:0, ME流体模板: [[钅达]]
 aeadditions:pattern.fluid:0, ME流体模板: 氘
 aeadditions:pattern.fluid:0, ME流体模板: 铕
 aeadditions:pattern.fluid:0, ME流体模板: 氟
 aeadditions:pattern.fluid:0, ME流体模板: 镓
+aeadditions:pattern.fluid:0, ME流体模板: 金
 aeadditions:pattern.fluid:0, ME流体模板: 氢
 aeadditions:pattern.fluid:0, ME流体模板: 氦
 aeadditions:pattern.fluid:0, ME流体模板: 氦等离子体
 aeadditions:pattern.fluid:0, ME流体模板: 氦3
 aeadditions:pattern.fluid:0, ME流体模板: 铟
+aeadditions:pattern.fluid:0, ME流体模板: 铱
+aeadditions:pattern.fluid:0, ME流体模板: 铁
+aeadditions:pattern.fluid:0, ME流体模板: 铁等离子体
 aeadditions:pattern.fluid:0, ME流体模板: 氪
 aeadditions:pattern.fluid:0, ME流体模板: 镧
+aeadditions:pattern.fluid:0, ME流体模板: 铅
 aeadditions:pattern.fluid:0, ME流体模板: 锂
 aeadditions:pattern.fluid:0, ME流体模板: 镥
 aeadditions:pattern.fluid:0, ME流体模板: 镁
@@ -1346,6 +1335,8 @@ aeadditions:pattern.fluid:0, ME流体模板: 汞
 aeadditions:pattern.fluid:0, ME流体模板: 钼
 aeadditions:pattern.fluid:0, ME流体模板: 钕
 aeadditions:pattern.fluid:0, ME流体模板: 氖
+aeadditions:pattern.fluid:0, ME流体模板: 镍
+aeadditions:pattern.fluid:0, ME流体模板: 镍等离子体
 aeadditions:pattern.fluid:0, ME流体模板: 铌
 aeadditions:pattern.fluid:0, ME流体模板: 氮
 aeadditions:pattern.fluid:0, ME流体模板: 氮等离子体
@@ -1353,6 +1344,7 @@ aeadditions:pattern.fluid:0, ME流体模板: 锇
 aeadditions:pattern.fluid:0, ME流体模板: 氧气
 aeadditions:pattern.fluid:0, ME流体模板: 氧气等离子体
 aeadditions:pattern.fluid:0, ME流体模板: 钯
+aeadditions:pattern.fluid:0, ME流体模板: 铂金
 aeadditions:pattern.fluid:0, ME流体模板: 钚-239
 aeadditions:pattern.fluid:0, ME流体模板: 钚-241
 aeadditions:pattern.fluid:0, ME流体模板: 钾
@@ -1361,9 +1353,12 @@ aeadditions:pattern.fluid:0, ME流体模板: 铑
 aeadditions:pattern.fluid:0, ME流体模板: 钌
 aeadditions:pattern.fluid:0, ME流体模板: 钐
 aeadditions:pattern.fluid:0, ME流体模板: 硅
+aeadditions:pattern.fluid:0, ME流体模板: 银
 aeadditions:pattern.fluid:0, ME流体模板: 钠
+aeadditions:pattern.fluid:0, ME流体模板: 硫磺
 aeadditions:pattern.fluid:0, ME流体模板: 钽
 aeadditions:pattern.fluid:0, ME流体模板: 钍
+aeadditions:pattern.fluid:0, ME流体模板: 锡
 aeadditions:pattern.fluid:0, ME流体模板: 钛
 aeadditions:pattern.fluid:0, ME流体模板: 氚
 aeadditions:pattern.fluid:0, ME流体模板: 钨
@@ -1383,9 +1378,12 @@ aeadditions:pattern.fluid:0, ME流体模板: 三元金属
 aeadditions:pattern.fluid:0, ME流体模板: 退火铜
 aeadditions:pattern.fluid:0, ME流体模板: 电池合金
 aeadditions:pattern.fluid:0, ME流体模板: 黄铜
+aeadditions:pattern.fluid:0, ME流体模板: 青铜
 aeadditions:pattern.fluid:0, ME流体模板: 液氧
 aeadditions:pattern.fluid:0, ME流体模板: 白铜
+aeadditions:pattern.fluid:0, ME流体模板: 琥珀金
 aeadditions:pattern.fluid:0, ME流体模板: 冰
+aeadditions:pattern.fluid:0, ME流体模板: 殷钢
 aeadditions:pattern.fluid:0, ME流体模板: 坎塔尔合金
 aeadditions:pattern.fluid:0, ME流体模板: 镁铝合金
 aeadditions:pattern.fluid:0, ME流体模板: 镍铬合金
@@ -1397,12 +1395,12 @@ aeadditions:pattern.fluid:0, ME流体模板: 黑青铜
 aeadditions:pattern.fluid:0, ME流体模板: 铋青铜
 aeadditions:pattern.fluid:0, ME流体模板: 焊锡
 aeadditions:pattern.fluid:0, ME流体模板: 不锈钢
+aeadditions:pattern.fluid:0, ME流体模板: 钢
 aeadditions:pattern.fluid:0, ME流体模板: 锡铁合金
 aeadditions:pattern.fluid:0, ME流体模板: 哈氏合金
 aeadditions:pattern.fluid:0, ME流体模板: 钒镓合金
 aeadditions:pattern.fluid:0, ME流体模板: 锻铁
 aeadditions:pattern.fluid:0, ME流体模板: 钇钡铜氧合金
-aeadditions:pattern.fluid:0, ME流体模板: 石墨烯
 aeadditions:pattern.fluid:0, ME流体模板: 铱锇合金
 aeadditions:pattern.fluid:0, ME流体模板: 砷化镓
 aeadditions:pattern.fluid:0, ME流体模板: 磷化铟镓
@@ -1504,6 +1502,8 @@ aeadditions:pattern.fluid:0, ME流体模板: 乙基叔丁基醚
 aeadditions:pattern.fluid:0, ME流体模板: 乙苯
 aeadditions:pattern.fluid:0, ME流体模板: 萘
 aeadditions:pattern.fluid:0, ME流体模板: 橡胶
+aeadditions:pattern.fluid:0, ME流体模板: Cyclohexane
+aeadditions:pattern.fluid:0, ME流体模板: Nitrosyl Chloride
 aeadditions:pattern.fluid:0, ME流体模板: 木炭气
 aeadditions:pattern.fluid:0, ME流体模板: 木醋酸
 aeadditions:pattern.fluid:0, ME流体模板: 木焦油
@@ -1511,7 +1511,7 @@ aeadditions:pattern.fluid:0, ME流体模板: 木炭副产
 aeadditions:pattern.fluid:0, ME流体模板: 生物质
 aeadditions:pattern.fluid:0, ME流体模板: 生物柴油
 aeadditions:pattern.fluid:0, ME流体模板: 发酵生物质
-aeadditions:pattern.fluid:0, ME流体模板: Diesel
+aeadditions:pattern.fluid:0, ME流体模板: 柴油
 aeadditions:pattern.fluid:0, ME流体模板: 火箭燃料
 aeadditions:pattern.fluid:0, ME流体模板: 胶水
 aeadditions:pattern.fluid:0, ME流体模板: 润滑油
@@ -1605,8 +1605,10 @@ aeadditions:pattern.fluid:0, ME流体模板: 含杂硅岩溶液
 aeadditions:pattern.fluid:0, ME流体模板: 硅岩溶液
 aeadditions:pattern.fluid:0, ME流体模板: 酸性硅岩溶液
 aeadditions:pattern.fluid:0, ME流体模板: 硅岩废料
+aeadditions:pattern.fluid:0, ME流体模板: UU-物质
 aeadditions:pattern.fluid:0, ME流体模板: 玻璃
 aeadditions:pattern.fluid:0, ME流体模板: 盐水
+aeadditions:pattern.fluid:0, ME流体模板: 烈焰
 aeadditions:pattern.fluid:0, ME流体模板: 黑钢
 aeadditions:pattern.fluid:0, ME流体模板: 大马士革钢
 aeadditions:pattern.fluid:0, ME流体模板: 钨钢
@@ -5404,20 +5406,6 @@ deepmoblearning:pristine_matter_mo_android, 原始机器人物质
 deepmoblearning:book, 占位符指南（需安装 Patchouli 模组）
 deepmoblearningbm:digital_agonizer, 数字化苦难之井
 deepmoblearningbm:altar_linker, 祭坛连接器
-extrabotany:pedestal, 基座
-extrabotany:blockorichalcos, tile.blockorichalcos.name
-extrabotany:manabarrel, tile.manabarrel.name
-extrabotany:cocoondesire, tile.cocoondesire.name
-extrabotany:managenerator, tile.managenerator.name
-extrabotany:manaliquefaction, tile.manaliquefaction.name
-extrabotany:fluidedmana, 液态魔力
-extrabotany:elfjar, tile.elfjar.name
-extrabotany:trophy, tile.trophy.name
-extrabotany:quantummanabuffer, tile.quantummanabuffer.name
-extrabotany:dimensioncatalyst, tile.dimensioncatalyst.name
-extrabotany:blockshadowium, tile.blockshadowium.name
-extrabotany:blockphotonium, tile.blockphotonium.name
-extrabotany:chargepad, tile.chargepad.name
 extrabotany:manareader, item.manareader.name
 extrabotany:spiritfuel, item.spiritfuel.name
 extrabotany:nightmarefuel, item.nightmarefuel.name
@@ -5537,6 +5525,20 @@ extrabotany:magicfinger, item.magicfinger.name
 extrabotany:silenteternity, item.silenteternity.name
 extrabotany:specialbag, item.specialbag.name
 extrabotany:firstfractal, item.firstfractal.name
+extrabotany:pedestal, 基座
+extrabotany:blockorichalcos, tile.blockorichalcos.name
+extrabotany:manabarrel, tile.manabarrel.name
+extrabotany:cocoondesire, tile.cocoondesire.name
+extrabotany:managenerator, tile.managenerator.name
+extrabotany:manaliquefaction, tile.manaliquefaction.name
+extrabotany:fluidedmana, 液态魔力
+extrabotany:elfjar, tile.elfjar.name
+extrabotany:trophy, tile.trophy.name
+extrabotany:quantummanabuffer, tile.quantummanabuffer.name
+extrabotany:dimensioncatalyst, tile.dimensioncatalyst.name
+extrabotany:blockshadowium, tile.blockshadowium.name
+extrabotany:blockphotonium, tile.blockphotonium.name
+extrabotany:chargepad, tile.chargepad.name
 itemfilters:filter, 物品过滤器
 itemfilters:missing, 缺少物品
 ftbquests:screen, 任务显示器
@@ -6726,142 +6728,142 @@ gregtech:fluid_pipe_nonuple:396, 九合一碳化钨流体管道
 gregtech:fluid_pipe_nonuple:2013, 九合一钨钢流体管道
 gregtech:fluid_pipe_nonuple:2036, 九合一钒钢流体管道
 gregtech:fluid_pipe_nonuple:335, 九合一锻铁流体管道
-gregtech:item_pipe_small:23, 小型钴物品管道
-gregtech:item_pipe_small:75, 小型锇物品管道
-gregtech:item_pipe_small:302, 小型黑青铜物品管道
-gregtech:item_pipe_small:277, 小型琥珀金物品管道
-gregtech:item_pipe_small:112, 小型锡物品管道
-gregtech:item_pipe_small:2014, 小型钴黄铜物品管道
-gregtech:item_pipe_small:3, 小型镅物品管道
-gregtech:item_pipe_small:344, 小型铱锇合金物品管道
-gregtech:item_pipe_small:301, 小型玫瑰金物品管道
 gregtech:item_pipe_small:259, 小型黄铜物品管道
-gregtech:item_pipe_small:300, 小型标准纯银物品管道
-gregtech:item_pipe_small:331, 小型哈氏合金物品管道
-gregtech:item_pipe_small:274, 小型白铜物品管道
+gregtech:item_pipe_small:277, 小型琥珀金物品管道
+gregtech:item_pipe_small:344, 小型铱锇合金物品管道
+gregtech:item_pipe_small:80, 小型铂金物品管道
+gregtech:item_pipe_small:112, 小型锡物品管道
 gregtech:item_pipe_small:290, 小型镁铝合金物品管道
 gregtech:item_pipe_small:69, 小型镍物品管道
-gregtech:item_pipe_small:80, 小型铂金物品管道
+gregtech:item_pipe_small:3, 小型镅物品管道
+gregtech:item_pipe_small:274, 小型白铜物品管道
 gregtech:item_pipe_small:1007, 小型聚氯乙烯物品管道
-gregtech:item_pipe_normal:23, 钴物品管道
-gregtech:item_pipe_normal:75, 锇物品管道
-gregtech:item_pipe_normal:302, 黑青铜物品管道
-gregtech:item_pipe_normal:277, 琥珀金物品管道
-gregtech:item_pipe_normal:112, 锡物品管道
-gregtech:item_pipe_normal:2014, 钴黄铜物品管道
-gregtech:item_pipe_normal:3, 镅物品管道
-gregtech:item_pipe_normal:344, 铱锇合金物品管道
-gregtech:item_pipe_normal:301, 玫瑰金物品管道
+gregtech:item_pipe_small:301, 小型玫瑰金物品管道
+gregtech:item_pipe_small:23, 小型钴物品管道
+gregtech:item_pipe_small:302, 小型黑青铜物品管道
+gregtech:item_pipe_small:75, 小型锇物品管道
+gregtech:item_pipe_small:300, 小型标准纯银物品管道
+gregtech:item_pipe_small:331, 小型哈氏合金物品管道
+gregtech:item_pipe_small:2014, 小型钴黄铜物品管道
 gregtech:item_pipe_normal:259, 黄铜物品管道
-gregtech:item_pipe_normal:300, 标准纯银物品管道
-gregtech:item_pipe_normal:331, 哈氏合金物品管道
-gregtech:item_pipe_normal:274, 白铜物品管道
+gregtech:item_pipe_normal:277, 琥珀金物品管道
+gregtech:item_pipe_normal:344, 铱锇合金物品管道
+gregtech:item_pipe_normal:80, 铂金物品管道
+gregtech:item_pipe_normal:112, 锡物品管道
 gregtech:item_pipe_normal:290, 镁铝合金物品管道
 gregtech:item_pipe_normal:69, 镍物品管道
-gregtech:item_pipe_normal:80, 铂金物品管道
+gregtech:item_pipe_normal:3, 镅物品管道
+gregtech:item_pipe_normal:274, 白铜物品管道
 gregtech:item_pipe_normal:1007, 聚氯乙烯物品管道
-gregtech:item_pipe_large:23, 大型钴物品管道
-gregtech:item_pipe_large:75, 大型锇物品管道
-gregtech:item_pipe_large:302, 大型黑青铜物品管道
-gregtech:item_pipe_large:277, 大型琥珀金物品管道
-gregtech:item_pipe_large:112, 大型锡物品管道
-gregtech:item_pipe_large:2014, 大型钴黄铜物品管道
-gregtech:item_pipe_large:3, 大型镅物品管道
-gregtech:item_pipe_large:344, 大型铱锇合金物品管道
-gregtech:item_pipe_large:301, 大型玫瑰金物品管道
+gregtech:item_pipe_normal:301, 玫瑰金物品管道
+gregtech:item_pipe_normal:23, 钴物品管道
+gregtech:item_pipe_normal:302, 黑青铜物品管道
+gregtech:item_pipe_normal:75, 锇物品管道
+gregtech:item_pipe_normal:300, 标准纯银物品管道
+gregtech:item_pipe_normal:331, 哈氏合金物品管道
+gregtech:item_pipe_normal:2014, 钴黄铜物品管道
 gregtech:item_pipe_large:259, 大型黄铜物品管道
-gregtech:item_pipe_large:300, 大型标准纯银物品管道
-gregtech:item_pipe_large:331, 大型哈氏合金物品管道
-gregtech:item_pipe_large:274, 大型白铜物品管道
+gregtech:item_pipe_large:277, 大型琥珀金物品管道
+gregtech:item_pipe_large:344, 大型铱锇合金物品管道
+gregtech:item_pipe_large:80, 大型铂金物品管道
+gregtech:item_pipe_large:112, 大型锡物品管道
 gregtech:item_pipe_large:290, 大型镁铝合金物品管道
 gregtech:item_pipe_large:69, 大型镍物品管道
-gregtech:item_pipe_large:80, 大型铂金物品管道
+gregtech:item_pipe_large:3, 大型镅物品管道
+gregtech:item_pipe_large:274, 大型白铜物品管道
 gregtech:item_pipe_large:1007, 大型聚氯乙烯物品管道
-gregtech:item_pipe_huge:23, 巨型钴物品管道
-gregtech:item_pipe_huge:75, 巨型锇物品管道
-gregtech:item_pipe_huge:302, 巨型黑青铜物品管道
-gregtech:item_pipe_huge:277, 巨型琥珀金物品管道
-gregtech:item_pipe_huge:112, 巨型锡物品管道
-gregtech:item_pipe_huge:2014, 巨型钴黄铜物品管道
-gregtech:item_pipe_huge:3, 巨型镅物品管道
-gregtech:item_pipe_huge:344, 巨型铱锇合金物品管道
-gregtech:item_pipe_huge:301, 巨型玫瑰金物品管道
+gregtech:item_pipe_large:301, 大型玫瑰金物品管道
+gregtech:item_pipe_large:23, 大型钴物品管道
+gregtech:item_pipe_large:302, 大型黑青铜物品管道
+gregtech:item_pipe_large:75, 大型锇物品管道
+gregtech:item_pipe_large:300, 大型标准纯银物品管道
+gregtech:item_pipe_large:331, 大型哈氏合金物品管道
+gregtech:item_pipe_large:2014, 大型钴黄铜物品管道
 gregtech:item_pipe_huge:259, 巨型黄铜物品管道
-gregtech:item_pipe_huge:300, 巨型标准纯银物品管道
-gregtech:item_pipe_huge:331, 巨型哈氏合金物品管道
-gregtech:item_pipe_huge:274, 巨型白铜物品管道
+gregtech:item_pipe_huge:277, 巨型琥珀金物品管道
+gregtech:item_pipe_huge:344, 巨型铱锇合金物品管道
+gregtech:item_pipe_huge:80, 巨型铂金物品管道
+gregtech:item_pipe_huge:112, 巨型锡物品管道
 gregtech:item_pipe_huge:290, 巨型镁铝合金物品管道
 gregtech:item_pipe_huge:69, 巨型镍物品管道
-gregtech:item_pipe_huge:80, 巨型铂金物品管道
+gregtech:item_pipe_huge:3, 巨型镅物品管道
+gregtech:item_pipe_huge:274, 巨型白铜物品管道
 gregtech:item_pipe_huge:1007, 巨型聚氯乙烯物品管道
-gregtech:item_pipe_small_restrictive:23, 限制小型钴物品管道
-gregtech:item_pipe_small_restrictive:75, 限制小型锇物品管道
-gregtech:item_pipe_small_restrictive:302, 限制小型黑青铜物品管道
-gregtech:item_pipe_small_restrictive:277, 限制小型琥珀金物品管道
-gregtech:item_pipe_small_restrictive:112, 限制小型锡物品管道
-gregtech:item_pipe_small_restrictive:2014, 限制小型钴黄铜物品管道
-gregtech:item_pipe_small_restrictive:3, 限制小型镅物品管道
-gregtech:item_pipe_small_restrictive:344, 限制小型铱锇合金物品管道
-gregtech:item_pipe_small_restrictive:301, 限制小型玫瑰金物品管道
+gregtech:item_pipe_huge:301, 巨型玫瑰金物品管道
+gregtech:item_pipe_huge:23, 巨型钴物品管道
+gregtech:item_pipe_huge:302, 巨型黑青铜物品管道
+gregtech:item_pipe_huge:75, 巨型锇物品管道
+gregtech:item_pipe_huge:300, 巨型标准纯银物品管道
+gregtech:item_pipe_huge:331, 巨型哈氏合金物品管道
+gregtech:item_pipe_huge:2014, 巨型钴黄铜物品管道
 gregtech:item_pipe_small_restrictive:259, 限制小型黄铜物品管道
-gregtech:item_pipe_small_restrictive:300, 限制小型标准纯银物品管道
-gregtech:item_pipe_small_restrictive:331, 限制小型哈氏合金物品管道
-gregtech:item_pipe_small_restrictive:274, 限制小型白铜物品管道
+gregtech:item_pipe_small_restrictive:277, 限制小型琥珀金物品管道
+gregtech:item_pipe_small_restrictive:344, 限制小型铱锇合金物品管道
+gregtech:item_pipe_small_restrictive:80, 限制小型铂金物品管道
+gregtech:item_pipe_small_restrictive:112, 限制小型锡物品管道
 gregtech:item_pipe_small_restrictive:290, 限制小型镁铝合金物品管道
 gregtech:item_pipe_small_restrictive:69, 限制小型镍物品管道
-gregtech:item_pipe_small_restrictive:80, 限制小型铂金物品管道
+gregtech:item_pipe_small_restrictive:3, 限制小型镅物品管道
+gregtech:item_pipe_small_restrictive:274, 限制小型白铜物品管道
 gregtech:item_pipe_small_restrictive:1007, 限制小型聚氯乙烯物品管道
-gregtech:item_pipe_normal_restrictive:23, 限制钴物品管道
-gregtech:item_pipe_normal_restrictive:75, 限制锇物品管道
-gregtech:item_pipe_normal_restrictive:302, 限制黑青铜物品管道
-gregtech:item_pipe_normal_restrictive:277, 限制琥珀金物品管道
-gregtech:item_pipe_normal_restrictive:112, 限制锡物品管道
-gregtech:item_pipe_normal_restrictive:2014, 限制钴黄铜物品管道
-gregtech:item_pipe_normal_restrictive:3, 限制镅物品管道
-gregtech:item_pipe_normal_restrictive:344, 限制铱锇合金物品管道
-gregtech:item_pipe_normal_restrictive:301, 限制玫瑰金物品管道
+gregtech:item_pipe_small_restrictive:301, 限制小型玫瑰金物品管道
+gregtech:item_pipe_small_restrictive:23, 限制小型钴物品管道
+gregtech:item_pipe_small_restrictive:302, 限制小型黑青铜物品管道
+gregtech:item_pipe_small_restrictive:75, 限制小型锇物品管道
+gregtech:item_pipe_small_restrictive:300, 限制小型标准纯银物品管道
+gregtech:item_pipe_small_restrictive:331, 限制小型哈氏合金物品管道
+gregtech:item_pipe_small_restrictive:2014, 限制小型钴黄铜物品管道
 gregtech:item_pipe_normal_restrictive:259, 限制黄铜物品管道
-gregtech:item_pipe_normal_restrictive:300, 限制标准纯银物品管道
-gregtech:item_pipe_normal_restrictive:331, 限制哈氏合金物品管道
-gregtech:item_pipe_normal_restrictive:274, 限制白铜物品管道
+gregtech:item_pipe_normal_restrictive:277, 限制琥珀金物品管道
+gregtech:item_pipe_normal_restrictive:344, 限制铱锇合金物品管道
+gregtech:item_pipe_normal_restrictive:80, 限制铂金物品管道
+gregtech:item_pipe_normal_restrictive:112, 限制锡物品管道
 gregtech:item_pipe_normal_restrictive:290, 限制镁铝合金物品管道
 gregtech:item_pipe_normal_restrictive:69, 限制镍物品管道
-gregtech:item_pipe_normal_restrictive:80, 限制铂金物品管道
+gregtech:item_pipe_normal_restrictive:3, 限制镅物品管道
+gregtech:item_pipe_normal_restrictive:274, 限制白铜物品管道
 gregtech:item_pipe_normal_restrictive:1007, 限制聚氯乙烯物品管道
-gregtech:item_pipe_large_restrictive:23, 限制大型钴物品管道
-gregtech:item_pipe_large_restrictive:75, 限制大型锇物品管道
-gregtech:item_pipe_large_restrictive:302, 限制大型黑青铜物品管道
-gregtech:item_pipe_large_restrictive:277, 限制大型琥珀金物品管道
-gregtech:item_pipe_large_restrictive:112, 限制大型锡物品管道
-gregtech:item_pipe_large_restrictive:2014, 限制大型钴黄铜物品管道
-gregtech:item_pipe_large_restrictive:3, 限制大型镅物品管道
-gregtech:item_pipe_large_restrictive:344, 限制大型铱锇合金物品管道
-gregtech:item_pipe_large_restrictive:301, 限制大型玫瑰金物品管道
+gregtech:item_pipe_normal_restrictive:301, 限制玫瑰金物品管道
+gregtech:item_pipe_normal_restrictive:23, 限制钴物品管道
+gregtech:item_pipe_normal_restrictive:302, 限制黑青铜物品管道
+gregtech:item_pipe_normal_restrictive:75, 限制锇物品管道
+gregtech:item_pipe_normal_restrictive:300, 限制标准纯银物品管道
+gregtech:item_pipe_normal_restrictive:331, 限制哈氏合金物品管道
+gregtech:item_pipe_normal_restrictive:2014, 限制钴黄铜物品管道
 gregtech:item_pipe_large_restrictive:259, 限制大型黄铜物品管道
-gregtech:item_pipe_large_restrictive:300, 限制大型标准纯银物品管道
-gregtech:item_pipe_large_restrictive:331, 限制大型哈氏合金物品管道
-gregtech:item_pipe_large_restrictive:274, 限制大型白铜物品管道
+gregtech:item_pipe_large_restrictive:277, 限制大型琥珀金物品管道
+gregtech:item_pipe_large_restrictive:344, 限制大型铱锇合金物品管道
+gregtech:item_pipe_large_restrictive:80, 限制大型铂金物品管道
+gregtech:item_pipe_large_restrictive:112, 限制大型锡物品管道
 gregtech:item_pipe_large_restrictive:290, 限制大型镁铝合金物品管道
 gregtech:item_pipe_large_restrictive:69, 限制大型镍物品管道
-gregtech:item_pipe_large_restrictive:80, 限制大型铂金物品管道
+gregtech:item_pipe_large_restrictive:3, 限制大型镅物品管道
+gregtech:item_pipe_large_restrictive:274, 限制大型白铜物品管道
 gregtech:item_pipe_large_restrictive:1007, 限制大型聚氯乙烯物品管道
-gregtech:item_pipe_huge_restrictive:23, 限制巨型钴物品管道
-gregtech:item_pipe_huge_restrictive:75, 限制巨型锇物品管道
-gregtech:item_pipe_huge_restrictive:302, 限制巨型黑青铜物品管道
-gregtech:item_pipe_huge_restrictive:277, 限制巨型琥珀金物品管道
-gregtech:item_pipe_huge_restrictive:112, 限制巨型锡物品管道
-gregtech:item_pipe_huge_restrictive:2014, 限制巨型钴黄铜物品管道
-gregtech:item_pipe_huge_restrictive:3, 限制巨型镅物品管道
-gregtech:item_pipe_huge_restrictive:344, 限制巨型铱锇合金物品管道
-gregtech:item_pipe_huge_restrictive:301, 限制巨型玫瑰金物品管道
+gregtech:item_pipe_large_restrictive:301, 限制大型玫瑰金物品管道
+gregtech:item_pipe_large_restrictive:23, 限制大型钴物品管道
+gregtech:item_pipe_large_restrictive:302, 限制大型黑青铜物品管道
+gregtech:item_pipe_large_restrictive:75, 限制大型锇物品管道
+gregtech:item_pipe_large_restrictive:300, 限制大型标准纯银物品管道
+gregtech:item_pipe_large_restrictive:331, 限制大型哈氏合金物品管道
+gregtech:item_pipe_large_restrictive:2014, 限制大型钴黄铜物品管道
 gregtech:item_pipe_huge_restrictive:259, 限制巨型黄铜物品管道
-gregtech:item_pipe_huge_restrictive:300, 限制巨型标准纯银物品管道
-gregtech:item_pipe_huge_restrictive:331, 限制巨型哈氏合金物品管道
-gregtech:item_pipe_huge_restrictive:274, 限制巨型白铜物品管道
+gregtech:item_pipe_huge_restrictive:277, 限制巨型琥珀金物品管道
+gregtech:item_pipe_huge_restrictive:344, 限制巨型铱锇合金物品管道
+gregtech:item_pipe_huge_restrictive:80, 限制巨型铂金物品管道
+gregtech:item_pipe_huge_restrictive:112, 限制巨型锡物品管道
 gregtech:item_pipe_huge_restrictive:290, 限制巨型镁铝合金物品管道
 gregtech:item_pipe_huge_restrictive:69, 限制巨型镍物品管道
-gregtech:item_pipe_huge_restrictive:80, 限制巨型铂金物品管道
+gregtech:item_pipe_huge_restrictive:3, 限制巨型镅物品管道
+gregtech:item_pipe_huge_restrictive:274, 限制巨型白铜物品管道
 gregtech:item_pipe_huge_restrictive:1007, 限制巨型聚氯乙烯物品管道
+gregtech:item_pipe_huge_restrictive:301, 限制巨型玫瑰金物品管道
+gregtech:item_pipe_huge_restrictive:23, 限制巨型钴物品管道
+gregtech:item_pipe_huge_restrictive:302, 限制巨型黑青铜物品管道
+gregtech:item_pipe_huge_restrictive:75, 限制巨型锇物品管道
+gregtech:item_pipe_huge_restrictive:300, 限制巨型标准纯银物品管道
+gregtech:item_pipe_huge_restrictive:331, 限制巨型哈氏合金物品管道
+gregtech:item_pipe_huge_restrictive:2014, 限制巨型钴黄铜物品管道
 gregtech:hermetic_casing:0, 密封外壳 I
 gregtech:hermetic_casing:1, 密封外壳 II
 gregtech:hermetic_casing:2, 密封外壳 III
@@ -7036,6 +7038,30 @@ gregtech:planks:1, 处理过的木板
 gregtech:rubber_log, 橡胶木
 gregtech:rubber_leaves, 橡胶树叶
 gregtech:rubber_sapling, 橡胶树苗
+gregtech:meta_block_compressed_8:0, 三钛合金块
+gregtech:meta_block_compressed_8:1, 铿铀块
+gregtech:meta_block_compressed_8:2, 三元金属块
+gregtech:meta_block_compressed_21:2, 钇钡铜氧合金块
+gregtech:meta_block_compressed_21:4, 石英岩块
+gregtech:meta_block_compressed_21:8, 铱锇合金块
+gregtech:meta_block_compressed_21:15, 砷化镓块
+gregtech:meta_block_compressed_26:0, 末影珍珠块
+gregtech:meta_block_compressed_26:2, 磁化钕块
+gregtech:meta_block_compressed_26:7, 磁性钐块
+gregtech:meta_block_compressed_26:8, 磷化锰块
+gregtech:meta_block_compressed_26:9, 二硼化镁块
+gregtech:meta_block_compressed_26:10, 汞钡钙铜酸盐块
+gregtech:meta_block_compressed_26:11, 铀三铂块
+gregtech:meta_block_compressed_26:12, 钐铁砷氧化物块
+gregtech:meta_block_compressed_26:13, 铟锡钡钛铜酸盐块
+gregtech:meta_block_compressed_26:14, 铀铑硅岩合金块
+gregtech:meta_block_compressed_26:15, 富集硅岩铕铿铀凯金钛合金块
+gregtech:meta_block_compressed_2:1, 铕块
+gregtech:meta_block_compressed_2:7, 镓块
+gregtech:meta_block_compressed_27:0, 钌凯金钛镅中子酸块
+gregtech:meta_block_compressed_15:10, 铁铝榴石块
+gregtech:meta_block_compressed_15:11, 钙铁榴石块
+gregtech:meta_block_compressed_15:12, 退火铜块
 gregtech:meta_block_compressed_20:0, 焊锡块
 gregtech:meta_block_compressed_20:1, 锰铝榴石块
 gregtech:meta_block_compressed_20:3, 不锈钢块
@@ -7046,25 +7072,59 @@ gregtech:meta_block_compressed_20:11, 哈氏合金块
 gregtech:meta_block_compressed_20:13, 钙铬榴石块
 gregtech:meta_block_compressed_20:14, 钒镓合金块
 gregtech:meta_block_compressed_20:15, 锻铁块
-gregtech:meta_block_compressed_21:2, 钇钡铜氧合金块
-gregtech:meta_block_compressed_21:4, 石英岩块
-gregtech:meta_block_compressed_21:6, 石墨烯块
-gregtech:meta_block_compressed_21:8, 铱锇合金块
-gregtech:meta_block_compressed_21:15, 砷化镓块
 gregtech:meta_block_compressed_0:2, 铝块
 gregtech:meta_block_compressed_0:3, 镅块
 gregtech:meta_block_compressed_0:4, 锑块
 gregtech:meta_block_compressed_0:10, 铍块
 gregtech:meta_block_compressed_0:11, 铋块
 gregtech:meta_block_compressed_0:15, 铯块
-gregtech:meta_block_compressed_125:4, 橄榄石块
-gregtech:meta_block_compressed_125:5, 猫眼石块
-gregtech:meta_block_compressed_125:6, 紫水晶块
-gregtech:meta_block_compressed_125:10, 磷灰石块
-gregtech:meta_block_compressed_125:11, 黑钢块
-gregtech:meta_block_compressed_125:12, 大马士革钢块
-gregtech:meta_block_compressed_125:13, 钨钢块
-gregtech:meta_block_compressed_125:14, 钴黄铜块
+gregtech:meta_block_compressed_4:0, 钼块
+gregtech:meta_block_compressed_4:2, 钕块
+gregtech:meta_block_compressed_4:5, 镍块
+gregtech:meta_block_compressed_4:7, 铌块
+gregtech:meta_block_compressed_4:11, 锇块
+gregtech:meta_block_compressed_4:13, 钯块
+gregtech:meta_block_compressed_63:0, 聚苯硫醚块
+gregtech:meta_block_compressed_63:2, 聚苯并咪唑块
+gregtech:meta_block_compressed_63:4, 聚乙烯块
+gregtech:meta_block_compressed_63:5, 环氧树脂块
+gregtech:meta_block_compressed_63:7, 聚己内酰胺块
+gregtech:meta_block_compressed_63:8, 聚四氟乙烯块
+gregtech:meta_block_compressed_63:9, 糖块
+gregtech:meta_block_compressed_5:0, 铂金块
+gregtech:meta_block_compressed_5:1, 钚-239块
+gregtech:meta_block_compressed_5:2, 钚-241块
+gregtech:meta_block_compressed_5:10, 铑块
+gregtech:meta_block_compressed_5:13, 钌块
+gregtech:meta_block_compressed_5:15, 钐块
+gregtech:meta_block_compressed_3:0, 铟块
+gregtech:meta_block_compressed_3:2, 铱块
+gregtech:meta_block_compressed_3:7, 铅块
+gregtech:meta_block_compressed_3:13, 锰块
+gregtech:meta_block_compressed_18:0, 坎塔尔合金块
+gregtech:meta_block_compressed_18:1, 蓝金石块
+gregtech:meta_block_compressed_18:2, 镁铝合金块
+gregtech:meta_block_compressed_18:6, 镍铬合金块
+gregtech:meta_block_compressed_18:7, 氮化铌块
+gregtech:meta_block_compressed_18:8, 铌钛合金块
+gregtech:meta_block_compressed_18:12, 标准纯银块
+gregtech:meta_block_compressed_18:13, 玫瑰金块
+gregtech:meta_block_compressed_18:14, 黑青铜块
+gregtech:meta_block_compressed_18:15, 铋青铜块
+gregtech:meta_block_compressed_17:2, 白铜块
+gregtech:meta_block_compressed_17:5, 琥珀金块
+gregtech:meta_block_compressed_17:9, 绿色蓝宝石块
+gregtech:meta_block_compressed_17:10, 钙铝榴石块
+gregtech:meta_block_compressed_17:13, 金红石块
+gregtech:meta_block_compressed_17:15, 殷钢块
+gregtech:meta_block_compressed_157:4, 高速钢-G块
+gregtech:meta_block_compressed_157:5, 红石合金块
+gregtech:meta_block_compressed_157:7, 高速钢-E块
+gregtech:meta_block_compressed_157:8, 高速钢-S块
+gregtech:meta_block_compressed_157:15, 蓝色合金块
+gregtech:meta_block_compressed_156:12, 末影之眼块
+gregtech:meta_block_compressed_156:14, 红钢块
+gregtech:meta_block_compressed_156:15, 蓝钢块
 gregtech:meta_block_compressed_7:0, 锡块
 gregtech:meta_block_compressed_7:1, 钛块
 gregtech:meta_block_compressed_7:3, 钨块
@@ -7077,62 +7137,39 @@ gregtech:meta_block_compressed_7:12, 硅岩块
 gregtech:meta_block_compressed_7:13, 富集硅岩块
 gregtech:meta_block_compressed_7:14, 超能硅岩块
 gregtech:meta_block_compressed_7:15, 中子素块
-gregtech:meta_block_compressed_18:0, 坎塔尔合金块
-gregtech:meta_block_compressed_18:1, 蓝金石块
-gregtech:meta_block_compressed_18:2, 镁铝合金块
-gregtech:meta_block_compressed_18:6, 镍铬合金块
-gregtech:meta_block_compressed_18:7, 氮化铌块
-gregtech:meta_block_compressed_18:8, 铌钛合金块
-gregtech:meta_block_compressed_18:12, 标准纯银块
-gregtech:meta_block_compressed_18:13, 玫瑰金块
-gregtech:meta_block_compressed_18:14, 黑青铜块
-gregtech:meta_block_compressed_18:15, 铋青铜块
-gregtech:meta_block_compressed_157:4, 高速钢-G块
-gregtech:meta_block_compressed_157:5, 红石合金块
-gregtech:meta_block_compressed_157:7, 高速钢-E块
-gregtech:meta_block_compressed_157:8, 高速钢-S块
-gregtech:meta_block_compressed_157:15, 蓝色合金块
-gregtech:meta_block_compressed_5:0, 铂金块
-gregtech:meta_block_compressed_5:1, 钚-239块
-gregtech:meta_block_compressed_5:2, 钚-241块
-gregtech:meta_block_compressed_5:10, 铑块
-gregtech:meta_block_compressed_5:13, 钌块
-gregtech:meta_block_compressed_5:15, 钐块
+gregtech:meta_block_compressed_16:0, 电池合金块
+gregtech:meta_block_compressed_16:1, 蓝黄玉块
+gregtech:meta_block_compressed_16:3, 黄铜块
+gregtech:meta_block_compressed_16:4, 青铜块
+gregtech:meta_block_compressed_16:10, 木炭块
+gregtech:meta_block_compressed_16:12, 朱砂块
 gregtech:meta_block_compressed_22:2, 磷化铟镓块
 gregtech:meta_block_compressed_22:3, 镍锌铁氧体块
 gregtech:meta_block_compressed_22:13, 雄黄块
-gregtech:meta_block_compressed_26:0, 末影珍珠块
-gregtech:meta_block_compressed_26:2, 磁化钕块
-gregtech:meta_block_compressed_26:7, 磁性钐块
-gregtech:meta_block_compressed_26:8, 磷化锰块
-gregtech:meta_block_compressed_26:9, 二硼化镁块
-gregtech:meta_block_compressed_26:10, 汞钡钙铜酸盐块
-gregtech:meta_block_compressed_26:11, 铀三铂块
-gregtech:meta_block_compressed_26:12, 钐铁砷氧化物块
-gregtech:meta_block_compressed_26:13, 铟锡钡钛铜酸盐块
-gregtech:meta_block_compressed_26:14, 铀铑硅岩合金块
-gregtech:meta_block_compressed_26:15, 富集硅岩铕铿铀凯金钛合金块
-gregtech:meta_block_compressed_66:12, 橡胶块
-gregtech:meta_block_compressed_27:0, 钌凯金钛镅中子酸块
-gregtech:meta_block_compressed_156:12, 末影之眼块
-gregtech:meta_block_compressed_156:14, 红钢块
-gregtech:meta_block_compressed_156:15, 蓝钢块
-gregtech:meta_block_compressed_63:0, 聚苯硫醚块
-gregtech:meta_block_compressed_63:2, 聚苯并咪唑块
-gregtech:meta_block_compressed_63:4, 聚乙烯块
-gregtech:meta_block_compressed_63:5, 环氧树脂块
-gregtech:meta_block_compressed_63:7, 聚己内酰胺块
-gregtech:meta_block_compressed_63:8, 聚四氟乙烯块
-gregtech:meta_block_compressed_63:9, 糖块
-gregtech:meta_block_compressed_4:0, 钼块
-gregtech:meta_block_compressed_4:2, 钕块
-gregtech:meta_block_compressed_4:5, 镍块
-gregtech:meta_block_compressed_4:7, 铌块
-gregtech:meta_block_compressed_4:11, 锇块
-gregtech:meta_block_compressed_4:13, 钯块
-gregtech:meta_block_compressed_8:0, 三钛合金块
-gregtech:meta_block_compressed_8:1, 铿铀块
-gregtech:meta_block_compressed_8:2, 三元金属块
+gregtech:meta_block_compressed_1:6, 铬块
+gregtech:meta_block_compressed_1:7, 钴块
+gregtech:meta_block_compressed_1:9, 铜块
+gregtech:meta_block_compressed_1:11, [[钅达]]块
+gregtech:meta_block_compressed_126:0, 红石榴石块
+gregtech:meta_block_compressed_126:1, 黄石榴石块
+gregtech:meta_block_compressed_126:13, 独居石块
+gregtech:meta_block_compressed_125:4, 橄榄石块
+gregtech:meta_block_compressed_125:5, 猫眼石块
+gregtech:meta_block_compressed_125:6, 紫水晶块
+gregtech:meta_block_compressed_125:10, 磷灰石块
+gregtech:meta_block_compressed_125:11, 黑钢块
+gregtech:meta_block_compressed_125:12, 大马士革钢块
+gregtech:meta_block_compressed_125:13, 钨钢块
+gregtech:meta_block_compressed_125:14, 钴黄铜块
+gregtech:meta_block_compressed_127:3, 磁化钢块
+gregtech:meta_block_compressed_127:4, 钒钢块
+gregtech:meta_block_compressed_127:5, 粗青铜合金块
+gregtech:meta_block_compressed_127:6, 硼硅玻璃块
+gregtech:meta_block_compressed_127:10, 硅岩合金块
+gregtech:meta_block_compressed_62:8, 硅橡胶块
+gregtech:meta_block_compressed_62:12, 丁苯橡胶块
+gregtech:meta_block_compressed_62:14, 纤维强化的环氧树脂块
+gregtech:meta_block_compressed_62:15, 聚氯乙烯块
 gregtech:meta_block_compressed_19:4, 镁铝榴石块
 gregtech:meta_block_compressed_19:5, 岩盐块
 gregtech:meta_block_compressed_19:6, 钌铱合金块
@@ -7141,72 +7178,36 @@ gregtech:meta_block_compressed_19:8, 盐块
 gregtech:meta_block_compressed_19:10, 蓝宝石块
 gregtech:meta_block_compressed_19:12, 方钠石块
 gregtech:meta_block_compressed_19:15, 焦煤块
+gregtech:meta_block_compressed_6:3, 硅块
+gregtech:meta_block_compressed_6:4, 银块
+gregtech:meta_block_compressed_6:8, 钽块
+gregtech:meta_block_compressed_6:13, 钍块
 gregtech:meta_block_compressed_24:1, 孔雀石块
 gregtech:meta_block_compressed_24:11, 磁化铁块
 gregtech:meta_block_compressed_24:12, 碳化钨块
 gregtech:meta_block_compressed_128:1, 燧石块
 gregtech:meta_block_compressed_128:14, 镀铑钯块
-gregtech:meta_block_compressed_6:3, 硅块
-gregtech:meta_block_compressed_6:4, 银块
-gregtech:meta_block_compressed_6:8, 钽块
-gregtech:meta_block_compressed_6:13, 钍块
-gregtech:meta_block_compressed_15:10, 铁铝榴石块
-gregtech:meta_block_compressed_15:11, 钙铁榴石块
-gregtech:meta_block_compressed_15:12, 退火铜块
-gregtech:meta_block_compressed_16:0, 电池合金块
-gregtech:meta_block_compressed_16:1, 蓝黄玉块
-gregtech:meta_block_compressed_16:3, 黄铜块
-gregtech:meta_block_compressed_16:4, 青铜块
-gregtech:meta_block_compressed_16:10, 木炭块
-gregtech:meta_block_compressed_16:12, 朱砂块
-gregtech:meta_block_compressed_3:0, 铟块
-gregtech:meta_block_compressed_3:2, 铱块
-gregtech:meta_block_compressed_3:7, 铅块
-gregtech:meta_block_compressed_3:13, 锰块
-gregtech:meta_block_compressed_2:1, 铕块
-gregtech:meta_block_compressed_2:7, 镓块
-gregtech:meta_block_compressed_62:8, 硅橡胶块
-gregtech:meta_block_compressed_62:12, 丁苯橡胶块
-gregtech:meta_block_compressed_62:14, 纤维强化的环氧树脂块
-gregtech:meta_block_compressed_62:15, 聚氯乙烯块
-gregtech:meta_block_compressed_17:2, 白铜块
-gregtech:meta_block_compressed_17:5, 琥珀金块
-gregtech:meta_block_compressed_17:9, 绿色蓝宝石块
-gregtech:meta_block_compressed_17:10, 钙铝榴石块
-gregtech:meta_block_compressed_17:13, 金红石块
-gregtech:meta_block_compressed_17:15, 殷钢块
-gregtech:meta_block_compressed_1:6, 铬块
-gregtech:meta_block_compressed_1:7, 钴块
-gregtech:meta_block_compressed_1:9, 铜块
-gregtech:meta_block_compressed_1:11, [[钅达]]块
-gregtech:meta_block_compressed_13:6, 赛特斯石英块
-gregtech:meta_block_compressed_127:3, 磁化钢块
-gregtech:meta_block_compressed_127:4, 钒钢块
-gregtech:meta_block_compressed_127:5, 粗青铜合金块
-gregtech:meta_block_compressed_127:6, 硼硅玻璃块
-gregtech:meta_block_compressed_127:10, 硅岩合金块
-gregtech:meta_block_compressed_126:0, 红石榴石块
-gregtech:meta_block_compressed_126:1, 黄石榴石块
-gregtech:meta_block_compressed_126:13, 独居石块
 gregtech:meta_block_compressed_100:2, 下界之星块
-gregtech:meta_block_frame_20:3, 不锈钢框架
-gregtech:meta_block_frame_20:4, 钢框架
+gregtech:meta_block_compressed_66:12, 橡胶块
+gregtech:meta_block_compressed_13:6, 赛特斯石英块
+gregtech:meta_block_frame_7:1, 钛框架
+gregtech:meta_block_frame_7:15, 中子素框架
+gregtech:meta_block_frame_8:0, 三钛合金框架
+gregtech:meta_block_frame_156:15, 蓝钢框架
+gregtech:meta_block_frame_2:1, 铕框架
 gregtech:meta_block_frame_16:4, 青铜框架
-gregtech:meta_block_frame_125:13, 钨钢框架
-gregtech:meta_block_frame_101:1, 木头框架
+gregtech:meta_block_frame_127:10, 硅岩合金框架
+gregtech:meta_block_frame_17:15, 殷钢框架
 gregtech:meta_block_frame_157:4, 高速钢-G框架
 gregtech:meta_block_frame_157:7, 高速钢-E框架
 gregtech:meta_block_frame_157:8, 高速钢-S框架
-gregtech:meta_block_frame_8:0, 三钛合金框架
-gregtech:meta_block_frame_63:8, 聚四氟乙烯框架
+gregtech:meta_block_frame_20:3, 不锈钢框架
+gregtech:meta_block_frame_20:4, 钢框架
 gregtech:meta_block_frame_0:2, 铝框架
-gregtech:meta_block_frame_156:15, 蓝钢框架
-gregtech:meta_block_frame_17:15, 殷钢框架
-gregtech:meta_block_frame_7:1, 钛框架
-gregtech:meta_block_frame_7:15, 中子素框架
-gregtech:meta_block_frame_2:1, 铕框架
+gregtech:meta_block_frame_101:1, 木头框架
 gregtech:meta_block_frame_103:0, 处理过的木材框架
-gregtech:meta_block_frame_127:10, 硅岩合金框架
+gregtech:meta_block_frame_125:13, 钨钢框架
+gregtech:meta_block_frame_63:8, 聚四氟乙烯框架
 modularmachinery:itemblueprint, 机械蓝图
 modularmachinery:itemmodularium, 模块化合金锭
 modularmachinery:itemconstructtool, 建造选择工具
@@ -7528,6 +7529,80 @@ wit:wit, 无线接口终端
 wit:wit_creative, 创造无线接口终端
 wpt:wpt, 无线样板终端
 wpt:wpt_creative, 创造模式无线样板终端
+matteroverdrive:dilithium_ore, 双锂矿石
+matteroverdrive:tritanium_ore, 三钛矿石
+matteroverdrive:tritanium_block, 三钛合金块
+matteroverdrive:machine_hull, 机械外壳
+matteroverdrive:decomposer, 物质分解机
+matteroverdrive:matter_recycler, 物质回收机
+matteroverdrive:replicator, 物质重组机
+matteroverdrive:matter_pipe, 物质运输管道
+matteroverdrive:heavy_matter_pipe, 重型物质运输管道
+matteroverdrive:network_pipe, 物质网络线缆
+matteroverdrive:network_router, 物质网络路由器
+matteroverdrive:matter_analyzer, 物质分析仪
+matteroverdrive:pattern_monitor, 物质网络终端
+matteroverdrive:pattern_storage, 模式保存仪
+matteroverdrive:network_switch, 物质网络转换器
+matteroverdrive:solar_panel, 太阳能板（未完成）
+matteroverdrive:gravitational_anomaly, 引力异常点
+matteroverdrive:gravitational_stabilizer, 引力稳定器
+matteroverdrive:fusion_reactor_controller, 湮灭反应堆控制器
+matteroverdrive:fusion_reactor_coil, 反应堆外层线圈
+matteroverdrive:fusion_reactor_io, 湮灭反应堆接口
+matteroverdrive:matter_plasma, 等离子物质
+matteroverdrive:molten_tritanium, 熔融三钛合金
+matteroverdrive:tritanium_crate, 三钛货箱
+matteroverdrive:tritanium_crate_white, 白色三钛货箱
+matteroverdrive:tritanium_crate_orange, 橙色三钛货箱
+matteroverdrive:tritanium_crate_magenta, 品红色三钛货箱
+matteroverdrive:tritanium_crate_light_blue, 淡蓝色三钛货箱
+matteroverdrive:tritanium_crate_yellow, 黄色三钛货箱
+matteroverdrive:tritanium_crate_lime, 黄绿色三钛货箱
+matteroverdrive:tritanium_crate_pink, 粉红色三钛货箱
+matteroverdrive:tritanium_crate_gray, 灰色三钛货箱
+matteroverdrive:tritanium_crate_silver, 淡灰色三钛货箱
+matteroverdrive:tritanium_crate_cyan, 青色三钛货箱
+matteroverdrive:tritanium_crate_purple, 紫色三钛货箱
+matteroverdrive:tritanium_crate_blue, 蓝色三钛货箱
+matteroverdrive:tritanium_crate_brown, 棕色三钛货箱
+matteroverdrive:tritanium_crate_green, 绿色三钛货箱
+matteroverdrive:tritanium_crate_red, 红色三钛货箱
+matteroverdrive:tritanium_crate_black, 黑色三钛货箱
+matteroverdrive:inscriber, 分子刻录仪
+matteroverdrive:contract_market, 赏金公会
+matteroverdrive:android_spawner, 机械人刷怪笼
+matteroverdrive:spacetime_accelerator, 时空加速仪
+matteroverdrive:pylon, 维度塔
+matteroverdrive:transporter, 传送仪
+matteroverdrive:star_map, 星图
+matteroverdrive:holo_sign, 全息显示屏
+matteroverdrive:weapon_station, 武器装配台
+matteroverdrive:android_station, 机械人改造台
+matteroverdrive:charging_station, 充气站
+matteroverdrive:decorative.stripes, 警戒纹板材
+matteroverdrive:decorative.coils, 线圈
+matteroverdrive:decorative.clean, 平滑三钛板材
+matteroverdrive:decorative.vent.dark, 深色通风口
+matteroverdrive:decorative.vent.bright, 通风口
+matteroverdrive:decorative.holo_matrix, 全息甲板
+matteroverdrive:decorative.tritanium_plate, 三钛板材
+matteroverdrive:decorative.tritanium_plate_stripe, 导向三钛板材
+matteroverdrive:decorative.carbon_fiber_plate, 碳纤维板材
+matteroverdrive:decorative.matter_tube, 物质管道
+matteroverdrive:decorative.beams, 三钛格栅
+matteroverdrive:decorative.floor_tiles, 瓷地砖
+matteroverdrive:decorative.floor_tile_white, 白瓷地砖
+matteroverdrive:decorative.floor_tiles_green, 绿瓷地砖
+matteroverdrive:decorative.floor_noise, 油地毡
+matteroverdrive:decorative.white_plate, 软壁隔板
+matteroverdrive:decorative.separator, 三钛导轨
+matteroverdrive:decorative.tritanium_lamp, 三钛灯饰
+matteroverdrive:decorative.tritanium_plate_colored, 染色三钛板材
+matteroverdrive:decorative.engine_exhaust_plasma, 等离子引擎排流
+matteroverdrive:microwave, 微波炉
+matteroverdrive:industrial_glass, 工业玻璃
+matteroverdrive:new_tritanium_crate, New Tritanium Crate
 matteroverdrive:dilithium_crystal, 二锂晶体
 matteroverdrive:tritanium_ingot, 三钛合金锭
 matteroverdrive:tritanium_nugget, 三钛合金粒
@@ -7630,80 +7705,6 @@ matteroverdrive:record_transformation, 音乐唱片
 matteroverdrive:artifact, 未知工艺品
 matteroverdrive:trilithium_crystal, 纯净三锂晶体
 matteroverdrive:quantum_fold_manipulator, 量子折叠操纵仪
-matteroverdrive:dilithium_ore, 双锂矿石
-matteroverdrive:tritanium_ore, 三钛矿石
-matteroverdrive:tritanium_block, 三钛合金块
-matteroverdrive:machine_hull, 机械外壳
-matteroverdrive:decomposer, 物质分解机
-matteroverdrive:matter_recycler, 物质回收机
-matteroverdrive:replicator, 物质重组机
-matteroverdrive:matter_pipe, 物质运输管道
-matteroverdrive:heavy_matter_pipe, 重型物质运输管道
-matteroverdrive:network_pipe, 物质网络线缆
-matteroverdrive:network_router, 物质网络路由器
-matteroverdrive:matter_analyzer, 物质分析仪
-matteroverdrive:pattern_monitor, 物质网络终端
-matteroverdrive:pattern_storage, 模式保存仪
-matteroverdrive:network_switch, 物质网络转换器
-matteroverdrive:solar_panel, 太阳能板（未完成）
-matteroverdrive:gravitational_anomaly, 引力异常点
-matteroverdrive:gravitational_stabilizer, 引力稳定器
-matteroverdrive:fusion_reactor_controller, 湮灭反应堆控制器
-matteroverdrive:fusion_reactor_coil, 反应堆外层线圈
-matteroverdrive:fusion_reactor_io, 湮灭反应堆接口
-matteroverdrive:matter_plasma, 等离子物质
-matteroverdrive:molten_tritanium, 熔融三钛合金
-matteroverdrive:tritanium_crate, 三钛货箱
-matteroverdrive:tritanium_crate_white, 白色三钛货箱
-matteroverdrive:tritanium_crate_orange, 橙色三钛货箱
-matteroverdrive:tritanium_crate_magenta, 品红色三钛货箱
-matteroverdrive:tritanium_crate_light_blue, 淡蓝色三钛货箱
-matteroverdrive:tritanium_crate_yellow, 黄色三钛货箱
-matteroverdrive:tritanium_crate_lime, 黄绿色三钛货箱
-matteroverdrive:tritanium_crate_pink, 粉红色三钛货箱
-matteroverdrive:tritanium_crate_gray, 灰色三钛货箱
-matteroverdrive:tritanium_crate_silver, 淡灰色三钛货箱
-matteroverdrive:tritanium_crate_cyan, 青色三钛货箱
-matteroverdrive:tritanium_crate_purple, 紫色三钛货箱
-matteroverdrive:tritanium_crate_blue, 蓝色三钛货箱
-matteroverdrive:tritanium_crate_brown, 棕色三钛货箱
-matteroverdrive:tritanium_crate_green, 绿色三钛货箱
-matteroverdrive:tritanium_crate_red, 红色三钛货箱
-matteroverdrive:tritanium_crate_black, 黑色三钛货箱
-matteroverdrive:inscriber, 分子刻录仪
-matteroverdrive:contract_market, 赏金公会
-matteroverdrive:android_spawner, 机械人刷怪笼
-matteroverdrive:spacetime_accelerator, 时空加速仪
-matteroverdrive:pylon, 维度塔
-matteroverdrive:transporter, 传送仪
-matteroverdrive:star_map, 星图
-matteroverdrive:holo_sign, 全息显示屏
-matteroverdrive:weapon_station, 武器装配台
-matteroverdrive:android_station, 机械人改造台
-matteroverdrive:charging_station, 充气站
-matteroverdrive:decorative.stripes, 警戒纹板材
-matteroverdrive:decorative.coils, 线圈
-matteroverdrive:decorative.clean, 平滑三钛板材
-matteroverdrive:decorative.vent.dark, 深色通风口
-matteroverdrive:decorative.vent.bright, 通风口
-matteroverdrive:decorative.holo_matrix, 全息甲板
-matteroverdrive:decorative.tritanium_plate, 三钛板材
-matteroverdrive:decorative.tritanium_plate_stripe, 导向三钛板材
-matteroverdrive:decorative.carbon_fiber_plate, 碳纤维板材
-matteroverdrive:decorative.matter_tube, 物质管道
-matteroverdrive:decorative.beams, 三钛格栅
-matteroverdrive:decorative.floor_tiles, 瓷地砖
-matteroverdrive:decorative.floor_tile_white, 白瓷地砖
-matteroverdrive:decorative.floor_tiles_green, 绿瓷地砖
-matteroverdrive:decorative.floor_noise, 油地毡
-matteroverdrive:decorative.white_plate, 软壁隔板
-matteroverdrive:decorative.separator, 三钛导轨
-matteroverdrive:decorative.tritanium_lamp, 三钛灯饰
-matteroverdrive:decorative.tritanium_plate_colored, 染色三钛板材
-matteroverdrive:decorative.engine_exhaust_plasma, 等离子引擎排流
-matteroverdrive:microwave, 微波炉
-matteroverdrive:industrial_glass, 工业玻璃
-matteroverdrive:new_tritanium_crate, New Tritanium Crate
 actuallyadditions:block_canola_oil, 菜籽油
 actuallyadditions:block_refined_canola_oil, 精制菜籽油
 actuallyadditions:block_crystal_oil, 晶化油
@@ -8374,6 +8375,18 @@ theoneprobe:gold_helmet_probe:0, 带检测器的金头盔
 theoneprobe:iron_helmet_probe:0, 带检测器的铁头盔
 theoneprobe:probe_goggles, 检测器（饰品）
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
+threng:machine:0, 福鲁伊克斯聚合器
+threng:machine:1, 脉冲离心机
+threng:machine:2, ME电路板蚀刻器
+threng:machine:3, 优先装配单元
+threng:machine:4, ME缓存指令器
+threng:machine:5, 晶体充能器
+threng:big_assembler:0, 大型分子装配室框架
+threng:big_assembler:1, 大型分子装配室外壁
+threng:big_assembler:2, 大型分子装配室控制器
+threng:big_assembler:3, 大型分子装配室样板核心
+threng:big_assembler:4, 大型分子装配室处理核心
+threng:big_assembler:5, 大型分子装配室IO端口
 threng:material:0, 福鲁伊克斯钢锭
 threng:material:1, 含碳福鲁伊克斯复合物
 threng:material:2, 福鲁伊克斯镀层铁锭
@@ -8389,18 +8402,6 @@ threng:material:11, 推测核心(16x)
 threng:material:12, 推测核心(32x)
 threng:material:13, 推测核心(64x)
 threng:material:14, 推测处理器
-threng:machine:0, 福鲁伊克斯聚合器
-threng:machine:1, 脉冲离心机
-threng:machine:2, ME电路板蚀刻器
-threng:machine:3, 优先装配单元
-threng:machine:4, ME缓存指令器
-threng:machine:5, 晶体充能器
-threng:big_assembler:0, 大型分子装配室框架
-threng:big_assembler:1, 大型分子装配室外壁
-threng:big_assembler:2, 大型分子装配室控制器
-threng:big_assembler:3, 大型分子装配室样板核心
-threng:big_assembler:4, 大型分子装配室处理核心
-threng:big_assembler:5, 大型分子装配室IO端口
 guideapi:bloodarsenal-guide, item.guideapi.book.bloodarsenal.guide.name
 guideapi:modularrouters-guidebook, item.guideapi.book.modularrouters.guidebook.name
 guideapi:bloodmagic-guide, item.guideapi.book.bloodmagic.guide.name
