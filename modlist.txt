@@ -102,9 +102,19 @@
         -[匠魂合金附加 FIXED][taiga-1.12.2-1.3.4][MOD已修改]
 
     -[在线相框][OnlinePicFrame_v1.5.0-pre1_mc1.12.2]
+    -[樱][Sakura-1.0.7-1.12.2]
+    -[家具][furniture-6.3.1-1.12.2]
+    -[各种物品][VariedCommodities_1.12.2(27oct19)]
 
 前置Mod:
+    -[妖怪之山通用库][MMLib-2.3.0]
+        使用该前置的Mod:
+        -[樱][Sakura-1.0.7-1.12.2]
+
     -[前置][CreativeCore_v1.10.44_mc1.12.2]
+        使用该前置的Mod:
+        -[在线相框][OnlinePicFrame_v1.5.0-pre1_mc1.12.2]
+
     -[前置][Mantle-1.12-1.3.3.55]
         使用该前置的Mod:
         -[匠魂2][TConstruct-1.12.2-2.13.0.183]

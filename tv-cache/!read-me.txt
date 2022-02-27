@@ -1,0 +1,2 @@
+This is a cache for GIFs that are played on the TV (in MrCrayfish's Furniture Mod) in order to speed up load time.
+It is safe to delete the entire folder in case you are running out of space, however it will mean that all GIFs will have to be downloaded again.

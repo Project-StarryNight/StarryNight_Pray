@@ -11,7 +11,7 @@ bobView:false
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:1
+difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -95,10 +95,14 @@ key_key.toggle_shaders:0
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
+key_key.conarm.toggle_helm.desc:34
+key_key.conarm.toggle_chest.desc:35
+key_key.conarm.toggle_leg.desc:36
 key_key.ftbultimine:41
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
+key_key.fart.desc:34
 key_keybind.hammercorerenderstack:77
 key_ingameinfoxml.key.toggle:0
 key_Reload Default Sound Device:157
@@ -137,6 +141,8 @@ key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
 key_打开按键向导:65
+key_key.sakura.sheath_in:47
+key_key.taiga.alt_action:29
 key_Open Matter Scanner GUI:0
 key_Android Ability key:45
 key_Android Switch Ability key:19

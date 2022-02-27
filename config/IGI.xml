@@ -62,69 +62,70 @@
         </operation>
             <str>$7 | $eEnt:$e{entitiestotal}$6/$c{entitiesrendered}</str>
 
-            <str>$7 | $bMEM$f: </str>
-                <op>
-                    <str>le</str>
-                    <pct>
-                        <var>memused</var>
-                        <var>memmax</var>
-                    </pct>
-                    <num>70</num>
-                    <num>80</num>
-                    <num>90</num>
-                    <num>100</num>
-                    <str>$a</str>
-                    <str>$e</str>
-                    <str>$c</str>
-                    <str>$4</str>
-                </op>
-                <round>
-                    <div>
-                        <var>memused</var>
-                        <num>1048576000</num>
-                    </div>
-                    <num>1</num>
-                </round>
-                <str>G$f (</str>
-                <op>
-                    <str>le</str>
-                    <pct>
-                        <var>memused</var>
-                        <var>memmax</var>
-                    </pct>
-                    <num>70</num>
-                    <num>85</num>
-                    <num>90</num>
-                    <num>100</num>
-                    <str>$a</str>
-                    <str>$e</str>
-                    <str>$c</str>
-                    <str>$4</str>
-                    <str />
-                </op>
-                <round>
-                    <pct>
-                        <var>memused</var>
-                        <var>memmax</var>
-                    </pct>
-                    <num>0</num>
-                </round>
-            <str>%$f)$f</str>
+        <str>$7丨$eDay:{day}$c$7丨$eTime:{mctime24}</str>
+        </line>
+
+        <line>
+        <str>$bMEM$f: $9$l[</str>
             <op>
-                <str>gt</str>
+                <str>le</str>
                 <pct>
                     <var>memused</var>
                     <var>memmax</var>
                 </pct>
-                <num>92</num>
-                <num>0</num>
+                <num>8</num>
+                <num>16</num>
+                <num>24</num>
+                <num>32</num>
+                <num>40</num>
+                <num>48</num>
+                <num>56</num>
+                <num>64</num>
+                <num>72</num>
+                <num>81</num>
+                <num>89</num>
+                <num>97</num>
+                <num>100</num>
+                <str>$a$l$m|$5$l$n||||||||||||</str>
+                <str>$a$l$m||$5$l$n|||||||||||</str>
+                <str>$a$l$m|||$5$l$n||||||||||</str>
+                <str>$a$l$m||||$5$l$n|||||||||</str>
+                <str>$a$l$m|||||$5$l$n||||||||</str>
+                <str>$a$l$m||||||$5$l$n|||||||</str>
+                <str>$a$l$m|||||||$5$l$n||||||</str>
+                <str>$a$l$m||||||||$5$l$n|||||</str>
+                <str>$e$l$m|||||||||$5$l$n||||</str>
+                <str>$e$l$m||||||||||$5$l$n|||</str>
+                <str>$c$l$m|||||||||||$5$l$n||</str>
+                <str>$4$l$m||||||||||||$5$l$n|</str>
+                <str>$4$l$m|||||||||||||</str>
+            </op>
+            <str>$9$l] $f(</str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>85</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
                 <str>$c</str>
+                <str>$4</str>
                 <str />
             </op>
-
-        <str>$7丨$eDay:{day}$c$7丨$eTime:{mctime24}</str>
+            <round>
+                <div>
+                    <var>memused</var>
+                    <num>1048576000</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G$f)</str>
         </line>
-
 
         <line>
             <str>$bPlayer: {nearbyplayericon0}$d{nearbyplayername0} $a{nearbyplayerdistance0}m$r</str>
