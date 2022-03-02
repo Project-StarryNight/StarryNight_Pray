@@ -27,3 +27,8 @@
 /启动参数.txt
 mods/CustomMC-1.12.2.jar
 servers.dat
+/config/gregtech/terminal
+/tv-cache
+/fancymenu_setups
+config/jei/worldSettings.cfg
+scripts/.zsrc

@@ -1,0 +1,43 @@
+{
+	title: "&b螺丝刀",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 11s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		}
+	},
+	x: 0.0d,
+	y: 10.0d,
+	description: "可以调整机器和覆盖板，也是用于合成的重要材料",
+	dependencies: [
+		"40fb7e69"
+	],
+	tasks: [{
+		uid: "81769c52",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolScrewdriver"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "703ce9de",
+		type: "item",
+		item: "gregtech:meta_tool_head_screwdriver 1 276"
+	}]
+}

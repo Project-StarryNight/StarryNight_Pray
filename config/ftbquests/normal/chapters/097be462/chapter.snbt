@@ -1,0 +1,106 @@
+{
+	title: "&9Tier 1 ~ 8 - &e电路",
+	icon: "gregtech:meta_item_1 1 621",
+	always_invisible: false,
+	group: -1792240729,
+	default_quest_shape: "",
+	images: [{
+		x: -5.5d,
+		y: 0.0d,
+		width: 9.5d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/lv-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -3.5d,
+		y: 3.0d,
+		width: 9.5d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/mv-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.5d,
+		y: 6.0d,
+		width: 9.5d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/hv-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.5d,
+		y: 9.0d,
+		width: 9.5d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/ev-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.5d,
+		y: 12.0d,
+		width: 11.5d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/iv-3.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 3.5d,
+		y: 15.0d,
+		width: 12.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/luv-2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.5d,
+		y: 18.0d,
+		width: 10.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/zpm.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: 21.0d,
+		width: 7.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/uv-2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.0d,
+		y: 24.0d,
+		width: 6.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/uhv-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "&b木浆",
+	x: 7.5d,
+	y: 7.5d,
+	description: "碎木屑",
+	dependencies: [
+		"72476110"
+	],
+	tasks: [{
+		uid: "e76a0674",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1617"
+		}],
+		count: 16L
+	}]
+}

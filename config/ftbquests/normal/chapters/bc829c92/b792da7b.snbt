@@ -1,0 +1,25 @@
+{
+	title: "&b电路板",
+	x: 9.0d,
+	y: 12.0d,
+	shape: "pentagon",
+	description: "欢迎来到 LV 时代",
+	text: [
+		"LV 阶段的最基础电路",
+		"你可以在任务章节 Extra - 电路 中获取奖励、查阅对应的电路"
+	],
+	dependencies: [
+		"d7ebef16",
+		"3b36b113",
+		"5e18196e"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "e72aeeed",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}],
+		count: 2L
+	}]
+}

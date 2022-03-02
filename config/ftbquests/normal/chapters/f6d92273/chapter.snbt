@@ -1,0 +1,7 @@
+{
+	title: "&9Extra - &e多方块结构",
+	icon: "gregtech:machine 1 1002",
+	always_invisible: false,
+	group: -1792240729,
+	default_quest_shape: ""
+}

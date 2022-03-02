@@ -1,0 +1,51 @@
+{
+	title: "&b原始泵",
+	x: 4.5d,
+	y: 2.25d,
+	shape: "gear",
+	description: "多方块结构",
+	text: [
+		"原始泵是一个多方块结构，放置在水面上就可以自动工作",
+		"输出仓可以替换为 LV 输出仓，以提高输出，但是不可以是 MV 和 MV 以上的输出仓"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "28f0c17b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1648"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "12de1774",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1649"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "faf3a7e4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_103"
+		}],
+		count: 10L,
+		consume_items: false
+	},
+	{
+		uid: "16babead",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 4"
+		}],
+		count: 10L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "f022a1c4",
+		type: "item",
+		item: "gregtech:machine 1 1196"
+	}]
+}

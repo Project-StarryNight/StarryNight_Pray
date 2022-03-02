@@ -1,0 +1,20 @@
+{
+	title: "&e注意！",
+	icon: "botania:cosmetic 1 31",
+	x: 6.0d,
+	y: 1.0d,
+	shape: "diamond",
+	description: "蒸汽机特性",
+	text: [
+		"每个蒸汽机械都有一个 排气口，排气口会在蒸汽机处理完配方时喷出废气",
+		"如果排气口被阻挡，那么它将无法排出废气，机器也就无法工作",
+		"排气口的位置是可以更改的，用扳手右键一个面，它就会转移到这个面"
+	],
+	dependencies: [
+		"acdde84f"
+	],
+	tasks: [{
+		uid: "7cbcc057",
+		type: "checkmark"
+	}]
+}

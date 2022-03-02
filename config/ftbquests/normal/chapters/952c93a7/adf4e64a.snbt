@@ -1,0 +1,47 @@
+{
+	title: "&b扳手",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 8s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		}
+	},
+	x: -2.5d,
+	y: 10.0d,
+	description: "可以用来调整机器，也是重要的合成工具",
+	text: [
+		"这个任务接受任何类型的扳手",
+		"点击任务物品，选择第一个物品开始合成"
+	],
+	dependencies: [
+		"43b45e0e"
+	],
+	tasks: [{
+		uid: "ac8d6a2a",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWrench"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolWrench"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8585d905",
+		type: "item",
+		item: "gregtech:meta_tool_head_wrench 1 276"
+	}]
+}

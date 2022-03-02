@@ -1,0 +1,17 @@
+{
+	title: "GregTechCEu (GTCEu)",
+	icon: "botania:cosmetic 1 31",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "GTCEu 与 GTCE",
+	text: [
+		"GTCEu 是 GTCE 的一个非官方版本分支。",
+		"相比 GTCE，GTCEu有更完整的科技线，活跃的开发团队",
+		"同时也有其他版本的 GT 所加入的独特内容"
+	],
+	tasks: [{
+		uid: "787d7e33",
+		type: "checkmark"
+	}]
+}

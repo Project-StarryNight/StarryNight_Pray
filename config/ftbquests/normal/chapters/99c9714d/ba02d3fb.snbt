@@ -1,0 +1,14 @@
+{
+	title: "&e测试版提示",
+	icon: "botania:cosmetic 1 31",
+	x: 0.0d,
+	y: 5.0d,
+	shape: "diamond",
+	text: [
+		"任务系统还在初期的构建中，如果有任何bug或者建议，请立刻联系Nova"
+	],
+	tasks: [{
+		uid: "2bcc32c7",
+		type: "checkmark"
+	}]
+}

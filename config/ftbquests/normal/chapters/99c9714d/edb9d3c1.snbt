@@ -1,0 +1,21 @@
+{
+	icon: "botania:cosmetic 1 31",
+	x: -2.5d,
+	y: 5.0d,
+	shape: "diamond",
+	description: "1.7.10 的 NEI 绝佳替补",
+	text: [
+		"JEI 提供了将近几百种配方的兼容支持",
+		"当你不知道某个物品的配方时，只需对其按\"R\"，就可以显示它的配方",
+		"这对于你未来的格雷之旅将会有巨大的帮助"
+	],
+	dependencies: [
+		"c7b2d1dd"
+	],
+	tasks: [{
+		uid: "417df53f",
+		type: "checkmark",
+		title: "&eJust Enough Item",
+		icon: "botania:cosmetic 1 31"
+	}]
+}

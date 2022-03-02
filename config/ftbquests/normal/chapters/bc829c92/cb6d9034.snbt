@@ -1,0 +1,25 @@
+{
+	title: "&b生橡胶浆",
+	x: 6.0d,
+	y: 7.5d,
+	description: "橡胶的第二步",
+	dependencies: [
+		"f9f799e7",
+		"c6953f8c"
+	],
+	tasks: [{
+		uid: "9d8bf2c9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1002"
+		}],
+		count: 16L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "887db0a5",
+		type: "item",
+		item: "gregtech:ore_sulfur_0",
+		count: 8
+	}]
+}

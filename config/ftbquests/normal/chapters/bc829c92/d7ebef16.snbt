@@ -1,0 +1,14 @@
+{
+	title: "&b真空管",
+	x: 10.5d,
+	y: 10.5d,
+	description: "基础的基础材料",
+	tasks: [{
+		uid: "15a0aa60",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}],
+		count: 8L
+	}]
+}

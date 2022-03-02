@@ -1,0 +1,18 @@
+{
+	title: "&5序章 - &a入门",
+	icon: "gregtech:meta_gear_small 1 2",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: -5.0d,
+		width: 15.0d,
+		height: 8.55d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/logo_0.33x.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

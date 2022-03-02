@@ -1,0 +1,18 @@
+{
+	title: "&b木板",
+	x: 9.0d,
+	y: 7.5d,
+	description: "为什么不是纸呢",
+	dependencies: [
+		"2ce2c1de",
+		"daab2a59"
+	],
+	tasks: [{
+		uid: "72bafe09",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1617"
+		}],
+		count: 8L
+	}]
+}

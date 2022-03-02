@@ -1,0 +1,43 @@
+{
+	title: "&b不太一样的斧",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 3s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		}
+	},
+	x: 0.0d,
+	y: 2.5d,
+	description: "可以连锁砍伐树木",
+	dependencies: [
+		"6c2cdd15"
+	],
+	tasks: [{
+		uid: "4219d8d4",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolAxe"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolAxe"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5af94693",
+		type: "item",
+		item: "gregtech:meta_tool_head_axe 1 276"
+	}]
+}

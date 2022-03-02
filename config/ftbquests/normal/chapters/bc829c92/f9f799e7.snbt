@@ -1,0 +1,18 @@
+{
+	title: "&b粘性树脂",
+	x: 7.5d,
+	y: 9.0d,
+	description: "黏黏的...",
+	text: [
+		"将粘液球放入熔炉燃烧获得"
+	],
+	tasks: [{
+		uid: "fc136bf6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 438"
+		}],
+		count: 8L,
+		consume_items: false
+	}]
+}

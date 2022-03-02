@@ -1,0 +1,28 @@
+{
+	title: "&b橡胶",
+	x: 4.5d,
+	y: 7.5d,
+	description: "这东西有毒吗？",
+	text: [
+		"将 1 个硫粉和 3 个生橡胶浆放入合金炉，获得 3 个橡胶条"
+	],
+	dependencies: [
+		"7957db73",
+		"cb6d9034"
+	],
+	tasks: [{
+		uid: "889811a9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1068"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a3680564",
+		type: "item",
+		item: "gregtech:meta_ingot 1 1068",
+		count: 8,
+		random_bonus: 8
+	}]
+}

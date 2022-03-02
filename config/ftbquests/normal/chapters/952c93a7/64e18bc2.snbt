@@ -1,0 +1,47 @@
+{
+	title: "&b锯",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 5s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		}
+	},
+	x: 2.5d,
+	y: 7.5d,
+	description: "切割材料",
+	text: [
+		"这个任务接受所有类型的锯",
+		"你可以点击该物品选择第一个锯来合成"
+	],
+	dependencies: [
+		"40fb7e69"
+	],
+	tasks: [{
+		uid: "7b7e1a06",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolSaw"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolSaw"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7252766",
+		type: "item",
+		item: "gregtech:meta_tool_head_saw 1 276"
+	}]
+}

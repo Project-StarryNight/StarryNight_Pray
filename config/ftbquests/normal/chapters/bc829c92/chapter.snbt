@@ -1,0 +1,10 @@
+{
+	title: "&9Tier 0.5 - &6蒸汽时代",
+	icon: "gregtech:machine 1 1",
+	description: [
+		"科技起源"
+	],
+	always_invisible: false,
+	group: -1792240729,
+	default_quest_shape: ""
+}

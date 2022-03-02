@@ -1,0 +1,19 @@
+{
+	title: "&e一些任务提示",
+	icon: "botania:cosmetic 1 31",
+	x: 0.0d,
+	y: 2.5d,
+	shape: "diamond",
+	description: "每种不同种类的任务的外观是独特的",
+	text: [
+		"&b钻石形&r的任务主要为提示",
+		"&b圆形&r的任务则为主要任务，也将会是你遇到最多的"
+	],
+	dependencies: [
+		"426ead0d"
+	],
+	tasks: [{
+		uid: "c060fef4",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "&b电阻",
+	x: 10.5d,
+	y: 12.0d,
+	description: "它的电阻是多少欧呢？",
+	tasks: [{
+		uid: "13d2c23d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 519"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "&b铜导线",
+	x: 7.5d,
+	y: 10.5d,
+	description: "优质导体",
+	text: [
+		"用剪刀裁剪铜板"
+	],
+	tasks: [{
+		uid: "12057069",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 25"
+		}],
+		count: 8L
+	}]
+}

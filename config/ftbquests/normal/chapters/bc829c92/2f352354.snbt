@@ -1,0 +1,19 @@
+{
+	title: "&b砖块",
+	icon: "minecraft:brick_block",
+	x: 2.5d,
+	y: 1.0d,
+	description: "制作砖块，不过这次不是建材，而是材料...",
+	dependencies: [
+		"f26c7306"
+	],
+	tasks: [{
+		uid: "4171e4ad",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 8L,
+		consume_items: false
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "&b蒸汽锻造锤",
+	x: 3.0d,
+	y: 5.0d,
+	description: "不再需要人力！",
+	text: [
+		"蒸汽锻造锤可以处理相当多的配方，这些配方可以在 JEI 中找到",
+		"锻造锤加工所消耗的材料也比人工合成要便宜"
+	],
+	dependencies: [
+		"acdde84f"
+	],
+	tasks: [{
+		uid: "a56e7549",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 13"
+		}],
+		consume_items: false
+	}]
+}

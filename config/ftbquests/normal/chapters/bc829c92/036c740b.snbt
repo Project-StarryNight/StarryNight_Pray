@@ -1,0 +1,18 @@
+{
+	title: "&b覆膜电路基板",
+	x: 9.0d,
+	y: 9.0d,
+	description: "木板 Plus",
+	dependencies: [
+		"f9f799e7",
+		"60e490b7"
+	],
+	tasks: [{
+		uid: "4a50afcb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 381"
+		}],
+		count: 8L
+	}]
+}

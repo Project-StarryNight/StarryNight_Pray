@@ -1,0 +1,18 @@
+{
+	title: "&b电路板",
+	x: 9.0d,
+	y: 10.5d,
+	description: "进入 LV 的一小步",
+	dependencies: [
+		"af4c2351",
+		"036c740b"
+	],
+	tasks: [{
+		uid: "be758fc1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 401"
+		}],
+		count: 4L
+	}]
+}

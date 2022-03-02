@@ -1,0 +1,18 @@
+{
+	title: "&9Extra - &b格雷矿脉",
+	icon: "gregtech:ore_iron_0",
+	always_invisible: false,
+	group: -1792240729,
+	default_quest_shape: "",
+	images: [{
+		x: 4.0d,
+		y: 2.5d,
+		width: 5.0d,
+		height: 3.2d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/gregtech_extra_ore_0.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

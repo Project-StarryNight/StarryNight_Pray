@@ -1,0 +1,29 @@
+{
+	title: "&b烧制物品",
+	icon: "minecraft:furnace",
+	x: 1.0d,
+	y: 1.0d,
+	description: "熟悉的熔炉...",
+	tasks: [{
+		uid: "4f1844a0",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "37811423",
+		type: "item",
+		item: "minecraft:clay_ball",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "f225b32d",
+		type: "item",
+		item: "minecraft:coal",
+		count: 8,
+		random_bonus: 8
+	}]
+}

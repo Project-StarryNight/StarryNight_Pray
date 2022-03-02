@@ -1,0 +1,43 @@
+{
+	title: "&b锉",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 9s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		}
+	},
+	x: 0.0d,
+	y: 7.5d,
+	description: "重要工具",
+	dependencies: [
+		"43b45e0e"
+	],
+	tasks: [{
+		uid: "11ec95b2",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolFile"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bedd0c11",
+		type: "item",
+		item: "gregtech:meta_tool_head_file 1 276"
+	}]
+}

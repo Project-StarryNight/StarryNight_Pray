@@ -1,0 +1,30 @@
+{
+	title: "&b停！锤子时间到！",
+	x: -2.5d,
+	y: 7.5d,
+	description: "用你新制作的锤子把这些锭敲成板",
+	text: [
+		"你可以在任务中点击一个物品，就可以查看它的配方。",
+		"现在利用 JEI 的合成表制作一点铁板。"
+	],
+	dependencies: [
+		"6c2cdd15"
+	],
+	tasks: [{
+		uid: "53765d92",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 51"
+		}],
+		count: 8L,
+		consume_items: false,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "9b541531",
+		type: "item",
+		item: "gregtech:meta_crushed 1 51",
+		count: 16,
+		random_bonus: 32
+	}]
+}

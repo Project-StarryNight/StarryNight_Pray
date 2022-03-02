@@ -1,0 +1,20 @@
+{
+	title: "&e地面样本",
+	icon: "botania:cosmetic 1 31",
+	x: 0.0d,
+	y: 2.5d,
+	shape: "diamond",
+	description: "也许下面有大宝贝？",
+	text: [
+		"相信你在遍历地图的时候已经看到了任务右边的图片内的物品了",
+		"有时候，地面会生成这些小撮粉",
+		"当有大量相同的簇生成时，不妨在这个方位向下挖看看是否有矿脉生成"
+	],
+	dependencies: [
+		"75ae2fb6"
+	],
+	tasks: [{
+		uid: "828c2962",
+		type: "checkmark"
+	}]
+}

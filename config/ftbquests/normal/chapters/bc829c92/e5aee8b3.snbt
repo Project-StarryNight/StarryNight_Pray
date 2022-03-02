@@ -1,0 +1,29 @@
+{
+	title: "&b小型固体燃料锅炉",
+	x: 4.0d,
+	y: 1.0d,
+	description: "人类的本质是...烧开水",
+	text: [
+		"给锅炉加点水，再放点燃料，它就会慢慢的烧水...",
+		"产出蒸汽，可以给你的蒸汽机器供能"
+	],
+	dependencies: [
+		"c0434bdf",
+		"2f352354"
+	],
+	tasks: [{
+		uid: "7325454b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "f71a7f05",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16,
+		random_bonus: 16
+	}]
+}

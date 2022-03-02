@@ -1,0 +1,20 @@
+{
+	title: "&b蒸汽提取机",
+	x: 6.0d,
+	y: 5.0d,
+	description: "提取你的第一块橡胶",
+	text: [
+		"提取机可以从某些物品里面提取出物质",
+		"一些更多配方你可以在 JEI 中找到"
+	],
+	dependencies: [
+		"acdde84f"
+	],
+	tasks: [{
+		uid: "aff06ffa",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 7"
+		}]
+	}]
+}

@@ -7,6 +7,8 @@
         (附属)
         -[CoT][ContentTweaker-1.12.2-4.10.0]
         -[脚本同步][CrT_自动同步ZS]
+        -[CrT VSC工具][probe-0.1.24]
+
     -[格雷科技社区版非官方][gregtech-1.12.2-2.1.2-beta]
     -[应用能源 2][appliedenergistics2-rv6-stable-7][MOD已修改]
         (附属)
@@ -28,6 +30,7 @@
         -[拼音搜索][JustEnoughCharacters-1.12.0-3.5.1]
         -[神秘JEI][ThaumicJEI-1.12.2-1.6.0-27]
         -[匠魂JEI][tinkersjei-1.2]
+        -[JEI 应用能源支持][JustEnoughEnergistics-1.12.2-1.0.8]
 
     -[高级火箭][AdvancedRocketry-1.12.2-2.0.0-257-universal]
     -[模块化机械][modularmachinery-1.12.2-1.11.1]
@@ -105,6 +108,8 @@
     -[樱][Sakura-1.0.7-1.12.2]
     -[家具][furniture-6.3.1-1.12.2]
     -[各种物品][VariedCommodities_1.12.2(27oct19)]
+    -[通量网络][FluxNetworks-1.12.2-4.1.1.34]
+    -[凿子][Chisel-MC1.12.2-1.0.2.45]
 
 前置Mod:
     -[妖怪之山通用库][MMLib-2.3.0]

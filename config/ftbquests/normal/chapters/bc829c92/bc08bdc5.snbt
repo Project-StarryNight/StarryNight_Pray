@@ -1,0 +1,19 @@
+{
+	title: "&b空模板",
+	x: 3.0d,
+	y: 9.0d,
+	description: "还需要进一步加工",
+	tasks: [{
+		uid: "6c8586c4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 11"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8a5addf1",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "&b欢迎来到 &aStarryNight Pray &e⭐!",
+	icon: "botania:cosmetic 1 31",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "这是一个由格雷科技为主，魔法为辅组成的世界。",
+	text: [
+		"&b欢迎游玩星夜祈临整合包！&r",
+		"如果你是第一次玩这个整合包，或是你作为一个格雷新人，请不要担心",
+		"这些任务会带领您走向格雷精通，您只需勤劳阅读配方表即可"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b88366ba",
+		type: "checkmark"
+	}]
+}

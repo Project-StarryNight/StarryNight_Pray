@@ -1,0 +1,45 @@
+{
+	title: "&b基础工具",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 6s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		}
+	},
+	x: -2.5d,
+	y: 5.0d,
+	description: "工具全家桶",
+	text: [
+		"在格雷中，前期的几乎所有材料都需要用工具来配合物品加工。",
+		"这个任务线将会引导你制作你将会用到最频繁的工具。"
+	],
+	tasks: [{
+		uid: "b8c9f444",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolHardHammer"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "d22025d1",
+		type: "item",
+		item: "gregtech:meta_tool_head_hammer 1 276"
+	}]
+}

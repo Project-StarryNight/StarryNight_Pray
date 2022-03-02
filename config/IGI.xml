@@ -40,6 +40,10 @@
         </line>
 
         <line>
+        <str>{pingicon} $2{username}$r</str>
+        </line>
+
+        <line>
         <operation>
             <str>GT</str>
             <var>fps</var>
@@ -86,10 +90,10 @@
                 <num>89</num>
                 <num>97</num>
                 <num>100</num>
-                <str>$a$l$m|$5$l$n||||||||||||</str>
-                <str>$a$l$m||$5$l$n|||||||||||</str>
-                <str>$a$l$m|||$5$l$n||||||||||</str>
-                <str>$a$l$m||||$5$l$n|||||||||</str>
+                <str>$2$l$m|$5$l$n||||||||||||</str>
+                <str>$2$l$m||$5$l$n|||||||||||</str>
+                <str>$2$l$m|||$5$l$n||||||||||</str>
+                <str>$2$l$m||||$5$l$n|||||||||</str>
                 <str>$a$l$m|||||$5$l$n||||||||</str>
                 <str>$a$l$m||||||$5$l$n|||||||</str>
                 <str>$a$l$m|||||||$5$l$n||||||</str>
@@ -135,16 +139,120 @@
             <str>$bPlayer: {nearbyplayericon1}$d{nearbyplayername1} $a{nearbyplayerdistance1}m$r</str>
         </line>
 
-                <line>
+        <line>
             <if>
                 <var>invisible</var>
                 <str>$7当前处于隐身状态 </str>
             </if>
+        </line>
+
+        <line>
+            <str> </str>
+        </line>
+
+        <line>
             <if>
-                <var>inwater</var>
-                <str>$b当前处于水中</str>
+                <and>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>2</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>2</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>2</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>2</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+                <concat>
+                    <icon>
+                        <str>textures/items/diamond_pickaxe.png</str>
+                        <num>0</num>
+                        <num>-4</num>
+                        <num>16</num>
+                        <num>16</num>
+                    </icon>
+                    <str>  此处为 $2{underline}矿脉$f 的中心区块</str>
+                </concat>
             </if>
         </line>
+        <line>
+            <if>
+                <and>
+                    <equal>
+                        <var>chunkoffsetx</var>
+                        <num>7</num>
+                    </equal>
+                    <equal>
+                        <var>chunkoffsetz</var>
+                        <num>7</num>
+                    </equal>
+                </and>
+                <concat>
+                    <if>
+                        <and>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                        </and>
+                        <str>      </str>
+                    </if>
+                    <str>你正在区块 $4{underline}中心$f</str>
+                </concat>
+            </if>
+        </line>
+
     </lines>
 
     <lines at="topcenter">
@@ -318,9 +426,108 @@
 
     </lines>
 
-    <lines at="topright">
+    <lines at="bottomleft">
     <line>
+        <icon>
+            <str>thaumcraft:curio</str>
+            <num>5</num>
+        </icon>
+        <str> $6{thaumwarptemp}$7/$c{thaumwarpnormal}$7/$4{thaumwarpperm}</str>
     </line>
+
+    <line>
+        <concat>
+            <icon>
+                <str>bloodmagic:textures/items/archmagebloodorb.png</str>
+                <num>0</num>
+                <num>0</num>
+                <num>16</num>
+                <num>16</num>
+                <num>16</num>
+                <num>16</num>
+                </icon>
+            <str> $c{bmcurrentlp}$r</str>
+        </concat>
+    </line>
+
+    <line>
+        <str> </str>
+    </line>
+    </lines>
+
+    <lines at="middleleft">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionicon0} $a{potioneffect0}$r {potionduration0}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionicon1} $a{potioneffect1}$r {potionduration1}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionicon2} $a{potioneffect2}$r {potionduration2}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionicon3} $a{potioneffect3}$r {potionduration3}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionicon4} $a{potioneffect4}$r {potionduration4}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionicon5} $a{potioneffect5}$r {potionduration5}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{potionicon6} $a{potioneffect6}$r {potionduration6}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{potionicon7} $a{potioneffect7}$r {potionduration7}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <str>{potionicon8} $a{potioneffect8}$r {potionduration8}</str>
+                <str/>
+            </max>
+        </line>
     </lines>
 
 </config>

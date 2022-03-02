@@ -1,0 +1,23 @@
+{
+	title: "&b终端",
+	icon: {
+		id: "gregtech:meta_item_1",
+		Damage: 465s,
+		tag: {
+			terminal: {
+				_hw: {}
+			}
+		}
+	},
+	x: -2.5d,
+	y: 2.5d,
+	description: "万能工具",
+	text: [
+		"终端是一个拥有多种功能的工具",
+		"可以提供多种帮助"
+	],
+	tasks: [{
+		uid: "fd04cb35",
+		type: "checkmark"
+	}]
+}

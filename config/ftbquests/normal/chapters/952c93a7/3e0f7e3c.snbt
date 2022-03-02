@@ -1,0 +1,48 @@
+{
+	title: "&b镰刀",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 17s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		}
+	},
+	x: 0.0d,
+	y: 5.0d,
+	description: "左键作物可以大范围收集，自动种植",
+	text: [
+		"此任务接受所有类型的镰刀",
+		"点击任务物品，选择第三个开始合成"
+	],
+	dependencies: [
+		"6c2cdd15"
+	],
+	tasks: [{
+		uid: "03689950",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolBlade"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolBlade"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "6a88506e",
+		type: "item",
+		item: "gregtech:meta_tool_head_sense 1 276"
+	}]
+}
