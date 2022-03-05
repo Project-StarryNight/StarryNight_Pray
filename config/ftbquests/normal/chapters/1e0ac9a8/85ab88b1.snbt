@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	dependencies: [
+		"31f36a0f",
+		"c0a04c00",
+		"7e4f5b91"
+	],
+	tasks: [{
+		uid: "b0a69593",
+		type: "fluid",
+		fluid: "heavy_fuel"
+	}]
+}

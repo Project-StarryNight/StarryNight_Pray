@@ -1,0 +1,13 @@
+{
+	title: "&b基础蒸馏室",
+	x: -4.0d,
+	y: -1.0d,
+	description: "蒸出他们来",
+	tasks: [{
+		uid: "b5f71cb7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 260"
+		}]
+	}]
+}

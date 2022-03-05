@@ -1,0 +1,16 @@
+{
+	title: "&b基础两极磁化机",
+	x: -1.5d,
+	y: -0.5d,
+	description: "拯救红石",
+	dependencies: [
+		"19ab6bb9"
+	],
+	tasks: [{
+		uid: "d9e07499",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 545"
+		}]
+	}]
+}

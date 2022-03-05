@@ -1,0 +1,33 @@
+{
+	title: "&b二级管的重要材料",
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"7ee32d52",
+		"2945b006"
+	],
+	tasks: [{
+		uid: "ee6b31c0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 365"
+		}],
+		count: 8L
+	},
+	{
+		uid: "895efc1d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_pure 1 322"
+		}],
+		count: 64L
+	},
+	{
+		uid: "ffea6499",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 351"
+		}],
+		count: 2L
+	}]
+}

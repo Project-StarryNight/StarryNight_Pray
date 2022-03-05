@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	description: "这就是你目前燃烧值最高的燃料",
+	dependencies: [
+		"31f36a0f",
+		"7c7cb1b8",
+		"c0a04c00"
+	],
+	tasks: [{
+		uid: "824c9169",
+		type: "fluid",
+		fluid: "light_fuel"
+	}]
+}

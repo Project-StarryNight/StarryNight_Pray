@@ -29,8 +29,8 @@ recipes.remove(<fluxnetworks:fluxcore>);
         <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]}) * 4,
         <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]}) * 4
     ])
-    .outputs(<fluxnetworks:fluxcore> * 2)
-    .EUt(8000)
+    .outputs(<fluxnetworks:fluxcore> * 4)
+    .EUt(4000)
     .duration(40)
     .buildAndRegister();
 
@@ -45,7 +45,7 @@ recipes.remove(<fluxnetworks:fluxplug>);
     .circuit(0)
     .fluidInputs(<liquid:tetrafluoroethylene> * 1000)
     .outputs(<fluxnetworks:fluxplug>)
-    .EUt(32000)
+    .EUt(8000)
     .duration(40)
     .buildAndRegister();
 
@@ -60,7 +60,7 @@ recipes.remove(<fluxnetworks:fluxpoint>);
     .circuit(1)
     .fluidInputs(<liquid:tetrafluoroethylene> * 1000)
     .outputs(<fluxnetworks:fluxpoint>)
-    .EUt(32000)
+    .EUt(8000)
     .duration(40)
     .buildAndRegister();
 
@@ -75,7 +75,7 @@ recipes.remove(<fluxnetworks:fluxcontroller>);
     .circuit(2)
     .fluidInputs(<liquid:tetrafluoroethylene> * 1000)
     .outputs(<fluxnetworks:fluxcontroller>)
-    .EUt(32000)
+    .EUt(8000)
     .duration(60)
     .buildAndRegister();
 

@@ -1,0 +1,16 @@
+{
+	title: "基础组装机",
+	x: 3.5d,
+	y: -4.0d,
+	description: "在gt配方都由他完成",
+	dependencies: [
+		"bf5818d6"
+	],
+	tasks: [{
+		uid: "135c91d3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 110"
+		}]
+	}]
+}

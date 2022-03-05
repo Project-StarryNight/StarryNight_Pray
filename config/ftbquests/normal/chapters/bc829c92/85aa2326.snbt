@@ -1,0 +1,13 @@
+{
+	title: "&b这是钢铁?",
+	x: -0.5d,
+	y: 3.0d,
+	description: "第一次偷鸡！",
+	tasks: [{
+		uid: "3fd4de78",
+		type: "item",
+		items: [{
+			item: "variedcommodities:ingot_steel"
+		}]
+	}]
+}

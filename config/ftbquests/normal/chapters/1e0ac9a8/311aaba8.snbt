@@ -1,0 +1,16 @@
+{
+	title: "&b基础蒸汽涡轮机",
+	x: 1.5d,
+	y: 0.0d,
+	description: "蒸汽蒸汽蒸汽...",
+	dependencies: [
+		"19ab6bb9"
+	],
+	tasks: [{
+		uid: "45eae1e3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 950"
+		}]
+	}]
+}

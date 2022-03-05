@@ -11,7 +11,11 @@
 /crash-reports
 /CustomSkinLoader
 /ExtraBotanyVars.dat
-/journeymap
+/journeymap/data
+/journeymap/icon
+/journeymap/server
+/journeymap/colorpalette.json
+/journeymap/journeymap.log
 /launcher_profiles.json
 /libraries
 /local
@@ -28,7 +32,11 @@
 mods/CustomMC-1.12.2.jar
 servers.dat
 /config/gregtech/terminal
-/tv-cache
+tv-cache
 /fancymenu_setups
-config/jei/worldSettings.cfg
+/config/jei/worldSettings.cfg
 scripts/.zsrc
+/update
+/download
+AudioBuffer
+.vscode

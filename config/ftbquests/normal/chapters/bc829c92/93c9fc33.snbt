@@ -1,0 +1,17 @@
+{
+	title: "&blv机械方块（完整)",
+	x: -0.5d,
+	y: 7.5d,
+	description: "就快成功了...",
+	dependencies: [
+		"3cb30d49",
+		"7bd724b0"
+	],
+	tasks: [{
+		uid: "3fe65f85",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	}]
+}

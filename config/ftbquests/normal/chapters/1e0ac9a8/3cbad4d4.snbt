@@ -1,0 +1,14 @@
+{
+	title: "工业之血",
+	x: -5.5d,
+	y: -1.0d,
+	description: "我知道你需要他",
+	dependencies: [
+		"86ef6acb"
+	],
+	tasks: [{
+		uid: "96301500",
+		type: "fluid",
+		fluid: "oil_medium"
+	}]
+}

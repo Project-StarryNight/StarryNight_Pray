@@ -1,0 +1,31 @@
+{
+    "weight": 40,
+    "density": 0.75,
+    "min_height": 15,
+    "max_height": 40,
+    "vein_populator": {
+    "type": "surface_rock",
+    "material": "certus_quartz"
+    },
+    "generator": {
+        "type": "layered",
+        "radius": [
+        8,
+        24
+        ]
+    },
+    "filler": {
+        "type": "layered",
+        "values": [
+        {
+            "primary": "ore:quartzite"
+        },
+        {
+            "secondary": "ore:certus_quartz"
+        },
+        {
+            "between": "ore:certus_quartz"
+        }
+        ]
+    }
+}

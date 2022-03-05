@@ -1,0 +1,12 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	dependencies: [
+		"3cbad4d4"
+	],
+	tasks: [{
+		uid: "17f9909c",
+		type: "fluid",
+		fluid: "sulfuric_light_fuel"
+	}]
+}

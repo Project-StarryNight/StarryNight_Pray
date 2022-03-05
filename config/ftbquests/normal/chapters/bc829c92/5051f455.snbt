@@ -1,0 +1,12 @@
+{
+	x: -3.5d,
+	y: 7.5d,
+	description: "你需要用铁粒在熔炉里烧炼成锻铁粒，然后再去工作台中合成锻铁锭",
+	tasks: [{
+		uid: "345f3420",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}]
+	}]
+}

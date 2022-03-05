@@ -11,11 +11,11 @@ bobView:false
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:3
+difficulty:2
 fancyGraphics:false
 ao:1
 renderClouds:true
-resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.8.2.zip","GTCEu汉化材质包"]
+resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.8.2.zip","StarryNight_Pray 汉化扩展包"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -49,7 +49,7 @@ attackIndicator:1
 showSubtitles:false
 realmsNotifications:false
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 narrator:0
 tutorialStep:none
 key_key.attack:-100
@@ -128,6 +128,8 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_nei.options.keys.gui.botania_corporea_request:0
 key_key.infinity_armor.noclip:40
+key_bbw.key.mode:50
+key_bbw.key.fluidmode:33:ALT
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
 key_FpsReducer.key.guiOpen:0
@@ -141,6 +143,10 @@ key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
 key_打开按键向导:65
+key_key.neenergistics.recipe.ingredient.change:42
+key_key.neenergistics.stack.count.change:29
+key_key.neenergistics.crafting.helper.preview:29
+key_key.neenergistics.crafting.helper.noPreview:56
 key_key.sakura.sheath_in:47
 key_key.taiga.alt_action:29
 key_Open Matter Scanner GUI:0

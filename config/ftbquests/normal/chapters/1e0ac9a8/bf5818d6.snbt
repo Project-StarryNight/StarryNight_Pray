@@ -1,0 +1,36 @@
+{
+	title: "&blv阶段你最讨厌的",
+	x: 0.0d,
+	y: -2.5d,
+	dependencies: [
+		"552d3007"
+	],
+	tasks: [{
+		uid: "81b56ad2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 187"
+		}]
+	},
+	{
+		uid: "661a735b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 157"
+		}]
+	},
+	{
+		uid: "bd48cf6f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 217"
+		}]
+	},
+	{
+		uid: "0adb74cf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 232"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: 2.0d,
+	dependencies: [
+		"31f36a0f",
+		"c0a04c00",
+		"b2e70fba"
+	],
+	tasks: [{
+		uid: "cc00511d",
+		type: "fluid",
+		fluid: "refinery_gas"
+	}]
+}

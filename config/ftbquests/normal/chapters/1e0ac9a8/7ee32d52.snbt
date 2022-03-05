@@ -1,0 +1,16 @@
+{
+	title: "&b基础搅拌机",
+	x: 1.5d,
+	y: -3.0d,
+	description: "blender!",
+	dependencies: [
+		"19ab6bb9"
+	],
+	tasks: [{
+		uid: "410ddba9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 470"
+		}]
+	}]
+}

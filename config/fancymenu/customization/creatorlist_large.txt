@@ -10,7 +10,7 @@ customization-meta {
 }
 
 customization {
-  path = resources/mainmenu/starrynight_pray.png
+  path = resources/mainmenu/starrynight_pray_black.png
   action = texturizebackground
 }
 

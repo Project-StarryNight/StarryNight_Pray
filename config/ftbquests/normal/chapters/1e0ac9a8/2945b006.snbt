@@ -1,0 +1,16 @@
+{
+	title: "&b基础离心机",
+	x: 1.5d,
+	y: -2.0d,
+	description: "分离出你想要的",
+	dependencies: [
+		"19ab6bb9"
+	],
+	tasks: [{
+		uid: "7f1cef1f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 185"
+		}]
+	}]
+}

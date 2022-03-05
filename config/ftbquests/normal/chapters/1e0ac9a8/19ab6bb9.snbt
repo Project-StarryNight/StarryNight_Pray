@@ -1,0 +1,16 @@
+{
+	title: "&b电力时代!",
+	x: 0.0d,
+	y: 0.0d,
+	description: "恭喜来到lv时代!",
+	dependencies: [
+		"93c9fc33"
+	],
+	tasks: [{
+		uid: "e1182e00",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	}]
+}

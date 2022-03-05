@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	description: "别再浪费材料了",
+	dependencies: [
+		"19ab6bb9"
+	],
+	tasks: [{
+		uid: "11e236c0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 620"
+		}]
+	}]
+}
