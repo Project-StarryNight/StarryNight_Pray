@@ -16,6 +16,12 @@
 		uid: "37db2850",
 		type: "checkmark",
 		title: "&e快捷键",
-		icon: "botania:cosmetic 1 31"
+		icon: {
+			id: "botania:cosmetic",
+			Damage: 31s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
 	}]
 }

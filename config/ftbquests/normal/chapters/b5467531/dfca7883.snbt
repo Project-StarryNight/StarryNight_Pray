@@ -1,0 +1,17 @@
+{
+	title: "&b不锈钢锭",
+	x: -6.5d,
+	y: 0.5d,
+	description: "你需要更高级的能源仓才可以带动电力高炉烧制不锈钢",
+	dependencies: [
+		"13b12bd5",
+		"4e610f16"
+	],
+	tasks: [{
+		uid: "9d38aa1f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 323"
+		}]
+	}]
+}

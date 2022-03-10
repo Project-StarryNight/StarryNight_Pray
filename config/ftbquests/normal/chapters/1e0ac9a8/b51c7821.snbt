@@ -1,10 +1,14 @@
 {
-	x: 3.5d,
-	y: -2.0d,
+	title: "&b良好的电子电路",
+	x: 3.75d,
+	y: 1.5d,
+	shape: "gear",
+	description: "欢迎来到 MV 阶段！",
 	dependencies: [
 		"8347489a",
 		"653d4067"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "a1d214f7",
 		type: "item",

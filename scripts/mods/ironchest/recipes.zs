@@ -4,29 +4,7 @@
  * 此脚本为铁箱子内容
 */
 
-import crafttweaker.item.IItemStack;
-
-var chests_and_updates as IItemStack[] = [
-    <ironchest:iron_chest>,
-    <ironchest:iron_chest:1>,
-    <ironchest:iron_chest:2>,
-    <ironchest:iron_chest:3>,
-    <ironchest:iron_chest:4>,
-    <ironchest:iron_chest:5>,
-    <ironchest:iron_chest:6>,
-    <ironchest:wood_copper_chest_upgrade>,
-    <ironchest:wood_iron_chest_upgrade>,
-    <ironchest:copper_iron_chest_upgrade>,
-    <ironchest:copper_silver_chest_upgrade>,
-    <ironchest:iron_gold_chest_upgrade>,
-    <ironchest:gold_diamond_chest_upgrade>,
-    <ironchest:diamond_crystal_chest_upgrade>,
-    <ironchest:diamond_obsidian_chest_upgrade>
-];
-for i, chest_or_update in chests_and_updates {
-    var chest_or_update = chests_and_updates[i];
-    recipes.remove(chest_or_update);
-}
+recipes.removeByMod("ironchest");
 
 //木 -- > 铜
 recipes.addShaped(<ironchest:wood_copper_chest_upgrade>, [

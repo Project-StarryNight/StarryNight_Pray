@@ -1,0 +1,69 @@
+[
+	{
+        "key": "RINGNUTRITION",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "CLOUDRING"
+			},
+			{
+				"op": "remove",
+				"path": "parents/1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			}
+        ]
+	},
+	{
+        "key": "PURESHOVEL",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "5"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "remove",
+				"path": "parents/2"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "ELEMENTALTOOLS"
+			}
+        ]
+	},
+	{
+        "key": "LOSTMAGIC",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	}
+]

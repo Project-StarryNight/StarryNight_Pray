@@ -1,7 +1,7 @@
 {
 	title: "&b基础燃烧发电机",
-	x: 1.5d,
-	y: -1.0d,
+	x: -1.5d,
+	y: 1.0d,
 	description: "轰鸣",
 	dependencies: [
 		"19ab6bb9"

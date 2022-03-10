@@ -1,8 +1,11 @@
 {
 	title: "&b基础蒸馏室",
-	x: -4.0d,
-	y: -1.0d,
+	x: -3.5d,
+	y: -3.0d,
 	description: "蒸出他们来",
+	dependencies: [
+		"19ab6bb9"
+	],
 	tasks: [{
 		uid: "b5f71cb7",
 		type: "item",

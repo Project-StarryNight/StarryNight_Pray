@@ -1,6 +1,8 @@
 {
-	x: 1.5d,
-	y: 1.0d,
+	title: "&b基础提取机",
+	x: -2.0d,
+	y: 6.0d,
+	description: "还记得蒸汽时代的提取机吗？它现在进化了！",
 	dependencies: [
 		"19ab6bb9"
 	],

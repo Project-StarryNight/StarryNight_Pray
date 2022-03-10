@@ -8,21 +8,15 @@ import crafttweaker.item.IItemStack;
 import mods.forestry.Carpenter;
 
 //电烙铁
-mods.forestry.Carpenter.removeRecipe(<forestry:soldering_iron>);
+Carpenter.removeRecipe(<forestry:soldering_iron>);
 recipes.addShaped(<forestry:soldering_iron>, [
     [null, <ore:plateIron>, null],
     [<ore:plateIron>, null, <ore:plateIron>],
     [null, null, <ore:stickIron>]
 ]);
 
-//热电子加工台
-recipes.addShaped(<forestry:fabricator>, [
-    [<ore:plateBronze>, <ore:workbench>, <ore:plateBronze>],
-    [<ore:plateBronze>, <gregtech:machine:986>, <ore:plateBronze>],
-    [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
-]);
 
-//伐木机，收割机，沼泽，加湿器，榨汁机，发酵机，蒸馏器，离心机，装瓶机，木工机
+//伐木机，收割机，沼泽，加湿器，榨汁机，发酵机，蒸馏器，离心机，装瓶机，木工机，热电子加工台
 #移除
 var machines as IItemStack[] = [
     <forestry:arboretum>,
@@ -41,8 +35,10 @@ var machines as IItemStack[] = [
     <forestry:carpenter>,
     <forestry:database>,
     <forestry:analyzer>,
-    <forestry:rainmaker>
+    <forestry:rainmaker>,
+    <forestry:fabricator>
 ];
+
 for i, machine in machines {
     var machine = machines[i];
     recipes.remove(machine);
@@ -129,14 +125,28 @@ for i, machine in machines {
         [<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],
         [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
     ]);
-    recipes.addShaped(<forestry:squeezer>, [
-        [<gregtech:meta_item_1:172>, <minecraft:bucket>, <gregtech:meta_item_1:172>],
-        [<gregtech:meta_plate:1617>, <gregtech:machine:986>, <gregtech:meta_plate:1617>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
-    ]);
     recipes.addShaped(<forestry:moistener>, [
         [<gregtech:meta_plate:1617>, <gregtech:meta_item_1:142>, <gregtech:meta_plate:1617>],
         [<ore:screwBronze>, <gregtech:machine:986>, <ore:screwBronze>],
         [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
     ]);
-
+    recipes.addShaped(<forestry:fabricator>, [
+        [<ore:plateBronze>, <ore:workbench>, <ore:plateBronze>],
+        [<ore:plateBronze>, <gregtech:machine:986>, <ore:plateBronze>],
+        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+    ]);
+    recipes.addShaped(<forestry:database>, [
+        [<gregtech:meta_plate:1617>, <forestry:bee_chest>, <gregtech:meta_plate:1617>],
+        [<forestry:tree_chest>, <actuallyadditions:block_misc:4>, <forestry:butterfly_chest>],
+        [<ore:plateWood>, <gregtech:meta_item_1:261>, <ore:plateWood>]
+    ]);
+    recipes.addShaped(<forestry:analyzer>, [
+        [<minecraft:glass>, <gregtech:meta_item_1:621>, <gregtech:meta_plate:324>],
+        [null, <gregtech:meta_item_1:217>, <gregtech:machine:986>],
+        [<ore:blockGlassColorless>, <gregtech:meta_item_1:621>, <ore:plateSteel>]
+    ]);
+    recipes.addShaped(<forestry:rainmaker>, [
+        [null, <gregtech:meta_item_1:232>, null],
+        [null, <gregtech:meta_item_1:217>, null],
+        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>]
+    ]);

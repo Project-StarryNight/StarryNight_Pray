@@ -1,0 +1,246 @@
+[
+	{
+        "key": "HUNGRYCHEST",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "0"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "BASEGOLEMANCY"
+			}
+        ]
+	},
+	{
+        "key": "GOLEMDIRECT",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			}
+        ]
+	},
+	{
+        "key": "GOLEMLOGISTICS",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "3"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			}
+        ]
+	},
+	{
+        "key": "JARBRAIN",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "0"
+			}
+        ]
+	},
+	{
+        "key": "BASICTURRET",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/1",
+				"value": "UNLOCKARTIFICE"
+			}
+        ]
+	},
+	{
+        "key": "ADVANCEDTURRET",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			}
+        ]
+	},
+	{
+        "key": "CELESTIAL_OBSERVER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "5"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "BASICTURRET"
+			}
+        ]
+	},
+	{
+        "key": "ARCANEBORE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "5"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			}
+        ]
+	},
+	{
+        "key": "AUTOCASTER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "3"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "8"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/2",
+				"value": "MINDBIOTHAUMIC"
+			},
+			{
+				"op": "replace",
+				"path": "parents/4",
+				"value": "ARCANEBORE"
+			}
+        ]
+	},
+	{
+        "key": "SEAL_COPIER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "CONTROLSEALS"
+			}
+        ]
+	},
+	{
+        "key": "SEAL_SECURE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-14"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			},
+			{
+				"op": "remove",
+				"path": "parents/0"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "SEALGUARD"
+			}
+        ]
+	}
+]

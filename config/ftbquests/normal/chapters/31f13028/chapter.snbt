@@ -1,0 +1,7 @@
+{
+	title: "如何发电？",
+	icon: "gregtech:machine 1 950",
+	always_invisible: false,
+	group: -1792240729,
+	default_quest_shape: ""
+}

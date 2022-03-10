@@ -1,0 +1,13 @@
+{
+	x: 1.5d,
+	y: 3.5d,
+	dependencies: [
+		"0500db88",
+		"7bac6c2f"
+	],
+	tasks: [{
+		uid: "a8150c5f",
+		type: "fluid",
+		fluid: "biomass"
+	}]
+}

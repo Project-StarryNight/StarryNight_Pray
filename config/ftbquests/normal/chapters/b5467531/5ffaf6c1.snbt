@@ -1,0 +1,16 @@
+{
+	title: "&b进阶车床",
+	x: -4.5d,
+	y: 6.5d,
+	description: "不仅仅是加工透镜",
+	dependencies: [
+		"3b9267af"
+	],
+	tasks: [{
+		uid: "c7b8b7d8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 441"
+		}]
+	}]
+}

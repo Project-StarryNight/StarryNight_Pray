@@ -1,6 +1,12 @@
 {
 	title: "&e点击打开 GTCEu 的 MCMOD 页面",
-	icon: "botania:cosmetic 1 31",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
 	x: -2.5d,
 	y: 7.5d,
 	shape: "diamond",

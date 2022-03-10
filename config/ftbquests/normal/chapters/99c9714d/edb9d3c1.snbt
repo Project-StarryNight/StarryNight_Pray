@@ -1,5 +1,11 @@
 {
-	icon: "botania:cosmetic 1 31",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
 	x: -2.5d,
 	y: 5.0d,
 	shape: "diamond",
@@ -16,6 +22,12 @@
 		uid: "417df53f",
 		type: "checkmark",
 		title: "&eJust Enough Item",
-		icon: "botania:cosmetic 1 31"
+		icon: {
+			id: "botania:cosmetic",
+			Damage: 31s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
 	}]
 }

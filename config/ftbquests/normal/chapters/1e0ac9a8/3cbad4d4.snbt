@@ -1,7 +1,7 @@
 {
 	title: "工业之血",
-	x: -5.5d,
-	y: -1.0d,
+	x: -6.5d,
+	y: -3.0d,
 	description: "我知道你需要他",
 	dependencies: [
 		"86ef6acb"

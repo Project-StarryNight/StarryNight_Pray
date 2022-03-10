@@ -7,10 +7,14 @@
 			terminal: {
 				_hw: {}
 			}
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
 	x: -2.5d,
 	y: 2.5d,
+	shape: "diamond",
 	description: "万能工具",
 	text: [
 		"终端是一个拥有多种功能的工具",

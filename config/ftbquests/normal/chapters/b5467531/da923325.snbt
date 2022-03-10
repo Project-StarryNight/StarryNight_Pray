@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 5.0d,
+	dependencies: [
+		"78e39e32",
+		"35cf294c",
+		"be36ba71"
+	],
+	tasks: [{
+		uid: "aa39fd8e",
+		type: "fluid",
+		fluid: "bio.ethanol"
+	}]
+}

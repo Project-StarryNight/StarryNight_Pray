@@ -11,11 +11,11 @@ bobView:false
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
-resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.8.2.zip","StarryNight_Pray 汉化扩展包"]
+resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.8.2.zip","StarryNight_Pray-汉化扩展包"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -92,12 +92,14 @@ key_Reload Menu | CTRL + ALT + :0
 key_Toggle Customization Overlay | CTRL + ALT + :62
 key_keybind.baublesinventory:48
 key_key.toggle_shaders:0
-key_bloodmagic.keybind.open_holding:35
+key_bloodmagic.keybind.open_holding:38
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
+key_enderutilities.key.activate_unselected:34
+key_enderutilities.key.togglemode:34
 key_key.ftbultimine:41
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
@@ -147,6 +149,10 @@ key_key.neenergistics.recipe.ingredient.change:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.preview:29
 key_key.neenergistics.crafting.helper.noPreview:56
+key_key.porterNextDestination:27
+key_key.porterPrevDestination:26
+key_key.debugDumpNBTItem:0
+key_key.debugDumpNBTBlock:0
 key_key.sakura.sheath_in:47
 key_key.taiga.alt_action:29
 key_Open Matter Scanner GUI:0
@@ -207,7 +213,7 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-modelPart_cape:true
+modelPart_cape:false
 modelPart_jacket:true
 modelPart_left_sleeve:true
 modelPart_right_sleeve:true

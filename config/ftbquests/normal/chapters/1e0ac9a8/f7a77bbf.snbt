@@ -1,7 +1,7 @@
 {
 	title: "&b基础卷板机",
-	x: -1.5d,
-	y: -2.5d,
+	x: -2.0d,
+	y: -1.0d,
 	description: "这就是你想要的?",
 	dependencies: [
 		"19ab6bb9"

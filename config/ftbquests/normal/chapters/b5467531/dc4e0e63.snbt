@@ -1,0 +1,17 @@
+{
+	title: "&b进阶电路组装机",
+	x: -9.5d,
+	y: 2.5d,
+	shape: "gear",
+	description: "更高效的组装你的 MV 电路",
+	dependencies: [
+		"ff9b15fb"
+	],
+	tasks: [{
+		uid: "74a93f54",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 636"
+		}]
+	}]
+}

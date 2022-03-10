@@ -1,8 +1,8 @@
 {
 	title: "&b电力时代!",
-	x: 0.0d,
-	y: 0.0d,
-	description: "恭喜来到lv时代!",
+	x: -3.5d,
+	y: 3.0d,
+	description: "欢迎来到LV阶段!",
 	dependencies: [
 		"93c9fc33"
 	],

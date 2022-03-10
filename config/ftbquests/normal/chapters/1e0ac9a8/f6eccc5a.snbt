@@ -1,6 +1,7 @@
 {
+	title: "&b基础线材轧机",
 	x: -1.5d,
-	y: 1.5d,
+	y: 4.0d,
 	description: "别再浪费材料了",
 	dependencies: [
 		"19ab6bb9"

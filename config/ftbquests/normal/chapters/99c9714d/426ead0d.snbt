@@ -1,6 +1,12 @@
 {
 	title: "&b欢迎来到 &aStarryNight Pray &e⭐!",
-	icon: "botania:cosmetic 1 31",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",

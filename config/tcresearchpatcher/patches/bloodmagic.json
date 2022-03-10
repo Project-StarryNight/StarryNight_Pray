@@ -1,0 +1,31 @@
+[
+	{
+        "key": "BLOODSCRIBE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-1"
+			},
+			{
+				"op": "remove",
+				"path": "parents/0"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+			},
+			{
+				"op": "test",
+				"path": "key",
+				"value": "BLOODSCRIBE"
+			}
+        ]
+	}
+]

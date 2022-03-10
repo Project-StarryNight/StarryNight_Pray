@@ -1,0 +1,15 @@
+{
+	title: "&bMV 能源仓",
+	x: -6.5d,
+	y: 1.5d,
+	dependencies: [
+		"c7adb1d6"
+	],
+	tasks: [{
+		uid: "224e124a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1212"
+		}]
+	}]
+}

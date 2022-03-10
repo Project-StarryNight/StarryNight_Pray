@@ -1,6 +1,6 @@
 {
-	x: -5.0d,
-	y: 2.0d,
+	x: -5.5d,
+	y: 0.0d,
 	description: "这就是你目前燃烧值最高的燃料",
 	dependencies: [
 		"31f36a0f",

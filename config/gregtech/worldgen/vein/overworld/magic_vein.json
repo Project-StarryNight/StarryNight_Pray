@@ -1,0 +1,34 @@
+{
+    "weight": 40,
+    "density": 0.20,
+    "max_height": 40,
+    "min_height": 15,
+    "vein_populator": {
+    "type": "surface_rock",
+    "material": "magic"
+    },
+    "generator": {
+    "type": "layered",
+    "radius": [
+        12,
+        20
+    ]
+    },
+    "filler": {
+    "type": "layered",
+    "values": [
+        {
+            "primary": "ore:magic"
+        },
+        {
+            "secondary": "ore:cinnabar"
+        },
+        {
+            "between": "ore_dict:oreAmber"
+        },
+        {
+            "sporadic": "ore:magic"
+        }
+        ]
+    }
+}

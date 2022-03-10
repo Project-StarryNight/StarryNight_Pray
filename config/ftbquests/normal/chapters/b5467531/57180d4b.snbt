@@ -1,0 +1,16 @@
+{
+	title: "&b进阶板材切割机",
+	x: -6.5d,
+	y: 6.5d,
+	description: "切割晶片，也能切割其他东西",
+	dependencies: [
+		"3b9267af"
+	],
+	tasks: [{
+		uid: "3e8daf9a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 246"
+		}]
+	}]
+}

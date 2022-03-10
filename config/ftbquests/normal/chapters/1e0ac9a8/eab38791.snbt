@@ -1,6 +1,8 @@
 {
-	x: 1.5d,
-	y: 2.0d,
+	title: "&b基础车床",
+	x: -1.5d,
+	y: 5.0d,
+	description: "加工螺丝，棍棒，比手工更省时省力",
 	dependencies: [
 		"19ab6bb9"
 	],

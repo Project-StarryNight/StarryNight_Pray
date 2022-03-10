@@ -1,0 +1,17 @@
+{
+	title: "&b进阶组装机",
+	x: -2.5d,
+	y: 5.5d,
+	description: "还记得基础组装机吗？它现在进化了！",
+	dependencies: [
+		"3b9267af",
+		"59abf065"
+	],
+	tasks: [{
+		uid: "ce585987",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 111"
+		}]
+	}]
+}

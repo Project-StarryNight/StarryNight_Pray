@@ -5,14 +5,22 @@
 */
 
 import mods.gregtech.recipe.RecipeMap;
+import crafttweaker.item.IItemStack;
 import mods.forestry.Carpenter;
 
 //电子板
 #移除
-mods.forestry.Carpenter.removeRecipe(<forestry:chipsets>.withTag({T: 0 as short}));
-mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:1>.withTag({T: 1 as short}));
-mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:2>.withTag({T: 2 as short}));
-mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:3>.withTag({T: 3 as short}));
+var items as IItemStack[] = [
+    <forestry:chipsets>.withTag({T: 0 as short}),
+    <forestry:chipsets:1>.withTag({T: 1 as short}),
+    <forestry:chipsets:2>.withTag({T: 2 as short}),
+    <forestry:chipsets:3>.withTag({T: 3 as short}),
+    <forestry:portable_alyzer>#便携式多用分析仪
+];
+for i, item in items {
+    var item = items[i];
+    Carpenter.removeRecipe(item);
+}
 #添加
 #小型
 <recipemap:laser_engraver>.recipeBuilder()
@@ -56,8 +64,6 @@ mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:3>.withTag({T: 3 as shor
     .buildAndRegister();
 
 //便携式多用分析仪
-#移除
-mods.forestry.Carpenter.removeRecipe(<forestry:portable_alyzer>);
 #添加
 <recipemap:assembler>.recipeBuilder()
     .inputs([

@@ -1,6 +1,11 @@
 {
-	x: -2.5d,
-	y: 2.5d,
+	title: "&b基础化学反应釜",
+	x: -5.5d,
+	y: 3.0d,
+	description: "Co + 2Fe = CoFFee",
+	text: [
+		"GT的核心机械，我猜你需要一点点化学知识（现实）来驾驭它"
+	],
 	dependencies: [
 		"19ab6bb9"
 	],

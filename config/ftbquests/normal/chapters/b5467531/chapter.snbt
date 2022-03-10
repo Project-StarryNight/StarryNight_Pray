@@ -1,0 +1,7 @@
+{
+	title: "&9Tier 2 - &b中压 (MV)",
+	icon: "gregtech:machine_casing 1 2",
+	always_invisible: false,
+	group: -1792240729,
+	default_quest_shape: ""
+}

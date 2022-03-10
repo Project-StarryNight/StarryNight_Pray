@@ -1,0 +1,24 @@
+{
+	title: "&e提示！",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	tags: [
+		"1"
+	],
+	x: 1.5d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "一定要看！",
+	text: [
+		"本条 PE 产线仅代表任务作者推荐线路，可根据自己实际情况来制定产线"
+	],
+	tasks: [{
+		uid: "2eb84929",
+		type: "checkmark"
+	}]
+}

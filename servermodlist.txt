@@ -6,12 +6,17 @@
     -[Mixin兼容][[___MixinCompat-0.8___]]
     -[CrT][CraftTweaker2-1.12-4.1.20.673]
         (附属)
-            -[CoT][ContentTweaker-1.12.2-4.10.0]
-            -[MoT][modtweaker-4.0.20.5]
-            -[脚本同步][CrT_自动同步ZS]
-            -[CrT VSC工具][probe-0.1.24]
+        -[CoT][ContentTweaker-1.12.2-4.10.0]
+        -[MoT][modtweaker-4.0.20.5]
+        -[脚本同步][CrT_自动同步ZS]
+        -[CrT VSC工具][probe-0.1.24]
+        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
 
-    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.2-beta]
+    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta]
+        (附属)
+        -[GT TOP扩展][GregicProbe-1.0]
+        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
+
     -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v50f]
         (附属)
         -[封包合成][PackagedAuto-1.12.2-1.0.5.18]
@@ -38,7 +43,7 @@
     -[高级火箭][AdvancedRocketry-1.12.2-2.0.0-257-universal]
     -[模块化机械][modularmachinery-1.12.2-1.11.1]
         (附属)
-        -[模块化控制器][ModularController-1.3.1]
+        -[模块化控制器][ModularController-1.4.2]
         -[模块化组装][ModularAssembly-1.12.2-1.0.2]
         -[咕咕工具][gugu-utils-0.8.1.2]
 
@@ -47,21 +52,23 @@
         -[星占魔法][astrologicalsorcery-1.12.2-1.1.3]
 
     -[FTB 任务][FTBQuests-1202.9.0.15]
-
     -[ID 扩展][JustEnoughIDs-1.0.4-SNAPSHOT-thin]
 
 主要Mod:
     -[超能物质][MatterOverdrive-1.12.2-0.7.6-universal]
     -[无尽贪婪][Avaritia-1.12.2-3.3.0.37-universal]
         (附属)
-        -[无尽收容][Avaritiaddons-1.12.2-1.6]
+        -[无尽收容][Avaritiaddons-1.12.2-1.7]
         -[AvaritiaTweaks][AvaritiaTweaks-1.12.2-1.3]
 
     -[实用扩展][ActuallyAdditions-1.12.2-r152]
     -[末影接口_基础][EnderIO-base-1.12.2-5.3.70]
         (附属)
-        [末影接口_机械][EnderIO-machines-1.12.2-5.3.70]
-        [末影接口_导管][EnderIO-conduits-1.12.2-5.3.70]
+        -[末影接口_机械][EnderIO-machines-1.12.2-5.3.70]
+        -[末影接口_林业][EnderIO-integration-forestry-1.12.2-5.3.70]
+        -[末影接口_导管][EnderIO-conduits-1.12.2-5.3.70]
+            (附属)
+            -[末影接口_应用能源导管][EnderIO-conduits-appliedenergistics-1.12.2-5.3.70]
 
     -[延迟监视][LagGoggles-1.12.2-5.8-132]
     -[模块化路由器][modular-routers-1.12.2-3.3.0-33]
@@ -69,16 +76,19 @@
         (附属)
         -[神秘JEI][ThaumicJEI-1.12.2-1.6.0-27]
         -[物品栏扫描][ThaumicInventoryScanning_1.12.2-2.0.10]
-        -[神秘能源][thaumicenergistics-2.2.4]
+        -[神秘能源][thaumicenergistics-v2.2.3-delfayne-fork-SNAPSHOT-2]
         -[神秘进阶][ThaumicAugmentation-1.12.2-2.1.5]
         -[神秘外饰][thaumicperiphery-0.3.1]
-        -[神秘领域:重构][ThaumicAdditions-1.12.2-12.6.7]
+        -[神秘领域:重构][ThaumicAdditions-1.12.2-12.7.8]
         -[神秘加载提速][thaumicspeedup-4.0]
         -[游戏内信息显示_神秘时代扩展][IGI-Thaumcraft-1.0a]
+        -[失落魔法][lostmagic-1.0.2]
+        -[TRP][ThaumcraftResearchPatcher-1.12.2-1.1.3]
+        -[神秘修复][thaumicfixes-1.0-nolibs]
+        -[神秘奇境][thaumicwonders-1.8.2]
 
     -[植物魔法][Botania+r1.10-364.4]
         (附属)
-        -[额外植物学][ExtraBotany-r1.1-60-beta-hotfix]
         -[植物魔法需要它!][botanianeedsit-1.12.2-3.0-release]
 
     -[深度怪物学习][deepmoblearning-1.12.2-2.5.4-universal]
@@ -118,8 +128,20 @@
     -[神化][Apotheosis-1.12.2-1.12.5]
     -[傻瓜式农贸市场][FarmingForBlockheads_1.12.2-3.1.28]
     -[林业][forestry_1.12.2-5.8.2.422]
+    -[矿辞统一][UniDict-1.12.2-3.0.10]
+    -[末影设备][enderutilities-1.12.2-0.7.15]
+    -[更多鸡][chickens-6.1.0]
+        (联动附属)
+        -[鸡窝][roost-1.12.2-2.0.10]
+    -[储物桶][YABBA-1.1.2.54]
+    -[RF 工具箱][rftools-1.12-7.73]
+    -[巫术][bewitchment-1.12.2-0.0.22.64]
 
 前置Mod:
+    -[帕秋莉手册][Patchouli-1.0-23.6]
+        使用该前置的Mod:
+        -[巫术][bewitchment-1.12.2-0.0.22.64]
+
     -[前置][MTLib-3.0.7]
         使用该前置的Mod:
         -[MoT][modtweaker-4.0.20.5]
@@ -224,7 +246,7 @@
 
     -[前置][CodeChickenLib-1.12.2-3.2.3.358-universal]
         使用该前置的Mod:
-        -[格雷科技社区版][gregtech-1.12.2-2.1.0-beta]
+        -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta]
 
     -[资源加载器][ResourceLoader-MC1.12.1-1.5.3]
         使用该前置的Mod:

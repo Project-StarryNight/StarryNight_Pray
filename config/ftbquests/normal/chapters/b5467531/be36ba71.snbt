@@ -1,0 +1,23 @@
+{
+	title: "&b进阶化学反应釜",
+	x: 1.5d,
+	y: 6.5d,
+	shape: "gear",
+	description: "2Co + 4Fe = 2CoFFee",
+	dependencies: [
+		"3b9267af"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "afc34f69",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 216"
+		}]
+	}],
+	rewards: [{
+		uid: "95276554",
+		type: "item",
+		item: "gregtech:machine 1 216"
+	}]
+}

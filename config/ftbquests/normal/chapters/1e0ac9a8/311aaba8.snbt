@@ -1,7 +1,7 @@
 {
 	title: "&b基础蒸汽涡轮机",
-	x: 1.5d,
-	y: 0.0d,
+	x: -2.5d,
+	y: 7.0d,
 	description: "蒸汽蒸汽蒸汽...",
 	dependencies: [
 		"19ab6bb9"

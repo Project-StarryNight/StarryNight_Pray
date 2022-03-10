@@ -1,0 +1,482 @@
+[
+	{
+        "key": "FOCUSPROJECTILE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSMINE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSBOLT",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "8"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSCLOUD",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "8"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSSPELLBAT",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "8"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSPLAN",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSSCATTER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSSPLIT",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			}
+        ]
+    },
+	{
+        "key": "GAUNTLET_THAUMIUM",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "0"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/2",
+				"value": "BASEAUROMANCY"
+			}
+        ]
+    },
+	{
+        "key": "GAUNTLET_AUGMENTATION",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/1",
+				"value": "UNLOCKARTIFICE"
+			}
+        ]
+    },
+	{
+        "key": "EXPERIENCE_MODIFIER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			}
+        ]
+    },
+	{
+        "key": "FRENZY_MODIFIER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-5"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			}
+        ]
+    },
+	{
+        "key": "DIMENSIONAL_MODIFIERS",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			}
+        ]
+    },
+	{
+        "key": "EMPTINESS_MODIFIER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-7"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			}
+        ]
+    },
+	{
+        "key": "VIS_BATTERY_AUGMENT",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-7"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/1",
+				"value": "VISBATTERY"
+			}
+        ]
+    },
+	{
+        "key": "GAUNTLET_VOID",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSADVANCED",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-1"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSGREATER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-3"
+			}
+        ]
+    },
+	{
+        "key": "RECHARGEPEDESTAL",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "0"
+			}
+        ]
+    },
+	{
+        "key": "WORKBENCHCHARGER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "3"
+			}
+        ]
+    },
+	{
+        "key": "VISAMULET",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			}
+        ]
+    },
+	{
+        "key": "VISBATTERY",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-8"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "0"
+			}
+        ]
+    },
+	{
+        "key": "VIS_REGENERATOR",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-8"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "VISBATTERY"
+			}
+        ]
+    },
+	{
+        "key": "FOCUSPOUCH",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			}
+        ]
+    },
+	{
+        "key": "FOCUS_LIGHT",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "FOCUSELEMENTAL"
+			}
+        ]
+    },
+	{
+        "key": "FOCUS_WATER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "FOCUSELEMENTAL"
+			}
+        ]
+    },
+	{
+        "key": "FOCUS_WARD",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/1",
+				"value": "FOCUSBREAK"
+			}
+        ]
+    },
+	{
+        "key": "FOCUS_SHIELD",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "8"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			}
+        ]
+    }
+]

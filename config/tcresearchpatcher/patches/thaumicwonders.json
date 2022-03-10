@@ -1,0 +1,926 @@
+[
+	{
+        "key": "TWOND_NETHER_HEDGE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-8"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			},
+			{
+				"op": "remove",
+				"path": "parents/1"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "HEDGEALCHEMY"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_END_HEDGE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-8"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "HEDGEALCHEMY"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_CATALYZATION_CHAMBER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "0"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			},
+			{
+				"op": "remove",
+				"path": "parents/0"
+			},
+			{
+				"op": "remove",
+				"path": "parents/1"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "METALPURIFICATION"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_TRANSMUTER_STONE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_ALIENIST_STONE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_ALKAHEST",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "LIQUIDDEATH"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_EVERBURNING_URN",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			},
+			{
+				"op": "remove",
+				"path": "parents/1"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "EVERFULLURN"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_PANACEA",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": [REVERSE]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_DISJUNCTION_CLOTH",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "TWOND_END_HEDGE"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": [REVERSE]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_LETHE_WATER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_MYSTIC_GARDENING",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "PLANTS"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["HIDDEN", "ROUND"]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_INSPIRATION_ENGINE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "THEORYRESEARCH"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["ROUND"]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_MADNESS_ENGINE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-5"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["ROUND"]
+			}
+        ]
+	},
+	{
+        "key": "!TWOND_CORRUPTION_AVATAR",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-11"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_FLUX_CAPACITOR",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-10"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "PRIMPEARL"
+			},
+			{
+				"op": "add",
+				"path": "parents/3",
+				"value": "~BASEELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "parents/1",
+				"value": "VISBATTERY"
+			},
+			{
+				"op": "add",
+				"path": "meta",
+				"value": ["HIDDEN"]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_FLUX_DISTILLER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-11"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_HEXAMITE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-9"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "AUROMANCY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "TWOND_FLUX_CAPACITOR"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_PRIMAL_DESTROYER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "PRIMALCRUSHER"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["REVERSE"]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_VOID_FORTRESS_ARMOR",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "0"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "VOIDROBEARMOR"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_VOID_PORTAL",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "RIFT_MANAGEMENT"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_DIMENSIONAL_RIPPER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "0"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "RIFT_MANAGEMENT"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": []
+			}
+        ]
+	},
+	{
+        "key": "TWOND_VOID_BEACON",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "parents/2",
+				"value": "PRIMPEARL"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "VOIDSIPHON"
+			},
+			{
+				"op": "replace",
+				"path": "parents/1",
+				"value": "~IMPETUS"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["REVERSE"]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_COALESCENCE_MATRIX",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-5"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["REVERSE"]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_PRIMORDIAL_ACCELERATOR",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-5"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "TWOND_VOID_BEACON"
+			},
+                      		{
+				"op": "remove",
+				"path": "parents/1"
+                                                 },
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["REVERSE"]
+		}
+        ]
+	},
+	{
+        "key": "TWOND_PRIMORDIAL_ACCRETION_CHAMBER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-7"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["REVERSE"]
+			}
+        ]
+	},
+	{
+        "key": "TWOND_FLYING_CARPET",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-8"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "BOOTSTRAVELLER"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_NV_GOGGLES",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-5"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "FORTRESSMASK"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_CLEANSING_CHARM",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "7"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "VERDANTCHARMS"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_TIMEWINDER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "ELEMENTALTOOLS"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_BONE_BOW",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ARTIFICE"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "BASEARTIFICE"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_PRIMAL_ARROWS",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ARTIFICE"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_ORE_DIVINER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ARTIFICE"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "DIOPTRA"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_STRUCTURE_DIVINER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "5"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ARTIFICE"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_METEORB",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "10"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "ESSENTIASMELTERTHAUMIUM"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_MEATY_ORB",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "12"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_BASE",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+        ]
+	}
+]

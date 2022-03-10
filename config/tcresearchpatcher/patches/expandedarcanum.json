@@ -1,0 +1,111 @@
+[
+	{
+        "key": "EA_MIMICFORK",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "ARCANEEAR"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ARTIFICE"
+			}
+        ]
+	},
+	{
+        "key": "EA_SEALSHEAR",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-12"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "8"
+			},
+			{
+				"op": "remove",
+				"path": "parents/1"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "SEALBUTCHER"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "GOLEMANCY"
+			}
+        ]
+	},
+	{
+        "key": "EA_BASE",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+        ]
+	},
+	{
+        "key": "EA_ALCHEMY",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+        ]
+	},
+	{
+        "key": "EA_ARTIFICE",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+        ]
+	},
+	{
+        "key": "EA_GOLEMANCY",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+        ]
+	},
+	{
+        "key": "EA_INFUSION",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+        ]
+	},
+	{
+        "key": "METALPURIFICATION",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			}
+        ]
+	}
+]

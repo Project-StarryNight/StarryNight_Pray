@@ -1,0 +1,104 @@
+{
+	title: "&b模具全家桶",
+	x: -0.5d,
+	y: 0.5d,
+	dependencies: [
+		"d896f31c"
+	],
+	tasks: [{
+		uid: "6b6f6d79",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32"
+		}]
+	},
+	{
+		uid: "c6d9d373",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 33"
+		}]
+	},
+	{
+		uid: "3bcd2775",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 34"
+		}]
+	},
+	{
+		uid: "79b2905c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 35"
+		}]
+	},
+	{
+		uid: "9ee4e882",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 38"
+		}]
+	},
+	{
+		uid: "a9e3fe50",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 39"
+		}]
+	},
+	{
+		uid: "16b4fd19",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 40"
+		}]
+	},
+	{
+		uid: "55ecb9da",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 42"
+		}]
+	},
+	{
+		uid: "7233e54e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 52"
+		}]
+	},
+	{
+		uid: "bde42b00",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 55"
+		}]
+	},
+	{
+		uid: "7696f548",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 54"
+		}]
+	},
+	{
+		uid: "5b1f51c8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 56"
+		}]
+	},
+	{
+		uid: "d30a9e82",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 57"
+		}]
+	}],
+	rewards: [{
+		uid: "f4f22b06",
+		type: "item",
+		item: "gregtech:machine 1 216"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "&b进阶精密激光蚀刻机",
+	x: -5.5d,
+	y: 6.5d,
+	description: "蚀刻你的新晶圆吧",
+	dependencies: [
+		"3b9267af",
+		"59abf065"
+	],
+	tasks: [{
+		uid: "919d1906",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 561"
+		}]
+	}]
+}

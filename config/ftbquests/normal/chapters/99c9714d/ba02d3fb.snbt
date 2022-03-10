@@ -1,6 +1,12 @@
 {
 	title: "&e测试版提示",
-	icon: "botania:cosmetic 1 31",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
 	x: 0.0d,
 	y: 5.0d,
 	shape: "diamond",

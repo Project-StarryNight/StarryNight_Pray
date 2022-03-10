@@ -1,0 +1,64 @@
+[
+	{
+        "key": "THAUMICWINGS",
+        "ops": [
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:tw"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:tws"
+			
+			}
+        ]
+	},
+	{
+        "key": "ELECTRICSCRIBINGTOOLS",
+        "ops": [
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:est"
+			}
+        ]
+	},
+	{
+        "key": "ELECTRICGOGGLES",
+        "ops": [
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:egs"
+			}
+        ]
+	},
+	{
+        "key": "DIAMONDOMNITOOL",
+        "ops": [
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:dot"
+			}
+        ]
+	},
+	{
+        "key": "COMPRESSEDSOLAR",
+        "ops": [
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:cp"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:cp2"
+			
+			}
+        ]
+	}
+]

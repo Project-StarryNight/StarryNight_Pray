@@ -1,0 +1,58 @@
+[
+	{
+        "key": "TCONEVO_TCONINFUSIONENCH",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-5"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "5"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "remove",
+				"path": "parents/0"
+			}
+        ]
+	},
+	{
+        "key": "TCONEVO_PRIMALMETAL",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-8"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+			},
+			{
+				"op": "remove",
+				"path": "parents/0"			}
+		]
+	},
+	{
+        "key": "TCONEVO_BASE",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	}
+]

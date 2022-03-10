@@ -1,0 +1,9 @@
+{
+	x: 0.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "d28af757",
+		type: "fluid",
+		fluid: "sulfuric_acid"
+	}]
+}

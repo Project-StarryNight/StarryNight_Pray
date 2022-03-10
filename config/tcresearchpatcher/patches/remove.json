@@ -1,0 +1,29 @@
+[
+	{
+        "key": "THAUMIC_AUGMENTATION_BASE",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{
+        "key": "MORE_AUROMANCY",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{
+        "key": "MORE_GOLEMANCY",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	}
+]
