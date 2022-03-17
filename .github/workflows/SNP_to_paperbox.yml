@@ -24,11 +24,12 @@ jobs:
       - name: CLone SNP original code
         run: |
            git clone https://github.com/Project-StarryNight/StarryNight_Pray.git paperbox_patched,
-           cd paperbox_patched.
+           ls.
 
       - name: Run patch script
         run: |
-          wget https://raw.githubusercontent.com/Project-StarryNight/snp_paperbox_patch/main/patch.sh
+          cd paperbox_patched,
+          wget https://raw.githubusercontent.com/Project-StarryNight/snp_paperbox_patch/main/patch.sh,
           sh patch.sh.   
       
       - name: Upload artifact
