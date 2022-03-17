@@ -1,0 +1,38 @@
+# JiaJiaXd 2022/03/18
+# PaperBox Minecraft Server
+# Learn more at https://paperboxmc.cn/.
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: CLone SNP original code
+        run: |
+           git clone https://github.com/Project-StarryNight/StarryNight_Pray.git paperbox_patched,
+           cd paperbox_patched.
+
+      - name: Run patch script
+        run: |
+          wget https://raw.githubusercontent.com/Project-StarryNight/snp_paperbox_patch/main/patch.sh
+          sh patch.sh.   
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@main
+        with:
+          name: paperbox_patched_client_${{ env.FILE_DATE }}
+          path: paperbox_patched
