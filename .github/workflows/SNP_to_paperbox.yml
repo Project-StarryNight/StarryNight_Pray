@@ -2,7 +2,7 @@
 # PaperBox Minecraft Server
 # Learn more at https://paperboxmc.cn/.
 
-name: CI
+name: patch
 
 # Controls when the workflow will run
 on:
