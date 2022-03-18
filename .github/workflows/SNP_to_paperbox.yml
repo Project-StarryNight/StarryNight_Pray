@@ -33,9 +33,16 @@ jobs:
           cd paperbox_patched
           wget https://raw.githubusercontent.com/Project-StarryNight/snp_paperbox_patch/main/patch.sh
           sh patch.sh
-      
+      - name: Upload artifact to cowtransfer
+        id: cowtransfer
+        run: |
+          curl -fsSL git.io/file-transfer | sh
+          ./transfer cow --block 2621440 -s -p 64 --no-progress paperbox_patched 2>&1 | tee cowtransfer.log
+          echo "::warning file=cowtransfer.com::$(cat cowtransfer.log | grep https)"
+          echo "::set-output name=url::$(cat cowtransfer.log | grep https | cut -f3 -d" ")"
+        
       - name: Upload artifact
         uses: actions/upload-artifact@main
         with:
-          name: paperbox_patched_client_${{ env.FILE_DATE }}
+          name: paperbox_patched_client_${{ env.FILE_DATE }}.zip
           path: paperbox_patched
