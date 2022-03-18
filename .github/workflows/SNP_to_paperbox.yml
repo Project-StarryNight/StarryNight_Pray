@@ -35,7 +35,7 @@ jobs:
           sh patch.sh
       - name: Compress the artifact
         run: |
-          zip -6 -r paperbox_client_${{ env.FILE_DATE }}.zip paperbox_patched
+          zip -9 -r paperbox_client_${{ env.FILE_DATE }}.zip paperbox_patched
 
 #      - name: Upload artifact to cowtransfer
 #        run: |
@@ -56,4 +56,4 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: paperbox_client_${{ env.FILE_DATE }}.zip
-          path: paperbox_client_${{ env.FILE_DATE }}.zip
+          path: paperbox_patched
