@@ -33,25 +33,27 @@ jobs:
           cd paperbox_patched
           wget https://raw.githubusercontent.com/Project-StarryNight/snp_paperbox_patch/main/patch.sh
           sh patch.sh
-          
-#      - name: Upload artifact to cowtransfer
-#       id: cowtransfer
-#        run: |
-#          curl -fsSL git.io/file-transfer | sh
-#          ./transfer cow --block 2621440 -s -p 64 --no-progress paperbox_patched 2>&1 | tee cowtransfer.log
-#          echo "::warning file=cowtransfer.com::$(cat cowtransfer.log | grep https)"
-#          echo "::set-output name=url::$(cat cowtransfer.log | grep https | cut -f3 -d" ")"
+      - name: Compress the artifact
+        run: |
+          zip -6 -r paperbox_client_${{ env.FILE_DATE }}.zip paperbox_patched
+
+      - name: Upload artifact to cowtransfer
+        run: |
+          curl -fsSL git.io/file-transfer | sh
+          ./transfer cow --block 2621440 -s -p 64 --no-progress paperbox_client_${{ env.FILE_DATE }}.zip 2>&1 | tee cowtransfer.log
+          echo "::warning file=cowtransfer.com::$(cat cowtransfer.log | grep https)"
+          echo "::set-output name=url::$(cat cowtransfer.log | grep https | cut -f3 -d" ")"
           
       - name: Upload artifact to WeTransfer
         id: wetransfer
         run: |
           curl -fsSL git.io/file-transfer | sh
-          ./transfer wet -s -p 16 --no-progress paperbox_patched 2>&1 | tee wetransfer.log
+          ./transfer wet -s -p 16 --no-progress paperbox_client_${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
           echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
           echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
         
       - name: Upload artifact to Github
         uses: actions/upload-artifact@main
         with:
-          name: paperbox_patched_client_${{ env.FILE_DATE }}.zip
+          name: paperbox_client_${{ env.FILE_DATE }}.zip
           path: paperbox_patched
