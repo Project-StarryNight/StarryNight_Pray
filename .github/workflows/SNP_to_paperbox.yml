@@ -56,4 +56,4 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: paperbox_client_${{ env.FILE_DATE }}.zip
-          path: paperbox_patched
+          path: paperbox_client_${{ env.FILE_DATE }}.zip
