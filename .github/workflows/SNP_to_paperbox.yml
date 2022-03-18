@@ -33,6 +33,7 @@ jobs:
           cd paperbox_patched
           wget https://raw.githubusercontent.com/Project-StarryNight/snp_paperbox_patch/main/patch.sh
           sh patch.sh
+          
       - name: Upload artifact to cowtransfer
         id: cowtransfer
         run: |
