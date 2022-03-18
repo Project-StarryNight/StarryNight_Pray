@@ -25,7 +25,7 @@ jobs:
       - name: Get prepared
         run: echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
 
-      - name: CLone SNP original code
+      - name: Clone SNP original code
         run: git clone https://github.com/Project-StarryNight/StarryNight_Pray.git paperbox_patched
         
       - name: Run patch script
@@ -42,7 +42,7 @@ jobs:
           echo "::warning file=cowtransfer.com::$(cat cowtransfer.log | grep https)"
           echo "::set-output name=url::$(cat cowtransfer.log | grep https | cut -f3 -d" ")"
         
-      - name: Upload artifact
+      - name: Upload artifact to Github
         uses: actions/upload-artifact@main
         with:
           name: paperbox_patched_client_${{ env.FILE_DATE }}.zip
