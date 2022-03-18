@@ -37,12 +37,12 @@ jobs:
         run: |
           zip -6 -r paperbox_client_${{ env.FILE_DATE }}.zip paperbox_patched
 
-      - name: Upload artifact to cowtransfer
-        run: |
-          curl -fsSL git.io/file-transfer | sh
-          ./transfer cow --block 2621440 -s -p 64 --no-progress paperbox_client_${{ env.FILE_DATE }}.zip 2>&1 | tee cowtransfer.log
-          echo "::warning file=cowtransfer.com::$(cat cowtransfer.log | grep https)"
-          echo "::set-output name=url::$(cat cowtransfer.log | grep https | cut -f3 -d" ")"
+#      - name: Upload artifact to cowtransfer
+#        run: |
+#          curl -fsSL git.io/file-transfer | sh
+#          ./transfer cow --block 2621440 -s -p 64 --no-progress paperbox_client_${{ env.FILE_DATE }}.zip 2>&1 | tee cowtransfer.log
+#          echo "::warning file=cowtransfer.com::$(cat cowtransfer.log | grep https)"
+#          echo "::set-output name=url::$(cat cowtransfer.log | grep https | cut -f3 -d" ")"
           
       - name: Upload artifact to WeTransfer
         id: wetransfer
