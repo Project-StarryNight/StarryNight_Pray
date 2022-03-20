@@ -33,7 +33,10 @@ jobs:
       - name: Get latest commit changes and compress changed files
         run: |
           cd snp
-          git diff-tree -r --no-commit-id --name-only `git rev-parse HEAD` | xargs zip -9 -r Update_patch${{ env.FILE_DATE }}.zip
+          mkdir changes
+          git diff-tree -r --no-commit-id --name-only `git rev-parse HEAD` | xargs -t -i cp {} changes
+          echo `git log --diff-filter=D -n 1  --summary | grep delete` >>changes/deletions.txt
+          zip -9 -r paperbox_client_${{ env.FILE_DATE }}.zip changes
           
       - name: Upload artifact to WeTransfer
         id: wetransfer
@@ -48,4 +51,4 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: Update_patch${{ env.FILE_DATE }}.zip
-          path: snp/Update_patch${{ env.FILE_DATE }}.zip
+          path: snp/changes
