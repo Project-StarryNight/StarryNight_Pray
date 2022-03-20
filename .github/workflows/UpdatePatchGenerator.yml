@@ -25,14 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Clone SNP code and get prepared
-        run: |
-         git clone https://github.com/Project-StarryNight/StarryNight_Pray snp
-         echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
+      - name: Get prepared
+        run: echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
 
       - name: Get latest commit changes and compress changed files
         run: |
-          cd snp
           mkdir changes
           git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT `git rev-parse HEAD` | xargs -t -i{} cp --parents {} changes/
           wget https://github.com/jiajiaxd/FileCloud/raw/main/actions_if_del.sh
@@ -40,9 +37,8 @@ jobs:
           zip -9 -r Update_patch${{ env.FILE_DATE }}.zip changes
       - name: Upload artifact to WeTransfer
         run: |
-          ls snp
           curl -fsSL git.io/file-transfer | sh
-          ./transfer wet -s -p 16 --no-progress snp/Update_patch${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
+          ./transfer wet -s -p 16 --no-progress Update_patch${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
           echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
           echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
 
@@ -50,4 +46,4 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: Update_patch${{ env.FILE_DATE }}.zip
-          path: snp/changes
+          path: changes
