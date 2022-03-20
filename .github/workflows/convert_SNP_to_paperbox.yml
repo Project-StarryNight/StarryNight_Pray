@@ -52,5 +52,5 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: paperbox_client_${{ env.FILE_DATE }}.zip
-          path: /home/runner/work/StarryNight_Pray/paperbox_client_202203201522.zip
+          path: /home/runner/work/StarryNight_Pray/StarryNight_Pray
 
