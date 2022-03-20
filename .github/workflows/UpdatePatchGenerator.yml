@@ -37,7 +37,7 @@ jobs:
           git diff-tree -r --no-commit-id --name-only `git rev-parse HEAD` | xargs -t -i cp {} changes
           wget https://github.com/jiajiaxd/FileCloud/raw/main/actions_if_del.sh
           sh actions_if_del.sh
-          zip -9 -r paperbox_client${{ env.FILE_DATE }}.zip changes
+          zip -9 -r Update_patch${{ env.FILE_DATE }}.zip changes
       - name: Upload artifact to WeTransfer
         run: |
           ls snp
