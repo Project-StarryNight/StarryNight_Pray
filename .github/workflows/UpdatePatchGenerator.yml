@@ -32,19 +32,19 @@ jobs:
         run: |
           echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
           cd snp
-          git diff `git rev-parse --short HEAD` HEAD --name-only | zip -9 -r Update_patch_${{ env.FILE_DATE }}.zip 
+          git diff `git rev-parse --short HEAD` HEAD --name-only | cpio -pvdmu Update_patch_${{ env.FILE_DATE }}.tar  
           
       - name: Upload artifact to WeTransfer
         id: wetransfer
         run: |
           cd snp
           curl -fsSL git.io/file-transfer | sh
-          ./transfer wet -s -p 16 --no-progress Update_patch_${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
+          ./transfer wet -s -p 16 --no-progress Update_patch_${{ env.FILE_DATE }}.tar 2>&1 | tee wetransfer.log
           echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
           echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
 
       - name: Upload artifact to Github
         uses: actions/upload-artifact@main
         with:
-          name: Update_patch_${{ env.FILE_DATE }}.zip
-          path: snp/Update_patch_${{ env.FILE_DATE }}.zip
+          name: Update_patch_${{ env.FILE_DATE }}.tar
+          path: snp/Update_patch_${{ env.FILE_DATE }}.tar
