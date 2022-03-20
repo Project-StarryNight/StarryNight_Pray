@@ -24,18 +24,14 @@ jobs:
       
       - name: Get prepared
         run: echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
-
-      - name: Clone SNP original code
-        run: git clone https://github.com/Project-StarryNight/StarryNight_Pray.git paperbox_patched
         
       - name: Run patch script
         run: |
-          cd paperbox_patched
           wget https://raw.githubusercontent.com/Project-StarryNight/snp_paperbox_patch/main/patch.sh
           sh patch.sh
       - name: Compress the artifact
         run: |
-          zip -9 -r paperbox_client_${{ env.FILE_DATE }}.zip paperbox_patched
+          zip -9 -r ../paperbox_client_${{ env.FILE_DATE }}.zip ${GITHUB_WORKSPACE}
 
 #      - name: Upload artifact to cowtransfer
 #        run: |
@@ -48,7 +44,7 @@ jobs:
         id: wetransfer
         run: |
           curl -fsSL git.io/file-transfer | sh
-          ./transfer wet -s -p 16 --no-progress paperbox_client_${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
+          ./transfer wet -s -p 16 --no-progress ../paperbox_client_${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
           echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
           echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
         
@@ -56,4 +52,4 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: paperbox_client_${{ env.FILE_DATE }}.zip
-          path: paperbox_patched
+          path: ${GITHUB_WORKSPACE}
