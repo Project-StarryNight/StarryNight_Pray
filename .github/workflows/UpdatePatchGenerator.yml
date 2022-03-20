@@ -35,11 +35,10 @@ jobs:
           cd snp
           mkdir changes
           git diff-tree -r --no-commit-id --name-only `git rev-parse HEAD` | xargs -t -i cp {} changes
-          cat `git log --diff-filter=D -n 1  --summary | grep 'delete\|`git rev-parse HEAD`'` > changes/deletions.txt << EOF
+          git log --diff-filter=D -n 1  --summary | grep 'delete\|`git rev-parse HEAD`' | tee changes/deletions.txt
           zip -9 -r paperbox_client${{ env.FILE_DATE }}.zip changes
           
       - name: Upload artifact to WeTransfer
-        id: wetransfer
         run: |
           ls snp
           curl -fsSL git.io/file-transfer | sh
