@@ -35,12 +35,8 @@ jobs:
           cd snp
           mkdir changes
           git diff-tree -r --no-commit-id --name-only `git rev-parse HEAD` | xargs -t -i cp {} changes
-          result=$(echo `git log -n 1 --summary` | grep delete)
-          if [ -n "$result" ]; then
-            git log --diff-filter=D -n 1  --summary | grep 'delete' | tee changes/deletions.txt
-          else
-            echo "::warning The latest commit has no deletions."
-          fi
+          wget https://github.com/jiajiaxd/FileCloud/raw/main/actions_if_del.sh
+          sh actions_if_del.sh
           zip -9 -r paperbox_client${{ env.FILE_DATE }}.zip changes
       - name: Upload artifact to WeTransfer
         run: |
