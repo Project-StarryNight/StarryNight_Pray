@@ -31,7 +31,7 @@ jobs:
           sh patch.sh
       - name: Compress the artifact
         run: |
-          zip -9 -r ../paperbox_client_${{ env.FILE_DATE }}.zip ${GITHUB_WORKSPACE}
+          zip -9 -r ../paperbox_client${{ env.FILE_DATE }}.zip ../StarryNight_Pray
 
 #      - name: Upload artifact to cowtransfer
 #        run: |
@@ -44,7 +44,7 @@ jobs:
         id: wetransfer
         run: |
           curl -fsSL git.io/file-transfer | sh
-          ./transfer wet -s -p 16 --no-progress ../paperbox_client_${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
+          ./transfer wet -s -p 16 --no-progress ../paperbox_client${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
           echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
           echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
         
@@ -52,4 +52,5 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: paperbox_client_${{ env.FILE_DATE }}.zip
-          path: ${GITHUB_WORKSPACE}
+          path: ../StarryNight_Pray
+
