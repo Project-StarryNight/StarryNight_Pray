@@ -1,0 +1,50 @@
+# JiaJiaXd 2022
+
+name: UpdatePatchGenerator
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Clone SNP code
+        run: git clone https://github.com/Project-StarryNight/StarryNight_Pray snp
+
+      - name: Get latest commit changes and compress changed files
+        run: |
+          echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
+          cd snp
+          git diff `git rev-parse --short HEAD` HEAD --name-only | zip -9 -r Update_patch_${{ env.FILE_DATE }}.zip 
+          
+      - name: Upload artifact to WeTransfer
+        id: wetransfer
+        run: |
+          cd snp
+          curl -fsSL git.io/file-transfer | sh
+          ./transfer wet -s -p 16 --no-progress Update_patch_${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
+          echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
+          echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
+
+      - name: Upload artifact to Github
+        uses: actions/upload-artifact@main
+        with:
+          name: Update_patch_${{ env.FILE_DATE }}.zip
+          path: snp/Update_patch_${{ env.FILE_DATE }}.zip
