@@ -30,11 +30,9 @@ jobs:
 
       - name: Get latest commit changes and compress changed files
         run: |
+          git pull
           mkdir changes
-          ls -a
           git diff-tree -r --no-commit-id --name-only `git rev-parse HEAD` | xargs -t -i{} cp --parents {} changes/
-          cd changes
-          ls -a
           wget https://github.com/jiajiaxd/FileCloud/raw/main/actions_if_del.sh
           sh actions_if_del.sh
           zip -9 -r Update_patch${{ env.FILE_DATE }}.zip changes/
