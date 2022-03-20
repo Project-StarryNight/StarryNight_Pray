@@ -37,9 +37,8 @@ jobs:
       - name: Upload artifact to WeTransfer
         id: wetransfer
         run: |
-          cd snp
           curl -fsSL git.io/file-transfer | sh
-          ./transfer wet -s -p 16 --no-progress Update_patch_${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
+          ./transfer wet -s -p 16 --no-progress snp/Update_patch_${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
           echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
           echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
 
