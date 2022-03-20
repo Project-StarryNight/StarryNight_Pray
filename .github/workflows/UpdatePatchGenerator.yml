@@ -28,6 +28,13 @@ jobs:
       - name: Get prepared
         run: echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
 
+      - name: SSH connection to Actions
+        uses: P3TERX/ssh2actions@v1.0.0
+        env:
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+
+
       - name: Get latest commit changes and compress changed files
         run: |
           mkdir changes
@@ -41,6 +48,7 @@ jobs:
           ./transfer wet -s -p 16 --no-progress Update_patch${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
           echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
           echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
+
 
       - name: Upload artifact to Github
         uses: actions/upload-artifact@main
