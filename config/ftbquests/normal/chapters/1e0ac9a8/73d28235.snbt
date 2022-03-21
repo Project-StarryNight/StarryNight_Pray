@@ -6,7 +6,6 @@
 		"bf5818d6"
 	],
 	size: 1.25d,
-	optional: true,
 	tasks: [{
 		uid: "aa9a9afe",
 		type: "item",

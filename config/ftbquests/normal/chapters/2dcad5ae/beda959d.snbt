@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: 4.0d,
+	dependencies: [
+		"f9ac87ec"
+	],
+	tasks: [{
+		uid: "f47c4a55",
+		type: "item",
+		items: [{
+			id: "thaumcraft:fortress_helm",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

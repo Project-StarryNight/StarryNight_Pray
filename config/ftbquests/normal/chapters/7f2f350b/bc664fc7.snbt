@@ -1,0 +1,35 @@
+{
+	title: "咒波吸收",
+	x: 2.0d,
+	y: -1.5d,
+	description: "制作咒波凝结器来将环境中的咒波转变为污染要素",
+	text: [
+		"神秘原版提供了清理咒波的办法",
+		"那就是这台机器",
+		"在这台机器的侧面通入除污染要素以外的任意要素",
+		"可以将大气中的咒波转变为污染要素并从其下部输出",
+		"但是凝结隔栅会堵塞，请及时使用源质滤管来右击清理它"
+	],
+	dependencies: [
+		"9a52d189"
+	],
+	tasks: [{
+		uid: "07a722d7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser"
+		}]
+	},
+	{
+		uid: "ae45f671",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser_lattice"
+		}]
+	}],
+	rewards: [{
+		uid: "e8f4542b",
+		type: "item",
+		item: "thaumcraft:filter"
+	}]
+}

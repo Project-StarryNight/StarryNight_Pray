@@ -1,0 +1,11 @@
+{
+	x: 14.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "0e4a10d1",
+		type: "item",
+		items: [{
+			item: "modularcontroller:magic_naquadah_reactor_controller"
+		}]
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "&9Tier 6 - &d剧差压 (LuV)",
+	icon: "gregtech:machine 1 991",
+	always_invisible: false,
+	group: -1097345554,
+	default_quest_shape: ""
+}

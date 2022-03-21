@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "379a83db",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_magic_0"
+		}]
+	}]
+}

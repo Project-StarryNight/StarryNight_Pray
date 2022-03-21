@@ -1,0 +1,7 @@
+{
+	title: "&9Tier 1 ~ 9 - &e能源运输与管理",
+	icon: "gregtech:cable_quadruple 1 2",
+	always_invisible: false,
+	group: -1792240729,
+	default_quest_shape: ""
+}

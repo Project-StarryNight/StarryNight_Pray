@@ -1,0 +1,14 @@
+{
+	title: "&b空气",
+	x: -0.5d,
+	y: 4.0d,
+	description: "吸一口",
+	dependencies: [
+		"10ae78de"
+	],
+	tasks: [{
+		uid: "5f611144",
+		type: "fluid",
+		fluid: "air"
+	}]
+}

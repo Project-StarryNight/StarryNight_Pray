@@ -1,0 +1,16 @@
+<galaxy>
+    <star name="GSP" temp="100" x="0" y="0" numPlanets="4" numGasGiants="2" blackHole="true">
+        <planet name="GSP-055RS" DIMID="1001" customIcon="marslike">
+            <isKnown>True</isKnown>
+            <fogColor>0xDAA520</fogColor>
+            <skyColor>0xFFD700</skyColor>
+            <atmosphereDensity>150</atmosphereDensity>
+            <gravitationalMultiplier>120</gravitationalMultiplier>
+            <orbitalDistance>85</orbitalDistance>
+            <seaLevel>64</seaLevel>
+            <oceanBlock>Gregtech:fluid.gsp_055_rs_seawater</oceanBlock>
+            <biomeIds>43,46,49</biomeIds>
+            <avgTemperature>500</avgTemperature>
+        </planet>
+    </star>
+</galaxy>

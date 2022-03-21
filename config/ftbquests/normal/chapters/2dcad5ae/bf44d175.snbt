@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"0e00eacb"
+	],
+	tasks: [{
+		uid: "369abf0b",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:augment_builder_effect",
+			tag: {
+				id: "thaumicaugmentation:effect_cost"
+			}
+		}]
+	}]
+}

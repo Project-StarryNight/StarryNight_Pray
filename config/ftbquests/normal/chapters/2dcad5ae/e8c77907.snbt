@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	dependencies: [
+		"47c318bb"
+	],
+	tasks: [{
+		uid: "2fd866f5",
+		type: "item",
+		items: [{
+			id: "thaumcraft:cloud_ring",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

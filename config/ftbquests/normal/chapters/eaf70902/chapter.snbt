@@ -1,0 +1,15 @@
+{
+	title: "&5魔法 - &b星辉魔法 (Astral Sorcery)",
+	icon: {
+		id: "astralsorcery:itemwand",
+		tag: {
+			astralsorcery: {}
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 2087384099,
+	default_quest_shape: ""
+}

@@ -1,7 +1,84 @@
 {
-	title: "如何发电？",
+	title: "&9Extra - &a发电机指南",
 	icon: "gregtech:machine 1 950",
 	always_invisible: false,
 	group: -1792240729,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 0.5d,
+		y: 0.0d,
+		width: 8.4d,
+		height: 8.75d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/generator_lv_mv_hv-9.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: 0.0d,
+		width: 2.5d,
+		height: 8.75d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/generator_ev-2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.0d,
+		y: 0.0d,
+		width: 2.5d,
+		height: 8.75d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/generator_iv-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 10.5d,
+		y: 0.0d,
+		width: 2.5d,
+		height: 8.75d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/generator_luv-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 14.5d,
+		y: 0.0d,
+		width: 5.5d,
+		height: 8.75d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/generator_zpm_uv-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.85d,
+		y: -6.5d,
+		width: 23.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/extra_generator-4.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.75d,
+		y: 5.75d,
+		width: 11.25d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/generator_rf-9.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

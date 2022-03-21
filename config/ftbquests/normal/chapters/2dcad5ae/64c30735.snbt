@@ -1,0 +1,43 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	dependencies: [
+		"8fa63541"
+	],
+	tasks: [{
+		uid: "1e3f07a4",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plateThaumium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plateThaumium"
+				}
+			}
+		}]
+	},
+	{
+		uid: "b1a04c1c",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plateBrass"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plateBrass"
+				}
+			}
+		}]
+	}]
+}

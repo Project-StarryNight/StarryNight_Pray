@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: -1.0d,
+	dependencies: [
+		"e8c77907"
+	],
+	tasks: [{
+		uid: "1a2c6e95",
+		type: "item",
+		items: [{
+			id: "lostmagic:ring_nutrition",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

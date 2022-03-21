@@ -1,0 +1,7 @@
+{
+	title: "&9科技 - &e物流管理",
+	icon: "gregtech:fluid_pipe_small 1 260",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

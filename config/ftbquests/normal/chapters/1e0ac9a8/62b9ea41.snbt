@@ -1,9 +1,13 @@
 {
-	x: 0.5d,
-	y: 7.5d,
+	title: "&bMV 机械方块",
+	x: 2.5d,
+	y: 8.0d,
+	shape: "gear",
+	description: "前往 MV 阶段的一大步",
 	dependencies: [
 		"e0e4b73e"
 	],
+	size: 1.25d,
 	tasks: [{
 		uid: "fd254e39",
 		type: "item",

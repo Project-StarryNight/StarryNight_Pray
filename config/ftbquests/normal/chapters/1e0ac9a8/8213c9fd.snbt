@@ -1,0 +1,16 @@
+{
+	title: "&b隔热机械方块",
+	x: -0.5d,
+	y: 8.0d,
+	description: "电力高炉的基础",
+	dependencies: [
+		"aa93c815"
+	],
+	tasks: [{
+		uid: "ccdb9947",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}]
+	}]
+}

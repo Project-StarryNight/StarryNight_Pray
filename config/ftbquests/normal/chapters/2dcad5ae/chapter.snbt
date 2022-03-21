@@ -1,0 +1,23 @@
+{
+	title: "&5魔法 - &d神秘时代 6 (TC6)",
+	icon: {
+		id: "thaumcraft:caster_basic",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 2087384099,
+	default_quest_shape: "",
+	images: [{
+		x: 10.0d,
+		y: -5.0d,
+		width: 25.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/tc6_title-3.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

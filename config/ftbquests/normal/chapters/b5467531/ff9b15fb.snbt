@@ -1,11 +1,13 @@
 {
 	title: "&b高级集成电路",
-	x: -9.5d,
+	x: -10.0d,
 	y: 3.5d,
+	shape: "gear",
 	description: "前往 HV 阶段的一大步",
 	dependencies: [
 		"8f438c33"
 	],
+	size: 1.25d,
 	tasks: [{
 		uid: "ae9c1893",
 		type: "item",

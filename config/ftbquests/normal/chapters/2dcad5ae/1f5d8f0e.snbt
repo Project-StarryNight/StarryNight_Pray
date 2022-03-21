@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	dependencies: [
+		"84d65782"
+	],
+	tasks: [{
+		uid: "676e499d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:recharge_pedestal"
+		}]
+	}]
+}

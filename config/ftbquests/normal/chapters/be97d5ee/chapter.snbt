@@ -1,0 +1,7 @@
+{
+	title: "&9格雷科技 - &5机械",
+	icon: "gregtech:meta_gear 1 276",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

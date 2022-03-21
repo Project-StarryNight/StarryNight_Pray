@@ -1,0 +1,16 @@
+{
+	title: "&b殷钢锭",
+	x: -2.0d,
+	y: 8.0d,
+	description: "更硬的钢",
+	dependencies: [
+		"052b5859"
+	],
+	tasks: [{
+		uid: "296dcd7d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 287"
+		}]
+	}]
+}

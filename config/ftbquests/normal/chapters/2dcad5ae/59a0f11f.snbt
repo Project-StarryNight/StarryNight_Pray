@@ -1,0 +1,52 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"f8b4e52a"
+	],
+	tasks: [{
+		uid: "2e9396ff",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:thaumium_robes_hood",
+			tag: {
+				color: 11360678
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e01590f9",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:thaumium_robes_chestplate",
+			tag: {
+				color: 11360678
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d349efd",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:thaumium_robes_leggings",
+			tag: {
+				color: 11360678
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

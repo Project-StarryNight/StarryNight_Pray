@@ -1,0 +1,21 @@
+{
+	title: "清理坩埚",
+	x: 0.0d,
+	y: -1.5d,
+	description: "喂不饱的狼",
+	text: [
+		"使用石英碎片能以2:1的比例结晶坩埚中剩余的要素",
+		"可以避免直接排放坩埚产生咒波",
+		"是前期的良好的咒波预防手段"
+	],
+	dependencies: [
+		"71328e54"
+	],
+	tasks: [{
+		uid: "1697e8cb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nugget 1 9"
+		}]
+	}]
+}

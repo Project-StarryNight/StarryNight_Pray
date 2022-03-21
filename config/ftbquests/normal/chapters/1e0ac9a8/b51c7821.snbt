@@ -3,7 +3,7 @@
 	x: 3.75d,
 	y: 1.5d,
 	shape: "gear",
-	description: "欢迎来到 MV 阶段！",
+	description: "前往 MV 阶段的一大步",
 	dependencies: [
 		"8347489a",
 		"653d4067"

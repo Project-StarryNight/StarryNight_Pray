@@ -1,0 +1,29 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"ed977daf"
+	],
+	tasks: [{
+		uid: "0c6830b7",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_axe",
+			tag: {
+				infench: [{
+					id: 2s,
+					lvl: 1s
+				},
+				{
+					id: 0s,
+					lvl: 1s
+				}]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

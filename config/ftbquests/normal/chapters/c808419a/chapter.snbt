@@ -1,0 +1,7 @@
+{
+	title: "&9Tier 3 - &6高压 (HV)",
+	icon: "gregtech:machine 1 988",
+	always_invisible: false,
+	group: -1097345554,
+	default_quest_shape: ""
+}

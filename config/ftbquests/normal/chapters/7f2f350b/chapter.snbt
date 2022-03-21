@@ -1,0 +1,12 @@
+{
+	title: "&5魔法 - &d与咒波再见",
+	icon: {
+		id: "thaumcraft:creative_flux_sponge",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 2087384099,
+	default_quest_shape: ""
+}

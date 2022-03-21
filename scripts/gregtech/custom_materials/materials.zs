@@ -18,12 +18,14 @@ MaterialBuilder(32001, "magic")
     .ore(2, 1, true)
     .build();
 
+//注册现有的神秘
 MaterialBuilder(32002, "thaumium")
     .ingot()
     .color(0x473B6D).iconSet("INGOT")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod", "generate_ring"])
     .build();
 
+//注册现有的虚空物质
 MaterialBuilder(32003, "void")
     .ingot()
     .color(0x2A1248).iconSet("INGOT")

@@ -16,6 +16,15 @@ import mods.gregtech.recipe.RecipeMap;
     .duration(40)
     .buildAndRegister();
 
+<recipemap:extractor>.recipeBuilder()
+    .inputs([
+        <ore:cropCanola> * 1
+    ])
+    .fluidOutputs(<liquid:canolaoil> * 200)
+    .EUt(32)
+    .duration(60)
+    .buildAndRegister();
+
 //精致菜籽油
 <recipemap:fermenter>.recipeBuilder()
     .inputs([

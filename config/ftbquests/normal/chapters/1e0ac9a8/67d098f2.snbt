@@ -1,0 +1,29 @@
+{
+	title: "&e注意！",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 1.0d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "关于电力高炉",
+	text: [
+		"电力高炉可以有多个能源仓，这意味着你可以用多个低级能源仓来达到配方要求的电力消耗。"
+	],
+	dependencies: [
+		"51685547"
+	],
+	tasks: [{
+		uid: "c7dab0f1",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6b5413e2",
+		type: "item",
+		item: "gregtech:machine 1 1211"
+	}]
+}

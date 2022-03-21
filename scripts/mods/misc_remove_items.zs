@@ -18,22 +18,7 @@ var items as IItemStack[] = [
     <actuallyadditions:block_oil_generator>,#原油发电机
     <actuallyadditions:block_heat_collector>,#热能发电机
     <actuallyadditions:block_leaf_generator>,#咀叶发电机
-    <actuallyadditions:item_drill:0>,#手钻
-    <actuallyadditions:item_drill:1>,
-    <actuallyadditions:item_drill:2>,
-    <actuallyadditions:item_drill:3>,
-    <actuallyadditions:item_drill:4>,
-    <actuallyadditions:item_drill:5>,
-    <actuallyadditions:item_drill:6>,
-    <actuallyadditions:item_drill:7>,
-    <actuallyadditions:item_drill:8>,
-    <actuallyadditions:item_drill:9>,
-    <actuallyadditions:item_drill:10>,
-    <actuallyadditions:item_drill:11>,
-    <actuallyadditions:item_drill:12>,
-    <actuallyadditions:item_drill:13>,
-    <actuallyadditions:item_drill:14>,
-    <actuallyadditions:item_drill:15>,
+    <actuallyadditions:item_drill:*>,#手钻
     <rftools:endergenic>,#RFTools
     <rftools:pearl_injector>,
     <rftools:ender_monitor>,
@@ -50,10 +35,6 @@ var items as IItemStack[] = [
     <rftools:storage_scanner>,
     <advancedrocketry:arcfurnace>,#电弧高炉
     <advancedrocketry:blastbrick>,#隔热砖
-    <enderio:block_solar_panel:0>,#光伏板
-    <enderio:block_solar_panel:1>,#简易光伏电池
-    <enderio:block_solar_panel:2>,#强化伏电池
-    <enderio:block_solar_panel:3>,#脉冲光伏电池
     <enderio:block_combustion_generator>,#燃烧发电机
     <enderio:block_enhanced_combustion_generator>,#强化燃烧发电机
     <enderio:block_simple_stirling_generator>,#简易斯特林发电机
@@ -61,7 +42,8 @@ var items as IItemStack[] = [
     <enderio:block_zombie_generator>,#僵尸发电机
     <enderio:block_franken_zombie_generator>,#人造僵尸发电机
     <enderio:block_ender_generator>,#末影发电机
-    <actuallyadditions:item_disenchanting_lens>#祛魔透镜
+    <actuallyadditions:item_disenchanting_lens>,#祛魔透镜
+    <libvulpes:coalgenerator>#燃煤发电机
 ];
 
 for i, item in items {
@@ -74,7 +56,11 @@ for i, item in items {
 var recipeItems as IItemStack[] = [
     <thaumcraft:plate>,#TC6 黄铜板
     <thaumcraft:plate:1>,#TC6 铁板
-    <thaumcraft:plate:2>#TC6 神秘板
+    <thaumcraft:plate:2>,#TC6 神秘板
+    <thaumcraft:plate:3>,#TC6 虚空金属板
+    <enderio:block_solar_panel:4>,#晶化光伏板
+    <enderio:block_solar_panel:5>,#旋律光伏板
+    <enderio:block_solar_panel:6>#恒星光伏板
 ];
 
 for i, item in recipeItems {
@@ -125,7 +111,11 @@ var jeiItems as IItemStack[] = [
     <ironchest:diamond_obsidian_shulker_upgrade>,
     <ironchest:iron_chest:7>,#泥箱子 9000!
     <appliedenergistics2:quartz_ore>,#赛特斯石英矿石
-    <modularmachinery:itemblueprint>#机械蓝图
+    <modularmachinery:itemblueprint>,#机械蓝图
+    <enderutilities:chairwand>,
+    <enderutilities:dolly>,
+    <enderutilities:machine_1:2>,
+    <enderutilities:molecular_exciter>
 ];
 
 for i, item in jeiItems {
