@@ -28,7 +28,7 @@ jobs:
       - name: Build the modpack
         run: |
           rm -rf snp/mods
-          cp snp/* modpack/overrides
+          cp -r snp/* modpack/overrides
           rm -rf modpack/.git
           rm -rf modpack/.github
           zip -r -9 SNP_modpack${{ env.FILE_DATE }}.zip modpack
