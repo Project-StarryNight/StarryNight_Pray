@@ -51,6 +51,6 @@ jobs:
       - name: Upload artifact to Github
         uses: actions/upload-artifact@main
         with:
-          name: paperbox_client_${{ env.FILE_DATE }}.zip
+          name: paperbox_client${{ env.FILE_DATE }}.zip
           path: /home/runner/work/StarryNight_Pray/StarryNight_Pray
 
