@@ -4,7 +4,8 @@
 		id: "bewitchment:dragons_blood_broom",
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
-		}
+		},
+		Count: 1b
 	},
 	always_invisible: false,
 	group: 2087384099,

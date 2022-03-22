@@ -239,7 +239,7 @@ recipes.addShaped(<thaumcraft:stone_arcane> * 9,[
     ]);
 
 //奥术工作台合成
-ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@3", 50,
+ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@2", 50,
     [<aspect:aer> * 1, <aspect:aqua> * 1, <aspect:ordo> * 1, <aspect:perditio> * 1, <aspect:ignis> * 1, <aspect:terra> * 1], <thaumcraft:thaumometer>, [
     [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>],
     [<ore:plateGold>,<ore:lensGlass>,<ore:plateGold>],
@@ -324,7 +324,7 @@ ArcaneWorkbench.registerShapedRecipe("Alembic", "ESSENTIASMELTER@2", 100,
     [<ore:screwBrass>, <ore:ringBrass>, <ore:screwBrass>]
     ]);
 
-ArcaneWorkbench.registerShapedRecipe("EssentiaSmelter", "ESSENTIASMELTER@2", 100,
+ArcaneWorkbench.registerShapedRecipe("EssentiaSmelter", "ESSENTIASMELTER@1", 100,
     [<aspect:ignis> * 4], <thaumcraft:smelter_basic>, [
     [<ore:plateBrass>, <thaumcraft:crucible>, <ore:plateBrass>],
     [<gregtech:meta_item_1:142>, <gregtech:meta_item_1:97>, <gregtech:meta_item_1:142>],
@@ -519,11 +519,11 @@ Crucible.registerRecipe("nitor", "UNLOCKALCHEMY",<thaumcraft:nitor_yellow>, <ore
 
 //注魔合成
 Infusion.registerRecipe("mirror", "MIRROR", <thaumcraft:mirror>, 4,
-    [<aspect:motus> * 25, <aspect:permutatio> * 25, <aspect:tenebrae> * 25, <aspect:stellae> * 25], <thaumcraft:mirrored_glass>,
+    [<aspect:motus> * 25, <aspect:permutatio> * 25, <aspect:tenebrae> * 25], <thaumcraft:mirrored_glass>,
     [<ore:plateGold>, <ore:plateEnderPearl>, <ore:plateGold>, <ore:plateGold>, <ore:plateEnderPearl>, <ore:plateGold>]);
 
 Infusion.registerRecipe("mirroressentia", "MIRRORESSENTIA", <thaumcraft:mirror_essentia>, 5,
-    [<aspect:aqua> * 25, <aspect:motus> * 25, <aspect:permutatio> * 25, <aspect:luna> * 25], <thaumcraft:mirrored_glass>,
+    [<aspect:aqua> * 25, <aspect:motus> * 25, <aspect:permutatio> * 25], <thaumcraft:mirrored_glass>,
     [<ore:plateSteel>, <ore:plateEnderPearl>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateEnderPearl>, <ore:plateSteel>]);
 
 Infusion.registerRecipe("mirrorhand", "MIRRORHAND", <thaumcraft:hand_mirror>, 7.5,
