@@ -1,0 +1,12 @@
+{
+	title: "&6挑战",
+	icon: {
+		id: "minecraft:diamond_sword",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

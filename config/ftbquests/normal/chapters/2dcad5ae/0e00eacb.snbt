@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	dependencies: [
+		"7c7ae768"
+	],
+	tasks: [{
+		uid: "4db8d346",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:gauntlet",
+			tag: {
+				color: 8022208
+			},
+			ForgeCaps: {
+				Parent: {
+					slots: 3
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "&5魔法 - &4巫术 (Bewitchment)",
+	icon: {
+		id: "bewitchment:dragons_blood_broom",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 2087384099,
+	default_quest_shape: ""
+}

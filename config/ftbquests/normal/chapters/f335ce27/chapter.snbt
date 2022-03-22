@@ -1,0 +1,7 @@
+{
+	title: "&9Tier 5 - &1强导压 (IV)",
+	icon: "gregtech:machine 1 990",
+	always_invisible: false,
+	group: -1097345554,
+	default_quest_shape: ""
+}

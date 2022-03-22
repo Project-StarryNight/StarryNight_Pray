@@ -7,7 +7,18 @@
 		uid: "3fd4de78",
 		type: "item",
 		items: [{
-			item: "variedcommodities:ingot_steel"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotSteel"
+				}
+			}
 		}]
 	}]
 }

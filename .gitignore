@@ -42,3 +42,5 @@ AudioBuffer
 .vscode
 /mods/AudioBuffer-1.0.jar
 stall-reports
+BiomeDump.txt
+resources/mainmenu/back.psd

@@ -396,37 +396,6 @@
     </lines>
 
     <lines at="bottomleft">
-
-    </lines>
-
-    <lines at="middlecenter">
-    <line>
-
-            <operation>
-                <str>GE</str>
-                <pct>
-                    <var>memused</var>
-                    <var>memmax</var>
-                </pct>
-                <num>98</num>
-                <num>95</num>
-                    <str>$4内存占用过高,请检查是否为程序分配足够内存</str>
-                    <str>$c内存占用高</str>
-            </operation>
-    </line>
-
-    <line>
-        <op>
-            <str>GT</str>
-            <var>speed</var>
-            <num>150</num>
-            <str>$4飞的太快了,快停下来</str>
-        </op>
-    </line>
-
-    </lines>
-
-    <lines at="bottomleft">
     <line>
         <icon>
             <str>thaumcraft:curio</str>

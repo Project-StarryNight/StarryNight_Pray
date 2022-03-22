@@ -1,1 +1,16 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "bewitchment:book_of_shadows": {
+      "viewedEntries": [
+        "bewitchment:magic_overview/triskelion"
+      ],
+      "bookmarks": [],
+      "history": [
+        "bewitchment:magic_overview/triskelion"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

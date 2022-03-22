@@ -1,0 +1,21 @@
+{
+	title: "&b电力高炉",
+	x: -0.5d,
+	y: 6.5d,
+	shape: "gear",
+	description: "将会陪伴你很久...",
+	text: [
+		"电力高炉是一个多方块结构，用来烧制合金"
+	],
+	dependencies: [
+		"8213c9fd"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "75c59c1d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1001"
+		}]
+	}]
+}

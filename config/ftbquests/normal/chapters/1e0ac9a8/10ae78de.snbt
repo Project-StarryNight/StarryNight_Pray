@@ -1,0 +1,16 @@
+{
+	title: "&b基础集气器",
+	x: -1.5d,
+	y: 4.0d,
+	description: "空气也可以是重要的材料",
+	dependencies: [
+		"19ab6bb9"
+	],
+	tasks: [{
+		uid: "94670a29",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 530"
+		}]
+	}]
+}

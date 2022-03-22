@@ -1,0 +1,15 @@
+{
+	title: "&b氮",
+	x: 1.0d,
+	y: 3.5d,
+	description: "空气中有多少这玩意？",
+	dependencies: [
+		"2945b006",
+		"6addad26"
+	],
+	tasks: [{
+		uid: "d2648344",
+		type: "fluid",
+		fluid: "nitrogen"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	dependencies: [
+		"47c318bb"
+	],
+	tasks: [{
+		uid: "30a909ce",
+		type: "item",
+		items: [{
+			item: "thaumcraft:causality_collapser"
+		}]
+	}]
+}

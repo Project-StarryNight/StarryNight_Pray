@@ -1,0 +1,7 @@
+{
+	title: "&e物流 - &b仓储",
+	icon: "ironchest:iron_chest 1 2",
+	always_invisible: false,
+	group: 370437043,
+	default_quest_shape: ""
+}

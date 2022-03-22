@@ -1,8 +1,8 @@
 {
 	title: "&b砖块",
 	icon: "minecraft:brick_block",
-	x: 2.5d,
-	y: 1.0d,
+	x: 4.0d,
+	y: 2.5d,
 	description: "制作砖块，不过这次不是建材，而是材料...",
 	dependencies: [
 		"f26c7306"

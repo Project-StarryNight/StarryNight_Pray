@@ -55,7 +55,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'StarryNight_Pray ModPack by Hikari_Nova';
+S:customwindowtitle = '[纸箱工艺 VII] Based on SNP ModPack by Hikari_Nova';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 

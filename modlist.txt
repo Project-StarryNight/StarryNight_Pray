@@ -17,6 +17,7 @@
         (附属)
         -[GT TOP扩展][GregicProbe-1.0]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
+        -[格雷食物优选][GregTechFoodOption-1.12.2-1.4.2]
 
     -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v50f]
         (附属)

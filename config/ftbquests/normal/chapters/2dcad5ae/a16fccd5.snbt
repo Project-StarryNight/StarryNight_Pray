@@ -1,0 +1,19 @@
+{
+	x: 13.5d,
+	y: 3.5d,
+	dependencies: [
+		"47c318bb"
+	],
+	tasks: [{
+		uid: "e20f40a0",
+		type: "item",
+		items: [{
+			id: "thaumicperiphery:pauldron_repulsion",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

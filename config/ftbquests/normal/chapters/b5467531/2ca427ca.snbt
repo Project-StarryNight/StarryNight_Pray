@@ -1,9 +1,9 @@
 {
 	title: "&bHV 机械方块",
-	x: -9.5d,
+	x: -10.0d,
 	y: 0.5d,
 	shape: "gear",
-	description: "欢迎来到 HV 阶段！",
+	description: "前往 HV 阶段的一大步",
 	dependencies: [
 		"5b347b49"
 	],

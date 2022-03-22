@@ -1,0 +1,11 @@
+{
+	x: 0.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "d5565994",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel"
+		}]
+	}]
+}

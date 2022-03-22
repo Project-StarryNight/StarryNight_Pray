@@ -1,0 +1,7 @@
+{
+	title: "&9Tier 7 - &r零点压 (ZPM)",
+	icon: "gregtech:machine 1 992",
+	always_invisible: false,
+	group: -1097345554,
+	default_quest_shape: ""
+}

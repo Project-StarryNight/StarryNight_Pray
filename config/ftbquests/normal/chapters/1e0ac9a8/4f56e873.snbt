@@ -1,8 +1,11 @@
 {
-	x: 2.0d,
-	y: 6.0d,
+	title: "&b铝锭",
+	x: 1.0d,
+	y: 5.0d,
+	description: "前往 MV 阶段的一大步",
 	dependencies: [
-		"09f14d53"
+		"97d0f780",
+		"51685547"
 	],
 	tasks: [{
 		uid: "d3abe148",

@@ -1,0 +1,13 @@
+{
+	title: "&5魔法 - &c血魔法 (Blood Magic)",
+	icon: {
+		id: "bloodmagic:sacrificial_dagger",
+		tag: {},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 2087384099,
+	default_quest_shape: ""
+}

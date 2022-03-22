@@ -1,0 +1,12 @@
+controller_info=§e======== §6控制器信息 §e========
+voltage_level=§e电压等级：
+## 魔力硅岩反应堆
+magic_naquadah_reactor_tooltip_1=§7工作原理类似§a裂变反应堆§7，但是输入的材料稍有不同。
+magic_naquadah_reactor_tooltip_2=§7利用少量的§a浓缩六氟化铀§7和§a富集硅岩燃料§7，可以产出高达 §rZPM §7级别的蒸汽量。
+magic_naquadah_reactor_tooltip_3=§7它甚至可以输入更高级别的燃料，以达到 §3UV §7级别的蒸汽产能。
+magic_naquadah_reactor_tooltip_4=§7除此之外，反应堆内的§a元始魔力§7也会被慢慢§c消耗
+magic_naquadah_reactor_tooltip_5=§7因此你需要输入少量的§a元始魔力§7来保持反应堆平衡。
+## 硅岩移相器
+naquadah_phaser_controller_tooltip_1=§7一个高科技机械，可以把§a硅岩§7转化为§a高能燃料§7。
+naquadah_phaser_controller_tooltip_2=§7除此之外，它还可以改进现有的§a高能燃料§7，使其产能更加§a高效§7。
+naquadah_phaser_controller_tooltip_3=§r§o少量投入，大量产出，简直就是业界良心

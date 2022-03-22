@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"db725775"
+	],
+	tasks: [{
+		uid: "073378be",
+		type: "item",
+		items: [{
+			id: "thaumicwonders:night_vision_goggles",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

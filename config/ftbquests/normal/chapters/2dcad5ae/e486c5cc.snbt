@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: -2.0d,
+	dependencies: [
+		"47c318bb"
+	],
+	tasks: [{
+		uid: "dcaac528",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:flying_carpet"
+		}]
+	}]
+}

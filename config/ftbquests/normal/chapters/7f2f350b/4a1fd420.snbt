@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "20467999",
+		type: "item",
+		items: [{
+			id: "lostmagic:purifying_shovel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

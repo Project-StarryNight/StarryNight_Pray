@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"8fa63541"
+	],
+	tasks: [{
+		uid: "af9764da",
+		type: "item",
+		items: [{
+			item: "thaumadditions:thaumic_lectern"
+		}]
+	}]
+}

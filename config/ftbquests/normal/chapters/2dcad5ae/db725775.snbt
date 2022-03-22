@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"64c30735"
+	],
+	tasks: [{
+		uid: "7e4965f8",
+		type: "item",
+		items: [{
+			id: "thaumcraft:goggles",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

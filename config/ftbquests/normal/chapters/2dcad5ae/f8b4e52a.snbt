@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"08641d01"
+	],
+	tasks: [{
+		uid: "378899bb",
+		type: "item",
+		items: [{
+			id: "thaumcraft:cloth_chest",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

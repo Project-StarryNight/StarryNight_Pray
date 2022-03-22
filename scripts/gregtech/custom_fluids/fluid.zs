@@ -35,3 +35,24 @@ MaterialBuilder(32502, "super_naquadah_fuel")
     .fluidTemp(8500)
     .color(0x3CB371)
     .build();
+
+//GSP-055RS空气
+MaterialBuilder(32701, "gsp_055_rs_air")
+    .fluid(FluidTypes.GAS, false)
+    .fluidTemp(500)
+    .color(0xFFA500)
+    .build();
+
+//GSP-055RS海水
+MaterialBuilder(32702, "gsp_055_rs_seawater")
+    .fluid(FluidTypes.LIQUID, true)
+    .fluidTemp(700)
+    .color(0xDAA520)
+    .build();
+
+//液态GSP-055RS空气
+MaterialBuilder(32703, "liquid_gsp_055_rs_air")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(78)
+    .color(0xE99700)
+    .build();

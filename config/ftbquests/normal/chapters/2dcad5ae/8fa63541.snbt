@@ -1,0 +1,45 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"08641d01"
+	],
+	tasks: [{
+		uid: "9d021174",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotThaumium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotThaumium"
+				}
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "a22a6425",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBrass"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBrass"
+				}
+			}
+		}],
+		count: 3L
+	}]
+}

@@ -14,3 +14,5 @@ recipes.addShaped(<chisel:auto_chisel>, [
 
 //移除钢锭燃烧配方
 furnace.remove(<variedcommodities:ingot_steel>, <minecraft:iron_ingot>);
+furnace.remove(<libvulpes:productingot:7>);
+furnace.remove(<minecraft:coal:1>);
