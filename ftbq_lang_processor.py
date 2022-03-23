@@ -1,6 +1,6 @@
 import os
 
-ftbquests_path = ".minecraft/config/ftbquests"
+ftbquests_path = "config/ftbquests"
 zh_cn_path = "resources/snp/lang/zh_cn.lang"
 en_us_path = "resources/snp/lang/en_us.lang"
 should_replace_key_type_value = [
