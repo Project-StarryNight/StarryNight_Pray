@@ -1,5 +1,5 @@
 {
-	title: "&5魔法 - &d神秘时代 6 (TC6)",
+	title: "{snp.quests.2dcad5ae.title}",
 	icon: {
 		id: "thaumcraft:caster_basic",
 		ForgeCaps: {

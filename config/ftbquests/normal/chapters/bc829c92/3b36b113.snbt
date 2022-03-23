@@ -1,8 +1,8 @@
 {
-	title: "&b电阻",
+	title: "{snp.quests.3b36b113.title}",
 	x: 10.5d,
 	y: 12.0d,
-	description: "它的电阻是多少欧呢？",
+	description: "{snp.quests.3b36b113.description}",
 	tasks: [{
 		uid: "13d2c23d",
 		type: "item",

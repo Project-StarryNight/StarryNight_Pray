@@ -1,8 +1,8 @@
 {
-	title: "&b基础蒸汽涡轮机",
+	title: "{snp.quests.311aaba8.title}",
 	x: -2.5d,
 	y: 7.0d,
-	description: "蒸汽蒸汽蒸汽...",
+	description: "{snp.quests.311aaba8.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

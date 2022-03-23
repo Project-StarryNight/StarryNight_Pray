@@ -1,5 +1,5 @@
 {
-	title: "&b不太一样的斧",
+	title: "{snp.quests.46c8ada0.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 3s,
@@ -14,7 +14,7 @@
 	},
 	x: 0.0d,
 	y: 2.5d,
-	description: "可以连锁砍伐树木",
+	description: "{snp.quests.46c8ada0.description}",
 	dependencies: [
 		"6c2cdd15"
 	],

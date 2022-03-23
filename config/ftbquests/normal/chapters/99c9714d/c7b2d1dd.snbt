@@ -1,5 +1,5 @@
 {
-	title: "&e一些任务提示",
+	title: "{snp.quests.c7b2d1dd.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,10 +10,10 @@
 	x: 0.0d,
 	y: 2.5d,
 	shape: "diamond",
-	description: "每种不同种类的任务的外观是独特的",
+	description: "{snp.quests.c7b2d1dd.description}",
 	text: [
-		"&b钻石形&r的任务主要为提示",
-		"&b圆形&r的任务则为主要任务，也将会是你遇到最多的"
+		"{snp.quests.c7b2d1dd.text.1}",
+		"{snp.quests.c7b2d1dd.text.2}"
 	],
 	dependencies: [
 		"426ead0d"

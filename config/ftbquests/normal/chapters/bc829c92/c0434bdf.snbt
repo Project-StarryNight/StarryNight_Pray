@@ -1,12 +1,12 @@
 {
-	title: "&b青铜",
+	title: "{snp.quests.c0434bdf.title}",
 	icon: "gregtech:meta_ingot 1 260",
 	x: 2.5d,
 	y: -0.5d,
-	description: "青铜时代",
+	description: "{snp.quests.c0434bdf.description}",
 	text: [
-		"使用 1 个锡粉和 3 个铜粉，可以在工作台合成 4 个青铜粉",
-		"然后丢进熔炉，别忘了放燃料..."
+		"{snp.quests.c0434bdf.text.1}",
+		"{snp.quests.c0434bdf.text.2}"
 	],
 	dependencies: [
 		"f26c7306",

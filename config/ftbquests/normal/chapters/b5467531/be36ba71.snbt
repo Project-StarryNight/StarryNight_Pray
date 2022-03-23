@@ -1,9 +1,9 @@
 {
-	title: "&b进阶化学反应釜",
+	title: "{snp.quests.be36ba71.title}",
 	x: 1.5d,
 	y: 6.5d,
 	shape: "gear",
-	description: "2Co + 4Fe = 2CoFFee",
+	description: "{snp.quests.be36ba71.description}",
 	dependencies: [
 		"3b9267af"
 	],

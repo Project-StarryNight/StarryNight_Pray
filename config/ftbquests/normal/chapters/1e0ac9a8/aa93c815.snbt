@@ -1,8 +1,8 @@
 {
-	title: "&b殷钢锭",
+	title: "{snp.quests.aa93c815.title}",
 	x: -2.0d,
 	y: 8.0d,
-	description: "更硬的钢",
+	description: "{snp.quests.aa93c815.description}",
 	dependencies: [
 		"052b5859"
 	],

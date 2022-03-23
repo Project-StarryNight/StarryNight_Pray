@@ -1,8 +1,8 @@
 {
-	title: "&b电力时代!",
+	title: "{snp.quests.19ab6bb9.title}",
 	x: -3.5d,
 	y: 3.0d,
-	description: "欢迎来到LV阶段!",
+	description: "{snp.quests.19ab6bb9.description}",
 	dependencies: [
 		"93c9fc33"
 	],

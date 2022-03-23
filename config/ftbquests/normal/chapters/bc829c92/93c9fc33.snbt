@@ -1,8 +1,8 @@
 {
-	title: "&blv机械方块（完整)",
+	title: "{snp.quests.93c9fc33.title}",
 	x: -0.5d,
 	y: 7.5d,
-	description: "就快成功了...",
+	description: "{snp.quests.93c9fc33.description}",
 	dependencies: [
 		"3cb30d49",
 		"7bd724b0"

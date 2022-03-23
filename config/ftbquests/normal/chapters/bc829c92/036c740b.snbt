@@ -1,8 +1,8 @@
 {
-	title: "&b覆膜电路基板",
+	title: "{snp.quests.036c740b.title}",
 	x: 9.0d,
 	y: 9.0d,
-	description: "木板 Plus",
+	description: "{snp.quests.036c740b.description}",
 	dependencies: [
 		"f9f799e7",
 		"60e490b7"

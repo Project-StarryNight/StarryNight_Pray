@@ -1,8 +1,8 @@
 {
-	title: "&b橡胶片",
+	title: "{snp.quests.067d8d27.title}",
 	x: 4.5d,
 	y: 9.0d,
-	description: "一片...两片...",
+	description: "{snp.quests.067d8d27.description}",
 	dependencies: [
 		"bc08bdc5",
 		"75092cf3"

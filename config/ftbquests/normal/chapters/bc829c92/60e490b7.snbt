@@ -1,8 +1,8 @@
 {
-	title: "&b木板",
+	title: "{snp.quests.60e490b7.title}",
 	x: 9.0d,
 	y: 7.5d,
-	description: "为什么不是纸呢",
+	description: "{snp.quests.60e490b7.description}",
 	dependencies: [
 		"2ce2c1de",
 		"daab2a59"

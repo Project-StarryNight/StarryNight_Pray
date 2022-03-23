@@ -1,5 +1,5 @@
 {
-	title: "&9Tier 5 - &1强导压 (IV)",
+	title: "{snp.quests.f335ce27.title}",
 	icon: "gregtech:machine 1 990",
 	always_invisible: false,
 	group: -1097345554,

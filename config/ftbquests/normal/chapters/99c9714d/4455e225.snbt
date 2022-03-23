@@ -2,12 +2,12 @@
 	x: 2.5d,
 	y: 5.0d,
 	shape: "diamond",
-	description: "合理利用快捷键能提高你游玩整合包的效率",
+	description: "{snp.quests.4455e225.description}",
 	text: [
-		"这个任务将会列出你会经常用到的键位",
-		"\"R\":在 GUI 中对着物品按\"R\",就会显示该物品的合成表，如果该物品没有合成，就不会显示",
-		"\"R\":在游戏中按\"R\"，可以显示超能物质的机器人能力选择",
-		"\"U\":在 GUI 中对着物品按\"U\"，就会显示该物品可以合成的物品"
+		"{snp.quests.4455e225.text.1}",
+		"{snp.quests.4455e225.text.2}",
+		"{snp.quests.4455e225.text.3}",
+		"{snp.quests.4455e225.text.4}"
 	],
 	dependencies: [
 		"c7b2d1dd"
@@ -15,7 +15,7 @@
 	tasks: [{
 		uid: "37db2850",
 		type: "checkmark",
-		title: "&e快捷键",
+		title: "{snp.quests.4455e225.title}",
 		icon: {
 			id: "botania:cosmetic",
 			Damage: 31s,

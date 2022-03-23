@@ -1,9 +1,9 @@
 {
-	title: "&b烧制物品",
+	title: "{snp.quests.f26c7306.title}",
 	icon: "minecraft:furnace",
 	x: 2.5d,
 	y: 1.0d,
-	description: "熟悉的熔炉...",
+	description: "{snp.quests.f26c7306.description}",
 	tasks: [{
 		uid: "4f1844a0",
 		type: "item",

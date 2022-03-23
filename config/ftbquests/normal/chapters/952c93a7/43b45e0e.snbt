@@ -1,11 +1,11 @@
 {
-	title: "&b停！锤子时间到！",
+	title: "{snp.quests.43b45e0e.title}",
 	x: -2.5d,
 	y: 7.5d,
-	description: "用你新制作的锤子把这些锭敲成板",
+	description: "{snp.quests.43b45e0e.description}",
 	text: [
-		"你可以在任务中点击一个物品，就可以查看它的配方。",
-		"现在利用 JEI 的合成表制作一点铁板。"
+		"{snp.quests.43b45e0e.text.1}",
+		"{snp.quests.43b45e0e.text.2}"
 	],
 	dependencies: [
 		"6c2cdd15"

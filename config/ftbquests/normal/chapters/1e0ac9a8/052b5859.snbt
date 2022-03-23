@@ -1,8 +1,8 @@
 {
-	title: "&b基础合金炉",
+	title: "{snp.quests.052b5859.title}",
 	x: -3.5d,
 	y: 8.0d,
-	description: "就像蒸汽合金炉一样熔炼金属，但是它只需要电力！",
+	description: "{snp.quests.052b5859.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

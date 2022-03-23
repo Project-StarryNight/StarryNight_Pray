@@ -1,5 +1,5 @@
 {
-	title: "&e地面样本",
+	title: "{snp.quests.1f3504d7.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,11 +10,11 @@
 	x: 0.0d,
 	y: 2.5d,
 	shape: "diamond",
-	description: "也许下面有大宝贝？",
+	description: "{snp.quests.1f3504d7.description}",
 	text: [
-		"相信你在遍历地图的时候已经看到了任务右边的图片内的物品了",
-		"有时候，地面会生成这些小撮粉",
-		"当有大量相同的簇生成时，不妨在这个方位向下挖看看是否有矿脉生成"
+		"{snp.quests.1f3504d7.text.1}",
+		"{snp.quests.1f3504d7.text.2}",
+		"{snp.quests.1f3504d7.text.3}"
 	],
 	dependencies: [
 		"75ae2fb6"

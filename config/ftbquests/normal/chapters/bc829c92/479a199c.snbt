@@ -1,5 +1,5 @@
 {
-	title: "&e这是一个独立的章节",
+	title: "{snp.quests.479a199c.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,13 +10,13 @@
 	x: -0.5d,
 	y: 1.0d,
 	shape: "diamond",
-	description: "为新人而打造。",
+	description: "{snp.quests.479a199c.description}",
 	text: [
-		"格雷科技的配方是以多种材料组合而成",
-		"这对于玩家的 JEI 要求比其他模组要高。",
-		"游玩格雷时，应常翻阅配方。",
-		"本章节将会引导你进入格雷主线。",
-		"此后任务只会列出重要部分供参考。"
+		"{snp.quests.479a199c.text.1}",
+		"{snp.quests.479a199c.text.2}",
+		"{snp.quests.479a199c.text.3}",
+		"{snp.quests.479a199c.text.4}",
+		"{snp.quests.479a199c.text.5}"
 	],
 	size: 1.5d,
 	tasks: [{

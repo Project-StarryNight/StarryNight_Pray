@@ -1,8 +1,8 @@
 {
-	title: "&b基础筛选机",
+	title: "{snp.quests.552d3007.title}",
 	x: -2.5d,
 	y: -2.0d,
-	description: "你会需要他的",
+	description: "{snp.quests.552d3007.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

@@ -1,5 +1,5 @@
 {
-	title: "&e多方块结构",
+	title: "{snp.quests.444fa08b.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,10 +10,10 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "更大的机器",
+	description: "{snp.quests.444fa08b.description}",
 	text: [
-		"多方块机械，也是格雷科技的\"灵魂\"",
-		"一个成型的多方块结构至少有一个控制器，若干机械方块，输入输出仓",
-		"同时，JEI 也提供了对多方块机械的支持，在 JEI 中对一个机械的控制器按 \"R\"，即可查看这个机械的结构例子"
+		"{snp.quests.444fa08b.text.1}",
+		"{snp.quests.444fa08b.text.2}",
+		"{snp.quests.444fa08b.text.3}"
 	]
 }

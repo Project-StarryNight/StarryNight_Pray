@@ -1,11 +1,11 @@
 {
-	title: "&b蒸汽提取机",
+	title: "{snp.quests.c6953f8c.title}",
 	x: 6.0d,
 	y: 5.0d,
-	description: "提取你的第一块橡胶",
+	description: "{snp.quests.c6953f8c.description}",
 	text: [
-		"提取机可以从某些物品里面提取出物质",
-		"一些更多配方你可以在 JEI 中找到"
+		"{snp.quests.c6953f8c.text.1}",
+		"{snp.quests.c6953f8c.text.2}"
 	],
 	dependencies: [
 		"acdde84f"

@@ -1,5 +1,5 @@
 {
-	title: "&9Extra - &a发电机指南",
+	title: "{snp.quests.31f13028.title}",
 	icon: "gregtech:machine 1 950",
 	always_invisible: false,
 	group: -1792240729,

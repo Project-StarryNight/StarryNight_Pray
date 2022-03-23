@@ -1,5 +1,5 @@
 {
-	title: "&9Tier 1 ~ 9 - &e电路",
+	title: "{snp.quests.097be462.title}",
 	icon: "gregtech:meta_item_1 1 621",
 	always_invisible: false,
 	group: -1792240729,

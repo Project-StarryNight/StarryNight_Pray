@@ -1,8 +1,8 @@
 {
-	title: "&b基础离心机",
+	title: "{snp.quests.2945b006.title}",
 	x: -1.5d,
 	y: 3.0d,
-	description: "分离出你想要的",
+	description: "{snp.quests.2945b006.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

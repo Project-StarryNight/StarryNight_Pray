@@ -1,5 +1,5 @@
 {
-	title: "&5魔法 - &b星辉魔法 (Astral Sorcery)",
+	title: "{snp.quests.eaf70902.title}",
 	icon: {
 		id: "astralsorcery:itemwand",
 		tag: {

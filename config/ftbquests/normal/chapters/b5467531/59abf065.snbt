@@ -1,8 +1,8 @@
 {
-	title: "&bMV 阶段你最讨厌的",
+	title: "{snp.quests.59abf065.title}",
 	x: -2.5d,
 	y: 6.5d,
-	description: "多做做它们吧",
+	description: "{snp.quests.59abf065.description}",
 	dependencies: [
 		"3b9267af"
 	],

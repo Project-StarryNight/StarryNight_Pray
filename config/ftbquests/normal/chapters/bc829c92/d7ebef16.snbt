@@ -1,8 +1,8 @@
 {
-	title: "&b真空管",
+	title: "{snp.quests.d7ebef16.title}",
 	x: 10.5d,
 	y: 10.5d,
-	description: "基础的基础材料",
+	description: "{snp.quests.d7ebef16.description}",
 	tasks: [{
 		uid: "15a0aa60",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "&b基础蒸馏室",
+	title: "{snp.quests.86ef6acb.title}",
 	x: -3.5d,
 	y: -3.0d,
-	description: "蒸出他们来",
+	description: "{snp.quests.86ef6acb.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

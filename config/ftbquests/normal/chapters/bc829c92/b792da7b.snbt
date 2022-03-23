@@ -1,12 +1,12 @@
 {
-	title: "&b电路板",
+	title: "{snp.quests.b792da7b.title}",
 	x: 9.0d,
 	y: 12.0d,
 	shape: "pentagon",
-	description: "欢迎来到 LV 时代！",
+	description: "{snp.quests.b792da7b.description}",
 	text: [
-		"LV 阶段的最基础电路",
-		"你可以在任务章节 Extra - 电路 中获取奖励、查阅对应的电路"
+		"{snp.quests.b792da7b.text.1}",
+		"{snp.quests.b792da7b.text.2}"
 	],
 	dependencies: [
 		"d7ebef16",

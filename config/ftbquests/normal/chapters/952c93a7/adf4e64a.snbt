@@ -1,5 +1,5 @@
 {
-	title: "&b扳手",
+	title: "{snp.quests.adf4e64a.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 8s,
@@ -14,10 +14,10 @@
 	},
 	x: -2.5d,
 	y: 10.0d,
-	description: "可以用来调整机器，也是重要的合成工具",
+	description: "{snp.quests.adf4e64a.description}",
 	text: [
-		"这个任务接受任何类型的扳手",
-		"点击任务物品，选择第一个物品开始合成"
+		"{snp.quests.adf4e64a.text.1}",
+		"{snp.quests.adf4e64a.text.2}"
 	],
 	dependencies: [
 		"43b45e0e"

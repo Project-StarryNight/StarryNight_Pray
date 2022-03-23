@@ -1,9 +1,9 @@
 {
-	title: "&b高级集成电路",
+	title: "{snp.quests.ff9b15fb.title}",
 	x: -10.0d,
 	y: 3.5d,
 	shape: "gear",
-	description: "前往 HV 阶段的一大步",
+	description: "{snp.quests.ff9b15fb.description}",
 	dependencies: [
 		"8f438c33"
 	],

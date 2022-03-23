@@ -1,5 +1,5 @@
 {
-	title: "&e机械投影",
+	title: "{snp.quests.b5cef30e.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,10 +10,10 @@
 	x: 0.0d,
 	y: 1.0d,
 	shape: "diamond",
-	description: "更方便的建造机械",
+	description: "{snp.quests.b5cef30e.description}",
 	text: [
-		"将你要建造的机械放置在地面，然后 \"Shift + 右键\" 这个控制器",
-		"此时就会有投影出现，如果需要更改机器的转向，只需更改控制器方向然后重新投影即可"
+		"{snp.quests.b5cef30e.text.1}",
+		"{snp.quests.b5cef30e.text.2}"
 	],
 	tasks: [{
 		uid: "92814455",

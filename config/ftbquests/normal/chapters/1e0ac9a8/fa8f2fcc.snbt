@@ -1,8 +1,8 @@
 {
-	title: "&b基础两极磁化机",
+	title: "{snp.quests.fa8f2fcc.title}",
 	x: -1.5d,
 	y: 0.0d,
-	description: "拯救红石",
+	description: "{snp.quests.fa8f2fcc.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

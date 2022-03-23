@@ -1,7 +1,7 @@
 {
 	x: -5.5d,
 	y: 0.0d,
-	description: "这就是你目前燃烧值最高的燃料",
+	description: "{snp.quests.e393b116.description}",
 	dependencies: [
 		"31f36a0f",
 		"7c7cb1b8",

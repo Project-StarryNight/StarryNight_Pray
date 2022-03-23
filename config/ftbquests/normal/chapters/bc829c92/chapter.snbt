@@ -1,7 +1,7 @@
 {
-	title: "&9Tier 0.5 - &6蒸汽时代",
+	title: "{snp.quests.bc829c92.title}",
 	icon: "gregtech:steam_casing",
-	description: [
+	description: ["{snp.quests.bc829c92.description}"	description: [
 		"科技起源"
 	],
 	always_invisible: false,

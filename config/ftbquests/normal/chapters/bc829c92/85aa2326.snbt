@@ -1,8 +1,8 @@
 {
-	title: "&b这是钢铁?",
+	title: "{snp.quests.85aa2326.title}",
 	x: -0.5d,
 	y: 3.0d,
-	description: "第一次偷鸡！",
+	description: "{snp.quests.85aa2326.description}",
 	tasks: [{
 		uid: "3fd4de78",
 		type: "item",

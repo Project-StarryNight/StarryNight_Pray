@@ -1,5 +1,5 @@
 {
-	title: "&e矿脉生成",
+	title: "{snp.quests.75ae2fb6.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,11 +10,11 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "全新的挖矿方式...",
+	description: "{snp.quests.75ae2fb6.description}",
 	text: [
-		"格雷修改了原版的矿物生成方式",
-		"它加入了全新的世界矿脉生成配置、生成机制，以及对矿石加工的一些调整。",
-		"这个任务章节将会引导你了解格雷的矿脉生成"
+		"{snp.quests.75ae2fb6.text.1}",
+		"{snp.quests.75ae2fb6.text.2}",
+		"{snp.quests.75ae2fb6.text.3}"
 	],
 	tasks: [{
 		uid: "137818d9",

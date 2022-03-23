@@ -1,5 +1,5 @@
 {
-	title: "&e提示！",
+	title: "{snp.quests.c83c696e.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,9 +10,9 @@
 	x: 0.0d,
 	y: 7.5d,
 	shape: "diamond",
-	description: "开始任务！",
+	description: "{snp.quests.c83c696e.description}",
 	text: [
-		"在确保你已经完全阅读了本章节的提示内容后，点击这个任务章节的下一个章节开始你的整合包之旅吧"
+		"{snp.quests.c83c696e.text.1}"
 	],
 	dependencies: [
 		"4455e225",

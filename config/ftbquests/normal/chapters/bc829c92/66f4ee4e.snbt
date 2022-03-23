@@ -1,11 +1,11 @@
 {
-	title: "&b蒸汽锻造锤",
+	title: "{snp.quests.66f4ee4e.title}",
 	x: 3.0d,
 	y: 5.0d,
-	description: "不再需要人力！",
+	description: "{snp.quests.66f4ee4e.description}",
 	text: [
-		"蒸汽锻造锤可以处理相当多的配方，这些配方可以在 JEI 中找到",
-		"锻造锤加工所消耗的材料也比人工合成要便宜"
+		"{snp.quests.66f4ee4e.text.1}",
+		"{snp.quests.66f4ee4e.text.2}"
 	],
 	dependencies: [
 		"acdde84f"

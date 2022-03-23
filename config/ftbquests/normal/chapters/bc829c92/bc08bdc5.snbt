@@ -1,8 +1,8 @@
 {
-	title: "&b空模板",
+	title: "{snp.quests.bc08bdc5.title}",
 	x: 2.8869047619047663d,
 	y: 9.00892857142857d,
-	description: "还需要进一步加工",
+	description: "{snp.quests.bc08bdc5.description}",
 	tasks: [{
 		uid: "6c8586c4",
 		type: "item",

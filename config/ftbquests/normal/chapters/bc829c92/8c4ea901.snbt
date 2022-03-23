@@ -1,8 +1,8 @@
 {
-	title: "&b粉碎它们！",
+	title: "{snp.quests.8c4ea901.title}",
 	x: -0.5d,
 	y: -0.5d,
-	description: "用你新制造的锻造锤挖掘原矿",
+	description: "{snp.quests.8c4ea901.description}",
 	tasks: [{
 		uid: "6e9aa62a",
 		type: "item",

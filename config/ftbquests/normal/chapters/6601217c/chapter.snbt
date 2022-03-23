@@ -1,5 +1,5 @@
 {
-	title: "&9Tier 8 - &3极限压 (UV)",
+	title: "{snp.quests.6601217c.title}",
 	icon: "gregtech:machine 1 993",
 	always_invisible: false,
 	group: -1097345554,

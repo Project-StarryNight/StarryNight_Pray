@@ -1,8 +1,8 @@
 {
-	title: "&b铝锭",
+	title: "{snp.quests.4f56e873.title}",
 	x: 1.0d,
 	y: 5.0d,
-	description: "前往 MV 阶段的一大步",
+	description: "{snp.quests.4f56e873.description}",
 	dependencies: [
 		"97d0f780",
 		"51685547"

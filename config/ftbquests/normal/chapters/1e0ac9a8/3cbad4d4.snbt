@@ -1,8 +1,8 @@
 {
-	title: "工业之血",
+	title: "{snp.quests.3cbad4d4.title}",
 	x: -6.5d,
 	y: -3.0d,
-	description: "我知道你需要他",
+	description: "{snp.quests.3cbad4d4.description}",
 	dependencies: [
 		"86ef6acb"
 	],

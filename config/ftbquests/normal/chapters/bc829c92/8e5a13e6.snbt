@@ -1,11 +1,11 @@
 {
-	title: "&b高压固体燃料锅炉",
+	title: "{snp.quests.8e5a13e6.title}",
 	x: 4.0d,
 	y: -0.5d,
-	description: "更多的蒸汽！",
+	description: "{snp.quests.8e5a13e6.description}",
 	text: [
-		"用钢制成的锅炉可以承受更高的压力，产出更多的蒸汽",
-		"这是一个可选的任务，你依然可以建造其他种类的锅炉。"
+		"{snp.quests.8e5a13e6.text.1}",
+		"{snp.quests.8e5a13e6.text.2}"
 	],
 	dependencies: [
 		"e5aee8b3"

@@ -1,5 +1,5 @@
 {
-	title: "&b锯",
+	title: "{snp.quests.64e18bc2.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 5s,
@@ -14,10 +14,10 @@
 	},
 	x: 2.5d,
 	y: 7.5d,
-	description: "切割材料",
+	description: "{snp.quests.64e18bc2.description}",
 	text: [
-		"这个任务接受所有类型的锯",
-		"你可以点击该物品选择第一个锯来合成"
+		"{snp.quests.64e18bc2.text.1}",
+		"{snp.quests.64e18bc2.text.2}"
 	],
 	dependencies: [
 		"40fb7e69"

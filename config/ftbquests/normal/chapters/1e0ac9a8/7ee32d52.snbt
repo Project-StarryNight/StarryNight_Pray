@@ -1,8 +1,8 @@
 {
-	title: "&b基础搅拌机",
+	title: "{snp.quests.7ee32d52.title}",
 	x: -1.5d,
 	y: 2.0d,
-	description: "blender!",
+	description: "{snp.quests.7ee32d52.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

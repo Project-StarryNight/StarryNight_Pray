@@ -1,5 +1,5 @@
 {
-	title: "&5魔法 - &4巫术 (Bewitchment)",
+	title: "{snp.quests.6aa81396.title}",
 	icon: {
 		id: "bewitchment:dragons_blood_broom",
 		ForgeCaps: {

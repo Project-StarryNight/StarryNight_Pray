@@ -1,8 +1,8 @@
 {
-	title: "&b基础车床",
+	title: "{snp.quests.eab38791.title}",
 	x: -5.5d,
 	y: 4.0d,
-	description: "加工螺丝，棍棒，比手工更省时省力",
+	description: "{snp.quests.eab38791.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

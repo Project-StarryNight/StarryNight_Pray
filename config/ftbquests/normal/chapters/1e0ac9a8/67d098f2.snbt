@@ -1,5 +1,5 @@
 {
-	title: "&e注意！",
+	title: "{snp.quests.67d098f2.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,9 +10,9 @@
 	x: 1.0d,
 	y: 6.5d,
 	shape: "diamond",
-	description: "关于电力高炉",
+	description: "{snp.quests.67d098f2.description}",
 	text: [
-		"电力高炉可以有多个能源仓，这意味着你可以用多个低级能源仓来达到配方要求的电力消耗。"
+		"{snp.quests.67d098f2.text.1}"
 	],
 	dependencies: [
 		"51685547"

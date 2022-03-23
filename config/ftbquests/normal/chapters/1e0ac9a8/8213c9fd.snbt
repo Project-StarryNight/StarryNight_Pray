@@ -1,8 +1,8 @@
 {
-	title: "&b隔热机械方块",
+	title: "{snp.quests.8213c9fd.title}",
 	x: -0.5d,
 	y: 8.0d,
-	description: "电力高炉的基础",
+	description: "{snp.quests.8213c9fd.description}",
 	dependencies: [
 		"aa93c815"
 	],

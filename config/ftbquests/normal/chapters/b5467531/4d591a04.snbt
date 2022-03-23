@@ -1,8 +1,8 @@
 {
-	title: "&b进阶精密激光蚀刻机",
+	title: "{snp.quests.4d591a04.title}",
 	x: -5.5d,
 	y: 6.5d,
-	description: "蚀刻你的新晶圆吧",
+	description: "{snp.quests.4d591a04.description}",
 	dependencies: [
 		"3b9267af",
 		"59abf065"
