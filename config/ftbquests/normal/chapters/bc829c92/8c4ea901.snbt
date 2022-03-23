@@ -1,24 +1,24 @@
 {
-	title: "&b粉碎它们！",
+	title: "{snp.quests.8c4ea901.title}",
 	x: -0.5d,
 	y: -0.5d,
 	description: "用你新制造的锻造锤挖掘原矿",
-	tasks: [{
-		uid: "6e9aa62a",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_crushed 1 25"
-		}],
-		count: 16L,
-		consume_items: false
-	},
-	{
-		uid: "ae54bd34",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_crushed 1 112"
-		}],
-		count: 16L,
-		consume_items: false
-	}]
-}
+	tasks: [{"{snp.quests.8c4ea901.description.1}"	tasks: [{
+		uid: "{snp.quests.8c4ea901.description.2}",
+		type: "{snp.quests.8c4ea901.description.3}",
+		items: [{"{snp.quests.8c4ea901.description.4}"		items: [{
+			item: "{snp.quests.8c4ea901.description.5}"
+		}],"{snp.quests.8c4ea901.description.6}"		}],
+		count: 16L,"{snp.quests.8c4ea901.description.7}"		count: 16L,
+		consume_items: false"{snp.quests.8c4ea901.description.8}"		consume_items: false
+	},"{snp.quests.8c4ea901.description.9}"	},
+	{"{snp.quests.8c4ea901.description.10}"	{
+		uid: "{snp.quests.8c4ea901.description.11}",
+		type: "{snp.quests.8c4ea901.description.12}",
+		items: [{"{snp.quests.8c4ea901.description.13}"		items: [{
+			item: "{snp.quests.8c4ea901.description.14}"
+		}],"{snp.quests.8c4ea901.description.15}"		}],
+		count: 16L,"{snp.quests.8c4ea901.description.16}"		count: 16L,
+		consume_items: false"{snp.quests.8c4ea901.description.17}"		consume_items: false
+	}]"{snp.quests.8c4ea901.description.18}"	}]
+}"{snp.quests.8c4ea901.description.19}"}

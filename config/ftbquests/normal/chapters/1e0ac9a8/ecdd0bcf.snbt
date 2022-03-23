@@ -1,5 +1,5 @@
 {
-	title: "&b二级管的重要材料",
+	title: "{snp.quests.ecdd0bcf.title}",
 	x: 0.0d,
 	y: 2.5d,
 	dependencies: [

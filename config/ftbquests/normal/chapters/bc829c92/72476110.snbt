@@ -1,11 +1,11 @@
 {
-	title: "&b蒸汽研磨机",
+	title: "{snp.quests.72476110.title}",
 	x: 7.5d,
 	y: 5.0d,
 	description: "粉碎一切！",
-	text: [
-		"粉碎机类似其他模组的研磨、磨粉机，处理粉碎配方",
-		"你可以在 JEI 中看到更多配方"
+	text: ["{snp.quests.72476110.description.1}"	text: [
+		"{snp.quests.72476110.description.2}",
+		"{snp.quests.72476110.description.3}"
 	],
 	dependencies: [
 		"acdde84f"

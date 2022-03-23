@@ -1,11 +1,11 @@
 {
-	title: "&b橡胶片",
+	title: "{snp.quests.067d8d27.title}",
 	x: 4.5d,
 	y: 9.0d,
 	description: "一片...两片...",
-	dependencies: [
-		"bc08bdc5",
-		"75092cf3"
+	dependencies: ["{snp.quests.067d8d27.description.1}"	dependencies: [
+		"{snp.quests.067d8d27.description.2}",
+		"{snp.quests.067d8d27.description.3}"
 	],
 	tasks: [{
 		uid: "263d2e8f",

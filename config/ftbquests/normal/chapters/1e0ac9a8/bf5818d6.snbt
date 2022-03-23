@@ -1,5 +1,5 @@
 {
-	title: "&bLV 阶段你最讨厌的",
+	title: "{snp.quests.bf5818d6.title}",
 	x: 0.0d,
 	y: -2.0d,
 	dependencies: [

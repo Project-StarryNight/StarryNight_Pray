@@ -1,5 +1,5 @@
 {
-	title: "&e矿脉",
+	title: "{snp.quests.8a17359d.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -11,11 +11,11 @@
 	y: 5.0d,
 	shape: "diamond",
 	description: "使用地图标记，以备不防之需",
-	text: [
-		"格雷不像原版一样生成零散的矿脉",
-		"他会随着一种矿石和其变种在地下生成一个巨大的 \"块\"。",
-		"这类矿脉的规模最小有 100 个矿石，平均规模为 500 个矿石，最大甚至可达上万。",
-		"当你没有足够的精力去采掘如此之大的矿石时，可以使用整合包自带的地图模组(默认键位 \"J\")来记录这些矿脉的地址。"
+	text: ["{snp.quests.8a17359d.description.1}"	text: [
+		"{snp.quests.8a17359d.description.2}",
+		"{snp.quests.8a17359d.description.3}",
+		"{snp.quests.8a17359d.description.4}",
+		"{snp.quests.8a17359d.description.5}"
 	],
 	dependencies: [
 		"1f3504d7"

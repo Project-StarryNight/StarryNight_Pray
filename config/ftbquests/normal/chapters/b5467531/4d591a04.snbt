@@ -1,11 +1,11 @@
 {
-	title: "&b进阶精密激光蚀刻机",
+	title: "{snp.quests.4d591a04.title}",
 	x: -5.5d,
 	y: 6.5d,
 	description: "蚀刻你的新晶圆吧",
-	dependencies: [
-		"3b9267af",
-		"59abf065"
+	dependencies: ["{snp.quests.4d591a04.description.1}"	dependencies: [
+		"{snp.quests.4d591a04.description.2}",
+		"{snp.quests.4d591a04.description.3}"
 	],
 	tasks: [{
 		uid: "919d1906",

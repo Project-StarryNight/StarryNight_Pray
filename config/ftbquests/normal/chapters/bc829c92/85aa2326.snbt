@@ -1,24 +1,24 @@
 {
-	title: "&b这是钢铁?",
+	title: "{snp.quests.85aa2326.title}",
 	x: -0.5d,
 	y: 3.0d,
 	description: "第一次偷鸡！",
-	tasks: [{
-		uid: "3fd4de78",
-		type: "item",
-		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotSteel"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotSteel"
-				}
-			}
-		}]
-	}]
-}
+	tasks: [{"{snp.quests.85aa2326.description.1}"	tasks: [{
+		uid: "{snp.quests.85aa2326.description.2}",
+		type: "{snp.quests.85aa2326.description.3}",
+		items: [{"{snp.quests.85aa2326.description.4}"		items: [{
+			id: "{snp.quests.85aa2326.description.5}",
+			tag: {"{snp.quests.85aa2326.description.6}"			tag: {
+				display: {"{snp.quests.85aa2326.description.7}"				display: {
+					Name: "{snp.quests.85aa2326.description.8}"
+				}"{snp.quests.85aa2326.description.9}"				}
+			},"{snp.quests.85aa2326.description.10}"			},
+			ForgeCaps: {"{snp.quests.85aa2326.description.11}"			ForgeCaps: {
+				Parent: {"{snp.quests.85aa2326.description.12}"				Parent: {
+					id: "{snp.quests.85aa2326.description.13}",
+					data: "{snp.quests.85aa2326.description.14}"
+				}"{snp.quests.85aa2326.description.15}"				}
+			}"{snp.quests.85aa2326.description.16}"			}
+		}]"{snp.quests.85aa2326.description.17}"		}]
+	}]"{snp.quests.85aa2326.description.18}"	}]
+}"{snp.quests.85aa2326.description.19}"}

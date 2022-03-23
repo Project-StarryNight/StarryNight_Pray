@@ -1,11 +1,11 @@
 {
-	title: "&b蒸汽合金炉",
+	title: "{snp.quests.7957db73.title}",
 	x: 4.5d,
 	y: 5.0d,
 	description: "融合金属",
-	text: [
-		"合金炉可以将两种不同的金属烧制成一个合金",
-		"同时，它也可以处理其他特殊配方，这些配方可以在 JEI 中找到"
+	text: ["{snp.quests.7957db73.description.1}"	text: [
+		"{snp.quests.7957db73.description.2}",
+		"{snp.quests.7957db73.description.3}"
 	],
 	dependencies: [
 		"acdde84f"

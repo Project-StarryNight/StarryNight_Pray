@@ -1,11 +1,11 @@
 {
-	title: "&b铝锭",
+	title: "{snp.quests.4f56e873.title}",
 	x: 1.0d,
 	y: 5.0d,
 	description: "前往 MV 阶段的一大步",
-	dependencies: [
-		"97d0f780",
-		"51685547"
+	dependencies: ["{snp.quests.4f56e873.description.1}"	dependencies: [
+		"{snp.quests.4f56e873.description.2}",
+		"{snp.quests.4f56e873.description.3}"
 	],
 	tasks: [{
 		uid: "d3abe148",

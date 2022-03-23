@@ -1,29 +1,29 @@
 {
-	title: "&b烧制物品",
+	title: "{snp.quests.f26c7306.title}",
 	icon: "minecraft:furnace",
 	x: 2.5d,
 	y: 1.0d,
 	description: "熟悉的熔炉...",
-	tasks: [{
-		uid: "4f1844a0",
-		type: "item",
-		items: [{
-			item: "minecraft:furnace"
-		}],
-		consume_items: false
-	}],
-	rewards: [{
-		uid: "37811423",
-		type: "item",
-		item: "minecraft:clay_ball",
-		count: 16,
-		random_bonus: 16
-	},
-	{
-		uid: "f225b32d",
-		type: "item",
-		item: "minecraft:coal",
-		count: 8,
-		random_bonus: 8
-	}]
-}
+	tasks: [{"{snp.quests.f26c7306.description.1}"	tasks: [{
+		uid: "{snp.quests.f26c7306.description.2}",
+		type: "{snp.quests.f26c7306.description.3}",
+		items: [{"{snp.quests.f26c7306.description.4}"		items: [{
+			item: "{snp.quests.f26c7306.description.5}"
+		}],"{snp.quests.f26c7306.description.6}"		}],
+		consume_items: false"{snp.quests.f26c7306.description.7}"		consume_items: false
+	}],"{snp.quests.f26c7306.description.8}"	}],
+	rewards: [{"{snp.quests.f26c7306.description.9}"	rewards: [{
+		uid: "{snp.quests.f26c7306.description.10}",
+		type: "{snp.quests.f26c7306.description.11}",
+		item: "{snp.quests.f26c7306.description.12}",
+		count: 16,"{snp.quests.f26c7306.description.13}"		count: 16,
+		random_bonus: 16"{snp.quests.f26c7306.description.14}"		random_bonus: 16
+	},"{snp.quests.f26c7306.description.15}"	},
+	{"{snp.quests.f26c7306.description.16}"	{
+		uid: "{snp.quests.f26c7306.description.17}",
+		type: "{snp.quests.f26c7306.description.18}",
+		item: "{snp.quests.f26c7306.description.19}",
+		count: 8,"{snp.quests.f26c7306.description.20}"		count: 8,
+		random_bonus: 8"{snp.quests.f26c7306.description.21}"		random_bonus: 8
+	}]"{snp.quests.f26c7306.description.22}"	}]
+}"{snp.quests.f26c7306.description.23}"}

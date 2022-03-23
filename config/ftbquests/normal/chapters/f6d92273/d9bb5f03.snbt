@@ -1,5 +1,5 @@
 {
-	title: "&e终端功能",
+	title: "{snp.quests.d9bb5f03.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -11,10 +11,10 @@
 	y: 0.0d,
 	shape: "diamond",
 	description: "更高级的投影，甚至自动建造",
-	text: [
-		"当你拥有了一个终端后，你可以在应用商店安装\"多方块结构助手\"程序",
-		"这个程序提供了AR投影功能，可以自动投影机械控制器。",
-		"同时还有3D构建器，这个功能可以自动建造机器，不过你需要到达 EV 时代才可以使用。"
+	text: ["{snp.quests.d9bb5f03.description.1}"	text: [
+		"{snp.quests.d9bb5f03.description.2}",
+		"{snp.quests.d9bb5f03.description.3}",
+		"{snp.quests.d9bb5f03.description.4}"
 	],
 	tasks: [{
 		uid: "16665ef7",

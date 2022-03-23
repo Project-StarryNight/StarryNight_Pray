@@ -1,5 +1,5 @@
 {
-	title: "&b基础工具",
+	title: "{snp.quests.6c2cdd15.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 6s,
@@ -15,9 +15,9 @@
 	x: -2.5d,
 	y: 5.0d,
 	description: "工具全家桶",
-	text: [
-		"在格雷中，前期的几乎所有材料都需要用工具来配合物品加工。",
-		"这个任务线将会引导你制作你将会用到最频繁的工具。"
+	text: ["{snp.quests.6c2cdd15.description.1}"	text: [
+		"{snp.quests.6c2cdd15.description.2}",
+		"{snp.quests.6c2cdd15.description.3}"
 	],
 	tasks: [{
 		uid: "b8c9f444",

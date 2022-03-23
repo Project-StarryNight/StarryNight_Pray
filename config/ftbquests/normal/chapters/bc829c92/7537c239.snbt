@@ -1,10 +1,10 @@
 {
-	title: "&b钢板",
+	title: "{snp.quests.7537c239.title}",
 	x: -0.5d,
 	y: 4.5d,
 	description: "造价太贵？在这个阶段你可以尝试锻造锤或者匠魂",
-	dependencies: [
-		"85aa2326"
+	dependencies: ["{snp.quests.7537c239.description.1}"	dependencies: [
+		"{snp.quests.7537c239.description.2}"
 	],
 	tasks: [{
 		uid: "20701946",

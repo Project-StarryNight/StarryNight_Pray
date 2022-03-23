@@ -1,10 +1,10 @@
 {
-	title: "基础组装机",
+	title: "{snp.quests.26f4f5aa.title}",
 	x: 0.0d,
 	y: 0.0d,
 	description: "相当头疼的机器",
-	text: [
-		"在GT中，几乎绝大部分的配方都由它完成"
+	text: ["{snp.quests.26f4f5aa.description.1}"	text: [
+		"{snp.quests.26f4f5aa.description.2}"
 	],
 	dependencies: [
 		"bf5818d6"

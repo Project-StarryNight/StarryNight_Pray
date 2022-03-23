@@ -1,5 +1,5 @@
 {
-	title: "&5序章 - &a入门",
+	title: "{snp.quests.99c9714d.title}",
 	icon: "gregtech:meta_gear_small 1 2",
 	always_invisible: false,
 	group: 0,

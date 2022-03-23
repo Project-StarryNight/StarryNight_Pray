@@ -1,10 +1,10 @@
 {
-	title: "&b进阶板材切割机",
+	title: "{snp.quests.57180d4b.title}",
 	x: -6.5d,
 	y: 6.5d,
 	description: "切割晶片，也能切割其他东西",
-	dependencies: [
-		"3b9267af"
+	dependencies: ["{snp.quests.57180d4b.description.1}"	dependencies: [
+		"{snp.quests.57180d4b.description.2}"
 	],
 	tasks: [{
 		uid: "3e8daf9a",

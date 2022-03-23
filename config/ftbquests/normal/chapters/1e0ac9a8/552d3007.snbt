@@ -1,10 +1,10 @@
 {
-	title: "&b基础筛选机",
+	title: "{snp.quests.552d3007.title}",
 	x: -2.5d,
 	y: -2.0d,
 	description: "你会需要他的",
-	dependencies: [
-		"19ab6bb9"
+	dependencies: ["{snp.quests.552d3007.description.1}"	dependencies: [
+		"{snp.quests.552d3007.description.2}"
 	],
 	tasks: [{
 		uid: "49209d83",

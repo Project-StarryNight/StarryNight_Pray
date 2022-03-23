@@ -1,5 +1,5 @@
 {
-	title: "&6挑战",
+	title: "{snp.quests.83b76ac8.title}",
 	icon: {
 		id: "minecraft:diamond_sword",
 		ForgeCaps: {

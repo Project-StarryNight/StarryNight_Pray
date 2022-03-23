@@ -1,11 +1,11 @@
 {
-	title: "&b生橡胶浆",
+	title: "{snp.quests.cb6d9034.title}",
 	x: 6.0d,
 	y: 7.5d,
 	description: "橡胶的第二步",
-	dependencies: [
-		"f9f799e7",
-		"c6953f8c"
+	dependencies: ["{snp.quests.cb6d9034.description.1}"	dependencies: [
+		"{snp.quests.cb6d9034.description.2}",
+		"{snp.quests.cb6d9034.description.3}"
 	],
 	tasks: [{
 		uid: "9d8bf2c9",

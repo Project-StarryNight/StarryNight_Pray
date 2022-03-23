@@ -10,10 +10,10 @@
 	y: 5.0d,
 	shape: "diamond",
 	description: "1.7.10 的 NEI 绝佳替补",
-	text: [
-		"JEI 提供了将近几百种配方的兼容支持",
-		"当你不知道某个物品的配方时，只需对其按\"R\"，就可以显示它的配方",
-		"这对于你未来的格雷之旅将会有巨大的帮助"
+	text: ["{snp.quests.edb9d3c1.description.1}"	text: [
+		"{snp.quests.edb9d3c1.description.2}",
+		"{snp.quests.edb9d3c1.description.3}",
+		"{snp.quests.edb9d3c1.description.4}"
 	],
 	dependencies: [
 		"c7b2d1dd"
@@ -21,7 +21,7 @@
 	tasks: [{
 		uid: "417df53f",
 		type: "checkmark",
-		title: "&eJust Enough Item",
+		title: "{snp.quests.edb9d3c1.title}",
 		icon: {
 			id: "botania:cosmetic",
 			Damage: 31s,

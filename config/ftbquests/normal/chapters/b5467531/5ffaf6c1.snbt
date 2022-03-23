@@ -1,10 +1,10 @@
 {
-	title: "&b进阶车床",
+	title: "{snp.quests.5ffaf6c1.title}",
 	x: -4.5d,
 	y: 6.5d,
 	description: "不仅仅是加工透镜",
-	dependencies: [
-		"3b9267af"
+	dependencies: ["{snp.quests.5ffaf6c1.description.1}"	dependencies: [
+		"{snp.quests.5ffaf6c1.description.2}"
 	],
 	tasks: [{
 		uid: "c7b8b7d8",

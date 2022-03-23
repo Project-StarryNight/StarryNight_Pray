@@ -1,10 +1,10 @@
 {
-	title: "&b青铜外壳",
+	title: "{snp.quests.acdde84f.title}",
 	x: 6.0d,
 	y: 2.5d,
 	description: "蒸汽动力！",
-	text: [
-		"制作青铜外壳与砌砖青铜外壳，这些是蒸汽机器的外壳结构"
+	text: ["{snp.quests.acdde84f.description.1}"	text: [
+		"{snp.quests.acdde84f.description.2}"
 	],
 	dependencies: [
 		"e5aee8b3"

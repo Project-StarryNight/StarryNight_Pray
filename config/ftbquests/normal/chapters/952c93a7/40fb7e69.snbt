@@ -1,5 +1,5 @@
 {
-	title: "&b锉",
+	title: "{snp.quests.40fb7e69.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 9s,
@@ -15,8 +15,8 @@
 	x: 0.0d,
 	y: 7.5d,
 	description: "重要工具",
-	dependencies: [
-		"43b45e0e"
+	dependencies: ["{snp.quests.40fb7e69.description.1}"	dependencies: [
+		"{snp.quests.40fb7e69.description.2}"
 	],
 	tasks: [{
 		uid: "11ec95b2",

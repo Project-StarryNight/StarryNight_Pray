@@ -1,11 +1,11 @@
 {
-	title: "&b小型固体燃料锅炉",
+	title: "{snp.quests.e5aee8b3.title}",
 	x: 4.0d,
 	y: 1.0d,
 	description: "人类的本质是...烧开水",
-	text: [
-		"给锅炉加点水，再放点燃料，它就会慢慢的烧水...",
-		"产出蒸汽，可以给你的蒸汽机器供能"
+	text: ["{snp.quests.e5aee8b3.description.1}"	text: [
+		"{snp.quests.e5aee8b3.description.2}",
+		"{snp.quests.e5aee8b3.description.3}"
 	],
 	dependencies: [
 		"c0434bdf",

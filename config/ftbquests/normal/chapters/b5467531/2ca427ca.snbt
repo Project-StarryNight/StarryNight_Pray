@@ -1,11 +1,11 @@
 {
-	title: "&bHV 机械方块",
+	title: "{snp.quests.2ca427ca.title}",
 	x: -10.0d,
 	y: 0.5d,
 	shape: "gear",
 	description: "前往 HV 阶段的一大步",
-	dependencies: [
-		"5b347b49"
+	dependencies: ["{snp.quests.2ca427ca.description.1}"	dependencies: [
+		"{snp.quests.2ca427ca.description.2}"
 	],
 	size: 1.5d,
 	tasks: [{

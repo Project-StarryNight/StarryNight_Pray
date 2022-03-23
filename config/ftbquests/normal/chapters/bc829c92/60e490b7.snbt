@@ -1,11 +1,11 @@
 {
-	title: "&b木板",
+	title: "{snp.quests.60e490b7.title}",
 	x: 9.0d,
 	y: 7.5d,
 	description: "为什么不是纸呢",
-	dependencies: [
-		"2ce2c1de",
-		"daab2a59"
+	dependencies: ["{snp.quests.60e490b7.description.1}"	dependencies: [
+		"{snp.quests.60e490b7.description.2}",
+		"{snp.quests.60e490b7.description.3}"
 	],
 	tasks: [{
 		uid: "72bafe09",

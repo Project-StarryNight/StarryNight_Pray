@@ -1,11 +1,11 @@
 {
-	title: "小型青铜流体管道",
+	title: "{snp.quests.a345ad9e.title}",
 	x: 9.5d,
 	y: 2.5d,
 	description: "传输流体",
-	text: [
-		"你已经完成了锅炉，这些管道可以链接锅炉与蒸汽机",
-		"Connected!"
+	text: ["{snp.quests.a345ad9e.description.1}"	text: [
+		"{snp.quests.a345ad9e.description.2}",
+		"{snp.quests.a345ad9e.description.3}"
 	],
 	dependencies: [
 		"acdde84f"

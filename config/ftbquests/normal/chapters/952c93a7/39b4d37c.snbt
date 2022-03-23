@@ -1,5 +1,5 @@
 {
-	title: "&b终端",
+	title: "{snp.quests.39b4d37c.title}",
 	icon: {
 		id: "gregtech:meta_item_1",
 		Damage: 465s,
@@ -16,9 +16,9 @@
 	y: 2.5d,
 	shape: "diamond",
 	description: "万能工具",
-	text: [
-		"终端是一个拥有多种功能的工具",
-		"可以提供多种帮助"
+	text: ["{snp.quests.39b4d37c.description.1}"	text: [
+		"{snp.quests.39b4d37c.description.2}",
+		"{snp.quests.39b4d37c.description.3}"
 	],
 	tasks: [{
 		uid: "fd04cb35",

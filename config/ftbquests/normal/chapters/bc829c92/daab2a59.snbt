@@ -1,10 +1,10 @@
 {
-	title: "&b木浆",
+	title: "{snp.quests.daab2a59.title}",
 	x: 7.5d,
 	y: 7.5d,
 	description: "碎木屑",
-	dependencies: [
-		"72476110"
+	dependencies: ["{snp.quests.daab2a59.description.1}"	dependencies: [
+		"{snp.quests.daab2a59.description.2}"
 	],
 	tasks: [{
 		uid: "e76a0674",

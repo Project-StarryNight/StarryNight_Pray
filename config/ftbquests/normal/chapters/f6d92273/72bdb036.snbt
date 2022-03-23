@@ -1,12 +1,12 @@
 {
-	title: "&b原始泵",
+	title: "{snp.quests.72bdb036.title}",
 	x: 4.5d,
 	y: 2.25d,
 	shape: "gear",
 	description: "多方块结构",
-	text: [
-		"原始泵是一个多方块结构，放置在水面上就可以自动工作",
-		"输出仓可以替换为 LV 输出仓，以提高输出，但是不可以是 MV 和 MV 以上的输出仓"
+	text: ["{snp.quests.72bdb036.description.1}"	text: [
+		"{snp.quests.72bdb036.description.2}",
+		"{snp.quests.72bdb036.description.3}"
 	],
 	size: 1.5d,
 	tasks: [{

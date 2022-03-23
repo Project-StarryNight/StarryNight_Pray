@@ -1,5 +1,5 @@
 {
-	title: "&b镰刀",
+	title: "{snp.quests.3e0f7e3c.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 17s,
@@ -15,9 +15,9 @@
 	x: 0.0d,
 	y: 5.0d,
 	description: "左键作物可以大范围收集，自动种植",
-	text: [
-		"此任务接受所有类型的镰刀",
-		"点击任务物品，选择第三个开始合成"
+	text: ["{snp.quests.3e0f7e3c.description.1}"	text: [
+		"{snp.quests.3e0f7e3c.description.2}",
+		"{snp.quests.3e0f7e3c.description.3}"
 	],
 	dependencies: [
 		"6c2cdd15"

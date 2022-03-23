@@ -1,10 +1,10 @@
 {
-	title: "&b空气",
+	title: "{snp.quests.6addad26.title}",
 	x: -0.5d,
 	y: 4.0d,
 	description: "吸一口",
-	dependencies: [
-		"10ae78de"
+	dependencies: ["{snp.quests.6addad26.description.1}"	dependencies: [
+		"{snp.quests.6addad26.description.2}"
 	],
 	tasks: [{
 		uid: "5f611144",

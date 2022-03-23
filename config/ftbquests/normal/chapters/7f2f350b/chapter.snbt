@@ -1,5 +1,5 @@
 {
-	title: "&5魔法 - &d与咒波再见",
+	title: "{snp.quests.7f2f350b.title}",
 	icon: {
 		id: "thaumcraft:creative_flux_sponge",
 		ForgeCaps: {

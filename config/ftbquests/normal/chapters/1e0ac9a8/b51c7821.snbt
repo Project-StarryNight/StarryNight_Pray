@@ -1,12 +1,12 @@
 {
-	title: "&b良好的电子电路",
+	title: "{snp.quests.b51c7821.title}",
 	x: 3.75d,
 	y: 1.5d,
 	shape: "gear",
 	description: "前往 MV 阶段的一大步",
-	dependencies: [
-		"8347489a",
-		"653d4067"
+	dependencies: ["{snp.quests.b51c7821.description.1}"	dependencies: [
+		"{snp.quests.b51c7821.description.2}",
+		"{snp.quests.b51c7821.description.3}"
 	],
 	size: 1.5d,
 	tasks: [{

@@ -1,5 +1,5 @@
 {
-	title: "&5魔法",
+	title: "{snp.quests.7c6af423.title}",
 	icon: {
 		id: "thaumcraft:thaumonomicon",
 		ForgeCaps: {

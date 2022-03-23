@@ -1,10 +1,10 @@
 {
-	title: "&b橡胶",
+	title: "{snp.quests.75092cf3.title}",
 	x: 4.5d,
 	y: 7.5d,
 	description: "这东西有毒吗？",
-	text: [
-		"将 1 个硫粉和 3 个生橡胶浆放入合金炉，获得 3 个橡胶条"
+	text: ["{snp.quests.75092cf3.description.1}"	text: [
+		"{snp.quests.75092cf3.description.2}"
 	],
 	dependencies: [
 		"7957db73",

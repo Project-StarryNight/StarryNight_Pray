@@ -1,10 +1,10 @@
 {
-	title: "工业之血",
+	title: "{snp.quests.3cbad4d4.title}",
 	x: -6.5d,
 	y: -3.0d,
 	description: "我知道你需要他",
-	dependencies: [
-		"86ef6acb"
+	dependencies: ["{snp.quests.3cbad4d4.description.1}"	dependencies: [
+		"{snp.quests.3cbad4d4.description.2}"
 	],
 	tasks: [{
 		uid: "96301500",

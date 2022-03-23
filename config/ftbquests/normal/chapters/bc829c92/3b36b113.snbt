@@ -1,14 +1,14 @@
 {
-	title: "&b电阻",
+	title: "{snp.quests.3b36b113.title}",
 	x: 10.5d,
 	y: 12.0d,
 	description: "它的电阻是多少欧呢？",
-	tasks: [{
-		uid: "13d2c23d",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 519"
-		}],
-		count: 8L
-	}]
-}
+	tasks: [{"{snp.quests.3b36b113.description.1}"	tasks: [{
+		uid: "{snp.quests.3b36b113.description.2}",
+		type: "{snp.quests.3b36b113.description.3}",
+		items: [{"{snp.quests.3b36b113.description.4}"		items: [{
+			item: "{snp.quests.3b36b113.description.5}"
+		}],"{snp.quests.3b36b113.description.6}"		}],
+		count: 8L"{snp.quests.3b36b113.description.7}"		count: 8L
+	}]"{snp.quests.3b36b113.description.8}"	}]
+}"{snp.quests.3b36b113.description.9}"}

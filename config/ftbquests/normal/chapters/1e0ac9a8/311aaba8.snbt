@@ -1,10 +1,10 @@
 {
-	title: "&b基础蒸汽涡轮机",
+	title: "{snp.quests.311aaba8.title}",
 	x: -2.5d,
 	y: 7.0d,
 	description: "蒸汽蒸汽蒸汽...",
-	dependencies: [
-		"19ab6bb9"
+	dependencies: ["{snp.quests.311aaba8.description.1}"	dependencies: [
+		"{snp.quests.311aaba8.description.2}"
 	],
 	tasks: [{
 		uid: "45eae1e3",

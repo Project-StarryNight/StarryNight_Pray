@@ -1,5 +1,5 @@
 {
-	title: "&e全能物流管理 - &b应用能源 2 (AE2)",
+	title: "{snp.quests.f24b26e3.title}",
 	icon: "appliedenergistics2:controller",
 	always_invisible: false,
 	group: 370437043,

@@ -1,11 +1,11 @@
 {
-	title: "&b进阶电路组装机",
+	title: "{snp.quests.dc4e0e63.title}",
 	x: -10.0d,
 	y: 2.0d,
 	shape: "gear",
 	description: "更高效的组装你的 MV 电路",
-	dependencies: [
-		"ff9b15fb"
+	dependencies: ["{snp.quests.dc4e0e63.description.1}"	dependencies: [
+		"{snp.quests.dc4e0e63.description.2}"
 	],
 	tasks: [{
 		uid: "74a93f54",

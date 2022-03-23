@@ -1,10 +1,10 @@
 {
-	title: "&b隔热机械方块",
+	title: "{snp.quests.8213c9fd.title}",
 	x: -0.5d,
 	y: 8.0d,
 	description: "电力高炉的基础",
-	dependencies: [
-		"aa93c815"
+	dependencies: ["{snp.quests.8213c9fd.description.1}"	dependencies: [
+		"{snp.quests.8213c9fd.description.2}"
 	],
 	tasks: [{
 		uid: "ccdb9947",

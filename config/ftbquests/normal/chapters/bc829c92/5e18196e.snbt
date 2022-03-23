@@ -1,11 +1,11 @@
 {
-	title: "&b电路板",
+	title: "{snp.quests.5e18196e.title}",
 	x: 9.0d,
 	y: 10.5d,
 	description: "进入 LV 的一小步",
-	dependencies: [
-		"af4c2351",
-		"036c740b"
+	dependencies: ["{snp.quests.5e18196e.description.1}"	dependencies: [
+		"{snp.quests.5e18196e.description.2}",
+		"{snp.quests.5e18196e.description.3}"
 	],
 	tasks: [{
 		uid: "be758fc1",

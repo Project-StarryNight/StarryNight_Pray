@@ -1,5 +1,5 @@
 {
-	title: "&e测试版提示",
+	title: "{snp.quests.ba02d3fb.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -11,7 +11,7 @@
 	y: 5.0d,
 	shape: "diamond",
 	text: [
-		"任务系统还在初期的构建中，如果有任何bug或者建议，请立刻联系Nova"
+		"{snp.quests.ba02d3fb.text.1}"
 	],
 	tasks: [{
 		uid: "2bcc32c7",

@@ -1,11 +1,11 @@
 {
-	title: "&b进阶组装机",
+	title: "{snp.quests.9d72175d.title}",
 	x: -2.5d,
 	y: 5.5d,
 	description: "还记得基础组装机吗？它现在进化了！",
-	dependencies: [
-		"3b9267af",
-		"59abf065"
+	dependencies: ["{snp.quests.9d72175d.description.1}"	dependencies: [
+		"{snp.quests.9d72175d.description.2}",
+		"{snp.quests.9d72175d.description.3}"
 	],
 	tasks: [{
 		uid: "ce585987",

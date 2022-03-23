@@ -1,10 +1,10 @@
 {
-	title: "&b铜导线",
+	title: "{snp.quests.af4c2351.title}",
 	x: 7.5d,
 	y: 10.5d,
 	description: "优质导体",
-	text: [
-		"用剪刀裁剪铜板"
+	text: ["{snp.quests.af4c2351.description.1}"	text: [
+		"{snp.quests.af4c2351.description.2}"
 	],
 	tasks: [{
 		uid: "12057069",

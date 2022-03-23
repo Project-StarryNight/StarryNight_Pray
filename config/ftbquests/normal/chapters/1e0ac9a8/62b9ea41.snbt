@@ -1,11 +1,11 @@
 {
-	title: "&bMV 机械方块",
+	title: "{snp.quests.62b9ea41.title}",
 	x: 2.5d,
 	y: 8.0d,
 	shape: "gear",
 	description: "前往 MV 阶段的一大步",
-	dependencies: [
-		"e0e4b73e"
+	dependencies: ["{snp.quests.62b9ea41.description.1}"	dependencies: [
+		"{snp.quests.62b9ea41.description.2}"
 	],
 	size: 1.25d,
 	tasks: [{
