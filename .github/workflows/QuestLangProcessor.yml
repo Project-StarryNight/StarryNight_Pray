@@ -1,0 +1,27 @@
+name: QuestLangProcessor
+on:
+  push:
+    branches: [master]
+
+jobs:
+  FTBQuestsProcessor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Run FTB Quests lang processor
+        run: python ftbq_lang_processor.py
+
+      - name: Commit processor changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: KasumiNova
+          author_email: 3044344887@qq.com
+          message: "ftbq lang processor changes (github action)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
