@@ -5,7 +5,7 @@ fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:3
+guiScale:4
 particles:1
 bobView:false
 anaglyph3d:false
@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
-resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.9.zip","StarryNight_Pray-汉化扩展包"]
+resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.9.zip","StarryNight_Pray_ZH_CN"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
