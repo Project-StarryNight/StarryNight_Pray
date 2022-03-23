@@ -2,9 +2,9 @@
 	title: "{snp.quests.86ef6acb.title}",
 	x: -3.5d,
 	y: -3.0d,
-	description: "蒸出他们来",
-	dependencies: ["{snp.quests.86ef6acb.description.1}"	dependencies: [
-		"{snp.quests.86ef6acb.description.2}"
+	description: "{snp.quests.86ef6acb.description}",
+	dependencies: [
+		"19ab6bb9"
 	],
 	tasks: [{
 		uid: "b5f71cb7",

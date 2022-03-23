@@ -10,11 +10,11 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "GTCEu 与 GTCE",
-	text: ["{snp.quests.cf71f1f9.description.1}"	text: [
-		"{snp.quests.cf71f1f9.description.2}",
-		"{snp.quests.cf71f1f9.description.3}",
-		"{snp.quests.cf71f1f9.description.4}"
+	description: "{snp.quests.cf71f1f9.description}",
+	text: [
+		"{snp.quests.cf71f1f9.text.1}",
+		"{snp.quests.cf71f1f9.text.2}",
+		"{snp.quests.cf71f1f9.text.3}"
 	],
 	tasks: [{
 		uid: "787d7e33",

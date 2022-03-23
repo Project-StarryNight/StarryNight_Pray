@@ -10,12 +10,12 @@
 	x: 0.0d,
 	y: 5.0d,
 	shape: "diamond",
-	description: "使用地图标记，以备不防之需",
-	text: ["{snp.quests.8a17359d.description.1}"	text: [
-		"{snp.quests.8a17359d.description.2}",
-		"{snp.quests.8a17359d.description.3}",
-		"{snp.quests.8a17359d.description.4}",
-		"{snp.quests.8a17359d.description.5}"
+	description: "{snp.quests.8a17359d.description}",
+	text: [
+		"{snp.quests.8a17359d.text.1}",
+		"{snp.quests.8a17359d.text.2}",
+		"{snp.quests.8a17359d.text.3}",
+		"{snp.quests.8a17359d.text.4}"
 	],
 	dependencies: [
 		"1f3504d7"

@@ -2,10 +2,10 @@
 	title: "{snp.quests.a345ad9e.title}",
 	x: 9.5d,
 	y: 2.5d,
-	description: "传输流体",
-	text: ["{snp.quests.a345ad9e.description.1}"	text: [
-		"{snp.quests.a345ad9e.description.2}",
-		"{snp.quests.a345ad9e.description.3}"
+	description: "{snp.quests.a345ad9e.description}",
+	text: [
+		"{snp.quests.a345ad9e.text.1}",
+		"{snp.quests.a345ad9e.text.2}"
 	],
 	dependencies: [
 		"acdde84f"

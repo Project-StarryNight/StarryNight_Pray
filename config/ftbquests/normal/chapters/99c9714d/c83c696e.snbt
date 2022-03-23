@@ -10,9 +10,9 @@
 	x: 0.0d,
 	y: 7.5d,
 	shape: "diamond",
-	description: "开始任务！",
-	text: ["{snp.quests.c83c696e.description.1}"	text: [
-		"{snp.quests.c83c696e.description.2}"
+	description: "{snp.quests.c83c696e.description}",
+	text: [
+		"{snp.quests.c83c696e.text.1}"
 	],
 	dependencies: [
 		"4455e225",

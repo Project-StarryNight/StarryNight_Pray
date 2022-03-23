@@ -9,11 +9,11 @@
 	x: -2.5d,
 	y: 5.0d,
 	shape: "diamond",
-	description: "1.7.10 的 NEI 绝佳替补",
-	text: ["{snp.quests.edb9d3c1.description.1}"	text: [
-		"{snp.quests.edb9d3c1.description.2}",
-		"{snp.quests.edb9d3c1.description.3}",
-		"{snp.quests.edb9d3c1.description.4}"
+	description: "{snp.quests.edb9d3c1.description}",
+	text: [
+		"{snp.quests.edb9d3c1.text.1}",
+		"{snp.quests.edb9d3c1.text.2}",
+		"{snp.quests.edb9d3c1.text.3}"
 	],
 	dependencies: [
 		"c7b2d1dd"

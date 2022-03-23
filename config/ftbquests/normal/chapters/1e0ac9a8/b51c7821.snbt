@@ -3,10 +3,10 @@
 	x: 3.75d,
 	y: 1.5d,
 	shape: "gear",
-	description: "前往 MV 阶段的一大步",
-	dependencies: ["{snp.quests.b51c7821.description.1}"	dependencies: [
-		"{snp.quests.b51c7821.description.2}",
-		"{snp.quests.b51c7821.description.3}"
+	description: "{snp.quests.b51c7821.description}",
+	dependencies: [
+		"8347489a",
+		"653d4067"
 	],
 	size: 1.5d,
 	tasks: [{

@@ -10,13 +10,13 @@
 	x: -0.5d,
 	y: 1.0d,
 	shape: "diamond",
-	description: "为新人而打造。",
-	text: ["{snp.quests.479a199c.description.1}"	text: [
-		"{snp.quests.479a199c.description.2}",
-		"{snp.quests.479a199c.description.3}",
-		"{snp.quests.479a199c.description.4}",
-		"{snp.quests.479a199c.description.5}",
-		"{snp.quests.479a199c.description.6}"
+	description: "{snp.quests.479a199c.description}",
+	text: [
+		"{snp.quests.479a199c.text.1}",
+		"{snp.quests.479a199c.text.2}",
+		"{snp.quests.479a199c.text.3}",
+		"{snp.quests.479a199c.text.4}",
+		"{snp.quests.479a199c.text.5}"
 	],
 	size: 1.5d,
 	tasks: [{

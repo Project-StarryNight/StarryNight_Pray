@@ -3,9 +3,9 @@
 	x: -0.5d,
 	y: 6.5d,
 	shape: "gear",
-	description: "将会陪伴你很久...",
-	text: ["{snp.quests.51685547.description.1}"	text: [
-		"{snp.quests.51685547.description.2}"
+	description: "{snp.quests.51685547.description}",
+	text: [
+		"{snp.quests.51685547.text.1}"
 	],
 	dependencies: [
 		"8213c9fd"

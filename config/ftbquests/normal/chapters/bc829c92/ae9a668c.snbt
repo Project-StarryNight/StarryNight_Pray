@@ -2,9 +2,9 @@
 	title: "{snp.quests.ae9a668c.title}",
 	x: 1.0d,
 	y: -0.5d,
-	description: "将粉碎的矿石在工作台再加工一遍，然后给炼药锅装水，丢进去...",
-	dependencies: ["{snp.quests.ae9a668c.description.1}"	dependencies: [
-		"{snp.quests.ae9a668c.description.2}"
+	description: "{snp.quests.ae9a668c.description}",
+	dependencies: [
+		"8c4ea901"
 	],
 	tasks: [{
 		uid: "ca373de8",

@@ -4,10 +4,10 @@ ftbquests_path = "config/ftbquests"
 zh_cn_path = "resources/snp/lang/zh_cn.lang"
 en_us_path = "resources/snp/lang/en_us.lang"
 should_replace_key_type_value = [
-    "title"
+    "title",
+    "description"
 ]
 should_replace_key_type_array = [
-	"description",
 	"text"
 ]
 context_dict = {}
@@ -33,7 +33,7 @@ def read_snbt(full_path, file_name):
     flag = "none"
     j = 0
     for i, line in enumerate(f_list):
-        if (line.lstrip().startswith("],")):
+        if (line.lstrip().startswith("]")):
             flag = "none"
             j = 0
         if flag != "none":

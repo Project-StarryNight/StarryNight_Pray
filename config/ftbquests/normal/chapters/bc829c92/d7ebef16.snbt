@@ -2,13 +2,13 @@
 	title: "{snp.quests.d7ebef16.title}",
 	x: 10.5d,
 	y: 10.5d,
-	description: "基础的基础材料",
-	tasks: [{"{snp.quests.d7ebef16.description.1}"	tasks: [{
-		uid: "{snp.quests.d7ebef16.description.2}",
-		type: "{snp.quests.d7ebef16.description.3}",
-		items: [{"{snp.quests.d7ebef16.description.4}"		items: [{
-			item: "{snp.quests.d7ebef16.description.5}"
-		}],"{snp.quests.d7ebef16.description.6}"		}],
-		count: 8L"{snp.quests.d7ebef16.description.7}"		count: 8L
-	}]"{snp.quests.d7ebef16.description.8}"	}]
-}"{snp.quests.d7ebef16.description.9}"}
+	description: "{snp.quests.d7ebef16.description}",
+	tasks: [{
+		uid: "15a0aa60",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}],
+		count: 8L
+	}]
+}

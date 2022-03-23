@@ -2,9 +2,9 @@
 	title: "{snp.quests.10ae78de.title}",
 	x: -1.5d,
 	y: 4.0d,
-	description: "空气也可以是重要的材料",
-	dependencies: ["{snp.quests.10ae78de.description.1}"	dependencies: [
-		"{snp.quests.10ae78de.description.2}"
+	description: "{snp.quests.10ae78de.description}",
+	dependencies: [
+		"19ab6bb9"
 	],
 	tasks: [{
 		uid: "94670a29",

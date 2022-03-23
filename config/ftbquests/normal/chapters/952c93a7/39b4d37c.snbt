@@ -15,10 +15,10 @@
 	x: -2.5d,
 	y: 2.5d,
 	shape: "diamond",
-	description: "万能工具",
-	text: ["{snp.quests.39b4d37c.description.1}"	text: [
-		"{snp.quests.39b4d37c.description.2}",
-		"{snp.quests.39b4d37c.description.3}"
+	description: "{snp.quests.39b4d37c.description}",
+	text: [
+		"{snp.quests.39b4d37c.text.1}",
+		"{snp.quests.39b4d37c.text.2}"
 	],
 	tasks: [{
 		uid: "fd04cb35",

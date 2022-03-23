@@ -101,8 +101,13 @@
 				"op": "replace",
 				"path": "parents/2",
 				"value": "BASEAUROMANCY"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:gauntlet_thaumium"
 			}
-        ]
+		]
     },
 	{
         "key": "GAUNTLET_AUGMENTATION",
@@ -126,7 +131,37 @@
 				"op": "replace",
 				"path": "parents/1",
 				"value": "UNLOCKARTIFICE"
-			}
+			},
+			{
+                   "op": "add",
+                   "path": "stages/1/recipes/-",
+                   "value": "thaumcraft:effect_provider_power"
+			},
+			{
+                   "op": "add",
+                   "path": "stages/1/recipes/-",
+                   "value": "thaumcraft:effect_provider_cast_speed"
+			},
+               {
+                   "op": "add",
+                   "path": "stages/1/recipes/-",
+                   "value": "thaumcraft:effect_provider_cost"
+               },
+               {
+                   "op": "add",
+                   "path": "stages/2/recipes/-",
+                   "value": "thaumcraft:effect_provider_power"
+               },
+               {
+                   "op": "add",
+                   "path": "stages/2/recipes/-",
+                   "value": "thaumcraft:effect_provider_cast_speed"
+               },
+               {
+                   "op": "add",
+                   "path": "stages/2/recipes/-",
+                   "value": "thaumcraft:effect_provider_cost"
+               }
         ]
     },
 	{
@@ -146,7 +181,12 @@
 				"op": "replace",
 				"path": "category",
 				"value": "AUROMANCY"
-			}
+			},
+               {
+                   "op": "add",
+                   "path": "stages/1/recipes/-",
+                   "value": "thaumcraft:strength_provider_experience"
+               }
         ]
     },
 	{
@@ -166,7 +206,12 @@
 				"op": "replace",
 				"path": "category",
 				"value": "AUROMANCY"
-			}
+			},
+               {
+                   "op": "add",
+                   "path": "stages/1/recipes/-",
+                   "value": "thaumcraft:strength_provider_frenzy"
+               }
         ]
     },
 	{
@@ -186,6 +231,20 @@
 				"op": "replace",
 				"path": "category",
 				"value": "AUROMANCY"
+			},			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:strength_overworld"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:strength_nether"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:strength_end"
 			}
         ]
     },
@@ -206,6 +265,11 @@
 				"op": "replace",
 				"path": "category",
 				"value": "AUROMANCY"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:strength_emptiness"
 			}
         ]
     },
@@ -251,6 +315,11 @@
 				"op": "replace",
 				"path": "category",
 				"value": "AUROMANCY"
+			},
+			{
+				"op": "add",
+				"path": "stages/2/recipes/-",
+				"value": "thaumcraft:GAUNTLET_VOID"
 			}
         ]
     },

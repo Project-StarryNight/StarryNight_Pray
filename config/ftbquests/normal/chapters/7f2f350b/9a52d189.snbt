@@ -2,11 +2,11 @@
 	title: "{snp.quests.9a52d189.title}",
 	x: 0.0d,
 	y: -1.5d,
-	description: "喂不饱的狼",
-	text: ["{snp.quests.9a52d189.description.1}"	text: [
-		"{snp.quests.9a52d189.description.2}",
-		"{snp.quests.9a52d189.description.3}",
-		"{snp.quests.9a52d189.description.4}"
+	description: "{snp.quests.9a52d189.description}",
+	text: [
+		"{snp.quests.9a52d189.text.1}",
+		"{snp.quests.9a52d189.text.2}",
+		"{snp.quests.9a52d189.text.3}"
 	],
 	dependencies: [
 		"71328e54"

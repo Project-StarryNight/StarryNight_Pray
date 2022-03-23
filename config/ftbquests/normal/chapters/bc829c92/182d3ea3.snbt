@@ -10,11 +10,11 @@
 	x: 6.0d,
 	y: 1.0d,
 	shape: "diamond",
-	description: "蒸汽机特性",
-	text: ["{snp.quests.182d3ea3.description.1}"	text: [
-		"{snp.quests.182d3ea3.description.2}",
-		"{snp.quests.182d3ea3.description.3}",
-		"{snp.quests.182d3ea3.description.4}"
+	description: "{snp.quests.182d3ea3.description}",
+	text: [
+		"{snp.quests.182d3ea3.text.1}",
+		"{snp.quests.182d3ea3.text.2}",
+		"{snp.quests.182d3ea3.text.3}"
 	],
 	dependencies: [
 		"acdde84f"

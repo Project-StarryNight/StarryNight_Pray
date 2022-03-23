@@ -1,11 +1,11 @@
 {
 	x: -5.5d,
 	y: 0.0d,
-	description: "这就是你目前燃烧值最高的燃料",
-	dependencies: ["{snp.quests.e393b116.description.1}"	dependencies: [
-		"{snp.quests.e393b116.description.2}",
-		"{snp.quests.e393b116.description.3}",
-		"{snp.quests.e393b116.description.4}"
+	description: "{snp.quests.e393b116.description}",
+	dependencies: [
+		"31f36a0f",
+		"7c7cb1b8",
+		"c0a04c00"
 	],
 	tasks: [{
 		uid: "824c9169",

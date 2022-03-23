@@ -3,9 +3,9 @@
 	x: -10.0d,
 	y: 2.0d,
 	shape: "gear",
-	description: "更高效的组装你的 MV 电路",
-	dependencies: ["{snp.quests.dc4e0e63.description.1}"	dependencies: [
-		"{snp.quests.dc4e0e63.description.2}"
+	description: "{snp.quests.dc4e0e63.description}",
+	dependencies: [
+		"ff9b15fb"
 	],
 	tasks: [{
 		uid: "74a93f54",

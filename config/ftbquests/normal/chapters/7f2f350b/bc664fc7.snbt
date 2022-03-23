@@ -2,13 +2,13 @@
 	title: "{snp.quests.bc664fc7.title}",
 	x: 2.0d,
 	y: -1.5d,
-	description: "制作咒波凝结器来将环境中的咒波转变为污染要素",
-	text: ["{snp.quests.bc664fc7.description.1}"	text: [
-		"{snp.quests.bc664fc7.description.2}",
-		"{snp.quests.bc664fc7.description.3}",
-		"{snp.quests.bc664fc7.description.4}",
-		"{snp.quests.bc664fc7.description.5}",
-		"{snp.quests.bc664fc7.description.6}"
+	description: "{snp.quests.bc664fc7.description}",
+	text: [
+		"{snp.quests.bc664fc7.text.1}",
+		"{snp.quests.bc664fc7.text.2}",
+		"{snp.quests.bc664fc7.text.3}",
+		"{snp.quests.bc664fc7.text.4}",
+		"{snp.quests.bc664fc7.text.5}"
 	],
 	dependencies: [
 		"9a52d189"

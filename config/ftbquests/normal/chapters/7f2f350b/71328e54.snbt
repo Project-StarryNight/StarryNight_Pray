@@ -3,12 +3,12 @@
 	icon: "thaumcraft:crucible",
 	x: -2.0d,
 	y: -1.5d,
-	description: "咒波是很恐怖的",
-	text: ["{snp.quests.71328e54.description.1}"	text: [
-		"{snp.quests.71328e54.description.2}",
-		"{snp.quests.71328e54.description.3}",
-		"{snp.quests.71328e54.description.4}",
-		"{snp.quests.71328e54.description.5}"
+	description: "{snp.quests.71328e54.description}",
+	text: [
+		"{snp.quests.71328e54.text.1}",
+		"{snp.quests.71328e54.text.2}",
+		"{snp.quests.71328e54.text.3}",
+		"{snp.quests.71328e54.text.4}"
 	],
 	dependencies: [
 		"8fa63541"

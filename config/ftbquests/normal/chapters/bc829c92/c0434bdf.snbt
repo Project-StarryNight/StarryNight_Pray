@@ -3,10 +3,10 @@
 	icon: "gregtech:meta_ingot 1 260",
 	x: 2.5d,
 	y: -0.5d,
-	description: "青铜时代",
-	text: ["{snp.quests.c0434bdf.description.1}"	text: [
-		"{snp.quests.c0434bdf.description.2}",
-		"{snp.quests.c0434bdf.description.3}"
+	description: "{snp.quests.c0434bdf.description}",
+	text: [
+		"{snp.quests.c0434bdf.text.1}",
+		"{snp.quests.c0434bdf.text.2}"
 	],
 	dependencies: [
 		"f26c7306",

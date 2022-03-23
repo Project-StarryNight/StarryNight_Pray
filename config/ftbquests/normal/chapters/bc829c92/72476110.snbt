@@ -2,10 +2,10 @@
 	title: "{snp.quests.72476110.title}",
 	x: 7.5d,
 	y: 5.0d,
-	description: "粉碎一切！",
-	text: ["{snp.quests.72476110.description.1}"	text: [
-		"{snp.quests.72476110.description.2}",
-		"{snp.quests.72476110.description.3}"
+	description: "{snp.quests.72476110.description}",
+	text: [
+		"{snp.quests.72476110.text.1}",
+		"{snp.quests.72476110.text.2}"
 	],
 	dependencies: [
 		"acdde84f"

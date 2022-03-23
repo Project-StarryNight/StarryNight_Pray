@@ -3,10 +3,10 @@
 	x: 9.0d,
 	y: 12.0d,
 	shape: "pentagon",
-	description: "欢迎来到 LV 时代！",
-	text: ["{snp.quests.b792da7b.description.1}"	text: [
-		"{snp.quests.b792da7b.description.2}",
-		"{snp.quests.b792da7b.description.3}"
+	description: "{snp.quests.b792da7b.description}",
+	text: [
+		"{snp.quests.b792da7b.text.1}",
+		"{snp.quests.b792da7b.text.2}"
 	],
 	dependencies: [
 		"d7ebef16",

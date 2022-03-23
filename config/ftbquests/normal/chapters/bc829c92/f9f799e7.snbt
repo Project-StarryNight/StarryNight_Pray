@@ -2,9 +2,9 @@
 	title: "{snp.quests.f9f799e7.title}",
 	x: 7.5d,
 	y: 9.0d,
-	description: "黏黏的...",
-	text: ["{snp.quests.f9f799e7.description.1}"	text: [
-		"{snp.quests.f9f799e7.description.2}"
+	description: "{snp.quests.f9f799e7.description}",
+	text: [
+		"{snp.quests.f9f799e7.text.1}"
 	],
 	tasks: [{
 		uid: "fc136bf6",

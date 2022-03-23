@@ -7,7 +7,7 @@
 import mods.gregtech.recipe.RecipeMap;
 
 <recipemap:gas_collector>.recipeBuilder()
-    .circuit(3)
+    .circuit(4)
     .fluidOutputs(<liquid:gsp_055_rs_air> * 10000)
     .EUt(384)
     .duration(200)

@@ -3,9 +3,9 @@
 	x: -10.0d,
 	y: 0.5d,
 	shape: "gear",
-	description: "前往 HV 阶段的一大步",
-	dependencies: ["{snp.quests.2ca427ca.description.1}"	dependencies: [
-		"{snp.quests.2ca427ca.description.2}"
+	description: "{snp.quests.2ca427ca.description}",
+	dependencies: [
+		"5b347b49"
 	],
 	size: 1.5d,
 	tasks: [{

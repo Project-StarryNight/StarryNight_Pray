@@ -2,10 +2,10 @@
 	title: "{snp.quests.8e5a13e6.title}",
 	x: 4.0d,
 	y: -0.5d,
-	description: "更多的蒸汽！",
-	text: ["{snp.quests.8e5a13e6.description.1}"	text: [
-		"{snp.quests.8e5a13e6.description.2}",
-		"{snp.quests.8e5a13e6.description.3}"
+	description: "{snp.quests.8e5a13e6.description}",
+	text: [
+		"{snp.quests.8e5a13e6.text.1}",
+		"{snp.quests.8e5a13e6.text.2}"
 	],
 	dependencies: [
 		"e5aee8b3"

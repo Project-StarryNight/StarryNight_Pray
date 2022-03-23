@@ -10,11 +10,11 @@
 	x: 0.0d,
 	y: 2.5d,
 	shape: "diamond",
-	description: "也许下面有大宝贝？",
-	text: ["{snp.quests.1f3504d7.description.1}"	text: [
-		"{snp.quests.1f3504d7.description.2}",
-		"{snp.quests.1f3504d7.description.3}",
-		"{snp.quests.1f3504d7.description.4}"
+	description: "{snp.quests.1f3504d7.description}",
+	text: [
+		"{snp.quests.1f3504d7.text.1}",
+		"{snp.quests.1f3504d7.text.2}",
+		"{snp.quests.1f3504d7.text.3}"
 	],
 	dependencies: [
 		"75ae2fb6"

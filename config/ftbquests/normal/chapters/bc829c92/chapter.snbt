@@ -1,9 +1,6 @@
 {
-	title: "{snp.quests.bc829c92.title}",
-	icon: "gregtech:steam_casing",
-	description: [
-		"{snp.quests.bc829c92.description.1}"
-	],
+	title: "&9Tier 0.5 - &6蒸汽时代",
+	icon: "gregtech:steam_casing 1 1",
 	always_invisible: false,
 	group: -1097345554,
 	default_quest_shape: ""

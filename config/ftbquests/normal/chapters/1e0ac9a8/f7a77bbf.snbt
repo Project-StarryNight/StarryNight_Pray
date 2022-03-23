@@ -2,9 +2,9 @@
 	title: "{snp.quests.f7a77bbf.title}",
 	x: -2.0d,
 	y: -1.0d,
-	description: "这就是你想要的?",
-	dependencies: ["{snp.quests.f7a77bbf.description.1}"	dependencies: [
-		"{snp.quests.f7a77bbf.description.2}"
+	description: "{snp.quests.f7a77bbf.description}",
+	dependencies: [
+		"19ab6bb9"
 	],
 	tasks: [{
 		uid: "70ebea68",

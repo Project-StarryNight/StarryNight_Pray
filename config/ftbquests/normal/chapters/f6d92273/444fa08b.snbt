@@ -10,10 +10,10 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "更大的机器",
-	text: ["{snp.quests.444fa08b.description.1}"	text: [
-		"{snp.quests.444fa08b.description.2}",
-		"{snp.quests.444fa08b.description.3}",
-		"{snp.quests.444fa08b.description.4}"
-	]"{snp.quests.444fa08b.description.5}"	]
-}"{snp.quests.444fa08b.description.6}"}
+	description: "{snp.quests.444fa08b.description}",
+	text: [
+		"{snp.quests.444fa08b.text.1}",
+		"{snp.quests.444fa08b.text.2}",
+		"{snp.quests.444fa08b.text.3}"
+	]
+}

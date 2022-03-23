@@ -13,9 +13,9 @@
 	x: 1.5d,
 	y: 2.0d,
 	shape: "diamond",
-	description: "一定要看！",
-	text: ["{snp.quests.7bac6c2f.description.1}"	text: [
-		"{snp.quests.7bac6c2f.description.2}"
+	description: "{snp.quests.7bac6c2f.description}",
+	text: [
+		"{snp.quests.7bac6c2f.text.1}"
 	],
 	tasks: [{
 		uid: "2eb84929",

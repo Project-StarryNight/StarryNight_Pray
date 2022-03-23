@@ -2,10 +2,10 @@
 	title: "{snp.quests.7957db73.title}",
 	x: 4.5d,
 	y: 5.0d,
-	description: "融合金属",
-	text: ["{snp.quests.7957db73.description.1}"	text: [
-		"{snp.quests.7957db73.description.2}",
-		"{snp.quests.7957db73.description.3}"
+	description: "{snp.quests.7957db73.description}",
+	text: [
+		"{snp.quests.7957db73.text.1}",
+		"{snp.quests.7957db73.text.2}"
 	],
 	dependencies: [
 		"acdde84f"

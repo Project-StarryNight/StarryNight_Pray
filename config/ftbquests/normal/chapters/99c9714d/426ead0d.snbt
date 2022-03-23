@@ -10,11 +10,11 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "这是一个由格雷科技为主，魔法为辅组成的世界。",
-	text: ["{snp.quests.426ead0d.description.1}"	text: [
-		"{snp.quests.426ead0d.description.2}",
-		"{snp.quests.426ead0d.description.3}",
-		"{snp.quests.426ead0d.description.4}"
+	description: "{snp.quests.426ead0d.description}",
+	text: [
+		"{snp.quests.426ead0d.text.1}",
+		"{snp.quests.426ead0d.text.2}",
+		"{snp.quests.426ead0d.text.3}"
 	],
 	size: 1.5d,
 	tasks: [{

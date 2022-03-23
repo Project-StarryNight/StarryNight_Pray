@@ -14,9 +14,9 @@
 	},
 	x: 0.0d,
 	y: 2.5d,
-	description: "可以连锁砍伐树木",
-	dependencies: ["{snp.quests.46c8ada0.description.1}"	dependencies: [
-		"{snp.quests.46c8ada0.description.2}"
+	description: "{snp.quests.46c8ada0.description}",
+	dependencies: [
+		"6c2cdd15"
 	],
 	tasks: [{
 		uid: "4219d8d4",

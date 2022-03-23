@@ -10,9 +10,9 @@
 	x: 1.0d,
 	y: 6.5d,
 	shape: "diamond",
-	description: "关于电力高炉",
-	text: ["{snp.quests.67d098f2.description.1}"	text: [
-		"{snp.quests.67d098f2.description.2}"
+	description: "{snp.quests.67d098f2.description}",
+	text: [
+		"{snp.quests.67d098f2.text.1}"
 	],
 	dependencies: [
 		"51685547"

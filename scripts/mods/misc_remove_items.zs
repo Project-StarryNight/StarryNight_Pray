@@ -47,7 +47,6 @@ var items as IItemStack[] = [
 ];
 
 for i, item in items {
-    var item = items[i];
     recipes.remove(item);
     JEI.removeAndHide(item,true);
 }
@@ -58,14 +57,12 @@ var recipeItems as IItemStack[] = [
     <thaumcraft:plate:1>,#TC6 铁板
     <thaumcraft:plate:2>,#TC6 神秘板
     <thaumcraft:plate:3>,#TC6 虚空金属板
-    <bewitchment:silver_plate>,#巫术银板
     <enderio:block_solar_panel:4>,#晶化光伏板
     <enderio:block_solar_panel:5>,#旋律光伏板
     <enderio:block_solar_panel:6>#恒星光伏板
 ];
 
 for i, item in recipeItems {
-    var item = recipeItems[i];
     recipes.remove(item);
 }
 
@@ -120,6 +117,5 @@ var jeiItems as IItemStack[] = [
 ];
 
 for i, item in jeiItems {
-    var item = jeiItems[i];
     JEI.removeAndHide(item,false);
 }

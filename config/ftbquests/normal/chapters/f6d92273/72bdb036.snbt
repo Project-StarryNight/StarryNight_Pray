@@ -3,10 +3,10 @@
 	x: 4.5d,
 	y: 2.25d,
 	shape: "gear",
-	description: "多方块结构",
-	text: ["{snp.quests.72bdb036.description.1}"	text: [
-		"{snp.quests.72bdb036.description.2}",
-		"{snp.quests.72bdb036.description.3}"
+	description: "{snp.quests.72bdb036.description}",
+	text: [
+		"{snp.quests.72bdb036.text.1}",
+		"{snp.quests.72bdb036.text.2}"
 	],
 	size: 1.5d,
 	tasks: [{

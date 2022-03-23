@@ -2,10 +2,7 @@
 	title: "{snp.quests.19ab6bb9.title}",
 	x: -3.5d,
 	y: 3.0d,
-	description: "欢迎来到LV阶段!",
-	dependencies: ["{snp.quests.19ab6bb9.description.1}"	dependencies: [
-		"{snp.quests.19ab6bb9.description.2}"
-	],
+	description: "{snp.quests.19ab6bb9.description}",
 	dependency_requirement: "all_started",
 	tasks: [{
 		uid: "e1182e00",

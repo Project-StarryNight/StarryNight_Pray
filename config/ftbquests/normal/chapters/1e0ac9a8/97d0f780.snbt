@@ -2,10 +2,10 @@
 	title: "{snp.quests.97d0f780.title}",
 	x: 1.0d,
 	y: 3.5d,
-	description: "空气中有多少这玩意？",
-	dependencies: ["{snp.quests.97d0f780.description.1}"	dependencies: [
-		"{snp.quests.97d0f780.description.2}",
-		"{snp.quests.97d0f780.description.3}"
+	description: "{snp.quests.97d0f780.description}",
+	dependencies: [
+		"2945b006",
+		"6addad26"
 	],
 	tasks: [{
 		uid: "d2648344",

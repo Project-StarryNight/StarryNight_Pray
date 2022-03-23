@@ -2,10 +2,10 @@
 	title: "{snp.quests.c6953f8c.title}",
 	x: 6.0d,
 	y: 5.0d,
-	description: "提取你的第一块橡胶",
-	text: ["{snp.quests.c6953f8c.description.1}"	text: [
-		"{snp.quests.c6953f8c.description.2}",
-		"{snp.quests.c6953f8c.description.3}"
+	description: "{snp.quests.c6953f8c.description}",
+	text: [
+		"{snp.quests.c6953f8c.text.1}",
+		"{snp.quests.c6953f8c.text.2}"
 	],
 	dependencies: [
 		"acdde84f"

@@ -14,10 +14,10 @@
 	},
 	x: -2.5d,
 	y: 5.0d,
-	description: "工具全家桶",
-	text: ["{snp.quests.6c2cdd15.description.1}"	text: [
-		"{snp.quests.6c2cdd15.description.2}",
-		"{snp.quests.6c2cdd15.description.3}"
+	description: "{snp.quests.6c2cdd15.description}",
+	text: [
+		"{snp.quests.6c2cdd15.text.1}",
+		"{snp.quests.6c2cdd15.text.2}"
 	],
 	tasks: [{
 		uid: "b8c9f444",

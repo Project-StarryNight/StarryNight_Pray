@@ -14,10 +14,10 @@
 	},
 	x: 2.5d,
 	y: 7.5d,
-	description: "切割材料",
-	text: ["{snp.quests.64e18bc2.description.1}"	text: [
-		"{snp.quests.64e18bc2.description.2}",
-		"{snp.quests.64e18bc2.description.3}"
+	description: "{snp.quests.64e18bc2.description}",
+	text: [
+		"{snp.quests.64e18bc2.text.1}",
+		"{snp.quests.64e18bc2.text.2}"
 	],
 	dependencies: [
 		"40fb7e69"

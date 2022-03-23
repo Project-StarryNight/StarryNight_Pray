@@ -14,10 +14,10 @@
 	},
 	x: 0.0d,
 	y: 5.0d,
-	description: "左键作物可以大范围收集，自动种植",
-	text: ["{snp.quests.3e0f7e3c.description.1}"	text: [
-		"{snp.quests.3e0f7e3c.description.2}",
-		"{snp.quests.3e0f7e3c.description.3}"
+	description: "{snp.quests.3e0f7e3c.description}",
+	text: [
+		"{snp.quests.3e0f7e3c.text.1}",
+		"{snp.quests.3e0f7e3c.text.2}"
 	],
 	dependencies: [
 		"6c2cdd15"

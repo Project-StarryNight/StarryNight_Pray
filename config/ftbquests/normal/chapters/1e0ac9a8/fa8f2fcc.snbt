@@ -2,9 +2,9 @@
 	title: "{snp.quests.fa8f2fcc.title}",
 	x: -1.5d,
 	y: 0.0d,
-	description: "拯救红石",
-	dependencies: ["{snp.quests.fa8f2fcc.description.1}"	dependencies: [
-		"{snp.quests.fa8f2fcc.description.2}"
+	description: "{snp.quests.fa8f2fcc.description}",
+	dependencies: [
+		"19ab6bb9"
 	],
 	tasks: [{
 		uid: "d9e07499",

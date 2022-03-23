@@ -10,11 +10,11 @@
 	x: 1.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "更高级的投影，甚至自动建造",
-	text: ["{snp.quests.d9bb5f03.description.1}"	text: [
-		"{snp.quests.d9bb5f03.description.2}",
-		"{snp.quests.d9bb5f03.description.3}",
-		"{snp.quests.d9bb5f03.description.4}"
+	description: "{snp.quests.d9bb5f03.description}",
+	text: [
+		"{snp.quests.d9bb5f03.text.1}",
+		"{snp.quests.d9bb5f03.text.2}",
+		"{snp.quests.d9bb5f03.text.3}"
 	],
 	tasks: [{
 		uid: "16665ef7",

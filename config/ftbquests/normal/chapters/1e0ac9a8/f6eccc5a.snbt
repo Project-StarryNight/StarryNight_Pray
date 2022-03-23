@@ -2,9 +2,9 @@
 	title: "{snp.quests.f6eccc5a.title}",
 	x: -1.5d,
 	y: 5.0d,
-	description: "别再浪费材料了",
-	dependencies: ["{snp.quests.f6eccc5a.description.1}"	dependencies: [
-		"{snp.quests.f6eccc5a.description.2}"
+	description: "{snp.quests.f6eccc5a.description}",
+	dependencies: [
+		"19ab6bb9"
 	],
 	tasks: [{
 		uid: "11e236c0",

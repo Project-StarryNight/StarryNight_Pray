@@ -3,9 +3,9 @@
 	icon: "minecraft:brick_block",
 	x: 4.0d,
 	y: 2.5d,
-	description: "制作砖块，不过这次不是建材，而是材料...",
-	dependencies: ["{snp.quests.2f352354.description.1}"	dependencies: [
-		"{snp.quests.2f352354.description.2}"
+	description: "{snp.quests.2f352354.description}",
+	dependencies: [
+		"f26c7306"
 	],
 	tasks: [{
 		uid: "4171e4ad",

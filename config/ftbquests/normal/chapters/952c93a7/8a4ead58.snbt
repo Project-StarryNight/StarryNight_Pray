@@ -14,9 +14,9 @@
 	},
 	x: 0.0d,
 	y: 10.0d,
-	description: "可以调整机器和覆盖板，也是用于合成的重要材料",
-	dependencies: ["{snp.quests.8a4ead58.description.1}"	dependencies: [
-		"{snp.quests.8a4ead58.description.2}"
+	description: "{snp.quests.8a4ead58.description}",
+	dependencies: [
+		"40fb7e69"
 	],
 	tasks: [{
 		uid: "81769c52",

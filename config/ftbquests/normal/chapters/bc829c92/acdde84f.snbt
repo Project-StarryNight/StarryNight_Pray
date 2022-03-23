@@ -2,9 +2,9 @@
 	title: "{snp.quests.acdde84f.title}",
 	x: 6.0d,
 	y: 2.5d,
-	description: "蒸汽动力！",
-	text: ["{snp.quests.acdde84f.description.1}"	text: [
-		"{snp.quests.acdde84f.description.2}"
+	description: "{snp.quests.acdde84f.description}",
+	text: [
+		"{snp.quests.acdde84f.text.1}"
 	],
 	dependencies: [
 		"e5aee8b3"

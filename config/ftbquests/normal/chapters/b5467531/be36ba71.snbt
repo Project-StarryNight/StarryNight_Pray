@@ -3,9 +3,9 @@
 	x: 1.5d,
 	y: 6.5d,
 	shape: "gear",
-	description: "2Co + 4Fe = 2CoFFee",
-	dependencies: ["{snp.quests.be36ba71.description.1}"	dependencies: [
-		"{snp.quests.be36ba71.description.2}"
+	description: "{snp.quests.be36ba71.description}",
+	dependencies: [
+		"3b9267af"
 	],
 	size: 1.25d,
 	tasks: [{

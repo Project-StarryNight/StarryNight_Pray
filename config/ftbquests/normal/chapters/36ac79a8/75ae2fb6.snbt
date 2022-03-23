@@ -10,11 +10,11 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "全新的挖矿方式...",
-	text: ["{snp.quests.75ae2fb6.description.1}"	text: [
-		"{snp.quests.75ae2fb6.description.2}",
-		"{snp.quests.75ae2fb6.description.3}",
-		"{snp.quests.75ae2fb6.description.4}"
+	description: "{snp.quests.75ae2fb6.description}",
+	text: [
+		"{snp.quests.75ae2fb6.text.1}",
+		"{snp.quests.75ae2fb6.text.2}",
+		"{snp.quests.75ae2fb6.text.3}"
 	],
 	tasks: [{
 		uid: "137818d9",

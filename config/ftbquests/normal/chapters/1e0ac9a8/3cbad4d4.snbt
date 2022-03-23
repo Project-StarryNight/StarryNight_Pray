@@ -2,9 +2,9 @@
 	title: "{snp.quests.3cbad4d4.title}",
 	x: -6.5d,
 	y: -3.0d,
-	description: "我知道你需要他",
-	dependencies: ["{snp.quests.3cbad4d4.description.1}"	dependencies: [
-		"{snp.quests.3cbad4d4.description.2}"
+	description: "{snp.quests.3cbad4d4.description}",
+	dependencies: [
+		"86ef6acb"
 	],
 	tasks: [{
 		uid: "96301500",

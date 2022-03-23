@@ -2,12 +2,12 @@
 	x: 2.5d,
 	y: 5.0d,
 	shape: "diamond",
-	description: "合理利用快捷键能提高你游玩整合包的效率",
-	text: ["{snp.quests.4455e225.description.1}"	text: [
-		"{snp.quests.4455e225.description.2}",
-		"{snp.quests.4455e225.description.3}",
-		"{snp.quests.4455e225.description.4}",
-		"{snp.quests.4455e225.description.5}"
+	description: "{snp.quests.4455e225.description}",
+	text: [
+		"{snp.quests.4455e225.text.1}",
+		"{snp.quests.4455e225.text.2}",
+		"{snp.quests.4455e225.text.3}",
+		"{snp.quests.4455e225.text.4}"
 	],
 	dependencies: [
 		"c7b2d1dd"

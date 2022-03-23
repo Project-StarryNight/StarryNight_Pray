@@ -2,9 +2,9 @@
 	title: "{snp.quests.5ffaf6c1.title}",
 	x: -4.5d,
 	y: 6.5d,
-	description: "不仅仅是加工透镜",
-	dependencies: ["{snp.quests.5ffaf6c1.description.1}"	dependencies: [
-		"{snp.quests.5ffaf6c1.description.2}"
+	description: "{snp.quests.5ffaf6c1.description}",
+	dependencies: [
+		"3b9267af"
 	],
 	tasks: [{
 		uid: "c7b8b7d8",

@@ -2,9 +2,9 @@
 	title: "{snp.quests.ffcd9089.title}",
 	x: -2.0d,
 	y: 6.0d,
-	description: "还记得蒸汽时代的提取机吗？它现在进化了！",
-	dependencies: ["{snp.quests.ffcd9089.description.1}"	dependencies: [
-		"{snp.quests.ffcd9089.description.2}"
+	description: "{snp.quests.ffcd9089.description}",
+	dependencies: [
+		"19ab6bb9"
 	],
 	tasks: [{
 		uid: "06a5ffa7",

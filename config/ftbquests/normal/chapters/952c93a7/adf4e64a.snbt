@@ -14,10 +14,10 @@
 	},
 	x: -2.5d,
 	y: 10.0d,
-	description: "可以用来调整机器，也是重要的合成工具",
-	text: ["{snp.quests.adf4e64a.description.1}"	text: [
-		"{snp.quests.adf4e64a.description.2}",
-		"{snp.quests.adf4e64a.description.3}"
+	description: "{snp.quests.adf4e64a.description}",
+	text: [
+		"{snp.quests.adf4e64a.text.1}",
+		"{snp.quests.adf4e64a.text.2}"
 	],
 	dependencies: [
 		"43b45e0e"

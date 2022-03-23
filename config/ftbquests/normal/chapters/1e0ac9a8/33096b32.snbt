@@ -2,9 +2,9 @@
 	title: "{snp.quests.33096b32.title}",
 	x: -4.5d,
 	y: 2.0d,
-	description: "名副其实的原子剥离机!",
-	dependencies: ["{snp.quests.33096b32.description.1}"	dependencies: [
-		"{snp.quests.33096b32.description.2}"
+	description: "{snp.quests.33096b32.description}",
+	dependencies: [
+		"19ab6bb9"
 	],
 	tasks: [{
 		uid: "13346b7e",

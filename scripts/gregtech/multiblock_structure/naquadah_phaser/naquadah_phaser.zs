@@ -4,7 +4,7 @@
  * 此脚本为硅岩移相器结构内容
 */
 
-#priority 900
+#priority 899
 
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;

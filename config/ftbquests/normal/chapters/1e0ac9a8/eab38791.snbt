@@ -2,9 +2,9 @@
 	title: "{snp.quests.eab38791.title}",
 	x: -5.5d,
 	y: 4.0d,
-	description: "加工螺丝，棍棒，比手工更省时省力",
-	dependencies: ["{snp.quests.eab38791.description.1}"	dependencies: [
-		"{snp.quests.eab38791.description.2}"
+	description: "{snp.quests.eab38791.description}",
+	dependencies: [
+		"19ab6bb9"
 	],
 	tasks: [{
 		uid: "517dcc30",

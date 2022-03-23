@@ -2,18 +2,18 @@
 	title: "{snp.quests.bc08bdc5.title}",
 	x: 2.8869047619047663d,
 	y: 9.00892857142857d,
-	description: "还需要进一步加工",
-	tasks: [{"{snp.quests.bc08bdc5.description.1}"	tasks: [{
-		uid: "{snp.quests.bc08bdc5.description.2}",
-		type: "{snp.quests.bc08bdc5.description.3}",
-		items: [{"{snp.quests.bc08bdc5.description.4}"		items: [{
-			item: "{snp.quests.bc08bdc5.description.5}"
-		}],"{snp.quests.bc08bdc5.description.6}"		}],
-		count: 4L"{snp.quests.bc08bdc5.description.7}"		count: 4L
-	}],"{snp.quests.bc08bdc5.description.8}"	}],
-	rewards: [{"{snp.quests.bc08bdc5.description.9}"	rewards: [{
-		uid: "{snp.quests.bc08bdc5.description.10}",
-		type: "{snp.quests.bc08bdc5.description.11}",
-		item: "{snp.quests.bc08bdc5.description.12}"
-	}]"{snp.quests.bc08bdc5.description.13}"	}]
-}"{snp.quests.bc08bdc5.description.14}"}
+	description: "{snp.quests.bc08bdc5.description}",
+	tasks: [{
+		uid: "6c8586c4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 11"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8a5addf1",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12"
+	}]
+}

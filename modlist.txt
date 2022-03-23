@@ -13,7 +13,7 @@
         -[CrT VSC工具][probe-0.1.24]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
 
-    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta]
+    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta][预发布版]
         (附属)
         -[GT TOP扩展][GregicProbe-1.0]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
