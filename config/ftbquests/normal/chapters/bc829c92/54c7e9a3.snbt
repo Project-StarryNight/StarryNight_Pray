@@ -1,0 +1,19 @@
+{
+	title: "&b砖砌青铜外壳",
+	x: 2.5d,
+	y: 2.5d,
+	description: "一些基础性的外壳",
+	text: [
+		"用于制作蒸汽熔炉或者锅炉，通常是可选的"
+	],
+	dependencies: [
+		"2f352354"
+	],
+	tasks: [{
+		uid: "c10d570d",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 1"
+		}]
+	}]
+}

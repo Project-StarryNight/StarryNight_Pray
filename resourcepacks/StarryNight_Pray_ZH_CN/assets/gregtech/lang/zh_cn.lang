@@ -2268,8 +2268,8 @@ behavior.tricorder.energy_container_storage=能量: %s EU / %s EU
 behavior.tricorder.bedrock_fluid.amount=流体输入储存: %s %s - %s%%
 behavior.tricorder.bedrock_fluid.amount_unknown=流体输入储存: %s%%
 behavior.tricorder.bedrock_fluid.nothing=流体输入储存: §6空§r
-behavior.tricorder.eut_per_sec=倒数第二 %s EU/t
-behavior.tricorder.amp_per_sec=倒数第二 %s A
+behavior.tricorder.eut_per_sec=每秒 %s EU/t
+behavior.tricorder.amp_per_sec=每秒 %s A
 behavior.tricorder.workable_progress=进度: %s s / %s s
 behavior.tricorder.workable_stored_energy=储存能量: %s EU / %s EU
 behavior.tricorder.workable_consumption=可能消耗: %s EU/t at %s A
@@ -3988,7 +3988,7 @@ gregtech.machine.item_collector.gui.collect_range=在 %s 格方块范围里里�
 
 #Quantum Chests
 gregtech.machine.quantum_chest.tooltip=比 YABBA 好
-gregtech.machine.quantum_chest.capacity=物品容量: %,d items
+gregtech.machine.quantum_chest.capacity=物品容量: %,d 个物品
 gregtech.machine.quantum_chest.items_stored=物品数量:
 gregtech.machine.quantum_chest.tooltip.item=物品存储: §b%s
 gregtech.machine.quantum_chest.tooltip.count=物品数量: §e%,d
@@ -4360,7 +4360,7 @@ gregtech.machine.primitive_water_pump.name=原始水泵
 gregtech.machine.primitive_blast_furnace.bronze.name=土高炉
 gregtech.machine.electric_blast_furnace.name=电力高炉
 gregtech.machine.electric_blast_furnace.tooltip.1=对于超过温度 §a900K§7 的配方，那么在计算配方超频前会将能量消耗乘以 §a95%%§7。
-gregtech.machine.electric_blast_furnace.tooltip.2=对于超过温度 §a1800K§7 的配方，超频效率 §a100%%§7 更高效。
+gregtech.machine.electric_blast_furnace.tooltip.2=对于超过温度 §a1800K§7 的配方，超频将会是 §a100%%§7 ，使其更高效。
 gregtech.machine.electric_blast_furnace.tooltip.3=对于 §aMV§7 以上的每一个电压层，温度将会升高 §a100K§7。
 gregtech.machine.vacuum_freezer.name=真空冷冻机
 gregtech.machine.implosion_compressor.name=聚爆压缩机
@@ -4600,7 +4600,7 @@ gregtech.machine.maintenance_hatch_configurable.name=可配置维护仓
 gregtech.machine.maintenance_hatch_configurable.tooltip=为了更好地控制多方块结构/n启动，没有维护问题！
 gregtech.machine.maintenance_hatch_full_auto.name=自动维护仓
 gregtech.machine.maintenance_hatch_full_auto.tooltip=用于自动维护多方块结构
-gregtech.machine.maintenance_hatch_tool_slot.tooltip=当维护的所需工具在库存中时，用空手右击即可解决维护问题
+gregtech.machine.maintenance_hatch_tool_slot.tooltip=当维护的所需工具在背包中时，用空手右击即可解决维护问题
 gregtech.machine.maintenance_hatch_tape_slot.tooltip=放入胶带以防止出现问题
 
 gregtech.maintenance.configurable_duration=持续时间: %fx
@@ -4637,13 +4637,13 @@ gregtech.machine.pump_hatch.tooltip=原始流体输出水泵
 gregtech.machine.machine_hatch.name=机器访问接口
 gregtech.machine.machine_hatch.locked=机器接口锁定
 gregtech.machine.machine_hatch.tooltip=只保存有效物品的专用访问总线
-gregtech.machine.machine_hatch.processing_array=当在§e处理阵列§7中时, 只保留机器工作在处§e处理阵列
+gregtech.machine.machine_hatch.processing_array=当在§e处理阵列§7中时, 只保留机器工作在§e处理阵列
 
 
 gregtech.machine.fluid_tank.max_multiblock=多方块结构最大尺寸: %dx%dx%d
 gregtech.machine.fluid_tank.fluid=包含 %s L 的 %s
 
-gregtech.machine.item_controller.tooltip.redstone=需要放入红石才能工作
+gregtech.machine.item_controller.tooltip.redstone=需要红石信号才能工作
 gregtech.machine.item_controller.tooltip.consumption=工作时，消耗 %d EU/t
 
 # Universal tooltips
@@ -4827,7 +4827,7 @@ gregtech.multiblock.large_boiler.throttle.tooltip=锅炉可以输出更少的蒸
 gregtech.multiblock.large_boiler.throttle_modify=修改节流阀:
 gregtech.multiblock.large_boiler.rate_tooltip=使用 1 个煤炭可以产生 %dL 蒸汽，速率为 %dL/t
 gregtech.multiblock.large_boiler.heat_time_tooltip=需要 %.2f 秒加热
-gregtech.multiblock.large_boiler.explosion_tooltip=§c如果没有提供水，那么提供燃料就会爆炸
+gregtech.multiblock.large_boiler.explosion_tooltip=§c如果没有提供水，那么提供燃料之后再提供水就会爆炸
 
 gregtech.machine.miner.startx=初始 X: %d
 gregtech.machine.miner.starty=初始 Y: %d

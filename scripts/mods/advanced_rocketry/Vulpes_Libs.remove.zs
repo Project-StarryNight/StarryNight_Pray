@@ -7,7 +7,7 @@
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
-//隐藏jei并移除配方 
+//隐藏jei并移除配方
 var items as IItemStack[] = [
     <libvulpes:productrod:1>,
     <libvulpes:productrod:4>,
@@ -21,7 +21,7 @@ for i, item in items {
     JEI.removeAndHide(item,true);
 }
 
-//删除熔炉配方并隐藏jei 
+//删除熔炉配方并隐藏jei
 var furnaceitem as IItemStack[] = [
     <libvulpes:productingot:7>,
     <libvulpes:productingot:3>

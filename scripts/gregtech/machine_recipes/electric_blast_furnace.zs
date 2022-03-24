@@ -103,3 +103,34 @@ import crafttweaker.item.IIngredient;
             .property("temperature", temp)
             .buildAndRegister();
     }
+
+//炉渣_富炉渣
+    #炉渣
+    <recipemap:electric_blast_furnace>.recipeBuilder()
+        .inputs([
+            <ore:gemCoal>,
+            <ore:dustAsh> * 2
+        ])
+        .outputs([
+            <thermalfoundation:material:864>
+        ])
+        .chancedOutput(<thermalfoundation:material:864>, 7500, 500)
+        .duration(200)
+        .EUt(64)
+        .property("temperature", 800)
+        .buildAndRegister();
+    #富炉渣
+        <recipemap:electric_blast_furnace>.recipeBuilder()
+        .inputs([
+            <ore:gemFlawlessCoal>,
+            <ore:dustDarkAsh> * 2
+        ])
+        .outputs([
+            <thermalfoundation:material:865>
+        ])
+        .chancedOutput(<thermalfoundation:material:865>, 5000, 1000)
+        .chancedOutput(<thermalfoundation:material:865>, 2500, 500)
+        .duration(300)
+        .EUt(256)
+        .property("temperature", 1400)
+        .buildAndRegister();

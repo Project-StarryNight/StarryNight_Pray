@@ -10,7 +10,6 @@ import crafttweaker.item.IItemStack;
 //魔力硅岩反应堆
 var MNR as IItemStack = <gregtech:machine:32000>;
 
-MNR.addTooltip(game.localize("controller_info"));
 MNR.addTooltip(game.localize("voltage_level") + "§rZPM §a- §3UV");
 MNR.addTooltip(game.localize("magic_naquadah_reactor_tooltip_1"));
 MNR.addTooltip(game.localize("magic_naquadah_reactor_tooltip_2"));
@@ -21,7 +20,6 @@ MNR.addTooltip(game.localize("magic_naquadah_reactor_tooltip_5"));
 //硅岩移相器
 var NaP as IItemStack = <gregtech:machine:32001>;
 
-NaP.addTooltip(game.localize("controller_info"));
 NaP.addTooltip(game.localize("voltage_level") + "§rZPM §a- §3UV");
 NaP.addTooltip(game.localize("naquadah_phaser_controller_tooltip_1"));
 NaP.addTooltip(game.localize("naquadah_phaser_controller_tooltip_2"));

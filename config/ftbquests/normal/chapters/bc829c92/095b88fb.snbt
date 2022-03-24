@@ -1,0 +1,16 @@
+{
+	x: 11.0d,
+	y: 7.0d,
+	shape: "pentagon",
+	dependencies: [
+		"71de8d06",
+		"25533577"
+	],
+	tasks: [{
+		uid: "dfd99456",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 324"
+		}]
+	}]
+}

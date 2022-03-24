@@ -1,0 +1,17 @@
+{
+	title: "&b锻铁锭",
+	x: 10.0d,
+	y: 6.0d,
+	description: "使用蒸汽压缩机压缩",
+	dependencies: [
+		"2ce2c1de",
+		"c9a4a4fa"
+	],
+	tasks: [{
+		uid: "312ecbe3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}]
+	}]
+}

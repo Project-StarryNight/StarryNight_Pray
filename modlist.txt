@@ -1,7 +1,6 @@
 可选Mod:
     -[高清修复][preview_OptiFine_1.12.2_HD_U_G6_pre1]
     -[音乐][AudioBuffer-1.0]
-    -[各种物品][VariedCommodities_1.12.2(27oct19)]
 
 核心Mod:
     -[Mixin兼容][[___MixinCompat-0.8___]]
@@ -17,9 +16,9 @@
         (附属)
         -[GT TOP扩展][GregicProbe-1.0]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
-        -[格雷食物优选][GregTechFoodOption-1.12.2-1.4.2]
+        -[GCYM][GregicalityMultiblocks-1.12.2-1.1.1]
 
-    -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v50f]
+    -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v51d]
         (附属)
         -[封包合成][PackagedAuto-1.12.2-1.0.5.18]
         -[流体合成][ae2fc-1.12.2-1.0.11]
@@ -71,6 +70,7 @@
         -[末影接口_导管][EnderIO-conduits-1.12.2-5.3.70]
             (附属)
             -[末影接口_应用能源导管][EnderIO-conduits-appliedenergistics-1.12.2-5.3.70]
+        -[末影接口_导管扩展][EnderIO-endergy-1.12.2-5.3.70]
 
     -[延迟监视][LagGoggles-1.12.2-5.8-132]
     -[模块化路由器][modular-routers-1.12.2-3.3.0-33]
@@ -108,7 +108,6 @@
 
     -[FTB 连锁挖掘][ftb-ultimine-1202.3.5]
     -[FTBU][FTBUtilities-5.4.1.131]
-    -[难度调整][roughTweaks0.2.4-1.12.2]
     -[匠魂2][TConstruct-1.12.2-2.13.0.183]
         (附属)
         -[匠魂JEI][tinkersjei-1.2]
@@ -120,7 +119,6 @@
         -[匠魂合金附加 FIXED][taiga-1.12.2-1.3.4][MOD已修改]
 
     -[在线相框][OnlinePicFrame_v1.5.0-pre1_mc1.12.2]
-    -[樱][Sakura-1.0.7-1.12.2]
     -[家具][furniture-6.3.1-1.12.2]
     -[各种物品][VariedCommodities_1.12.2(27oct19)]
     -[通量网络][FluxNetworks-1.12.2-4.1.1.34]
@@ -137,7 +135,7 @@
         -[鸡窝][roost-1.12.2-2.0.10]
     -[储物桶][YABBA-1.1.2.54]
     -[RF 工具箱][rftools-1.12-7.73]
-    -[巫术][bewitchment-1.12.2-0.0.22.64]
+    -[建筑师工艺][architecturecraft-1.12-3.98]
 
 前置Mod:
     -[帕秋莉手册][Patchouli-1.0-23.6]
@@ -151,10 +149,6 @@
     -[前置][Placebo-1.12.2-1.6.0]
         使用该前置的Mod:
         -[神化][Apotheosis-1.12.2-1.12.5]
-
-    -[妖怪之山通用库][MMLib-2.3.0]
-        使用该前置的Mod:
-        -[樱][Sakura-1.0.7-1.12.2]
 
     -[前置][CreativeCore_v1.10.44_mc1.12.2]
         使用该前置的Mod:

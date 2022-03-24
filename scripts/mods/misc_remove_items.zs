@@ -43,7 +43,12 @@ var items as IItemStack[] = [
     <enderio:block_franken_zombie_generator>,#人造僵尸发电机
     <enderio:block_ender_generator>,#末影发电机
     <actuallyadditions:item_disenchanting_lens>,#祛魔透镜
-    <libvulpes:coalgenerator>#燃煤发电机
+    <libvulpes:coalgenerator>,#燃煤发电机
+    <avaritiaddons:infinity_compressor>,#无尽压缩机
+    <actuallyadditions:block_grinder>,#磨粉机
+    <actuallyadditions:block_grinder_double>,#两仓磨粉机
+    <advancedrocketry:rollingmachine>,#卷板机
+    <thermalexpansion:device:10>#公式处理器
 ];
 
 for i, item in items {
@@ -113,7 +118,8 @@ var jeiItems as IItemStack[] = [
     <enderutilities:chairwand>,
     <enderutilities:dolly>,
     <enderutilities:machine_1:2>,
-    <enderutilities:molecular_exciter>
+    <enderutilities:molecular_exciter>,
+    <avaritia:singularity:*>#无尽贪婪奇点
 ];
 
 for i, item in jeiItems {

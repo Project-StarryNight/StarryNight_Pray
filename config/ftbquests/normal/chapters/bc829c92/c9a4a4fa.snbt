@@ -1,0 +1,13 @@
+{
+	title: "&b锻铁粒",
+	x: 11.0d,
+	y: 6.0d,
+	description: "使用普通的铁粒烧制",
+	tasks: [{
+		uid: "5cb047d7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_nugget 1 335"
+		}]
+	}]
+}

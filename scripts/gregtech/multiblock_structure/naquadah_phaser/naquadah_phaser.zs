@@ -39,7 +39,7 @@ Builder.start(loc, id)
             .where("H", CTPredicate.states(<metastate:gregtech:hermetic_casing:6>))
             .where("R", CTPredicate.states(<metastate:avaritia:block_resource:2>))
             .where("T", CTPredicate.states(<metastate:gregtech:transparent_casing:1>))
-            .where("M", CTPredicate.states(<metastate:gregtech:metal_casing:7>).setMinGlobalLimited(44) | controller.autoAbilities())
+            .where("M", CTPredicate.states(<metastate:gregtech:metal_casing:7>).setMinGlobalLimited(40) | controller.autoAbilities())
             .where("W", CTPredicate.states(<metastate:gregtech:wire_coil:5>))
             .where("#", CTPredicate.getAir())
             .build();

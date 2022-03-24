@@ -287,8 +287,8 @@
                 <num>0</num>
                 <str>$e</str>
                 <str>$6</str>
-                <str>$c! </str>
-                <str>$4!! </str>
+                <str>$c!</str>
+                <str>$4!!</str>
                 <str>$a10</str>
             </op>
             <round>
@@ -318,8 +318,8 @@
                 <num>0</num>
                 <str>$e</str>
                 <str>$6</str>
-                <str>$c! </str>
-                <str>$4!! </str>
+                <str>$c!</str>
+                <str>$4!!</str>
                 <str>$a10</str>
             </op>
             <round>
@@ -349,8 +349,8 @@
                 <num>0</num>
                 <str>$e</str>
                 <str>$6</str>
-                <str>$c! </str>
-                <str>$4!! </str>
+                <str>$c!</str>
+                <str>$4!!</str>
                 <str>$a10</str>
             </op>
             <round>
@@ -380,8 +380,8 @@
                 <num>0</num>
                 <str>$e</str>
                 <str>$6</str>
-                <str>$c! </str>
-                <str>$4!! </str>
+                <str>$c!</str>
+                <str>$4!!</str>
                 <str>$a10</str>
             </op>
             <round>
@@ -470,30 +470,6 @@
                 <var>potiondurationticks5</var>
                 <num>0.5</num>
                 <str>{potionicon5} $a{potioneffect5}$r {potionduration5}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <max>
-                <var>potiondurationticks6</var>
-                <num>0.5</num>
-                <str>{potionicon6} $a{potioneffect6}$r {potionduration6}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <max>
-                <var>potiondurationticks7</var>
-                <num>0.5</num>
-                <str>{potionicon7} $a{potioneffect7}$r {potionduration7}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <max>
-                <var>potiondurationticks8</var>
-                <num>0.5</num>
-                <str>{potionicon8} $a{potioneffect8}$r {potionduration8}</str>
                 <str/>
             </max>
         </line>

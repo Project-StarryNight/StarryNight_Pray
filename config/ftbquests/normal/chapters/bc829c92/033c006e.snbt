@@ -1,0 +1,25 @@
+{
+	title: "&e提示！",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 10.0d,
+	y: 8.0d,
+	shape: "diamond",
+	description: "更多的烧钢方法",
+	text: [
+		"土高炉可以使用锻铁锭烧制钢，除此之外，也可以使用普通的铁锭烧制",
+		"代价是你需要消耗更长的时间和更多的碳"
+	],
+	dependencies: [
+		"095b88fb"
+	],
+	tasks: [{
+		uid: "2cb45fb8",
+		type: "checkmark"
+	}]
+}

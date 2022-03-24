@@ -18,8 +18,15 @@ var jeiItems as IItemStack[] = [
     <enderio:item_material:31>,
     <enderio:item_material:32>,
     <enderio:item_material:33>,
-    <enderio:item_material:72>
-    
+    <enderio:item_material:72>,
+    <enderio:item_endergy_conduit>,
+    <enderio:item_endergy_conduit:1>,
+    <enderio:item_endergy_conduit:2>,
+    <enderio:item_endergy_conduit:3>,
+    <enderio:item_endergy_conduit:4>,
+    <enderio:item_endergy_conduit:5>,
+    <enderio:item_endergy_conduit:7>
+
 ];
 
 for i, item in jeiItems {

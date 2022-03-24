@@ -10,6 +10,7 @@
 import mods.gregtech.material.Material;
 import mods.gregtech.material.MaterialBuilder;
 import mods.gregtech.material.MaterialRegistry;
+import mods.gregtech.material.Elements;
 
 //魔力物质_粉_矿石
 MaterialBuilder(32001, "magic")
@@ -35,7 +36,7 @@ MaterialBuilder(32003, "void")
 //末影接口合金
 MaterialBuilder(32004, "pulsating_iron")
     .ingot()
-    .color(0x70D486).iconSet("INGOT")
+    .color(0xb4eec1).iconSet("INGOT")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
     .cableProperties(8, 1, 0, true)
     .build();
@@ -50,7 +51,7 @@ MaterialBuilder(32008, "conductive_iron")
 
 MaterialBuilder(32006, "energetic_alloy")
     .ingot()
-    .color(0xeeb93e).iconSet("INGOT")
+    .color(0xffdc8b).iconSet("shiny")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
     .cableProperties(128, 2, 0, true)
     .blastTemp(1751,"LOW",480,730)
@@ -58,7 +59,7 @@ MaterialBuilder(32006, "energetic_alloy")
 
 MaterialBuilder(32005, "vibrant_alloy")
     .ingot()
-    .color(0xe9fe77).iconSet("INGOT")
+    .color(0xe9fe77).iconSet("shiny")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
     .cableProperties(512, 2, 0, true)
     .blastTemp(3000,"LOW",480,850)
@@ -74,7 +75,7 @@ MaterialBuilder(32010, "end_steel")
 
 MaterialBuilder(32012, "crystalline_alloy")
     .ingot()
-    .color(0xa7ecec).iconSet("INGOT")
+    .color(0x90ffff).iconSet("INGOT")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
     .cableProperties(8192, 3, 0, true)
     .blastTemp(4900,"MID",1920,830)
@@ -82,7 +83,7 @@ MaterialBuilder(32012, "crystalline_alloy")
 
 MaterialBuilder(32013, "melodic_alloy")
     .ingot()
-    .color(0xd38fd3).iconSet("INGOT")
+    .color(0xffbeff).iconSet("shiny")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
     .cableProperties(32768, 4, 0, true)
     .blastTemp(5800,"HIGH",7680,850)
@@ -90,7 +91,7 @@ MaterialBuilder(32013, "melodic_alloy")
 
 MaterialBuilder(32014, "stellar_alloy")
     .ingot()
-    .color(0xd9dccb).iconSet("INGOT")
+    .color(0xFFFFC0).iconSet("shiny")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
     .cableProperties(131072, 4, 0, true)
     .blastTemp(9000,"HIGH",7680,1030)
@@ -110,8 +111,24 @@ MaterialBuilder(32009, "dark_steel")
 
 MaterialBuilder(32011, "electrical_steel")
     .ingot()
-    .color(0xb1b1b1).iconSet("INGOT")
+    .color(0xb1b1b1).iconSet("shiny")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
+    .build();
+
+//钛铝合金
+MaterialBuilder(32020, "titanium_aluminide")
+    .ingot()
+    .color(0xABBFDA).iconSet("shiny")
+    .flags(["generate_plate","generate_rod","generate_gear"])
+    .components([<material:titanium> * 1, <material:aluminium> * 1])
+    .build();
+
+//钛铱合金
+MaterialBuilder(32021, "titanium_iridium")
+    .ingot()
+    .color(0xD4DBE0).iconSet("shiny")
+    .flags(["generate_plate","generate_rod","generate_gear"])
+    .components([<material:titanium> * 1, <material:iridium> * 1])
     .build();
 
 <material:certus_quartz>.addFlags("generate_rod", "generate_bolt_screw");

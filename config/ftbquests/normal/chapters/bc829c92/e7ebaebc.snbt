@@ -1,0 +1,26 @@
+{
+	title: "&e注意！",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 8.5d,
+	y: 2.5d,
+	shape: "diamond",
+	description: "小心高温",
+	text: [
+		"GT的管道都有一个温度的承受度，一旦超过这个阈值，管道就会损坏",
+		"除此之外你还必须小心靠近这些高温管道，否则会造成不可预知的后果。"
+	],
+	dependencies: [
+		"a345ad9e"
+	],
+	tasks: [{
+		uid: "3592e569",
+		type: "checkmark",
+		title: "&e注意!"
+	}]
+}

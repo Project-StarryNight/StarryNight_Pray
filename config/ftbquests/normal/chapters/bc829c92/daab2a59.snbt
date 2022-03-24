@@ -1,7 +1,7 @@
 {
 	title: "{snp.quests.daab2a59.title}",
-	x: 7.5d,
-	y: 7.5d,
+	x: 7.0d,
+	y: 7.0d,
 	description: "{snp.quests.daab2a59.description}",
 	dependencies: [
 		"72476110"

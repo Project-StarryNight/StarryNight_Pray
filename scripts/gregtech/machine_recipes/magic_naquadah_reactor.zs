@@ -8,13 +8,13 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
 mnreactor.recipeBuilder()
-    .fluidInputs([<liquid:enriched_naquadah_fuel> * 1, <liquid:mana> * 5, <liquid:enriched_uranium_hexafluoride> * 1, <liquid:water> * 1700])
+    .fluidInputs([<liquid:enriched_naquadah_fuel> * 1, <liquid:mana> * 5, <liquid:enriched_uranium_hexafluoride> * 1, <liquid:water> * 34000])
     .duration(20)
     .EUt(-136000)
     .buildAndRegister();
 
 mnreactor.recipeBuilder()
-    .fluidInputs([<liquid:super_naquadah_fuel> * 1, <liquid:mana> * 20, <liquid:enriched_uranium_hexafluoride> * 5, <liquid:water> * 6800])
+    .fluidInputs([<liquid:super_naquadah_fuel> * 1, <liquid:mana> * 20, <liquid:enriched_uranium_hexafluoride> * 5, <liquid:water> * 136000])
     .EUt(-550000)
     .duration(20)
     .buildAndRegister();

@@ -1,0 +1,16 @@
+{
+	title: "&b锡线缆",
+	x: 4.0d,
+	y: 10.5d,
+	description: "前往 LV 阶段的一小步",
+	dependencies: [
+		"067d8d27"
+	],
+	tasks: [{
+		uid: "ee8aa034",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 112"
+		}]
+	}]
+}

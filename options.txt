@@ -5,7 +5,7 @@ fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:4
+guiScale:3
 particles:1
 bobView:false
 anaglyph3d:false
@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
-resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.9.zip","StarryNight_Pray_ZH_CN","SNP_texture_expanded_1.0.2.zip"]
+resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.9.zip","StarryNight_Pray_ZH_CN","SNP_texture_expanded_1.0.3.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -153,7 +153,6 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.sakura.sheath_in:47
 key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31

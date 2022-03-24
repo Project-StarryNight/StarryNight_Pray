@@ -1,9 +1,8 @@
-controller_info=§e======== §6Controller Info §e========
 voltage_level=§eVoltage Level:
 ## 魔力硅岩反应堆 - Magic Naquadah Reactor
 magic_naquadah_reactor_tooltip_1=§7Works similarly to §afission reactor§7,but the input material is slightly different.
-magic_naquadah_reactor_tooltip_2=§7Utilizing small amounts of §aenriched uranium hexafluoride §7and §aenriched silica fuel§7,steam volumes up to §rZPM §7levels can be produced.
-magic_naquadah_reactor_tooltip_3=§7It can even input higher levels of fuel to achieve §3UV §7levels of steam capacity.
+magic_naquadah_reactor_tooltip_2=§7Using small amounts of §aenriched uranium hexafluoride §7and §aenriched silica fuel §7,energy up to §rZPM §7levels can be produced.
+magic_naquadah_reactor_tooltip_3=§7It can even input higher levels of fuel to achieve §3UV §7levels of capacity.
 magic_naquadah_reactor_tooltip_4=§7In addition to that,the §amana §7in the reactor will be slowly §cconsumed
 magic_naquadah_reactor_tooltip_5=§7So you need to input a small amount of §amana §7to keep the reactor balanced.
 ## 硅岩移相器 - Naquadah Phaser
