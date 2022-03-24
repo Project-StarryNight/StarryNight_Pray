@@ -121,6 +121,7 @@ MaterialBuilder(32020, "titanium_aluminide")
     .color(0xABBFDA).iconSet("shiny")
     .flags(["generate_plate","generate_rod","generate_gear"])
     .components([<material:titanium> * 1, <material:aluminium> * 1])
+    .blastTemp(2400,"MID",768,800)
     .build();
 
 //钛铱合金
@@ -129,6 +130,7 @@ MaterialBuilder(32021, "titanium_iridium")
     .color(0xD4DBE0).iconSet("shiny")
     .flags(["generate_plate","generate_rod","generate_gear"])
     .components([<material:titanium> * 1, <material:iridium> * 1])
+    .blastTemp(4750,"HIGHER",7680,850)
     .build();
 
 <material:certus_quartz>.addFlags("generate_rod", "generate_bolt_screw");

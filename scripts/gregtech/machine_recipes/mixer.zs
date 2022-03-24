@@ -30,3 +30,25 @@ import mods.gregtech.recipe.RecipeMap;
     .EUt(128)
     .duration(80)
     .buildAndRegister();
+
+//钛铝合金粉
+<recipemap:mixer>.recipeBuilder()
+    .inputs([
+        <ore:dustTitanium> * 1,
+        <ore:dustAluminium> * 1
+    ])
+    .outputs(<gregtech:meta_dust:32020> * 2)
+    .EUt(128)
+    .duration(80)
+    .buildAndRegister();
+
+//钛铱合金粉
+<recipemap:mixer>.recipeBuilder()
+    .inputs([
+        <ore:dustTitanium> * 1,
+        <ore:dustIridium> * 1
+    ])
+    .outputs(<gregtech:meta_dust:32021> * 2)
+    .EUt(128)
+    .duration(80)
+    .buildAndRegister();

@@ -15,3 +15,7 @@ recipes.addShaped(<chisel:auto_chisel>, [
 //移除钢锭燃烧配方
 furnace.remove(<libvulpes:productingot:7>);
 furnace.remove(<minecraft:coal:1>);
+furnace.remove(<ore:ingotTitaniumIridium>);
+furnace.remove(<ore:ingotTitaniumAluminide>);
+furnace.remove(<gregtech:meta_ingot:32020>);
+furnace.remove(<gregtech:meta_ingot:32021>);

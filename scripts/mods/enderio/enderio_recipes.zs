@@ -99,8 +99,8 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
 <ore:ingotRedstoneAlloy>.add(<gregtech:meta_ingot:2517>);
 //脉冲水晶
 <recipemap:assembler>.recipeBuilder()
-    .inputs([<ore:nuggetVibrantAlloy> * 4,<ore:gemAll>])
-    .outputs(<enderio:item_material:15>)
+    .inputs([<ore:nuggetVibrantAlloy> * 4, <ore:gemFlawlessEmerald>])
+    .outputs(<enderio:item_material:15> * 2)
     .fluidInputs(<liquid:soldering_alloy> * 16)
     .duration(300)
     .EUt(480)
@@ -114,8 +114,8 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .buildAndRegister();
 //充能水晶
 <recipemap:assembler>.recipeBuilder()
-    .inputs([<ore:nuggetPulsatingIron> * 4,<ore:gemAll>])
-    .outputs(<enderio:item_material:14>)
+    .inputs([<ore:nuggetPulsatingIron> * 4, <ore:gemFlawlessDiamond>])
+    .outputs(<enderio:item_material:14> * 2)
     .fluidInputs(<liquid:soldering_alloy> * 16)
     .duration(300)
     .EUt(120)

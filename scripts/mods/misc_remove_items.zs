@@ -48,7 +48,9 @@ var items as IItemStack[] = [
     <actuallyadditions:block_grinder>,#磨粉机
     <actuallyadditions:block_grinder_double>,#两仓磨粉机
     <advancedrocketry:rollingmachine>,#卷板机
-    <thermalexpansion:device:10>#公式处理器
+    <thermalexpansion:device:10>,#公式处理器
+    <advancedrocketry:productrod:0>,
+    <advancedrocketry:productrod:1>
 ];
 
 for i, item in items {
