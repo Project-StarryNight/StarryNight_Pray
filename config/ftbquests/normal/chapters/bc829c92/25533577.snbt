@@ -1,9 +1,9 @@
 {
-	title: "&b土高炉",
+	title: "{snp.quests.25533577.title}",
 	icon: "gregtech:machine 1 1000",
 	x: 13.0d,
 	y: 7.0d,
-	description: "前期的钢来源",
+	description: "{snp.quests.25533577.description}",
 	dependencies: [
 		"4a6489ed"
 	],

@@ -1,11 +1,11 @@
 {
-	title: "&b太阳能锅炉",
+	title: "{snp.quests.51b14588.title}",
 	x: 1.0d,
 	y: 2.5d,
-	description: "Solar Flux!",
+	description: "{snp.quests.51b14588.description}",
 	text: [
-		"太阳能锅炉需要一段时间加热，这段加热时间是比较漫长的。",
-		"太阳落下后，锅炉依然可以保持一定的温度加热。"
+		"{snp.quests.51b14588.text.1}",
+		"{snp.quests.51b14588.text.2}"
 	],
 	dependencies: [
 		"54c7e9a3"

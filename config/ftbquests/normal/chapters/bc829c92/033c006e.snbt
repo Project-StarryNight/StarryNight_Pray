@@ -1,5 +1,5 @@
 {
-	title: "&e提示！",
+	title: "{snp.quests.033c006e.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,10 +10,10 @@
 	x: 10.0d,
 	y: 8.0d,
 	shape: "diamond",
-	description: "更多的烧钢方法",
+	description: "{snp.quests.033c006e.description}",
 	text: [
-		"土高炉可以使用锻铁锭烧制钢，除此之外，也可以使用普通的铁锭烧制",
-		"代价是你需要消耗更长的时间和更多的碳"
+		"{snp.quests.033c006e.text.1}",
+		"{snp.quests.033c006e.text.2}"
 	],
 	dependencies: [
 		"095b88fb"

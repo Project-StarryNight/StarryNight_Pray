@@ -1,8 +1,8 @@
 {
-	title: "&b锡线缆",
+	title: "{snp.quests.49a78147.title}",
 	x: 4.0d,
 	y: 10.5d,
-	description: "前往 LV 阶段的一小步",
+	description: "{snp.quests.49a78147.description}",
 	dependencies: [
 		"067d8d27"
 	],

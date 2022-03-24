@@ -1,8 +1,8 @@
 {
-	title: "&b锻铁锭",
+	title: "{snp.quests.71de8d06.title}",
 	x: 10.0d,
 	y: 6.0d,
-	description: "使用蒸汽压缩机压缩",
+	description: "{snp.quests.71de8d06.description}",
 	dependencies: [
 		"2ce2c1de",
 		"c9a4a4fa"

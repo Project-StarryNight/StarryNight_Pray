@@ -1,9 +1,9 @@
 {
-	title: "&bLV 机械方块",
+	title: "{snp.quests.a0923917.title}",
 	x: 6.0d,
 	y: 10.5d,
 	shape: "gear",
-	description: "前往 LV 阶段的一大步",
+	description: "{snp.quests.a0923917.description}",
 	dependencies: [
 		"49a78147",
 		"6ea178c8"
