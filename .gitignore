@@ -38,7 +38,6 @@ tv-cache
 scripts/.zsrc
 /update
 /download
-AudioBuffer
 .vscode
 stall-reports
 BiomeDump.txt
