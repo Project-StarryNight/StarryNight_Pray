@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "0cbbf092",
 		type: "stat",
-		title: "&6肝帝 &5III",
+		title: "{snp.quests.ef82cf2e.title}",
 		stat: "stat.playOneMinute",
 		value: 1600000
 	}]
