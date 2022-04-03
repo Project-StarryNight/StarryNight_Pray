@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "49330ce2",
+		type: "stat",
+		title: "&6肝帝 &5I",
+		stat: "stat.playOneMinute",
+		value: 100000
+	}]
+}

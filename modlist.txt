@@ -1,6 +1,5 @@
 可选Mod:
     -[高清修复][preview_OptiFine_1.12.2_HD_U_G6_pre1]
-    -[音乐][AudioBuffer-1.0]
 
 核心Mod:
     -[Mixin兼容][[___MixinCompat-0.8___]]
@@ -32,7 +31,7 @@
             -[无线接口终端][WirelessInterfaceTerminal-1.12.2-1.0.2]
             -[无线合成终端][WirelessCraftingTerminal-1.12.2-3.12.97]
 
-    -[JEI]jei_1.12.2-4.16.1.302.jar
+    -[JEI][jei_1.12.2-4.16.1.302]
         (附属)
         -[JEI扩展][jeiintegration_1.12.2-1.6.0]
         -[JEI拖拽][justenoughdrags-1.1-beta.5]
@@ -136,8 +135,20 @@
     -[储物桶][YABBA-1.1.2.54]
     -[RF 工具箱][rftools-1.12-7.73]
     -[建筑师工艺][architecturecraft-1.12-3.98]
+    -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
+    -[龙之进化扩展][Draconic-Additions-1.12.2-1.17.0.45-universal]
+    -[末影水槽][endertanks-1.12.0-1.6.8]
+    -[潘马斯农场][Pam's+HarvestCraft+1.12.2zg]
 
 前置Mod:
+    -[前置][shetiphiancore-1.12.0-3.5.9]
+        使用该前置的Mod:
+        -[末影水槽][endertanks-1.12.0-1.6.8]
+
+    -[前置][BrandonsCore-1.12.2-2.4.20.162-universal]
+        使用该前置的Mod:
+        -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
+
     -[帕秋莉手册][Patchouli-1.0-23.6]
         使用该前置的Mod:
         -[巫术][bewitchment-1.12.2-0.0.22.64]
@@ -319,6 +330,8 @@
     -[合成冲突消除][YARCF-0.14(1.12.2)]
     -[掉落物拾取提示][PickUpNotifier-v1.1.5-1.12.2]
     -[提示][Tips-1.12.2-1.0.9]
+    -[平滑滚动][smooth-scrolling-everywhere-1.1]
+    -[生存背包垃圾桶][TrashSlot_1.12.2-8.4.10]
 
     修复:
     -[更大的发包][biggerpacketsplz-since1.8-1.2]

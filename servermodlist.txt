@@ -1,7 +1,3 @@
-可选Mod:
-    -[音乐][AudioBuffer-1.0]
-    -[各种物品][VariedCommodities_1.12.2(27oct19)]
-
 核心Mod:
     -[Mixin兼容][[___MixinCompat-0.8___]]
     -[CrT][CraftTweaker2-1.12-4.1.20.673]
@@ -12,12 +8,13 @@
         -[CrT VSC工具][probe-0.1.24]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
 
-    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta]
+    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta][预发布版]
         (附属)
         -[GT TOP扩展][GregicProbe-1.0]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
+        -[GCYM][GregicalityMultiblocks-1.12.2-1.1.1]
 
-    -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v50f]
+    -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v51d]
         (附属)
         -[封包合成][PackagedAuto-1.12.2-1.0.5.18]
         -[流体合成][ae2fc-1.12.2-1.0.11]
@@ -31,13 +28,9 @@
             -[无线接口终端][WirelessInterfaceTerminal-1.12.2-1.0.2]
             -[无线合成终端][WirelessCraftingTerminal-1.12.2-3.12.97]
 
-    -[JEI]jei_1.12.2-4.16.1.302.jar
+    -[JEI][jei_1.12.2-4.16.1.302]
         (附属)
-        -[JEI扩展][jeiintegration_1.12.2-1.6.0]
         -[JEI拖拽][justenoughdrags-1.1-beta.5]
-        -[拼音搜索][JustEnoughCharacters-1.12.0-3.5.1]
-        -[神秘JEI][ThaumicJEI-1.12.2-1.6.0-27]
-        -[匠魂JEI][tinkersjei-1.2]
         -[JEI 应用能源支持][NotEnoughEnergistics-1.12.2-1.2.4]
 
     -[高级火箭][AdvancedRocketry-1.12.2-2.0.0-257-universal]
@@ -69,6 +62,7 @@
         -[末影接口_导管][EnderIO-conduits-1.12.2-5.3.70]
             (附属)
             -[末影接口_应用能源导管][EnderIO-conduits-appliedenergistics-1.12.2-5.3.70]
+        -[末影接口_导管扩展][EnderIO-endergy-1.12.2-5.3.70]
 
     -[延迟监视][LagGoggles-1.12.2-5.8-132]
     -[模块化路由器][modular-routers-1.12.2-3.3.0-33]
@@ -106,7 +100,6 @@
 
     -[FTB 连锁挖掘][ftb-ultimine-1202.3.5]
     -[FTBU][FTBUtilities-5.4.1.131]
-    -[难度调整][roughTweaks0.2.4-1.12.2]
     -[匠魂2][TConstruct-1.12.2-2.13.0.183]
         (附属)
         -[匠魂JEI][tinkersjei-1.2]
@@ -118,7 +111,6 @@
         -[匠魂合金附加 FIXED][taiga-1.12.2-1.3.4][MOD已修改]
 
     -[在线相框][OnlinePicFrame_v1.5.0-pre1_mc1.12.2]
-    -[樱][Sakura-1.0.7-1.12.2]
     -[家具][furniture-6.3.1-1.12.2]
     -[各种物品][VariedCommodities_1.12.2(27oct19)]
     -[通量网络][FluxNetworks-1.12.2-4.1.1.34]
@@ -135,7 +127,7 @@
         -[鸡窝][roost-1.12.2-2.0.10]
     -[储物桶][YABBA-1.1.2.54]
     -[RF 工具箱][rftools-1.12-7.73]
-    -[巫术][bewitchment-1.12.2-0.0.22.64]
+    -[建筑师工艺][architecturecraft-1.12-3.98]
 
 前置Mod:
     -[帕秋莉手册][Patchouli-1.0-23.6]
@@ -149,10 +141,6 @@
     -[前置][Placebo-1.12.2-1.6.0]
         使用该前置的Mod:
         -[神化][Apotheosis-1.12.2-1.12.5]
-
-    -[妖怪之山通用库][MMLib-2.3.0]
-        使用该前置的Mod:
-        -[樱][Sakura-1.0.7-1.12.2]
 
     -[前置][CreativeCore_v1.10.44_mc1.12.2]
         使用该前置的Mod:
@@ -250,7 +238,6 @@
 
     -[资源加载器][ResourceLoader-MC1.12.1-1.5.3]
         使用该前置的Mod:
-        -[自定义加载界面][CustomLoadingScreen-1.12.2-1.5.6]
         -[CoT][ContentTweaker-1.12.2-4.10.0]
 
     -[无线终端前置][AE2WTLib-1.0.34][MOD已修改]
@@ -295,7 +282,6 @@
         -[TOP附属][topaddons-1.12.2-1.13.0]
     -[TAB头像][TabIconHackForge-1.0]
     -[旅行地图][journeymap-1.12.2-5.7.1]
-    -[皮肤][CustomSkinLoader_Forge-14.11]
     -[苹果皮][AppleSkin-mc1.12-1.0.14]
     -[游戏内信息显示][InGameInfoXML-1.12.2-2.8.2.94-universal]
     -[更好的半砖破坏][KleeSlabs_1.12.2-5.4.12.jar]
@@ -303,7 +289,6 @@
         -[游戏内信息显示_血魔法扩展][IGI-BloodMagic-1.2]
         -[游戏内信息显示_神秘时代扩展][IGI-Thaumcraft-1.0a]
 
-    -[整合包工具][Caliper-1.12.2-1.1.46]
     -[性能分析器][sampler-1.84]
     -[合成冲突消除][YARCF-0.14(1.12.2)]
 

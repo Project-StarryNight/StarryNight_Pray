@@ -223,9 +223,20 @@
     18.修改能量转换器配方
 
 1.1.2.1 alpha hotfix
-    1.TODO:修复脉冲水晶，充能水晶配方
+    1.修复脉冲水晶，充能水晶配方
     2.修复字体显示
 
+1.1.3 alpha
+    1.TODO:修复磁钢，充能水晶粉，末影水晶粉的合成
+    2.TODO:修改手提包，末影合金配方（末影设备）
+    3.新模组
+        -[平滑滚动][smooth-scrolling-everywhere-1.1]
+        -[末影水槽][endertanks-1.12.0-1.6.8]
+        -[潘马斯农场][Pam's+HarvestCraft+1.12.2zg]
+        -[前置][BrandonsCore-1.12.2-2.4.20.162-universal]
+        -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
+        -[龙之进化扩展][Draconic-Additions-1.12.2-1.17.0.45-universal]
+        -[生存背包垃圾桶][TrashSlot_1.12.2-8.4.10]
 
 TODO:Beta 阶段将会删除的模组
     -[超能物质]

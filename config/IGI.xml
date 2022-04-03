@@ -2,11 +2,11 @@
 <config>
     <lines at="bottomcenter">
         <line>
-            <str>{offhandlargeicon}{offhandname}$d|$r{mainhandlargeicon}{mainhandname}</str>
+            <str>{offhandlargeicon}{offhandname}$7 | $r{mainhandlargeicon}{mainhandname}</str>
         </line>
 
         <line>
-            <str>$e{offhanddamageleft}$f / $e{offhandmaxdamage}$d|$e{mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
+            <str>$e{offhanddamageleft}$7 / $e{offhandmaxdamage}$7 | $e{mainhanddamageleft}$7 / $e{mainhandmaxdamage}</str>
         </line>
 
         <line>
@@ -44,65 +44,118 @@
         </line>
 
         <line>
+        <str>$9FPS:</str>
         <operation>
             <str>GT</str>
             <var>fps</var>
+                <num>239</num>
                 <num>143</num>
-                <num>119</num>
                 <num>89</num>
-                <num>74</num>
                 <num>59</num>
                 <num>29</num>
                 <num>15</num>
                 <num>0</num>
-                    <str>$5FPS:{fps}</str>
-                    <str>$dFPS:{fps}</str>
-                    <str>$3FPS:{fps}</str>
-                    <str>$bFPS:{fps}</str>
-                    <str>$aFPS:{fps}</str>
-                    <str>$eFPS:{fps}</str>
-                    <str>$cFPS:{fps}</str>
-                    <str>$4FPS:{fps}</str>
+                    <str>$5{fps}</str>
+                    <str>$9{fps}</str>
+                    <str>$2{fps}</str>
+                    <str>$a{fps}</str>
+                    <str>$6{fps}</str>
+                    <str>$c{fps}</str>
+                    <str>$4{fps}</str>
         </operation>
-            <str>$7 | $eEnt:$e{entitiestotal}$6/$c{entitiesrendered}</str>
 
-        <str>$7丨$eDay:{day}$c$7丨$eTime:{mctime24}</str>
+        <str>$7 | $9Ent:</str>
+        <operation>
+            <str>GT</str>
+            <var>entitiestotal</var>
+                <num>100</num>
+                <num>75</num>
+                <num>50</num>
+                <num>30</num>
+                <num>20</num>
+                <num>15</num>
+                <num>10</num>
+                <num>5</num>
+                    <str>$4{entitiestotal}</str>
+                    <str>$c{entitiestotal}</str>
+                    <str>$6{entitiestotal}</str>
+                    <str>$e{entitiestotal}</str>
+                    <str>$9{entitiestotal}</str>
+                    <str>$3{entitiestotal}</str>
+                    <str>$b{entitiestotal}</str>
+                    <str>$a{entitiestotal}</str>
+                    <str>$2{entitiestotal}</str>
+        </operation>
+        <str> $9/ </str>
+        <operation>
+            <str>GT</str>
+            <var>entitiesrendered</var>
+                <num>50</num>
+                <num>30</num>
+                <num>20</num>
+                <num>10</num>
+                <num>6</num>
+                <num>2</num>
+                    <str>$4{entitiesrendered}</str>
+                    <str>$c{entitiesrendered}</str>
+                    <str>$6{entitiesrendered}</str>
+                    <str>$e{entitiesrendered}</str>
+                    <str>$b{entitiesrendered}</str>
+                    <str>$a{entitiesrendered}</str>
+                    <str>$2{entitiesrendered}</str>
+        </operation>
+
+        <str>$7丨$9Day:{day}$7丨$9Time:{mctime24}</str>
         </line>
 
         <line>
-        <str>$bMEM$f: $9$l[</str>
+        <str>$9MEM: $9$l[</str>
             <op>
                 <str>le</str>
                 <pct>
                     <var>memused</var>
                     <var>memmax</var>
                 </pct>
-                <num>8</num>
-                <num>16</num>
-                <num>24</num>
-                <num>32</num>
+                <num>5</num>
+                <num>10</num>
+                <num>15</num>
+                <num>20</num>
+                <num>25</num>
+                <num>30</num>
+                <num>35</num>
                 <num>40</num>
-                <num>48</num>
-                <num>56</num>
-                <num>64</num>
-                <num>72</num>
-                <num>81</num>
-                <num>89</num>
-                <num>97</num>
+                <num>45</num>
+                <num>50</num>
+                <num>55</num>
+                <num>60</num>
+                <num>65</num>
+                <num>70</num>
+                <num>75</num>
+                <num>80</num>
+                <num>85</num>
+                <num>90</num>
+                <num>95</num>
                 <num>100</num>
-                <str>$2$l$m|$5$l$n||||||||||||</str>
-                <str>$2$l$m||$5$l$n|||||||||||</str>
-                <str>$2$l$m|||$5$l$n||||||||||</str>
-                <str>$2$l$m||||$5$l$n|||||||||</str>
-                <str>$a$l$m|||||$5$l$n||||||||</str>
-                <str>$a$l$m||||||$5$l$n|||||||</str>
-                <str>$a$l$m|||||||$5$l$n||||||</str>
-                <str>$e$l$m||||||||$5$l$n|||||</str>
-                <str>$e$l$m|||||||||$5$l$n||||</str>
-                <str>$6$l$m||||||||||$5$l$n|||</str>
-                <str>$c$l$m|||||||||||$5$l$n||</str>
-                <str>$4$l$m||||||||||||$5$l$n|</str>
-                <str>$4$l$m|||||||||||||</str>
+                <str>$2$l$m|$5$l$n|||||||||||||||||||</str>
+                <str>$2$l$m||$5$l$n||||||||||||||||||</str>
+                <str>$2$l$m|||$5$l$n|||||||||||||||||</str>
+                <str>$a$l$m||||$5$l$n||||||||||||||||</str>
+                <str>$a$l$m|||||$5$l$n|||||||||||||||</str>
+                <str>$a$l$m||||||$5$l$n||||||||||||||</str>
+                <str>$a$l$m|||||||$5$l$n|||||||||||||</str>
+                <str>$a$l$m||||||||$5$l$n||||||||||||</str>
+                <str>$a$l$m|||||||||$5$l$n|||||||||||</str>
+                <str>$a$l$m||||||||||$5$l$n||||||||||</str>
+                <str>$a$l$m|||||||||||$5$l$n|||||||||</str>
+                <str>$a$l$m||||||||||||$5$l$n||||||||</str>
+                <str>$e$l$m|||||||||||||$5$l$n|||||||</str>
+                <str>$e$l$m||||||||||||||$5$l$n||||||</str>
+                <str>$6$l$m|||||||||||||||$5$l$n|||||</str>
+                <str>$6$l$m||||||||||||||||$5$l$n||||</str>
+                <str>$c$l$m|||||||||||||||||$5$l$n|||</str>
+                <str>$c$l$m||||||||||||||||||$5$l$n||</str>
+                <str>$4$l$m|||||||||||||||||||$5$l$n|</str>
+                <str>$4$l$m||||||||||||||||||||</str>
             </op>
             <str>$9$l] $f(</str>
             <op>
@@ -129,14 +182,6 @@
                 <num>1</num>
             </round>
             <str>G$f)</str>
-        </line>
-
-        <line>
-            <str>$bPlayer: {nearbyplayericon0}$d{nearbyplayername0} $a{nearbyplayerdistance0}m$r</str>
-        </line>
-
-        <line>
-            <str>$bPlayer: {nearbyplayericon1}$d{nearbyplayername1} $a{nearbyplayerdistance1}m$r</str>
         </line>
 
         <line>
@@ -401,7 +446,7 @@
             <str>thaumcraft:curio</str>
             <num>5</num>
         </icon>
-        <str> $6{thaumwarptemp}$7/$c{thaumwarpnormal}$7/$4{thaumwarpperm}</str>
+        <str> $6{thaumwarptemp}$7 / $c{thaumwarpnormal}$7 / $4{thaumwarpperm}</str>
     </line>
 
     <line>

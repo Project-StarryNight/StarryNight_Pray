@@ -1,1 +1,1 @@
-{"CustomData":"{}","Authority":null,"renderSpecial":false,"overrideCape":true,"Theme":null}
+{"CustomData":"{}","Authority":"null","renderSpecial":true,"overrideCape":true,"Theme":"Vanilla"}

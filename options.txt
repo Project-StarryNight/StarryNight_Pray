@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
-resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.2.zip","ModernityExtra-format3-v1.2.9.zip","StarryNight_Pray_ZH_CN","SNP_texture_expanded_1.0.3.zip"]
+resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.3.zip","ModernityExtra-format3-v1.3.0.zip","StarryNight_Pray_ZH_CN","SNP_texture_expanded_1.0.3.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -128,12 +128,23 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.draconicevolution.placeItem:25
+key_key.draconicevolution.toolConfig:0
+key_key.draconicevolution.toolProfileChange:43
+key_key.draconicevolution.armorProfileChange:43:ALT
+key_key.draconicevolution.toggleFlight:0
+key_key.draconicevolution.toggleDislocator:0
+key_key.draconicevolution.cycleDigAOE:0
+key_key.draconicevolution.cycleAttackAOE:0
+key_key.draconicevolution.toggleShields:0
 key_nei.options.keys.gui.botania_corporea_request:0
 key_key.infinity_armor.noclip:40
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33:ALT
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
+key_key.overload:33:SHIFT
+key_key.chaosInjection:34:SHIFT
 key_FpsReducer.key.guiOpen:0
 key_FpsReducer.key.forceIdle:0
 key_ALT Menu:56
@@ -156,6 +167,9 @@ key_key.debugDumpNBTBlock:0
 key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31
+key_key.trashslot.toggle:20
+key_key.trashslot.delete:211
+key_key.trashslot.deleteAll:211:SHIFT
 key_Open Matter Scanner GUI:0
 key_Android Ability key:45
 key_Android Switch Ability key:19
@@ -214,7 +228,7 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-modelPart_cape:false
+modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
 modelPart_right_sleeve:true
