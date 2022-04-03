@@ -1,5 +1,5 @@
 /*
- * ZenScript by Hikari_Nova
+ * ZenScript by Hikari_Nova & shang_jun
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为格雷科技自定义流体内容
 */
@@ -56,3 +56,98 @@ MaterialBuilder(32703, "liquid_gsp_055_rs_air")
     .fluidTemp(78)
     .color(0xE99700)
     .build();
+
+//液态灵魂
+MaterialBuilder(32704, "liquid_spirit")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(114)
+    .color(0x2e2217)
+    .build();
+
+//龙素处理
+MaterialBuilder(32705, "draconium_oxide_compound_slurry")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x42205a)
+    .build();
+
+MaterialBuilder(32706, "fluoantimonate_draconium_solution")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x5D5980)
+    .build();
+
+MaterialBuilder(32707, "precipitated_draconium_residue_solution")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x483A3B)
+    .build(); 
+
+MaterialBuilder(32708, "dragon_breath_solution")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xC39FB6)
+    .build(); 
+
+MaterialBuilder(32709, "dragon_blood")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x5C1F4F)
+    .build(); 
+
+MaterialBuilder(32710, "activated_dragon_tissue_mixture")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x905F83)
+    .build(); 
+
+MaterialBuilder(32711, "critical_dragon_tissue_mixture")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x4e3278)
+    .build(); 
+
+MaterialBuilder(32712, "excited_dragon_tissue_mixture")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x4D579A)
+    .build(); 
+
+MaterialBuilder(32713, "inactivated_dragon_tissue_mixture")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x363B5C)
+    .build(); 
+
+//觉醒龙素
+MaterialBuilder(32714, "hyper_draconium_awakened_mixture_solution")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xCC6633)
+    .build(); 
+
+MaterialBuilder(32715, "precipitated_draconium_awakened_residue_solution")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x666633)
+    .build(); 
+
+MaterialBuilder(32716, "hyper_slurry")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x6B4924)
+    .build(); 
+
+MaterialBuilder(32717, "cosmic_matter_solution")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x262538)
+    .build(); 
+
+//含杂氟锑酸
+
+MaterialBuilder(32718, "impure_fluoroantimonic_acid")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x717A75)
+    .build(); 
