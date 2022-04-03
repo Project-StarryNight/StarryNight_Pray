@@ -1,3 +1,9 @@
+/*
+ * ZenScript by Hikari_Nova & Duantui
+ * 未经过授权，禁止用于其他整合包或服务器内容。
+ * 此脚本为植物魔法事件内容
+*/
+
 //#loader crafttweaker reloadableevents
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;

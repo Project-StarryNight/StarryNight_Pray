@@ -1,3 +1,9 @@
+/*
+ * ZenScript by Hikari_Nova & Duantui
+ * 未经过授权，禁止用于其他整合包或服务器内容。
+ * 此脚本为植物魔法内容
+*/
+
 //
 <botania:lexicon>.withTag({}).addTooltip("§a这本书散发着花香");
 <botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}).addTooltip("§a似乎变得更高级了");
