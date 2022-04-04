@@ -237,6 +237,7 @@
         -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
         -[龙之进化扩展][Draconic-Additions-1.12.2-1.17.0.45-universal]
         -[生存背包垃圾桶][TrashSlot_1.12.2-8.4.10]
+    4.TODO:添加新的多方块结构:微型宇宙培育仓 用于龙矿处理
 
 TODO:Beta 阶段将会删除的模组
     -[超能物质]
