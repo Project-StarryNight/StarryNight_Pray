@@ -50,3 +50,8 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaresource:2>,<gregtech:meta_du
 //魔力珍珠
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:1>);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:1>,<gregtech:meta_dust:416>,6000);
+recipes.addShaped(<botania:pylon:2>,[
+    [<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>],
+    [<botania:bifrostperm>,<botania:pylon>,<botania:bifrostperm>],
+    [<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>]
+]);

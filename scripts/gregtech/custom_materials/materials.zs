@@ -42,12 +42,13 @@ MaterialBuilder(32004, "pulsating_iron")
     .cableProperties(8, 1, 0, true)
     .build();
 
-MaterialBuilder(32008, "conductive_iron")
+MaterialBuilder(32005, "vibrant_alloy")
     .ingot()
-    .color(0xd5a4a1).iconSet("INGOT")
+    .fluid()
+    .color(0xe9fe77).iconSet("shiny")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
-    .cableProperties(32, 1, 0, true)
-    .blastTemp(1400,"LOW",120,500)
+    .cableProperties(512, 2, 0, true)
+    .blastTemp(3000,"LOW",480,850)
     .build();
 
 MaterialBuilder(32006, "energetic_alloy")
@@ -58,13 +59,24 @@ MaterialBuilder(32006, "energetic_alloy")
     .blastTemp(1751,"LOW",480,730)
     .build();
 
-MaterialBuilder(32005, "vibrant_alloy")
+MaterialBuilder(32007, "soularium")
     .ingot()
-    .fluid()
-    .color(0xe9fe77).iconSet("shiny")
+    .color(0x57412c).iconSet("INGOT")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
-    .cableProperties(512, 2, 0, true)
-    .blastTemp(3000,"LOW",480,850)
+    .build();
+
+MaterialBuilder(32008, "conductive_iron")
+    .ingot()
+    .color(0xd5a4a1).iconSet("INGOT")
+    .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
+    .cableProperties(32, 1, 0, true)
+    .blastTemp(1400,"LOW",120,500)
+    .build();
+
+MaterialBuilder(32009, "dark_steel")
+    .ingot()
+    .color(0x777777).iconSet("INGOT")
+    .flags(["generate_plate", "generate_bolt_screw","generate_rod","generate_frame"])
     .build();
 
 MaterialBuilder(32010, "end_steel")
@@ -73,6 +85,13 @@ MaterialBuilder(32010, "end_steel")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod","generate_frame"])
     .cableProperties(2048, 3, 0, true)
     .blastTemp(4100,"MID",1920,870)
+    .build();
+
+MaterialBuilder(32011, "electrical_steel")
+    .ingot()
+    .color(0xb1b1b1).iconSet("shiny")
+    .flags(["generate_plate", "generate_bolt_screw","generate_rod","generate_frame"])
+    .blastTemp(1500,"LOW",480,330)
     .build();
 
 MaterialBuilder(32012, "crystalline_alloy")
@@ -97,25 +116,6 @@ MaterialBuilder(32014, "stellar_alloy")
     .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
     .cableProperties(131072, 4, 0, true)
     .blastTemp(9000,"HIGH",7680,1030)
-    .build();
-
-MaterialBuilder(32007, "soularium")
-    .ingot()
-    .color(0x57412c).iconSet("INGOT")
-    .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
-    .build();
-
-MaterialBuilder(32009, "dark_steel")
-    .ingot()
-    .color(0x777777).iconSet("INGOT")
-    .flags(["generate_plate", "generate_bolt_screw","generate_rod","generate_frame"])
-    .build();
-
-MaterialBuilder(32011, "electrical_steel")
-    .ingot()
-    .color(0xb1b1b1).iconSet("shiny")
-    .flags(["generate_plate", "generate_bolt_screw","generate_rod","generate_frame"])
-    .blastTemp(1500,"LOW",480,330)
     .build();
 
 //钛铝合金
@@ -222,6 +222,27 @@ MaterialBuilder(32036, "essential_draconium_awakened")
     .fluid()
     .color(0x877691).iconSet("shiny")
     .blastTemp(9200,"HIGHEST",491520,850)
+    .build();
+
+//Rick Astlium锭
+MaterialBuilder(32767, "rick_astlium")
+    .ingot()
+    .color(0xAF866A)
+    .components([
+    <material:neon> * 1,
+    <material:vanadium> * 1,
+    <material:erbium> * 1,
+    <material:roentgenium> * 1,
+    <material:oxygen> * 1,
+    <material:nitrogen> * 1,
+    <material:nitrogen> * 1,
+    <material:silver> * 1,
+    <material:iodine> * 1,
+    <material:vanadium> * 1,
+    <material:europium> * 1,
+    <material:uranium> * 1,
+    <material:phosphorus> * 1,
+    ])
     .build();
 
 <material:certus_quartz>.addFlags("generate_rod", "generate_bolt_screw");

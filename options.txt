@@ -155,6 +155,8 @@ key_key.itemzoom.toggle:44:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
+key_jecalculation.key.gui_craft:0
+key_jecalculation.key.gui_math:0
 key_打开按键向导:65
 key_key.neenergistics.recipe.ingredient.change:42
 key_key.neenergistics.stack.count.change:29
@@ -164,15 +166,11 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_key.trashslot.toggle:20
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
-key_Open Matter Scanner GUI:0
-key_Android Ability key:45
-key_Android Switch Ability key:19
 key_开关喷气背包:45
 key_打开火箭界面:0
 key_切换 RCS:19

@@ -14,6 +14,7 @@ import crafttweaker.event.PlayerInteractEvent;
 import crafttweaker.event.PlayerAttackEntityEvent;
 import crafttweaker.event.IEventCancelable;
 import crafttweaker.entity.IEntity;
+
 //吸入经验回血
 events.onPlayerPickupXp(function(event as PlayerPickupXpEvent ){
     var player as IPlayer =event.player;
@@ -29,6 +30,7 @@ events.onPlayerPickupXp(function(event as PlayerPickupXpEvent ){
         player.health -= 9223372036854775807;
     }
 });
+
 //血量低无法造成攻击
 events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
     var entity as IEntity = event.target;
