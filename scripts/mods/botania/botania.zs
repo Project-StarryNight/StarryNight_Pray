@@ -37,7 +37,7 @@ recipes.addShaped(<botania:alchemycatalyst>,[
     [<botania:livingrock>,<ore:ingotGold>,<botania:livingrock>]]);
 
 //污血项链
-recipes.remove(<botania:bloodpendant>;
+recipes.remove(<botania:bloodpendant>);
 recipes.addShaped(<botania:bloodpendant>,[
     [null,<minecraft:prismarine_shard>,<bloodarsenal:base_item:2>],
     [<minecraft:prismarine_shard>,<minecraft:ghast_tear>,<minecraft:prismarine_shard>],
