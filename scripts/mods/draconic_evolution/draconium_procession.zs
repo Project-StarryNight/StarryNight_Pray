@@ -60,16 +60,16 @@ import crafttweaker.item.IItemStack;
 <recipemap:centrifuge>.recipeBuilder()
     .fluidInputs([<liquid:impure_fluoroantimonic_acid>*9000])
     .outputs(<gregtech:meta_dust:2522>*7)
-    .fluidOutputs([<liquid:fluoroantimonic_acid>*4000])
+    .fluidOutputs([<liquid:fluoroantimonic_acid>*5000])
     .EUt(30720)
     .duration(130)
     .buildAndRegister();
 
 //六氟化龙素处理
-<recipemap:chemical_reactor>.recipeBuilder()
+<recipemap:large_chemical_reactor>.recipeBuilder()
     .inputs(<ore:dustDraconiumHexafluoride>*7)
     .outputs(<gregtech:meta_dust:32027>,<gregtech:meta_dust:4>*3)
-    .fluidInputs([<liquid:hydrogen>*6000])
+    .fluidInputs([<liquid:hydrogen>*21000])
     .fluidOutputs([<liquid:hydrofluoric_acid>*21000])
     .EUt(122880)
     .duration(200)

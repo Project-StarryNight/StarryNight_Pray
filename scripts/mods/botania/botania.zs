@@ -1,11 +1,12 @@
 /*
- * ZenScript by Hikari_Nova & Duantui
+ * ZenScript by Hikari_Nova & Duantui & shang_jun
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为植物魔法内容
 */
 
-//
-<botania:lexicon>.withTag({}).addTooltip("§a这本书散发着花香");
+import mods.botania.ManaInfusion;
+//添加Tooltip
+<botania:lexicon>.addTooltip("§a这本书散发着花香");
 <botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}).addTooltip("§a似乎变得更高级了");
 <botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}).addTooltip("§0不就是多了金边吗()");
 <botania:specialflower>.withTag({type: "asgardandelion"}).addTooltip("§a这多花似乎被注入了神的力量,它的魔力深不可测");
@@ -21,6 +22,34 @@
 <botania:bloodpendant>.addTooltip("§4这是谁的项链呢?");
 //盖亚水晶
 recipes.remove(<botania:pylon:2>);
+recipes.addShaped(<botania:pylon:2>,
+[[<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>],
+ [<botania:bifrostperm>,<botania:pylon>,<botania:bifrostperm>],
+ [<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>]]);
+//炼金催化器
+recipes.remove(<botania:alchemycatalyst>);
+recipes.addShaped(<botania:alchemycatalyst>,
+[[<botania:livingrock>,<ore:ingotGold>,<botania:livingrock>],
+ [<enderio:block_tank>,<botania:manaresource:1>,<minecraft:brewing_stand>],
+ [<botania:livingrock>,<ore:ingotGold>,<botania:livingrock>]]);
+//污血项链
+recipes.remove(<botania:bloodpendant>;
+recipes.addShaped(<botania:bloodpendant>,
+[[null,<minecraft:prismarine_shard>,<bloodarsenal:base_item:2>],
+ [<minecraft:prismarine_shard>,<minecraft:ghast_tear>,<minecraft:prismarine_shard>],
+ [<botania:manaresource:2>,<minecraft:prismarine_shard>,null]]);
+//魔力钢锭
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource>,<gregtech:meta_ingot:324>,3000);
+mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
+mods.botania.ManaInfusion.addInfusion(<botania:storage>,<gregtech:meta_block_compressed_20:4>,27000);
+//魔力钻石
+mods.botania.ManaInfusion.removeRecipe(<botania:storage:3>);
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:2>);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:2>,<gregtech:meta_dust:276>,10000);
+//魔力珍珠
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:1>);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:1>,<gregtech:meta_dust:416>,6000);
 recipes.addShaped(<botania:pylon:2>,[
     [<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>],
     [<botania:bifrostperm>,<botania:pylon>,<botania:bifrostperm>],
