@@ -21,8 +21,8 @@
 <botania:bloodpendant>.addTooltip("§4这是谁的项链呢?");
 //盖亚水晶
 recipes.remove(<botania:pylon:2>);
-recipes.addShaped(<botania:pylon:2>,
-[[<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>],
- [<botania:bifrostperm>,<botania:pylon>,<botania:bifrostperm>],
- [<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>]]);
- //
+recipes.addShaped(<botania:pylon:2>,[
+    [<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>],
+    [<botania:bifrostperm>,<botania:pylon>,<botania:bifrostperm>],
+    [<botania:manaresource:7>,<botania:manaresource:8>,<botania:manaresource:7>]
+]);
