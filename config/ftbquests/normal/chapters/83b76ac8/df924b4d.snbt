@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "49330ce2",
+		type: "stat",
+		title: "{snp.quests.df924b4d.title}",
+		stat: "stat.playOneMinute",
+		value: 100000
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"599c63dc"
+	],
+	tasks: [{
+		uid: "0cbbf092",
+		type: "stat",
+		title: "{snp.quests.ef82cf2e.title}",
+		stat: "stat.playOneMinute",
+		value: 1600000
+	}]
+}

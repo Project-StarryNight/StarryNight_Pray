@@ -10,7 +10,6 @@
 /crafttweaker.log
 /crash-reports
 /CustomSkinLoader
-/ExtraBotanyVars.dat
 /journeymap/data
 /journeymap/icon
 /journeymap/server
@@ -28,8 +27,6 @@
 /usercache.json
 /usernamecache.json
 /versions
-/启动参数.txt
-mods/CustomMC-1.12.2.jar
 servers.dat
 /config/gregtech/terminal
 tv-cache
@@ -41,6 +38,8 @@ scripts/.zsrc
 .vscode
 stall-reports
 BiomeDump.txt
-resources/mainmenu/back.psd
 /mods/fancymenu
 /mods/memory_repo
+mods/*-patched.jar
+mods/probe-0.1.24.jar
+mods/Caliper-1.12.2-1.1.46.jar

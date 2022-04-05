@@ -4360,7 +4360,7 @@ gregtech.machine.primitive_water_pump.name=原始水泵
 gregtech.machine.primitive_blast_furnace.bronze.name=土高炉
 gregtech.machine.electric_blast_furnace.name=电力高炉
 gregtech.machine.electric_blast_furnace.tooltip.1=对于超过温度 §a900K§7 的配方，那么在计算配方超频前会将能量消耗乘以 §a95%%§7。
-gregtech.machine.electric_blast_furnace.tooltip.2=对于超过温度 §a1800K§7 的配方，超频将会是 §a100%%§7 ，使其更高效。
+gregtech.machine.electric_blast_furnace.tooltip.2=对于超过温度 §a1800K§7 的配方，超频效率将会是 §a100%%§7 ，使其更高效。
 gregtech.machine.electric_blast_furnace.tooltip.3=对于 §aMV§7 以上的每一个电压层，温度将会升高 §a100K§7。
 gregtech.machine.vacuum_freezer.name=真空冷冻机
 gregtech.machine.implosion_compressor.name=聚爆压缩机
@@ -4458,8 +4458,8 @@ gregtech.machine.multiblock.universal.controller_information=§e%s§7的控制�
 
 # Multiblock machine parts
 gregtech.machine.item_bus.import.tooltip=多方块结构的物品输入
-gregtech.universal.disabled=在多个多方块结构中共享: §4禁用
-gregtech.universal.enabled=在多个多方块结构中共享: §a启用
+gregtech.universal.disabled=允许被多个多方块结构共享: §4否
+gregtech.universal.enabled=允许被多个多方块结构共享: §a是
 
 gregtech.machine.item_bus.import.ulv.name=ULV 输入总线
 gregtech.machine.item_bus.import.lv.name=LV 输入总线
@@ -4767,10 +4767,10 @@ gregtech.multiblock.universal.problem.wire_cutter=%s§7电线烧坏了。(§a剪
 gregtech.multiblock.universal.problem.crowbar=%s§7那不属于那里。 (§a撬棍§7)
 gregtech.multiblock.universal.muffler_obstructed=消声器舱口被阻塞!
 gregtech.multiblock.universal.muffler_obstructed.tooltip=消音器舱口前方必须有一片空域。
-gregtech.multiblock.universal.distinct=不同的总线:
+gregtech.multiblock.universal.distinct=总线隔离:
 gregtech.multiblock.universal.distinct.no=否
 gregtech.multiblock.universal.distinct.yes=是
-gregtech.multiblock.universal.distinct.info=如果启用，每个物品输入总线将被视为完全不同的配方查找，可用于编程电路、挤出成型等。
+gregtech.multiblock.universal.distinct.info=如果启用，每个输入总线的物品将被视为完全不同的配方查找，可用于编程电路、挤出成型等。
 gregtech.multiblock.parallel=同时执行 %d 配方
 gregtech.multiblock.multiple_recipemaps.header=机器模式:
 gregtech.multiblock.multiple_recipemaps.tooltip=使用螺丝刀右键控制器以更改要使用的机器模式。

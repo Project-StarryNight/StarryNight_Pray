@@ -12,13 +12,26 @@ import mods.jei.JEI;
 var jeiItems as IItemStack[] = [
     <enderio:item_alloy_ingot:*>,#末影接口合金
     <enderio:item_alloy_endergy_ingot:*>,
+    <enderio:item_material:3>,
     <enderio:item_material:21>,#末影接口矿粉
+    <enderio:item_material:23>,
+    <enderio:item_material:24>,
+    <enderio:item_material:25>,
     <enderio:item_material:26>,
     <enderio:item_material:27>,
+    <enderio:item_material:29>,
+    <enderio:item_material:30>,
     <enderio:item_material:31>,
     <enderio:item_material:32>,
     <enderio:item_material:33>,
+    <enderio:item_material:46>,
+    <enderio:item_material:47>,
+    <enderio:item_material:48>,
+    <enderio:item_material:49>,
+    <enderio:item_material:50>,
+    <enderio:item_material:66>,
     <enderio:item_material:72>,
+    <enderio:item_material:74>,
     <enderio:item_endergy_conduit>,
     <enderio:item_endergy_conduit:1>,
     <enderio:item_endergy_conduit:2>,
@@ -51,7 +64,15 @@ var items as IItemStack[] = [
     <enderio:item_alloy_nugget:*>,#合金粒&块
     <enderio:block_alloy:*>,
     <enderio:item_alloy_endergy_nugget:*>,
-    <enderio:block_alloy_endergy:*>
+    <enderio:block_alloy_endergy:*>,
+    <enderio:block_wired_charger>,//有线充电器
+    <enderio:block_enhanced_wired_charger>,
+    <enderio:item_capacitor_silver>,//电容*3
+    <enderio:item_capacitor_energetic_silver>,
+    <enderio:item_capacitor_vivid>,
+    <enderio:block_solar_panel:*>,
+    <enderio:item_material:65>,
+    <enderio:block_wireless_charger>
 
 ];
 
