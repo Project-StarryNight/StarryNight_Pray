@@ -3,7 +3,7 @@
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为魔力硅岩反应堆配方内容
 */
-
+/*
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
@@ -18,3 +18,4 @@ mnreactor.recipeBuilder()
     .EUt(-550000)
     .duration(20)
     .buildAndRegister();
+*/

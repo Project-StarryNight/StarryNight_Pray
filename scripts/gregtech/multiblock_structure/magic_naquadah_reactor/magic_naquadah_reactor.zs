@@ -3,7 +3,7 @@
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为魔力硅岩反应堆结构内容
 */
-
+/*
 #priority 900
 
 import mods.gregtech.multiblock.Builder;
@@ -55,3 +55,4 @@ Builder.start(loc, id)
     .withRecipeMap(mnreactor)
     .withBaseTexture(<metastate:gregtech:metal_casing:10>)
     .buildAndRegister();
+*/

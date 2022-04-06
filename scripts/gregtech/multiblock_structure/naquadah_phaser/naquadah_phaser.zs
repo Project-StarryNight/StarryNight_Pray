@@ -3,7 +3,7 @@
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为硅岩移相器结构内容
 */
-
+/*
 #priority 899
 
 import mods.gregtech.multiblock.Builder;
@@ -47,3 +47,4 @@ Builder.start(loc, id)
     .withRecipeMap(npcontroller)
     .withBaseTexture(<metastate:gregtech:metal_casing:7>)
     .buildAndRegister();
+*/

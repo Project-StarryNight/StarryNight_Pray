@@ -11,19 +11,19 @@
         -[CrT VSC工具][probe-0.1.24]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
 
-    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta][预发布版]
+    -[格雷科技社区版非官方][gregtech-1.12.2-2.2.0-beta]
         (附属)
-        -[GT TOP扩展][GregicProbe-1.0]
+        -[GT TOP扩展][GregicProbe-1.1]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
-        -[GCYM][GregicalityMultiblocks-1.12.2-1.1.1]
+        -[GCYM][GregicalityMultiblocks-1.12.2-1.1.2]
 
     -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v51j]
         (附属)
-        -[封包合成][PackagedAuto-1.12.2-1.0.5.18]
+        -[封包合成][PackagedAuto-1.12.2-1.0.5.19]
         -[流体合成][ae2fc-1.12.2-1.0.11]
         -[懒人AE][lazy-ae2-1.12.2-1.1.26]
         -[AE附加 更多存储元件][AEAdditions-1.12.2-1.3.4]
-        -[神秘能源][thaumicenergistics-2.2.4]
+        -[神秘能源][thaumicenergistics-v2.2.3-delfayne-fork-SNAPSHOT-2]
         -[JEI 应用能源支持][NotEnoughEnergistics-1.12.2-1.2.4]
         -[无线终端前置][AE2WTLib-1.12.2-1.0.34]
             (附属)
@@ -31,8 +31,8 @@
             -[无线接口终端][WirelessInterfaceTerminal-1.12.2-1.0.2]
             -[无线合成终端][WirelessCraftingTerminal-1.12.2-3.12.97]
 
-    -[JEI][jei_1.12.2-4.16.1.302](DISABLED 状态)
-    -[HEI][HadEnoughItems_1.12.2-4.18.2]
+    -[HEI][HadEnoughItems_1.12.2-4.18.2](DISABLED 状态)
+    -[JEI][jei_1.12.2-4.16.1.302]
         (附属)
         -[JEI扩展][jeiintegration_1.12.2-1.6.0]
         -[JEI拖拽][justenoughdrags-1.1-beta.5]
@@ -54,6 +54,7 @@
 
     -[FTB 任务][FTBQuests-1202.9.0.15]
     -[ID 扩展][JustEnoughIDs-1.0.4-SNAPSHOT-thin]
+    -[矿辞统一][UniDict-1.12.2-3.0.10]
 
 主要Mod:
     -[无尽贪婪][Avaritia-1.12.2-3.3.0.37-universal]
@@ -125,7 +126,6 @@
     -[铁箱子][ironchest-1.12.2-7.0.72.847]
     -[傻瓜式农贸市场][FarmingForBlockheads_1.12.2-3.1.28]
     -[林业][forestry_1.12.2-5.8.2.422]
-    -[矿辞统一][UniDict-1.12.2-3.0.10]
     -[末影设备][enderutilities-1.12.2-0.7.15]
     -[更多鸡][chickens-6.1.0]
         (联动附属)

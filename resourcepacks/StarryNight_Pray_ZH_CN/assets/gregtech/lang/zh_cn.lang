@@ -1,7 +1,7 @@
 # Chinese translate by rentommy & 落樱之鱼 & Kasumi_Nova.
 # 中文翻译由 rentommy & 落樱之鱼 & Kasumi_Nova 翻译。
-# Corresponding Version: 2.1.5 - beta
-# 对应版本: 2.1.5 - beta
+# Corresponding Version: 2.2.1 - beta
+# 对应版本: 2.2.1 - beta
 
 death.attack.heat=%s 被煮熟了.
 death.attack.frost=%s 被冻死了.
@@ -32,6 +32,9 @@ gregtech.top.energy_stored=储存能量:
 gregtech.top.progress=进度:
 gregtech.top.working_disabled=工作暂停
 
+gregtech.top.energy_consumption=消耗:
+gregtech.top.energy_production=输出:
+
 gregtech.top.transform_up=§c增加§r
 gregtech.top.transform_down=§a减低§r
 gregtech.top.transform_input=§6输入:§r
@@ -51,6 +54,8 @@ gregtech.top.valid_structure=§a已成型结构
 gregtech.top.obstructed_structure=§c结构被阻挡
 gregtech.top.maintenance_fixed=§a维护正常
 gregtech.top.maintenance_broken=§c需要维护
+
+gregtech.top.primitive_pump_production=产出:
 
 gregtech.multiblock.title=多方块结构
 gregtech.multiblock.primitive_blast_furnace.bronze.description=土高炉是一种用来在游戏前期生产钢的多方块结构. 尽管它不是很快, 却能为你的发展提供钢.
@@ -1038,9 +1043,11 @@ metaarmor.jetpack.emergency_hover_mode=启用紧急悬停模式!
 
 metaarmor.nms.share.enable=NanoMuscle™ 套装: 充电启用
 metaarmor.nms.share.disable=NanoMuscle™ 套装: 充电禁用
+metaarmor.nms.share.error=NanoMuscle™ 套装: §c没有足够的能量用于充电!
 
 metaarmor.qts.share.enable=QuarkTech™ 套装: 充电启用
 metaarmor.qts.share.disable=QuarkTech™ 套装: 充电禁用
+metaarmor.qts.share.error=QuarkTech™ 套装: §c没有足够的能量用于充电!
 
 metaarmor.message.nightvision.enabled=§b夜视: §a开
 metaarmor.message.nightvision.disabled=§b夜视: §c关
@@ -1052,6 +1059,8 @@ metaarmor.tooltip.jump=增加跳跃高度和距离
 metaarmor.tooltip.falldamage=消除掉落伤害
 metaarmor.tooltip.potions=消除不良效果
 metaarmor.tooltip.burning=消除燃烧伤害
+metaarmor.tooltip.breath=补充氧气条
+metaarmor.tooltip.autoeat=通过使用背包的食物来补充饱食度
 
 metaarmor.hud.status.enabled=§a开
 metaarmor.hud.status.disabled=§c关
@@ -1061,6 +1070,7 @@ metaarmor.hud.hover_mode=悬浮模式: %s
 mataarmor.hud.supply_mode=供应模式: %s
 metaarmor.hud.gravi_engine=重力引擎: %s
 
+metaarmor.energy_share.error=能源供应: §c没有足够的能量给工具充电!
 metaarmor.energy_share.enable=能源供应: 启用工具充电
 metaarmor.energy_share.disable=能源供应: 禁用工具充电
 metaarmor.energy_share.tooltip=供应模式: %s
@@ -1088,6 +1098,7 @@ cover.ore_dictionary_filter.matches=物品匹配
 cover.ore_dictionary_filter.matches_not=物品不匹配
 
 cover.fluid_filter.title=液体过滤
+cover.fluid_filter.config_amount=向上滚轮增加数量，向下减少数量。/nShift[§6x10§r]，Ctrl[§ex100§r]，Shift+Ctrl[§ax1000§r]/n右键增加数量，左键减少。/n按住 Shift 键可加倍/减半。/n中键可清除。
 cover.fluid_filter.mode.filter_fill=过滤输入
 cover.fluid_filter.mode.filter_drain=过滤输出
 cover.fluid_filter.mode.filter_both=过滤两者
@@ -1100,6 +1111,14 @@ cover.item_filter.ignore_damage.enabled=无视伤害
 cover.item_filter.ignore_damage.disabled=匹配损坏值
 cover.item_filter.ignore_nbt.enabled=忽略 NBT
 cover.item_filter.ignore_nbt.disabled=匹配 NBT
+
+cover.voiding.voiding_mode.void_any=虚空匹配
+cover.voiding.voiding_mode.void_overflow=虚空溢出
+cover.voiding.voiding_mode.description=§e虚空匹配§r将销毁任何符合该过滤器的物品。/n§e虚空溢出§r则是当超过指定的数量时，销毁任何符合该过滤器的物品。
+cover.fluid.voiding.title=流体虚空设置
+cover.fluid.voiding.advanced.title=高级流体虚空设置
+cover.item.voiding.title=物品虚空设置
+cover.item.voiding.advanced.title=高级物品虚空设置
 
 cover.smart_item_filter.title=先进物品过滤卡
 cover.smart_item_filter.filtering_mode.electrolyzer=电解机
@@ -1896,6 +1915,8 @@ material.cyclohexane=环已烷
 material.cyclohexanone_oxime=环已酮肟
 material.caprolactam=环氧乙烷
 material.nitrosyl_chloride=亚硝基氯化物
+material.butyraldehyde=丁醛
+material.polyvinyl_butyral=聚乙烯丁醛
 
 material.fluoroantimonic_acid=氟锑酸
 material.titanium_trifluoride=三氟化钛
@@ -2212,6 +2233,7 @@ behaviour.soft_hammer=激活和关闭机器
 behaviour.soft_hammer.enabled=启用工作
 behaviour.soft_hammer.disabled=禁用工作
 behaviour.lighter.tooltip=可以点火
+behaviour.lighter.fluid.tooltip=可以用丁烷或者丙烷点燃东西
 behaviour.lighter.uses=剩余次数: %,d
 behavior.plunger.description=每次使用清理机器输出仓的 1000L 流体/n潜行时使用可以从清理输入仓的 1000L流体/n输入仓清理只适用于GT机器!
 behavior.toggle_energy_consumer.tooltip=右击切换模式
@@ -2434,6 +2456,7 @@ tile.fusion_casing.fusion_casing_mk3.name=聚变机械方块 MK III
 # Transparent casing blocks
 tile.transparent_casing.tempered_glass.name=强化玻璃
 tile.transparent_casing.fusion_glass.name=聚变反应堆玻璃
+tile.transparent_casing.laminated_glass.name=夹层玻璃
 
 # Creative tabs
 itemGroup.gregtech.main=格雷科技
@@ -3942,10 +3965,6 @@ gregtech.machine.energy_converter.uiv.1.name=UIV 能量转换器 (1A)
 gregtech.machine.energy_converter.uiv.4.name=UIV 能量转换器 (4A)
 gregtech.machine.energy_converter.uiv.8.name=UIV 能量转换器 (8A)
 gregtech.machine.energy_converter.uiv.16.name=UIV 能量转换器 (16A)
-gregtech.machine.energy_converter.umv.1.name=UMV 能量转换器 (1A)
-gregtech.machine.energy_converter.umv.4.name=UMV 能量转换器 (4A)
-gregtech.machine.energy_converter.umv.8.name=UMV 能量转换器 (8A)
-gregtech.machine.energy_converter.umv.16.name=UMV 能量转换器 (16A)
 gregtech.machine.energy_converter.uxv.1.name=UXV 能量转换器 (1A)
 gregtech.machine.energy_converter.uxv.4.name=UXV 能量转换器 (4A)
 gregtech.machine.energy_converter.uxv.8.name=UXV 能量转换器 (8A)
@@ -4369,12 +4388,12 @@ gregtech.machine.pyrolyse_oven.tooltip.1=§a使用白铜线圈时效率§7降低
 gregtech.machine.distillation_tower.name=蒸馏塔
 gregtech.machine.multi_furnace.name=工业熔炉
 gregtech.machine.cracker.name=石油裂化机
-gregtech.machine.cracker.tooltip.1=使用§a白铜§7后的每个线圈等级可以减少 §a5%% §7的能源消耗。
+gregtech.machine.cracker.tooltip.1=使用§a白铜§7后的每个线圈等级可以减少 §a10%% §7的能源消耗。
 gregtech.machine.coke_oven.name=焦炉
 gregtech.machine.processing_array.name=处理阵列
 gregtech.machine.advanced_processing_array.name=进阶处理阵列
 gregtech.machine.coke_oven_hatch.name=焦炉仓
-gregtech.machine.coke_oven_hatch.tooltip=允许自动化焦炉的物品输入输出
+gregtech.machine.coke_oven_hatch.tooltip=允许焦炉的自动化输入输出
 gregtech.machine.large_chemical_reactor.name=大型化学反应釜
 
 
@@ -4851,24 +4870,26 @@ gregtech.multiblock.pyrolyse_oven.speed=处理速度: %s%%
 
 gregtech.multiblock.cracking_unit.energy=能量消耗: %s%%
 
-gregtech.command.usage=用法: /gregtech <worldgen/util>
-gregtech.command.worldgen.usage=用法: /gregtech worldgen <reload>
-gregtech.command.worldgen.reload.usage=用法: /gregtech worldgen reload
-gregtech.command.worldgen.reload.success=世界生成成功从配置中重新加载。
-gregtech.command.worldgen.reload.failed=世界生成重新加载失败。检查控制台是否有错误。
-gregtech.command.util.usage=用法: /gregtech util <hand>
-gregtech.command.util.hand.usage=用法: /gregtech util hand
-gregtech.command.util.hand.item_id=物品: %s (元数据: %d)
-gregtech.command.util.hand.electric=电力信息: %d / %d EU - 等级: %d; 是电池: %s
-gregtech.command.util.hand.fluid=流体信息: %s %d / %d L; 可输入: %s; 可输出: %s
-gregtech.command.util.hand.material_meta_item=矿物前缀: %s; 材质: %s
-gregtech.command.util.hand.tool_stats=工具状态类: %s
-gregtech.command.util.hand.not_a_player=此命令仅供玩家使用。
-gregtech.command.util.hand.no_item=在执行此命令之前，您必须在主手上持有一些东西。
-gregtech.command.util.recipecheck.usage=用法:/gregtech recipecheck
-gregtech.command.util.recipecheck.begin=开始配方冲突检查…
-gregtech.command.util.recipecheck.end=配方冲突检查发现可能存在 %d 个冲突，查看服务器日志以了解更多信息
-gregtech.command.util.recipecheck.end_no_conflicts=没有发现配方冲突!
+gregtech.command.hand.usage=用法: /gregtech hand
+gregtech.command.hand.item_id=物品: %s (Metadata: %d)
+gregtech.command.hand.electric=电量信息: %d / %d EU - 等级: %d; 是否电池: %s
+gregtech.command.hand.fluid=流体信息: %d / %d L; 是否可输入: %s; 是否可输出: %s
+gregtech.command.hand.fluid2=流体 ID:
+gregtech.command.hand.material=材料 ID:
+gregtech.command.hand.ore_prefix=矿物辞典前缀:
+gregtech.command.hand.meta_item=MetaItem ID:
+gregtech.command.hand.ore_dict_entries=§3矿物辞典条目:
+gregtech.command.hand.tool_stats=工具状态类: %s
+gregtech.command.hand.not_a_player=这个命令只有玩家可以使用。
+gregtech.command.hand.no_item=在执行此命令之前，您的主手必须拿着一些东西。
+gregtech.command.recipecheck.usage=用法: /gregtech recipecheck
+gregtech.command.recipecheck.begin=开始配方冲突检查...
+gregtech.command.recipecheck.end=配方冲突检查找到 %d 可能存在的冲突，查看服务器日志以了解更多信息
+gregtech.command.recipecheck.end_no_conflicts=没有存在的配方冲突!
+gregtech.command.copy.copied_and_click=已复制到剪贴板，点击再次复制
+gregtech.command.copy.click_to_copy=点击复制
+gregtech.command.copy.copied_start=已复制 [
+gregtech.command.copy.copied_end=] 到剪贴板
 
 gregtech.chat.cape=§5恭喜你:你刚刚解锁了一件新披风!查看终端应用程序"披风选择器"来使用它.§r
 
@@ -5118,3 +5139,9 @@ fluid.tile.water=水
 material.uu_matter=UU-物质
 
 metaitem.fertilizer.name=肥料
+
+# Keybindings
+gregtech.key.armor_mode_switch=盔甲模式开关
+gregtech.key.armor_hover=盔甲悬停切换
+gregtech.key.armor_charging=盔甲给背包物品充电的切换
+gregtech.key.tool_aoe_change=工具范围模式开关

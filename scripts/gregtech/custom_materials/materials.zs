@@ -225,7 +225,7 @@ MaterialBuilder(32036, "essential_draconium_awakened")
     .build();
 
 //Rick Astlium锭
-MaterialBuilder(32767, "rick_astlium")
+MaterialBuilder(32700, "rick_astlium")
     .ingot()
     .color(0xAF866A)
     .components([
