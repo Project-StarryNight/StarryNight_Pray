@@ -79,7 +79,7 @@ gcym.machine.parallel_hatch.iv.name=并行控制仓(IV)
 gcym.machine.parallel_hatch.luv.name=并行控制仓(LuV)
 gcym.machine.parallel_hatch.zpm.name=并行控制仓(ZPM)
 gcym.machine.parallel_hatch.uv.name=并行控制仓(UV)
-gcym.machine.parallel_hatch.tooltip=最多允许§b%s§7个并行配方。
+gcym.machine.parallel_hatch.tooltip=最多允许并行§b%s§7个配方。
 
 gcym.machine.tiered_hatch.tooltip.1=启用最高%s§7电压。
 
@@ -129,7 +129,7 @@ recipemap.chemical_plant.name=化工厂
 recipemap.alloy_blast_smelter.name=合金高炉冶炼
 
 # Materials
-material.stellite_100=钨铬钴合金-100
+material.stellite_100=司太立合金-100
 material.watertight_steel=防水钢
 material.maraging_steel_300=马氏体时效钢-300
 material.hastelloy_c_276=哈氏合金-C276
@@ -142,10 +142,10 @@ material.molybdenum_disilicide=二硅化钼
 
 material.hsla_steel=HSLA钢
 material.titanium_tungsten_carbide=碳化钨钛
-material.incoloy_ma_956=因克罗伊铁铬合金-MA956
+material.incoloy_ma_956=耐热镍铬铁合金-MA956
 
 # fluids
-fluid.molten=熔融%s
+gcym.fluid.molten=熔融%s
 
 # deprecation
-gcym.deprecation.tooltip=§此机器已弃用！ 它将在下一次更新中删除！ 打破控制器方块以恢复制作材料！
+gcym.deprecation.tooltip=§c此机器已弃用！它将在下一次更新中删除！破坏控制器方块以返还制作材料！
