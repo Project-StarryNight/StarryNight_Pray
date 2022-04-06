@@ -69,7 +69,7 @@ for i, item in items {
     .inputs([
         <gregtech:meta_item_1:218>,
         <gregtech:meta_item_1:233>,
-        <ore:circuitGood> * 2,
+        <ore:circuitMv> * 2,
         <ore:batteryGood>,
         <ore:plateTin> * 2
     ])

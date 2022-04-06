@@ -39,7 +39,7 @@ recipes.remove(<fluxnetworks:fluxplug>);
 <recipemap:assembler>.recipeBuilder()
     .inputs([
         <fluxnetworks:fluxcore> * 4,
-        <ore:circuitElite> * 2,
+        <ore:circuitIv> * 2,
         <gregtech:meta_item_1:605> * 2
     ])
     .circuit(0)
@@ -54,7 +54,7 @@ recipes.remove(<fluxnetworks:fluxpoint>);
 <recipemap:assembler>.recipeBuilder()
     .inputs([
         <fluxnetworks:fluxcore> * 4,
-        <ore:circuitElite> * 2,
+        <ore:circuitIv> * 2,
         <gregtech:meta_item_1:605> * 2
     ])
     .circuit(1)
@@ -69,7 +69,7 @@ recipes.remove(<fluxnetworks:fluxcontroller>);
 <recipemap:assembler>.recipeBuilder()
     .inputs([
         <fluxnetworks:fluxcore> * 4,
-        <ore:circuitElite> * 2,
+        <ore:circuitIv> * 2,
         <gregtech:machine:991>
     ])
     .circuit(2)
@@ -85,7 +85,7 @@ recipes.remove(<fluxnetworks:fluxstorage>);
 <recipemap:assembler>.recipeBuilder()
     .inputs([
         <fluxnetworks:fluxblock>,
-        <ore:circuitAdvanced> * 2,
+        <ore:circuitHv> * 2,
         <gregtech:machine:988>,
         <metaitem:energy_crystal>
     ])
@@ -100,7 +100,7 @@ recipes.remove(<fluxnetworks:herculeanfluxstorage>);
 <recipemap:assembler>.recipeBuilder()
     .inputs([
         <fluxnetworks:fluxblock> * 2,
-        <ore:circuitExtreme> * 2,
+        <ore:circuitEv> * 2,
         <gregtech:machine:989>,
         <metaitem:lapotron_crystal>
     ])
@@ -115,7 +115,7 @@ recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
 <recipemap:assembler>.recipeBuilder()
     .inputs([
         <fluxnetworks:fluxblock> * 3,
-        <ore:circuitElite> * 2,
+        <ore:circuitIv> * 2,
         <gregtech:machine:990>,
         <metaitem:energy.lapotronic_orb>
     ])

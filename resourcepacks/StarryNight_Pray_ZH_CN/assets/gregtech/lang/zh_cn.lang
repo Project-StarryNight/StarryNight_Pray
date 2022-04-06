@@ -767,7 +767,7 @@ metaitem.circuit.wetware_assembly.tooltip=可以运行 Minecraft/n§5ZPM-等级
 metaitem.circuit.wetware_computer.name=湿件超级计算机
 metaitem.circuit.wetware_computer.tooltip=肉体和机器的终极融合/n§5UV-等级
 metaitem.circuit.wetware_mainframe.name=湿件电脑主机
-metaitem.circuit.wetware_mainframe.tooltip=他是我见过的最好的男人/n§5UHV-等级
+metaitem.circuit.wetware_mainframe.tooltip=他是我见过最强的人/n§5UHV-等级
 
 metaitem.stem_cells.name=干细胞
 metaitem.stem_cells.tooltip=智慧的原料
@@ -795,11 +795,11 @@ metaitem.quantumstar.tooltip=量子之星
 metaitem.gravistar.name=重力之星
 metaitem.gravistar.tooltip=终极下界之星
 
-metaitem.item_filter.name=物品过滤
+metaitem.item_filter.name=物品过滤卡
 metaitem.item_filter.tooltip=过滤物品的输入/输出（作覆盖板时）/n亦可用于升级传送带覆盖板
 metaitem.ore_dictionary_filter.name=矿物词典过滤卡
 metaitem.ore_dictionary_filter.tooltip=以矿物词典过滤物品的输入/输出（作覆盖板时）/n亦可用于升级控制物品传输的覆盖板
-metaitem.fluid_filter.name=流体过滤
+metaitem.fluid_filter.name=流体过滤卡
 metaitem.fluid_filter.tooltip=过滤流体的输入/输出（作覆盖板时）/n亦可用于升级控制流体传输的覆盖板
 metaitem.smart_item_filter.name=先进物品过滤卡
 metaitem.smart_item_filter.tooltip=以特定机器的配方为依据过滤物品（作覆盖板时）/n可作为传送带的升级

@@ -9,7 +9,7 @@ recipes.remove(<chisel:auto_chisel>);
 recipes.addShaped(<chisel:auto_chisel>, [
     [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],
     [<gregtech:meta_item_1:187>, <gregtech:machine:986>, <gregtech:meta_item_1:187>],
-    [<ore:circuitBasic>, <gregtech:meta_item_1:127>, <ore:circuitBasic>]
+    [<ore:circuitLv>, <gregtech:meta_item_1:127>, <ore:circuitLv>]
 ]);
 
 //移除钢锭燃烧配方

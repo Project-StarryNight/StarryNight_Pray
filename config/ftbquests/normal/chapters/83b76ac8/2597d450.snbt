@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	dependencies: [
+		"ef82cf2e"
+	],
+	tasks: [{
+		uid: "ce2003a7",
+		type: "stat",
+		title: "&6肝帝 &5IV",
+		stat: "stat.playOneMinute",
+		value: 3456000
+	}]
+}

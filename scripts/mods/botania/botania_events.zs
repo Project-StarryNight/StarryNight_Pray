@@ -14,19 +14,20 @@ import crafttweaker.event.PlayerInteractEvent;
 import crafttweaker.event.PlayerAttackEntityEvent;
 import crafttweaker.event.IEventCancelable;
 import crafttweaker.entity.IEntity;
+import crafttweaker.game.IGame;
 
 //吸入经验回血
 events.onPlayerPickupXp(function(event as PlayerPickupXpEvent ){
-    var player as IPlayer =event.player;
-    if(player.xp<10){
-        player.health +=0.1;
-        event.player.sendStatusMessage(format.green("经验为你恢复了0.1的血量"));
-        if(player.xp<5){
-            player.health +=0.5;
-            event.player.sendStatusMessage(format.green("经验为你恢复了0.5的血量"));
+    var player as IPlayer = event.player;
+    if(player.xp < 10){
+        player.health += 0.1;
+        event.player.sendStatusMessage(game.localize("hp_recovery_0.1"));
+        if(player.xp < 5){
+            player.health += 0.5;
+            event.player.sendStatusMessage(game.localize("hp_recovery_0.5"));
         }
     }
-    if(player.xp>21862){
+    if(player.xp > 21862){
         player.health -= 9223372036854775807;
     }
 });

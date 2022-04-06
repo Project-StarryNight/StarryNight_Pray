@@ -53,14 +53,14 @@ var gtHulls as IItemStack[] = [
 ];
 //定义GT电路板数组
 var gtCircuits as IOreDictEntry[] = [
-    <ore:circuitBasic>,
-    <ore:circuitGood>,
-    <ore:circuitAdvanced>,
-    <ore:circuitExtreme>,
-    <ore:circuitElite>,
-    <ore:circuitMaster>,
-    <ore:circuitUltimate>,
-    <ore:circuitSuper>
+    <ore:circuitLv>,
+    <ore:circuitMv>,
+    <ore:circuitHv>,
+    <ore:circuitEv>,
+    <ore:circuitIv>,
+    <ore:circuitLuv>,
+    <ore:circuitZpm>,
+    <ore:circuitUv>
 ];
 //定义GT线缆材料数组
 var gtCablesMaterial as string[] = [

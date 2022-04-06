@@ -103,16 +103,13 @@
         -[血液兵工厂][BloodArsenal-1.12.2-2.2.2-31]
 
     -[热力基本][ThermalFoundation-1.12.2-2.6.7.1-universal]
-        (附属)
-        -[热力膨胀 5][ThermalExpansion-1.12.2-5.5.7.1-universal]
+    -[热力膨胀 5][ThermalExpansion-1.12.2-5.5.7.1-universal]
 
     -[FTB 连锁挖掘][ftb-ultimine-1202.3.5]
     -[FTBU][FTBUtilities-5.4.1.131]
     -[匠魂2][TConstruct-1.12.2-2.13.0.183]
         (附属)
         -[匠魂JEI][tinkersjei-1.2]
-        -[自定义材料][Infini-TiC-1.12.2-0.1.46]
-        -[匠魂护甲][conarm-1.12.2-1.2.5.10]
         -[匠魂进化][tconevo-1.12.2-1.0.44]
         -[匠魂工具等级][TinkerToolLeveling-1.12.2-1.1.0]
         -[匠魂修改][tweakersconstruct-1.12.2-1.6.1]
@@ -139,6 +136,7 @@
     -[潘马斯农场][Pam's+HarvestCraft+1.12.2zg]
     -[量瓶][volumetricflask-0.18]
     -[计算器][JustEnoughCalculation-1.12.2-3.2.7]
+    -[垃圾桶][GarbageBins-1.1.1]
 
 前置Mod:
     -[前置][shetiphiancore-1.12.0-3.5.9]
@@ -295,18 +293,16 @@
     -[匠魂矿辞缓存][TinkersOreDictCache-1.0]
     -[泡沫修复][foamfix-0.10.14-1.12.2]
     -[原版修复][VanillaFix-1.0.10-150]
-    -[BUG 修复][AnotherCommonBugFix-1.2.5-1.12.2]
 
     功能:
     -[TOP 检测器][theoneprobe-1.12-1.4.28]
         (附属)
         -[TOP附属][topaddons-1.12.2-1.13.0]
     -[界面缩放][scalingguis-1.12.2-1.0.3.0]
-    -[TAB头像][TabIconHackForge-1.0]
     -[附魔信息显示][EnchantmentDescriptions-1.12.2-1.1.20]
     -[按键精灵][keywizard-1.12.2-1.7.3]
     -[旅行地图][journeymap-1.12.2-5.7.1]
-    -[皮肤][CustomSkinLoader_Forge-14.11]
+    -[皮肤][CustomSkinLoader_ForgeLegacy-14.13]
     -[苹果皮][AppleSkin-mc1.12-1.0.14]
     -[声音重载器][soundreloader-1.2-1.12.2]
     -[鼠标整理][MouseTweaks-2.10.1-mc1.12.2]
@@ -318,16 +314,12 @@
         -[游戏内信息显示_血魔法扩展][IGI-BloodMagic-1.2]
         -[游戏内信息显示_神秘时代扩展][IGI-Thaumcraft-1.0a]
 
-    -[辅助_游戏内账号切换][InGameAccountSwitcher-Forge-1.12.2-7.1.0]
-    -[平滑字体][SmoothFont-mc1.12.2-2.1.1]
     -[窗口化全屏][FullscreenWindowed-1.12-1.6.0]
     -[整合包工具][Caliper-1.12.2-1.1.46]
     -[性能分析器][sampler-1.84]
     -[合成冲突消除][YARCF-0.14(1.12.2)]
     -[掉落物拾取提示][PickUpNotifier-v1.1.5-1.12.2]
     -[提示][Tips-1.12.2-1.0.9]
-    -[平滑滚动][smooth-scrolling-everywhere-1.1]
-    -[生存背包垃圾桶][TrashSlot_1.12.2-8.4.10]
 
     修复:
     -[更大的发包][biggerpacketsplz-since1.8-1.2]
@@ -342,3 +334,5 @@
     -[物品放大][itemzoom_1.12.2-1.11]
     -[自定义加载界面][CustomLoadingScreen-1.12.2-1.5.6]
     -[精美菜单][fancymenu_forge_2.6.0_MC_1.12-1.12.2]
+    -[平滑字体][SmoothFont-mc1.12.2-2.1.1]
+    -[平滑滚动][smooth-scrolling-everywhere-1.1]

@@ -50,7 +50,9 @@ var items as IItemStack[] = [
     <advancedrocketry:rollingmachine>,#卷板机
     <thermalexpansion:device:10>,#公式处理器
     <advancedrocketry:productrod:0>,
-    <advancedrocketry:productrod:1>
+    <advancedrocketry:productrod:1>,
+    <thermalexpansion:augment:401>,#通量维修复原
+    <theoneprobe:probenote>#TOP 阅读指南
 ];
 
 for i, item in items {

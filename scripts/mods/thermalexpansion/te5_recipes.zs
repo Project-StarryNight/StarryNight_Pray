@@ -6,11 +6,11 @@
 
 import mods.gregtech.recipe.RecipeMap;
 import mods.jei.JEI;
-import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 //移除配方
 #定义数组
-var items as IIngredient[] = [
+var items as IItemStack[] = [
     <thermalexpansion:machine:1>,#磨粉机
     <thermalexpansion:augment:273>,#磨粉机升级
     <thermalexpansion:machine:3>,#感应炉

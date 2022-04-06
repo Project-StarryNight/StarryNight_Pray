@@ -65,7 +65,7 @@ recipes.addShapedMirrored(<enderio:item_item_conduit> * 2,[
 //流体导管
 recipes.addShapedMirrored(<enderio:item_liquid_conduit:0> * 8,[
     [<enderio:item_material:4>,<enderio:item_material:4>,<enderio:item_material:4>],
-    [<ore:blockGlassHardened>,<gregtech:fluid_pipe_tiny:260>,<ore:blockGlassHardened>],
+    [<ore:blockGlassHardened>,<ore:pipeSmallFluidBronze>,<ore:blockGlassHardened>],
     [<enderio:item_material:4>,<enderio:item_material:4>,<enderio:item_material:4>]]);
 
 //高压流体导管
@@ -378,24 +378,24 @@ for i in 0 to 8 {
 recipes.addShaped(<enderio:block_powered_spawner>,[
     [<ore:plateCrystallineAlloy>,<enderio:item_material:55>,<ore:plateCrystallineAlloy>],
     [<ore:plateCrystallineAlloy>,<enderio:item_broken_spawner>,<ore:plateCrystallineAlloy>],
-    [<ore:circuitUltimate>,<enderio:item_material:55>,<ore:circuitUltimate>]]);
+    [<ore:circuitZpm>,<enderio:item_material:55>,<ore:circuitZpm>]]);
 
 //头颅装配机
 recipes.addShaped(<enderio:block_farm_station>,[
     [<ore:itemSkull>,<ore:toolHeadBuzzSawTungstenCarbide>,<ore:itemSkull>],
-    [<ore:circuitElite>,<enderio:item_material:53>,<ore:circuitElite>],
+    [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
 
 //种植站
 recipes.addShaped(<enderio:block_slice_and_splice>,[
     [<enderio:item_material:44>,<enderio:item_material:17>,<enderio:item_material:45>],
-    [<ore:circuitElite>,<enderio:item_material:53>,<ore:circuitElite>],
+    [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
 
 //灵魂绑定器 
 recipes.addShaped(<enderio:block_soul_binder>,[
     [<enderio:item_material:56>,<enderio:item_soul_vial>,<enderio:block_enderman_skull:2>],
-    [<ore:circuitElite>,<enderio:item_material:53>,<ore:circuitElite>],
+    [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
 
 //酿液桶

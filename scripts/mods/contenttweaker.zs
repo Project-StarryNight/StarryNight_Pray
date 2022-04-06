@@ -12,4 +12,4 @@ import mods.contenttweaker.Item;
 val dragon_cell = VanillaFactory.createItem("dragon_cell");
 dragon_cell.maxStackSize = 64;
 dragon_cell.creativeTab = <creativetab:misc>;
-dragon_cell.register(); 
+dragon_cell.register();

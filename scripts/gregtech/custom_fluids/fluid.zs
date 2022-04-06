@@ -81,73 +81,79 @@ MaterialBuilder(32707, "precipitated_draconium_residue_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x483A3B)
-    .build(); 
+    .build();
 
 MaterialBuilder(32708, "dragon_breath_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0xC39FB6)
-    .build(); 
+    .build();
 
 MaterialBuilder(32709, "dragon_blood")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x5C1F4F)
-    .build(); 
+    .build();
 
 MaterialBuilder(32710, "activated_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x905F83)
-    .build(); 
+    .build();
 
 MaterialBuilder(32711, "critical_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x4e3278)
-    .build(); 
+    .build();
 
 MaterialBuilder(32712, "excited_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x4D579A)
-    .build(); 
+    .build();
 
 MaterialBuilder(32713, "inactivated_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x363B5C)
-    .build(); 
+    .build();
 
 //觉醒龙素
 MaterialBuilder(32714, "hyper_draconium_awakened_mixture_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0xCC6633)
-    .build(); 
+    .build();
 
 MaterialBuilder(32715, "precipitated_draconium_awakened_residue_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x666633)
-    .build(); 
+    .build();
 
 MaterialBuilder(32716, "hyper_slurry")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x6B4924)
-    .build(); 
+    .build();
 
 MaterialBuilder(32717, "cosmic_matter_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x262538)
-    .build(); 
+    .build();
 
 //含杂氟锑酸
-
 MaterialBuilder(32718, "impure_fluoroantimonic_acid")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
     .color(0x717A75)
-    .build(); 
+    .build();
+
+//液态魔力聚合体
+MaterialBuilder(32719, "liquid_magic_polymer")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(273)
+    .color(0xF5C0F7)
+    .build();
