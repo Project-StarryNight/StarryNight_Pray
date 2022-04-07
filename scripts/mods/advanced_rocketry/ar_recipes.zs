@@ -36,7 +36,7 @@ var i as int = 0;
 while (i < 7){
     var plate as IOreDictEntry = plates[i];
     var sheet as IItemStack = sheets[i];
-    <recipemap:bender>.recipeBuilder()
+    bender.recipeBuilder()
         .inputs([
             plate
         ])
@@ -58,7 +58,7 @@ i = 0;
 var EUt as int = 16;
 while (i < 4){
     var sheet as IItemStack = sheets[i];
-    <recipemap:bender>.recipeBuilder()
+    bender.recipeBuilder()
         .inputs([
             sheet * 2
         ])

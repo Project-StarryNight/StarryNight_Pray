@@ -4,6 +4,8 @@
  * 此脚本为杂项移除物品内容
 */
 
+#priority 350
+
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
@@ -119,11 +121,18 @@ var jeiItems as IItemStack[] = [
     <ironchest:iron_chest:7>,#泥箱子 9000!
     <appliedenergistics2:quartz_ore>,#赛特斯石英矿石
     <modularmachinery:itemblueprint>,#机械蓝图
+    <avaritia:singularity:*>,#无尽贪婪奇点
+    <enderutilities:enderpart:0>,#基础末影合金
+    <enderutilities:enderpart:1>,#增强
+    <enderutilities:enderpart:2>,#高级
     <enderutilities:chairwand>,
-    <enderutilities:dolly>,
     <enderutilities:machine_1:2>,
     <enderutilities:molecular_exciter>,
-    <avaritia:singularity:*>#无尽贪婪奇点
+    <draconicevolution:generator>,#DE 发电机
+    <draconicadditions:chaotic_armor_generator>,
+    <draconicadditions:armor_generator>,
+    <advancedrocketry:solargenerator>#AR 太阳能板
+
 ];
 
 for i, item in jeiItems {

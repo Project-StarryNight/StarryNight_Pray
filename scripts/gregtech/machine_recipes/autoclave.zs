@@ -24,7 +24,7 @@ for input in autoclaveGems {
     var dust as IItemStack = oreDict["dust"~input].firstItem;
     var gem as IItemStack = oreDict["gem"~input].firstItem;
 
-    <recipemap:autoclave>.recipeBuilder()
+    autoclave.recipeBuilder()
         .inputs(dust * 1)
         .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
         .outputs(gem * 1)
@@ -34,7 +34,7 @@ for input in autoclaveGems {
 }
 //补充循环配方
 #石英岩
-<recipemap:autoclave>.recipeBuilder()
+autoclave.recipeBuilder()
     .inputs(<ore:dustSiliconDioxide> * 1)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
     .outputs(<gregtech:meta_gem:340> * 1)
@@ -43,7 +43,7 @@ for input in autoclaveGems {
     .buildAndRegister();
 
 #琼脂粉
-<recipemap:autoclave>.recipeBuilder()
+autoclave.recipeBuilder()
     .inputs(<ore:dustGelatin> * 1)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 40])
     .outputs(<gregtech:meta_dust:1608> * 1)
@@ -51,7 +51,7 @@ for input in autoclaveGems {
     .EUt(80)
     .buildAndRegister();
 #下界石英
-<recipemap:autoclave>.recipeBuilder()
+autoclave.recipeBuilder()
     .inputs(<ore:dustNetherQuartz> * 1)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
     .outputs(<minecraft:quartz> * 1)
@@ -59,7 +59,7 @@ for input in autoclaveGems {
     .EUt(8)
     .buildAndRegister();
 #赛特斯石英
-<recipemap:autoclave>.recipeBuilder()
+autoclave.recipeBuilder()
     .inputs(<ore:dustCertusQuartz> * 1)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 10])
     .outputs(<gregtech:meta_gem:214> * 1)
@@ -78,7 +78,7 @@ for input in stones {
     var stone as IItemStack = oreDict["stone"~input].firstItem;
     var stonePolished as IItemStack = oreDict["stone"~input~"Polished"].firstItem;
 
-    <recipemap:autoclave>.recipeBuilder()
+    autoclave.recipeBuilder()
     .inputs(stone * 1)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 4])
     .outputs(stonePolished * 1)
@@ -91,7 +91,7 @@ for input in stones {
 # 高压釜配方补充
 ##############################
 //能量水晶
-<recipemap:autoclave>.recipeBuilder()
+autoclave.recipeBuilder()
     .inputs(<gregtech:meta_item_1:491> * 9)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 200])
     .outputs(<gregtech:meta_item_1:741> * 1)
@@ -100,7 +100,7 @@ for input in stones {
     .buildAndRegister();
 
 //兰波顿
-<recipemap:autoclave>.recipeBuilder()
+autoclave.recipeBuilder()
     .inputs(<ore:dustLapotron> * 15)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 350])
     .outputs(<gregtech:meta_gem:1647> * 1)

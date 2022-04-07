@@ -17,19 +17,19 @@ while(meta <= 1705){
     recipes.remove(<gregtech:machine>.definition.makeStack(meta));
     meta += 1;
 }
-//1A转换器隐藏jei
+//1A转换器隐藏 JEI
 var meta2 as int = 1670;
 while(meta2 <= 1702){
     JEI.removeAndHide(<gregtech:machine>.definition.makeStack(meta2),true);
     meta2 += 4;
 }
-//ULV转换器隐藏jei
+//ULV转换器隐藏 JEI
 var meta3 as int = 1671;
 while(meta3 <=1673){
     JEI.removeAndHide(<gregtech:machine>.definition.makeStack(meta3),true);
     meta3 += 1;
 }
-//定义eio导管数组
+//定义 EIO 导管数组
 var eioConduits as IItemStack[] = [
     <enderio:item_endergy_conduit:9>,
     <enderio:item_power_conduit:0>,

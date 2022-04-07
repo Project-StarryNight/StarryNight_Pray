@@ -65,7 +65,7 @@ for i, item in items {
 
 //便携式多用分析仪
 #添加
-<recipemap:assembler>.recipeBuilder()
+assembler.recipeBuilder()
     .inputs([
         <gregtech:meta_item_1:218>,
         <gregtech:meta_item_1:233>,

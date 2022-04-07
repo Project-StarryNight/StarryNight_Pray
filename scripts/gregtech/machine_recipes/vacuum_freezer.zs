@@ -7,7 +7,7 @@
 import mods.gregtech.recipe.RecipeMap;
 
 //液态 GS-055RS 空气
-<recipemap:vacuum_freezer>.recipeBuilder()
+vacuum_freezer.recipeBuilder()
     .fluidInputs(<liquid:gsp_055_rs_air> * 4000)
     .fluidOutputs(<liquid:liquid_gsp_055_rs_air> * 4000)
     .EUt(4096)

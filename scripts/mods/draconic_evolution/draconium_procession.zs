@@ -5,14 +5,12 @@
 */
 
 import mods.gregtech.recipe.RecipeMap;
-import crafttweaker.item.IIngredient;
-import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 
 //注:本脚本内的"XX处理"是指这一配方是用于处理XX的,而不是通过处理获得XX
 
 //氧化龙素混合物粉处理
-<recipemap:chemical_reactor>.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(<ore:dustDraconiumOxideCompound>*7)
     .fluidInputs([<liquid:aqua_regia>*6000])
     .fluidOutputs([<liquid:draconium_oxide_compound_slurry>*5000])
@@ -21,7 +19,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //氧化龙素混合物矿浆处理
-<recipemap:centrifuge>.recipeBuilder()
+centrifuge.recipeBuilder()
     .fluidInputs([<liquid:draconium_oxide_compound_slurry>*2500])
     .outputs(<gregtech:meta_dust:32025>*6)
     .fluidOutputs([<liquid:precipitated_draconium_residue_solution>*10000])
@@ -30,7 +28,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //沉淀龙素矿渣溶液处理
-<recipemap:centrifuge>.recipeBuilder()
+centrifuge.recipeBuilder()
     .fluidInputs([<liquid:precipitated_draconium_residue_solution>*5000])
     .outputs(<gregtech:meta_dust:118>*2,<gregtech:meta_dust:53>)
     .fluidOutputs([<liquid:aqua_regia>*2000])
@@ -39,7 +37,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //低纯氧化龙素粉处理
-<recipemap:chemical_reactor>.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(<ore:dustLowPurityDraconiumOxide>*6)
     .fluidInputs([<liquid:fluoroantimonic_acid>*9000])
     .fluidOutputs([<liquid:fluoantimonate_draconium_solution>*5000])
@@ -48,7 +46,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //氟锑酸龙素溶液处理
-<recipemap:distillation_tower>.recipeBuilder()
+distillation_tower.recipeBuilder()
     .fluidInputs([<liquid:fluoantimonate_draconium_solution>*5000])
     .fluidOutputs([<liquid:impure_fluoroantimonic_acid>*9000])
     .outputs(<gregtech:meta_dust:32026>*7)
@@ -57,7 +55,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //含杂氟锑酸处理
-<recipemap:centrifuge>.recipeBuilder()
+centrifuge.recipeBuilder()
     .fluidInputs([<liquid:impure_fluoroantimonic_acid>*9000])
     .outputs(<gregtech:meta_dust:2522>*7)
     .fluidOutputs([<liquid:fluoroantimonic_acid>*5000])
@@ -66,7 +64,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //六氟化龙素处理
-<recipemap:large_chemical_reactor>.recipeBuilder()
+large_chemical_reactor.recipeBuilder()
     .inputs(<ore:dustDraconiumHexafluoride>*7)
     .outputs(<gregtech:meta_dust:32027>,<gregtech:meta_dust:4>*3)
     .fluidInputs([<liquid:hydrogen>*21000])
@@ -76,7 +74,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //粗制龙素粉
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs(<gregtech:meta_dust:32027>)
     .outputs(<gregtech:meta_dust:32028>*3)
     .fluidInputs([<liquid:plasma.helium>*576])
@@ -86,7 +84,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //龙息溶液
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs(<minecraft:dragon_breath>*4)
     .fluidInputs([<liquid:water>*1000])
     .fluidOutputs([<liquid:dragon_breath_solution>*2000])
@@ -94,8 +92,8 @@ import crafttweaker.item.IItemStack;
     .duration(160)
     .buildAndRegister();
 
-//活性龙组织混合液 
-<recipemap:mixer>.recipeBuilder()
+//活性龙组织混合液
+mixer.recipeBuilder()
     .inputs(<contenttweaker:dragon_cell>*8)
     .fluidInputs([<liquid:dragon_breath_solution>*1000,<liquid:dragon_blood>*1000])
     .fluidOutputs([<liquid:activated_dragon_tissue_mixture>*1000])
@@ -104,7 +102,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //临界龙组织混合液
-<recipemap:electric_blast_furnace>.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs(<ore:dustNaquadahEnriched>*4)
     .fluidInputs([<liquid:activated_dragon_tissue_mixture>*1000])
     .fluidOutputs([<liquid:critical_dragon_tissue_mixture>*1000])
@@ -123,7 +121,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //热龙素锭
-<recipemap:electric_blast_furnace>.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs(<ore:dustCrudeDraconium>*6)
     .outputs(<gregtech:meta_ingot_hot:32022>,<gregtech:meta_dust:32029>)
     .fluidInputs([<liquid:excited_dragon_tissue_mixture>*400])
@@ -134,8 +132,8 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //龙素锭
-<recipemap:vacuum_freezer>.findRecipe(120, [<metaitem:ingotHotDraconium>], null).remove();
-<recipemap:vacuum_freezer>.recipeBuilder()
+vacuum_freezer.findRecipe(120, [<metaitem:ingotHotDraconium>], null).remove();
+vacuum_freezer.recipeBuilder()
     .inputs(<gregtech:meta_ingot_hot:32022>)
     .outputs(<gregtech:meta_ingot:32022>)
     .EUt(122880)
@@ -143,7 +141,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //亚稳态觉醒龙素混合物粉处理
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs(<ore:dustSubStableDraconiumAwakenedMixture>*3,<ore:dustNeutronium>*2)
     .outputs(<gregtech:meta_dust:32030>*5)
     .EUt(491520)
@@ -151,7 +149,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //超能觉醒龙素混合物粉处理
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs(<ore:dustHyperDraconiumAwakenedMixture>*5)
     .fluidOutputs(<liquid:hyper_draconium_awakened_mixture_solution>*4000)
     .fluidInputs([<liquid:aqua_regia>*6000])
@@ -160,7 +158,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //超能觉醒龙素混合物溶液处理
-<recipemap:centrifuge>.recipeBuilder()
+centrifuge.recipeBuilder()
     .inputs(<ore:dustNaquadriaSulfate>*6)
     .outputs(<gregtech:meta_dust:126>,<gregtech:meta_dust:32031>*6)
     .fluidInputs([<liquid:hyper_draconium_awakened_mixture_solution>*2000])
@@ -170,7 +168,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //觉醒龙素沉淀矿渣溶液
-<recipemap:centrifuge>.recipeBuilder()
+centrifuge.recipeBuilder()
     .outputs(<gregtech:meta_dust:8>*2,<gregtech:meta_dust:66>,<gregtech:meta_dust:95>)
     .fluidInputs([<liquid:precipitated_draconium_awakened_residue_solution>*2500])
     .fluidOutputs([<liquid:aqua_regia>*2000])
@@ -179,7 +177,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //硫酸超能觉醒龙素粉处理
-<recipemap:electric_blast_furnace>.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs(<ore:dustHyperDraconiumAwakenedSulfate>*6)
     .outputs(<gregtech:meta_dust:32032>)
     .fluidInputs([<liquid:hydrogen>*2000])
@@ -190,7 +188,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //超能觉醒龙素粉处理 
-<recipemap:electric_blast_furnace>.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs(<ore:dustHyperDraconiumAwakened>*2)
     .outputs(<gregtech:meta_ingot_hot:32033>*2)
     .fluidInputs([<liquid:duranium>*576])
@@ -200,7 +198,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //蕴魔龙素锭
-<recipemap:electric_blast_furnace>.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs(<ore:ingotDraconium>)
     .outputs(<gregtech:meta_ingot_hot:32034>)
     .fluidInputs([<liquid:mana>*10000])
@@ -209,8 +207,8 @@ import crafttweaker.item.IItemStack;
     .property("temperature",9001)
     .buildAndRegister();
 
-<recipemap:vacuum_freezer>.findRecipe(120, [<metaitem:ingotHotEnchantedDraconium>], null).remove();
-<recipemap:vacuum_freezer>.recipeBuilder()
+vacuum_freezer.findRecipe(120, [<metaitem:ingotHotEnchantedDraconium>], null).remove();
+vacuum_freezer.recipeBuilder()
     .inputs(<ore:ingotHotEnchantedDraconium>)
     .outputs(<gregtech:meta_ingot:32034>)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight>*3000])
@@ -219,7 +217,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //硬化觉醒龙素
-<recipemap:fluid_solidifier>.recipeBuilder()
+fluid_solidifier.recipeBuilder()
     .inputs(<ore:ingotEnchantedDraconium>)
     .outputs(<gregtech:meta_ingot_hot:32035>)
     .fluidInputs([<liquid:hardened_hyper_draconium_awakened>*144])
@@ -228,7 +226,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //精华觉醒龙素
-<recipemap:chemical_bath>.recipeBuilder()
+chemical_bath.recipeBuilder()
     .inputs(<ore:ingotHardenedDraconiumAwakened>)
     .outputs(<gregtech:meta_ingot:32036>)
     .fluidInputs([<liquid:liquid_ender_air>*10000])
@@ -237,7 +235,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //觉醒龙素粉
-<recipemap:electrolyzer>.recipeBuilder()
+electrolyzer.recipeBuilder()
     .inputs(<gregtech:meta_item_1:209>)
     .outputs(<gregtech:meta_dust:32023>*20)
     .fluidInputs([<liquid:essential_draconium_awakened>*4320])
@@ -247,7 +245,7 @@ import crafttweaker.item.IItemStack;
     .buildAndRegister();
 
 //超能泥浆处理
-<recipemap:centrifuge>.recipeBuilder()
+centrifuge.recipeBuilder()
     .outputs(<gregtech:meta_dust:39>*2,<gregtech:meta_dust:71>*2,<gregtech:meta_dust:55>*3)
     .fluidInputs([<liquid:hyper_slurry>*3000])
     .fluidOutputs([<liquid:cosmic_matter_solution>*500])

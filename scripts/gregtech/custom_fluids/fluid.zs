@@ -5,7 +5,7 @@
 */
 
 #loader gregtech
-#priority 1000
+#priority 1001
 
 import mods.gregtech.material.FluidTypes;
 import mods.gregtech.material.Material;
@@ -34,6 +34,13 @@ MaterialBuilder(32502, "super_naquadah_fuel")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(8500)
     .color(0x3CB371)
+    .build();
+
+//充能石油
+MaterialBuilder(32503, "enriched_oil")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xC03240)
     .build();
 
 //GSP-055RS空气
@@ -155,5 +162,5 @@ MaterialBuilder(32718, "impure_fluoroantimonic_acid")
 MaterialBuilder(32719, "liquid_magic_polymer")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(273)
-    .color(0xF5C0F7)
+    .color(0x8A2BE2)
     .build();

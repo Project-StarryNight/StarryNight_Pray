@@ -12,3 +12,17 @@ import mods.gregtech.recipe.RecipeMap;
     .duration(90)
     .EUt(32)
     .buildAndRegister();
+
+//充能油
+<recipemap:combustion_generator>.recipeBuilder()
+    .fluidInputs(<liquid:enriched_oil> * 2)
+    .duration(30)
+    .EUt(32)
+    .buildAndRegister();
+
+//精炼油
+<recipemap:combustion_generator>.recipeBuilder()
+    .fluidInputs(<liquid:refined_fuel> * 2)
+    .duration(25)
+    .EUt(32)
+    .buildAndRegister();

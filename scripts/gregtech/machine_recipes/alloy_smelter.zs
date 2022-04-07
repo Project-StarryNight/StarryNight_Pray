@@ -7,7 +7,7 @@
 import mods.gregtech.recipe.RecipeMap;
 
 //模块化合金_基础合成
-<recipemap:alloy_smelter>.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs([
         <ore:ingotSteel>,
         <ore:ingotConductiveIron>
