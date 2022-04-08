@@ -1,10 +1,9 @@
 {
 	title: "{snp.quests.067d8d27.title}",
-	x: 4.0d,
-	y: 9.0d,
+	x: 1.5d,
+	y: 12.5d,
 	description: "{snp.quests.067d8d27.description}",
 	dependencies: [
-		"bc08bdc5",
 		"75092cf3"
 	],
 	tasks: [{

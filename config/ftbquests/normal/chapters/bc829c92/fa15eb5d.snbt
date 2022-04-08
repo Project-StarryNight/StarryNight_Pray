@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: 9.5d,
+	dependencies: [
+		"237f1ffd"
+	],
+	tasks: [{
+		uid: "052b6a74",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1017"
+		}]
+	},
+	{
+		uid: "6e76c9ff",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 31L
+	}]
+}

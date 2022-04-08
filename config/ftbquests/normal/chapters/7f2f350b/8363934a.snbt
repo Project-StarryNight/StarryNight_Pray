@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "d0f25445",
+		type: "item",
+		items: [{
+			id: "thaumcraft:creative_flux_sponge",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

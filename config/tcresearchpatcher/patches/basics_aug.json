@@ -18,5 +18,14 @@
 				"value": "BASICS"
 			}
         ]
+	},
+	{
+		"key": "CRYSTALFARMER",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "parents/2"
+			}
+		]
 	}
 ]
