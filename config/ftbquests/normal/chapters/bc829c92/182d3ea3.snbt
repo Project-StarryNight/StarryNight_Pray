@@ -8,7 +8,7 @@
 		}
 	},
 	x: 5.5d,
-	y: 1.0d,
+	y: -1.0d,
 	shape: "diamond",
 	description: "{snp.quests.182d3ea3.description}",
 	text: [

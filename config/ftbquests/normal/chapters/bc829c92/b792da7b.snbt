@@ -1,7 +1,7 @@
 {
 	title: "{snp.quests.b792da7b.title}",
-	x: 9.0d,
-	y: 12.0d,
+	x: 5.511904761904759d,
+	y: 16.47619047619048d,
 	shape: "pentagon",
 	description: "{snp.quests.b792da7b.description}",
 	text: [
@@ -9,11 +9,11 @@
 		"{snp.quests.b792da7b.text.2}"
 	],
 	dependencies: [
-		"d7ebef16",
-		"3b36b113",
+		"ef8d8905",
+		"6ea178c8",
 		"5e18196e"
 	],
-	size: 1.25d,
+	size: 1.5d,
 	tasks: [{
 		uid: "e72aeeed",
 		type: "item",

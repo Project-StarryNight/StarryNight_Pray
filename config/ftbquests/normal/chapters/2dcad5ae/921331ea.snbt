@@ -1,6 +1,8 @@
 {
+	title: "不再黑暗",
 	x: 6.0d,
 	y: -2.0d,
+	description: "制作夜视镜，得到无限的夜视效果",
 	dependencies: [
 		"db725775"
 	],

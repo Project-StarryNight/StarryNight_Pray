@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "336f2258",
+		type: "item",
+		items: [{
+			item: "thaumadditions:puriflower"
+		}]
+	}]
+}

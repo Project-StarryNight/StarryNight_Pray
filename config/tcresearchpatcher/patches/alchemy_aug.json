@@ -30,9 +30,13 @@
 				"op": "add",
 				"path": "parents/1",
 				"value": "ESSENTIASMELTERTHAUMIUM"
-			
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:glass_tube"
 			}
-        ]
+		]
 	},
 	{
         "key": "BOTTLETAINT",

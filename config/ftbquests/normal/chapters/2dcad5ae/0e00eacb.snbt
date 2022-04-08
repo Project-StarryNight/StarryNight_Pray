@@ -1,6 +1,8 @@
 {
+	title: "更强力的护手",
 	x: 6.0d,
 	y: 4.0d,
+	description: "制作神秘法师护手",
 	dependencies: [
 		"7c7ae768"
 	],

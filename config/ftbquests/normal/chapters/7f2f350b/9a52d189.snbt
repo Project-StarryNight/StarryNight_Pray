@@ -1,6 +1,6 @@
 {
 	title: "{snp.quests.9a52d189.title}",
-	x: 0.0d,
+	x: -0.5d,
 	y: -1.5d,
 	description: "{snp.quests.9a52d189.description}",
 	text: [

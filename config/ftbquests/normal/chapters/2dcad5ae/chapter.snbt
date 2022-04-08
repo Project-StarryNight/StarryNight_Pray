@@ -6,6 +6,9 @@
 			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
+	description: [
+		"魔法（LV  ~ MV）"
+	],
 	always_invisible: false,
 	group: 2087384099,
 	default_quest_shape: "",

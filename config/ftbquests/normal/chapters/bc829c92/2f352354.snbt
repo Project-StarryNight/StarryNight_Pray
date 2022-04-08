@@ -1,8 +1,8 @@
 {
 	title: "{snp.quests.2f352354.title}",
 	icon: "minecraft:brick_block",
-	x: 4.0d,
-	y: 2.5d,
+	x: 1.0d,
+	y: 1.0d,
 	description: "{snp.quests.2f352354.description}",
 	dependencies: [
 		"f26c7306"

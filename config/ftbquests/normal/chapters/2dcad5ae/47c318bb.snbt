@@ -1,6 +1,20 @@
 {
+	title: "注魔之旅",
+	icon: "thaumcraft:infusion_matrix",
 	x: 12.0d,
 	y: 2.0d,
+	description: "完成注魔任务",
+	text: [
+		"注魔任务与看似与神秘学与炼化学平齐",
+		"实际上需要你完成神秘学，并完成炼金术的源质冶炼厂部分",
+		"制作注魔矩阵时，根据魔导手册的指示搭建注魔矩阵，并向上撒一把世界盐",
+		"然后用法师护手激活注魔矩阵",
+		"你就能开始注魔了",
+		"注魔需要使用源质罐子来提供源质，而不是水晶碎片,这点要切记",
+		"关于注魔的风险度，详见mcmod.cn关于神秘时代注魔部分的详解",
+		"",
+		"你现在能接触神秘时代最有意思的地方了"
+	],
 	dependencies: [
 		"b7a64841"
 	],
@@ -10,5 +24,21 @@
 		items: [{
 			item: "thaumcraft:infusion_matrix"
 		}]
+	},
+	{
+		uid: "568dbf1b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}],
+		count: 3L
+	},
+	{
+		uid: "499e00ea",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 10L
 	}]
 }

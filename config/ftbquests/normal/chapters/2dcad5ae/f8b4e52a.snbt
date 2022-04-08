@@ -1,6 +1,15 @@
 {
+	title: "灵气减免",
 	x: 0.0d,
 	y: 2.0d,
+	description: "穿着一整套神秘使套装以节约灵气",
+	text: [
+		"在此整合包中，大多数物品的灵气消耗都有所提升",
+		"为了能顺利制作他们，建议先制作一套神秘使法袍",
+		"可以有效地减免灵气消耗",
+		"",
+		"时尚且实用"
+	],
 	dependencies: [
 		"08641d01"
 	],
@@ -9,6 +18,30 @@
 		type: "item",
 		items: [{
 			id: "thaumcraft:cloth_chest",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "415d2f3f",
+		type: "item",
+		items: [{
+			id: "thaumcraft:cloth_legs",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8055e841",
+		type: "item",
+		items: [{
+			id: "thaumcraft:cloth_boots",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			}

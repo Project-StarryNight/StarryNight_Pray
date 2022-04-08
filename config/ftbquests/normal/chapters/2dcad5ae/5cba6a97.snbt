@@ -1,8 +1,11 @@
 {
+	title: "开眼仪式",
 	x: 11.0d,
 	y: 6.0d,
+	description: "制作元动能量电池",
 	dependencies: [
 		"7b84523c",
+		"9e4c08c2",
 		"0e00eacb"
 	],
 	tasks: [{

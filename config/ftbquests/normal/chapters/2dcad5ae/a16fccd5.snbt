@@ -1,6 +1,8 @@
 {
+	title: "给 爷 爬",
 	x: 13.5d,
 	y: 3.5d,
+	description: "制作退敌护肩甲，推开靠近你的敌人",
 	dependencies: [
 		"47c318bb"
 	],

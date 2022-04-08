@@ -1,6 +1,8 @@
 {
+	title: "看穿一切",
 	x: 6.0d,
 	y: 0.0d,
+	description: "制作揭示之护目镜",
 	dependencies: [
 		"64c30735"
 	],

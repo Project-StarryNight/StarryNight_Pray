@@ -1,6 +1,8 @@
 {
+	title: "寻找目的地",
 	x: 11.0d,
 	y: 8.0d,
+	description: "制作裂隙定位仪",
 	dependencies: [
 		"5cba6a97"
 	],
