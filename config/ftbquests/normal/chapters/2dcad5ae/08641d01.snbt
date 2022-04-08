@@ -1,17 +1,17 @@
 {
-	title: "奥术观测",
+	title: "{snp.quests.08641d01.title}",
 	x: 2.0d,
 	y: 2.0d,
-	description: "制作魔导透镜",
+	description: "{snp.quests.08641d01.description}",
 	text: [
-		"魔导透镜的制作完成",
-		"说明神秘的起步",
-		"制作魔导透镜中间的玻璃透镜有一定难度",
-		"需要你至少到达MV并制作出车床",
-		"这也是为什么神秘任务需要到达MV才能解锁",
-		"",
-		"这个魔导透镜混着一股科技的味道",
-		"这很不魔法"
+		"{snp.quests.08641d01.text.1}",
+		"{snp.quests.08641d01.text.2}",
+		"{snp.quests.08641d01.text.3}",
+		"{snp.quests.08641d01.text.4}",
+		"{snp.quests.08641d01.text.5}",
+		"{snp.quests.08641d01.text.6}",
+		"{snp.quests.08641d01.text.7}",
+		"{snp.quests.08641d01.text.8}"
 	],
 	dependencies: [
 		"798d132f"

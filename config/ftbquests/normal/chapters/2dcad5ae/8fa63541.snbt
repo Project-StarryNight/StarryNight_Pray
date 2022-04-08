@@ -1,19 +1,19 @@
 {
-	title: "金属炼成",
+	title: "{snp.quests.8fa63541.title}",
 	x: 4.0d,
 	y: 2.0d,
-	description: "制作蕴魔金属",
+	description: "{snp.quests.8fa63541.description}",
 	text: [
-		"完成炼金术的“金属炼成”研究即可制作这两种金属",
-		"你需要一个坩埚来完成这个步骤",
-		"坩埚需要加热，使用任意热源即可加热",
-		"比如岩浆块，熔岩，闪耀之光，火焰等等",
-		"使用时要确保你向坩埚中投入了充足的要素",
-		"对着物品按住Shift即可查看它里面有什么要素",
-		"",
-		"此任务解锁了新的章节",
-		"",
-		"这里还没改..."
+		"{snp.quests.8fa63541.text.1}",
+		"{snp.quests.8fa63541.text.2}",
+		"{snp.quests.8fa63541.text.3}",
+		"{snp.quests.8fa63541.text.4}",
+		"{snp.quests.8fa63541.text.5}",
+		"{snp.quests.8fa63541.text.6}",
+		"{snp.quests.8fa63541.text.7}",
+		"{snp.quests.8fa63541.text.8}",
+		"{snp.quests.8fa63541.text.9}",
+		"{snp.quests.8fa63541.text.10}"
 	],
 	dependencies: [
 		"08641d01"

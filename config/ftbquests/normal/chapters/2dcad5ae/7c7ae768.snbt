@@ -1,16 +1,16 @@
 {
 	x: 4.0d,
 	y: 4.0d,
-	description: "制作核心并用核心镶饰台来配置它",
+	description: "{snp.quests.7c7ae768.description}",
 	text: [
-		"在TC6中，核心效果分为三部分",
-		"媒介，效果，调整",
-		"其中媒介决定法术的释放形式，如果未配置就会导致做出来的核心打到自己",
-		"记得使用抛射，震击，接触等媒介正确的配置核心",
-		"",
-		"粘性的弹射物指的是羊驼的口水",
-		"",
-		"这完全是抄袭psi！"
+		"{snp.quests.7c7ae768.text.1}",
+		"{snp.quests.7c7ae768.text.2}",
+		"{snp.quests.7c7ae768.text.3}",
+		"{snp.quests.7c7ae768.text.4}",
+		"{snp.quests.7c7ae768.text.5}",
+		"{snp.quests.7c7ae768.text.6}",
+		"{snp.quests.7c7ae768.text.7}",
+		"{snp.quests.7c7ae768.text.8}"
 	],
 	dependencies: [
 		"84d65782"

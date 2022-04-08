@@ -6,7 +6,7 @@
 			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
-	description: [
+	description: ["{snp.quests.2dcad5ae.description}"	description: [
 		"魔法（LV  ~ MV）"
 	],
 	always_invisible: false,

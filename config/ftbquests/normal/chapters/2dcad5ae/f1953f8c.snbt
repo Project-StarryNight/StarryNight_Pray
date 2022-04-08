@@ -1,20 +1,20 @@
 {
-	title: "关闭裂隙与进入虚域",
+	title: "{snp.quests.f1953f8c.title}",
 	x: 14.0d,
 	y: 2.0d,
-	description: "注魔制作悖论物质",
+	description: "{snp.quests.f1953f8c.description}",
 	text: [
-		"使用悖论物质关闭腐化裂缝",
-		"可以得到一定数量的虚空种子并有一定几率得到元始珍珠",
-		"要制作此物品，需要先扫描野生生成的结晶簇",
-		"解锁以此得到的结晶农场研究，并解锁接下来的“灵气电池”研究",
-		"扫描了一条腐化裂隙，才可以解锁制作该物品的研究",
-		"关于该物品制作的100点腐化要素水晶原材料",
-		"需要挖掘透水石有几率获得",
-		"透水石是由腐化岩石消退得到的产物",
-		"所以说，养殖腐化吧",
-		"",
-		"每一颗都凝结着神秘使的汗水"
+		"{snp.quests.f1953f8c.text.1}",
+		"{snp.quests.f1953f8c.text.2}",
+		"{snp.quests.f1953f8c.text.3}",
+		"{snp.quests.f1953f8c.text.4}",
+		"{snp.quests.f1953f8c.text.5}",
+		"{snp.quests.f1953f8c.text.6}",
+		"{snp.quests.f1953f8c.text.7}",
+		"{snp.quests.f1953f8c.text.8}",
+		"{snp.quests.f1953f8c.text.9}",
+		"{snp.quests.f1953f8c.text.10}",
+		"{snp.quests.f1953f8c.text.11}"
 	],
 	dependencies: [
 		"47c318bb"

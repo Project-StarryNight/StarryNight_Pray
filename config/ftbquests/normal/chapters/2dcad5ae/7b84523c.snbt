@@ -1,18 +1,18 @@
 {
-	title: "不可多得的珍品",
+	title: "{snp.quests.7b84523c.title}",
 	x: 16.07142857142857d,
 	y: 3.1607142857142847d,
-	description: "想办法得到元始珍珠，亦或是它的一部分",
+	description: "{snp.quests.7b84523c.description}",
 	text: [
-		"使用悖论物质轰炸裂隙或裂隙极小概率自然坍缩有几率获得",
-		"获得该物品的概率与裂隙大小成正比",
-		"也就是说，越粗的裂隙，越有可能产出元始珍珠",
-		"最高可达到10%",
-		"鉴于悖论物质的制作难度",
-		"请尽量将裂缝培养至它的极限",
-		"那样你才能进行下一步任务",
-		"",
-		"弥足珍贵"
+		"{snp.quests.7b84523c.text.1}",
+		"{snp.quests.7b84523c.text.2}",
+		"{snp.quests.7b84523c.text.3}",
+		"{snp.quests.7b84523c.text.4}",
+		"{snp.quests.7b84523c.text.5}",
+		"{snp.quests.7b84523c.text.6}",
+		"{snp.quests.7b84523c.text.7}",
+		"{snp.quests.7b84523c.text.8}",
+		"{snp.quests.7b84523c.text.9}"
 	],
 	dependencies: [
 		"f1953f8c"

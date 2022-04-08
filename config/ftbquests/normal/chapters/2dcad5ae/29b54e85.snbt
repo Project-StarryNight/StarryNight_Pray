@@ -1,14 +1,14 @@
 {
-	title: "图书公用",
+	title: "{snp.quests.29b54e85.title}",
 	x: 4.0d,
 	y: 0.0d,
-	description: "制作魔导鉴阅台",
+	description: "{snp.quests.29b54e85.description}",
 	text: [
-		"制作魔导鉴阅台，让你的团队公用一本魔导手册",
-		"这点是可行的",
-		"前提是，你制作出知识共用之书",
-		"",
-		"目前来说，这东西没什么用"
+		"{snp.quests.29b54e85.text.1}",
+		"{snp.quests.29b54e85.text.2}",
+		"{snp.quests.29b54e85.text.3}",
+		"{snp.quests.29b54e85.text.4}",
+		"{snp.quests.29b54e85.text.5}"
 	],
 	dependencies: [
 		"8fa63541"
