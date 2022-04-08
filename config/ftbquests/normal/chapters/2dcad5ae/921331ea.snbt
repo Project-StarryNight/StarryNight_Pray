@@ -1,8 +1,8 @@
 {
-	title: "不再黑暗",
+	title: "{snp.quests.921331ea.title}",
 	x: 6.0d,
 	y: -2.0d,
-	description: "制作夜视镜，得到无限的夜视效果",
+	description: "{snp.quests.921331ea.description}",
 	dependencies: [
 		"db725775"
 	],

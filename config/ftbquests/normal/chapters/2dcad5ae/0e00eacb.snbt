@@ -1,8 +1,8 @@
 {
-	title: "更强力的护手",
+	title: "{snp.quests.0e00eacb.title}",
 	x: 6.0d,
 	y: 4.0d,
-	description: "制作神秘法师护手",
+	description: "{snp.quests.0e00eacb.description}",
 	dependencies: [
 		"7c7ae768"
 	],

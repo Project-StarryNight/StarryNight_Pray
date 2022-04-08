@@ -1,13 +1,13 @@
 {
 	x: 4.0d,
 	y: 6.0d,
-	description: "更明亮的核心",
+	description: "{snp.quests.c36c7a71.description}",
 	text: [
-		"核心的复杂度决定着核心能力的上限",
-		"越强力的核心，上限越高",
-		"所以为了配置出更好的法术，请制作更加高级的核心",
-		"",
-		"如星的宝珠"
+		"{snp.quests.c36c7a71.text.1}",
+		"{snp.quests.c36c7a71.text.2}",
+		"{snp.quests.c36c7a71.text.3}",
+		"{snp.quests.c36c7a71.text.4}",
+		"{snp.quests.c36c7a71.text.5}"
 	],
 	dependencies: [
 		"7c7ae768"

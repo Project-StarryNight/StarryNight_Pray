@@ -1,15 +1,15 @@
 {
-	title: "打板",
+	title: "{snp.quests.64c30735.title}",
 	x: 6.0d,
 	y: 2.0d,
-	description: "使用机械将金属打板",
+	description: "{snp.quests.64c30735.description}",
 	text: [
-		"将神秘锭和黄铜锭打板",
-		"你无法再使用原始的捏板子",
-		"你要使用机器来加工这些板材",
-		"原始的神秘锭和黄铜锭用处并不大，但是它们的板材用处就会大很多",
-		"",
-		"在科技的路上越走越远"
+		"{snp.quests.64c30735.text.1}",
+		"{snp.quests.64c30735.text.2}",
+		"{snp.quests.64c30735.text.3}",
+		"{snp.quests.64c30735.text.4}",
+		"{snp.quests.64c30735.text.5}",
+		"{snp.quests.64c30735.text.6}"
 	],
 	dependencies: [
 		"8fa63541"

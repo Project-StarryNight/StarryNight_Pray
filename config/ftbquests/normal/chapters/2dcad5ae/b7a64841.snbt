@@ -1,19 +1,19 @@
 {
-	title: "源质储存",
+	title: "{snp.quests.b7a64841.title}",
 	x: 10.0d,
 	y: 2.0d,
-	description: "制作大量源质罐子以便存储源质",
+	description: "{snp.quests.b7a64841.description}",
 	text: [
-		"源质可以用安瓿盛出",
-		"但是安瓿的容量很小，而且只能接10的整数倍的源质",
-		"这很不方便",
-		"所以建议制作源质罐子",
-		"可以储存250点源质，没有数量要求",
-		"虚空罐子还能帮你销毁多余的源质",
-		"不错的选择",
-		"Shift+右键可以清空罐子，但是会产生咒波",
-		"",
-		"叠叠乐"
+		"{snp.quests.b7a64841.text.1}",
+		"{snp.quests.b7a64841.text.2}",
+		"{snp.quests.b7a64841.text.3}",
+		"{snp.quests.b7a64841.text.4}",
+		"{snp.quests.b7a64841.text.5}",
+		"{snp.quests.b7a64841.text.6}",
+		"{snp.quests.b7a64841.text.7}",
+		"{snp.quests.b7a64841.text.8}",
+		"{snp.quests.b7a64841.text.9}",
+		"{snp.quests.b7a64841.text.10}"
 	],
 	dependencies: [
 		"6c276985"

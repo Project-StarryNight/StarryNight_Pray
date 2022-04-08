@@ -1,8 +1,8 @@
 {
-	title: "破旧腐败之地",
+	title: "{snp.quests.a936eba0.title}",
 	x: 13.5d,
 	y: 8.0d,
-	description: "抵达虚域",
+	description: "{snp.quests.a936eba0.description}",
 	dependencies: [
 		"f16a8ee3"
 	],

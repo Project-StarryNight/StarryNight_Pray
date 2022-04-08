@@ -1,8 +1,8 @@
 {
-	title: "神秘工具",
+	title: "{snp.quests.ed977daf.title}",
 	x: 10.0d,
 	y: 0.0d,
-	description: "制作大量神秘工具以便制作更强大的元素工具",
+	description: "{snp.quests.ed977daf.description}",
 	dependencies: [
 		"47c318bb"
 	],

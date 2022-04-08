@@ -5,12 +5,12 @@
 	y: 9.5d,
 	description: "{snp.quests.25533577.description}",
 	text: [
-		"折磨的过程",
-		"想要制作这个大家伙，你需要去逛两个矿脉",
-		"玄武岩矿脉和青金石矿脉",
-		"才能收集到所需要的材料",
-		"记得善用JEI，查看地表的指示物",
-		"尽力最快挖到你需要的矿脉"
+		"{snp.quests.25533577.text.1}",
+		"{snp.quests.25533577.text.2}",
+		"{snp.quests.25533577.text.3}",
+		"{snp.quests.25533577.text.4}",
+		"{snp.quests.25533577.text.5}",
+		"{snp.quests.25533577.text.6}"
 	],
 	dependencies: [
 		"4a6489ed"

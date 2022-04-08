@@ -1,19 +1,19 @@
 {
-	title: "窥探虚空之物",
+	title: "{snp.quests.70f2e6b7.title}",
 	x: 16.0d,
 	y: 2.0d,
-	description: "炸毁裂隙，得到虚空种子",
+	description: "{snp.quests.70f2e6b7.description}",
 	text: [
-		"炸毁裂隙，你必定得到这些虚空种子",
-		"在得到血腥邪徒的书之后，你需要一些虚空种子来彻底开启邪术学",
-		"虚空种子除了用于开启邪术学之外，还能用来制作虚空锭",
-		"虚空锭是一种很好的材料，它制作的物品都有自动修复的功能",
-		"裂隙越大，炸毁裂隙得到的虚空种子越多",
-		"当然，裂隙有极小几率自然坍缩时，也会掉落这些东西",
-		"与其相信运气，不如更相信自己的实力",
-		"毕竟裂隙自爆的几率只有1%",
-		"",
-		"当你凝视深渊时，深渊说今晚结算"
+		"{snp.quests.70f2e6b7.text.1}",
+		"{snp.quests.70f2e6b7.text.2}",
+		"{snp.quests.70f2e6b7.text.3}",
+		"{snp.quests.70f2e6b7.text.4}",
+		"{snp.quests.70f2e6b7.text.5}",
+		"{snp.quests.70f2e6b7.text.6}",
+		"{snp.quests.70f2e6b7.text.7}",
+		"{snp.quests.70f2e6b7.text.8}",
+		"{snp.quests.70f2e6b7.text.9}",
+		"{snp.quests.70f2e6b7.text.10}"
 	],
 	dependencies: [
 		"f1953f8c"

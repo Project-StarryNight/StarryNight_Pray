@@ -1,15 +1,15 @@
 {
-	title: "地脉下蕴藏的魔力",
+	title: "{snp.quests.e2354386.title}",
 	x: 0.0d,
 	y: 0.0d,
-	description: "发现，挖掘魔力物质矿石",
+	description: "{snp.quests.e2354386.description}",
 	text: [
-		"魔力物质矿脉可在主世界发现",
-		"挖掘它获取魔力物质粉",
-		"离心其可以获取神秘时代的6种水晶",
-		"以此作为原料，开启神秘时代之旅",
-		"",
-		"这一点也不神秘"
+		"{snp.quests.e2354386.text.1}",
+		"{snp.quests.e2354386.text.2}",
+		"{snp.quests.e2354386.text.3}",
+		"{snp.quests.e2354386.text.4}",
+		"{snp.quests.e2354386.text.5}",
+		"{snp.quests.e2354386.text.6}"
 	],
 	tasks: [{
 		uid: "379a83db",

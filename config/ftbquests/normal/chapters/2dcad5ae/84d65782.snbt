@@ -1,15 +1,15 @@
 {
-	title: "法师的好伙伴",
+	title: "{snp.quests.84d65782.title}",
 	x: 2.0d,
 	y: 4.0d,
-	description: "制作法师护手",
+	description: "{snp.quests.84d65782.description}",
 	text: [
-		"法师护手可以吸收周围的灵气来施法",
-		"前提是你需要一个装配好的核心",
-		"制作法师护手，并且制作一个核心镶饰台来加工核心",
-		"让你的法师护手发挥出它最大的潜能",
-		"",
-		"你可以把它理解为TC6的法杖"
+		"{snp.quests.84d65782.text.1}",
+		"{snp.quests.84d65782.text.2}",
+		"{snp.quests.84d65782.text.3}",
+		"{snp.quests.84d65782.text.4}",
+		"{snp.quests.84d65782.text.5}",
+		"{snp.quests.84d65782.text.6}"
 	],
 	dependencies: [
 		"08641d01"

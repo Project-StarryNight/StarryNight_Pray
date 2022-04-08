@@ -1,8 +1,8 @@
 {
-	title: "看穿一切",
+	title: "{snp.quests.db725775.title}",
 	x: 6.0d,
 	y: 0.0d,
-	description: "制作揭示之护目镜",
+	description: "{snp.quests.db725775.description}",
 	dependencies: [
 		"64c30735"
 	],

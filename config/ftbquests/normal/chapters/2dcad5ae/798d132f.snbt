@@ -1,14 +1,14 @@
 {
-	title: "包含万物于此盐",
+	title: "{snp.quests.798d132f.title}",
 	x: 2.0d,
 	y: 0.0d,
-	description: "将三颗不同要素的水晶混合红石，燧石和碗，制作世界盐",
+	description: "{snp.quests.798d132f.description}",
 	text: [
-		"将三种不同要素的水晶与红石粉，燧石，碗在工作台合成，以获取世界盐",
-		"在此之前，你需要将水晶碎片丢到地下，捡起来，再睡一觉",
-		"当你得到你自己的异梦时，说明你可以制作世界盐了",
-		"",
-		"忠于原版，这点不改，可乐兔说"
+		"{snp.quests.798d132f.text.1}",
+		"{snp.quests.798d132f.text.2}",
+		"{snp.quests.798d132f.text.3}",
+		"{snp.quests.798d132f.text.4}",
+		"{snp.quests.798d132f.text.5}"
 	],
 	dependencies: [
 		"e2354386"
