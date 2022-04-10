@@ -12,5 +12,51 @@
             "draconicevolution:dragon_heart",
             "draconicevolution:draconic_core"
         ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star",
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:wyvern_core"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard",
+        "ingredients": [
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_energy_core",
+        "catalyst": "draconicevolution:draconic_energy_core",
+        "ingredients": [
+            "draconicevolution:chaos_shard:1",
+            "draconicevolution:chaos_shard:1",
+            "minecraft:redstone_block",
+            "minecraft:redstone_block",
+            "draconicevolution:chaos_shard:1",
+            "draconicevolution:chaos_shard:1",
+            "minecraft:redstone_block",
+            "minecraft:redstone_block"
+        ]
     }
 ]
