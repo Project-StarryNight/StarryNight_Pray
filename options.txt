@@ -5,7 +5,7 @@ fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:3
+guiScale:4
 particles:1
 bobView:false
 anaglyph3d:false
@@ -130,7 +130,7 @@ key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.draconicevolution.placeItem:25
-key_key.draconicevolution.toolConfig:0
+key_key.draconicevolution.toolConfig:55
 key_key.draconicevolution.toolProfileChange:43
 key_key.draconicevolution.armorProfileChange:43:ALT
 key_key.draconicevolution.toggleFlight:0

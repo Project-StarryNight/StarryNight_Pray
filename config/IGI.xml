@@ -10,44 +10,36 @@
         </line>
 
         <line>
+            <operation>
+                <str>EQ</str>
+                <var>abrroughdirection</var>
+                <num>E</num>
+                <num>S</num>
+                <num>W</num>
+                <num>N</num>
+                <str>$5东</str>
+                <str>$5南</str>
+                <str>$5西</str>
+                <str>$5北</str>
+            </operation>
+            <str> $7丨$cX:{xi} $aY:{yi} $9Z:{zi}</str>
+        </line>
+
+        <line>
             <str> </str>
         </line>
     </lines>
 
     <lines at="topleft">
         <line>
-        <str> </str>
+            <str>{pingicon} $2{username}$r</str>
         </line>
 
         <line>
-        <str> </str>
-        </line>
-
-        <line>
-        <str> </str>
-        </line>
-
-        <line>
-        <str> </str>
-        </line>
-
-        <line>
-        <str> </str>
-        </line>
-
-        <line>
-        <str> </str>
-        </line>
-
-        <line>
-        <str>{pingicon} $2{username}$r</str>
-        </line>
-
-        <line>
-        <str>$9FPS:</str>
-        <operation>
-            <str>GT</str>
-            <var>fps</var>
+            <str>$9FPS:</str>
+            <operation>
+                <str>GT</str>
+                <var>fps</var>
                 <num>239</num>
                 <num>143</num>
                 <num>89</num>
@@ -55,19 +47,19 @@
                 <num>29</num>
                 <num>15</num>
                 <num>0</num>
-                    <str>$5{fps}</str>
-                    <str>$9{fps}</str>
-                    <str>$2{fps}</str>
-                    <str>$a{fps}</str>
-                    <str>$6{fps}</str>
-                    <str>$c{fps}</str>
-                    <str>$4{fps}</str>
-        </operation>
+                <str>$5{fps}</str>
+                <str>$9{fps}</str>
+                <str>$2{fps}</str>
+                <str>$a{fps}</str>
+                <str>$6{fps}</str>
+                <str>$c{fps}</str>
+                <str>$4{fps}</str>
+            </operation>
 
-        <str>$7 | $9Ent:</str>
-        <operation>
-            <str>GT</str>
-            <var>entitiestotal</var>
+            <str>$7丨$9Ent:</str>
+            <operation>
+                <str>GT</str>
+                <var>entitiestotal</var>
                 <num>100</num>
                 <num>75</num>
                 <num>50</num>
@@ -76,40 +68,40 @@
                 <num>15</num>
                 <num>10</num>
                 <num>5</num>
-                    <str>$4{entitiestotal}</str>
-                    <str>$c{entitiestotal}</str>
-                    <str>$6{entitiestotal}</str>
-                    <str>$e{entitiestotal}</str>
-                    <str>$9{entitiestotal}</str>
-                    <str>$3{entitiestotal}</str>
-                    <str>$b{entitiestotal}</str>
-                    <str>$a{entitiestotal}</str>
-                    <str>$2{entitiestotal}</str>
-        </operation>
-        <str> $9/ </str>
-        <operation>
-            <str>GT</str>
-            <var>entitiesrendered</var>
+                <str>$4{entitiestotal}</str>
+                <str>$c{entitiestotal}</str>
+                <str>$6{entitiestotal}</str>
+                <str>$e{entitiestotal}</str>
+                <str>$9{entitiestotal}</str>
+                <str>$3{entitiestotal}</str>
+                <str>$b{entitiestotal}</str>
+                <str>$a{entitiestotal}</str>
+                <str>$2{entitiestotal}</str>
+            </operation>
+            <str> $9/ </str>
+            <operation>
+                <str>GT</str>
+                <var>entitiesrendered</var>
                 <num>50</num>
                 <num>30</num>
                 <num>20</num>
                 <num>10</num>
                 <num>6</num>
                 <num>2</num>
-                    <str>$4{entitiesrendered}</str>
-                    <str>$c{entitiesrendered}</str>
-                    <str>$6{entitiesrendered}</str>
-                    <str>$e{entitiesrendered}</str>
-                    <str>$b{entitiesrendered}</str>
-                    <str>$a{entitiesrendered}</str>
-                    <str>$2{entitiesrendered}</str>
-        </operation>
+                <str>$4{entitiesrendered}</str>
+                <str>$c{entitiesrendered}</str>
+                <str>$6{entitiesrendered}</str>
+                <str>$e{entitiesrendered}</str>
+                <str>$b{entitiesrendered}</str>
+                <str>$a{entitiesrendered}</str>
+                <str>$2{entitiesrendered}</str>
+            </operation>
 
-        <str>$7丨$9Day:{day}$7丨$9Time:{mctime24}</str>
+            <str>$7丨$9Day:{day}$7丨$9Time:{mctime24}</str>
         </line>
 
         <line>
-        <str>$9MEM: $9$l[</str>
+            <str>$9MEM: $9$l[</str>
             <op>
                 <str>le</str>
                 <pct>
@@ -301,21 +293,7 @@
     </lines>
 
     <lines at="topcenter">
-        <line>
-            <operation>
-                <str>EQ</str>
-                <var>abrroughdirection</var>
-                    <num>E</num>
-                    <num>S</num>
-                    <num>W</num>
-                    <num>N</num>
-                        <str>$5东</str>
-                        <str>$5南</str>
-                        <str>$5西</str>
-                        <str>$5北</str>
-            </operation>
-                        <str> $7丨$cX:{xi} $aY:{yi} $9Z:{zi}</str>
-        </line>
+
     </lines>
 
     <lines at="bottomright">
