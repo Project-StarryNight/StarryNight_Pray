@@ -1,14 +1,14 @@
 {
 	title: "{snp.quests.66f4ee4e.title}",
-	x: 2.5d,
-	y: 5.0d,
+	x: 3.5d,
+	y: 8.5d,
 	description: "{snp.quests.66f4ee4e.description}",
 	text: [
 		"{snp.quests.66f4ee4e.text.1}",
 		"{snp.quests.66f4ee4e.text.2}"
 	],
 	dependencies: [
-		"acdde84f"
+		"2ce2c1de"
 	],
 	tasks: [{
 		uid: "a56e7549",

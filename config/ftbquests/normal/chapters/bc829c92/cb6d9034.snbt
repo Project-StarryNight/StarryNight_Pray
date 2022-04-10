@@ -1,10 +1,9 @@
 {
 	title: "{snp.quests.cb6d9034.title}",
-	x: 5.5d,
-	y: 7.0d,
+	x: 1.5d,
+	y: 6.5d,
 	description: "{snp.quests.cb6d9034.description}",
 	dependencies: [
-		"f9f799e7",
 		"c6953f8c"
 	],
 	tasks: [{
@@ -15,11 +14,5 @@
 		}],
 		count: 16L,
 		consume_items: false
-	}],
-	rewards: [{
-		uid: "887db0a5",
-		type: "item",
-		item: "gregtech:ore_sulfur_0",
-		count: 8
 	}]
 }

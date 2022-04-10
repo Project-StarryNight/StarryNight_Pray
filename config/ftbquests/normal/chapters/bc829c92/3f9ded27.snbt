@@ -1,0 +1,21 @@
+{
+	x: 5.5d,
+	y: 4.5d,
+	dependencies: [
+		"7957db73"
+	],
+	tasks: [{
+		uid: "7b0930d5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2517"
+		}]
+	},
+	{
+		uid: "d79a5395",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}]
+}

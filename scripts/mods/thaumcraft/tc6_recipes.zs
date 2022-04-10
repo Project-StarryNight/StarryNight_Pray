@@ -242,7 +242,7 @@ recipes.addShaped(<thaumcraft:stone_arcane> * 9,[
 ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@2", 50,
     [<aspect:aer> * 1, <aspect:aqua> * 1, <aspect:ordo> * 1, <aspect:perditio> * 1, <aspect:ignis> * 1, <aspect:terra> * 1], <thaumcraft:thaumometer>, [
     [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>],
-    [<ore:plateGold>,<ore:lensGlass>,<ore:plateGold>],
+    [<ore:plateGold>,<tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}),<ore:plateGold>],
     [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>]
     ]);
 
@@ -356,7 +356,7 @@ ArcaneWorkbench.registerShapedRecipe("TubeFilter", "TUBES", 30, [], <thaumcraft:
 ArcaneWorkbench.registerShapedRecipe("AlchemicalConstruct", "TUBES", 125,
     [<aspect:ignis> * 3, <aspect:ordo> * 3], <thaumcraft:metal_alchemical>, [
     [<ore:screwSteel>, <thaumcraft:tube_buffer>, <ore:ringSteel>],
-    [<thaumcraft:tube_valve>, <ore:blockThaumium>, <thaumcraft:tube_filter>],[<ore:gtceHardHammers>, <ore:springSteel>, <ore:screwSteel>]
+    [<thaumcraft:tube_valve>, <ore:blockThaumium>, <thaumcraft:tube_filter>],[<ore:ringSteel>, <ore:springSteel>, <ore:screwSteel>]
     ]);
 
 ArcaneWorkbench.registerShapedRecipe("TubeOneway", "TUBES", 20,
@@ -548,7 +548,7 @@ Infusion.registerRecipe("ThaumiumFortressLegs", "ARMORFORTRESS", <thaumcraft:for
 
 Infusion.registerRecipe("BootsTraveller", "BOOTSTRAVELLER", <thaumcraft:traveller_boots>, 2,
     [<aspect:motus> * 100, <aspect:volatus> * 100], <minecraft:leather_boots>,
-    [<ore:listAllfishraw>, <ore:itemEnchantedFabric>, <thaumadditions:crystal_block>.withTag({Aspect: "aer"}), <ore:itemEnchantedFabric>,  <ore:feather>, <ore:itemEnchantedFabric>, <thaumadditions:crystal_block>.withTag({Aspect: "aer"}), <ore:itemEnchantedFabric>]);
+    [<minecraft:fish>, <ore:itemEnchantedFabric>, <thaumadditions:crystal_block>.withTag({Aspect: "aer"}), <ore:itemEnchantedFabric>,  <ore:feather>, <ore:itemEnchantedFabric>, <thaumadditions:crystal_block>.withTag({Aspect: "aer"}), <ore:itemEnchantedFabric>]);
 
 Infusion.registerRecipe("elementalsword", "ELEMENTALTOOLS", <thaumcraft:elemental_sword>.withTag({infench: [{lvl: 2 as short, id: 5 as short}]}), 3,
     [<aspect:aer> * 30, <aspect:motus> * 30, <aspect:aversio> * 30], <thaumcraft:thaumium_sword>,

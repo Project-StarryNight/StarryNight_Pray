@@ -89,7 +89,22 @@
 			{
 				"op": "remove",
 				"path": "meta",
-				"value": [HIDDEN]
+				"value": ["HIDDEN"]
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:rift_power"
+			},
+			{
+				"op": "add",
+				"path": "stages/2/recipes/-",
+				"value": "thaumcraft:rift_power"
+			},
+			{
+				"op": "add",
+				"path": "stages/2/recipes/-",
+				"value": "thaumcraft:rift_power1"
 			}
         ]
 	},
@@ -111,7 +126,7 @@
 				"path": "category",
 				"value": "ELDRITCH"
 			}
-        ]
+		]
 	},
 	{
         "key": "RIFT_FEEDER",
@@ -210,6 +225,11 @@
 				"op": "replace",
 				"path": "category",
 				"value": "ELDRITCH"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:fracture_locator"
 			}
         ]
 	},
@@ -529,7 +549,7 @@
 			{
 				"op": "replace",
 				"path": "meta",
-				"value": [REVERSE]
+				"value": ["REVERSE"]
 			}
         ]
 	},
@@ -555,6 +575,11 @@
 				"op": "replace",
 				"path": "category",
 				"value": "ELDRITCH"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:boots_void"
 			}
         ]
 	},
@@ -579,7 +604,7 @@
 			{
 				"op": "replace",
 				"path": "meta",
-				"value": [REVERSE]
+				"value": ["REVERSE"]
 			}
         ]
 	},
@@ -609,7 +634,7 @@
 			{
 				"op": "replace",
 				"path": "meta",
-				"value": [REVERSE]
+				"value": ["REVERSE"]
 			}
         ]
 	}

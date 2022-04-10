@@ -1,0 +1,13 @@
+[
+    {
+        "key": "WITCHERY",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+            "aqua": 10,
+            "ignis": 15
+        },
+        "icon": "minecraft:textures/items/chest.png",
+        "background": "thaumcraft:textures/gui/gui_research_witchery.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    }
+]

@@ -182,11 +182,11 @@
 				"path": "category",
 				"value": "AUROMANCY"
 			},
-               {
+			{
                    "op": "add",
                    "path": "stages/1/recipes/-",
                    "value": "thaumcraft:strength_provider_experience"
-               }
+			}
         ]
     },
 	{
