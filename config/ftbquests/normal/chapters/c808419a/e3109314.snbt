@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -2.5d,
 	text: [
-		"我知道你喜欢他"
+		"{snp.quests.e3109314.text.1}"
 	],
 	dependencies: [
 		"30315d1d"

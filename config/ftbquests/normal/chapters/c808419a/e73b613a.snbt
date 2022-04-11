@@ -1,9 +1,9 @@
 {
-	title: "聚四氟乙烯",
+	title: "{snp.quests.e73b613a.title}",
 	x: -1.5d,
 	y: 0.0d,
 	text: [
-		"我的大化反~"
+		"{snp.quests.e73b613a.text.1}"
 	],
 	dependencies: [
 		"e3109314"

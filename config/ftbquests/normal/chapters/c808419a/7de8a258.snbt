@@ -1,9 +1,9 @@
 {
-	title: "丁苯橡胶",
+	title: "{snp.quests.7de8a258.title}",
 	x: 0.0d,
 	y: -2.5d,
 	text: [
-		"厌倦了橡胶？"
+		"{snp.quests.7de8a258.text.1}"
 	],
 	dependencies: [
 		"e3109314"

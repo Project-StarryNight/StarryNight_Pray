@@ -1,9 +1,9 @@
 {
-	title: "&b基础电路组装机",
+	title: "{snp.quests.73d28235.title}",
 	x: 2.0d,
 	y: 0.0d,
 	shape: "gear",
-	description: "前往 MV 的重要机械",
+	description: "{snp.quests.73d28235.description}",
 	dependencies: [
 		"b51c7821",
 		"bf5818d6"

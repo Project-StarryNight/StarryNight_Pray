@@ -2,7 +2,7 @@
 	x: -2.5d,
 	y: -1.5d,
 	text: [
-		"制造苯酚有多条线路，翻查jei找出最适合你的那一条吧"
+		"{snp.quests.6f633b39.text.1}"
 	],
 	dependencies: [
 		"359c7ae0"

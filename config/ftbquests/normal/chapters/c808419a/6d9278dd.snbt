@@ -2,7 +2,7 @@
 	x: -4.0d,
 	y: -1.0d,
 	text: [
-		"应该不用我告诉你他是干什么的了吧"
+		"{snp.quests.6d9278dd.text.1}"
 	],
 	dependencies: [
 		"30315d1d"
