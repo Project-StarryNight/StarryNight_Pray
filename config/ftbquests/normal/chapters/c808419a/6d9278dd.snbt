@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		"应该不用我告诉你他是干什么的了吧"
+	],
+	dependencies: [
+		"30315d1d"
+	],
+	tasks: [{
+		uid: "f668d1e1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 112"
+		}]
+	}]
+}

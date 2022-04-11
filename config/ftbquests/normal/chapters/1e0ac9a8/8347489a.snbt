@@ -1,6 +1,8 @@
 {
+	title: "&b二极管",
 	x: 2.0d,
 	y: 2.5d,
+	description: "不是脑子",
 	dependencies: [
 		"ecdd0bcf"
 	],

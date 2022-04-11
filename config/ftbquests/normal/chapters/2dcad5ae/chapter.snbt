@@ -1,14 +1,11 @@
 {
-	title: "{snp.quests.2dcad5ae.title}",
+	title: "&5魔法 - &d神秘时代",
 	icon: {
-		id: "thaumcraft:caster_basic",
+		id: "thaumcraft:thaumonomicon",
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
-	description: ["{snp.quests.2dcad5ae.description}"	description: [
-		"魔法（LV  ~ MV）"
-	],
 	always_invisible: false,
 	group: 2087384099,
 	default_quest_shape: "",

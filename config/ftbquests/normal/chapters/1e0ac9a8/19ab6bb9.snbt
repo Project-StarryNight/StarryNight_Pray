@@ -7,5 +7,12 @@
 	dependencies: [
 		"5e18196e"
 	],
-	dependency_requirement: "all_started"
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "a166a734",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	}]
 }

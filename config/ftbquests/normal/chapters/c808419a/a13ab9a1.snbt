@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -6.5d,
+	description: "第一步",
+	text: [
+		"套娃开始的第一步罢了"
+	],
+	dependencies: [
+		"f9eb427f",
+		"dd5a7981"
+	],
+	tasks: [{
+		uid: "1c8897f1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 628"
+		}]
+	}]
+}

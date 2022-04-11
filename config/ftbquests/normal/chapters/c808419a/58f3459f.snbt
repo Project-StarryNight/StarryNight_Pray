@@ -1,0 +1,17 @@
+{
+	title: "&b工作站",
+	x: -8.0d,
+	y: -6.5d,
+	shape: "pentagon",
+	description: "进入 EV 阶段你能制作的第一个 EV 电路",
+	dependencies: [
+		"4e0e1641"
+	],
+	tasks: [{
+		uid: "279752c5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 630"
+		}]
+	}]
+}

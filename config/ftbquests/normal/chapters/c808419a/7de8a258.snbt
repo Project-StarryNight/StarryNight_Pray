@@ -1,0 +1,40 @@
+{
+	title: "丁苯橡胶",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"厌倦了橡胶？"
+	],
+	dependencies: [
+		"e3109314"
+	],
+	tasks: [{
+		uid: "d26d1882",
+		type: "fluid",
+		fluid: "benzene"
+	},
+	{
+		uid: "47162dbb",
+		type: "fluid",
+		fluid: "ethylene"
+	},
+	{
+		uid: "1d9d9897",
+		type: "fluid",
+		fluid: "styrene"
+	},
+	{
+		uid: "9a74ce31",
+		type: "fluid",
+		fluid: "butadiene",
+		amount: 3000
+	},
+	{
+		uid: "d74ce56f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1003"
+		}],
+		count: 41L
+	}]
+}

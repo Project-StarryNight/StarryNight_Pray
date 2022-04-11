@@ -1,6 +1,9 @@
 {
+	title: "&b基础电路组装机",
 	x: 2.0d,
 	y: 0.0d,
+	shape: "gear",
+	description: "前往 MV 的重要机械",
 	dependencies: [
 		"b51c7821",
 		"bf5818d6"

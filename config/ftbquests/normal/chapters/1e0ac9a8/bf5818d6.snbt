@@ -2,9 +2,6 @@
 	title: "{snp.quests.bf5818d6.title}",
 	x: 0.0d,
 	y: -2.0d,
-	dependencies: [
-		"552d3007"
-	],
 	tasks: [{
 		uid: "81b56ad2",
 		type: "item",

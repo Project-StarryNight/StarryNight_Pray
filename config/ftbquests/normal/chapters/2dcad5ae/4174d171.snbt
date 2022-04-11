@@ -1,4 +1,5 @@
 {
+	title: "&5神秘套装",
 	x: 10.0d,
 	y: -2.0d,
 	dependencies: [

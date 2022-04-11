@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"制造苯酚有多条线路，翻查jei找出最适合你的那一条吧"
+	],
+	dependencies: [
+		"359c7ae0"
+	],
+	tasks: [{
+		uid: "3989d0c7",
+		type: "fluid",
+		fluid: "phenol"
+	}]
+}

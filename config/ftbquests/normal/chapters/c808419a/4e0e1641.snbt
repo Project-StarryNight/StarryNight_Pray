@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: -6.5d,
+	description: "第二步",
+	dependencies: [
+		"a13ab9a1"
+	],
+	tasks: [{
+		uid: "d44fcd61",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 629"
+		}]
+	}]
+}

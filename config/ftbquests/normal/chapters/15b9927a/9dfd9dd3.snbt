@@ -1,0 +1,12 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	dependencies: [
+		"6f633b39"
+	],
+	tasks: [{
+		uid: "db624084",
+		type: "fluid",
+		fluid: "epichlorohydrin"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "&b电力高炉",
+	x: -1.5d,
+	y: 3.5d,
+	description: "将会陪伴你很久",
+	text: [
+		"详细信息请参见 &9Tier 1 - &c低压 (LV) &r章节。"
+	],
+	tasks: [{
+		uid: "6eec4ca9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1001"
+		}]
+	}]
+}

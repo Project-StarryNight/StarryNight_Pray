@@ -1,0 +1,18 @@
+{
+	title: "&b进阶板材切割机 II",
+	x: -4.0d,
+	y: -5.5d,
+	text: [
+		"新等级的晶圆配上新等级的切割机!"
+	],
+	dependencies: [
+		"30315d1d"
+	],
+	tasks: [{
+		uid: "d4b307ab",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 247"
+		}]
+	}]
+}

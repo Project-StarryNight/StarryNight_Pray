@@ -1,0 +1,26 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"这是ev等级的化学反应釜，或者你可以选择把你的大型化学反应釜升级到ev电压，完整其中一个任务就行！"
+	],
+	dependencies: [
+		"519560b4"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: true,
+	tasks: [{
+		uid: "83a2c3c2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 218"
+		}]
+	},
+	{
+		uid: "d6c3acb2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1023"
+		}]
+	}]
+}

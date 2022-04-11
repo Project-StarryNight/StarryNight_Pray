@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"你问我为啥让你用聚四氟乙烯做这玩意？很明显，他更省材料."
+	],
+	dependencies: [
+		"e73b613a"
+	],
+	tasks: [{
+		uid: "f5f551ad",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 383"
+		}]
+	}]
+}
