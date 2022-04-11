@@ -5,11 +5,14 @@
 */
 
 //凿子_自动雕凿机
+
+import mods.gregtech.recipe.RecipeMap;
+
 recipes.remove(<chisel:auto_chisel>);
 recipes.addShaped(<chisel:auto_chisel>, [
     [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],
     [<gregtech:meta_item_1:187>, <gregtech:machine:986>, <gregtech:meta_item_1:187>],
-    [<ore:circuitLv>, <gregtech:meta_item_1:127>, <ore:circuitLv>]
+    [<ore:circuitBasic>, <gregtech:meta_item_1:127>, <ore:circuitBasic>]
 ]);
 
 //移除钢锭燃烧配方
@@ -19,3 +22,12 @@ furnace.remove(<ore:ingotTitaniumIridium>);
 furnace.remove(<ore:ingotTitaniumAluminide>);
 furnace.remove(<gregtech:meta_ingot:32020>);
 furnace.remove(<gregtech:meta_ingot:32021>);
+
+//Nova金属
+<recipemap:implosion_compressor>.recipeBuilder()
+    .inputs(<ore:plateMaragingSteel300>*64)
+    .outputs(<gregtech:meta_nugget:32699>)
+    .property("explosives",16)
+    .EUt(7680)
+    .duration(1000)
+    .buildAndRegister();
