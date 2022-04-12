@@ -1,6 +1,9 @@
 {
-	x: -4.5d,
-	y: -1.5d,
+	title: "&b环氧树脂片",
+	x: 6.0d,
+	y: -2.0d,
+	shape: "pentagon",
+	description: "折磨的结束",
 	dependencies: [
 		"9dfd9dd3"
 	],

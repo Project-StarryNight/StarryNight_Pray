@@ -1,9 +1,13 @@
 {
-	x: -1.5d,
+	title: "&b钛锭",
+	x: -1.0d,
 	y: 2.0d,
+	shape: "pentagon",
+	description: "前往 EV 阶段的一大步",
 	dependencies: [
-		"997af2a7"
+		"9cfbd0a5"
 	],
+	size: 1.25d,
 	tasks: [{
 		uid: "9ea33c6e",
 		type: "item",

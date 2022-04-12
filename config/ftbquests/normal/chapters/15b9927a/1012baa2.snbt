@@ -1,6 +1,8 @@
 {
-	x: 4.0d,
-	y: 6.5d,
+	title: "&b微型处理器",
+	x: 6.0d,
+	y: 5.5d,
+	description: "更高效的制造 LV 级别的电路",
 	dependencies: [
 		"93f7b5b7",
 		"63c21670"

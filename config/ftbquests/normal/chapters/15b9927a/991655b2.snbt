@@ -1,8 +1,18 @@
 {
-	x: -1.5d,
-	y: -2.0d,
+	title: "&e关于铂",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 4.5d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "一定要看！",
 	text: [
-		"我强烈建议你在这一步就做好完整的铂产线！！！(我就不在这里教你完整产线了，当然，你想看的话可以告诉我)"
+		"我强烈建议你在这一步就做好完整的铂产线！！！ (我就不在这里教你完整产线了，当然，你想看的话可以告诉我)"
 	],
 	dependencies: [
 		"359c7ae0"

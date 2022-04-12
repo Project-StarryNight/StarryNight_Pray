@@ -1,0 +1,38 @@
+{
+	title: "&b大型蒸汽涡轮",
+	icon: "gregtech:machine 1 1010",
+	x: 1.5d,
+	y: -1.0d,
+	description: "处理更多蒸汽，输出更高电量",
+	text: [
+		"大型蒸汽涡轮是一个多方块结构",
+		"相比普通涡轮，它能够处理更多的蒸汽量",
+		"不要小看面板的 1024 EU/t 发电量，它还具有很多的增幅",
+		"它具有无限的发电潜力，不过这需要你来开发。"
+	],
+	tasks: [{
+		uid: "de00d3cc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1010"
+		}]
+	},
+	{
+		uid: "7b94acff",
+		type: "item",
+		items: [{
+			item: "gregtech:turbine_casing 1 5"
+		}],
+		count: 28L
+	}],
+	rewards: [{
+		uid: "85ac11ec",
+		type: "item",
+		item: "gregtech:machine 1 1641"
+	},
+	{
+		uid: "fd829615",
+		type: "item",
+		item: "gregtech:machine 1 1656"
+	}]
+}

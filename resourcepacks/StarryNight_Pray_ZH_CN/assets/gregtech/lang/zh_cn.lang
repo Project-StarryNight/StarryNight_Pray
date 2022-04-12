@@ -4836,7 +4836,7 @@ gregtech.multiblock.turbine.efficiency=涡轮效率: %s%%
 gregtech.multiblock.turbine.energy_per_tick=能量输出: %s/%s EU/t
 gregtech.multiblock.turbine.energy_per_tick_maxed=能量输出: %s EU/t
 gregtech.multiblock.turbine.obstructed=涡轮有阻碍
-gregtech.multiblock.turbine.voltage_tooltip=基础生产: §e%s§7 EU/t
+gregtech.multiblock.turbine.voltage_tooltip=基础发电量: §e%s§7 EU/t
 gregtech.multiblock.turbine.efficiency_tooltip=转子支架等级超过 %s§7 时，每级增加 §610%%§7 的效率。
 
 gregtech.multiblock.large_boiler.efficiency=效率: %s

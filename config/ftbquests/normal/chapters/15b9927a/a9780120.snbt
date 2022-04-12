@@ -1,0 +1,35 @@
+{
+	title: "&b合金高炉",
+	icon: "gregtech:machine 1 2001",
+	x: 9.0d,
+	y: 2.5d,
+	description: "更高效的冶炼金属",
+	text: [
+		"合金高炉可以以极高的温度直接将金属冶炼成金属流体。",
+		""
+	],
+	dependencies: [
+		"ed1a77a0"
+	],
+	tasks: [{
+		uid: "98047297",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2001"
+		}]
+	},
+	{
+		uid: "1793e554",
+		type: "item",
+		items: [{
+			item: "gcym:large_multiblock_casing 1 1"
+		}],
+		count: 35L
+	}],
+	rewards: [{
+		uid: "ced0c187",
+		type: "item",
+		item: "gregtech:wire_coil 1 3",
+		count: 24
+	}]
+}

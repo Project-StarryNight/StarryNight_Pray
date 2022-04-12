@@ -1,12 +1,13 @@
 {
 	title: "&b工作站",
-	x: -8.0d,
-	y: -6.5d,
+	x: -7.0d,
+	y: 0.5d,
 	shape: "pentagon",
 	description: "进入 EV 阶段你能制作的第一个 EV 电路",
 	dependencies: [
 		"4e0e1641"
 	],
+	size: 1.25d,
 	tasks: [{
 		uid: "279752c5",
 		type: "item",

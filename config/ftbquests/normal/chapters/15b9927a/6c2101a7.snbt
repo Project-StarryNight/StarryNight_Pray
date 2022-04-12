@@ -1,6 +1,11 @@
 {
+	title: "&b钨钢锭",
 	x: 0.0d,
-	y: 7.5d,
+	y: 4.5d,
+	description: "前往 IV 阶段的一大步",
+	text: [
+		"同样，它也需要电冰箱和电力高炉来合成。"
+	],
 	dependencies: [
 		"98bd3e26"
 	],

@@ -1,10 +1,17 @@
 {
-	x: -7.5d,
-	y: 2.5d,
+	title: "&b纳米超级计算机",
+	x: 7.5d,
+	y: 7.0d,
+	shape: "pentagon",
+	description: "前往 IV 阶段的一大步",
+	text: [
+		"猜猜这玩意算力有多少？"
+	],
 	dependencies: [
 		"27431c6f",
-		"4bad54cd"
+		"63c21670"
 	],
+	size: 1.25d,
 	tasks: [{
 		uid: "a173fe6c",
 		type: "item",

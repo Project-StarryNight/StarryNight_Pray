@@ -1,6 +1,6 @@
 {
-	x: 0.0d,
-	y: 1.0d,
+	x: 0.5d,
+	y: -0.5d,
 	hide_text_until_complete: true,
 	tasks: [{
 		uid: "9edb7ff8",

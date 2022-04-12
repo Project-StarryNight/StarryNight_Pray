@@ -1,0 +1,14 @@
+{
+	title: "&b火箭燃料",
+	x: 2.5d,
+	y: -2.5d,
+	description: "开始奠定你的 AR 基础",
+	dependencies: [
+		"c05f8c1b"
+	],
+	tasks: [{
+		uid: "491a84c0",
+		type: "fluid",
+		fluid: "rocket_fuel"
+	}]
+}

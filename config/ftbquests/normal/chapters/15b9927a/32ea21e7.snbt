@@ -1,0 +1,17 @@
+{
+	title: "&bIV 机械方块",
+	x: 0.0d,
+	y: 7.0d,
+	shape: "hexagon",
+	description: "欢迎来到 IV 阶段！",
+	dependencies: [
+		"0e07e18b"
+	],
+	tasks: [{
+		uid: "24781472",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 990"
+		}]
+	}]
+}

@@ -1,6 +1,8 @@
 {
-	x: -4.0d,
+	title: "&b进阶精密激光蚀刻机 II",
+	x: -5.0d,
 	y: -4.5d,
+	description: "60nm 光刻机",
 	dependencies: [
 		"30315d1d",
 		"294bf558"

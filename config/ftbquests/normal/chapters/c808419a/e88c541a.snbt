@@ -1,12 +1,13 @@
 {
-	x: -5.0d,
-	y: 0.0d,
+	x: -4.0d,
+	y: -0.5d,
 	text: [
 		"你问我为啥让你用聚四氟乙烯做这玩意？很明显，他更省材料."
 	],
 	dependencies: [
 		"e73b613a"
 	],
+	dependency_requirement: "all_started",
 	tasks: [{
 		uid: "f5f551ad",
 		type: "item",

@@ -1,0 +1,36 @@
+{
+	title: "&b真空冷冻机",
+	x: -3.75d,
+	y: 0.5d,
+	shape: "gear",
+	description: "电冰箱",
+	text: [
+		"真空冷冻机是一个多方块结构，于 EV 阶段建造。",
+		"主要用途是冷却那些熔点极高的热锭，使其变为普通锭。",
+		"除此之外，它还可以冷冻很多东西，详情参见 JEI。"
+	],
+	dependencies: [
+		"58f3459f"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "abd4ac9e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1002"
+		}]
+	},
+	{
+		uid: "314370ed",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 3"
+		}],
+		count: 19L
+	}],
+	rewards: [{
+		uid: "98707aca",
+		type: "item",
+		item: "gregtech:machine 1 1213"
+	}]
+}

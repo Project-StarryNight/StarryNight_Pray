@@ -1,6 +1,13 @@
 {
-	x: -4.0d,
+	title: "&bHV 机械方块",
+	x: -5.0d,
 	y: -2.5d,
+	shape: "gear",
+	description: "欢迎来到 HV 阶段！",
+	text: [
+		"HV 阶段是一个较短的过渡期。",
+		"在这个阶段，你将会飞向无限的星空，前往月球获取陨石，着手构建你的 AE 物流自动化系统。"
+	],
 	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "b6da2c8d",
