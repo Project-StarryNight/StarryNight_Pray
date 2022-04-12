@@ -2,11 +2,11 @@
 	x: 3.0d,
 	y: -1.0d,
 	text: [
-<<<<<<< HEAD
-		"制造苯酚有多条线路，翻查 JEI 找出最适合你的那一条吧。"
-=======
-		"{snp.quests.6f633b39.text.1}"
->>>>>>> 4fe4d65eb361c7b76f7d43213765e7d899ef0a53
+<<<<<<< HEAD"{snp.quests.6f633b39.text.1}"<<<<<<< HEAD
+		"{snp.quests.6f633b39.text.2}"
+======="{snp.quests.6f633b39.text.3}"=======
+		"{snp.quests.6f633b39.text.4}"
+>>>>>>> 4fe4d65eb361c7b76f7d43213765e7d899ef0a53"{snp.quests.6f633b39.text.5}">>>>>>> 4fe4d65eb361c7b76f7d43213765e7d899ef0a53
 	],
 	dependencies: [
 		"359c7ae0"

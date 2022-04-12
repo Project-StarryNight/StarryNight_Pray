@@ -1,8 +1,8 @@
 {
-	title: "&b微型处理器",
+	title: "{snp.quests.1012baa2.title}",
 	x: 6.0d,
 	y: 5.5d,
-	description: "更高效的制造 LV 级别的电路",
+	description: "{snp.quests.1012baa2.description}",
 	dependencies: [
 		"93f7b5b7",
 		"63c21670"

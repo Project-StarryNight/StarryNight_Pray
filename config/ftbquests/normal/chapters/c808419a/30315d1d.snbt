@@ -1,12 +1,12 @@
 {
-	title: "&bHV 机械方块",
+	title: "{snp.quests.30315d1d.title}",
 	x: -5.0d,
 	y: -2.5d,
 	shape: "gear",
-	description: "欢迎来到 HV 阶段！",
+	description: "{snp.quests.30315d1d.description}",
 	text: [
-		"HV 阶段是一个较短的过渡期。",
-		"在这个阶段，你将会飞向无限的星空，前往月球获取陨石，着手构建你的 AE 物流自动化系统。"
+		"{snp.quests.30315d1d.text.1}",
+		"{snp.quests.30315d1d.text.2}"
 	],
 	dependency_requirement: "one_completed",
 	tasks: [{

@@ -1,9 +1,9 @@
 {
-	title: "&b钛锭",
+	title: "{snp.quests.0240aa33.title}",
 	x: -1.0d,
 	y: 2.0d,
 	shape: "pentagon",
-	description: "前往 EV 阶段的一大步",
+	description: "{snp.quests.0240aa33.description}",
 	dependencies: [
 		"9cfbd0a5"
 	],
