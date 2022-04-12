@@ -3,7 +3,7 @@
 	x: -1.5d,
 	y: -4.5d,
 	text: [
-		"厌倦了橡胶？"
+		"{snp.quests.7de8a258.text.1}"
 	],
 	dependencies: [
 		"e3109314"

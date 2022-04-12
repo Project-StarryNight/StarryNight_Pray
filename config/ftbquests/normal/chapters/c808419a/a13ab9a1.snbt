@@ -1,9 +1,9 @@
 {
 	x: -4.0d,
 	y: -6.5d,
-	description: "第一步",
+	description: "{snp.quests.a13ab9a1.description}",
 	text: [
-		"套娃开始的第一步罢了"
+		"{snp.quests.a13ab9a1.text.1}"
 	],
 	dependencies: [
 		"f9eb427f",

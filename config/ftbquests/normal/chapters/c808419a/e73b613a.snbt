@@ -3,7 +3,7 @@
 	x: -2.0d,
 	y: -0.5d,
 	text: [
-		"我的大化反~"
+		"{snp.quests.e73b613a.text.1}"
 	],
 	dependencies: [
 		"e3109314"

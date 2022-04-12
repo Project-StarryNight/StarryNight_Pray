@@ -2,11 +2,11 @@
 	x: 2.5d,
 	y: -4.0d,
 	text: [
-		"从这里开始你的绝大多数机器将会都变成多方块机器，当然如果你嫌太贵的话可以留到更高的电压再做（不要忘记查看多方块页面！！！）"
+		"{snp.quests.e329211c.text.1}"
 	],
 	tasks: [{
 		uid: "3bfd4a4e",
 		type: "checkmark",
-		title: "多方块！"
+		title: "{snp.quests.e329211c.title}"
 	}]
 }

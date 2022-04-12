@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -6.5d,
-	description: "第二步",
+	description: "{snp.quests.4e0e1641.description}",
 	dependencies: [
 		"a13ab9a1"
 	],

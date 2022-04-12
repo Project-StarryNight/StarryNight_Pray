@@ -20,6 +20,6 @@
 	tasks: [{
 		uid: "8e4aa47b",
 		type: "checkmark",
-		title: "关于铂"
+		title: "{snp.quests.991655b2.title}"
 	}]
 }

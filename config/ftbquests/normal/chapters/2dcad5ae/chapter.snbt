@@ -1,5 +1,5 @@
 {
-	title: "&5魔法 - &d神秘时代",
+	title: "{snp.quests.2dcad5ae.title}",
 	icon: {
 		id: "thaumcraft:thaumonomicon",
 		ForgeCaps: {

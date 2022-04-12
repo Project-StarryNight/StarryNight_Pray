@@ -4,7 +4,7 @@
 	y: -1.0d,
 	description: "带有副产的高级机械！",
 	text: [
-		"多一个槽！"
+		"{snp.quests.f4895e9c.text.1}"
 	],
 	dependencies: [
 		"30315d1d"

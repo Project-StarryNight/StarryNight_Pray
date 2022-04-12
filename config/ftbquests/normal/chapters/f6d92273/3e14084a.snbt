@@ -1,10 +1,10 @@
 {
-	title: "&b电力高炉",
+	title: "{snp.quests.3e14084a.title}",
 	x: -1.5d,
 	y: 3.5d,
-	description: "将会陪伴你很久",
+	description: "{snp.quests.3e14084a.description}",
 	text: [
-		"详细信息请参见 &9Tier 1 - &c低压 (LV) &r章节。"
+		"{snp.quests.3e14084a.text.1}"
 	],
 	tasks: [{
 		uid: "6eec4ca9",

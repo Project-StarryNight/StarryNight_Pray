@@ -3,7 +3,7 @@
 	x: -7.0d,
 	y: 0.5d,
 	shape: "pentagon",
-	description: "进入 EV 阶段你能制作的第一个 EV 电路",
+	description: "{snp.quests.58f3459f.description}",
 	dependencies: [
 		"4e0e1641"
 	],
