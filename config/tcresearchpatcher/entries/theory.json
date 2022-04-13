@@ -5,7 +5,7 @@
             "icons": [
                 "witchery:witches_oven"
             ],
-            "category": "SRARRYNIGHTPRAY",
+            "category": "WITCHERY",
             "parents": [
                               "ESSENTIASMELTERTHAUMIUM" , "FIRSTSTEPS"
                 ],        "meta": ["HIDDEN"],
@@ -28,7 +28,7 @@
             "icons": [
                 "witchery:fume_funnel"
             ],
-            "category": "SRARRYNIGHTPRAY",
+            "category": "WITCHERY",
             "parents": [
                 "WITCHESOVEN"
                 ],
@@ -53,7 +53,7 @@
     "icons": [
       "witchery:attuned_stone"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "WITCHESOVEN"
     ],
@@ -79,7 +79,7 @@
     "icons": [
       "witchery:altar"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "WITCHESOVEN"
     ],
@@ -104,7 +104,7 @@
     "icons": [
       "witchery:fume_filter"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "ATTUNEDSTONE",
       "FUMEFUNNEL"
@@ -130,7 +130,7 @@
     "icons": [
       "witchery:filtered_fume_funnel"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "FUMEFILTER",
       "FUMEFUNNEL"
@@ -157,7 +157,7 @@
     "icons": [
       "witchery:chalice","witchery:candelabra"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "ATTUNEDSTONE","WALTAR"
     ],
@@ -184,7 +184,7 @@
     "icons": [
       "witchery:spinning_wheel","witchery:distillery","witchery:kettle"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "ATTUNEDSTONE"
     ],
@@ -211,7 +211,7 @@
     "icons": [
       "witchery:arthana"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "WITCHESOVEN"
     ],
@@ -241,7 +241,7 @@
     "icons": [
       "witchery:warm_blood"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "WITCHESOVEN", "BASEELDRITCH"
     ],
@@ -270,7 +270,7 @@
     "icons": [
       "witchery:ritual_circle_glyph"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "MACHINES"
     ],
@@ -296,7 +296,7 @@
     "icons": [
       "witchery:ritual_circle_glyph"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "GLYPH"
     ],
@@ -331,7 +331,7 @@
     "icons": [
       "witchery:quartz_sphere"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "ATTUNEDSTONE"
     ],
@@ -357,7 +357,7 @@
     "icons": [
       "witchery:poppet"
     ],
-    "category": "SRARRYNIGHTPRAY",
+    "category": "WITCHERY",
     "parents": [
       "WITCHESOVEN"
     ],
