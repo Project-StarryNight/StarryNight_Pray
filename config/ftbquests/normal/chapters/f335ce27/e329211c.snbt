@@ -1,5 +1,5 @@
 {
-	title: "&e多方块！",
+	title: "{snp.quests.e329211c.title}",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -10,7 +10,7 @@
 	x: 3.0d,
 	y: -4.5d,
 	shape: "diamond",
-	description: "一定要看！",
+	description: "{snp.quests.e329211c.description}",
 	text: [
 		"{snp.quests.e329211c.text.1}"
 	],

@@ -1,9 +1,9 @@
 {
-	title: "&bIV 机械方块",
+	title: "{snp.quests.32ea21e7.title}",
 	x: 0.0d,
 	y: 7.0d,
 	shape: "hexagon",
-	description: "欢迎来到 IV 阶段！",
+	description: "{snp.quests.32ea21e7.description}",
 	dependencies: [
 		"0e07e18b"
 	],

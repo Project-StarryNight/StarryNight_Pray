@@ -1,14 +1,14 @@
 {
-	title: "&b大型柴油引擎",
+	title: "{snp.quests.0946b0b7.title}",
 	icon: "gregtech:machine 1 1007",
 	x: -1.5d,
 	y: -1.5d,
-	description: "烧更多的油，发更多的电",
+	description: "{snp.quests.0946b0b7.description}",
 	text: [
-		"大型柴油引擎是一个多方块结构。",
-		"与柴油发电机类似，也通过燃烧柴油来发电。",
-		"与单方块不同的是，它需要润滑油来驱动机器。",
-		"此外，你还可以输入氧气来提高它的产量。"
+		"{snp.quests.0946b0b7.text.1}",
+		"{snp.quests.0946b0b7.text.2}",
+		"{snp.quests.0946b0b7.text.3}",
+		"{snp.quests.0946b0b7.text.4}"
 	],
 	dependencies: [
 		"13d6d01e"

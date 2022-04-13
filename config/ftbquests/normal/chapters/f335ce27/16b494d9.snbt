@@ -1,8 +1,8 @@
 {
-	title: "&b高级贴片套装",
+	title: "{snp.quests.16b494d9.title}",
 	x: 0.0d,
 	y: -4.5d,
-	description: "多做些！",
+	description: "{snp.quests.16b494d9.description}",
 	dependencies: [
 		"a8b46820"
 	],
