@@ -54,7 +54,7 @@
 		width: 5.5d,
 		height: 8.75d,
 		rotation: 0.0d,
-		image: "minecraft:quests/pictures/generator_zpm_uv-1.png",
+		image: "minecraft:quests/pictures/generator_zpm_uv-2.png",
 		hover: [],
 		click: "",
 		dev: false
@@ -77,6 +77,17 @@
 		height: 4.0d,
 		rotation: 0.0d,
 		image: "minecraft:quests/pictures/generator_rf-9.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 11.875d,
+		y: 5.75d,
+		width: 11.65d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "minecraft:quests/pictures/generator_fuels-1.png",
 		hover: [],
 		click: "",
 		dev: false

@@ -1,6 +1,16 @@
 {
-	x: 2.5d,
-	y: -4.0d,
+	title: "&e多方块！",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 3.0d,
+	y: -4.5d,
+	shape: "diamond",
+	description: "一定要看！",
 	text: [
 		"{snp.quests.e329211c.text.1}"
 	],

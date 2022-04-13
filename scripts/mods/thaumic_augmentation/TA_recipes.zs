@@ -1,3 +1,9 @@
+/*
+ * ZenScript by Hikari_Nova & MCKLt
+ * 未经过授权，禁止用于其他整合包或服务器内容。
+ * 此脚本为神秘领域配方内容
+*/
+
 import crafttweaker.item.IItemStack;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
@@ -6,17 +12,17 @@ import mods.thaumcraft.ArcaneWorkbench;
 recipes.remove(<thaumicaugmentation:item_grate>);
 
 var arcaneItems as IItemStack[] = [
-<thaumicaugmentation:gauntlet:*>,
-<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_experience"}),
-<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_emptiness"}),
-<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_nether"}),
-<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_overworld"}),
-<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_end"}),
-<thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_frenzy"}),
-<thaumicaugmentation:material:1>,
-<thaumicaugmentation:glass_tube>,
-<thaumicaugmentation:augment_caster_rift_energy_storage>,
-<thaumicaugmentation:fracture_locator>
+    <thaumicaugmentation:gauntlet:*>,
+    <thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_experience"}),
+    <thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_emptiness"}),
+    <thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_nether"}),
+    <thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_overworld"}),
+    <thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_end"}),
+    <thaumicaugmentation:augment_builder_power>.withTag({id: "thaumicaugmentation:strength_frenzy"}),
+    <thaumicaugmentation:material:1>,
+    <thaumicaugmentation:glass_tube>,
+    <thaumicaugmentation:augment_caster_rift_energy_storage>,
+    <thaumicaugmentation:fracture_locator>
 ];
 
 for i, item in arcaneItems {
@@ -26,10 +32,10 @@ for i, item in arcaneItems {
 Crucible.removeRecipe(<thaumicaugmentation:augment_builder_effect:*>);
 
 var infusionItems as IItemStack[] = [
-<thaumicaugmentation:gauntlet:*>,
-<thaumicaugmentation:thaumostatic_harness>,
-<thaumicaugmentation:elytra_harness>,
-<thaumicaugmentation:material:3>
+    <thaumicaugmentation:gauntlet:*>,
+    <thaumicaugmentation:thaumostatic_harness>,
+    <thaumicaugmentation:elytra_harness>,
+    <thaumicaugmentation:material:3>
 ];
 
 Infusion.removeRecipe("thaumicaugmentation:thaumium_robes_hood");

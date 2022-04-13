@@ -24,8 +24,8 @@ furnace.remove(<gregtech:meta_ingot:32020>);
 furnace.remove(<gregtech:meta_ingot:32021>);
 
 //Nova金属
-<recipemap:implosion_compressor>.recipeBuilder()
-    .inputs(<ore:plateMaragingSteel300>*64)
+implosion_compressor.recipeBuilder()
+    .inputs(<ore:plateMaragingSteel300> * 64)
     .outputs(<gregtech:meta_nugget:32699>)
     .property("explosives",16)
     .EUt(7680)

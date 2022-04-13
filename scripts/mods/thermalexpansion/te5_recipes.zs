@@ -23,7 +23,9 @@ var items as IItemStack[] = [
     <thermalfoundation:material:167>,#TE5 末影锭及材料
     <thermalfoundation:material:295>,
     <thermalfoundation:material:231>,
-    <thermalfoundation:material:103> * 4
+    <thermalfoundation:material:103> * 4,
+    <thermalfoundation:upgrade:2>,#信素转换套件
+    <thermalfoundation:upgrade:3>#谐振转换套件
 
 ];
 
@@ -49,3 +51,15 @@ mixer.recipeBuilder()
     .EUt(1536)
     .duration(80)
     .buildAndRegister();
+
+//信素_谐振转换套件
+recipes.addShaped(<thermalfoundation:upgrade:2>, [
+    [null, <ore:ingotSignalum>, null],
+    [<ore:ingotSignalum>, <ore:gearElectrum>, <ore:ingotSignalum>],
+    [<ore:itemVibrantPowder>, <ore:ingotSignalum>, <ore:itemVibrantPowder>]
+]);
+recipes.addShaped(<thermalfoundation:upgrade:3>, [
+    [null, <ore:ingotEnderium>, null],
+    [<ore:ingotEnderium>, <ore:gearLumium>, <ore:ingotEnderium>],
+    [<ore:itemPulsatingPowder>, <ore:ingotEnderium>, <ore:itemPulsatingPowder>]
+]);

@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
-resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.3.zip","ModernityExtra-format3-v1.3.0.zip","StarryNight_Pray_ZH_CN","SNP_texture_expanded_1.0.3.zip"]
+resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.3.zip","ModernityExtra-format3-v1.3.0.zip","StarryNight_Pray_ZH_CN","SNP_texture_expanded_1.0.3.zip","SNP_emissive_texture"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -116,8 +116,6 @@ key_key.open_wpt.desc:0
 key_key.dismount:42
 key_key.narrator:0
 key_smoothfont.key.guiOpen:0
-key_key.cofh.multimode:47
-key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -129,6 +127,8 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.cofh.multimode:47
+key_key.toggle_focus.desc:15
 key_key.draconicevolution.placeItem:25
 key_key.draconicevolution.toolConfig:55
 key_key.draconicevolution.toolProfileChange:43

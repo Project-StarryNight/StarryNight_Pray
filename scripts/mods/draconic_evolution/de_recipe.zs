@@ -46,7 +46,7 @@ for i, item in removeItems {
 
 
 //龙芯
-<recipemap:assembly_line>.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<astralsorcery:itemcraftingcomponent:4>*4,<gregtech:meta_item_1:705>*2,<ore:wireFineNaquadah>*32,<ore:plateDoubleEuropium>*4,<ore:plateDoubleDraconium>*4,<ore:boltOsmiridium>*24,<gregtech:meta_item_1:708>*2])
     .outputs(<draconicevolution:draconic_core>)
     .fluidInputs([<liquid:soldering_alloy>*864,<liquid:polybenzimidazole>*288])
@@ -55,7 +55,7 @@ for i, item in removeItems {
     .buildAndRegister();
 
 //双足飞龙核心
-<recipemap:assembly_line>.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<draconicevolution:draconic_core>*2,<ore:wireFineUraniumRhodiumDinaquadide>*48,<ore:plateDoubleAmericium>*4,<ore:plateDoubleDraconium>*6,<ore:boltStellarAlloy>*16,<gregtech:meta_item_1:708>*2])
     .outputs(<draconicevolution:wyvern_core>)
     .fluidInputs([<liquid:soldering_alloy>*1440,<liquid:polybenzimidazole>*864,<liquid:naquadria>*576])
@@ -64,7 +64,7 @@ for i, item in removeItems {
     .buildAndRegister();
 
 //觉醒核心
-<recipemap:assembly_line>.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<draconicevolution:wyvern_energy_core>*2,<draconicevolution:wyvern_core>*2,<ore:wireFineEnrichedNaquadahTriniumEuropiumDuranide>*64,<ore:plateDoubleDraconiumAwakened>*6,<ore:plateDoubleTritanium>*12,<ore:boltStellarAlloy>*24,<gregtech:meta_item_1:708>*4])
     .outputs(<draconicevolution:awakened_core>)
     .fluidInputs([<liquid:soldering_alloy>*2304,<liquid:polybenzimidazole>*864,<liquid:naquadria>*864])
@@ -73,7 +73,7 @@ for i, item in removeItems {
     .buildAndRegister();
 
 //混沌核心
-<recipemap:assembly_line>.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<draconicevolution:awakened_core>*4,<ore:plateDenseNeutronium>*4,<ore:plateDoubleDraconiumAwakened>*16,<ore:wireGtSingleRutheniumTriniumAmericiumNeutronate>*48,
     <ore:boltDarmstadtium>*64,<ore:boltDarmstadtium>*64,<ore:wireGtOctalYttriumBariumCuprate>*32,<ore:wireGtOctalYttriumBariumCuprate>*32,
     <ore:circuitUhv>,<ore:circuitUhv>,<gregtech:meta_item_1:209>,<gregtech:meta_item_1:209>,
@@ -111,7 +111,7 @@ Agglomeration.addRecipe(<draconicevolution:draconic_energy_core>,
 null,<appliedenergistics2:quartz_block>,<minecraft:gold_block>);
 
 //混沌能量核心
-<recipemap:assembly_line>.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<draconicevolution:draconic_energy_core>*4,<draconicevolution:chaos_shard>,<gregtech:meta_item_1:581>*6,<gregtech:meta_item_1:752>,
             <ore:plateDarmstadtium>*16,<ore:plateTritanium>*16,<gregtech:meta_item_1:208>*2,<ore:wireFineUraniumRhodiumDinaquadide>*64,
             <ore:boltMelodicAlloy>*32,<ore:boltCrystallineAlloy>*32])
@@ -122,7 +122,7 @@ null,<appliedenergistics2:quartz_block>,<minecraft:gold_block>);
     .buildAndRegister();
 
 //零点模块
-<recipemap:assembly_line>.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:meta_item_1:750>*3,<draconicevolution:wyvern_energy_core>*4,<ore:wireFineUraniumRhodiumDinaquadide>*64,<ore:wireFineUraniumRhodiumDinaquadide>*64,
             <ore:plateDoubleDuranium>*16])
     .outputs(<gregtech:meta_item_1:752>.withTag({Charge: 2147483647 as long}))

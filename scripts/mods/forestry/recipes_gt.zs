@@ -23,7 +23,7 @@ for i, item in items {
 }
 #添加
 #小型
-<recipemap:laser_engraver>.recipeBuilder()
+laser_engraver.recipeBuilder()
     .inputs([
         <ore:plateTin> * 2
     ])
@@ -33,7 +33,7 @@ for i, item in items {
     .duration(80)
     .buildAndRegister();
 #中型
-<recipemap:laser_engraver>.recipeBuilder()
+laser_engraver.recipeBuilder()
     .inputs([
         <ore:plateBronze> * 4
     ])
@@ -43,7 +43,7 @@ for i, item in items {
     .duration(160)
     .buildAndRegister();
 #大型
-<recipemap:laser_engraver>.recipeBuilder()
+laser_engraver.recipeBuilder()
     .inputs([
         <ore:plateNickel> * 4
     ])
@@ -53,7 +53,7 @@ for i, item in items {
     .duration(160)
     .buildAndRegister();
 #先进
-<recipemap:laser_engraver>.recipeBuilder()
+laser_engraver.recipeBuilder()
     .inputs([
         <ore:plateElectrum> * 2
     ])

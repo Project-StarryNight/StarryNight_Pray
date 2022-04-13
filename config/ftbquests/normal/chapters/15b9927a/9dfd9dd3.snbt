@@ -1,9 +1,6 @@
 {
 	x: 3.0d,
 	y: -2.0d,
-	dependencies: [
-		"6f633b39"
-	],
 	tasks: [{
 		uid: "db624084",
 		type: "fluid",

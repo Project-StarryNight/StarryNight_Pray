@@ -1,0 +1,9 @@
+{
+	x: 16.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "ec89d149",
+		type: "fluid",
+		fluid: "enchanted_nitro_diesel"
+	}]
+}

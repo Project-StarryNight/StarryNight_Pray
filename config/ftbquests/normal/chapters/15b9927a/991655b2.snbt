@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.991655b2.title}",
+	title: "&e关于铂",
 	icon: {
 		id: "botania:cosmetic",
 		Damage: 31s,
@@ -7,12 +7,12 @@
 			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
-	x: 4.5d,
+	x: 3.0d,
 	y: -1.0d,
 	shape: "diamond",
-	description: "{snp.quests.991655b2.description}",
+	description: "一定要看！",
 	text: [
-		"{snp.quests.991655b2.text.1}"
+		"我强烈建议你在这一步就做好完整的铂产线！！！ (我就不在这里教你完整产线了，当然，你想看的话可以告诉我)"
 	],
 	dependencies: [
 		"359c7ae0"

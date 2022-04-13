@@ -1,14 +1,14 @@
 {
-	title: "{snp.quests.519560b4.title}",
+	title: "&bEV 机械方块",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "gear",
 	text: [
-		"{snp.quests.519560b4.text.1}",
-		"{snp.quests.519560b4.text.2}",
-		"{snp.quests.519560b4.text.3}",
-		"{snp.quests.519560b4.text.4}",
-		"{snp.quests.519560b4.text.5}"
+		"首先欢迎您来到 EV 阶段！",
+		"游玩至此，你已经掌握了对格雷科技大部分的内容",
+		"接下来的内容将会更具难度，更多的挑战，更多的选择性！",
+		"我认为你现在需要选择一个更高效率和发电量的发电机",
+		"比如&6大型蒸汽涡轮&r。"
 	],
 	dependencies: [
 		"0240aa33"

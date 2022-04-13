@@ -11,7 +11,7 @@
         -[CrT VSC工具][probe-0.1.24]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
 
-    -[格雷科技社区版非官方][gregtech-1.12.2-2.2.0-beta]
+    -[格雷科技社区版非官方][gregtech-1.12.2-2.2.1-beta]
         (附属)
         -[GT TOP扩展][GregicProbe-1.1]
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
@@ -55,6 +55,7 @@
     -[FTB 任务][FTBQuests-1202.9.0.15]
     -[ID 扩展][JustEnoughIDs-1.0.4-SNAPSHOT-thin]
     -[矿辞统一][UniDict-1.12.2-3.0.10]
+    -[MBD][multiblocked-0.3]
 
 主要Mod:
     -[无尽贪婪][Avaritia-1.12.2-3.3.0.37-universal]

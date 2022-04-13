@@ -1,6 +1,8 @@
 {
+	title: "&b高级贴片套装",
 	x: 0.0d,
-	y: -4.0d,
+	y: -4.5d,
+	description: "多做些！",
 	dependencies: [
 		"a8b46820"
 	],

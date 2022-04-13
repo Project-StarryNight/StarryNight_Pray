@@ -1,8 +1,8 @@
 {
-	title: "{snp.quests.e3109314.title}",
+	title: "&b进阶化学反应釜 II",
 	x: -1.5d,
 	y: -2.5d,
-	description: "{snp.quests.e3109314.description}",
+	description: "猜猜多了什么新功能？什么都没有！",
 	text: [
 		"{snp.quests.e3109314.text.1}"
 	],

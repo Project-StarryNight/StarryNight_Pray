@@ -208,7 +208,7 @@
 		width: 4.0d,
 		height: 2.0d,
 		rotation: 0.0d,
-		image: "minecraft:quests/pictures/circuits_uhv-1.png",
+		image: "minecraft:quests/pictures/circuits_uhv-2.png",
 		hover: [],
 		click: "",
 		dev: false

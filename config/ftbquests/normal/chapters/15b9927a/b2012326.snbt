@@ -1,8 +1,8 @@
 {
-	title: "{snp.quests.b2012326.title}",
+	title: "&b魔法能源吸收器",
 	x: -1.5d,
 	y: 0.0d,
-	description: "{snp.quests.b2012326.description}",
+	description: "奇怪的发电方式",
 	dependencies: [
 		"519560b4"
 	],

@@ -1,13 +1,13 @@
 {
-	title: "{snp.quests.84e1f4d2.title}",
+	title: "&b真空冷冻机",
 	x: -3.75d,
 	y: 0.5d,
 	shape: "gear",
-	description: "{snp.quests.84e1f4d2.description}",
+	description: "电冰箱",
 	text: [
-		"{snp.quests.84e1f4d2.text.1}",
-		"{snp.quests.84e1f4d2.text.2}",
-		"{snp.quests.84e1f4d2.text.3}"
+		"真空冷冻机是一个多方块结构，于 EV 阶段建造。",
+		"主要用途是冷却那些熔点极高的热锭，使其变为普通锭。",
+		"除此之外，它还可以冷冻很多东西，详情参见 JEI。"
 	],
 	dependencies: [
 		"58f3459f"

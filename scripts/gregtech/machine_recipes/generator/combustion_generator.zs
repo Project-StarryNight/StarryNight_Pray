@@ -7,21 +7,21 @@
 import mods.gregtech.recipe.RecipeMap;
 
 //蕴魔硝化柴油
-<recipemap:combustion_generator>.recipeBuilder()
+combustion_generator.recipeBuilder()
     .fluidInputs(<fluid:enchanted_nitro_diesel> * 2)
     .duration(90)
     .EUt(32)
     .buildAndRegister();
 
-//充能油
-<recipemap:combustion_generator>.recipeBuilder()
+//充能石油
+combustion_generator.recipeBuilder()
     .fluidInputs(<liquid:enriched_oil> * 2)
     .duration(30)
     .EUt(32)
     .buildAndRegister();
 
 //精炼油
-<recipemap:combustion_generator>.recipeBuilder()
+combustion_generator.recipeBuilder()
     .fluidInputs(<liquid:refined_fuel> * 2)
     .duration(25)
     .EUt(32)

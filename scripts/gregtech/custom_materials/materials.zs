@@ -224,6 +224,41 @@ MaterialBuilder(32036, "essential_draconium_awakened")
     .blastTemp(9200,"HIGHEST",491520,850)
     .build();
 
+//TE5 合金
+MaterialBuilder(32100, "enderium")
+    .ingot()
+    .color(0x1D7E8C).iconSet("shiny")
+    .flags(["generate_plate", "genrate_gear"])
+    .build();
+
+//EnderUtilities 合金
+#基础末影合金
+MaterialBuilder(32150, "ender_alloy_basic")
+    .ingot()
+    .color(0x6FA276).iconSet("shiny")
+    .blastTemp(1200,"LOW",128,400)
+    .build();
+#增强末影合金
+MaterialBuilder(32151, "ender_alloy_enhancement")
+    .ingot()
+    .color(0xA1DEAA).iconSet("shiny")
+    .blastTemp(2000,"MID",768,600)
+    .build();
+#高级末影合金
+MaterialBuilder(32152, "ender_alloy_advanced")
+    .ingot()
+    .color(0xAEECED).iconSet("shiny")
+    .blastTemp(4200,"HIGH",4608,900)
+    .build();
+
+//Novanium
+MaterialBuilder(32699, "novanium")
+    .ingot()
+    .fluid()
+    .color(0xc0dee8).iconSet("shiny")
+    .blastTemp(10000,"HIGHEST",1966080,1000)
+    .build();
+
 //Rick Astlium
 MaterialBuilder(32700, "rick_astlium")
     .ingot()
@@ -245,15 +280,9 @@ MaterialBuilder(32700, "rick_astlium")
     ])
     .build();
 
-//Novanium
-MaterialBuilder(32699, "novanium")
-    .ingot()
-    .fluid()
-    .color(0xc0dee8).iconSet("shiny")
-    .blastTemp(10000,"HIGHEST",1966080,1000)
-    .build();
-
 <material:certus_quartz>.addFlags("generate_rod", "generate_bolt_screw");
 <material:nether_quartz>.addFlags("generate_rod", "generate_bolt_screw");
 <material:iron>.addFlags("generate_dense");
 <material:brass>.addFlags("generate_ring", "generate_gear");
+<material:silver>.addFlags("generate_gear");
+<material:electrum>.addFlags("generate_gear");

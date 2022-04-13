@@ -1,0 +1,26 @@
+{
+	title: "&b提示！",
+	icon: {
+		id: "botania:cosmetic",
+		Damage: 31s,
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -5.0d,
+	y: -3.5d,
+	shape: "diamond",
+	description: "来烧点更高级的油吧",
+	text: [
+		"蕴魔硝化柴油是一个供燃烧发电机的燃料，灵感来自 FTBI。",
+		"每 mB 可以产出高达 1440EU 的产能。",
+		"详细产线请参考 &9Extra - &a发电机指南&r。"
+	],
+	dependencies: [
+		"30315d1d"
+	],
+	tasks: [{
+		uid: "e838939c",
+		type: "checkmark"
+	}]
+}

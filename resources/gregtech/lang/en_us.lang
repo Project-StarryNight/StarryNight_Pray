@@ -1,6 +1,7 @@
 material.enchanted_nitro_diesel=Enchanted Nitro Diesel
 material.enriched_naquadah_fuel=Enriched Naquadah Fuel
 material.super_naquadah_fuel=Super Naquadah Fuel
+material.enriched_oil=Enriched Oil
 material.magic=Magic Substance
 material.thaumium=Thaumium
 material.void=Void Matter
@@ -52,3 +53,8 @@ material.cosmic_matter_solution=Cosmic Matter Solution
 material.impure_fluoroantimonic_acid=Impure Fluoroantimonic Acid
 material.novanium=Novanium
 material.rick_astlium=Rick Astlium
+material.ender_alloy_basic=Basic Ender Alloy
+material.ender_alloy_enhancement=Enhancement Ender Alloy
+material.ender_alloy_advanced=Advanced Ender Alloy
+material.enriched_oil=Enriched Oil
+material.enderium=Enderium

@@ -1,0 +1,152 @@
+{
+  "consumeCatalyst": false,
+  "location": "gregtech:light_emitting_panel",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:blocks/gregtech_base",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "multiblocked:blocks/gregtech_base",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "workingRenderer": {
+    "baseTexture": "multiblocked:blocks/gregtech_base",
+    "frontTexture": "multiblocked:overlay_front_active",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AAAAAAAAA"
+      ],
+      [
+        "ABBBBBBBA"
+      ],
+      [
+        "ABBBBBBBA"
+      ],
+      [
+        "CBBBBBBBA"
+      ],
+      [
+        "CBBBBBBB@"
+      ],
+      [
+        "CBBBBBBBA"
+      ],
+      [
+        "ABBBBBBBA"
+      ],
+      [
+        "ABBBBBBBA"
+      ],
+      [
+        "AAAAAAAAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states",
+        "minCount": 1,
+        "maxCount": 0,
+        "previewCount": 0
+      },
+      "controller": {
+        "location": "gregtech:light_emitting_panel",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:light_emitting_panel_0",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "hatch": {
+        "blocks": [
+          {
+            "id": "modularmachinery:blockinputbus"
+          },
+          {
+            "id": "modularmachinery:blockenergyoutputhatch"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 2,
+        "maxCount": 2
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "hatch"
+      ]
+    }
+  },
+  "recipeMap": "large_emitting_panel"
+}

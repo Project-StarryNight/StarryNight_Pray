@@ -1,14 +1,14 @@
 {
-	title: "{snp.quests.feff3871.title}",
+	title: "&b大型蒸汽涡轮",
 	icon: "gregtech:machine 1 1010",
 	x: 1.5d,
 	y: -1.0d,
-	description: "{snp.quests.feff3871.description}",
+	description: "处理更多蒸汽，输出更高电量",
 	text: [
-		"{snp.quests.feff3871.text.1}",
-		"{snp.quests.feff3871.text.2}",
-		"{snp.quests.feff3871.text.3}",
-		"{snp.quests.feff3871.text.4}"
+		"大型蒸汽涡轮是一个多方块结构",
+		"相比普通涡轮，它能够处理更多的蒸汽量",
+		"不要小看面板的 1024 EU/t 发电量，它还具有很多的增幅",
+		"它具有无限的发电潜力，不过这需要你来开发。"
 	],
 	tasks: [{
 		uid: "de00d3cc",

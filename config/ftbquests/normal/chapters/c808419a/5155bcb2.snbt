@@ -1,9 +1,9 @@
 {
-	title: "{snp.quests.5155bcb2.title}",
+	title: "&bEV 机械方块",
 	x: -3.75d,
 	y: 2.0d,
 	shape: "pentagon",
-	description: "{snp.quests.5155bcb2.description}",
+	description: "欢迎来到 EV 等级阶段！",
 	dependencies: [
 		"797034a9"
 	],
