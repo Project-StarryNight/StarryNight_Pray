@@ -243,6 +243,7 @@ MaterialBuilder(32151, "ender_alloy_enhancement")
     .ingot()
     .color(0xA1DEAA).iconSet("shiny")
     .blastTemp(2000,"MID",768,600)
+    .flags(["generate_rod"])
     .build();
 #高级末影合金
 MaterialBuilder(32152, "ender_alloy_advanced")
@@ -256,7 +257,7 @@ MaterialBuilder(32699, "novanium")
     .ingot()
     .fluid()
     .color(0xc0dee8).iconSet("shiny")
-    .blastTemp(10000,"HIGHEST",1966080,1000)
+    .blastTemp(10799,"HIGHEST",1966080,1000)
     .build();
 
 //Rick Astlium

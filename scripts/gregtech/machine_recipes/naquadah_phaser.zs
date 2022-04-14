@@ -3,7 +3,7 @@
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为硅岩移相器配方内容
 */
-/*
+
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
@@ -22,4 +22,3 @@ npcontroller.recipeBuilder()
     .duration(40)
     .EUt(125000)
     .buildAndRegister();
-*/

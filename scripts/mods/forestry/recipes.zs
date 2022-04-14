@@ -130,11 +130,6 @@ for i, machine in machines {
         [<ore:screwBronze>, <gregtech:machine:986>, <ore:screwBronze>],
         [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
-    recipes.addShaped(<forestry:fabricator>, [
-        [<ore:plateBronze>, <ore:workbench>, <ore:plateBronze>],
-        [<ore:plateBronze>, <gregtech:machine:986>, <ore:plateBronze>],
-        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
-    ]);
     recipes.addShaped(<forestry:database>, [
         [<gregtech:meta_plate:1617>, <forestry:bee_chest>, <gregtech:meta_plate:1617>],
         [<forestry:tree_chest>, <actuallyadditions:block_misc:4>, <forestry:butterfly_chest>],

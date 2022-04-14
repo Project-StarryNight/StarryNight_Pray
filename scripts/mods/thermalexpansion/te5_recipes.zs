@@ -20,6 +20,8 @@ var items as IItemStack[] = [
     <thermalexpansion:augment:256>,#红石炉升级
     <thermalexpansion:augment:257>,#红石炉升级
     <thermalexpansion:augment:258>,#红石炉升级
+    <thermalexpansion:augment:704>,#弱化能源炉
+    <thermalexpansion:augment:720>,#通货能源炉
     <thermalfoundation:material:167>,#TE5 末影锭及材料
     <thermalfoundation:material:295>,
     <thermalfoundation:material:231>,
@@ -63,3 +65,4 @@ recipes.addShaped(<thermalfoundation:upgrade:3>, [
     [<ore:ingotEnderium>, <ore:gearLumium>, <ore:ingotEnderium>],
     [<ore:itemPulsatingPowder>, <ore:ingotEnderium>, <ore:itemPulsatingPowder>]
 ]);
+

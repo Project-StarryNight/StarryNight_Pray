@@ -228,11 +228,11 @@
 
 1.2.0 alpha
     1.修复磁钢，充能水晶粉，末影水晶粉的合成，添加 EIO 框架和部分机器配方
-    2.TODO:修改手提包，末影合金配方（末影设备）
+    2.TODO:重构 Ender Utilities 配方
     3.模组变动
         新模组:
             -[平滑滚动][smooth-scrolling-everywhere-1.1]
-            -[末影水槽][endertanks-1.12.0-1.6.8]
+            -[末影存储][EnderStorage-1.12.2-2.4.6.137-universal]
             -[潘马斯农场][Pam's+HarvestCraft+1.12.2zg]
             -[前置][BrandonsCore-1.12.2-2.4.20.162-universal]
             -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
@@ -240,6 +240,7 @@
             -[量瓶][volumetricflask-0.18]
             -[垃圾桶][GarbageBins-1.1.1]
             -[MBD][multiblocked-0.3]
+            -[火花][spark-forge][1.6.3]
         删除模组:
             -[超能物质][MatterOverdrive-1.12.2-0.7.6-universal]
             -[神化][Apotheosis-1.12.2-1.12.5]
@@ -254,6 +255,7 @@
             -[格雷科技社区版非官方][2.1.4-beta] -> [2.2.1-beta]
             -[GCYM][1.1.1] -> [1.1.2]
             -[皮肤][14.11] -> [14.13]
+            -[MultiblockTweaker][1.6.0] -> [1.7.0]
     4.适配格雷科技 2.2.0-beta 的电路板参数
     5.添加龙矿处理和觉醒龙处理(WIP)
     6.TODO:添加新的多方块结构:微型宇宙培育仓 用于龙矿处理
@@ -274,5 +276,6 @@
             - EV
         - 神秘时代
 
-TODO:Beta 阶段工作
-    启用 GT 的禁用 锭,粒,块 的工作台合成
+TODO:一些额外工作:
+1.完善 Tips 的内容
+

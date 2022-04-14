@@ -54,7 +54,10 @@ var items as IItemStack[] = [
     <advancedrocketry:productrod:0>,
     <advancedrocketry:productrod:1>,
     <thermalexpansion:augment:401>,#通量维修复原
-    <theoneprobe:probenote>#TOP 阅读指南
+    <theoneprobe:probenote>,#TOP 阅读指南
+    <appliedenergistics2:grindstone>,#AE2 石英磨具
+    <appliedenergistics2:crank>#AE2 木质曲柄
+
 ];
 
 for i, item in items {
@@ -131,7 +134,11 @@ var jeiItems as IItemStack[] = [
     <draconicevolution:generator>,#DE 发电机
     <draconicadditions:chaotic_armor_generator>,
     <draconicadditions:armor_generator>,
-    <advancedrocketry:solargenerator>#AR 太阳能板
+    <advancedrocketry:solargenerator>,#AR 太阳能板
+    <appliedenergistics2:material:2>,#AE2 赛特斯石英粉
+    <appliedenergistics2:material:3>,#AE2 石英粉
+    <appliedenergistics2:material:46>,#AE2 末影粉
+    <enderutilities:enderpart:20>#EnU 末影灌注棍
 
 ];
 

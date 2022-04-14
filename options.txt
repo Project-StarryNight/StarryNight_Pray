@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
-resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.3.zip","ModernityExtra-format3-v1.3.0.zip","StarryNight_Pray_ZH_CN","SNP_texture_expanded_1.0.3.zip","SNP_emissive_texture"]
+resourcePacks:["Minecraft-Mod-Language-Package-1.12.2.zip","Modernity-format3-v3.5.3.zip","ModernityExtra-format3-v1.3.0.zip","StarryNight_Pray_ZH_CN","SNP_texture_expanded_1.0.3.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn

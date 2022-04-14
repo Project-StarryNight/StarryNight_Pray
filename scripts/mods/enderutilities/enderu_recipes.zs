@@ -4,4 +4,7 @@
  * 此脚本为 Ender Utilities 配方内容
 */
 
+import mods.gregtech.recipe.RecipeMap;
+
 recipes.removeByMod("enderutilities");
+

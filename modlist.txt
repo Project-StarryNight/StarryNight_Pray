@@ -9,12 +9,12 @@
         -[MoT][modtweaker-4.0.20.5]
         -[脚本同步][CrT_自动同步ZS]
         -[CrT VSC工具][probe-0.1.24]
-        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
+        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.0]
 
     -[格雷科技社区版非官方][gregtech-1.12.2-2.2.1-beta]
         (附属)
         -[GT TOP扩展][GregicProbe-1.1]
-        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
+        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.0]
         -[GCYM][GregicalityMultiblocks-1.12.2-1.1.2]
 
     -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v51j]
@@ -74,6 +74,7 @@
         -[末影接口_导管扩展][EnderIO-endergy-1.12.2-5.3.70]
 
     -[延迟监视][LagGoggles-1.12.2-5.8-132]
+    -[火花][spark-forge][1.6.3]
     -[模块化路由器][modular-routers-1.12.2-3.3.0-33]
     -[神秘时代 6][Thaumcraft-1.12.2-6.1.BETA26]
         (附属)
@@ -133,17 +134,13 @@
     -[建筑师工艺][architecturecraft-1.12-3.98]
     -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
     -[龙之进化扩展][Draconic-Additions-1.12.2-1.17.0.45-universal]
-    -[末影水槽][endertanks-1.12.0-1.6.8]
+    -[末影存储][EnderStorage-1.12.2-2.4.6.137-universal]
     -[潘马斯农场][Pam's+HarvestCraft+1.12.2zg]
     -[量瓶][volumetricflask-0.18]
     -[计算器][JustEnoughCalculation-1.12.2-3.2.7]
     -[垃圾桶][GarbageBins-1.1.1]
 
 前置Mod:
-    -[前置][shetiphiancore-1.12.0-3.5.9]
-        使用该前置的Mod:
-        -[末影水槽][endertanks-1.12.0-1.6.8]
-
     -[前置][BrandonsCore-1.12.2-2.4.20.162-universal]
         使用该前置的Mod:
         -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
@@ -249,6 +246,7 @@
     -[前置][CodeChickenLib-1.12.2-3.2.3.358-universal]
         使用该前置的Mod:
         -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta]
+        -[末影存储][EnderStorage-1.12.2-2.4.6.137-universal]
 
     -[资源加载器][ResourceLoader-MC1.12.1-1.5.3]
         使用该前置的Mod:

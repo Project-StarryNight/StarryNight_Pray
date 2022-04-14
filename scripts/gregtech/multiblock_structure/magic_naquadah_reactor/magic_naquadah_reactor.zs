@@ -3,7 +3,7 @@
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为魔力硅岩反应堆结构内容
 */
-/*
+
 #priority 900
 
 import mods.gregtech.multiblock.Builder;
@@ -20,6 +20,7 @@ import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 global mnreactor as RecipeMap = FactoryRecipeMap.start("mnreactor")
         .maxFluidInputs(4)
         .maxFluidOutputs(2)
+        .maxOutputs(2)
         .build();
 
 val id = 32000;
@@ -42,6 +43,8 @@ Builder.start(loc, id)
             | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
             | CTPredicate.abilities(<mte_ability:OUTPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
             | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(4).setPreviewCount(4)
+            | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>).setMinGlobalLimited(2).setPreviewCount(2)
+            | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
             )
             .where("W", CTPredicate.states(<metastate:gregtech:warning_sign:2>))
             .where("C", CTPredicate.states(<blockstate:gregtech:fusion_casing>))
@@ -55,4 +58,3 @@ Builder.start(loc, id)
     .withRecipeMap(mnreactor)
     .withBaseTexture(<metastate:gregtech:metal_casing:10>)
     .buildAndRegister();
-*/

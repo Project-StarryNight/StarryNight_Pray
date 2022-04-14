@@ -60,7 +60,7 @@ MaterialBuilder(32702, "gsp_055_rs_seawater")
 //液态GSP-055RS空气
 MaterialBuilder(32703, "liquid_gsp_055_rs_air")
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(78)
+    .fluidTemp(46)
     .color(0xE99700)
     .build();
 
