@@ -1,9 +1,9 @@
 {
-	title: "&b环氧树脂片",
+	title: "{snp.quests.de3de66b.title}",
 	x: 6.0d,
 	y: -2.0d,
 	shape: "pentagon",
-	description: "折磨的结束",
+	description: "{snp.quests.de3de66b.description}",
 	dependencies: [
 		"9dfd9dd3"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "&b进阶研磨机 II",
+	title: "{snp.quests.f4895e9c.title}",
 	x: -5.0d,
 	y: -1.0d,
-	description: "带有副产的高级机械！",
+	description: "{snp.quests.f4895e9c.description}",
 	text: [
 		"{snp.quests.f4895e9c.text.1}"
 	],

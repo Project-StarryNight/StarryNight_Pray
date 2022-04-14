@@ -1,8 +1,8 @@
 {
-	title: "&b进阶精密激光蚀刻机 II",
+	title: "{snp.quests.765c1e09.title}",
 	x: -5.0d,
 	y: -4.5d,
-	description: "60nm 光刻机",
+	description: "{snp.quests.765c1e09.description}",
 	dependencies: [
 		"30315d1d",
 		"294bf558"

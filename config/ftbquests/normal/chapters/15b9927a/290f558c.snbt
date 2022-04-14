@@ -1,11 +1,11 @@
 {
-	title: "&b纳米超级计算机",
+	title: "{snp.quests.290f558c.title}",
 	x: 7.5d,
 	y: 7.0d,
 	shape: "pentagon",
-	description: "前往 IV 阶段的一大步",
+	description: "{snp.quests.290f558c.description}",
 	text: [
-		"猜猜这玩意算力有多少？"
+		"{snp.quests.290f558c.text.1}"
 	],
 	dependencies: [
 		"27431c6f",

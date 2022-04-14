@@ -1,12 +1,12 @@
 {
-	title: "&b合金高炉",
+	title: "{snp.quests.a9780120.title}",
 	icon: "gregtech:machine 1 2001",
 	x: 9.0d,
 	y: 2.5d,
-	description: "更高效的冶炼金属",
+	description: "{snp.quests.a9780120.description}",
 	text: [
-		"合金高炉可以以极高的温度直接将金属冶炼成金属流体。",
-		""
+		"{snp.quests.a9780120.text.1}",
+		"{snp.quests.a9780120.text.2}"
 	],
 	dependencies: [
 		"ed1a77a0"
