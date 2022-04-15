@@ -141,14 +141,14 @@ MaterialBuilder(32022, "draconium")
     .ingot()
     .color(0x6c3a9a).iconSet("shiny")
     .flags(["generate_plate","generate_rod","generate_gear","generate_frame"])
-    .blastTemp(8000,"HIGHER",122880,920)
+    .blastTemp(8000,"HIGHER",122880,900)
     .build();
 
 MaterialBuilder(32023, "draconium_awakened")
     .ingot()
     .color(0xff9c00).iconSet("shiny")
     .flags(["generate_plate","generate_rod","generate_gear","generate_frame"])
-    .blastTemp(10800,"HIGHEST",7864320,1710)
+    .blastTemp(10800,"HIGHEST",1752864,1200)
     .build();
 
 MaterialBuilder(32024, "draconium_oxide_compound")
@@ -237,19 +237,21 @@ MaterialBuilder(32150, "ender_alloy_basic")
     .ingot()
     .color(0x6FA276).iconSet("shiny")
     .blastTemp(1200,"LOW",128,400)
+    .flags(["generate_long_rod","generate_plate"])
     .build();
 #增强末影合金
 MaterialBuilder(32151, "ender_alloy_enhancement")
     .ingot()
     .color(0xA1DEAA).iconSet("shiny")
     .blastTemp(2000,"MID",768,600)
-    .flags(["generate_rod"])
+    .flags(["generate_rod","generate_long_rod","generate_plate"])
     .build();
 #高级末影合金
 MaterialBuilder(32152, "ender_alloy_advanced")
     .ingot()
     .color(0xAEECED).iconSet("shiny")
     .blastTemp(4200,"HIGH",4608,900)
+    .flags(["generate_plate"])
     .build();
 
 //Novanium

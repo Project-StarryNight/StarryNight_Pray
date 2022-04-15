@@ -123,7 +123,6 @@ var jeiItems as IItemStack[] = [
     <ironchest:diamond_obsidian_shulker_upgrade>,
     <ironchest:iron_chest:7>,#泥箱子 9000!
     <appliedenergistics2:quartz_ore>,#赛特斯石英矿石
-    <modularmachinery:itemblueprint>,#机械蓝图
     <avaritia:singularity:*>,#无尽贪婪奇点
     <enderutilities:enderpart:0>,#基础末影合金
     <enderutilities:enderpart:1>,#增强
@@ -138,7 +137,12 @@ var jeiItems as IItemStack[] = [
     <appliedenergistics2:material:2>,#AE2 赛特斯石英粉
     <appliedenergistics2:material:3>,#AE2 石英粉
     <appliedenergistics2:material:46>,#AE2 末影粉
-    <enderutilities:enderpart:20>#EnU 末影灌注棍
+    <enderutilities:enderpart:20>,#EnU 末影灌注棍
+    <enderutilities:enderpart:70>,#储物桶升级
+    <enderutilities:enderpart:71>,#储物桶升级
+    <enderutilities:enderpart:72>,#储物桶升级
+    <enderutilities:enderpart:73>,#储物桶升级
+    <enderutilities:msu:0>#EnU 大型存储单元
 
 ];
 

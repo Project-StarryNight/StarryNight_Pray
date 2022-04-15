@@ -11,7 +11,7 @@ npcontroller.recipeBuilder()
     .inputs(<ore:dustNaquadria>)
     .inputs(<rftools:dimensional_shard> * 4)
     .fluidInputs([<liquid:enriched_naquadah_fuel> * 4000, <liquid:plasma.helium> * 150])
-    .fluidOutputs(<liquid:super_naquadah_fuel> * 5000)
+    .fluidOutputs(<liquid:hyper_naquadah_fuel> * 5000)
     .duration(40)
     .EUt(500000)
     .buildAndRegister();

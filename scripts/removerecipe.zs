@@ -6,7 +6,7 @@ import crafttweaker.recipes.ICraftingRecipe;
 
 for ench in oreDict.entries {
     var ore as string = ench.name;
-    var enchIngot as IItemStack = ench.firstItem; 
+    var enchIngot as IItemStack = ench.firstItem;
     if (ore.startsWith("ingot") && enchIngot.definition.owner != "gregtech") {
         var key as string = ore.substring("ingot".length);
         var block as IOreDictEntry = oreDict.get("block" ~ key);
@@ -15,7 +15,7 @@ for ench in oreDict.entries {
         if (!nugget.empty && !block.empty) {
             var enchBlock as IItemStack = oreDict.get("block"~key).firstItem;
             var enchNugget as IItemStack = oreDict.get("nugget"~key).firstItem;
-            recipes.remove(enchBlock); 
+            recipes.remove(enchBlock);
             recipes.remove(enchNugget);
         }
     }

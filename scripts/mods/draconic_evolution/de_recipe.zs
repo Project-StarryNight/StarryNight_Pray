@@ -176,10 +176,10 @@ assembly_line.recipeBuilder()
 
 //零点模块
 assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:750> * 3,<draconicevolution:wyvern_energy_core> * 4,<ore:wireFineUraniumRhodiumDinaquadide> * 64,<ore:wireFineUraniumRhodiumDinaquadide> * 64,
+    .inputs([<gregtech:meta_item_1:750> * 5,<draconicevolution:wyvern_energy_core> * 4,<ore:wireFineUraniumRhodiumDinaquadide> * 64,<ore:wireFineUraniumRhodiumDinaquadide> * 64,
             <ore:plateDoubleDuranium> * 16])
     .outputs(<gregtech:meta_item_1:752>.withTag({Charge: 2147483647 as long}))
     .fluidInputs([<liquid:soldering_alloy> * 18432,<liquid:sulfuric_acid> * 128000,<liquid:mercury> * 128000])
     .EUt(114514)
-    .duration(900)
+    .duration(1600)
     .buildAndRegister();

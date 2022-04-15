@@ -7,6 +7,8 @@
 import mods.gregtech.recipe.RecipeMap;
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IItemDefinition;
 
 //移除配方
 #定义数组
@@ -49,7 +51,7 @@ mixer.recipeBuilder()
         <deepmoblearning:pristine_matter_enderman> * 1
     ])
     .fluidInputs(<liquid:liquid_magic_polymer> * 1000)
-    .outputs(<gregtech:meta_dust:32100> * 8)
+    .outputs(<gregtech:meta_dust:32100> * 10)
     .EUt(1536)
     .duration(80)
     .buildAndRegister();
@@ -66,3 +68,70 @@ recipes.addShaped(<thermalfoundation:upgrade:3>, [
     [<ore:itemPulsatingPowder>, <ore:ingotEnderium>, <ore:itemPulsatingPowder>]
 ]);
 
+//四元素棒数组
+var rodElements as IItemStack[] = [
+    <minecraft:blaze_rod>,
+    <thermalfoundation:material:2048>,
+    <thermalfoundation:material:2050>,
+    <thermalfoundation:material:2052>
+];
+//四元素粉数组
+var dustElements as IItemStack[] = [
+    <minecraft:blaze_powder>,
+    <thermalfoundation:material:2049>,
+    <thermalfoundation:material:2051>,
+    <thermalfoundation:material:2053>
+];
+//热力四元素流体数组
+var liquidElements as ILiquidStack[] = [
+    <liquid:pyrotheum> * 250,
+    <liquid:cryotheum> * 250,
+    <liquid:aerotheum> * 250,
+    <liquid:petrotheum> * 250
+];
+//循环添加元素粉提取配方
+for i, liquidElement in liquidElements {
+    var liquidElement = liquidElements[i];
+extractor.recipeBuilder()
+    .inputs([
+        <thermalfoundation:material>.definition.makeStack(1024 + i)
+    ])
+    .fluidOutputs(liquidElement)
+    .duration(100)
+    .EUt(32)
+    .buildAndRegister();
+}
+//循环添加魔力转元素粉配方
+for i, liquidElement in liquidElements {
+chemical_reactor.recipeBuilder()
+    .inputs([
+        <ore:dustRedstone> * 1
+    ])
+    .fluidInputs(<liquid:liquid_magic_polymer> * 250)
+    .outputs(<thermalfoundation:material>.definition.makeStack(1024 + i))
+    .duration(80)
+    .EUt(192)
+    .buildAndRegister();
+}
+//循环添加棒磨粉配方
+for i, rodElement in rodElements {
+macerator.recipeBuilder()
+    .inputs([
+        rodElement
+    ])
+    .outputs(dustElements[i] * 4)
+    .chancedOutput(dustElements[i] * 1, 5000, 2500)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+}
+
+//元始魔力
+extractor.recipeBuilder()
+    .inputs([
+        <ore:dustMana>
+    ])
+    .fluidOutputs(<liquid:mana> * 250)
+    .duration(100)
+    .EUt(256)
+    .buildAndRegister();

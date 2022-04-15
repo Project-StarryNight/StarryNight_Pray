@@ -12,42 +12,6 @@ import mods.thaumcraft.ArcaneWorkbench;
 //水银合成
 furnace.addRecipe(<thaumcraft:quicksilver>, <gregtech:meta_gem:268>, 0.0);
 
-//工具 by TechLord22
-<ore:gtceWrenches>.addItems([
-	<gregtech:meta_tool:8>.withEmptyTag(),
-	<gregtech:meta_tool:28>.withEmptyTag(),
-	<gregtech:meta_tool:29>.withEmptyTag(),
-	<gregtech:meta_tool:30>.withEmptyTag()]);
-
-<ore:gtceScrewdrivers>.addItems([
-	<gregtech:meta_tool:11>.withEmptyTag(),
-	<gregtech:meta_tool:31>.withEmptyTag()]);
-
-<ore:gtceHardHammers>.addItems([
-	<gregtech:meta_tool:6>.withEmptyTag()]);
-
-<ore:gtceSaws>.addItems([
-	<gregtech:meta_tool:5>.withEmptyTag(),
-	<gregtech:meta_tool:25>.withEmptyTag(),
-	<gregtech:meta_tool:26>.withEmptyTag(),
-	<gregtech:meta_tool:27>.withEmptyTag(),
-	<gregtech:meta_tool:32>.withEmptyTag()]);
-
-<ore:gtceFiles>.addItems([
-	<gregtech:meta_tool:9>.withEmptyTag()]);
-
-<ore:gtceWireCutters>.addItems([
-	<gregtech:meta_tool:13>.withEmptyTag()]);
-
-<ore:gtceSoftHammers>.addItems([
-	<gregtech:meta_tool:7>.withEmptyTag()]);
-
-<ore:gtceMortars>.addItems([
-	<gregtech:meta_tool:12>.withEmptyTag()]);
-
-<ore:gtceknife>.addItems([
-	<gregtech:meta_tool:15>.withEmptyTag()]);
-
 //移除合成
 var items as IItemStack[] = [
     <thaumcraft:thaumium_helm>,

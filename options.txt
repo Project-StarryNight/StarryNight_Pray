@@ -5,7 +5,7 @@ fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:4
+guiScale:3
 particles:1
 bobView:false
 anaglyph3d:false
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0

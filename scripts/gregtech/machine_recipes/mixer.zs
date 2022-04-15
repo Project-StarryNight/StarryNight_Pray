@@ -65,20 +65,30 @@ mixer.recipeBuilder()
 #星能液
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustMagic> * 4
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})
     ])
-    .fluidInputs(<liquid:mana> * 4000, <liquid:astralsorcery.liquidstarlight> * 1000)
-    .fluidOutputs(<liquid:liquid_magic_polymer> * 5000)
+    .fluidInputs(<liquid:mana> * 5000, <liquid:astralsorcery.liquidstarlight> * 1000)
+    .fluidOutputs(<liquid:liquid_magic_polymer> * 6000)
     .EUt(64)
     .duration(100)
     .buildAndRegister();
 #生命源质
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustMagic> * 4
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),
+        <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})
     ])
-    .fluidInputs(<liquid:mana> * 3000, <liquid:lifeessence> * 2000)
-    .fluidOutputs(<liquid:liquid_magic_polymer> * 5000)
+    .fluidInputs(<liquid:mana> * 2000, <liquid:lifeessence> * 4000)
+    .fluidOutputs(<liquid:liquid_magic_polymer> * 6000)
     .EUt(256)
     .duration(50)
     .buildAndRegister();

@@ -30,7 +30,7 @@ MaterialBuilder(32501, "enriched_naquadah_fuel")
     .build();
 
 //超能硅岩燃料
-MaterialBuilder(32502, "super_naquadah_fuel")
+MaterialBuilder(32502, "hyper_naquadah_fuel")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(8500)
     .color(0x3CB371)

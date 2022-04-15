@@ -31,3 +31,6 @@ implosion_compressor.recipeBuilder()
     .EUt(7680)
     .duration(1000)
     .buildAndRegister();
+
+//附魔金苹果
+chemical_reactor.findRecipe(30, [<minecraft:apple:0>, <minecraft:gold_block:0> * 8], null).remove();
