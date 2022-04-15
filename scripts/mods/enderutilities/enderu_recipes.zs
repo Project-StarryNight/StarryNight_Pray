@@ -80,9 +80,9 @@ var diamonds as IOreDictEntry[] = [
 # 末影核心循环添加
 for i ,diamond in diamonds {
 recipes.addShaped(<enderutilities:enderpart>.definition.makeStack(10 + i), [
-    [<gregtech:meta_dust:416>, <gregtech:meta_nugget>.definition.makeStack(32152 - i), <gregtech:meta_dust:416>],
-    [<gregtech:meta_nugget>.definition.makeStack(32152 - i), diamond, <gregtech:meta_nugget:32152>.definition.makeStack(32152 - i)],
-    [<gregtech:meta_dust:416>, <gregtech:meta_nugget>.definition.makeStack(32152 - i), <gregtech:meta_dust:416>]
+    [<gregtech:meta_dust:416>, <gregtech:meta_nugget>.definition.makeStack(32152 + i), <gregtech:meta_dust:416>],
+    [<gregtech:meta_nugget>.definition.makeStack(32152 + i), diamond, <gregtech:meta_nugget:32152>.definition.makeStack(32152 + i)],
+    [<gregtech:meta_dust:416>, <gregtech:meta_nugget>.definition.makeStack(32152 + i), <gregtech:meta_dust:416>]
 ]);
 }
 

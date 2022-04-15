@@ -36,8 +36,8 @@ for i in 0 to 3 {
         .buildAndRegister();
 
     mnreactor.recipeBuilder()
-        .fluidInputs([<liquid:hyper_naquadah_fuel> * 1, <liquid:uranium_hexafluoride> * 20, coolAnts[i+2], <liquid:liquid_magic_polymer> * 1000])
-        .chancedOutput(<thermalfoundation:material:1028> * 6, chances[i+2], 0)
+        .fluidInputs([<liquid:hyper_naquadah_fuel> * 1, <liquid:uranium_hexafluoride> * 20, coolAnts[i+3], <liquid:liquid_magic_polymer> * 1000])
+        .chancedOutput(<thermalfoundation:material:1028> * 6, chances[i+3], 0)
         .fluidOutputs(<liquid:depleted_uranium_hexafluoride> * 20)
         .EUt(-550000)
         .duration(20)
