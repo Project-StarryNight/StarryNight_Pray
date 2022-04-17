@@ -9,6 +9,11 @@
 		type: "stat",
 		title: "{snp.quests.ef82cf2e.title}",
 		stat: "stat.playOneMinute",
-		value: 1728000
+		value: 1600000
+	}],
+	rewards: [{
+		uid: "df3456ae",
+		type: "item",
+		item: "draconicevolution:ender_energy_manipulator"
 	}]
 }
