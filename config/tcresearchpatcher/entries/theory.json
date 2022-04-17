@@ -230,7 +230,7 @@
       }
     ],  "addenda": [
     {
-      "text": "research.example.text.stage.1",
+      "text": "tc.research_page.ARTHANA.2",
       "required_research":["WALTAR"]
     }
   ]
