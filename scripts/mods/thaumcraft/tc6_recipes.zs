@@ -64,6 +64,7 @@ var arcaneItems as IItemStack[] = [
     <thaumcraft:condenser>,
     <thaumcraft:filter>,
     <thaumcraft:morphic_resonator>,
+    <thaumadditions:disenchant_fabric:*>
 ];
 
 for i, item in arcaneItems {
