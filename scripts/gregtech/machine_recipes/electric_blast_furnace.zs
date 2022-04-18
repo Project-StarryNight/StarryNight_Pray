@@ -89,7 +89,7 @@ import crafttweaker.item.IIngredient;
         var sterlingSilver = sterlingSilvers[i];
         var temp = temps[i];
 
-        <recipemap:electric_blast_furnace>.recipeBuilder()
+        electric_blast_furnace.recipeBuilder()
             .inputs([
                 ingot,
                 sterlingSilver
@@ -106,7 +106,7 @@ import crafttweaker.item.IIngredient;
 
 //炉渣_富炉渣
     #炉渣
-    <recipemap:electric_blast_furnace>.recipeBuilder()
+    electric_blast_furnace.recipeBuilder()
         .inputs([
             <ore:gemCoal>,
             <ore:dustAsh> * 2
@@ -120,7 +120,7 @@ import crafttweaker.item.IIngredient;
         .property("temperature", 800)
         .buildAndRegister();
     #富炉渣
-        <recipemap:electric_blast_furnace>.recipeBuilder()
+        electric_blast_furnace.recipeBuilder()
         .inputs([
             <ore:gemFlawlessCoal>,
             <ore:dustDarkAsh> * 2

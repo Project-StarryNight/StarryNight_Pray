@@ -1,0 +1,46 @@
+{
+	title: "{snp.quests.0946b0b7.title}",
+	icon: "gregtech:machine 1 1007",
+	x: -1.5d,
+	y: -1.5d,
+	description: "{snp.quests.0946b0b7.description}",
+	text: [
+		"{snp.quests.0946b0b7.text.1}",
+		"{snp.quests.0946b0b7.text.2}",
+		"{snp.quests.0946b0b7.text.3}",
+		"{snp.quests.0946b0b7.text.4}"
+	],
+	dependencies: [
+		"13d6d01e"
+	],
+	tasks: [{
+		uid: "0c52db23",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1007"
+		}]
+	},
+	{
+		uid: "a86fe387",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 6"
+		}],
+		count: 21L
+	}],
+	rewards: [{
+		uid: "a78358bf",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 84s,
+			tag: {
+				Fluid: {
+					FluidName: "enchanted_nitro_diesel",
+					Amount: 512000
+				}
+			}
+		},
+		random_bonus: 15
+	}]
+}

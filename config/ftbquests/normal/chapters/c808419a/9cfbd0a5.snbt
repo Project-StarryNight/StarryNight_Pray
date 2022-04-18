@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 0.5d,
+	dependencies: [
+		"997af2a7",
+		"84e1f4d2"
+	],
+	tasks: [{
+		uid: "bea2df86",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot_hot 1 113"
+		}],
+		count: 32L
+	}]
+}

@@ -319,6 +319,11 @@
 				"op": "replace",
 				"path": "parents/0",
 				"value": "BASEARTIFICE"
+			},
+			{
+				"op": "add",
+				"path": "stages/0/recipes/-",
+				"value": "thaumcraft:item_grate"
 			}
         ]
 	},

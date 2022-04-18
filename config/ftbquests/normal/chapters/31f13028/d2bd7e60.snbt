@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	dependencies: [
+		"1b346ab7"
+	],
+	tasks: [{
+		uid: "945af8d5",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 1"
+		}]
+	}]
+}

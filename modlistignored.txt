@@ -1,4 +1,0 @@
-服务器用模组(仅纸箱):
-    -[自定义MC][CustomMC-1.12.2]
-    -[音乐][AudioBuffer-1.0]
-    -[各种物品][VariedCommodities_1.12.2(27oct19)]

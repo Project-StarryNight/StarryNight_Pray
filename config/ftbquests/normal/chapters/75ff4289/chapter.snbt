@@ -2,10 +2,7 @@
 	title: "{snp.quests.75ff4289.title}",
 	icon: {
 		id: "bloodmagic:sacrificial_dagger",
-		tag: {},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
+		tag: {}
 	},
 	always_invisible: false,
 	group: 2087384099,

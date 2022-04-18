@@ -47,93 +47,88 @@ for i, machine in machines {
 #添加
     recipes.addShaped(<forestry:peat_bog>, [
         [<forestry:thermionic_tubes:6>,<gregtech:meta_item_1:127>, <forestry:thermionic_tubes:6>],
-        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],
+        [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],
         [<gregtech:meta_item_1:187>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:187>]
     ]);
     recipes.addShaped(<forestry:farm_ender>, [
         [<forestry:thermionic_tubes:12>, <gregtech:meta_item_1:127>, <forestry:thermionic_tubes:12>],
-        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],
+        [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],
         [<gregtech:meta_item_1:187>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:187>]
     ]);
     recipes.addShaped(<forestry:farm_nether>, [
         [<forestry:thermionic_tubes:7>, <gregtech:meta_item_1:127>, <forestry:thermionic_tubes:7>],
-        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],
+        [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],
         [<gregtech:meta_item_1:187>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:187>]
     ]);
     recipes.addShaped(<forestry:farm_gourd>, [
         [<forestry:thermionic_tubes:11>, <gregtech:meta_item_1:127>, <forestry:thermionic_tubes:11>],
-        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],
+        [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],
         [<gregtech:meta_item_1:187>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:187>]
     ]);
     recipes.addShaped(<forestry:farm_mushroom>, [
         [<forestry:thermionic_tubes:10>, <gregtech:meta_item_1:127>, <forestry:thermionic_tubes:10>],
-        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],
+        [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],
         [<gregtech:meta_item_1:187>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:187>]
     ]);
     recipes.addShaped(<forestry:farm_crops>, [
         [<forestry:thermionic_tubes:2>, <gregtech:meta_item_1:127>, <forestry:thermionic_tubes:2>],
-        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],
+        [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],
         [<gregtech:meta_item_1:187>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:187>]
     ]);
     recipes.addShaped(<forestry:arboretum>, [
         [<ore:blockGlassColorless>, <gregtech:meta_item_1:127>, <ore:blockGlassColorless>],
-        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],
+        [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],
         [<gregtech:meta_item_1:187>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:187>]
     ]);
     recipes.addShaped(<forestry:fabricator>, [
         [<ore:plateBronze>, <ore:workbench>, <ore:plateBronze>],
         [<ore:plateBronze>, <gregtech:machine:986>, <ore:plateBronze>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:carpenter>, [
         [<gregtech:meta_plate:1617>, <gregtech:meta_plate:1617>, <gregtech:meta_plate:1617>],
         [<gregtech:meta_item_1:187>, <gregtech:machine:986>, <gregtech:meta_item_1:187>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:bottler>, [
         [<gregtech:meta_plate:1617>, <gregtech:meta_item_1:142>, <gregtech:meta_plate:1617>],
         [<forestry:can>, <gregtech:machine:986>, <forestry:can>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:centrifuge>, [
         [<gregtech:meta_plate:1617>, <gregtech:meta_plate:1617>, <gregtech:meta_plate:1617>],
         [<gregtech:meta_item_1:127>, <gregtech:machine:986>, <gregtech:meta_item_1:127>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:still>, [
         [<ore:blockGlassColorless>, <gregtech:meta_spring:25>, <ore:blockGlassColorless>],
         [<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],
-        [<ore:circuitBasic>, <gregtech:meta_item_1:142>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <gregtech:meta_item_1:142>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:fermenter>, [
         [<ore:blockGlassColorless>, <gregtech:meta_item_1:142>, <ore:blockGlassColorless>],
         [<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:squeezer>, [
         [<gregtech:meta_item_1:172>, <minecraft:bucket>, <gregtech:meta_item_1:172>],
         [<gregtech:meta_plate:1617>, <gregtech:machine:986>, <gregtech:meta_plate:1617>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:moistener>, [
         [<gregtech:meta_plate:1617>, <gregtech:meta_item_1:142>, <gregtech:meta_plate:1617>],
         [<ore:screwBronze>, <gregtech:machine:986>, <ore:screwBronze>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:fermenter>, [
         [<ore:blockGlassColorless>, <gregtech:meta_item_1:142>, <ore:blockGlassColorless>],
         [<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:moistener>, [
         [<gregtech:meta_plate:1617>, <gregtech:meta_item_1:142>, <gregtech:meta_plate:1617>],
         [<ore:screwBronze>, <gregtech:machine:986>, <ore:screwBronze>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
-    ]);
-    recipes.addShaped(<forestry:fabricator>, [
-        [<ore:plateBronze>, <ore:workbench>, <ore:plateBronze>],
-        [<ore:plateBronze>, <gregtech:machine:986>, <ore:plateBronze>],
-        [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <ore:cableGtSingleTin>, <ore:circuitLv>]
     ]);
     recipes.addShaped(<forestry:database>, [
         [<gregtech:meta_plate:1617>, <forestry:bee_chest>, <gregtech:meta_plate:1617>],
@@ -148,5 +143,5 @@ for i, machine in machines {
     recipes.addShaped(<forestry:rainmaker>, [
         [null, <gregtech:meta_item_1:232>, null],
         [null, <gregtech:meta_item_1:217>, null],
-        [<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>]
+        [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>]
     ]);

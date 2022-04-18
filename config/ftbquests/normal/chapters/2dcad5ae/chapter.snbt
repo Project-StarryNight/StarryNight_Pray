@@ -1,11 +1,6 @@
 {
 	title: "{snp.quests.2dcad5ae.title}",
-	icon: {
-		id: "thaumcraft:caster_basic",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "thaumcraft:thaumonomicon",
 	always_invisible: false,
 	group: 2087384099,
 	default_quest_shape: "",
@@ -15,7 +10,7 @@
 		width: 25.0d,
 		height: 5.0d,
 		rotation: 0.0d,
-		image: "minecraft:quests/pictures/tc6_title-3.png",
+		image: "snp:textures/tc6_title-3.png",
 		hover: [],
 		click: "",
 		dev: false

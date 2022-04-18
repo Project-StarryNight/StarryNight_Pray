@@ -6,28 +6,29 @@
         -[MoT][modtweaker-4.0.20.5]
         -[脚本同步][CrT_自动同步ZS]
         -[CrT VSC工具][probe-0.1.24]
-        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
+        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.0]
 
-    -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta][预发布版]
+    -[格雷科技社区版非官方][gregtech-1.12.2-2.2.1-beta]
         (附属)
-        -[GT TOP扩展][GregicProbe-1.0]
-        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.6.0]
-        -[GCYM][GregicalityMultiblocks-1.12.2-1.1.1]
+        -[GT TOP扩展][GregicProbe-1.1]
+        -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.0]
+        -[GCYM][GregicalityMultiblocks-1.12.2-1.1.2]
 
-    -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v51d]
+    -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v51j]
         (附属)
-        -[封包合成][PackagedAuto-1.12.2-1.0.5.18]
+        -[封包合成][PackagedAuto-1.12.2-1.0.5.19]
         -[流体合成][ae2fc-1.12.2-1.0.11]
         -[懒人AE][lazy-ae2-1.12.2-1.1.26]
         -[AE附加 更多存储元件][AEAdditions-1.12.2-1.3.4]
-        -[神秘能源][thaumicenergistics-2.2.4]
+        -[神秘能源][thaumicenergistics-v2.2.3-delfayne-fork-SNAPSHOT-2]
         -[JEI 应用能源支持][NotEnoughEnergistics-1.12.2-1.2.4]
-        -[无线终端前置][AE2WTLib-1.0.34][MOD已修改]
+        -[无线终端前置][AE2WTLib-1.12.2-1.0.34]
             (附属)
             -[无线样板终端][WirelessPatternTerminal-1.12.2-1.0.3]
             -[无线接口终端][WirelessInterfaceTerminal-1.12.2-1.0.2]
             -[无线合成终端][WirelessCraftingTerminal-1.12.2-3.12.97]
 
+    -[HEI][HadEnoughItems_1.12.2-4.18.2](DISABLED 状态)
     -[JEI][jei_1.12.2-4.16.1.302]
         (附属)
         -[JEI拖拽][justenoughdrags-1.1-beta.5]
@@ -46,9 +47,10 @@
 
     -[FTB 任务][FTBQuests-1202.9.0.15]
     -[ID 扩展][JustEnoughIDs-1.0.4-SNAPSHOT-thin]
+    -[矿辞统一][UniDict-1.12.2-3.0.10]
+    -[MBD][multiblocked-0.3]
 
 主要Mod:
-    -[超能物质][MatterOverdrive-1.12.2-0.7.6-universal]
     -[无尽贪婪][Avaritia-1.12.2-3.3.0.37-universal]
         (附属)
         -[无尽收容][Avaritiaddons-1.12.2-1.7]
@@ -65,6 +67,7 @@
         -[末影接口_导管扩展][EnderIO-endergy-1.12.2-5.3.70]
 
     -[延迟监视][LagGoggles-1.12.2-5.8-132]
+    -[火花][spark-forge][1.6.3]
     -[模块化路由器][modular-routers-1.12.2-3.3.0-33]
     -[神秘时代 6][Thaumcraft-1.12.2-6.1.BETA26]
         (附属)
@@ -95,20 +98,16 @@
         -[血液兵工厂][BloodArsenal-1.12.2-2.2.2-31]
 
     -[热力基本][ThermalFoundation-1.12.2-2.6.7.1-universal]
-        (附属)
-        -[热力膨胀 5][ThermalExpansion-1.12.2-5.5.7.1-universal]
+    -[热力膨胀 5][ThermalExpansion-1.12.2-5.5.7.1-universal]
 
     -[FTB 连锁挖掘][ftb-ultimine-1202.3.5]
     -[FTBU][FTBUtilities-5.4.1.131]
     -[匠魂2][TConstruct-1.12.2-2.13.0.183]
         (附属)
         -[匠魂JEI][tinkersjei-1.2]
-        -[自定义材料][Infini-TiC-1.12.2-0.1.46]
-        -[匠魂护甲][conarm-1.12.2-1.2.5.10]
         -[匠魂进化][tconevo-1.12.2-1.0.44]
         -[匠魂工具等级][TinkerToolLeveling-1.12.2-1.1.0]
         -[匠魂修改][tweakersconstruct-1.12.2-1.6.1]
-        -[匠魂合金附加 FIXED][taiga-1.12.2-1.3.4][MOD已修改]
 
     -[在线相框][OnlinePicFrame_v1.5.0-pre1_mc1.12.2]
     -[家具][furniture-6.3.1-1.12.2]
@@ -117,10 +116,8 @@
     -[凿子][Chisel-MC1.12.2-1.0.2.45]
     -[更好的建筑手杖][BetterBuildersWands-1.12.2-0.13.2.271+5997513]
     -[铁箱子][ironchest-1.12.2-7.0.72.847]
-    -[神化][Apotheosis-1.12.2-1.12.5]
     -[傻瓜式农贸市场][FarmingForBlockheads_1.12.2-3.1.28]
     -[林业][forestry_1.12.2-5.8.2.422]
-    -[矿辞统一][UniDict-1.12.2-3.0.10]
     -[末影设备][enderutilities-1.12.2-0.7.15]
     -[更多鸡][chickens-6.1.0]
         (联动附属)
@@ -128,8 +125,19 @@
     -[储物桶][YABBA-1.1.2.54]
     -[RF 工具箱][rftools-1.12-7.73]
     -[建筑师工艺][architecturecraft-1.12-3.98]
+    -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
+    -[龙之进化扩展][Draconic-Additions-1.12.2-1.17.0.45-universal]
+    -[末影存储][EnderStorage-1.12.2-2.4.6.137-universal]
+    -[潘马斯农场][Pam's+HarvestCraft+1.12.2zg]
+    -[量瓶][volumetricflask-0.18]
+    -[计算器][JustEnoughCalculation-1.12.2-3.2.7]
+    -[垃圾桶][GarbageBins-1.1.1]
 
 前置Mod:
+    -[前置][BrandonsCore-1.12.2-2.4.20.162-universal]
+        使用该前置的Mod:
+        -[龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
+
     -[帕秋莉手册][Patchouli-1.0-23.6]
         使用该前置的Mod:
         -[巫术][bewitchment-1.12.2-0.0.22.64]
@@ -137,10 +145,6 @@
     -[前置][MTLib-3.0.7]
         使用该前置的Mod:
         -[MoT][modtweaker-4.0.20.5]
-
-    -[前置][Placebo-1.12.2-1.6.0]
-        使用该前置的Mod:
-        -[神化][Apotheosis-1.12.2-1.12.5]
 
     -[前置][CreativeCore_v1.10.44_mc1.12.2]
         使用该前置的Mod:
@@ -235,6 +239,7 @@
     -[前置][CodeChickenLib-1.12.2-3.2.3.358-universal]
         使用该前置的Mod:
         -[格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta]
+        -[末影存储][EnderStorage-1.12.2-2.4.6.137-universal]
 
     -[资源加载器][ResourceLoader-MC1.12.1-1.5.3]
         使用该前置的Mod:
@@ -268,20 +273,23 @@
 
 辅助Mod:
     优化:
+    -[内存清理][memorycleaner-1.4]
     -[性能优化][performant-1.12.2-1.10]
     -[照明优化][phosphor-forge-mc1.12.2-0.2.7-universal]
     -[潮涌][Surge-1.12.2-2.0.79]
     -[匠魂矿辞缓存][TinkersOreDictCache-1.0]
     -[泡沫修复][foamfix-0.10.14-1.12.2]
     -[原版修复][VanillaFix-1.0.10-150]
-    -[BUG 修复][AnotherCommonBugFix-1.2.5-1.12.2]
 
     功能:
     -[TOP 检测器][theoneprobe-1.12-1.4.28]
         (附属)
         -[TOP附属][topaddons-1.12.2-1.13.0]
-    -[TAB头像][TabIconHackForge-1.0]
+    -[界面缩放][scalingguis-1.12.2-1.0.3.0]
+    -[附魔信息显示][EnchantmentDescriptions-1.12.2-1.1.20]
+    -[按键精灵][keywizard-1.12.2-1.7.3]
     -[旅行地图][journeymap-1.12.2-5.7.1]
+    -[皮肤][CustomSkinLoader_ForgeLegacy-14.13]
     -[苹果皮][AppleSkin-mc1.12-1.0.14]
     -[游戏内信息显示][InGameInfoXML-1.12.2-2.8.2.94-universal]
     -[更好的半砖破坏][KleeSlabs_1.12.2-5.4.12.jar]

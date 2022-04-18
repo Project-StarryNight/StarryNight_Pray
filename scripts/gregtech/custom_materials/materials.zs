@@ -141,14 +141,14 @@ MaterialBuilder(32022, "draconium")
     .ingot()
     .color(0x6c3a9a).iconSet("shiny")
     .flags(["generate_plate","generate_rod","generate_gear","generate_frame"])
-    .blastTemp(8000,"HIGHER",122880,920)
+    .blastTemp(8000,"HIGHER",122880,900)
     .build();
 
 MaterialBuilder(32023, "draconium_awakened")
     .ingot()
     .color(0xff9c00).iconSet("shiny")
     .flags(["generate_plate","generate_rod","generate_gear","generate_frame"])
-    .blastTemp(10800,"HIGHEST",7864320,1710)
+    .blastTemp(10800,"HIGHEST",1752864,1200)
     .build();
 
 MaterialBuilder(32024, "draconium_oxide_compound")
@@ -224,7 +224,97 @@ MaterialBuilder(32036, "essential_draconium_awakened")
     .blastTemp(9200,"HIGHEST",491520,850)
     .build();
 
-//Rick Astlium锭
+//TE5 合金
+MaterialBuilder(32100, "enderium")
+    .ingot()
+    .color(0x1D7E8C).iconSet("shiny")
+    .flags(["generate_plate", "genrate_gear"])
+    .build();
+
+//EnderUtilities 合金
+#基础末影合金
+MaterialBuilder(32150, "ender_alloy_basic")
+    .ingot()
+    .color(0x6FA276).iconSet("shiny")
+    .blastTemp(1200,"LOW",128,400)
+    .flags(["generate_long_rod","generate_plate"])
+    .build();
+#增强末影合金
+MaterialBuilder(32151, "ender_alloy_enhancement")
+    .ingot()
+    .color(0xA1DEAA).iconSet("shiny")
+    .blastTemp(2000,"MID",768,600)
+    .flags(["generate_rod","generate_long_rod","generate_plate"])
+    .build();
+#高级末影合金
+MaterialBuilder(32152, "ender_alloy_advanced")
+    .ingot()
+    .color(0xAEECED).iconSet("shiny")
+    .blastTemp(4200,"HIGH",4608,900)
+    .flags(["generate_plate"])
+    .build();
+
+//植物魔法材料
+//活石
+MaterialBuilder(32160, "livingrock")
+    .ingot()
+    .color(0xFDF5E6)
+    .iconSet("INGOT")
+    .flags([
+        "generate_plate", "generate_dense", "generate_rod", "generate_ring",
+        "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
+        "generate_spring_small", "generate_small_gear"
+    ])
+    .build();
+
+//魔力钢
+MaterialBuilder(32161, "manasteel")
+    .ingot()
+    .color(0x00BFFF)
+    .iconSet("INGOT")
+    .blastTemp(1400, "LOW", 386, 250)
+    .flags([
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring",
+    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
+    "generate_spring_small", "generate_small_gear"
+    ])
+    .build();
+
+//源质钢锭
+MaterialBuilder(32162, "elven_elementium")
+    .ingot()
+    .color(0xFF69B4)
+    .iconSet("INGOT")
+    .blastTemp(2400, "MID", 768, 300)
+    .flags([
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring",
+    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
+    "generate_spring_small", "generate_small_gear"
+    ])
+    .build();
+
+//神话钢锭
+MaterialBuilder(32163, "mythicalsteel")
+    .ingot()
+    .color(0xFFD700)
+    .iconSet("INGOT")
+    .blastTemp(3200, "MID", 2048, 350)
+    .flags([
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring",
+    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
+    "generate_spring_small", "generate_small_gear"
+    ])
+    .build();
+
+//Novanium
+MaterialBuilder(32699, "novanium")
+    .ingot()
+    .fluid()
+    .color(0xc0dee8).iconSet("shiny")
+    .blastTemp(10800,"HIGHEST",1966080,1000)
+    .build();
+
+//Rick Astlium
 MaterialBuilder(32700, "rick_astlium")
     .ingot()
     .color(0xAF866A)
@@ -249,3 +339,5 @@ MaterialBuilder(32700, "rick_astlium")
 <material:nether_quartz>.addFlags("generate_rod", "generate_bolt_screw");
 <material:iron>.addFlags("generate_dense");
 <material:brass>.addFlags("generate_ring", "generate_gear");
+<material:silver>.addFlags("generate_gear");
+<material:electrum>.addFlags("generate_gear");

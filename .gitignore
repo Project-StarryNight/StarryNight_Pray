@@ -32,6 +32,7 @@ servers.dat
 tv-cache
 /fancymenu_setups
 /config/jei/worldSettings.cfg
+/config/jei/bookmarks.ini
 scripts/.zsrc
 /update
 /download

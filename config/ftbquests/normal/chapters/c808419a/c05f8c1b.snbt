@@ -1,0 +1,13 @@
+{
+	x: 0.5d,
+	y: -2.5d,
+	dependencies: [
+		"e3109314",
+		"0ba9b1d7"
+	],
+	tasks: [{
+		uid: "84633447",
+		type: "fluid",
+		fluid: "dimethylhydrazine"
+	}]
+}

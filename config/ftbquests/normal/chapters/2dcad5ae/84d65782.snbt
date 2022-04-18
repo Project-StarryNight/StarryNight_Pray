@@ -1,6 +1,16 @@
 {
+	title: "{snp.quests.84d65782.title}",
 	x: 2.0d,
 	y: 4.0d,
+	description: "{snp.quests.84d65782.description}",
+	text: [
+		"{snp.quests.84d65782.text.1}",
+		"{snp.quests.84d65782.text.2}",
+		"{snp.quests.84d65782.text.3}",
+		"{snp.quests.84d65782.text.4}",
+		"{snp.quests.84d65782.text.5}",
+		"{snp.quests.84d65782.text.6}"
+	],
 	dependencies: [
 		"08641d01"
 	],
@@ -8,10 +18,7 @@
 		uid: "a1e4b669",
 		type: "item",
 		items: [{
-			id: "thaumcraft:caster_basic",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:caster_basic"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

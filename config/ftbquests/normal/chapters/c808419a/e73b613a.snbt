@@ -1,0 +1,45 @@
+{
+	title: "{snp.quests.e73b613a.title}",
+	x: -2.0d,
+	y: -0.5d,
+	text: [
+		"{snp.quests.e73b613a.text.1}"
+	],
+	dependencies: [
+		"e3109314"
+	],
+	tasks: [{
+		uid: "dfad8040",
+		type: "fluid",
+		fluid: "methane",
+		amount: 2000
+	},
+	{
+		uid: "7850eaf0",
+		type: "fluid",
+		fluid: "chlorine",
+		amount: 12000
+	},
+	{
+		uid: "b0e75ea5",
+		type: "fluid",
+		fluid: "chloroform",
+		amount: 2000
+	},
+	{
+		uid: "049c5f68",
+		type: "fluid",
+		fluid: "hydrofluoric_acid",
+		amount: 4000
+	},
+	{
+		uid: "1d56df96",
+		type: "fluid",
+		fluid: "tetrafluoroethylene"
+	},
+	{
+		uid: "ce5eb3f9",
+		type: "fluid",
+		fluid: "polytetrafluoroethylene"
+	}]
+}

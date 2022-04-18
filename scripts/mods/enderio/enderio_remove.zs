@@ -70,7 +70,6 @@ var items as IItemStack[] = [
     <enderio:item_capacitor_silver>,//电容*3
     <enderio:item_capacitor_energetic_silver>,
     <enderio:item_capacitor_vivid>,
-    <enderio:block_solar_panel:*>,
     <enderio:item_material:65>,
     <enderio:block_wireless_charger>
 

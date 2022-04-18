@@ -1,0 +1,38 @@
+{
+	title: "{snp.quests.feff3871.title}",
+	icon: "gregtech:machine 1 1010",
+	x: 1.5d,
+	y: -1.0d,
+	description: "{snp.quests.feff3871.description}",
+	text: [
+		"{snp.quests.feff3871.text.1}",
+		"{snp.quests.feff3871.text.2}",
+		"{snp.quests.feff3871.text.3}",
+		"{snp.quests.feff3871.text.4}"
+	],
+	tasks: [{
+		uid: "de00d3cc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1010"
+		}]
+	},
+	{
+		uid: "7b94acff",
+		type: "item",
+		items: [{
+			item: "gregtech:turbine_casing 1 5"
+		}],
+		count: 28L
+	}],
+	rewards: [{
+		uid: "85ac11ec",
+		type: "item",
+		item: "gregtech:machine 1 1641"
+	},
+	{
+		uid: "fd829615",
+		type: "item",
+		item: "gregtech:machine 1 1656"
+	}]
+}

@@ -1,6 +1,8 @@
 {
+	title: "{snp.quests.d64421a6.title}",
 	x: 12.0d,
 	y: 4.0d,
+	description: "{snp.quests.d64421a6.description}",
 	dependencies: [
 		"47c318bb"
 	],
@@ -8,10 +10,7 @@
 		uid: "e6c595e8",
 		type: "item",
 		items: [{
-			id: "thaumcraft:traveller_boots",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:traveller_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

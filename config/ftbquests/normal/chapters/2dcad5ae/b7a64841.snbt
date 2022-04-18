@@ -1,6 +1,20 @@
 {
+	title: "{snp.quests.b7a64841.title}",
 	x: 10.0d,
 	y: 2.0d,
+	description: "{snp.quests.b7a64841.description}",
+	text: [
+		"{snp.quests.b7a64841.text.1}",
+		"{snp.quests.b7a64841.text.2}",
+		"{snp.quests.b7a64841.text.3}",
+		"{snp.quests.b7a64841.text.4}",
+		"{snp.quests.b7a64841.text.5}",
+		"{snp.quests.b7a64841.text.6}",
+		"{snp.quests.b7a64841.text.7}",
+		"{snp.quests.b7a64841.text.8}",
+		"{snp.quests.b7a64841.text.9}",
+		"{snp.quests.b7a64841.text.10}"
+	],
 	dependencies: [
 		"6c276985"
 	],
@@ -10,5 +24,13 @@
 		items: [{
 			item: "thaumcraft:jar_void"
 		}]
+	},
+	{
+		uid: "ba148c39",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}],
+		count: 9L
 	}]
 }

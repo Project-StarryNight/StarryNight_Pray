@@ -1,0 +1,19 @@
+{
+	title: "{snp.quests.991655b2.title}",
+	icon: "botania:cosmetic 1 31",
+	x: 3.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "{snp.quests.991655b2.description}",
+	text: [
+		"{snp.quests.991655b2.text.1}"
+	],
+	dependencies: [
+		"359c7ae0"
+	],
+	tasks: [{
+		uid: "8e4aa47b",
+		type: "checkmark",
+		title: "{snp.quests.991655b2.title}"
+	}]
+}

@@ -8,10 +8,7 @@
 		uid: "ffe93797",
 		type: "item",
 		items: [{
-			id: "thaumcraft:charm_undying",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:charm_undying"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

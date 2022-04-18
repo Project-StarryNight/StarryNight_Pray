@@ -1,0 +1,379 @@
+{
+"entries" :[        {
+            "key": "WITCHESOVEN",
+            "name": "tc.research_name.WITCHESOVEN",
+            "icons": [
+                "witchery:witches_oven"
+            ],
+            "category": "WITCHERY",
+            "parents": [
+                              "ESSENTIASMELTERTHAUMIUM" , "FIRSTSTEPS"
+                ],        "meta": ["HIDDEN"],
+            "location": [
+                0,0
+            ],
+            "stages": [
+                {
+                    "text": "tc.research_text.WITCHESOVEN", "required_craft":["thaumcraft:smelter_thaumium"], "required_knowledge": [
+                        "THEORY;BASICS;1"]
+               },
+                {
+                    "text": "tc.research_page.WITCHESOVEN", "recipes":["thaumcraft:witches_oven"]
+               }
+            ]
+        },
+        {
+            "key": "FUMEFUNNEL",
+            "name": "tc.research_name.FUMEFUNNEL",
+            "icons": [
+                "witchery:fume_funnel"
+            ],
+            "category": "WITCHERY",
+            "parents": [
+                "WITCHESOVEN"
+                ],
+            "location": [
+               2,
+                0
+            ],
+            "stages": [
+                {
+                    "text": "tc.research_text.FUMEFUNNEL",                    "required_knowledge": [
+                        "OBSERVATION;ALCHEMY;1","THEORY;ALCHEMY;1"
+                    ]
+          },
+                {
+                    "text": "tc.research_page.FUMEFUNNEL", "recipes":["thaumcraft:fume_funnel"]
+               }
+            ]
+        },
+  {
+    "key": "ATTUNEDSTONE",
+    "name": "tc.research_name.ATTUNEDSTONE",
+    "icons": [
+      "witchery:attuned_stone"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "WITCHESOVEN"
+    ],
+    "meta": [ "REVERSE" ],
+    "location": [
+      2,
+      -2
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.ATTUNEDSTONE",                    "required_knowledge": [
+        "OBSERVATION;BASICS;1","OBSERVATION;ARTIFICE;1","THEORY;ARTIFICE;1"
+      ]
+      },
+      {
+        "text": "tc.research_page.ATTUNEDSTONE", "recipes":["thaumcraft:attunedstone"]
+      }
+    ]
+  },
+  {
+    "key": "WALTAR",
+    "name": "tc.research_name.WALTAR",
+    "icons": [
+      "witchery:altar"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "WITCHESOVEN"
+    ],
+    "location": [
+      0,
+      -4
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.WALTAR",                    "required_knowledge": [
+        "OBSERVATION;ARTIFICE;2","THEORY;ARTIFICE;1"
+      ]
+      },
+      {
+        "text": "tc.research_page.WALTAR", "recipes":["thaumcraft:witcheryaltar"]
+      }
+    ]
+  },
+  {
+    "key": "FUMEFILTER",
+    "name": "tc.research_name.FUMEFILTER",
+    "icons": [
+      "witchery:fume_filter"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "ATTUNEDSTONE",
+      "FUMEFUNNEL"
+    ],
+    "location": [
+      4,
+      0
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.FUMEFILTER",                    "required_knowledge": [
+        "THEORY;ALCHEMY;1","THEORY;ARTIFICE;1"
+      ]
+      },
+      {
+        "text": "tc.research_page.FUMEFILTER", "recipes":["thaumcraft:fumefilter"]
+      }
+    ]
+  },
+  {
+    "key": "FILTERED_FUME_FUNNEL",
+    "name": "tc.research_name.FILTERED_FUME_FUNNEL",
+    "icons": [
+      "witchery:filtered_fume_funnel"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "FUMEFILTER",
+      "FUMEFUNNEL"
+    ],
+    "meta": [ "REVERSE" ],
+    "location": [
+      3,
+      2
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.FILTERED_FUME_FUNNEL",                    "required_knowledge": [
+        "OBSERVATION;ARTIFICE;1","THEORY;ARTIFICE;1","THEORY;INFUSION;1"
+      ]
+      },
+      {
+        "text": "tc.research_page.FILTERED_FUME_FUNNEL", "recipes":["thaumcraft:filteredfumefunnel"]
+      }
+    ]
+  },
+  {
+    "key": "RELICS",
+    "name": "tc.research_name.RELICS",
+    "icons": [
+      "witchery:chalice","witchery:candelabra"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "ATTUNEDSTONE","WALTAR"
+    ],
+    "location": [
+      2,
+      -4
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.RELICS",                    "required_knowledge": [
+        "OBSERVATION;ARTIFICE;1","THEORY;ARTIFICE;1"
+      ],"required_item": [
+        "minecraft:torch","minecraft:flower_pot"
+      ]
+      },
+      {
+        "text": "tc.research_page.RELICS", "recipes":["thaumcraft:chalice", "thaumcraft:candelabra"]
+      }
+    ]
+  },
+  {
+    "key": "MACHINES",
+    "name": "tc.research_name.MACHINES",
+    "icons": [
+      "witchery:spinning_wheel","witchery:distillery","witchery:kettle"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "ATTUNEDSTONE"
+    ],
+    "location": [
+      5,
+      -2
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.MACHINES",                    "required_knowledge": [
+        "OBSERVATION;BASICS;1","OBSERVATION;ARTIFICE;1","THEORY;ARTIFICE;1"
+      ],"required_craft": [
+        "witchery:attuned_stone"
+      ]
+      },
+      {
+        "text": "tc.research_page.MACHINES", "recipes":["thaumcraft:distillery","thaumcraft:spinning_wheel","thaumcraft:kettle"]
+      }
+    ]
+  },
+  {
+    "key": "ARTHANA",
+    "name": "tc.research_name.ARTHANA",
+    "icons": [
+      "witchery:arthana"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "WITCHESOVEN"
+    ],
+    "location": [
+      -1,
+      -1
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.ARTHANA",                    "required_item": [
+        "minecraft:golden_sword"
+      ]
+      },
+      {
+        "text": "tc.research_page.ARTHANA", "recipes":["thaumcraft:arthana"]
+      }
+    ],  "addenda": [
+    {
+      "text": "tc.research_page.ARTHANA.2",
+      "required_research":["WALTAR"]
+    }
+  ]
+  },
+  {
+    "key": "WARMBLOOD",
+    "name": "tc.research_name.WARMBLOOD",
+    "icons": [
+      "witchery:warm_blood"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "WITCHESOVEN", "BASEELDRITCH"
+    ],
+    "meta": ["HIDDEN"],
+    "location": [
+      -1,
+      1
+          ],
+    "stages": [
+      {
+        "text": "tc.research_text.WARMBLOOD",
+        "required_knowledge": [
+        "OBSERVATION;ELDRITCH;1"
+      ],"required_item": [
+        "tconstruct:edible;1;33"
+      ]
+      },
+      {
+        "text": "tc.research_page.WARMBLOOD", "recipes":["thaumcraft:warm_blood"], "warp": "1"
+      }
+    ]
+  },
+  {
+    "key": "GLYPH",
+    "name": "tc.research_name.GLYPH",
+    "icons": [
+      "witchery:ritual_circle_glyph"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "MACHINES"
+    ],
+    "location": [
+      7,
+      -2
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.GLYPH",
+        "required_knowledge": [
+          "OBSERVATION;ARTIFICE;1"
+        ]
+      },
+      {
+        "text": "tc.research_page.GLYPH", "recipes":["thaumcraft:glyph"]
+      }
+    ]
+  },
+  {
+    "key": "TAILISMAN",
+    "name": "tc.research_name.TAILISMAN",
+    "icons": [
+      "witchery:ritual_circle_glyph"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "GLYPH"
+    ],
+    "location": [
+      9,
+      -2
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.TAILISMAN",
+        "required_knowledge": [
+          "THEORY;ARTIFICE;1"
+        ],
+        "required_item": [
+          "witchery:heart_circle_glyph",
+          "witchery:ritual_circle_glyph",
+          "witchery:otherwhere_circle_glyph",
+          "witchery:infernal_circle_glyph"
+        ]
+      },
+      {
+        "text": "tc.research_page.TAILISMAN",
+        "recipes": [
+          "thaumcraft:circle_talisman"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "QUARTZ",
+    "name": "tc.research_name.QUARTZ",
+    "icons": [
+      "witchery:quartz_sphere"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "ATTUNEDSTONE"
+    ],
+    "location": [
+      4,
+      -4
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.QUARTZ",                            "required_knowledge": [
+        "OBSERVATION;ARTIFICE;1"],"required_item": [
+        "gregtech:meta_plate;1;214","gregtech:meta_plate;1;339","gregtech:meta_plate;1;340"
+      ]
+      },
+      {
+        "text": "tc.research_page.QUARTZ", "recipes":["thaumcraft:quartzsphere"]
+      }
+    ]
+  },
+  {
+    "key": "POPPET",
+    "name": "tc.research_name.POPPET",
+    "icons": [
+      "witchery:poppet"
+    ],
+    "category": "WITCHERY",
+    "parents": [
+      "WITCHESOVEN"
+    ],
+    "location": [
+      -2,
+      0
+    ],
+    "stages": [
+      {
+        "text": "tc.research_text.POPPET",                            "required_knowledge": [
+        "THEORY;ARTIFICE;2"]
+      },
+      {
+        "text": "tc.research_page.POPPET", "recipes":["thaumcraft:poppet"]
+      }
+    ]
+  }
+]
+}

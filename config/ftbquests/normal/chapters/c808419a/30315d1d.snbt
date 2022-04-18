@@ -1,0 +1,19 @@
+{
+	title: "{snp.quests.30315d1d.title}",
+	x: -5.0d,
+	y: -2.5d,
+	shape: "gear",
+	description: "{snp.quests.30315d1d.description}",
+	text: [
+		"{snp.quests.30315d1d.text.1}",
+		"{snp.quests.30315d1d.text.2}"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b6da2c8d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 988"
+		}]
+	}]
+}

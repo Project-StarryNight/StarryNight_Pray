@@ -1,0 +1,19 @@
+{
+	title: "{snp.quests.96066e35.title}",
+	icon: {
+		id: "draconicevolution:draconic_staff_of_power",
+		tag: {
+			DEUpgrades: {
+				rfCap: 3b,
+				digSpeed: 3b,
+				digAOE: 3b,
+				attackDmg: 3b,
+				attackAOE: 3b
+			},
+			Energy: 768000000
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -5,14 +5,13 @@
 */
 
 import mods.gregtech.recipe.RecipeMap;
-import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 
 ///移除配方
 
 //定义数组
-var items as IIngredient[] = [
+var items as IItemStack[] = [
     <enderio:item_material:22>,
     <enderio:item_item_conduit>,
     <enderio:item_liquid_conduit:*>,
@@ -43,7 +42,7 @@ for i, item in items {
 }
 
 //导管粘合剂胚料
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:sand> * 2,<ore:gravel> * 2,<ore:clay> * 2])
     .fluidInputs(<liquid:concrete> * 576)
     .outputs(<enderio:item_material:22> * 8)
@@ -65,7 +64,7 @@ recipes.addShapedMirrored(<enderio:item_item_conduit> * 2,[
 //流体导管
 recipes.addShapedMirrored(<enderio:item_liquid_conduit:0> * 8,[
     [<enderio:item_material:4>,<enderio:item_material:4>,<enderio:item_material:4>],
-    [<ore:blockGlassHardened>,<gregtech:fluid_pipe_tiny:260>,<ore:blockGlassHardened>],
+    [<ore:blockGlassHardened>,<ore:pipeSmallFluidBronze>,<ore:blockGlassHardened>],
     [<enderio:item_material:4>,<enderio:item_material:4>,<enderio:item_material:4>]]);
 
 //高压流体导管
@@ -75,7 +74,7 @@ recipes.addShapedMirrored(<enderio:item_liquid_conduit:1> * 8,[
     [<enderio:item_liquid_conduit:0>,<gregtech:fluid_pipe_tiny:2037>,<enderio:item_liquid_conduit:0>]]);
 
 //末影流体导管
-<recipemap:assembler>.recipeBuilder()
+assembler.recipeBuilder()
     .inputs([<ore:nuggetPulsatingIron> * 8,
         <enderio:item_liquid_conduit:1> * 4,
         <gregtech:meta_item_1:143>,
@@ -88,7 +87,7 @@ recipes.addShapedMirrored(<enderio:item_liquid_conduit:1> * 8,[
     .buildAndRegister();
 
 //石英玻璃
-<recipemap:alloy_smelter>.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs(<ore:blockQuartz>)
     .outputs(<enderio:block_fused_quartz>)
     .notConsumable(<gregtech:meta_item_1:18>)
@@ -110,8 +109,9 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
 
 //红石合金
 <ore:ingotRedstoneAlloy>.add(<gregtech:meta_ingot:2517>);
+
 //脉冲水晶
-<recipemap:fluid_solidifier>.recipeBuilder()
+fluid_solidifier.recipeBuilder()
     .inputs(<ore:gemFlawlessEmerald>)
     .outputs(<enderio:item_material:15>)
     .fluidInputs(<liquid:pulsating_iron> * 144)
@@ -119,14 +119,15 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .EUt(480)
     .buildAndRegister();
 
-<recipemap:macerator>.recipeBuilder()
+macerator.recipeBuilder()
     .inputs(<enderio:item_material:15>)
     .outputs(<enderio:item_material:35>)
     .duration(5)
     .EUt(120)
     .buildAndRegister();
+
 //充能水晶
-<recipemap:fluid_solidifier>.recipeBuilder()
+fluid_solidifier.recipeBuilder()
     .inputs(<ore:gemFlawlessDiamond>)
     .outputs(<enderio:item_material:14>)
     .fluidInputs(<liquid:vibrant_alloy> * 144)
@@ -134,21 +135,38 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .EUt(120)
     .buildAndRegister();
 
-<recipemap:macerator>.recipeBuilder()
+macerator.recipeBuilder()
     .inputs(<enderio:item_material:14>)
     .outputs(<enderio:item_material:36>)
     .duration(5)
     .EUt(120)
     .buildAndRegister();
-//充能铁锭
-<recipemap:alloy_smelter>.recipeBuilder()
+
+//末影水晶粉
+macerator.recipeBuilder()
+    .inputs(<ore:itemEnderCrystal>)
+    .outputs(<enderio:item_material:37>)
+    .duration(10)
+    .EUt(120)
+    .buildAndRegister();
+
+//预知水晶粉
+macerator.recipeBuilder()
+    .inputs(<ore:itemPrecientCrystal>)
+    .outputs(<enderio:item_material:34>)
+    .duration(20)
+    .EUt(256)
+    .buildAndRegister();
+
+//脉冲铁锭
+alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotIron>,<ore:dustEnderPearl>])
     .outputs(<gregtech:meta_ingot:32004>)
     .EUt(16)
     .duration(30)
     .buildAndRegister();
 
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustIron>,<ore:dustEnderPearl>])
     .outputs(<gregtech:meta_dust:32004>)
     .EUt(16)
@@ -156,7 +174,7 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .buildAndRegister();
 
 //导电铁锭
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustIron>,<ore:dustSilicon>,<ore:dustRedstone>])
     .outputs(<gregtech:meta_dust:32008> * 2)
     .duration(200)
@@ -164,27 +182,26 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .buildAndRegister();
 
 //充能合金
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustRedAlloy> * 2,<ore:dustGold> * 2])
-    .outputs(<gregtech:meta_dust:32006> * 4)
+    .outputs(<gregtech:meta_dust:32005> * 4)
     .fluidInputs([<liquid:glowstone> * 576])
     .duration(320)
     .EUt(120)
     .buildAndRegister();
 
-
 //脉冲合金
-<recipemap:mixer>.recipeBuilder()
-    .inputs([<ore:dustEnergeticAlloy>,<ore:dustPulsatingIron>,<ore:dustEnderEye> * 2])
-    .outputs(<gregtech:meta_dust:32005> * 4)
+mixer.recipeBuilder()
+    .inputs([<ore:dustEnergeticAlloy>,<ore:dustPulsatingIron>,<ore:dustEnderPearl> * 2])
+    .outputs(<gregtech:meta_dust:32006> * 4)
     .circuit(1)
     .duration(70)
     .EUt(480)
     .buildAndRegister();
 
-<recipemap:mixer>.recipeBuilder()
-    .inputs([<ore:dustEnergeticAlloy> * 2,<ore:dustPulsatingIron> * 2,<ore:dustEnderEye> * 2])
-    .outputs(<gregtech:meta_dust:32005> * 8)
+mixer.recipeBuilder()
+    .inputs([<ore:dustEnergeticAlloy> * 2,<ore:dustPulsatingIron> * 2,<ore:dustEnderPearl> * 2])
+    .outputs(<gregtech:meta_dust:32006> * 8)
     .circuit(2)
     .fluidInputs([<liquid:titanium_tetrachloride> * 1000])
     .duration(120)
@@ -192,21 +209,22 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .buildAndRegister();
 
 //玄钢
-<recipemap:alloy_smelter>.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotSteel>,<ore:obsidian>])
     .outputs(<gregtech:meta_ingot:32009>)
     .duration(210)
     .EUt(120)
     .buildAndRegister();
 
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustSteel>,<ore:dustObsidian>])
     .outputs(<gregtech:meta_dust:32009>)
     .duration(180)
     .EUt(120)
     .buildAndRegister();
-//末地钢
-<recipemap:mixer>.recipeBuilder()
+
+//末影钢
+mixer.recipeBuilder()
     .inputs([<ore:dustDarkSteel> * 2,<ore:dustEndstone> * 2])
     .fluidInputs([<liquid:helium> * 240])
     .outputs(<gregtech:meta_dust:32010> * 2)
@@ -214,9 +232,8 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .EUt(1920)
     .buildAndRegister();
 
-
 //晶化合金
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustEndSteel> * 2,<ore:itemVibrantPowder>])
     .outputs(<gregtech:meta_dust:32012> * 2)
     .circuit(1)
@@ -225,7 +242,7 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .EUt(7680)
     .buildAndRegister();
 
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustEndSteel> * 4,<ore:itemVibrantPowder>])
     .outputs(<gregtech:meta_dust:32012> * 4)
     .circuit(2)
@@ -233,8 +250,9 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .duration(45)
     .EUt(7680)
     .buildAndRegister();
+
 //旋律合金
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustEndSteel> * 4,<ore:itemPulsatingPowder> * 2,<ore:dustIndium>])
     .outputs(<gregtech:meta_dust:32013> * 4)
     .fluidInputs([<liquid:radon> * 400])
@@ -243,7 +261,7 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .buildAndRegister();
 
 //恒星合金
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustNaquadah>,<ore:dustNetherStar>,<ore:dustMelodicAlloy>,<ore:dustCrystallineAlloy>])
     .fluidInputs([<liquid:palladium> * 144])
     .outputs(<gregtech:meta_dust:32014> * 4)
@@ -252,7 +270,7 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .buildAndRegister();
 
 //磁钢
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:dustVanadiumSteel>,<ore:dustSilicon>,<ore:dustRedstone>*2,<ore:dustBlueSteel>])
     .outputs(<gregtech:meta_dust:32011>*4)
     .duration(170)
@@ -260,7 +278,7 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .buildAndRegister();
 
 //魂金
-<recipemap:extractor>.recipeBuilder()
+extractor.recipeBuilder()
     .inputs(<ore:soulSand>)
     .fluidOutputs([<liquid:liquid_spirit> * 250])
     .chancedOutput(<minecraft:sand>, 9001, 333)
@@ -268,7 +286,7 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
     .EUt(120)
     .buildAndRegister();
 
-<recipemap:fluid_solidifier>.recipeBuilder()
+fluid_solidifier.recipeBuilder()
     .inputs(<ore:ingotRedSteel>)
     .fluidInputs([<liquid:liquid_spirit> * 250])
     .outputs(<gregtech:meta_ingot:32007>)
@@ -313,7 +331,7 @@ for i in 0 to 8 {
 }
 
 //工业涂料
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:itemPulsatingPowder>*2,<gregtech:meta_item_1:430>*4,<gregtech:meta_item_1:429>*4])
     .fluidInputs([<liquid:polytetrafluoroethylene> * 576])
     .outputs(<enderio:item_material:51>*4)
@@ -322,7 +340,7 @@ for i in 0 to 8 {
     .buildAndRegister();
 
 //灵魂协调涂料
-<recipemap:chemical_bath>.recipeBuilder()
+chemical_bath.recipeBuilder()
     .inputs(<enderio:item_material:51>)
     .fluidInputs([<liquid:liquid_spirit> * 1000])
     .outputs(<enderio:item_material:52>)
@@ -331,7 +349,7 @@ for i in 0 to 8 {
     .buildAndRegister();
 
 //强化涂料
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([<ore:itemVibrantPowder>*2,<gregtech:meta_item_1:430>*4,<gregtech:meta_item_1:428>*4])
     .fluidInputs([<liquid:reinforced_epoxy_resin> * 576])
     .outputs(<enderio:item_material:67>*2)
@@ -340,7 +358,7 @@ for i in 0 to 8 {
     .buildAndRegister();
 
 //工业机器框架
-<recipemap:alloy_smelter>.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs([<ore:frameGtElectricalSteel>,<enderio:item_material:51>])
     .outputs(<enderio:item_material:1>)
     .duration(670)
@@ -348,7 +366,7 @@ for i in 0 to 8 {
     .buildAndRegister();
 
 //灵魂机器框架
-<recipemap:alloy_smelter>.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs([<ore:frameGtDarkSteel>,<enderio:item_material:52>])
     .outputs(<enderio:item_material:53>)
     .duration(450)
@@ -356,7 +374,7 @@ for i in 0 to 8 {
     .buildAndRegister();
 
 //强化机器框架
-<recipemap:alloy_smelter>.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs([<ore:frameGtEndSteel>,<enderio:item_material:67>])
     .outputs(<enderio:item_material:54>)
     .duration(900)
@@ -364,38 +382,38 @@ for i in 0 to 8 {
     .buildAndRegister();
 
 //离魂机器框架
-<recipemap:assembler>.recipeBuilder()
-    .inputs([<ore:frameGtCrystallineAlloy>,<enderio:item_material:40>*4,<enderio:item_material:41>*4,
-            <enderio:item_material:42>*4,<enderio:item_material:43>*4,<enderio:item_material:44>*4,
-            <enderio:item_material:45>*4,<enderio:item_material:56>*4,<enderio:block_enderman_skull:2>*4])
-    .fluidInputs([<liquid:polybenzimidazole>* 1152])
-    .outputs(<enderio:item_material:55>)
+assembler.recipeBuilder()
+    .inputs([<ore:itemEnhancedMachineChassi>, <ore:frameGtCrystallineAlloy>, <enderio:item_material:40> * 4,
+            <enderio:item_material:41> * 4, <enderio:item_material:42> * 4, <enderio:item_material:44> * 4,
+            <enderio:item_material:45> * 4, <enderio:item_material:56> * 4, <ore:plateEnderium> * 6])
+    .fluidInputs([<liquid:polybenzimidazole> * 1728])
+    .outputs(<enderio:item_material:55> * 2)
     .duration(1570)
     .EUt(7680)
     .buildAndRegister();
 
-//电动刷怪笼 
+//电动刷怪笼
 recipes.addShaped(<enderio:block_powered_spawner>,[
-    [<ore:plateCrystallineAlloy>,<enderio:item_material:55>,<ore:plateCrystallineAlloy>],
-    [<ore:plateCrystallineAlloy>,<enderio:item_broken_spawner>,<ore:plateCrystallineAlloy>],
-    [<ore:circuitUltimate>,<enderio:item_material:55>,<ore:circuitUltimate>]]);
+    [<ore:plateCrystallineAlloy>,<ore:itemSoulMachineChassi>,<ore:plateCrystallineAlloy>],
+    [<ore:plateCrystallineAlloy>,<gregtech:meta_item_1:207>,<ore:plateCrystallineAlloy>],
+    [<ore:circuitZpm>,<ore:itemUnsouledMachineChassi>,<ore:circuitZpm>]]);
 
 //头颅装配机
 recipes.addShaped(<enderio:block_farm_station>,[
     [<ore:itemSkull>,<ore:toolHeadBuzzSawTungstenCarbide>,<ore:itemSkull>],
-    [<ore:circuitElite>,<enderio:item_material:53>,<ore:circuitElite>],
+    [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
 
 //种植站
 recipes.addShaped(<enderio:block_slice_and_splice>,[
     [<enderio:item_material:44>,<enderio:item_material:17>,<enderio:item_material:45>],
-    [<ore:circuitElite>,<enderio:item_material:53>,<ore:circuitElite>],
+    [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
 
-//灵魂绑定器 
+//灵魂绑定器
 recipes.addShaped(<enderio:block_soul_binder>,[
     [<enderio:item_material:56>,<enderio:item_soul_vial>,<enderio:block_enderman_skull:2>],
-    [<ore:circuitElite>,<enderio:item_material:53>,<ore:circuitElite>],
+    [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
 
 //酿液桶
@@ -404,7 +422,7 @@ recipes.addShaped(<enderio:block_vat>,[
     [<gregtech:boiler_casing:4>,<enderio:item_material:1>,<gregtech:boiler_casing:4>],
     [<ore:plateDarkSteel>,<ore:blockElectricalSteel>,<ore:plateDarkSteel>]]);
 
-//强化酿液桶 
+//强化酿液桶
 recipes.addShaped(<enderio:block_enhanced_vat>,[
     [<enderio:item_material:13>,<gregtech:machine:338>,<enderio:item_material:13>],
     [<gregtech:boiler_casing:4>,<enderio:item_material:54>,<gregtech:boiler_casing:4>],

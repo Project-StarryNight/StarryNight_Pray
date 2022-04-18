@@ -1,0 +1,12 @@
+{
+	x: 13.5d,
+	y: 5.0d,
+	dependencies: [
+		"68f80ca9"
+	],
+	tasks: [{
+		uid: "ec89d149",
+		type: "fluid",
+		fluid: "enchanted_nitro_diesel"
+	}]
+}

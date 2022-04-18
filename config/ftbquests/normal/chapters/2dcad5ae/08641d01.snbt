@@ -1,6 +1,18 @@
 {
+	title: "{snp.quests.08641d01.title}",
 	x: 2.0d,
 	y: 2.0d,
+	description: "{snp.quests.08641d01.description}",
+	text: [
+		"{snp.quests.08641d01.text.1}",
+		"{snp.quests.08641d01.text.2}",
+		"{snp.quests.08641d01.text.3}",
+		"{snp.quests.08641d01.text.4}",
+		"{snp.quests.08641d01.text.5}",
+		"{snp.quests.08641d01.text.6}",
+		"{snp.quests.08641d01.text.7}",
+		"{snp.quests.08641d01.text.8}"
+	],
 	dependencies: [
 		"798d132f"
 	],
@@ -8,10 +20,7 @@
 		uid: "2f20d879",
 		type: "item",
 		items: [{
-			id: "thaumcraft:thaumometer",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:thaumometer"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

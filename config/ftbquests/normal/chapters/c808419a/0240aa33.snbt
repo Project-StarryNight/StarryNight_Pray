@@ -1,0 +1,19 @@
+{
+	title: "{snp.quests.0240aa33.title}",
+	x: -1.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "{snp.quests.0240aa33.description}",
+	dependencies: [
+		"9cfbd0a5"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "9ea33c6e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 113"
+		}],
+		count: 32L
+	}]
+}

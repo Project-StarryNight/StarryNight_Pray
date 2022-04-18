@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"519560b4"
+	],
+	tasks: [{
+		uid: "df47cf4e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 145"
+		}]
+	},
+	{
+		uid: "7cdfde69",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 160"
+		}]
+	},
+	{
+		uid: "e785c329",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 175"
+		}]
+	},
+	{
+		uid: "a993377f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 190"
+		}]
+	}]
+}

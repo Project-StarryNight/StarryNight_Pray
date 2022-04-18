@@ -1,4 +1,5 @@
 {
+	title: "{snp.quests.4174d171.title}",
 	x: 10.0d,
 	y: -2.0d,
 	dependencies: [
@@ -18,10 +19,65 @@
 					id: 0s,
 					lvl: 1s
 				}]
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "faf877d3",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_sword",
+			tag: {
+				infench: [{
+					id: 5s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eaa99648",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_shovel",
+			tag: {
+				infench: [{
+					id: 1s,
+					lvl: 1s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3235e5ff",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					id: 4s,
+					lvl: 1s
+				},
+				{
+					id: 3s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f627efc6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:elemental_hoe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

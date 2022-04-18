@@ -89,15 +89,12 @@ key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:34
 key_Reload Menu | CTRL + ALT + :0
-key_Toggle Customization Overlay | CTRL + ALT + :62
+key_Toggle Customization Overlay | CTRL + ALT + :61
 key_keybind.baublesinventory:48
 key_key.toggle_shaders:0
 key_bloodmagic.keybind.open_holding:38
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
-key_key.conarm.toggle_helm.desc:34
-key_key.conarm.toggle_chest.desc:35
-key_key.conarm.toggle_leg.desc:36
 key_enderutilities.key.activate_unselected:34
 key_enderutilities.key.togglemode:34
 key_key.ftbultimine:41
@@ -105,6 +102,10 @@ key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
 key_key.fart.desc:34
+key_gregtech.key.armor_mode_switch:50
+key_gregtech.key.armor_hover:35
+key_gregtech.key.armor_charging:49
+key_gregtech.key.tool_aoe_change:47
 key_keybind.hammercorerenderstack:77
 key_ingameinfoxml.key.toggle:0
 key_Reload Default Sound Device:157
@@ -115,8 +116,6 @@ key_key.open_wpt.desc:0
 key_key.dismount:42
 key_key.narrator:0
 key_smoothfont.key.guiOpen:0
-key_key.cofh.multimode:47
-key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -128,8 +127,10 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.cofh.multimode:47
+key_key.toggle_focus.desc:15
 key_key.draconicevolution.placeItem:25
-key_key.draconicevolution.toolConfig:0
+key_key.draconicevolution.toolConfig:55
 key_key.draconicevolution.toolProfileChange:43
 key_key.draconicevolution.armorProfileChange:43:ALT
 key_key.draconicevolution.toggleFlight:0
@@ -147,10 +148,6 @@ key_key.overload:33:SHIFT
 key_key.chaosInjection:34:SHIFT
 key_FpsReducer.key.guiOpen:0
 key_FpsReducer.key.forceIdle:0
-key_ALT Menu:56
-key_Mode Switch:50
-key_Jetpack Hover:35
-key_Armor Charging:49
 key_key.itemzoom.toggle:44:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
@@ -168,9 +165,6 @@ key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_key.carpet_forward:17
 key_key.carpet_backward:31
-key_key.trashslot.toggle:20
-key_key.trashslot.delete:211
-key_key.trashslot.deleteAll:211:SHIFT
 key_开关喷气背包:45
 key_打开火箭界面:0
 key_切换 RCS:19

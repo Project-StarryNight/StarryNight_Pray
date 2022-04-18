@@ -1,6 +1,8 @@
 {
+	title: "{snp.quests.db725775.title}",
 	x: 6.0d,
 	y: 0.0d,
+	description: "{snp.quests.db725775.description}",
 	dependencies: [
 		"64c30735"
 	],
@@ -8,10 +10,7 @@
 		uid: "7e4965f8",
 		type: "item",
 		items: [{
-			id: "thaumcraft:goggles",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:goggles"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

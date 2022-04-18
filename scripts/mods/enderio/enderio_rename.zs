@@ -5,7 +5,8 @@
 */
 
 #priority 100
+
 game.setLocalization("en_us","enderio.item_endergy_conduit_pink_slime.name","Pulsating Iron Energy Conduit");
-game.setLocalization("zh_cn","enderio.item_endergy_conduit_pink_slime.name","充能铁能量导管");
+game.setLocalization("zh_cn","enderio.item_endergy_conduit_pink_slime.name","脉冲铁能量导管");
 game.setLocalization("en_us","enderio.item_endergy_conduit_electrum.name","Ender Steel Energy Conduit");
 game.setLocalization("zh_cn","enderio.item_endergy_conduit_electrum.name","末影钢能量导管");

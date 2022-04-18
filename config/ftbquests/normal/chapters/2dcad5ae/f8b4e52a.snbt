@@ -1,6 +1,15 @@
 {
+	title: "{snp.quests.f8b4e52a.title}",
 	x: 0.0d,
 	y: 2.0d,
+	description: "{snp.quests.f8b4e52a.description}",
+	text: [
+		"{snp.quests.f8b4e52a.text.1}",
+		"{snp.quests.f8b4e52a.text.2}",
+		"{snp.quests.f8b4e52a.text.3}",
+		"{snp.quests.f8b4e52a.text.4}",
+		"{snp.quests.f8b4e52a.text.5}"
+	],
 	dependencies: [
 		"08641d01"
 	],
@@ -8,10 +17,25 @@
 		uid: "378899bb",
 		type: "item",
 		items: [{
-			id: "thaumcraft:cloth_chest",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:cloth_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "415d2f3f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cloth_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8055e841",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cloth_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

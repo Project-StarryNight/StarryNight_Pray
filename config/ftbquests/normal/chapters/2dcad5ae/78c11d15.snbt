@@ -9,10 +9,7 @@
 		uid: "07c40518",
 		type: "item",
 		items: [{
-			id: "thaumcraft:verdant_charm",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:verdant_charm"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

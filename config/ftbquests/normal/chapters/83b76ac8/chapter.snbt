@@ -1,11 +1,6 @@
 {
 	title: "{snp.quests.83b76ac8.title}",
-	icon: {
-		id: "minecraft:diamond_sword",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "minecraft:diamond_sword",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

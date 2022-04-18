@@ -70,6 +70,11 @@
 				"op": "replace",
 				"path": "parents/0",
 				"value": "ELYTRA_HARNESS"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:thaumostatic_harness"
 			}
         ]
 	},
@@ -130,6 +135,11 @@
 				"op": "replace",
 				"path": "category",
 				"value": "INFUSION"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:elytra_harness"
 			}
         ]
 	},
@@ -195,8 +205,23 @@
 				"op": "replace",
 				"path": "parents/0",
 				"value": "INFUSION"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:thaumiumrobes1"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:thaumiumrobes2"
+			},
+			{
+				"op": "add",
+				"path": "stages/1/recipes/-",
+				"value": "thaumcraft:thaumiumrobes3"
 			}
-        ]
+		]
 	},
 	{
         "key": "BOOTSTRAVELLER",

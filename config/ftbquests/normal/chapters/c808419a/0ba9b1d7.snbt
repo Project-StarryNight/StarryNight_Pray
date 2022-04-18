@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "cec0e729",
+		type: "fluid",
+		fluid: "methanol"
+	},
+	{
+		uid: "81063270",
+		type: "fluid",
+		fluid: "ammonia"
+	},
+	{
+		uid: "b3aeff04",
+		type: "fluid",
+		fluid: "hypochlorous_acid"
+	}]
+}

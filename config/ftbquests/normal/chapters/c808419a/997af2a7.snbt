@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	dependencies: [
+		"e3109314",
+		"3f30438f"
+	],
+	tasks: [{
+		uid: "868463c8",
+		type: "fluid",
+		fluid: "titanium_tetrachloride",
+		amount: 32000
+	}]
+}

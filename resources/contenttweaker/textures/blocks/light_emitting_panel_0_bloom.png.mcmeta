@@ -1,0 +1,14 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "CTM",
+        "layer": "BLOOM",
+        "gregtech": true,
+        "textures": [
+            "contenttweaker:blocks/light_emitting_panel_0_bloom_ctm"
+        ],
+        "extra": {
+            "light": 1
+        }
+    }
+}

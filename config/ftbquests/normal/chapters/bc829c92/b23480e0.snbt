@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: 6.0d,
+	dependencies: [
+		"60e490b7"
+	],
+	tasks: [{
+		uid: "d8d1fc10",
+		type: "item",
+		items: [{
+			item: "minecraft:shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

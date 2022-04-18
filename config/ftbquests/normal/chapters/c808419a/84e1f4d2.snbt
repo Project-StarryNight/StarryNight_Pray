@@ -1,0 +1,36 @@
+{
+	title: "{snp.quests.84e1f4d2.title}",
+	x: -3.75d,
+	y: 0.5d,
+	shape: "gear",
+	description: "{snp.quests.84e1f4d2.description}",
+	text: [
+		"{snp.quests.84e1f4d2.text.1}",
+		"{snp.quests.84e1f4d2.text.2}",
+		"{snp.quests.84e1f4d2.text.3}"
+	],
+	dependencies: [
+		"58f3459f"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "abd4ac9e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1002"
+		}]
+	},
+	{
+		uid: "314370ed",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 3"
+		}],
+		count: 19L
+	}],
+	rewards: [{
+		uid: "98707aca",
+		type: "item",
+		item: "gregtech:machine 1 1213"
+	}]
+}

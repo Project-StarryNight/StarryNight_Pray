@@ -6,10 +6,9 @@
 
 import mods.gregtech.recipe.RecipeMap;
 import mods.jei.JEI;
-import crafttweaker.item.IIngredient;
 
 //晶化油菜种子
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([
         <ore:seedCanola> * 32,
         <enderio:block_infinity_fog> * 1,
@@ -21,7 +20,7 @@ import crafttweaker.item.IIngredient;
     .buildAndRegister();
 
 //充能油菜种子
-<recipemap:mixer>.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([
         <actuallyadditions:item_misc:23> * 16,
         <ore:powderMana> * 1,

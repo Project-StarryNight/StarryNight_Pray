@@ -3,8 +3,8 @@
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为硅岩移相器结构内容
 */
-/*
-#priority 899
+
+#priority 900
 
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
@@ -17,11 +17,11 @@ import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 
 global npcontroller as RecipeMap = FactoryRecipeMap.start("npcontroller")
-        .minInputs(0)
-        .maxInputs(2)
-        .maxFluidInputs(2)
-        .maxFluidOutputs(1)
-        .build();
+    .minInputs(0)
+    .maxInputs(2)
+    .maxFluidInputs(2)
+    .maxFluidOutputs(1)
+    .build();
 
 val id = 32001;
 val loc = "napcontroller";
@@ -47,4 +47,3 @@ Builder.start(loc, id)
     .withRecipeMap(npcontroller)
     .withBaseTexture(<metastate:gregtech:metal_casing:7>)
     .buildAndRegister();
-*/

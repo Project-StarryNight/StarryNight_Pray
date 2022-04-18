@@ -1,6 +1,18 @@
 {
+	title: "{snp.quests.6c276985.title}",
 	x: 8.0d,
 	y: 2.0d,
+	description: "{snp.quests.6c276985.description}",
+	text: [
+		"{snp.quests.6c276985.text.1}",
+		"{snp.quests.6c276985.text.2}",
+		"{snp.quests.6c276985.text.3}",
+		"{snp.quests.6c276985.text.4}",
+		"{snp.quests.6c276985.text.5}",
+		"{snp.quests.6c276985.text.6}",
+		"{snp.quests.6c276985.text.7}",
+		"{snp.quests.6c276985.text.8}"
+	],
 	dependencies: [
 		"64c30735"
 	],

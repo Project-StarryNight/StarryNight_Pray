@@ -8,10 +8,7 @@
 		uid: "f47c4a55",
 		type: "item",
 		items: [{
-			id: "thaumcraft:fortress_helm",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:fortress_helm"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

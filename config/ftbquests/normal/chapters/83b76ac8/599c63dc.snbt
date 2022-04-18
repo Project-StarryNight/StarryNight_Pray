@@ -9,6 +9,6 @@
 		type: "stat",
 		title: "{snp.quests.599c63dc.title}",
 		stat: "stat.playOneMinute",
-		value: 400000
+		value: 576000
 	}]
 }

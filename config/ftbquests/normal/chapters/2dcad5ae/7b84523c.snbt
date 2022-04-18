@@ -1,6 +1,19 @@
 {
-	x: 16.0d,
-	y: 4.0d,
+	title: "{snp.quests.7b84523c.title}",
+	x: 16.07142857142857d,
+	y: 3.1607142857142847d,
+	description: "{snp.quests.7b84523c.description}",
+	text: [
+		"{snp.quests.7b84523c.text.1}",
+		"{snp.quests.7b84523c.text.2}",
+		"{snp.quests.7b84523c.text.3}",
+		"{snp.quests.7b84523c.text.4}",
+		"{snp.quests.7b84523c.text.5}",
+		"{snp.quests.7b84523c.text.6}",
+		"{snp.quests.7b84523c.text.7}",
+		"{snp.quests.7b84523c.text.8}",
+		"{snp.quests.7b84523c.text.9}"
+	],
 	dependencies: [
 		"f1953f8c"
 	],
@@ -8,10 +21,7 @@
 		uid: "41a03276",
 		type: "item",
 		items: [{
-			id: "thaumcraft:primordial_pearl",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:primordial_pearl"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

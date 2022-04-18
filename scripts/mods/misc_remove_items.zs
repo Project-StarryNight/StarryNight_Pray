@@ -4,6 +4,8 @@
  * 此脚本为杂项移除物品内容
 */
 
+#priority 350
+
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
@@ -50,7 +52,12 @@ var items as IItemStack[] = [
     <advancedrocketry:rollingmachine>,#卷板机
     <thermalexpansion:device:10>,#公式处理器
     <advancedrocketry:productrod:0>,
-    <advancedrocketry:productrod:1>
+    <advancedrocketry:productrod:1>,
+    <thermalexpansion:augment:401>,#通量维修复原
+    <theoneprobe:probenote>,#TOP 阅读指南
+    <appliedenergistics2:grindstone>,#AE2 石英磨具
+    <appliedenergistics2:crank>#AE2 木质曲柄
+
 ];
 
 for i, item in items {
@@ -66,7 +73,8 @@ var recipeItems as IItemStack[] = [
     <thaumcraft:plate:3>,#TC6 虚空金属板
     <enderio:block_solar_panel:4>,#晶化光伏板
     <enderio:block_solar_panel:5>,#旋律光伏板
-    <enderio:block_solar_panel:6>#恒星光伏板
+    <enderio:block_solar_panel:6>,#恒星光伏板
+    <deepmoblearning:data_model_dragon>#龙数据模型
 ];
 
 for i, item in recipeItems {
@@ -116,12 +124,27 @@ var jeiItems as IItemStack[] = [
     <ironchest:diamond_obsidian_shulker_upgrade>,
     <ironchest:iron_chest:7>,#泥箱子 9000!
     <appliedenergistics2:quartz_ore>,#赛特斯石英矿石
-    <modularmachinery:itemblueprint>,#机械蓝图
+    <avaritia:singularity:*>,#无尽贪婪奇点
+    <enderutilities:enderpart:0>,#基础末影合金
+    <enderutilities:enderpart:1>,#增强
+    <enderutilities:enderpart:2>,#高级
     <enderutilities:chairwand>,
-    <enderutilities:dolly>,
     <enderutilities:machine_1:2>,
     <enderutilities:molecular_exciter>,
-    <avaritia:singularity:*>#无尽贪婪奇点
+    <draconicevolution:generator>,#DE 发电机
+    <draconicadditions:chaotic_armor_generator>,
+    <draconicadditions:armor_generator>,
+    <advancedrocketry:solargenerator>,#AR 太阳能板
+    <appliedenergistics2:material:2>,#AE2 赛特斯石英粉
+    <appliedenergistics2:material:3>,#AE2 石英粉
+    <appliedenergistics2:material:46>,#AE2 末影粉
+    <enderutilities:enderpart:20>,#EnU 末影灌注棍
+    <enderutilities:enderpart:70>,#储物桶升级
+    <enderutilities:enderpart:71>,#储物桶升级
+    <enderutilities:enderpart:72>,#储物桶升级
+    <enderutilities:enderpart:73>,#储物桶升级
+    <enderutilities:msu:0>#EnU 大型存储单元
+
 ];
 
 for i, item in jeiItems {

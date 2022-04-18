@@ -3,7 +3,7 @@
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为硅岩移相器配方内容
 */
-/*
+
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
@@ -11,7 +11,7 @@ npcontroller.recipeBuilder()
     .inputs(<ore:dustNaquadria>)
     .inputs(<rftools:dimensional_shard> * 4)
     .fluidInputs([<liquid:enriched_naquadah_fuel> * 4000, <liquid:plasma.helium> * 150])
-    .fluidOutputs(<liquid:super_naquadah_fuel> * 5000)
+    .fluidOutputs(<liquid:hyper_naquadah_fuel> * 5000)
     .duration(40)
     .EUt(500000)
     .buildAndRegister();
@@ -22,4 +22,3 @@ npcontroller.recipeBuilder()
     .duration(40)
     .EUt(125000)
     .buildAndRegister();
-*/

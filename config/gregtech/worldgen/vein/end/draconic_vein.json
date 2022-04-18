@@ -1,0 +1,37 @@
+{
+    "weight": 40,
+    "density": 0.2,
+    "min_height": 10,
+    "max_height": 90,
+    "vein_populator": {
+        "type": "surface_rock",
+        "material": "draconium_oxide_compound"
+    },
+    "dimension_filter": [
+        "name:the_end"
+    ],
+    "generator": {
+        "type": "layered",
+        "radius": [
+            15,
+            40
+        ]
+    },
+    "filler": {
+        "type": "layered",
+        "values": [
+            {
+                "primary": "ore:draconium_oxide_compound"
+            },
+            {
+                "secondary": "ore:draconium_oxide_compound"
+            },
+            {
+                "between": "ore:naquadah"
+            },
+            {
+                "sporadic": "ore:draconium_oxide_compound"
+            }
+        ]
+    }
+}

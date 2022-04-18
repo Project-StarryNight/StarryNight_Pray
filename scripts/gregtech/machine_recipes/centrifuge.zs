@@ -6,7 +6,7 @@
 
 import mods.gregtech.recipe.RecipeMap;
 
-<recipemap:centrifuge>.recipeBuilder()
+centrifuge.recipeBuilder()
     .inputs(<minecraft:skull:2> * 1)
     .chancedOutput(<thaumcraft:brain>, 5000, 1000)
     .fluidOutputs(<liquid:fermented_biomass> * 1000)
@@ -14,7 +14,7 @@ import mods.gregtech.recipe.RecipeMap;
     .EUt(16)
     .buildAndRegister();
 
-<recipemap:centrifuge>.recipeBuilder()
+centrifuge.recipeBuilder()
     .inputs(<ore:dustMagic> * 3)
     .chancedOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), 5000, 750)
     .chancedOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), 5000, 750)

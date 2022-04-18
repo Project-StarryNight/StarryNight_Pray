@@ -1,0 +1,35 @@
+{
+	title: "{snp.quests.a9780120.title}",
+	icon: "gregtech:machine 1 2001",
+	x: 9.0d,
+	y: 2.5d,
+	description: "{snp.quests.a9780120.description}",
+	text: [
+		"{snp.quests.a9780120.text.1}",
+		"{snp.quests.a9780120.text.2}"
+	],
+	dependencies: [
+		"ed1a77a0"
+	],
+	tasks: [{
+		uid: "98047297",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2001"
+		}]
+	},
+	{
+		uid: "1793e554",
+		type: "item",
+		items: [{
+			item: "gcym:large_multiblock_casing 1 1"
+		}],
+		count: 35L
+	}],
+	rewards: [{
+		uid: "ced0c187",
+		type: "item",
+		item: "gregtech:wire_coil 1 3",
+		count: 24
+	}]
+}

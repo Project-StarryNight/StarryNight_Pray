@@ -1,0 +1,40 @@
+{
+	title: "{snp.quests.7de8a258.title}",
+	x: -1.5d,
+	y: -4.5d,
+	text: [
+		"{snp.quests.7de8a258.text.1}"
+	],
+	dependencies: [
+		"e3109314"
+	],
+	tasks: [{
+		uid: "d26d1882",
+		type: "fluid",
+		fluid: "benzene"
+	},
+	{
+		uid: "47162dbb",
+		type: "fluid",
+		fluid: "ethylene"
+	},
+	{
+		uid: "1d9d9897",
+		type: "fluid",
+		fluid: "styrene"
+	},
+	{
+		uid: "9a74ce31",
+		type: "fluid",
+		fluid: "butadiene",
+		amount: 3000
+	},
+	{
+		uid: "d74ce56f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1003"
+		}],
+		count: 41L
+	}]
+}

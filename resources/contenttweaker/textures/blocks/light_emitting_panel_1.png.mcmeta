@@ -1,0 +1,10 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "CTM",
+        "layer": "CUTOUT",
+        "textures": [
+            "contenttweaker:blocks/light_emitting_panel_1_ctm"
+        ]
+    }
+}

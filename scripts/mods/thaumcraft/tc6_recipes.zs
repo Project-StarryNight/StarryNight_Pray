@@ -12,42 +12,6 @@ import mods.thaumcraft.ArcaneWorkbench;
 //水银合成
 furnace.addRecipe(<thaumcraft:quicksilver>, <gregtech:meta_gem:268>, 0.0);
 
-//工具 by TechLord22
-<ore:gtceWrenches>.addItems([
-	<gregtech:meta_tool:8>.withEmptyTag(),
-	<gregtech:meta_tool:28>.withEmptyTag(),
-	<gregtech:meta_tool:29>.withEmptyTag(),
-	<gregtech:meta_tool:30>.withEmptyTag()]);
-
-<ore:gtceScrewdrivers>.addItems([
-	<gregtech:meta_tool:11>.withEmptyTag(),
-	<gregtech:meta_tool:31>.withEmptyTag()]);
-
-<ore:gtceHardHammers>.addItems([
-	<gregtech:meta_tool:6>.withEmptyTag()]);
-
-<ore:gtceSaws>.addItems([
-	<gregtech:meta_tool:5>.withEmptyTag(),
-	<gregtech:meta_tool:25>.withEmptyTag(),
-	<gregtech:meta_tool:26>.withEmptyTag(),
-	<gregtech:meta_tool:27>.withEmptyTag(),
-	<gregtech:meta_tool:32>.withEmptyTag()]);
-
-<ore:gtceFiles>.addItems([
-	<gregtech:meta_tool:9>.withEmptyTag()]);
-
-<ore:gtceWireCutters>.addItems([
-	<gregtech:meta_tool:13>.withEmptyTag()]);
-
-<ore:gtceSoftHammers>.addItems([
-	<gregtech:meta_tool:7>.withEmptyTag()]);
-
-<ore:gtceMortars>.addItems([
-	<gregtech:meta_tool:12>.withEmptyTag()]);
-
-<ore:gtceknife>.addItems([
-	<gregtech:meta_tool:15>.withEmptyTag()]);
-
 //移除合成
 var items as IItemStack[] = [
     <thaumcraft:thaumium_helm>,
@@ -100,6 +64,7 @@ var arcaneItems as IItemStack[] = [
     <thaumcraft:condenser>,
     <thaumcraft:filter>,
     <thaumcraft:morphic_resonator>,
+    <thaumadditions:disenchant_fabric:*>
 ];
 
 for i, item in arcaneItems {
@@ -242,7 +207,7 @@ recipes.addShaped(<thaumcraft:stone_arcane> * 9,[
 ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@2", 50,
     [<aspect:aer> * 1, <aspect:aqua> * 1, <aspect:ordo> * 1, <aspect:perditio> * 1, <aspect:ignis> * 1, <aspect:terra> * 1], <thaumcraft:thaumometer>, [
     [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>],
-    [<ore:plateGold>,<ore:lensGlass>,<ore:plateGold>],
+    [<ore:plateGold>,<tconevo:part_arcane_focus>.withTag({Material: "quicksilver"}),<ore:plateGold>],
     [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>]
     ]);
 
@@ -356,7 +321,7 @@ ArcaneWorkbench.registerShapedRecipe("TubeFilter", "TUBES", 30, [], <thaumcraft:
 ArcaneWorkbench.registerShapedRecipe("AlchemicalConstruct", "TUBES", 125,
     [<aspect:ignis> * 3, <aspect:ordo> * 3], <thaumcraft:metal_alchemical>, [
     [<ore:screwSteel>, <thaumcraft:tube_buffer>, <ore:ringSteel>],
-    [<thaumcraft:tube_valve>, <ore:blockThaumium>, <thaumcraft:tube_filter>],[<ore:gtceHardHammers>, <ore:springSteel>, <ore:screwSteel>]
+    [<thaumcraft:tube_valve>, <ore:blockThaumium>, <thaumcraft:tube_filter>],[<ore:ringSteel>, <ore:springSteel>, <ore:screwSteel>]
     ]);
 
 ArcaneWorkbench.registerShapedRecipe("TubeOneway", "TUBES", 20,
@@ -548,7 +513,7 @@ Infusion.registerRecipe("ThaumiumFortressLegs", "ARMORFORTRESS", <thaumcraft:for
 
 Infusion.registerRecipe("BootsTraveller", "BOOTSTRAVELLER", <thaumcraft:traveller_boots>, 2,
     [<aspect:motus> * 100, <aspect:volatus> * 100], <minecraft:leather_boots>,
-    [<ore:listAllfishraw>, <ore:itemEnchantedFabric>, <thaumadditions:crystal_block>.withTag({Aspect: "aer"}), <ore:itemEnchantedFabric>,  <ore:feather>, <ore:itemEnchantedFabric>, <thaumadditions:crystal_block>.withTag({Aspect: "aer"}), <ore:itemEnchantedFabric>]);
+    [<minecraft:fish>, <ore:itemEnchantedFabric>, <thaumadditions:crystal_block>.withTag({Aspect: "aer"}), <ore:itemEnchantedFabric>,  <ore:feather>, <ore:itemEnchantedFabric>, <thaumadditions:crystal_block>.withTag({Aspect: "aer"}), <ore:itemEnchantedFabric>]);
 
 Infusion.registerRecipe("elementalsword", "ELEMENTALTOOLS", <thaumcraft:elemental_sword>.withTag({infench: [{lvl: 2 as short, id: 5 as short}]}), 3,
     [<aspect:aer> * 30, <aspect:motus> * 30, <aspect:aversio> * 30], <thaumcraft:thaumium_sword>,

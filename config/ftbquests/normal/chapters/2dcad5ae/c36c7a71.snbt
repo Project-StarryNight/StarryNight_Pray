@@ -1,6 +1,14 @@
 {
 	x: 4.0d,
 	y: 6.0d,
+	description: "{snp.quests.c36c7a71.description}",
+	text: [
+		"{snp.quests.c36c7a71.text.1}",
+		"{snp.quests.c36c7a71.text.2}",
+		"{snp.quests.c36c7a71.text.3}",
+		"{snp.quests.c36c7a71.text.4}",
+		"{snp.quests.c36c7a71.text.5}"
+	],
 	dependencies: [
 		"7c7ae768"
 	],
@@ -8,10 +16,7 @@
 		uid: "25c35bfa",
 		type: "item",
 		items: [{
-			id: "thaumcraft:focus_2",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:focus_2"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

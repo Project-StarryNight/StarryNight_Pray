@@ -1,6 +1,8 @@
 {
+	title: "{snp.quests.921331ea.title}",
 	x: 6.0d,
 	y: -2.0d,
+	description: "{snp.quests.921331ea.description}",
 	dependencies: [
 		"db725775"
 	],
@@ -8,10 +10,7 @@
 		uid: "073378be",
 		type: "item",
 		items: [{
-			id: "thaumicwonders:night_vision_goggles",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumicwonders:night_vision_goggles"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

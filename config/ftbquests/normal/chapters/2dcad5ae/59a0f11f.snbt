@@ -11,9 +11,6 @@
 			id: "thaumicaugmentation:thaumium_robes_hood",
 			tag: {
 				color: 11360678
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,
@@ -26,9 +23,6 @@
 			id: "thaumicaugmentation:thaumium_robes_chestplate",
 			tag: {
 				color: 11360678
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,
@@ -41,9 +35,6 @@
 			id: "thaumicaugmentation:thaumium_robes_leggings",
 			tag: {
 				color: 11360678
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,
