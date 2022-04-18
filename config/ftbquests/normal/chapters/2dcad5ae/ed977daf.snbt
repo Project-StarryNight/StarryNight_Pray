@@ -10,10 +10,7 @@
 		uid: "3d3ae8ce",
 		type: "item",
 		items: [{
-			id: "thaumcraft:thaumium_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:thaumium_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -22,10 +19,7 @@
 		uid: "a6a5a520",
 		type: "item",
 		items: [{
-			id: "thaumcraft:thaumium_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:thaumium_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -34,10 +28,7 @@
 		uid: "6fd0c26d",
 		type: "item",
 		items: [{
-			id: "thaumcraft:thaumium_shovel",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:thaumium_shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -46,10 +37,7 @@
 		uid: "52580bdc",
 		type: "item",
 		items: [{
-			id: "thaumcraft:thaumium_pick",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:thaumium_pick"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -58,10 +46,7 @@
 		uid: "1eb4f62b",
 		type: "item",
 		items: [{
-			id: "thaumcraft:thaumium_hoe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:thaumium_hoe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

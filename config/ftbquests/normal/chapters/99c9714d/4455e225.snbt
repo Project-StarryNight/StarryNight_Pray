@@ -16,12 +16,6 @@
 		uid: "37db2850",
 		type: "checkmark",
 		title: "{snp.quests.4455e225.title}",
-		icon: {
-			id: "botania:cosmetic",
-			Damage: 31s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		icon: "botania:cosmetic 1 31"
 	}]
 }

@@ -1,12 +1,6 @@
 {
 	title: "{snp.quests.7bac6c2f.title}",
-	icon: {
-		id: "botania:cosmetic",
-		Damage: 31s,
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "botania:cosmetic 1 31",
 	tags: [
 		"1"
 	],

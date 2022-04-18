@@ -16,10 +16,7 @@
 		uid: "25c35bfa",
 		type: "item",
 		items: [{
-			id: "thaumcraft:focus_2",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:focus_2"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

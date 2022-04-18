@@ -11,12 +11,6 @@
 				attackAOE: 3b
 			},
 			Energy: 768000000
-		},
-		ForgeCaps: {
-			Parent: {
-				Items: [],
-				Size: 27
-			}
 		}
 	},
 	always_invisible: false,

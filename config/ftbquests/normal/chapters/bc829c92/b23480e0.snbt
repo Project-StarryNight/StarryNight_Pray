@@ -8,10 +8,7 @@
 		uid: "d8d1fc10",
 		type: "item",
 		items: [{
-			id: "minecraft:shield",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "minecraft:shield"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

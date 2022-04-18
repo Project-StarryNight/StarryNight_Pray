@@ -18,10 +18,7 @@
 		uid: "a1e4b669",
 		type: "item",
 		items: [{
-			id: "thaumcraft:caster_basic",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:caster_basic"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

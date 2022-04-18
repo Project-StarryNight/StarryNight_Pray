@@ -1,0 +1,12 @@
+{
+	x: 16.0d,
+	y: 5.0d,
+	dependencies: [
+		"6c76fc00"
+	],
+	tasks: [{
+		uid: "7205536f",
+		type: "fluid",
+		fluid: "hyper_naquadah_fuel"
+	}]
+}

@@ -260,12 +260,11 @@ MaterialBuilder(32160, "livingrock")
     .ingot()
     .color(0xFDF5E6)
     .iconSet("INGOT")
-    .blastTemp(600, "LOW", 80, 200)
     .flags([
-        "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
+        "generate_plate", "generate_dense", "generate_rod", "generate_ring",
         "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
         "generate_spring_small", "generate_small_gear"
-        ])
+    ])
     .build();
 
 //魔力钢
@@ -273,22 +272,22 @@ MaterialBuilder(32161, "manasteel")
     .ingot()
     .color(0x00BFFF)
     .iconSet("INGOT")
-    .blastTemp(1300, "LOW", 386, 250)
+    .blastTemp(1400, "LOW", 386, 250)
     .flags([
-    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring",
     "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
     "generate_spring_small", "generate_small_gear"
     ])
     .build();
 
 //源质钢锭
-MaterialBuilder(32162, "elvenelementium")
+MaterialBuilder(32162, "elven_elementium")
     .ingot()
     .color(0xFF69B4)
     .iconSet("INGOT")
-    .blastTemp(2000, "MID", 768, 300)
+    .blastTemp(2400, "MID", 768, 300)
     .flags([
-    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring",
     "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
     "generate_spring_small", "generate_small_gear"
     ])
@@ -299,9 +298,9 @@ MaterialBuilder(32163, "mythicalsteel")
     .ingot()
     .color(0xFFD700)
     .iconSet("INGOT")
-    .blastTemp(2600, "MID", 2048, 350)
+    .blastTemp(3200, "MID", 2048, 350)
     .flags([
-    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring",
     "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
     "generate_spring_small", "generate_small_gear"
     ])
@@ -312,7 +311,7 @@ MaterialBuilder(32699, "novanium")
     .ingot()
     .fluid()
     .color(0xc0dee8).iconSet("shiny")
-    .blastTemp(10799,"HIGHEST",1966080,1000)
+    .blastTemp(10800,"HIGHEST",1966080,1000)
     .build();
 
 //Rick Astlium

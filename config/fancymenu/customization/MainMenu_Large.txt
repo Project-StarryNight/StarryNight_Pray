@@ -193,7 +193,7 @@ customization {
   y = -44
   scale = 1.0
   alignment = left
-  value = §a你好！§b%playername%！
+  value = §aHello! §b%playername%!
 }
 
 customization {
@@ -217,7 +217,7 @@ customization {
   y = -24
   scale = 1.0
   alignment = left
-  value = §aForge版本：§b%version:forge%
+  value = §aForge Version: §b%version:forge%
 }
 
 customization {
@@ -229,7 +229,7 @@ customization {
   y = -14
   scale = 1.0
   alignment = left
-  value = §a已加载 §b%loadedmods% §a个模组
+  value = §aLoaded §b%loadedmods% §aMods
 }
 
 customization {
@@ -237,7 +237,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = opencustomgui
   backgroundhovered = resources\mainmenu\creators_button_hovered-1.png
-  description = &a点击查看整合包创作人员列表~
+  description = &aClick to see the list of integration package creators.
   label = 
   loopbackgroundanimations = true
   x = -255

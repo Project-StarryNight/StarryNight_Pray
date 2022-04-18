@@ -10,10 +10,7 @@
 		uid: "e20f40a0",
 		type: "item",
 		items: [{
-			id: "thaumicperiphery:pauldron_repulsion",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumicperiphery:pauldron_repulsion"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

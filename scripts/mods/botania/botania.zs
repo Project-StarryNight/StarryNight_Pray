@@ -80,7 +80,7 @@ ManaInfusion.removeRecipe(<botania:manaresource>);
 ManaInfusion.removeRecipe(<botania:storage>);
 //ManaInfusion.addInfusion(<botania:storage>,<gregtech:meta_block_compressed_20:4>,27000);
 recipes.addShapeless(<gregtech:meta_ingot:32161>, [<botania:manaresource>]);
-recipes.addShapeless(<gregtech:meta_block_compressed_1250:1>, [<botania:storage>]);
+recipes.addShapeless(<gregtech:meta_block_compressed_2010>, [<botania:storage>]);
 ManaInfusion.addInfusion(<gregtech:meta_dust:32161>, <ore:dustSteel>, 3000);
 
 //魔力钻石
@@ -207,12 +207,11 @@ cutter.findRecipe(30, [<metaitem:blockLivingrock>], [<liquid:distilled_water> * 
 cutter.findRecipe(30, [<metaitem:blockLivingrock>], [<liquid:water> * 73]).remove();
 alloy_smelter.findRecipe(7, [<metaitem:blockLivingrock>, <metaitem:shape.mold.ingot>], null).remove();
 arc_furnace.findRecipe(30, [<metaitem:blockLivingrock>], [<liquid:oxygen> * 98]).remove();
-macerator.findRecipe(8, [<metaitem:blockLivingrock>], null).remove();
-PureDaisy.addRecipe(<minecraft:stone>, <gregtech:meta_block_compressed_1250>, 30);
+PureDaisy.addRecipe(<minecraft:stone>, <gregtech:meta_block_compressed_2010>, 30);
 
 //熔融活石
 //Melting.removeRecipe(<liquid:livingrock>, <botania:livingrock>);
-Melting.addRecipe(<liquid:livingrock> * 144, <gregtech:meta_block_compressed_1250>, 600);
+Melting.addRecipe(<liquid:livingrock> * 144,<gregtech:meta_block_compressed_2010>, 600);
 
 //稀释魔力池
 assembler.recipeBuilder()

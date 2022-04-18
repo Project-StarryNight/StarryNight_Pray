@@ -104,25 +104,25 @@ MaterialBuilder(32709, "dragon_blood")
 
 MaterialBuilder(32710, "activated_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(300)
+    .fluidTemp(1200)
     .color(0x905F83)
     .build();
 
 MaterialBuilder(32711, "critical_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(300)
+    .fluidTemp(3200)
     .color(0x4e3278)
     .build();
 
 MaterialBuilder(32712, "excited_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(300)
+    .fluidTemp(7800)
     .color(0x4D579A)
     .build();
 
 MaterialBuilder(32713, "inactivated_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(300)
+    .fluidTemp(1600)
     .color(0x363B5C)
     .build();
 

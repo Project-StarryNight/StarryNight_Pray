@@ -18,10 +18,10 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 
 global mnreactor as RecipeMap = FactoryRecipeMap.start("mnreactor")
-        .maxFluidInputs(4)
-        .maxFluidOutputs(2)
-        .maxOutputs(2)
-        .build();
+    .maxFluidInputs(4)
+    .maxFluidOutputs(2)
+    .maxOutputs(2)
+    .build();
 
 val id = 32000;
 val loc = "mnreactor";

@@ -8,10 +8,7 @@
 		uid: "ba3d193a",
 		type: "item",
 		items: [{
-			id: "thaumcraft:curiosity_band",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:curiosity_band"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

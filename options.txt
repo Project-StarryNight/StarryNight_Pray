@@ -89,7 +89,7 @@ key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:34
 key_Reload Menu | CTRL + ALT + :0
-key_Toggle Customization Overlay | CTRL + ALT + :62
+key_Toggle Customization Overlay | CTRL + ALT + :61
 key_keybind.baublesinventory:48
 key_key.toggle_shaders:0
 key_bloodmagic.keybind.open_holding:38

@@ -1,11 +1,5 @@
 {
-	icon: {
-		id: "botania:cosmetic",
-		Damage: 31s,
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "botania:cosmetic 1 31",
 	x: -2.5d,
 	y: 5.0d,
 	shape: "diamond",
@@ -22,12 +16,6 @@
 		uid: "417df53f",
 		type: "checkmark",
 		title: "{snp.quests.edb9d3c1.title}",
-		icon: {
-			id: "botania:cosmetic",
-			Damage: 31s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		icon: "botania:cosmetic 1 31"
 	}]
 }

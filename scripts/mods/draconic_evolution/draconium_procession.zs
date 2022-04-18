@@ -11,21 +11,35 @@ import crafttweaker.item.IItemStack;
 
 //注:本脚本内的"XX处理"是指这一配方是用于处理XX的,而不是通过处理获得XX
 
+//龙心处理
+starry_universe_cultivation_cabin.recipeBuilder()
+    .inputs(<draconicevolution:dragon_heart>)
+    .fluidInputs([<liquid:sterilized_growth_medium> * 8000])
+    .outputs(
+        <contenttweaker:dragon_cell> * 512
+    )
+    .fluidOutputs([<liquid:dragon_blood> * 128000])
+    .circuit(4)
+    .EUt(7680)
+    .duration(12000)
+    .buildAndRegister();
+
 //龙蛋复制
 starry_universe_cultivation_cabin.recipeBuilder()
     .inputs(<minecraft:dragon_egg>)
-    .fluidInputs([<liquid:sterilized_growth_medium>*8000])
-    .outputs(<minecraft:dragon_egg>*4)
-    .fluidOutputs([<liquid:mutagen>*3200])
+    .fluidInputs([<liquid:sterilized_growth_medium> * 8000])
+    .outputs(<minecraft:dragon_egg> * 4)
+    .fluidOutputs([<liquid:mutagen> * 3200])
     .circuit(0)
     .EUt(7680)
     .duration(9000)
     .buildAndRegister();
+
 //龙血
 starry_universe_cultivation_cabin.recipeBuilder()
     .inputs(<minecraft:dragon_egg>)
-    .fluidInputs([<liquid:sterilized_growth_medium>*8000])
-    .fluidOutputs([<liquid:dragon_blood>*32000,<liquid:mutagen>*3200])
+    .fluidInputs([<liquid:sterilized_growth_medium> * 8000])
+    .fluidOutputs([<liquid:dragon_blood> * 32000, <liquid:mutagen> * 3200])
     .circuit(1)
     .EUt(7680)
     .duration(18000)
@@ -34,9 +48,9 @@ starry_universe_cultivation_cabin.recipeBuilder()
 //龙息
 starry_universe_cultivation_cabin.recipeBuilder()
     .inputs(<minecraft:dragon_egg>)
-    .fluidInputs([<liquid:sterilized_growth_medium>*8000])
-    .outputs(<minecraft:dragon_breath>*64)
-    .fluidOutputs([<liquid:mutagen>*3200])
+    .fluidInputs([<liquid:sterilized_growth_medium> * 8000])
+    .outputs(<minecraft:dragon_breath> * 64)
+    .fluidOutputs([<liquid:mutagen> * 3200])
     .circuit(2)
     .EUt(7680)
     .duration(18000)
@@ -45,9 +59,11 @@ starry_universe_cultivation_cabin.recipeBuilder()
 //龙组织
 starry_universe_cultivation_cabin.recipeBuilder()
     .inputs(<minecraft:dragon_egg>)
-    .fluidInputs([<liquid:sterilized_growth_medium>*8000])
-    .outputs(<contenttweaker:dragon_cell>*256)
-    .fluidOutputs([<liquid:mutagen>*3200])
+    .fluidInputs([<liquid:sterilized_growth_medium> * 8000])
+    .outputs(
+        <contenttweaker:dragon_cell> * 256
+    )
+    .fluidOutputs([<liquid:mutagen> * 3200])
     .circuit(3)
     .EUt(7680)
     .duration(18000)
@@ -74,7 +90,7 @@ centrifuge.recipeBuilder()
 //沉淀龙素矿渣溶液处理
 centrifuge.recipeBuilder()
     .fluidInputs([<liquid:precipitated_draconium_residue_solution> * 5000])
-    .outputs(<gregtech:meta_dust:118> * 2,<gregtech:meta_dust:53>)
+    .outputs(<gregtech:meta_dust:118> * 2, <gregtech:meta_dust:53>)
     .fluidOutputs([<liquid:phosphoric_acid> * 2000])
     .EUt(30720)
     .duration(80)
@@ -173,7 +189,7 @@ electric_blast_furnace.recipeBuilder()
     )
     .fluidInputs([<liquid:excited_dragon_tissue_mixture> * 400])
     .fluidOutputs([<liquid:inactivated_dragon_tissue_mixture> * 600])
-    .EUt(491520)
+    .EUt(393216)
     .duration(1720)
     .property("temperature",8000)
     .buildAndRegister();

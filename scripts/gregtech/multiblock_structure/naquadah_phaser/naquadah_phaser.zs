@@ -17,11 +17,11 @@ import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 
 global npcontroller as RecipeMap = FactoryRecipeMap.start("npcontroller")
-        .minInputs(0)
-        .maxInputs(2)
-        .maxFluidInputs(2)
-        .maxFluidOutputs(1)
-        .build();
+    .minInputs(0)
+    .maxInputs(2)
+    .maxFluidInputs(2)
+    .maxFluidOutputs(1)
+    .build();
 
 val id = 32001;
 val loc = "napcontroller";

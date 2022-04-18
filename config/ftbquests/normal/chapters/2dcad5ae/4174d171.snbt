@@ -19,9 +19,6 @@
 					id: 0s,
 					lvl: 1s
 				}]
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,
@@ -37,9 +34,6 @@
 					id: 5s,
 					lvl: 2s
 				}]
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,
@@ -55,9 +49,6 @@
 					id: 1s,
 					lvl: 1s
 				}]
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,
@@ -77,9 +68,6 @@
 					id: 3s,
 					lvl: 2s
 				}]
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,
@@ -89,10 +77,7 @@
 		uid: "f627efc6",
 		type: "item",
 		items: [{
-			id: "thaumcraft:elemental_hoe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:elemental_hoe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -4,9 +4,6 @@
 		id: "astralsorcery:itemwand",
 		tag: {
 			astralsorcery: {}
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
 	always_invisible: false,

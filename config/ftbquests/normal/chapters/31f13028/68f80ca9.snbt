@@ -1,0 +1,9 @@
+{
+	x: 12.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "17aad83b",
+		type: "fluid",
+		fluid: "nitro_fuel"
+	}]
+}

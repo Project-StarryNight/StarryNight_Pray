@@ -1,11 +1,6 @@
 {
 	title: "{snp.quests.7c6af423.title}",
-	icon: {
-		id: "thaumcraft:thaumonomicon",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "thaumcraft:thaumonomicon",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

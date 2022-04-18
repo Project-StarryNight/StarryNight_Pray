@@ -1,11 +1,6 @@
 {
 	title: "{snp.quests.7f2f350b.title}",
-	icon: {
-		id: "thaumcraft:creative_flux_sponge",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "thaumcraft:creative_flux_sponge",
 	always_invisible: false,
 	group: 2087384099,
 	default_quest_shape: ""

@@ -7,9 +7,6 @@
 			GT.ToolStats: {
 				Material: "neutronium"
 			}
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
 	x: 0.0d,

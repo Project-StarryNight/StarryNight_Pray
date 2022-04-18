@@ -17,11 +17,11 @@ import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 
 global starry_universe_cultivation_cabin as RecipeMap = FactoryRecipeMap.start("succontroller")
-        .minInputs(1)
-        .minOutputs(1)
-        .minFluidInputs(1)
-        .minFluidOutputs(1)
-        .build();
+    .maxInputs(2)
+    .maxOutputs(4)
+    .maxFluidInputs(2)
+    .maxFluidOutputs(2)
+    .build();
 
 val id = 32002;
 val loc = "starry_universe_cultivation_cabin";
@@ -38,7 +38,14 @@ Builder.start(loc, id)
             .aisle("##AAA##", "##BCB##", "##BAB##", "##HHH##")
             .where("C", controller.self())
             .where("B", CTPredicate.states(<metastate:gregtech:transparent_casing:1>))
-            .where("A", CTPredicate.states(<metastate:gcym:large_multiblock_casing:11>).setMinGlobalLimited(17) | controller.autoAbilities())
+            .where("A", CTPredicate.states(<metastate:gcym:large_multiblock_casing:11>)
+            | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
+            | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setPreviewCount(1)
+            | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
+            | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
+            | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(2).setPreviewCount(2)
+            | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>).setMinGlobalLimited(2).setPreviewCount(2)
+            )
             .where("H", CTPredicate.states(<metastate:appliedenergistics2:fluix_slab>))
             .where("I", CTPredicate.states(<metastate:thaumicaugmentation:starfield_glass>))
             .where("J", CTPredicate.states(<metastate:gregtech:fusion_casing:3>))

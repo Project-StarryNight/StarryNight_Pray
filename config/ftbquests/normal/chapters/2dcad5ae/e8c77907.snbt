@@ -8,10 +8,7 @@
 		uid: "2fd866f5",
 		type: "item",
 		items: [{
-			id: "thaumcraft:cloud_ring",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "thaumcraft:cloud_ring"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

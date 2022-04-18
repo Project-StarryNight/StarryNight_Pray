@@ -10,7 +10,7 @@
 		width: 5.0d,
 		height: 3.2d,
 		rotation: 0.0d,
-		image: "minecraft:quests/pictures/gregtech_extra_ore_0.png",
+		image: "snp:textures/gregtech_extra_ore_0.png",
 		hover: [],
 		click: "",
 		dev: false

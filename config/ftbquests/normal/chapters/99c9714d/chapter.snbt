@@ -10,7 +10,7 @@
 		width: 15.0d,
 		height: 8.55d,
 		rotation: 0.0d,
-		image: "minecraft:quests/pictures/logo_0.33x.png",
+		image: "snp:textures/logo_0.33x.png",
 		hover: [],
 		click: "",
 		dev: false

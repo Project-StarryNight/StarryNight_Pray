@@ -7,9 +7,6 @@
 			terminal: {
 				_hw: {}
 			}
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
 	x: -2.5d,

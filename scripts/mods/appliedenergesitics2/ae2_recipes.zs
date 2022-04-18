@@ -9,9 +9,7 @@ macerator.recipeBuilder()
     .inputs([
         <ore:blockSkyStone> * 1
     ])
-    .outputs([
-        <appliedenergistics2:material:45> * 1
-    ])
+    .outputs(<appliedenergistics2:material:45> * 1)
     .chancedOutput(<appliedenergistics2:material:45> * 1, 5000, 1000)
     .chancedOutput(<appliedenergistics2:material:45> * 1, 2500, 500)
     .duration(200)
@@ -24,7 +22,7 @@ macerator.recipeBuilder()
         <ore:crystalFluix> * 1
     ])
     .outputs([
-        <appliedenergistics2:material:7> * 1
+        <appliedenergistics2:material:8> * 1
     ])
     .duration(200)
     .EUt(6)
