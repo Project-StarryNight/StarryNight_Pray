@@ -17,7 +17,7 @@
         -[MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.0]
         -[GCYM][GregicalityMultiblocks-1.12.2-1.1.2]
 
-    -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v51j]
+    -[应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v0.52.3]
         (附属)
         -[封包合成][PackagedAuto-1.12.2-1.0.5.19]
         -[流体合成][ae2fc-1.12.2-1.0.11]

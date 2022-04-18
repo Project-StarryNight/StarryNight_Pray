@@ -10,7 +10,7 @@
 		width: 16.0d,
 		height: 17.0d,
 		rotation: 0.0d,
-		image: "snp:texturests-3.png",
+		image: "snp:textures/circuit_parts-3.png",
 		hover: [],
 		click: "",
 		dev: false
