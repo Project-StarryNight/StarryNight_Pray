@@ -11,6 +11,48 @@ import crafttweaker.item.IItemStack;
 
 //注:本脚本内的"XX处理"是指这一配方是用于处理XX的,而不是通过处理获得XX
 
+//龙蛋复制
+starry_universe_cultivation_cabin.recipeBuilder()
+    .inputs(<minecraft:dragon_egg>)
+    .fluidInputs([<liquid:sterilized_growth_medium>*8000])
+    .outputs(<minecraft:dragon_egg>*4)
+    .fluidOutputs([<liquid:mutagen>*3200])
+    .circuit(0)
+    .EUt(7680)
+    .duration(9000)
+    .buildAndRegister();
+//龙血
+starry_universe_cultivation_cabin.recipeBuilder()
+    .inputs(<minecraft:dragon_egg>)
+    .fluidInputs([<liquid:sterilized_growth_medium>*8000])
+    .fluidOutputs([<liquid:dragon_blood>*32000,<liquid:mutagen>*3200])
+    .circuit(1)
+    .EUt(7680)
+    .duration(18000)
+    .buildAndRegister();
+
+//龙息
+starry_universe_cultivation_cabin.recipeBuilder()
+    .inputs(<minecraft:dragon_egg>)
+    .fluidInputs([<liquid:sterilized_growth_medium>*8000])
+    .outputs(<minecraft:dragon_breath>*64)
+    .fluidOutputs([<liquid:mutagen>*3200])
+    .circuit(2)
+    .EUt(7680)
+    .duration(18000)
+    .buildAndRegister();
+
+//龙组织
+starry_universe_cultivation_cabin.recipeBuilder()
+    .inputs(<minecraft:dragon_egg>)
+    .fluidInputs([<liquid:sterilized_growth_medium>*8000])
+    .outputs(<contenttweaker:dragon_cell>*256)
+    .fluidOutputs([<liquid:mutagen>*3200])
+    .circuit(3)
+    .EUt(7680)
+    .duration(18000)
+    .buildAndRegister();
+
 //氧化龙素混合物粉处理
 chemical_reactor.recipeBuilder()
     .inputs(<ore:dustDraconiumOxideCompound> * 7)

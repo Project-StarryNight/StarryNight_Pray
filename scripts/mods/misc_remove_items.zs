@@ -73,7 +73,8 @@ var recipeItems as IItemStack[] = [
     <thaumcraft:plate:3>,#TC6 虚空金属板
     <enderio:block_solar_panel:4>,#晶化光伏板
     <enderio:block_solar_panel:5>,#旋律光伏板
-    <enderio:block_solar_panel:6>#恒星光伏板
+    <enderio:block_solar_panel:6>,#恒星光伏板
+    <deepmoblearning:data_model_dragon>//龙数据模型
 ];
 
 for i, item in recipeItems {

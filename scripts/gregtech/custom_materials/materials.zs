@@ -254,6 +254,59 @@ MaterialBuilder(32152, "ender_alloy_advanced")
     .flags(["generate_plate"])
     .build();
 
+//植物魔法材料
+//活石
+MaterialBuilder(32160, "livingrock")
+    .ingot()
+    .color(0xFDF5E6)
+    .iconSet("INGOT")
+    .blastTemp(600, "LOW", 80, 200)
+    .flags([
+        "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
+        "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
+        "generate_spring_small", "generate_small_gear"
+        ])
+    .build();
+
+//魔力钢
+MaterialBuilder(32161, "manasteel")
+    .ingot()
+    .color(0x00BFFF)
+    .iconSet("INGOT")
+    .blastTemp(1300, "LOW", 386, 250)
+    .flags([
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
+    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
+    "generate_spring_small", "generate_small_gear"
+    ])
+    .build();
+
+//源质钢锭
+MaterialBuilder(32162, "elvenelementium")
+    .ingot()
+    .color(0xFF69B4)
+    .iconSet("INGOT")
+    .blastTemp(2000, "MID", 768, 300)
+    .flags([
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
+    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
+    "generate_spring_small", "generate_small_gear"
+    ])
+    .build();
+
+//神话钢锭
+MaterialBuilder(32163, "mythicalsteel")
+    .ingot()
+    .color(0xFFD700)
+    .iconSet("INGOT")
+    .blastTemp(2600, "MID", 2048, 350)
+    .flags([
+    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
+    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
+    "generate_spring_small", "generate_small_gear"
+    ])
+    .build();
+
 //Novanium
 MaterialBuilder(32699, "novanium")
     .ingot()
@@ -289,56 +342,3 @@ MaterialBuilder(32700, "rick_astlium")
 <material:brass>.addFlags("generate_ring", "generate_gear");
 <material:silver>.addFlags("generate_gear");
 <material:electrum>.addFlags("generate_gear");
-
-//植物魔法材料
-//活石
-MaterialBuilder(20000, "livingrock")
-    .ingot()
-    .color(0xFDF5E6)
-    .iconSet("INGOT")
-    .blastTemp(600, "LOW", 80, 200)
-    .flags([
-        "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
-        "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
-        "generate_spring_small", "generate_small_gear"
-        ])
-    .build();
-
-//魔力钢
-MaterialBuilder(20001, "manasteel")
-    .ingot()
-    .color(0x00BFFF)
-    .iconSet("INGOT")
-    .blastTemp(1300, "LOW", 386, 250)
-    .flags([
-    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
-    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
-    "generate_spring_small", "generate_small_gear"
-    ])
-    .build();
-
-//源质钢锭
-MaterialBuilder(20002, "elvenelementium")
-    .ingot()
-    .color(0xFF69B4)
-    .iconSet("INGOT")
-    .blastTemp(2000, "MID", 768, 300)
-    .flags([
-    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
-    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
-    "generate_spring_small", "generate_small_gear"
-    ])
-    .build();
-
-//神话钢锭
-MaterialBuilder(20003, "mythicalsteel")
-    .ingot()
-    .color(0xFFD700)
-    .iconSet("INGOT")
-    .blastTemp(2600, "MID", 2048, 350)
-    .flags([
-    "generate_plate", "generate_dense", "generate_rod", "generate_ring", 
-    "generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring",
-    "generate_spring_small", "generate_small_gear"
-    ])
-    .build();

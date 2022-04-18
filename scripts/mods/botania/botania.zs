@@ -53,7 +53,6 @@ for i, item in items {
     recipes.remove(item);
 }
 
-
 //盖亚水晶
 recipes.remove(<botania:pylon:2>);
 recipes.addShaped(<botania:pylon:2>,[
@@ -80,9 +79,9 @@ ManaInfusion.removeRecipe(<botania:manaresource>);
 //ManaInfusion.addInfusion(<botania:manaresource>,<gregtech:meta_ingot:324>,3000);
 ManaInfusion.removeRecipe(<botania:storage>);
 //ManaInfusion.addInfusion(<botania:storage>,<gregtech:meta_block_compressed_20:4>,27000);
-recipes.addShapeless(<gregtech:meta_ingot:20001>, [<botania:manaresource>]);
+recipes.addShapeless(<gregtech:meta_ingot:32161>, [<botania:manaresource>]);
 recipes.addShapeless(<gregtech:meta_block_compressed_1250:1>, [<botania:storage>]);
-ManaInfusion.addInfusion(<gregtech:meta_dust:20001>, <ore:dustSteel>, 3000);
+ManaInfusion.addInfusion(<gregtech:meta_dust:32161>, <ore:dustSteel>, 3000);
 
 //魔力钻石
 ManaInfusion.removeRecipe(<botania:storage:3>);
@@ -131,15 +130,14 @@ var mysticFlowerOutputs as IItemStack[] = [
     <botania:petal:15>
 ];
 
-for i in 0 to 16 {
-    var mysticFlowerInput = mysticFlowerInputs[i];
+for i ,mysticFlowerInput in mysticFlowerInputs {
     var mysticFlowerOutput = mysticFlowerOutputs[i];
     var mysticFlowerInput1 = <botania:doubleflower1>.definition.makeStack(i);
 
     centrifuge.recipeBuilder()
         .inputs(mysticFlowerInput)
         .fluidInputs([<liquid:sulfuric_gas> * 30])
-        .outputs(mysticFlowerOutput*2)
+        .outputs(mysticFlowerOutput * 2)
         .chancedOutput(<witchery:wispy_cotton>, 1000, 1000)
         .duration(100)
         .EUt(10)
@@ -148,7 +146,7 @@ for i in 0 to 16 {
     centrifuge.recipeBuilder()
         .inputs(mysticFlowerInput1)
         .fluidInputs([<liquid:sulfuric_gas> * 30])
-        .outputs(mysticFlowerOutput*4)
+        .outputs(mysticFlowerOutput * 4)
         .chancedOutput(<witchery:wispy_cotton>, 1000, 1000)
         .duration(100)
         .EUt(10)
@@ -169,9 +167,10 @@ recipes.addShapeless(<botania:pestleandmortar>,
 //花药台
 mixer.recipeBuilder()
     .inputs([
-        <astralsorcery:blockmarble>*5, <astralsorcery:blockmarble:2>*1,
-        <astralsorcery:blockmarbleslab>*4, <botania:petal>*3, <gregtech:meta_dust:32001>*2
+        <astralsorcery:blockmarble> * 5, <astralsorcery:blockmarble:2> * 1,
+        <astralsorcery:blockmarbleslab> * 4, <botania:petal> * 3, <gregtech:meta_dust:32001> * 2
     ])
+    .circuit(1)
     .outputs(<botania:altar>)
     .duration(600)
     .EUt(30)
@@ -179,9 +178,10 @@ mixer.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs([
-        <astralsorcery:blockmarble>*3, <astralsorcery:blockmarble:2>*1,
-        <astralsorcery:blockmarbleslab>*2, <botania:petal>*1
+        <astralsorcery:blockmarble> * 3, <astralsorcery:blockmarble:2> * 1,
+        <astralsorcery:blockmarbleslab> * 2, <botania:petal> * 1
     ])
+    .circuit(2)
     .outputs(<botania:altar>)
     .duration(300)
     .EUt(30)
@@ -190,7 +190,7 @@ assembler.recipeBuilder()
 //白雏菊
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "puredaisy"}));
 Apothecary.addRecipe(<botania:specialflower>.withTag({type: "puredaisy"}), [
-    <botania:petal>, <botania:petal>, <botania:petal>, <botania:petal>, 
+    <botania:petal>, <botania:petal>, <botania:petal>, <botania:petal>,
     <gregtech:meta_dust:32001>, <gregtech:meta_item_1:127>
 ]);
 
@@ -212,11 +212,11 @@ PureDaisy.addRecipe(<minecraft:stone>, <gregtech:meta_block_compressed_1250>, 30
 
 //熔融活石
 //Melting.removeRecipe(<liquid:livingrock>, <botania:livingrock>);
-Melting.addRecipe(<liquid:livingrock>*144, <gregtech:meta_block_compressed_1250>, 600);
+Melting.addRecipe(<liquid:livingrock> * 144, <gregtech:meta_block_compressed_1250>, 600);
 
 //稀释魔力池
 assembler.recipeBuilder()
-    .inputs([<botania:livingrock>*3, <botania:livingrock0slab>*2, <thaumcraft:salis_mundus>*1])
+    .inputs([<botania:livingrock> * 3, <botania:livingrock0slab> * 2, <thaumcraft:salis_mundus> * 1])
     .outputs(<botania:pool:2>)
     .duration(600)
     .EUt(28)
@@ -226,7 +226,7 @@ assembler.recipeBuilder()
 macerator.recipeBuilder()
     .inputs(<botania:livingrock>)
     .outputs(<gregtech:meta_dust:20000>)
-    .chancedOutput(<gregtech:meta_dust:20000>*2, 100, 1000)
+    .chancedOutput(<gregtech:meta_dust:20000> * 2, 100, 1000)
     .duration(100)
     .EUt(12)
     .buildAndRegister();
@@ -240,7 +240,7 @@ PureDaisy.addRecipe(<thaumcraft:log_greatwood>, <botania:livingwood>, 30);
 
 //活木枝
 lathe.recipeBuilder()
-    .inputs(<botania:livingwood>*2)
+    .inputs(<botania:livingwood> * 2)
     .outputs(<botania:manaresource:3>)
     .duration(100)
     .EUt(12)
@@ -290,31 +290,31 @@ ArcaneWorkbench.registerShapedRecipe("runealtar", "", 20, [<aspect:aer>, <aspect
     ]);
 
 //符文
-//移除符文
+# 移除符文
 for i in 0 to 16 {
     RuneAltar.removeRecipe(<botania:rune>.definition.makeStack(i));
 }
-//水之符文
-RuneAltar.addRecipe(<botania:rune>*2, 
-    [<ore:springManasteel>, <gregtech:meta_item_1:1001>, <ore:plateThaumium>, 
+# 水之符文
+RuneAltar.addRecipe(<botania:rune> * 2,
+    [<ore:springManasteel>, <gregtech:meta_item_1:1001>, <ore:plateThaumium>,
     <gregtech:meta_lens:314>, <harvestcraft:well>], 10000);
-//火之符文
-RuneAltar.addRecipe(<botania:rune:1>*2, [
+# 火之符文
+RuneAltar.addRecipe(<botania:rune:1> * 2, [
     <ore:gearSmallManasteel>, <ore:screwThaumium>, <appliedenergistics2:tiny_tnt>,
     <witchery:wood_ash>, <gregtech:meta_lens:311>
 ], 10000);
-//地之符文
-RuneAltar.addRecipe(<botania:rune:2>*2, [
+# 地之符文
+RuneAltar.addRecipe(<botania:rune:2> * 2, [
     <ore:foilManasteel>, <ore:ringThaumium>, <forestry:crafting_material:6>,
     <enderio:item_material:11>, <gregtech:meta_lens:278>
 ], 10000);
-//风之符文
-RuneAltar.addRecipe(<botania:rune:3>*2, [
+# 风之符文
+RuneAltar.addRecipe(<botania:rune:3> * 2, [
     <ore:screwManasteel>, <tconstruct:sharpening_kit>.withTag({Material: "thaumium"}),
     <ore:feather>, <ore:livingwoodTwig>, <gregtech:meta_lens:314>
 ], 10000);
-//魔力符文
-RuneAltar.addRecipe(<botania:rune:8>*4, [
+# 魔力符文
+RuneAltar.addRecipe(<botania:rune:8> * 4, [
     <ore:stickManasteel>, <ore:plateManasteel>, <ore:dustManasteel>,
     <ore:screwManasteel>, <ore:springSmallManasteel>, <ore:ringThaumium>
 ], 10000);
@@ -336,16 +336,16 @@ ArcaneWorkbench.registerShapedRecipe("terraplate", "", 50, [<aspect:aer>, <aspec
 
 //泰拉钢
 Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource>, <botania:manaresource:2>, <botania:manaresource:1>]);
-Agglomeration.addRecipe(<botania:manaresource:4>, 
+Agglomeration.addRecipe(<botania:manaresource:4>,
     [<ore:ingotManasteel>, <ore:ingotThaumium>, <ore:ingotAstralStarmetal>, <ore:ingotStainlessSteel>], 200000);
 
 //魔力透镜
 laser_engraver.recipeBuilder()
-    .inputs([<ore:ingotManasteel>*4, <ore:lensGlass>*1])
+    .inputs([<ore:ingotManasteel> * 4, <ore:lensGlass> * 1])
     .outputs(<botania:lens>)
     .duration(900)
     .EUt(86)
     .buildAndRegister();
 
 //磁化指环
-//mArcaneWorkbench.registerShapedRecipe("<botania:magnetring>.withT")
+//ArcaneWorkbench.registerShapedRecipe("<botania:magnetring>.withT")
