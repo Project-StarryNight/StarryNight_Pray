@@ -1,4 +1,10 @@
-#priority 901
+/*
+ * ZenScript by Hikari_Nova & MCKLt & shang_jun
+ * 未经过授权，禁止用于其他整合包或服务器内容。
+ * 此脚本为星空宇宙培育仓结构内容
+*/
+
+#priority 900
 
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
@@ -10,7 +16,7 @@ import mods.gregtech.multiblock.IBlockPattern;
 import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 
-global starry_universe_cultivation_cabin as RecipeMap = FactoryRecipeMap.start("npcontroller")
+global starry_universe_cultivation_cabin as RecipeMap = FactoryRecipeMap.start("succontroller")
         .minInputs(1)
         .minOutputs(1)
         .minFluidInputs(1)
