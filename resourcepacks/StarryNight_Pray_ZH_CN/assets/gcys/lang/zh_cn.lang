@@ -1,0 +1,335 @@
+
+
+# Materials
+
+# First Degree Materials
+material.lanthanum_oxide=氧化镧
+material.praseodymium_oxide=氧化镨
+material.neodymium_oxide=氧化钕
+material.cerium_oxide=氧化铈
+material.scandium_oxide=氧化钪
+material.europium_oxide=氧化铕
+material.gadolinium_oxide=氧化钆
+material.samarium_oxide=氧化钐
+material.yttrium_oxide=氧化钇
+material.terbium_oxide=氧化铽
+material.dysprosium_oxide=氧化镝
+material.holmium_oxide=氧化钬
+material.erbium_oxide=氧化铒
+material.thulium_oxide=氧化铥
+material.ytterbium_oxide=氧化镱
+material.lutetium_oxide=氧化镥
+material.platinum_metallic=金属铂
+item.platinum_metallic.dust=金属铂粉
+item.platinum_metallic.dustSmall=小堆金属铂粉
+item.platinum_metallic.dustTiny=小撮金属铂粉
+material.palladium_metallic=金属钯
+item.palladium_metallic.dust=金属钯粉
+item.palladium_metallic.dustSmall=小堆金属钯粉
+item.palladium_metallic.dustTiny=小撮金属钯粉
+material.ammonium_hexachloroplatinate=六氯铂酸铵
+material.chloroplatinic_acid=氯铂酸
+material.potassium_bisulfate=硫酸氢钾
+material.potassium_pyrosulfate=焦硫酸钾
+material.potassium_sulfate=硫酸钾
+material.zinc_sulfate=硫酸锌
+material.sodium_nitrate=硝酸钠
+material.rhodium_nitrate=硝酸铑
+material.sodium_ruthenate=钌酸钠
+material.sodium_peroxide=过氧化钠
+material.iridium_dioxide_residue=二氧化铱残渣
+material.ammonium_hexachloroiridiate=六氯铱酸铵
+material.tungsten_trioxide=三氧化钨
+material.hydrogen_peroxide=过氧化氢
+material.hydrazine=肼
+material.beryllium_oxide=氧化铍
+material.tantalum_pentoxide=五氧化二钽
+material.niobium_pentoxide=五氧化二铌
+material.calcium_difluoride=二氟化钙
+material.manganese_difluoride=二氟化锰
+material.calcium_carbide=碳化钙
+material.calcium_hydroxide=氢氧化钙
+material.sodium_cyanide=氰化钠
+material.chlorosulfuric_acid=氯硫酸
+material.cubic_zirconia=立方氧化锆
+material.molybdenum_trioxide=三氧化钼
+material.lead_chloride=氯化铅
+material.hexagonal_boron_nitride=六方氮化硼
+
+
+# Second Degree Materials
+material.la_pr_nd_ce_oxides_solution=La-Pr-Nd-Ce氧化物溶液
+material.sc_eu_gd_sm_oxides_solution=Sc-Eu-Gd-Sm氧化物溶液
+material.y_tb_dy_ho_oxides_solution=Y-Tb-Dy-Ho氧化物溶液
+material.er_tm_yb_lu_oxides_solution=Er-Tm-Yb-Lu氧化物溶液
+material.platinum_group_residue=铂系残基
+item.platinum_group_residue.dust=铂系残基
+item.platinum_group_residue.dustSmall=小堆铂系残基
+item.platinum_group_residue.dustTiny=小撮铂系残基
+material.palladium_rich_ammonia=富钯氨
+material.crude_platinum_residue=粗铂残渣
+item.crude_platinum_residue.dust=粗铂残渣
+item.crude_platinum_residue.dustSmall=小堆粗铂残渣
+item.crude_platinum_residue.dustTiny=小撮粗铂残渣
+material.crude_palladium_residue=粗钯残渣
+item.crude_palladium_residue.dust=粗钯残渣
+item.crude_palladium_residue.dustSmall=小堆粗钯残渣
+item.crude_palladium_residue.dustTiny=小撮粗钯残渣
+material.iridium_group_sludge=铱系污泥
+item.iridium_group_sludge.dust=铱系污泥
+item.iridium_group_sludge.dustSmall=小堆铱系污泥
+item.iridium_group_sludge.dustTiny=小撮铱系污泥
+material.rhodium_sulfate_solution=硫酸铑溶液
+material.crude_rhodium_residue=粗铑残渣
+item.crude_rhodium_residue.dust=粗铑残渣
+item.crude_rhodium_residue.dustSmall=小堆粗铑残渣
+item.crude_rhodium_residue.dustTiny=小撮粗铑残渣
+material.rhodium_salt=铑盐
+material.acidic_sodium_ruthenate_solution=酸性钌酸钠溶液
+material.acidic_iridium_dioxide_solution=酸性二氧化铱溶液
+material.graphene_oxide=氧化石墨烯
+material.ammonium_nitrate=硝酸铵
+
+
+# Third Degree Materials
+material.platinum_palladium_leachate=铂钯渗滤液
+material.rhodium_salt_solution=铑盐溶液
+
+
+# Organic Chemistry Materials
+material.butyraldehyde=丁醛
+material.ethylhexanol=2-乙基己醇
+material.diethylhexyl_phosphoric_acid=磷酸二辛酯
+material.butanol=丁醇
+material.methyl_formate=甲酸甲酯
+material.formic_acid=甲酸
+material.phthalic_anhydride=邻苯二甲酸酐
+material.ethylanthraquinone=2-乙基蒽醌
+material.ethylanthrahydroquinone=2-乙基蒽氢醌
+material.formaldehyde=甲醛
+material.acetylene=乙炔
+material.propargyl_alcohol=炔丙醇
+material.propargyl_chloride=炔丙基氯
+material.turpentine=松节油
+material.beta_pinene=β-蒎烯
+material.citral=柠檬醛
+material.beta_ionone=β-紫罗兰酮
+material.retinol=视黄醇
+material.dichloroethane=1,2-二氯乙烷
+material.ethylenediamine=乙二胺
+material.hydrogen_cyanide=氰化氢
+material.tetrasodium_edta=乙二胺四乙酸四钠
+material.ethylenediaminetetraacetic_acid=乙二胺四乙酸
+material.biotin=生物素
+material.linoleic_acid=亚油酸
+material.glutamine=谷氨酰胺
+material.aniline=苯胺
+material.acetic_anhydride=醋酸酐
+material.acetylsulfanilyl_chloride=乙酰磺胺酰氯
+material.sulfanilamide=磺胺
+material.para_xylene=对二甲苯
+material.durene=四甲基苯
+material.pyromellitic_dianhydride=均苯四酸二酐
+material.aminophenol=4-氨基苯酚
+material.dimethylformamide=二甲基甲酰胺
+material.oxydianiline=4,4'-二苯胺
+material.kapton_k=聚酰亚胺-K
+material.biphenyl_tetracarboxylic_acid_dianhydride=联苯-四羧酸二酐
+material.nitroaniline=4-硝基苯胺
+material.para_phenylenediamine=对苯二胺
+material.kapton_e=聚酰亚胺-E
+
+
+# Unknown Composition Materials
+material.rare_earth_hydroxides_solution=稀土氢氧化物溶液
+material.rare_earth_chlorides_solution=稀土氯化物溶液
+material.leached_turpentine=过滤松节油
+material.steamcracked_turpentine=蒸汽裂解松节油
+material.blood=血
+material.non_coagulating_blood=未凝固的血
+material.catalase=过氧化氢酶
+material.basic_fibroblast_growth_factor=碱性成纤维细胞生长因子
+material.epidermal_growth_factor=表皮生长因子
+material.yeast=酵母
+material.b_27_supplement=B27补充剂
+material.raw_evolutionary_medium=原始进化培养基
+material.evolutionary_medium=无菌进化培养基
+material.rich_nitrogen_mixture=富氮混合物
+material.rich_ammonia_mixture=富氨混合物
+
+# Single Block Machines
+gcys.machine.steam_ejector.name=蒸汽喷射器
+gcys.steam_ejector.tooltip=每秒产生41升蒸汽的低真空
+
+#烘干机
+gregtech.machine.dryer.tooltip=蒸发液体
+
+# Multi Block Machines
+
+# Crystallizer
+gcys.machine.crystallization_crucible.name=结晶坩埚
+
+# Biological Vat
+gcys.machine.bio_vat.name=生物缸
+
+# Roaster
+gcys.machine.roaster.name=焙烧炉
+
+# Nanoscale Fabricator
+gcys.machine.nanoscale_fabricator.name=纳米级制造室
+gcys.multiblock.nanoscale_fabricator.tooltip.1=平均坩埚热量不能超过目标温度不能超过§c250K§7。
+
+# Single Block Machines
+
+gcys.machine.dryer.lv.name=基础烘干机
+gcys.machine.dryer.mv.name=进阶烘干机
+gcys.machine.dryer.hv.name=进阶烘干机 II
+gcys.machine.dryer.ev.name=进阶烘干机 III
+gcys.machine.dryer.iv.name=精英烘干机
+gcys.machine.dryer.luv.name=精英烘干机 II
+gcys.machine.dryer.zpm.name=精英烘干机 III
+gcys.machine.dryer.uv.name=终极烘干机
+gcys.machine.dryer.uhv.name=史诗烘干机
+gcys.machine.dryer.uev.name=史诗烘干机 II
+gcys.machine.dryer.uiv.name=史诗烘干机 III
+gcys.machine.dryer.umv.name=史诗烘干机 IV
+gcys.machine.dryer.uxv.name=传奇烘干机
+gcys.machine.dryer.max.name=极限烘干机
+
+
+# Blocks
+tile.crucible.quartz.name=石英坩埚
+tile.crucible.tungsten.name=钨坩埚
+tile.crucible.graphite.name=石墨坩埚
+tile.crucible.boron_nitride.name=氮化硼坩埚
+
+
+# Vacuums
+gcys.vacuum_level.none=未真空
+gcys.vacuum_level.low=低真空
+gcys.vacuum_level.medium=中真空
+gcys.vacuum_level.high=高真空
+gcys.vacuum_level.ultra_high=超高真空
+gcys.vacuum_level.extremely_high=极高真空
+gcys.vacuum_level.perfect=完美真空
+
+# Ore Prefixes
+item.material.oreprefix.seedCrystal=%s晶种
+item.material.oreprefix.boule=人造%s
+
+# Metaitems
+
+# Crystal Stuff
+metaitem.boule.cubic_zirconia.europium.name=铕掺杂单晶立方氧化锆
+metaitem.boule.cubic_zirconia.europium.tooltip=未处理的水晶
+metaitem.wafer.cubic_zirconia.europium.name=铕掺杂立方氧化锆晶片
+metaitem.wafer.cubic_zirconia.europium.tooltip=未处理的晶片
+metaitem.wafer.crystal.interface.name=晶振接口晶片
+metaitem.wafer.crystal.interface.tooltip=原始水晶接口
+metaitem.plate.crystal.interface.name=晶振接口芯片
+metaitem.plate.crystal.interface.tooltip=晶振接口
+metaitem.engraved.crystal_chip.ruby.name=刻蚀红水晶芯片
+metaitem.engraved.crystal_chip.ruby.tooltip=控制红宝石
+metaitem.engraved.crystal_chip.sapphire.name=刻蚀蓝水晶芯片
+metaitem.engraved.crystal_chip.sapphire.tooltip=转换蓝宝石
+metaitem.engraved.crystal_chip.diamond.name=刻蚀钻石水晶芯片
+metaitem.engraved.crystal_chip.diamond.tooltip=逻辑钻石
+metaitem.crystal.modulator.ruby.name=红晶体调制器
+metaitem.crystal.modulator.ruby.tooltip=控制处理电路
+metaitem.crystal.modulator.sapphire.name=蓝晶体调制器
+metaitem.crystal.modulator.sapphire.tooltip=转换处理电路
+metaitem.crystal.modulator.diamond.name=钻石晶体调制器
+metaitem.crystal.modulator.diamond.tooltip=逻辑处理电路
+metaitem.crystal.system_on_chip.socket.name=晶体SOC插槽
+metaitem.crystal.system_on_chip.socket.tooltip=桥接晶体和电路
+
+# Wetware and 生物活性Stuff
+metaitem.magnetron.name=磁控管
+metaitem.ultrasonic_homogenizer.name=超声波均质器
+metaitem.ultrasonic_homogenizer.tooltip=用声音从大自然中提取材料！
+metaitem.petri_dish.sterile.name=无菌培养皿
+metaitem.petri_dish.sterile.tooltip=准备培养
+metaitem.culture.clean.name=洁净培养基
+metaitem.culrure.clean.tooltip=培养基为成长做好准备！
+metaitem.culture.cupriavidus_necator.name=钩虫贪铜菌培养基
+metaitem.culture.brevibacterium_flavum.name=黄色短杆菌培养基
+metaitem.rapidly_replicating_cells.name=快速复制细胞
+metaitem.superintelligent_organism.name=超智能生物
+
+
+# Item Behaviors
+metaitem.behavior.held_item_destroy.message=拿着%s损坏了它！
+
+# Circuit Boards
+metaitem.board.bioware.name=生物变异电路板
+metaitem.circuit_board.bioware.name=终极电路板
+
+# SMDs
+metaitem.component.insane_smd.capacitor.name=强导贴片电容
+metaitem.component.insane_smd.diode.name=强导贴片二极管
+metaitem.component.insane_smd.resistor.name=强导贴片电阻
+metaitem.component.insane_smd.transistor.name=强导贴片晶体管
+metaitem.component.insane_smd.inductor.name=强导贴片电感
+
+# Processing Units
+metaitem.processor.sentient.name=感知处理单元
+
+# Circuits
+# Bioware
+metaitem.circuit.bioware_processor.name=生物意识处理器
+metaitem.circuit.bioware_processor.tooltip=它是活的！/n§2ZPM-等级
+metaitem.circuit.bioware_assembly.name=生物意识组件
+metaitem.circuit.bioware_assembly.tooltip=开始思考/n§2UV-等级
+metaitem.circuit.bioware_computer.name=生物意识超级计算机
+metaitem.circuit.bioware_computer.tooltip=感悟，终于！/n§2UHV-等级
+metaitem.circuit.bioware_mainframe.name=生物意识电脑主机
+metaitem.circuit.bioware_mainframe.tooltip=拥有自我意识/n§2UEV-等级
+
+# Optical
+metaitem.circuit.optical_processor.name=光学处理器
+metaitem.circuit.optical_processor.tooltip=光速计算/n§6UV-等级
+metaitem.circuit.optical_assembly.name=光学组件
+metaitem.circuit.optical_assembly.tooltip=借助激光的力量！/n§6UHV-等级
+metaitem.circuit.optical_computer.name=光学超级计算机
+metaitem.circuit.optical_computer.tooltip=在一眨眼的功夫/n§6UEV-等级
+metaitem.circuit.optical_mainframe.name=光学电脑主机
+metaitem.circuit.optical_mainframe.tooltip=有什么可以更快的吗？/n§6UIV-等级
+
+# Exotic
+metaitem.circuit.exotic_processor.name=奇异处理器
+metaitem.circuit.exotic_processor.tooltip=很奇怪/n§5UHV-等级
+metaitem.circuit.exotic_assembly.name=奇异组件
+metaitem.circuit.exotic_assembly.tooltip=具有不寻常属性的状态/n§5UEV-等级
+metaitem.circuit.exotic_computer.name=奇异超级计算机
+metaitem.circuit.exotic_computer.tooltip=谁仍然使用纳米？/n§5UIV-等级
+metaitem.circuit.exotic_mainframe.name=奇异电脑主机
+metaitem.circuit.exotic_mainframe.tooltip=有史以来最小的大小！/n§5UXV-等级
+
+
+# Cosmic
+metaitem.circuit.cosmic_processor.name=宇宙处理器
+metaitem.circuit.cosmic_processor.tooltip=新生宇宙之初！/n§8UEV-等级
+metaitem.circuit.cosmic_assembly.name=宇宙组件
+metaitem.circuit.cosmic_assembly.tooltip=新生宇宙扩张！/n§8UIV-等级
+metaitem.circuit.cosmic_computer.name=宇宙超级计算机
+metaitem.circuit.cosmic_computer.tooltip=几乎模拟了一切！/n§8UXV-等级
+metaitem.circuit.cosmic_mainframe.name=宇宙电脑主机
+metaitem.circuit.cosmic_mainframe.tooltip=一切尽在其中！/n§8OpV-等级
+
+# Supracausal
+metaitem.circuit.supracausal_processor.name=超因果处理器
+metaitem.circuit.supracausal_processor.tooltip=借助黑洞的力量/n§fUIV-等级
+metaitem.circuit.supracausal_assembly.name=超因果组件
+metaitem.circuit.supracausal_assembly.tooltip=史诗般的奇点/n§fUXV-等级
+metaitem.circuit.supracausal_computer.name=超因果超级计算机
+metaitem.circuit.supracausal_computer.tooltip=利用虫洞来发挥我们的优势/n§fOpV-等级
+metaitem.circuit.supracausal_mainframe.name=超因果电脑主机
+metaitem.circuit.supracausal_mainframe.tooltip=问题前的回答/n§fMAX-等级
+
+# RecipeMaps
+recipemap.dryer_recipes.name=烘干
+recipemap.bio_vat_recipes.name=生物缸
+recipemap.catalytic_reformer_recipes.name=催化重整
+recipemap.crystallization_recipes.name=结晶
+recipemap.roaster_recipes.name=烘烤
+recipemap.molecular_beam_recipes.name=分子束外延
