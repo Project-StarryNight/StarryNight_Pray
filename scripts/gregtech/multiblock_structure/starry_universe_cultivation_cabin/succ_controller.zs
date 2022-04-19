@@ -17,7 +17,6 @@ assembly_line.recipeBuilder()
         <gregtech:meta_item_1:208>,
         <ore:plateDoubleStellarAlloy>,
         <thaumcraft:void_seed> * 32,
-        <draconicevolution:draconic_core> * 2,
         <draconicevolution:dragon_heart>
     ])
     .fluidInputs(<liquid:soldering_alloy> * 1152, <liquid:dragon_breath_solution> * 32000)
