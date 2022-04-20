@@ -1,5 +1,5 @@
 /*
- * ZenScript by Hikari_Nova & Duantui & shang_jun & wuxinfashi
+ * ZenScript by Hikari_Nova & Duantui & shang_jun & wuxinfashi & MCKLt
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为植物魔法内容
 */
@@ -14,6 +14,7 @@ import mods.tconstruct.Melting;
 import mods.thaumcraft.ArcaneWorkbench;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
+import mods.thaumcraft.Infusion;
 
 
 //待移除数组
@@ -44,8 +45,30 @@ var items as IItemStack[] = [
     <botania:spreader>,
     <botania:runealtar>,
     <harvestcraft:well>,
-    <botania:terraplate>,
-    <botania:lens>
+    <botania:lens>,
+    <botania:elementiumboots>,
+    <botania:elementiumlegs>,
+    <botania:elementiumchest>,
+    <botania:elementiumhelm>,
+    <botania:elementiumsword>,
+    <botania:elementiumshears>,
+    <botania:elementiumpick>,
+    <botania:elementiumaxe>,
+    <botania:elementiumshovel>,
+    <botania:manasteelboots>,
+    <botania:manasteellegs>,
+    <botania:manasteelchest>,
+    <botania:manasteelhelm>,
+    <botania:manasteelsword>,
+    <botania:manasteelshears>,
+    <botania:manasteelpick>,
+    <botania:manasteelaxe>,
+    <botania:manasteelshovel>,
+    <botania:terrasteelhelm>,
+    <botania:terrasteelchest>,
+    <botania:terrasteellegs>,
+    <botania:terrasteelboots>,
+    <botania:terraplate>
 ];
 
 //循环移除
@@ -325,14 +348,6 @@ recipes.addShaped(<harvestcraft:well>, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
-//泰拉凝聚板
-ArcaneWorkbench.registerShapedRecipe("terraplate", "", 50, [<aspect:aer>, <aspect:ordo>, <aspect:terra>, <aspect:ignis>],
-    <botania:terraplate>, [
-        [<ore:blockLapis>, <bloodmagic:slate>, <ore:blockLapis>],
-        [<botania:rune>, <botania:storage>, <botania:rune:1>],
-        [<botania:rune:2>, <botania:rune:8>, <botania:rune:3>]
-    ]);
-
 //泰拉钢
 Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource>, <botania:manaresource:2>, <botania:manaresource:1>]);
 Agglomeration.addRecipe(<botania:manaresource:4>,
@@ -348,3 +363,41 @@ laser_engraver.recipeBuilder()
 
 //磁化指环
 //ArcaneWorkbench.registerShapedRecipe("<botania:magnetring>.withT")
+
+//植物魔法系列护甲与工具
+recipes.addShaped(<botania:elementiumboots>, [[<ore:plateElvenElementium>, null, <ore:plateElvenElementium>], [<ore:plateElvenElementium>, <ore:gtceHardHammers>, <ore:plateElvenElementium>]]);
+recipes.addShaped(<botania:elementiumlegs>, [[<ore:plateElvenElementium>, <ore:plateElvenElementium>, <ore:plateElvenElementium>],[<ore:plateElvenElementium>, <ore:gtceHardHammers>, <ore:plateElvenElementium>], [<ore:plateElvenElementium>, null, <ore:plateElvenElementium>]]);
+recipes.addShaped(<botania:elementiumchest>, [[<ore:plateElvenElementium>, <ore:gtceHardHammers>, <ore:plateElvenElementium>],[<ore:plateElvenElementium>, <ore:plateElvenElementium>, <ore:plateElvenElementium>], [<ore:plateElvenElementium>, <ore:plateElvenElementium>, <ore:plateElvenElementium>]]);
+recipes.addShaped(<botania:elementiumhelm>, [[<ore:plateElvenElementium>, <ore:plateElvenElementium>, <ore:plateElvenElementium>],[<ore:plateElvenElementium>, <ore:gtceHardHammers>, <ore:plateElvenElementium>]]);
+recipes.addShaped(<botania:manasteelboots>, [[<ore:plateManasteel>, null, <ore:plateManasteel>], [<ore:plateManasteel>, <ore:gtceHardHammers>, <ore:plateManasteel>]]);
+recipes.addShaped(<botania:manasteellegs>, [[<ore:plateManasteel>, <ore:plateManasteel>, <ore:plateManasteel>],[<ore:plateManasteel>, <ore:gtceHardHammers>, <ore:plateManasteel>], [<ore:plateManasteel>, null, <ore:plateManasteel>]]);
+recipes.addShaped(<botania:manasteelhelm>, [[<ore:plateManasteel>, <ore:plateManasteel>, <ore:plateManasteel>],[<ore:plateManasteel>, <ore:gtceHardHammers>, <ore:plateManasteel>]]);
+recipes.addShaped(<botania:manasteelchest>, [[<ore:plateManasteel>, <ore:gtceHardHammers>, <ore:plateManasteel>],[<ore:plateManasteel>, <ore:plateManasteel>, <ore:plateManasteel>], [<ore:plateManasteel>, <ore:plateManasteel>, <ore:plateManasteel>]]);
+recipes.addShaped(<botania:manasteelshears>, [[<ore:plateManasteel>, <ore:screwManasteel>, <ore:plateManasteel>],[<ore:gtceHardHammers>, <ore:ringManasteel>, <ore:gtceFiles>], [<ore:livingwoodTwig>, <ore:gtceScrewdrivers>, <ore:livingwoodTwig>]]);
+recipes.addShaped(<botania:manasteelshovel>, [[<ore:gtceFiles>, <ore:plateManasteel>, <ore:gtceHardHammers>],[null, <ore:livingwoodTwig>, null], [null, <ore:livingwoodTwig>, null]]);
+recipes.addShaped(<botania:manasteelaxe>, [[<ore:plateManasteel>, <ore:ingotManasteel>, <ore:gtceHardHammers>],[<ore:plateManasteel>, <ore:livingwoodTwig>, null], [<ore:gtceFiles>, <ore:livingwoodTwig>, null]]);
+recipes.addShaped(<botania:manasteelpick>, [[<ore:ingotManasteel>, <ore:plateManasteel>, <ore:plateManasteel>],[<ore:gtceFiles>, <ore:livingwoodTwig>, <ore:gtceHardHammers>], [null, <ore:livingwoodTwig>, null]]);
+recipes.addShaped(<botania:manasteelsword>, [[null, <ore:plateManasteel>, null],[<ore:gtceFiles>, <ore:plateManasteel>, <ore:gtceHardHammers>], [null, <ore:livingwoodTwig>, null]]);
+recipes.addShaped(<botania:elementiumshears>, [[<ore:plateElvenElementium>, <ore:screwElvenElementium>, <ore:plateElvenElementium>],[<ore:gtceHardHammers>, <ore:ringElvenElementium>, <ore:gtceFiles>], [<ore:dreamwoodTwig>, <ore:gtceScrewdrivers>, <ore:dreamwoodTwig>]]);
+recipes.addShaped(<botania:elementiumshovel>, [[<ore:gtceFiles>, <ore:plateElvenElementium>, <ore:gtceHardHammers>],[null, <ore:livingwoodTwig>, null], [null, <ore:livingwoodTwig>, null]]);
+recipes.addShaped(<botania:elementiumaxe>, [[<ore:plateElvenElementium>, <ore:ingotElvenElementium>, <ore:gtceHardHammers>],[<ore:plateElvenElementium>, <ore:livingwoodTwig>, null], [<ore:gtceFiles>, <ore:livingwoodTwig>, null]]);
+recipes.addShaped(<botania:elementiumpick>, [[<ore:ingotElvenElementium>, <ore:plateElvenElementium>, <ore:plateElvenElementium>],[<ore:gtceFiles>, <ore:livingwoodTwig>, <ore:gtceHardHammers>], [null, <ore:livingwoodTwig>, null]]);
+recipes.addShaped(<botania:elementiumsword>, [[null, <ore:plateElvenElementium>, null],[<ore:gtceFiles>, <ore:plateElvenElementium>, <ore:gtceHardHammers>], [null, <ore:livingwoodTwig>, null]]);
+Infusion.registerRecipe("terrasteelhelm", "", <botania:terrasteelhelm>, 8,
+    [<aspect:herba> * 50, <aspect:terra> * 35, <aspect:praemunio> * 20, <aspect:motus> * 15, <aspect:sensus> * 15], <botania:manasteelhelm>,
+    [<thaumcraft:salis_mundus>, <ore:runeSpringB>, <thaumcraft:salis_mundus>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>]);
+Infusion.registerRecipe("terrasteelchest", "", <botania:terrasteelchest>, 8,
+    [<aspect:herba> * 65, <aspect:terra> * 50, <aspect:praemunio> * 40, <aspect:motus> * 40], <botania:manasteelchest>,
+    [<thaumcraft:salis_mundus>, <ore:runeSummerB>, <thaumcraft:salis_mundus>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>]);
+Infusion.registerRecipe("terrasteellegs", "", <botania:terrasteellegs>, 8,
+    [<aspect:herba> * 60, <aspect:terra> * 40, <aspect:praemunio> * 35, <aspect:motus> * 30], <botania:manasteellegs>,
+    [<thaumcraft:salis_mundus>, <ore:runeAutumnB>, <thaumcraft:salis_mundus>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>]);
+Infusion.registerRecipe("terrasteelboots", "", <botania:terrasteelboots>, 8,
+    [<aspect:herba> * 40, <aspect:terra> * 25, <aspect:praemunio> * 15, <aspect:motus> * 15], <botania:manasteelboots>,
+    [<thaumcraft:salis_mundus>, <ore:runeWinterB>, <thaumcraft:salis_mundus>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>]);
+
+//泰拉凝聚板
+
+Infusion.registerRecipe("terraplate", "", <botania:terraplate>, 12,
+    [<aspect:terra> * 64, <aspect:aqua> * 64, <aspect:ignis> * 64, <aspect:aer> * 64, <aspect:praecantatio> * 32, <aspect:herba> * 32], <ore:gemExquisiteGreenSapphire>,
+    [<ore:runeWaterB>, <ore:blockManasteel>, <ore:runeFireB>, <ore:blockThaumium>, <ore:runeEarthB>, <ore:blockLapis>, <ore:runeAirB>, <ore:runeManaB>]);
