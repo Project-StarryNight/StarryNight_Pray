@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: -6.5d,
+	tasks: [{
+		uid: "cf336a12",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceHardHammers"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gtceHardHammers"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

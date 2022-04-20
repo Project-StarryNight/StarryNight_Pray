@@ -1,0 +1,18 @@
+{
+	title: "{snp.quests.cb6d9034.title}",
+	x: 1.5d,
+	y: 6.5d,
+	description: "{snp.quests.cb6d9034.description}",
+	dependencies: [
+		"c6953f8c"
+	],
+	tasks: [{
+		uid: "9d8bf2c9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1002"
+		}],
+		count: 16L,
+		consume_items: false
+	}]
+}

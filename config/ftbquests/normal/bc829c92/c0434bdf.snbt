@@ -1,0 +1,41 @@
+{
+	title: "{snp.quests.c0434bdf.title}",
+	icon: "gregtech:meta_ingot 1 260",
+	x: 2.5d,
+	y: -0.5d,
+	description: "{snp.quests.c0434bdf.description}",
+	text: [
+		"{snp.quests.c0434bdf.text.1}",
+		"{snp.quests.c0434bdf.text.2}"
+	],
+	dependencies: [
+		"f26c7306",
+		"ae9a668c"
+	],
+	tasks: [{
+		uid: "b80d0133",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBronze"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "982e6f4a",
+		type: "item",
+		item: "gregtech:meta_dust 1 260",
+		count: 16,
+		random_bonus: 16
+	}]
+}

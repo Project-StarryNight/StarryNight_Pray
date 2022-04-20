@@ -1,0 +1,24 @@
+{
+	x: 8.5d,
+	y: 5.5d,
+	text: [
+		"我们可以在青金石矿脉找到它"
+	],
+	dependencies: [
+		"72476110"
+	],
+	tasks: [{
+		uid: "bb34ec69",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 262"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "9a9f6eaa",
+		type: "item",
+		item: "gregtech:meta_dust 1 262",
+		count: 34
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "这真的很难得",
+	x: 6.5d,
+	y: 6.5d,
+	text: [
+		"可以在玄武岩矿脉里找到它，数量较少几乎挖空整个矿脉才能获得一组多点"
+	],
+	dependencies: [
+		"72476110"
+	],
+	tasks: [{
+		uid: "3cc893e0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2032"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7d489a75",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:meta_dust 1 2032",
+		count: 34
+	}]
+}
