@@ -1,0 +1,67 @@
+{
+	title: "再次进化！",
+	icon: "astralsorcery:blockaltar 1 2",
+	x: 4.0d,
+	y: 0.0d,
+	description: "捕获更多星能",
+	dependencies: [
+		"7b91e4b1",
+		"4a9b8d81"
+	],
+	tasks: [{
+		uid: "b4801cda",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e179aed5",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 6"
+		}],
+		count: 4L
+	},
+	{
+		uid: "faf614f9",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}],
+		count: 40L
+	},
+	{
+		uid: "63ec4573",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 49L
+	},
+	{
+		uid: "1b42f0d9",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}],
+		count: 12L
+	},
+	{
+		uid: "56e48f5e",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9aece10c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}],
+		count: 4L
+	}]
+}

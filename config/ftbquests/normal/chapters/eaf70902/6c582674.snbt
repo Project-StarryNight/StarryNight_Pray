@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"0af3b304"
+	],
+	tasks: [{
+		uid: "cda4dfc1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}]
+	}]
+}

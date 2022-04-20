@@ -1,0 +1,16 @@
+{
+	title: "我们需要大量的大理石",
+	x: 0.0d,
+	y: 1.0d,
+	description: "并不来自于英国",
+	dependencies: [
+		"0af3b304"
+	],
+	tasks: [{
+		uid: "21fe438e",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}]
+	}]
+}

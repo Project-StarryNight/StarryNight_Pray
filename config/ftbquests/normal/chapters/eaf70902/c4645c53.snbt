@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	description: "用于替代星能浓郁之地",
+	text: [
+		"在星辉的祭坛附近放置光波增幅器多方块，会使其获得的星能变多，用于替代星能浓郁之地"
+	],
+	dependencies: [
+		"b4a79ca8"
+	],
+	tasks: [{
+		uid: "59df6c06",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementrelay"
+		}]
+	}]
+}

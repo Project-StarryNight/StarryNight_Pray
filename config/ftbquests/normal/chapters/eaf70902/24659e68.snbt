@@ -1,0 +1,60 @@
+{
+	icon: "astralsorcery:blockattunementaltar",
+	x: 1.0d,
+	y: -1.0d,
+	description: "让我们与其共鸣",
+	text: [
+		"在与星座共鸣时玩家站上去的话，也会进行共鸣并获得星能力，仅限初始五星座。"
+	],
+	dependencies: [
+		"7b91e4b1"
+	],
+	tasks: [{
+		uid: "85366a6c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	},
+	{
+		uid: "07951eb1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 6"
+		}],
+		count: 4L
+	},
+	{
+		uid: "58b0ea61",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 3"
+		}],
+		count: 80L,
+		consume_items: false
+	},
+	{
+		uid: "cece8971",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 2"
+		}],
+		count: 12L
+	},
+	{
+		uid: "54621b14",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ccef3dd5",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 225L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "寻找星能浓郁之地",
+	x: -1.0d,
+	y: -1.0d,
+	description: "他走了好远...",
+	text: [
+		"手持共振仪后可以显示出星能浓郁之地，到处跑动可以看到一大片蓝色雾气蔓延的地方",
+		"蓝色雾气内的区域即为星能浓郁之地"
+	],
+	dependencies: [
+		"b4a79ca8"
+	],
+	tasks: [{
+		uid: "d3fc0dd5",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

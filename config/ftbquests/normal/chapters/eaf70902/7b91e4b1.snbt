@@ -1,0 +1,62 @@
+{
+	title: "更近一步",
+	icon: "astralsorcery:blockaltar 1 1",
+	x: 1.5d,
+	y: 0.0d,
+	description: "正式开始星辉魔法！",
+	text: [
+		"将星辉合成台升级"
+	],
+	dependencies: [
+		"b4a79ca8",
+		"e580f143"
+	],
+	tasks: [{
+		uid: "17cf5af4",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7de707fb",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 3"
+		}],
+		count: 28L
+	},
+	{
+		uid: "714fa259",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}],
+		count: 24L
+	},
+	{
+		uid: "810cdc8e",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 21L
+	},
+	{
+		uid: "d22c8bd6",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ffe0dead",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

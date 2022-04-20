@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	description: "我要冲了哦！",
+	text: [
+		"对一个铁矿石供给星能，一段时间后就会变成星辉矿",
+		"tips:GT的铁矿石并不可以变成星辉矿，所以我们可以做个\"铁匠宝典\"将其变化为原版铁矿"
+	],
+	dependencies: [
+		"101fbf66"
+	],
+	tasks: [{
+		uid: "7e5b3fb0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "星能结晶器(WIP)",
+	x: 5.0d,
+	y: 2.0d,
+	description: "无限量的水晶石！",
+	dependencies: [
+		"06a1aa8b"
+	],
+	tasks: [{
+		uid: "b1a93f18",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	description: "泡一泡，舔一舔",
+	dependencies: [
+		"0af3b304"
+	],
+	tasks: [{
+		uid: "b20cdc8c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}]
+	}]
+}

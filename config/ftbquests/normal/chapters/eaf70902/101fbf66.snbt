@@ -1,0 +1,26 @@
+{
+	title: "将他们连起来！",
+	x: 2.5d,
+	y: 1.0d,
+	description: "我可以用它将所有星能都调整到指定的方向！",
+	text: [
+		"手持链接杖时右键一个浮动水晶然后再对目标右键即可将星能传输到指定方块",
+		"星能无法链接过远，此时就能使用透镜中继星能",
+		"一个水晶同时供给多个目标时，效率会大大降低"
+	],
+	dependencies: [
+		"7b91e4b1"
+	],
+	tasks: [{
+		uid: "24491ef0",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemlinkingtool",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
