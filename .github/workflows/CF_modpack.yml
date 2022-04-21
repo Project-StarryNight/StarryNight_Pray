@@ -29,7 +29,7 @@ jobs:
           cp -r snp/* modpack/overrides
           rm -rf modpack/.git
           rm -rf modpack/.github
-          cd modpack
+          rm -rf snp
           zip -r -9 SNP_modpack${{ env.FILE_DATE }}.zip ./*
       - name: Upload artifact to WeTransfer
         run: |
