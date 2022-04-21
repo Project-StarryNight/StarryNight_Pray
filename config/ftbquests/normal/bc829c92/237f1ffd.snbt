@@ -1,7 +1,7 @@
 {
 	x: 6.5d,
 	y: 9.0d,
-	description: "我们需要116块",
+	description: "{snp.quests.237f1ffd.description}",
 	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "a9312a8b",

@@ -1,12 +1,12 @@
 {
-	title: "星辉魔法的开始",
+	title: "{snp.quests.b4a79ca8.title}",
 	icon: "astralsorcery:itemjournal",
 	x: -1.0d,
 	y: 0.0d,
-	description: "一起都走上了正轨~",
+	description: "{snp.quests.b4a79ca8.description}",
 	text: [
-		"我们需要先找个一个水晶神殿，将水晶上方阻挡的方块挖掉，使其露空。",
-		"然后将工作台放置在水晶下面，此时就能合成共鸣星杖和星辉合成台了。"
+		"{snp.quests.b4a79ca8.text.1}",
+		"{snp.quests.b4a79ca8.text.2}"
 	],
 	tasks: [{
 		uid: "69ccd079",

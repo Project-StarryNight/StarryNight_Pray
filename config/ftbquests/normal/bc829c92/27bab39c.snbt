@@ -1,9 +1,9 @@
 {
-	title: "这真的很难得",
+	title: "{snp.quests.27bab39c.title}",
 	x: 6.5d,
 	y: 6.5d,
 	text: [
-		"可以在玄武岩矿脉里找到它，数量较少几乎挖空整个矿脉才能获得一组多点"
+		"{snp.quests.27bab39c.text.1}"
 	],
 	dependencies: [
 		"72476110"

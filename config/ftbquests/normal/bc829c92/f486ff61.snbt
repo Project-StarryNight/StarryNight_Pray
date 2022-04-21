@@ -1,9 +1,9 @@
 {
 	x: 7.0d,
 	y: 7.5d,
-	description: "建议用进阶工作台",
+	description: "{snp.quests.f486ff61.description}",
 	text: [
-		"将他们放桶里搅拌搅拌..."
+		"{snp.quests.f486ff61.text.1}"
 	],
 	dependencies: [
 		"3e8be757",

@@ -1,11 +1,11 @@
 {
-	title: "更近一步",
+	title: "{snp.quests.7b91e4b1.title}",
 	icon: "astralsorcery:blockaltar 1 1",
 	x: 1.5d,
 	y: 0.0d,
-	description: "正式开始星辉魔法！",
+	description: "{snp.quests.7b91e4b1.description}",
 	text: [
-		"将星辉合成台升级"
+		"{snp.quests.7b91e4b1.text.1}"
 	],
 	dependencies: [
 		"b4a79ca8",

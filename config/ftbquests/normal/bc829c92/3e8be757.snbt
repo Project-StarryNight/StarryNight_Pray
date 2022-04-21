@@ -2,7 +2,7 @@
 	x: 8.5d,
 	y: 5.5d,
 	text: [
-		"我们可以在青金石矿脉找到它"
+		"{snp.quests.3e8be757.text.1}"
 	],
 	dependencies: [
 		"72476110"

@@ -1,8 +1,8 @@
 {
-	title: "电力聚星缸(WIP)",
+	title: "{snp.quests.bd65302d.title}",
 	x: 1.5d,
 	y: 2.0d,
-	description: "榨干水晶内的星能",
+	description: "{snp.quests.bd65302d.description}",
 	dependencies: [
 		"e580f143"
 	],

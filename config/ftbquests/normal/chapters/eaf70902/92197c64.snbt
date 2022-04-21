@@ -1,8 +1,8 @@
 {
-	title: "星能结晶器(WIP)",
+	title: "{snp.quests.92197c64.title}",
 	x: 5.0d,
 	y: 2.0d,
-	description: "无限量的水晶石！",
+	description: "{snp.quests.92197c64.description}",
 	dependencies: [
 		"06a1aa8b"
 	],

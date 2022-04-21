@@ -2,9 +2,9 @@
 	icon: "astralsorcery:blockattunementaltar",
 	x: 1.0d,
 	y: -1.0d,
-	description: "让我们与其共鸣",
+	description: "{snp.quests.24659e68.description}",
 	text: [
-		"在与星座共鸣时玩家站上去的话，也会进行共鸣并获得星能力，仅限初始五星座。"
+		"{snp.quests.24659e68.text.1}"
 	],
 	dependencies: [
 		"7b91e4b1"

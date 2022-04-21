@@ -1,11 +1,11 @@
 {
 	x: 5.5d,
 	y: 1.0d,
-	description: "等啊等..等啊等..",
+	description: "{snp.quests.48791e30.description}",
 	text: [
-		"将一桶星能液倒出后丢入星尘和水晶石等待一会就会变成一簇天体水晶",
-		"你需要等待他生长到第四阶段才能将其挖掘否则将会前功尽弃",
-		"通过F3对着天体水晶簇可以看到一个新的信息由此精确判断是否生长完成"
+		"{snp.quests.48791e30.text.1}",
+		"{snp.quests.48791e30.text.2}",
+		"{snp.quests.48791e30.text.3}"
 	],
 	dependencies: [
 		"4a9b8d81"

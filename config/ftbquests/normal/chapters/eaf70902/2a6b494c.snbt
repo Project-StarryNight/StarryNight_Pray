@@ -1,8 +1,8 @@
 {
-	title: "星能凝聚器(WIP)",
+	title: "{snp.quests.2a6b494c.title}",
 	x: 8.5d,
 	y: 0.5d,
-	description: "捕获一切星能！",
+	description: "{snp.quests.2a6b494c.description}",
 	dependencies: [
 		"b3309650"
 	],

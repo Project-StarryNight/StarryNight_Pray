@@ -1,11 +1,11 @@
 {
-	title: "超进化！",
+	title: "{snp.quests.b3309650.title}",
 	icon: "astralsorcery:blockaltar 1 3",
 	x: 6.5d,
 	y: 0.0d,
-	description: "捕获所有星能！星座也不能放过！",
+	description: "{snp.quests.b3309650.description}",
 	text: [
-		"tips:五彩祭坛不需要像以前那样拆了重放，直接在天辉祭坛上扩建即可"
+		"{snp.quests.b3309650.text.1}"
 	],
 	dependencies: [
 		"d423df47",

@@ -1,8 +1,8 @@
 {
-	title: "机械化聚合器(WIP)",
+	title: "{snp.quests.890103d3.title}",
 	x: 6.5d,
 	y: 2.0d,
-	description: "高效，完美！",
+	description: "{snp.quests.890103d3.description}",
 	dependencies: [
 		"d423df47"
 	],

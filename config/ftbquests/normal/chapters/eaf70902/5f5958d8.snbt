@@ -1,8 +1,8 @@
 {
-	title: "星辉钻井",
+	title: "{snp.quests.5f5958d8.title}",
 	x: 8.0d,
 	y: -1.5d,
-	description: "用万象泉来采集石油！好耶！",
+	description: "{snp.quests.5f5958d8.description}",
 	dependencies: [
 		"33b54181"
 	],

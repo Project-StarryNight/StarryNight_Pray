@@ -1,10 +1,10 @@
 {
-	title: "让我们更猛烈点",
+	title: "{snp.quests.fa15eb5d.title}",
 	x: 6.5d,
 	y: 10.5d,
-	description: "好耶！是可乐炉！",
+	description: "{snp.quests.fa15eb5d.description}",
 	text: [
-		"焦炉用于将煤炭放入后变成焦煤或用于烧制木炭，但是我们需要的其实是杂酚油"
+		"{snp.quests.fa15eb5d.text.1}"
 	],
 	dependencies: [
 		"237f1ffd"

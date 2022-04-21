@@ -2,7 +2,7 @@
 	icon: "astralsorcery:blockritualpedestal",
 	x: 2.0d,
 	y: -1.0d,
-	description: "发挥星座的力量！",
+	description: "{snp.quests.1d3444ca.description}",
 	dependencies: [
 		"7b91e4b1"
 	],

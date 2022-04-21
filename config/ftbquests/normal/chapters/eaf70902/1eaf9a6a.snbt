@@ -1,8 +1,8 @@
 {
-	title: "机械化五彩祭坛(WIP)",
+	title: "{snp.quests.1eaf9a6a.title}",
 	x: 8.5d,
 	y: -0.5d,
-	description: "甚至可以在运行时手动合成！",
+	description: "{snp.quests.1eaf9a6a.description}",
 	dependencies: [
 		"b3309650"
 	],

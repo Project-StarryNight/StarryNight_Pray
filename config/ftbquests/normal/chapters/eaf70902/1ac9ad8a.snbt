@@ -1,14 +1,14 @@
 {
 	x: 0.5d,
 	y: -2.0d,
-	description: "用机器来自动化",
+	description: "{snp.quests.1ac9ad8a.description}",
 	dependencies: [
 		"24659e68"
 	],
 	tasks: [{
 		uid: "41c87b38",
 		type: "checkmark",
-		title: "机械化共鸣祭坛(WIP)",
+		title: "{snp.quests.1ac9ad8a.title}",
 		tags: [
 			""
 		]

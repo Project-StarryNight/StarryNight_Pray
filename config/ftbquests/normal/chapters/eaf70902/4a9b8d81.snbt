@@ -1,7 +1,7 @@
 {
 	x: 4.0d,
 	y: 1.0d,
-	description: "我们需要更热的炉子来熔炼他",
+	description: "{snp.quests.4a9b8d81.description}",
 	dependencies: [
 		"36adab1b",
 		"3e14084a"

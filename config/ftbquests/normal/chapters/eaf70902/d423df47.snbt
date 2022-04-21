@@ -2,11 +2,11 @@
 	icon: "astralsorcery:blockstarlightinfuser",
 	x: 6.5d,
 	y: 1.0d,
-	description: "瞧！一个躲起来的青金石块！",
+	description: "{snp.quests.d423df47.description}",
 	text: [
-		"将目标物品放上后使用共鸣星杖右键即可进行合成",
-		"每次合成后有概率消耗星能液(说是概率..实际上更像是必然)",
-		"附近放置遏制圣杯时将会每次合成都消耗一点遏制圣杯里的星能液"
+		"{snp.quests.d423df47.text.1}",
+		"{snp.quests.d423df47.text.2}",
+		"{snp.quests.d423df47.text.3}"
 	],
 	dependencies: [
 		"06a1aa8b"

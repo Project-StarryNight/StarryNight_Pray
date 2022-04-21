@@ -1,7 +1,7 @@
 {
 	x: 5.5d,
 	y: 7.5d,
-	description: "我们需要102块",
+	description: "{snp.quests.4a6489ed.description}",
 	dependencies: [
 		"2ce2c1de"
 	],

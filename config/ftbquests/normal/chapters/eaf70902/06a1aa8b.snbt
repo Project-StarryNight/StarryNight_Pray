@@ -1,9 +1,9 @@
 {
-	title: "再次进化！",
+	title: "{snp.quests.06a1aa8b.title}",
 	icon: "astralsorcery:blockaltar 1 2",
 	x: 4.0d,
 	y: 0.0d,
-	description: "捕获更多星能",
+	description: "{snp.quests.06a1aa8b.description}",
 	dependencies: [
 		"7b91e4b1",
 		"4a9b8d81"
