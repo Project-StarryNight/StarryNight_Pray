@@ -1,0 +1,13 @@
+{
+	title: "星能凝聚器(WIP)",
+	x: 8.5d,
+	y: 0.5d,
+	description: "捕获一切星能！",
+	dependencies: [
+		"b3309650"
+	],
+	tasks: [{
+		uid: "7d27b64e",
+		type: "checkmark"
+	}]
+}

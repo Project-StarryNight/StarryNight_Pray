@@ -1,0 +1,47 @@
+{
+	icon: "astralsorcery:blockritualpedestal",
+	x: 2.0d,
+	y: -1.0d,
+	description: "发挥星座的力量！",
+	dependencies: [
+		"7b91e4b1"
+	],
+	tasks: [{
+		uid: "3665b3aa",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	},
+	{
+		uid: "353a5db1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 3"
+		}],
+		count: 20L
+	},
+	{
+		uid: "3aa47a37",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}],
+		count: 24L
+	},
+	{
+		uid: "1024ceea",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}]
+	},
+	{
+		uid: "d1bc6448",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}],
+		count: 12L
+	}]
+}

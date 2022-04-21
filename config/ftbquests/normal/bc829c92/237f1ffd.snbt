@@ -1,0 +1,13 @@
+{
+	x: 6.5d,
+	y: 9.0d,
+	description: "我们需要116块",
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a9312a8b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 353"
+		}]
+	}]
+}

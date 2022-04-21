@@ -1,0 +1,7 @@
+{
+	title: "{snp.quests.bc829c92.title}",
+	icon: "gregtech:steam_casing 1 1",
+	always_invisible: false,
+	group: -1097345554,
+	default_quest_shape: ""
+}

@@ -1,0 +1,25 @@
+{
+	title: "关于天体水晶石",
+	icon: {
+		id: "astralsorcery:itemrockcrystalsimple",
+		tag: {
+			astralsorcery: {
+				crystalProperties: {
+					size: 400,
+					purity: 100,
+					collectiveCapability: 100,
+					fract: 0,
+					sizeOverride: -1
+				}
+			}
+		}
+	},
+	x: -1.0d,
+	y: 1.0d,
+	description: "又是晚上！",
+	text: [
+		"在晚上时手持共鸣星杖（副手也行）会在地表看到白色物质浮起",
+		"去到那个位置然后往下挖掘，挖到接近基岩时手持共鸣星杖能看到白色光点",
+		"挖掘过去就是水晶石所在位置，水晶石并不吃时运效果（但是你可以尝试玄学）"
+	]
+}

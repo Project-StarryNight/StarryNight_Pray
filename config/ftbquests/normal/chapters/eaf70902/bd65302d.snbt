@@ -1,0 +1,13 @@
+{
+	title: "电力聚星缸(WIP)",
+	x: 1.5d,
+	y: 2.0d,
+	description: "榨干水晶内的星能",
+	dependencies: [
+		"e580f143"
+	],
+	tasks: [{
+		uid: "5108f4b0",
+		type: "checkmark"
+	}]
+}

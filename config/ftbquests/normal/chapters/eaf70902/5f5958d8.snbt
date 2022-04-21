@@ -1,0 +1,13 @@
+{
+	title: "星辉钻井",
+	x: 8.0d,
+	y: -1.5d,
+	description: "用万象泉来采集石油！好耶！",
+	dependencies: [
+		"33b54181"
+	],
+	tasks: [{
+		uid: "cc88025c",
+		type: "checkmark"
+	}]
+}

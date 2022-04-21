@@ -1,0 +1,16 @@
+{
+	title: "{snp.quests.49a78147.title}",
+	x: 1.5d,
+	y: 14.0d,
+	description: "{snp.quests.49a78147.description}",
+	dependencies: [
+		"067d8d27"
+	],
+	tasks: [{
+		uid: "ee8aa034",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 112"
+		}]
+	}]
+}

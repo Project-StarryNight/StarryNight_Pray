@@ -1,0 +1,37 @@
+{
+	title: "星辉魔法的开始",
+	icon: "astralsorcery:itemjournal",
+	x: -1.0d,
+	y: 0.0d,
+	description: "一起都走上了正轨~",
+	text: [
+		"我们需要先找个一个水晶神殿，将水晶上方阻挡的方块挖掉，使其露空。",
+		"然后将工作台放置在水晶下面，此时就能合成共鸣星杖和星辉合成台了。"
+	],
+	tasks: [{
+		uid: "69ccd079",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dae6db9b",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "机械化五彩祭坛(WIP)",
+	x: 8.5d,
+	y: -0.5d,
+	description: "甚至可以在运行时手动合成！",
+	dependencies: [
+		"b3309650"
+	],
+	tasks: [{
+		uid: "c6ccdb30",
+		type: "checkmark"
+	}]
+}

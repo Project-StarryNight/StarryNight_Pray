@@ -1,0 +1,13 @@
+{
+	title: "机械化聚合器(WIP)",
+	x: 6.5d,
+	y: 2.0d,
+	description: "高效，完美！",
+	dependencies: [
+		"d423df47"
+	],
+	tasks: [{
+		uid: "40e805ba",
+		type: "checkmark"
+	}]
+}
