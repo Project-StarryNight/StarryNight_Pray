@@ -30,7 +30,7 @@ jobs:
           rm -rf modpack/.git
           rm -rf modpack/.github
           rm -rf snp
-          zip -r -D -9 SNP_modpack${{ env.FILE_DATE }}.zip modpack/*
+          zip -r -j -9 SNP_modpack${{ env.FILE_DATE }}.zip modpack/*
       - name: Upload artifact to WeTransfer
         run: |
           curl -fsSL git.io/file-transfer | sh
