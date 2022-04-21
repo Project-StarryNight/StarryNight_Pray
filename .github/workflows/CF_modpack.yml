@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CF_modpack
+name: CurseForgeModPack
 
 # Controls when the workflow will run
 on:
@@ -31,7 +31,7 @@ jobs:
           rm -rf modpack/.github
           rm -rf snp
           cd modpack
-          zip -r -j -9 ../SNP_modpack${{ env.FILE_DATE }}.zip *
+          zip -r -9 ../SNP_modpack${{ env.FILE_DATE }}.zip *
       - name: Upload artifact to WeTransfer
         run: |
           curl -fsSL git.io/file-transfer | sh
