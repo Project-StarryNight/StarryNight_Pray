@@ -93,9 +93,7 @@ var liquidElements as ILiquidStack[] = [
 for i, liquidElement in liquidElements {
     var liquidElement = liquidElements[i];
 extractor.recipeBuilder()
-    .inputs([
-        <thermalfoundation:material>.definition.makeStack(1024 + i)
-    ])
+    .inputs(<thermalfoundation:material>.definition.makeStack(1024 + i))
     .fluidOutputs(liquidElement)
     .duration(100)
     .EUt(32)
@@ -108,6 +106,7 @@ chemical_reactor.recipeBuilder()
         <ore:dustRedstone> * 1
     ])
     .fluidInputs(<liquid:liquid_magic_polymer> * 250)
+    .circuit(i+1)
     .outputs(<thermalfoundation:material>.definition.makeStack(1024 + i))
     .duration(80)
     .EUt(192)
@@ -116,9 +115,7 @@ chemical_reactor.recipeBuilder()
 //循环添加棒磨粉配方
 for i, rodElement in rodElements {
 macerator.recipeBuilder()
-    .inputs([
-        rodElement
-    ])
+    .inputs(rodElement)
     .outputs(dustElements[i] * 4)
     .chancedOutput(dustElements[i] * 1, 5000, 2500)
     .duration(200)
