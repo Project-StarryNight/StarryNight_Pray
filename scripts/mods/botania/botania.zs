@@ -14,8 +14,8 @@ import mods.tconstruct.Melting;
 import mods.thaumcraft.ArcaneWorkbench;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import mods.thaumcraft.Infusion;
-
 
 //待移除数组
 var items as IItemStack[] = [
@@ -306,9 +306,9 @@ Apothecary.addRecipe(<botania:specialflower>.withTag({type: "endoflame"}),
 //符文祭坛
 ArcaneWorkbench.registerShapedRecipe("runealtar", "", 20, [<aspect:aer>, <aspect:ordo>, <aspect:terra>, <aspect:ignis>],
     <botania:runealtar>, [
-        [<gregtech:meta_stick:20000>, <gregtech:meta_plate:20000>, <gregtech:meta_stick:20000>],
-        [<gregtech:meta_plate:20000>, <ore:blockLivingrock>, <gregtech:meta_plate:20000>],
-        [<ore:manaDiamond>, <gregtech:meta_plate:20000>, <enderio:block_tank:1>]
+        [<gregtech:meta_stick:32160>, <gregtech:meta_plate:32160>, <gregtech:meta_stick:32160>],
+        [<gregtech:meta_plate:32160>, <ore:blockLivingrock>, <gregtech:meta_plate:32160>],
+        [<ore:manaDiamond>, <gregtech:meta_plate:32160>, <enderio:block_tank:1>]
     ]);
 
 //符文
@@ -318,33 +318,53 @@ for i in 0 to 16 {
 }
 # 水之符文
 RuneAltar.addRecipe(<botania:rune> * 2,
-    [<ore:springManasteel>, <gregtech:meta_item_1:1001>, <ore:plateThaumium>,
+    [<ore:plateManasteel>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:plateThaumium>,
     <gregtech:meta_lens:314>, <harvestcraft:well>], 10000);
 # 火之符文
 RuneAltar.addRecipe(<botania:rune:1> * 2, [
-    <ore:gearSmallManasteel>, <ore:screwThaumium>, <appliedenergistics2:tiny_tnt>,
+    <ore:plateManasteel>, <ore:plateThaumium>, <appliedenergistics2:tiny_tnt>,
     <witchery:wood_ash>, <gregtech:meta_lens:311>
 ], 10000);
 # 地之符文
 RuneAltar.addRecipe(<botania:rune:2> * 2, [
-    <ore:foilManasteel>, <ore:ringThaumium>, <forestry:crafting_material:6>,
-    <enderio:item_material:11>, <gregtech:meta_lens:278>
+    <ore:plateManasteel>, <ore:plateThaumium>, <forestry:crafting_material:6>,
+    <gregtech:meta_item_1:1001>, <gregtech:meta_lens:278>
 ], 10000);
 # 风之符文
 RuneAltar.addRecipe(<botania:rune:3> * 2, [
-    <ore:screwManasteel>, <tconstruct:sharpening_kit>.withTag({Material: "thaumium"}),
+    <ore:plateManasteel>, <ore:plateThaumium>,
     <ore:feather>, <ore:livingwoodTwig>, <gregtech:meta_lens:314>
 ], 10000);
 # 魔力符文
 RuneAltar.addRecipe(<botania:rune:8> * 4, [
-    <ore:stickManasteel>, <ore:plateManasteel>, <ore:dustManasteel>,
-    <ore:screwManasteel>, <ore:springSmallManasteel>, <ore:ringThaumium>
+    <ore:plateManasteel>, <ore:plateManasteel>, <ore:plateManasteel>,
+    <ore:plateManasteel>, <ore:plateManasteel>, <ore:plateThaumium>
 ], 10000);
+#春之符文
+RuneAltar.addRecipe(<botania:rune:4>, [
+    <botania:rune>, <botania:rune:1>, <botania:manaresource:18>,
+    <appliedenergistics2:material:4>, <appliedenergistics2:material:4>, <appliedenergistics2:material:4>
+], 20000);
+#夏之符文
+RuneAltar.addRecipe(<botania:rune:5>, [
+    <botania:rune:3>, <botania:rune:2>, <botania:manaresource:18>,
+    <minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>
+], 20000);
+#秋之符文
+RuneAltar.addRecipe(<botania:rune:6>, [
+    <botania:rune:3>, <botania:rune:1>, <botania:manaresource:18>,
+    <forestry:mulch>, <forestry:mulch>, <forestry:mulch>
+], 20000);
+#冬之符文
+RuneAltar.addRecipe(<botania:rune:7>, [
+    <botania:rune:2>, <botania:rune>, <botania:manaresource:18>,
+    <harvestcraft:raisinsitem>, <harvestcraft:raisinsitem>, <harvestcraft:raisinsitem>
+], 20000);
 
 //水井
 recipes.addShaped(<harvestcraft:well>, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-    [<ore:plankWood>, <enderio:block_tank>, <ore:plankWood>],
+    [<ore:plankWood>, <minecraft:water_bucket>, <ore:plankWood>],
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
@@ -401,3 +421,91 @@ Infusion.registerRecipe("terrasteelboots", "", <botania:terrasteelboots>, 8,
 Infusion.registerRecipe("terraplate", "", <botania:terraplate>, 12,
     [<aspect:terra> * 64, <aspect:aqua> * 64, <aspect:ignis> * 64, <aspect:aer> * 64, <aspect:praecantatio> * 32, <aspect:herba> * 32], <ore:gemExquisiteGreenSapphire>,
     [<ore:runeWaterB>, <ore:blockManasteel>, <ore:runeFireB>, <ore:blockThaumium>, <ore:runeEarthB>, <ore:blockLapis>, <ore:runeAirB>, <ore:runeManaB>]);
+
+///Mana温室反应仪配方
+//IIngredient翻倍
+function multiIIngredient(input as IIngredient[], number as int) as IIngredient[] {
+    var new_input as IIngredient[] = [];
+    for index, i_Ingredient in input {
+        new_input += i_Ingredient;
+    }
+    for i in 0 to new_input.length {
+        new_input[i] = new_input[i] * (number* new_input[i].amount);
+    }
+
+    return new_input;
+}
+//无流体批量添加配方
+function addItemRecipes(input as IIngredient[], not_consumable as IIngredient[], 
+    output as IIngredient[], times as int, eu_tick as int) as void {
+        val output_raw = output;
+        val multiOutputs as IIngredient[] = multiIIngredient(output_raw, 2);
+        greenhouse.recipeBuilder()
+            .inputs(input)
+            .notConsumable(not_consumable)
+            .notConsumable(<botania:lens>)
+            .outputs(output_raw)
+            .duration(times)
+            .EUt(eu_tick)
+            .buildAndRegister();
+        greenhouse.recipeBuilder()
+            .inputs(input)
+            .notConsumable(not_consumable)
+            .notConsumable(<botania:lens:1>)
+            .outputs(output_raw)
+            .duration(times/2)
+            .EUt(eu_tick*2)
+            .buildAndRegister();
+        greenhouse.recipeBuilder()
+            .inputs(input)
+            .notConsumable(not_consumable)
+            .notConsumable(<botania:lens:2>)
+            .outputs(multiOutputs)
+            .duration(times)
+            .EUt(eu_tick*2)
+            .buildAndRegister();
+        greenhouse.recipeBuilder()
+            .inputs(input)
+            .notConsumable(not_consumable)
+            .notConsumable(<botania:lens:2>.withTag({compositeLens: {id: "botania:lens", Count: 1 as byte, tag: {}, Damage: 1 as short}}))
+            .outputs(multiOutputs)
+            .duration(times/2)
+            .EUt(eu_tick*2)
+            .buildAndRegister();
+    }  
+//黏土花
+addItemRecipes([<ore:sand>*1], [<botania:specialflower>.withTag({type: "clayconia"})],
+    [<minecraft:clay_ball>*2], 32, 192);
+//白雏菊
+var puredaisyInputs as IIngredient[][] = [
+    [<minecraft:stone>],
+    [<minecraft:netherrack>],
+    [<thaumcraft:log_greatwood>],
+    [<minecraft:soul_sand>],
+    [<ore:blockIce>],
+    [<botania:blazeblock>],
+    [<minecraft:sapling>]
+];
+var puredaisyOutputs as IIngredient[][] = [
+    [<botania:livingrock>],
+    [<minecraft:cobblestone>],
+    [<botania:livingwood>],
+    [<minecraft:sand>],
+    [<minecraft:packed_ice>],
+    [<minecraft:obsidian>],
+    [<thaumcraft:sapling_greatwood>]
+];
+for i in 0 to puredaisyOutputs.length {
+    addItemRecipes(puredaisyInputs[i], [<botania:specialflower>.withTag({type: "puredaisy"})],
+        puredaisyOutputs[i], 64, 192);
+}
+//凝矿兰
+addItemRecipes([<botania:livingrock>*64], [<botania:specialflower>.withTag({type: "orechid"}), 
+    <gregtech:meta_item_1:461>.withTag({Configuration: 0})], [<minecraft:coal_ore>*23, 
+    <gregtech:ore_tin_0>*6, <gregtech:ore_copper_0>*8, <minecraft:stone>*27], 1500, 512);
+addItemRecipes([<botania:livingrock>*64], [<botania:specialflower>.withTag({type: "orechid"}),
+    <gregtech:meta_item_1:461>.withTag({Configuration: 1})], [<minecraft:iron_ore>*12,
+    <minecraft:redstone_ore>*12, <minecraft:gold_ore>*5, <minecraft:stone>*29], 1500, 512);
+addItemRecipes([<botania:livingrock>*64], [<botania:specialflower>.withTag({type: "orechid"}),
+    <gregtech:meta_item_1:461>.withTag({Configuration: 2})], [<gregtech:ore_aluminium_0>*5,
+    <minecraft:lapis_ore>*3, <gregtech:ore_silver_0>*6, <minecraft:stone>*50], 1500, 512);
