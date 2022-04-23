@@ -15,10 +15,7 @@
 		uid: "24491ef0",
 		type: "item",
 		items: [{
-			id: "astralsorcery:itemlinkingtool",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "astralsorcery:itemlinkingtool"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
