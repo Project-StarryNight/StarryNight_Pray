@@ -1,0 +1,43 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	dependencies: [
+		"4450b1ab"
+	],
+	tasks: [{
+		uid: "6174c3a1",
+		type: "item",
+		items: [{
+			item: "botania:manasteelhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1b5a7d33",
+		type: "item",
+		items: [{
+			item: "botania:manasteelchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f576ab4",
+		type: "item",
+		items: [{
+			item: "botania:manasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "88cb3c99",
+		type: "item",
+		items: [{
+			item: "botania:manasteelboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

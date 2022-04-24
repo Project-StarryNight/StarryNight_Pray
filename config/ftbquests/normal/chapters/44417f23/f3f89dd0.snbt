@@ -1,0 +1,43 @@
+{
+	x: 13.0d,
+	y: -2.0d,
+	dependencies: [
+		"aec7189b"
+	],
+	tasks: [{
+		uid: "865b5695",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "310b5489",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "25ce4b86",
+		type: "item",
+		items: [{
+			item: "botania:terrasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8920243",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
