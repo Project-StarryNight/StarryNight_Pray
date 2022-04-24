@@ -1,8 +1,8 @@
 {
-	title: "{snp.quests.552d3007.title}",
+	title: "{stp.quests.552d3007.title}",
 	x: -2.5d,
 	y: -2.0d,
-	description: "{snp.quests.552d3007.description}",
+	description: "{stp.quests.552d3007.description}",
 	dependencies: [
 		"19ab6bb9"
 	],

@@ -1,13 +1,13 @@
 {
-	title: "{snp.quests.444fa08b.title}",
+	title: "{stp.quests.444fa08b.title}",
 	icon: "botania:cosmetic 1 31",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "{snp.quests.444fa08b.description}",
+	description: "{stp.quests.444fa08b.description}",
 	text: [
-		"{snp.quests.444fa08b.text.1}",
-		"{snp.quests.444fa08b.text.2}",
-		"{snp.quests.444fa08b.text.3}"
+		"{stp.quests.444fa08b.text.1}",
+		"{stp.quests.444fa08b.text.2}",
+		"{stp.quests.444fa08b.text.3}"
 	]
 }

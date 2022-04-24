@@ -2,11 +2,11 @@
 	icon: "astralsorcery:blockstarlightinfuser",
 	x: 6.5d,
 	y: 1.0d,
-	description: "{snp.quests.d423df47.description}",
+	description: "{stp.quests.d423df47.description}",
 	text: [
-		"{snp.quests.d423df47.text.1}",
-		"{snp.quests.d423df47.text.2}",
-		"{snp.quests.d423df47.text.3}"
+		"{stp.quests.d423df47.text.1}",
+		"{stp.quests.d423df47.text.2}",
+		"{stp.quests.d423df47.text.3}"
 	],
 	dependencies: [
 		"06a1aa8b"

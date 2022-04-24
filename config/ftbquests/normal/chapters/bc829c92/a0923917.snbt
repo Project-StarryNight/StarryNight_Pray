@@ -1,9 +1,9 @@
 {
-	title: "{snp.quests.a0923917.title}",
+	title: "{stp.quests.a0923917.title}",
 	x: 1.5d,
 	y: 16.5d,
 	shape: "gear",
-	description: "{snp.quests.a0923917.description}",
+	description: "{stp.quests.a0923917.description}",
 	dependencies: [
 		"49a78147",
 		"6ea178c8"

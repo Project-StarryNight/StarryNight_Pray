@@ -1,11 +1,11 @@
 {
-	title: "{snp.quests.7b91e4b1.title}",
+	title: "{stp.quests.7b91e4b1.title}",
 	icon: "astralsorcery:blockaltar 1 1",
 	x: 1.5d,
 	y: 0.0d,
-	description: "{snp.quests.7b91e4b1.description}",
+	description: "{stp.quests.7b91e4b1.description}",
 	text: [
-		"{snp.quests.7b91e4b1.text.1}"
+		"{stp.quests.7b91e4b1.text.1}"
 	],
 	dependencies: [
 		"b4a79ca8",

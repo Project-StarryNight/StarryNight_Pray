@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.16146bb3.title}",
+	title: "{stp.quests.16146bb3.title}",
 	icon: "gregtech:fluid_pipe_small 1 260",
 	always_invisible: false,
 	group: 0,

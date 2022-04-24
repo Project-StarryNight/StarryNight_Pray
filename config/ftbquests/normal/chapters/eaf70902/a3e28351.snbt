@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.a3e28351.title}",
+	title: "{stp.quests.a3e28351.title}",
 	icon: {
 		id: "astralsorcery:itemrockcrystalsimple",
 		tag: {
@@ -16,10 +16,10 @@
 	},
 	x: -1.0d,
 	y: 1.0d,
-	description: "{snp.quests.a3e28351.description}",
+	description: "{stp.quests.a3e28351.description}",
 	text: [
-		"{snp.quests.a3e28351.text.1}",
-		"{snp.quests.a3e28351.text.2}",
-		"{snp.quests.a3e28351.text.3}"
+		"{stp.quests.a3e28351.text.1}",
+		"{stp.quests.a3e28351.text.2}",
+		"{stp.quests.a3e28351.text.3}"
 	]
 }

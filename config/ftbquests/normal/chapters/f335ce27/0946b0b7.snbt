@@ -1,14 +1,14 @@
 {
-	title: "{snp.quests.0946b0b7.title}",
+	title: "{stp.quests.0946b0b7.title}",
 	icon: "gregtech:machine 1 1007",
 	x: -1.5d,
 	y: -1.5d,
-	description: "{snp.quests.0946b0b7.description}",
+	description: "{stp.quests.0946b0b7.description}",
 	text: [
-		"{snp.quests.0946b0b7.text.1}",
-		"{snp.quests.0946b0b7.text.2}",
-		"{snp.quests.0946b0b7.text.3}",
-		"{snp.quests.0946b0b7.text.4}"
+		"{stp.quests.0946b0b7.text.1}",
+		"{stp.quests.0946b0b7.text.2}",
+		"{stp.quests.0946b0b7.text.3}",
+		"{stp.quests.0946b0b7.text.4}"
 	],
 	dependencies: [
 		"13d6d01e"

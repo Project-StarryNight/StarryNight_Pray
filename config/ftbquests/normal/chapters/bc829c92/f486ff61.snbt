@@ -1,9 +1,9 @@
 {
 	x: 7.0d,
 	y: 7.5d,
-	description: "{snp.quests.f486ff61.description}",
+	description: "{stp.quests.f486ff61.description}",
 	text: [
-		"{snp.quests.f486ff61.text.1}"
+		"{stp.quests.f486ff61.text.1}"
 	],
 	dependencies: [
 		"3e8be757",

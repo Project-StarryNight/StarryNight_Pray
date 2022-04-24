@@ -1,14 +1,14 @@
 {
-	title: "{snp.quests.71328e54.title}",
+	title: "{stp.quests.71328e54.title}",
 	icon: "thaumcraft:crucible",
 	x: -3.0d,
 	y: -1.5d,
-	description: "{snp.quests.71328e54.description}",
+	description: "{stp.quests.71328e54.description}",
 	text: [
-		"{snp.quests.71328e54.text.1}",
-		"{snp.quests.71328e54.text.2}",
-		"{snp.quests.71328e54.text.3}",
-		"{snp.quests.71328e54.text.4}"
+		"{stp.quests.71328e54.text.1}",
+		"{stp.quests.71328e54.text.2}",
+		"{stp.quests.71328e54.text.3}",
+		"{stp.quests.71328e54.text.4}"
 	],
 	dependencies: [
 		"8fa63541"

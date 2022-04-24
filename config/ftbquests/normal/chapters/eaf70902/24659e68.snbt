@@ -2,9 +2,9 @@
 	icon: "astralsorcery:blockattunementaltar",
 	x: 1.0d,
 	y: -1.0d,
-	description: "{snp.quests.24659e68.description}",
+	description: "{stp.quests.24659e68.description}",
 	text: [
-		"{snp.quests.24659e68.text.1}"
+		"{stp.quests.24659e68.text.1}"
 	],
 	dependencies: [
 		"7b91e4b1"

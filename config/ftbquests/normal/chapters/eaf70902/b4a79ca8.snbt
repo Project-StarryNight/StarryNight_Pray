@@ -1,12 +1,12 @@
 {
-	title: "{snp.quests.b4a79ca8.title}",
+	title: "{stp.quests.b4a79ca8.title}",
 	icon: "astralsorcery:itemjournal",
 	x: -1.0d,
 	y: 0.0d,
-	description: "{snp.quests.b4a79ca8.description}",
+	description: "{stp.quests.b4a79ca8.description}",
 	text: [
-		"{snp.quests.b4a79ca8.text.1}",
-		"{snp.quests.b4a79ca8.text.2}"
+		"{stp.quests.b4a79ca8.text.1}",
+		"{stp.quests.b4a79ca8.text.2}"
 	],
 	tasks: [{
 		uid: "69ccd079",

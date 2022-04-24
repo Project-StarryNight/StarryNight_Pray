@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.2dcad5ae.title}",
+	title: "{stp.quests.2dcad5ae.title}",
 	icon: "thaumcraft:thaumonomicon",
 	always_invisible: false,
 	group: 2087384099,
@@ -10,7 +10,7 @@
 		width: 25.0d,
 		height: 5.0d,
 		rotation: 0.0d,
-		image: "snp:textures/tc6_title-3.png",
+		image: "stp:textures/tc6_title-3.png",
 		hover: [],
 		click: "",
 		dev: false

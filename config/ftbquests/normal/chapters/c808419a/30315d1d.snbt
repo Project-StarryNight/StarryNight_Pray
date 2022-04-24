@@ -1,12 +1,12 @@
 {
-	title: "{snp.quests.30315d1d.title}",
+	title: "{stp.quests.30315d1d.title}",
 	x: -5.0d,
 	y: -2.5d,
 	shape: "gear",
-	description: "{snp.quests.30315d1d.description}",
+	description: "{stp.quests.30315d1d.description}",
 	text: [
-		"{snp.quests.30315d1d.text.1}",
-		"{snp.quests.30315d1d.text.2}"
+		"{stp.quests.30315d1d.text.1}",
+		"{stp.quests.30315d1d.text.2}"
 	],
 	dependency_requirement: "one_completed",
 	tasks: [{

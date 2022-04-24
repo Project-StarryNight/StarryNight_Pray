@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.99c9714d.title}",
+	title: "{stp.quests.99c9714d.title}",
 	icon: "gregtech:meta_gear_small 1 2",
 	always_invisible: false,
 	group: 0,
@@ -10,7 +10,7 @@
 		width: 15.0d,
 		height: 8.55d,
 		rotation: 0.0d,
-		image: "snp:textures/logo_0.33x.png",
+		image: "stp:textures/logo_0.33x.png",
 		hover: [],
 		click: "",
 		dev: false

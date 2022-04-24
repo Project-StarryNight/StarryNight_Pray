@@ -1,19 +1,19 @@
 {
-	title: "{snp.quests.b7a64841.title}",
+	title: "{stp.quests.b7a64841.title}",
 	x: 10.0d,
 	y: 2.0d,
-	description: "{snp.quests.b7a64841.description}",
+	description: "{stp.quests.b7a64841.description}",
 	text: [
-		"{snp.quests.b7a64841.text.1}",
-		"{snp.quests.b7a64841.text.2}",
-		"{snp.quests.b7a64841.text.3}",
-		"{snp.quests.b7a64841.text.4}",
-		"{snp.quests.b7a64841.text.5}",
-		"{snp.quests.b7a64841.text.6}",
-		"{snp.quests.b7a64841.text.7}",
-		"{snp.quests.b7a64841.text.8}",
-		"{snp.quests.b7a64841.text.9}",
-		"{snp.quests.b7a64841.text.10}"
+		"{stp.quests.b7a64841.text.1}",
+		"{stp.quests.b7a64841.text.2}",
+		"{stp.quests.b7a64841.text.3}",
+		"{stp.quests.b7a64841.text.4}",
+		"{stp.quests.b7a64841.text.5}",
+		"{stp.quests.b7a64841.text.6}",
+		"{stp.quests.b7a64841.text.7}",
+		"{stp.quests.b7a64841.text.8}",
+		"{stp.quests.b7a64841.text.9}",
+		"{stp.quests.b7a64841.text.10}"
 	],
 	dependencies: [
 		"6c276985"

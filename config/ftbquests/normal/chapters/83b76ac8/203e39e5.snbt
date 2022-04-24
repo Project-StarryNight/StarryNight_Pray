@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "36324a00",
 		type: "stat",
-		title: "{snp.quests.203e39e5.title}",
+		title: "{stp.quests.203e39e5.title}",
 		stat: "stat.playOneMinute",
 		value: 24192000
 	}]

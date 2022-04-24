@@ -1,11 +1,11 @@
 {
 	x: 5.5d,
 	y: 1.0d,
-	description: "{snp.quests.48791e30.description}",
+	description: "{stp.quests.48791e30.description}",
 	text: [
-		"{snp.quests.48791e30.text.1}",
-		"{snp.quests.48791e30.text.2}",
-		"{snp.quests.48791e30.text.3}"
+		"{stp.quests.48791e30.text.1}",
+		"{stp.quests.48791e30.text.2}",
+		"{stp.quests.48791e30.text.3}"
 	],
 	dependencies: [
 		"4a9b8d81"

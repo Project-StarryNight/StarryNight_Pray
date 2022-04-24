@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.1e0ac9a8.title}",
+	title: "{stp.quests.1e0ac9a8.title}",
 	icon: "gregtech:machine 1 986",
 	always_invisible: false,
 	group: -1097345554,

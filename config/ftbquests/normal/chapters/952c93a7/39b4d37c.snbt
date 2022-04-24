@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.39b4d37c.title}",
+	title: "{stp.quests.39b4d37c.title}",
 	icon: {
 		id: "gregtech:meta_item_1",
 		Damage: 465s,
@@ -12,10 +12,10 @@
 	x: -2.5d,
 	y: 2.5d,
 	shape: "diamond",
-	description: "{snp.quests.39b4d37c.description}",
+	description: "{stp.quests.39b4d37c.description}",
 	text: [
-		"{snp.quests.39b4d37c.text.1}",
-		"{snp.quests.39b4d37c.text.2}"
+		"{stp.quests.39b4d37c.text.1}",
+		"{stp.quests.39b4d37c.text.2}"
 	],
 	tasks: [{
 		uid: "fd04cb35",

@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.6c2cdd15.title}",
+	title: "{stp.quests.6c2cdd15.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 6s,
@@ -11,10 +11,10 @@
 	},
 	x: -2.5d,
 	y: 5.0d,
-	description: "{snp.quests.6c2cdd15.description}",
+	description: "{stp.quests.6c2cdd15.description}",
 	text: [
-		"{snp.quests.6c2cdd15.text.1}",
-		"{snp.quests.6c2cdd15.text.2}"
+		"{stp.quests.6c2cdd15.text.1}",
+		"{stp.quests.6c2cdd15.text.2}"
 	],
 	tasks: [{
 		uid: "b8c9f444",

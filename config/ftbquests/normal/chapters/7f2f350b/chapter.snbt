@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.7f2f350b.title}",
+	title: "{stp.quests.7f2f350b.title}",
 	icon: "thaumcraft:creative_flux_sponge",
 	always_invisible: false,
 	group: 2087384099,

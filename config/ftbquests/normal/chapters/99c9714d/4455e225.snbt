@@ -2,12 +2,12 @@
 	x: 2.5d,
 	y: 5.0d,
 	shape: "diamond",
-	description: "{snp.quests.4455e225.description}",
+	description: "{stp.quests.4455e225.description}",
 	text: [
-		"{snp.quests.4455e225.text.1}",
-		"{snp.quests.4455e225.text.2}",
-		"{snp.quests.4455e225.text.3}",
-		"{snp.quests.4455e225.text.4}"
+		"{stp.quests.4455e225.text.1}",
+		"{stp.quests.4455e225.text.2}",
+		"{stp.quests.4455e225.text.3}",
+		"{stp.quests.4455e225.text.4}"
 	],
 	dependencies: [
 		"c7b2d1dd"
@@ -15,7 +15,7 @@
 	tasks: [{
 		uid: "37db2850",
 		type: "checkmark",
-		title: "{snp.quests.4455e225.title}",
+		title: "{stp.quests.4455e225.title}",
 		icon: "botania:cosmetic 1 31"
 	}]
 }

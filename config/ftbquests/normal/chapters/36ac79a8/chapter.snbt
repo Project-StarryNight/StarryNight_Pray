@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.36ac79a8.title}",
+	title: "{stp.quests.36ac79a8.title}",
 	icon: "gregtech:ore_iron_0",
 	always_invisible: false,
 	group: -1792240729,
@@ -10,7 +10,7 @@
 		width: 5.0d,
 		height: 3.2d,
 		rotation: 0.0d,
-		image: "snp:textures/gregtech_extra_ore_0.png",
+		image: "stp:textures/gregtech_extra_ore_0.png",
 		hover: [],
 		click: "",
 		dev: false
