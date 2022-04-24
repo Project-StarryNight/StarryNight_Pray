@@ -164,3 +164,17 @@ MaterialBuilder(32719, "liquid_magic_polymer")
     .fluidTemp(273)
     .color(0x8A2BE2)
     .build();
+
+//液态Mana
+MaterialBuilder(32720, "liquid_mana")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(273)
+    .color(0x00BFFF)
+    .build();
+
+//蕴魔生物质溶液
+MaterialBuilder(32721, "enchanted_biomass_liquid")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(273)
+    .color(0x66FFCC)
+    .build();
