@@ -1,15 +1,15 @@
 {
-	title: "{snp.quests.84d65782.title}",
+	title: "{stp.quests.84d65782.title}",
 	x: 2.0d,
 	y: 4.0d,
-	description: "{snp.quests.84d65782.description}",
+	description: "{stp.quests.84d65782.description}",
 	text: [
-		"{snp.quests.84d65782.text.1}",
-		"{snp.quests.84d65782.text.2}",
-		"{snp.quests.84d65782.text.3}",
-		"{snp.quests.84d65782.text.4}",
-		"{snp.quests.84d65782.text.5}",
-		"{snp.quests.84d65782.text.6}"
+		"{stp.quests.84d65782.text.1}",
+		"{stp.quests.84d65782.text.2}",
+		"{stp.quests.84d65782.text.3}",
+		"{stp.quests.84d65782.text.4}",
+		"{stp.quests.84d65782.text.5}",
+		"{stp.quests.84d65782.text.6}"
 	],
 	dependencies: [
 		"08641d01"

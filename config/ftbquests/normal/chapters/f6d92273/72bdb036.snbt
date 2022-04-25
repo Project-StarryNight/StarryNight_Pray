@@ -1,12 +1,12 @@
 {
-	title: "{snp.quests.72bdb036.title}",
+	title: "{stp.quests.72bdb036.title}",
 	x: 4.5d,
 	y: 2.25d,
 	shape: "gear",
-	description: "{snp.quests.72bdb036.description}",
+	description: "{stp.quests.72bdb036.description}",
 	text: [
-		"{snp.quests.72bdb036.text.1}",
-		"{snp.quests.72bdb036.text.2}"
+		"{stp.quests.72bdb036.text.1}",
+		"{stp.quests.72bdb036.text.2}"
 	],
 	size: 1.5d,
 	tasks: [{

@@ -1,0 +1,26 @@
+{
+	title: "{stp.quests.27bab39c.title}",
+	x: 6.5d,
+	y: 6.5d,
+	text: [
+		"{stp.quests.27bab39c.text.1}"
+	],
+	dependencies: [
+		"72476110"
+	],
+	tasks: [{
+		uid: "3cc893e0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2032"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7d489a75",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:meta_dust 1 2032",
+		count: 34
+	}]
+}

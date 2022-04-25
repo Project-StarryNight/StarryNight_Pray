@@ -1,11 +1,11 @@
 {
-	title: "{snp.quests.5df48bd3.title}",
+	title: "{stp.quests.5df48bd3.title}",
 	x: -1.0d,
 	y: -1.0d,
-	description: "{snp.quests.5df48bd3.description}",
+	description: "{stp.quests.5df48bd3.description}",
 	text: [
-		"{snp.quests.5df48bd3.text.1}",
-		"{snp.quests.5df48bd3.text.2}"
+		"{stp.quests.5df48bd3.text.1}",
+		"{stp.quests.5df48bd3.text.2}"
 	],
 	dependencies: [
 		"b4a79ca8"
@@ -17,6 +17,9 @@
 			id: "astralsorcery:itemskyresonator",
 			tag: {
 				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,

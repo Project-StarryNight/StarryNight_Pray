@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.46c8ada0.title}",
+	title: "{stp.quests.46c8ada0.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 3s,
@@ -11,7 +11,7 @@
 	},
 	x: 0.0d,
 	y: 2.5d,
-	description: "{snp.quests.46c8ada0.description}",
+	description: "{stp.quests.46c8ada0.description}",
 	dependencies: [
 		"6c2cdd15"
 	],

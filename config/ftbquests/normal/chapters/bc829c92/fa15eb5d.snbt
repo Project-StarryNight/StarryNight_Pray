@@ -1,6 +1,11 @@
 {
+	title: "{stp.quests.fa15eb5d.title}",
 	x: 6.5d,
-	y: 9.5d,
+	y: 10.5d,
+	description: "{stp.quests.fa15eb5d.description}",
+	text: [
+		"{stp.quests.fa15eb5d.text.1}"
+	],
 	dependencies: [
 		"237f1ffd"
 	],
@@ -17,6 +22,13 @@
 		items: [{
 			item: "gregtech:metal_casing 1 8"
 		}],
-		count: 31L
+		count: 25L
+	}],
+	rewards: [{
+		uid: "9141cd81",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16,
+		random_bonus: 48
 	}]
 }

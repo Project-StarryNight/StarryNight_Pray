@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.eb6a4c80.title}",
+	title: "{stp.quests.eb6a4c80.title}",
 	x: 3.5d,
 	y: 11.5d,
 	dependencies: [
@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "03308857",
 		type: "item",
-		title: "{snp.quests.eb6a4c80.title}",
+		title: "{stp.quests.eb6a4c80.title}",
 		items: [{
 			item: "gregtech:meta_plate 1 324"
 		}]

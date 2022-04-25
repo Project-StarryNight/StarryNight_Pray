@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.be97d5ee.title}",
+	title: "{stp.quests.be97d5ee.title}",
 	icon: "gregtech:meta_gear 1 276",
 	always_invisible: false,
 	group: 0,

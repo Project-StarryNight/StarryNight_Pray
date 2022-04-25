@@ -1,9 +1,9 @@
 {
-	title: "{snp.quests.e73b613a.title}",
+	title: "{stp.quests.e73b613a.title}",
 	x: -2.0d,
 	y: -0.5d,
 	text: [
-		"{snp.quests.e73b613a.text.1}"
+		"{stp.quests.e73b613a.text.1}"
 	],
 	dependencies: [
 		"e3109314"

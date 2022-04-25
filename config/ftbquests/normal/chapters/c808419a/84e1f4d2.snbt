@@ -1,13 +1,13 @@
 {
-	title: "{snp.quests.84e1f4d2.title}",
+	title: "{stp.quests.84e1f4d2.title}",
 	x: -3.75d,
 	y: 0.5d,
 	shape: "gear",
-	description: "{snp.quests.84e1f4d2.description}",
+	description: "{stp.quests.84e1f4d2.description}",
 	text: [
-		"{snp.quests.84e1f4d2.text.1}",
-		"{snp.quests.84e1f4d2.text.2}",
-		"{snp.quests.84e1f4d2.text.3}"
+		"{stp.quests.84e1f4d2.text.1}",
+		"{stp.quests.84e1f4d2.text.2}",
+		"{stp.quests.84e1f4d2.text.3}"
 	],
 	dependencies: [
 		"58f3459f"

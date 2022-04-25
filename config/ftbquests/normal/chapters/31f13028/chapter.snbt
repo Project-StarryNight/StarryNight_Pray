@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.31f13028.title}",
+	title: "{stp.quests.31f13028.title}",
 	icon: "gregtech:machine 1 950",
 	always_invisible: false,
 	group: -1792240729,
@@ -10,7 +10,7 @@
 		width: 8.4d,
 		height: 8.75d,
 		rotation: 0.0d,
-		image: "snp:textures/generator_lv_mv_hv-9.png",
+		image: "stp:textures/generator_lv_mv_hv-9.png",
 		hover: [],
 		click: "",
 		dev: false
@@ -21,7 +21,7 @@
 		width: 2.5d,
 		height: 8.75d,
 		rotation: 0.0d,
-		image: "snp:textures/generator_ev-2.png",
+		image: "stp:textures/generator_ev-2.png",
 		hover: [],
 		click: "",
 		dev: false
@@ -32,7 +32,7 @@
 		width: 2.5d,
 		height: 8.75d,
 		rotation: 0.0d,
-		image: "snp:textures/generator_iv-1.png",
+		image: "stp:textures/generator_iv-1.png",
 		hover: [],
 		click: "",
 		dev: false
@@ -43,7 +43,7 @@
 		width: 2.5d,
 		height: 8.75d,
 		rotation: 0.0d,
-		image: "snp:textures/generator_luv-1.png",
+		image: "stp:textures/generator_luv-1.png",
 		hover: [],
 		click: "",
 		dev: false
@@ -54,7 +54,7 @@
 		width: 5.5d,
 		height: 8.75d,
 		rotation: 0.0d,
-		image: "snp:textures/generator_zpm_uv-2.png",
+		image: "stp:textures/generator_zpm_uv-2.png",
 		hover: [],
 		click: "",
 		dev: false
@@ -65,7 +65,7 @@
 		width: 23.5d,
 		height: 5.0d,
 		rotation: 0.0d,
-		image: "snp:textures/extra_generator-4.png",
+		image: "stp:textures/extra_generator-4.png",
 		hover: [],
 		click: "",
 		dev: false
@@ -76,7 +76,7 @@
 		width: 11.25d,
 		height: 4.0d,
 		rotation: 0.0d,
-		image: "snp:textures/generator_rf-9.png",
+		image: "stp:textures/generator_rf-9.png",
 		hover: [],
 		click: "",
 		dev: false
@@ -87,7 +87,7 @@
 		width: 11.65d,
 		height: 4.0d,
 		rotation: 0.0d,
-		image: "snp:textures/generator_fuels-1.png",
+		image: "stp:textures/generator_fuels-1.png",
 		hover: [],
 		click: "",
 		dev: false

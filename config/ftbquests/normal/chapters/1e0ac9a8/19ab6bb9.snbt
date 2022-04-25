@@ -1,9 +1,9 @@
 {
-	title: "{snp.quests.19ab6bb9.title}",
+	title: "{stp.quests.19ab6bb9.title}",
 	icon: "gregtech:machine 1 986",
 	x: -3.5d,
 	y: 3.0d,
-	description: "{snp.quests.19ab6bb9.description}",
+	description: "{stp.quests.19ab6bb9.description}",
 	dependencies: [
 		"5e18196e"
 	],

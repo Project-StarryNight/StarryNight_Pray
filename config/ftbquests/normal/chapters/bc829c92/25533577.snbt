@@ -1,19 +1,21 @@
 {
-	title: "{snp.quests.25533577.title}",
+	title: "{stp.quests.25533577.title}",
 	icon: "gregtech:machine 1 1000",
 	x: 5.5d,
-	y: 9.5d,
-	description: "{snp.quests.25533577.description}",
+	y: 9.0d,
+	description: "{stp.quests.25533577.description}",
 	text: [
-		"{snp.quests.25533577.text.1}",
-		"{snp.quests.25533577.text.2}",
-		"{snp.quests.25533577.text.3}",
-		"{snp.quests.25533577.text.4}",
-		"{snp.quests.25533577.text.5}",
-		"{snp.quests.25533577.text.6}"
+		"{stp.quests.25533577.text.1}",
+		"{stp.quests.25533577.text.2}",
+		"{stp.quests.25533577.text.3}",
+		"{stp.quests.25533577.text.4}",
+		"{stp.quests.25533577.text.5}",
+		"{stp.quests.25533577.text.6}"
 	],
 	dependencies: [
-		"4a6489ed"
+		"4a6489ed",
+		"27bab39c",
+		"f486ff61"
 	],
 	tasks: [{
 		uid: "714802d3",

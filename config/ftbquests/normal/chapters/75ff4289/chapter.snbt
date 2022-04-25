@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.75ff4289.title}",
+	title: "{stp.quests.75ff4289.title}",
 	icon: {
 		id: "bloodmagic:sacrificial_dagger",
 		tag: {}

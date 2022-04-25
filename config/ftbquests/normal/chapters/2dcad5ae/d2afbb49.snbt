@@ -1,17 +1,17 @@
 {
-	title: "{snp.quests.d2afbb49.title}",
+	title: "{stp.quests.d2afbb49.title}",
 	x: 18.0d,
 	y: 0.0d,
-	description: "{snp.quests.d2afbb49.description}",
+	description: "{stp.quests.d2afbb49.description}",
 	text: [
-		"{snp.quests.d2afbb49.text.1}",
-		"{snp.quests.d2afbb49.text.2}",
-		"{snp.quests.d2afbb49.text.3}",
-		"{snp.quests.d2afbb49.text.4}",
-		"{snp.quests.d2afbb49.text.5}",
-		"{snp.quests.d2afbb49.text.6}",
-		"{snp.quests.d2afbb49.text.7}",
-		"{snp.quests.d2afbb49.text.8}"
+		"{stp.quests.d2afbb49.text.1}",
+		"{stp.quests.d2afbb49.text.2}",
+		"{stp.quests.d2afbb49.text.3}",
+		"{stp.quests.d2afbb49.text.4}",
+		"{stp.quests.d2afbb49.text.5}",
+		"{stp.quests.d2afbb49.text.6}",
+		"{stp.quests.d2afbb49.text.7}",
+		"{stp.quests.d2afbb49.text.8}"
 	],
 	tasks: [{
 		uid: "ac7179eb",

@@ -1,10 +1,10 @@
 {
-	title: "{snp.quests.e3109314.title}",
+	title: "{stp.quests.e3109314.title}",
 	x: -1.5d,
 	y: -2.5d,
-	description: "{snp.quests.e3109314.description}",
+	description: "{stp.quests.e3109314.description}",
 	text: [
-		"{snp.quests.e3109314.text.1}"
+		"{stp.quests.e3109314.text.1}"
 	],
 	dependencies: [
 		"30315d1d"

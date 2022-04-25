@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: 0.0d,
 	text: [
-		"{snp.quests.359c7ae0.text.1}"
+		"{stp.quests.359c7ae0.text.1}"
 	],
 	dependencies: [
 		"519560b4"

@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.eaf70902.title}",
+	title: "{stp.quests.eaf70902.title}",
 	icon: {
 		id: "astralsorcery:itemwand",
 		tag: {

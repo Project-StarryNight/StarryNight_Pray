@@ -1,8 +1,8 @@
 import os
 
 ftbquests_path = "config/ftbquests"
-zh_cn_path = "resources/snp/lang/zh_cn.lang"
-en_us_path = "resources/snp/lang/en_us.lang"
+zh_cn_path = "resources/stp/lang/zh_cn.lang"
+en_us_path = "resources/stp/lang/en_us.lang"
 should_replace_key_type_value = [
     "title",
     "description"
@@ -57,12 +57,12 @@ def replace_with_lang_key(line, key, f_list, index, file_name):
     head = line[0:first_quote_index]
     content = line[first_quote_index + 1:last_quote_index]
     tail = line[last_quote_index + 1:len(line)]
-    lang_key = "snp.quests.%s.%s" % (file_name, key)
+    lang_key = "stp.quests.%s.%s" % (file_name, key)
     print("get lang key %s, value = %s" % (lang_key, content))
     new_content = head + "\"{" + lang_key + "}\"" + tail
     f_list[index] = new_content
     context_dict[lang_key] = content
-        
+
 
 def write_lang(path):
     copy = context_dict.copy()

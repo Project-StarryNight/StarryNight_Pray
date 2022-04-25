@@ -1,11 +1,11 @@
 {
-	title: "{snp.quests.b3309650.title}",
+	title: "{stp.quests.b3309650.title}",
 	icon: "astralsorcery:blockaltar 1 3",
 	x: 6.5d,
 	y: 0.0d,
-	description: "{snp.quests.b3309650.description}",
+	description: "{stp.quests.b3309650.description}",
 	text: [
-		"{snp.quests.b3309650.text.1}"
+		"{stp.quests.b3309650.text.1}"
 	],
 	dependencies: [
 		"d423df47",
@@ -16,7 +16,11 @@
 		uid: "9a56deb1",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockaltar 1 3"
+			id: "astralsorcery:blockaltar",
+			Damage: 3s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
 		}],
 		ignore_nbt: 1b
 	},

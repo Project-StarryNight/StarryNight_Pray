@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.9c8d9683.title}",
+	title: "{stp.quests.9c8d9683.title}",
 	icon: "gregtech:cable_quadruple 1 2",
 	always_invisible: false,
 	group: -1792240729,

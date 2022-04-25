@@ -1,12 +1,12 @@
 {
-	title: "{snp.quests.a9780120.title}",
+	title: "{stp.quests.a9780120.title}",
 	icon: "gregtech:machine 1 2001",
 	x: 9.0d,
 	y: 2.5d,
-	description: "{snp.quests.a9780120.description}",
+	description: "{stp.quests.a9780120.description}",
 	text: [
-		"{snp.quests.a9780120.text.1}",
-		"{snp.quests.a9780120.text.2}"
+		"{stp.quests.a9780120.text.1}",
+		"{stp.quests.a9780120.text.2}"
 	],
 	dependencies: [
 		"ed1a77a0"

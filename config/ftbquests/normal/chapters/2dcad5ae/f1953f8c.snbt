@@ -1,20 +1,20 @@
 {
-	title: "{snp.quests.f1953f8c.title}",
+	title: "{stp.quests.f1953f8c.title}",
 	x: 14.0d,
 	y: 2.0d,
-	description: "{snp.quests.f1953f8c.description}",
+	description: "{stp.quests.f1953f8c.description}",
 	text: [
-		"{snp.quests.f1953f8c.text.1}",
-		"{snp.quests.f1953f8c.text.2}",
-		"{snp.quests.f1953f8c.text.3}",
-		"{snp.quests.f1953f8c.text.4}",
-		"{snp.quests.f1953f8c.text.5}",
-		"{snp.quests.f1953f8c.text.6}",
-		"{snp.quests.f1953f8c.text.7}",
-		"{snp.quests.f1953f8c.text.8}",
-		"{snp.quests.f1953f8c.text.9}",
-		"{snp.quests.f1953f8c.text.10}",
-		"{snp.quests.f1953f8c.text.11}"
+		"{stp.quests.f1953f8c.text.1}",
+		"{stp.quests.f1953f8c.text.2}",
+		"{stp.quests.f1953f8c.text.3}",
+		"{stp.quests.f1953f8c.text.4}",
+		"{stp.quests.f1953f8c.text.5}",
+		"{stp.quests.f1953f8c.text.6}",
+		"{stp.quests.f1953f8c.text.7}",
+		"{stp.quests.f1953f8c.text.8}",
+		"{stp.quests.f1953f8c.text.9}",
+		"{stp.quests.f1953f8c.text.10}",
+		"{stp.quests.f1953f8c.text.11}"
 	],
 	dependencies: [
 		"47c318bb"

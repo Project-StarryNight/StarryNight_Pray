@@ -1,14 +1,14 @@
 {
-	title: "{snp.quests.426ead0d.title}",
+	title: "{stp.quests.426ead0d.title}",
 	icon: "botania:cosmetic 1 31",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "{snp.quests.426ead0d.description}",
+	description: "{stp.quests.426ead0d.description}",
 	text: [
-		"{snp.quests.426ead0d.text.1}",
-		"{snp.quests.426ead0d.text.2}",
-		"{snp.quests.426ead0d.text.3}"
+		"{stp.quests.426ead0d.text.1}",
+		"{stp.quests.426ead0d.text.2}",
+		"{stp.quests.426ead0d.text.3}"
 	],
 	size: 1.5d,
 	tasks: [{

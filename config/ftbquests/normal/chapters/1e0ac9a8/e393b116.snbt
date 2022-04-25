@@ -1,7 +1,7 @@
 {
 	x: -5.5d,
 	y: 0.0d,
-	description: "{snp.quests.e393b116.description}",
+	description: "{stp.quests.e393b116.description}",
 	dependencies: [
 		"31f36a0f",
 		"7c7cb1b8",

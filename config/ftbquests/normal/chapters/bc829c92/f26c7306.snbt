@@ -1,9 +1,9 @@
 {
-	title: "{snp.quests.f26c7306.title}",
+	title: "{stp.quests.f26c7306.title}",
 	icon: "minecraft:furnace",
 	x: 1.0d,
 	y: -0.5d,
-	description: "{snp.quests.f26c7306.description}",
+	description: "{stp.quests.f26c7306.description}",
 	tasks: [{
 		uid: "4f1844a0",
 		type: "item",

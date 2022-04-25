@@ -1,5 +1,5 @@
 {
-	title: "{snp.quests.ecdd0bcf.title}",
+	title: "{stp.quests.ecdd0bcf.title}",
 	x: 0.0d,
 	y: 2.5d,
 	dependencies: [
