@@ -1,14 +1,15 @@
 {
-	x: 10.0d,
-	y: 6.0d,
+	x: -7.0d,
+	y: -2.0d,
 	dependencies: [
-		"60e490b7"
+		"804a1e6f"
 	],
 	tasks: [{
-		uid: "d8d1fc10",
+		uid: "a400d05f",
 		type: "item",
 		items: [{
-			item: "minecraft:shield"
+			id: "botania:lexicon",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

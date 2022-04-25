@@ -1,0 +1,23 @@
+{
+	x: 13.0d,
+	y: 4.0d,
+	dependencies: [
+		"c8539fdb"
+	],
+	tasks: [{
+		uid: "1680f9e0",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_ore"
+		}],
+		count: 64L
+	},
+	{
+		uid: "057fd487",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}],
+		count: 64L
+	}]
+}

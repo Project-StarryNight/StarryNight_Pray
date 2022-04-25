@@ -1,0 +1,15 @@
+{
+	title: "{stp.quests.63ceae8c.title}",
+	x: -9.5d,
+	y: 0.0d,
+	text: [
+		"{stp.quests.63ceae8c.text.1}"
+	],
+	tasks: [{
+		uid: "d9d601c2",
+		type: "item",
+		items: [{
+			item: "botania:petal"
+		}]
+	}]
+}

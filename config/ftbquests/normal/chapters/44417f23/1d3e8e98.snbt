@@ -1,14 +1,14 @@
 {
 	x: 5.5d,
-	y: 7.5d,
+	y: 2.0d,
 	dependencies: [
-		"2ce2c1de"
+		"7bdb32e9"
 	],
 	tasks: [{
-		uid: "0124cad7",
+		uid: "24b80f52",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 352"
+			item: "botania:runealtar"
 		}]
 	}]
 }
