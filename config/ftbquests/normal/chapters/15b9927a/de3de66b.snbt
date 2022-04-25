@@ -1,9 +1,9 @@
 {
-	title: "{stp.quests.de3de66b.title}",
+	title: "{snp.quests.de3de66b.title}",
 	x: 6.0d,
 	y: -2.0d,
 	shape: "pentagon",
-	description: "{stp.quests.de3de66b.description}",
+	description: "{snp.quests.de3de66b.description}",
 	dependencies: [
 		"9dfd9dd3"
 	],
