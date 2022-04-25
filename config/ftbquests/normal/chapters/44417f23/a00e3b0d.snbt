@@ -1,9 +1,9 @@
 {
-	title: "非酋的眼泪",
+	title: "{stp.quests.a00e3b0d.title}",
 	x: -7.0d,
 	y: 4.0d,
 	text: [
-		"找不到宏伟之木？试试这个？"
+		"{stp.quests.a00e3b0d.text.1}"
 	],
 	dependencies: [
 		"dd35e1bc"

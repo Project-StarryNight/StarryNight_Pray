@@ -1,9 +1,9 @@
 {
-	title: "研磨，然后开始染料科技！",
+	title: "{stp.quests.63ceae8c.title}",
 	x: -9.5d,
 	y: 0.0d,
 	text: [
-		"虽然只要求提交白色花瓣，其他颜色的花瓣也需要哦！"
+		"{stp.quests.63ceae8c.text.1}"
 	],
 	tasks: [{
 		uid: "d9d601c2",
