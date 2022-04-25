@@ -21,25 +21,25 @@ jobs:
       - name: Get prepared
         run: |
           echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
-          git clone https://github.com/Project-StarryNight/StarryNight_Pray snp
+          git clone https://github.com/Project-StarryNight/StarryNight_Pray stp
           git clone https://github.com/Project-StarryNight/cf_modpack modpack
       - name: Build the modpack
         run: |
-          rm -rf snp/mods
-          cp -r snp/* modpack/overrides
+          rm -rf stp/mods
+          cp -r stp/* modpack/overrides
           rm -rf modpack/.git
           rm -rf modpack/.github
-          rm -rf snp
+          rm -rf stp
           cd modpack
-          zip -r -9 ../SNP_modpack${{ env.FILE_DATE }}.zip *
+          zip -r -9 ../StP_modpack${{ env.FILE_DATE }}.zip *
       - name: Upload artifact to WeTransfer
         run: |
           curl -fsSL git.io/file-transfer | sh
-          ./transfer wet -s -p 16 --no-progress SNP_modpack${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
+          ./transfer wet -s -p 16 --no-progress StP_modpack${{ env.FILE_DATE }}.zip 2>&1 | tee wetransfer.log
           echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
           echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
       - name: Upload artifact to Github
         uses: actions/upload-artifact@main
         with:
-          name: SNP_modpack${{ env.FILE_DATE }}.zip
+          name: StP_modpack${{ env.FILE_DATE }}.zip
           path: modpack/

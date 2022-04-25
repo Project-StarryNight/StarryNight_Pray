@@ -2,7 +2,7 @@
 # PaperBox Minecraft Server
 # Learn more at https://paperboxmc.cn/.
 
-name: convert_snp_to_paperbox
+name: convert_stp_to_paperbox
 
 # Controls when the workflow will run
 on:
@@ -25,7 +25,7 @@ jobs:
         
       - name: Run patch script
         run: |
-          wget https://raw.githubusercontent.com/Project-StarryNight/snp_paperbox_patch/main/patch.sh
+          wget https://raw.githubusercontent.com/Project-StarryNight/stp_paperbox_patch/main/patch.sh
           sh patch.sh
       - name: Compress the artifact
         run: |
