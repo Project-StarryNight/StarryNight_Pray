@@ -1,0 +1,42 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"1d3e8e98"
+	],
+	tasks: [{
+		uid: "9afb334b",
+		type: "item",
+		items: [{
+			item: "botania:rune"
+		}]
+	},
+	{
+		uid: "1be7c9df",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 1"
+		}]
+	},
+	{
+		uid: "e1f6bd68",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 2"
+		}]
+	},
+	{
+		uid: "b70710bf",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 3"
+		}]
+	},
+	{
+		uid: "396f1d22",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 8"
+		}]
+	}]
+}
