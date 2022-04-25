@@ -33,3 +33,19 @@ function addLEP(id as int) {
 for i in 0 to 3 {
     addLEP(i);
 }
+
+//添加神秘机械方块
+var voidcasing = VanillaFactory.createBlock("void_casing", <blockmaterial:iron>);
+voidcasing.entitySpawnable = false;
+voidcasing.fullBlock = false;
+voidcasing.setToolClass("pickaxe");
+voidcasing.setToolLevel(2);
+voidcasing.register();
+
+//添加神秘机械方块
+var thaumiumcasing = VanillaFactory.createBlock("thaumium_casing", <blockmaterial:iron>);
+thaumiumcasing.entitySpawnable = false;
+thaumiumcasing.fullBlock = false;
+thaumiumcasing.setToolClass("pickaxe");
+thaumiumcasing.setToolLevel(2);
+thaumiumcasing.register();
