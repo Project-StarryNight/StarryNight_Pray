@@ -1,5 +1,5 @@
 /*
- * ZenScript by MCKLt & Kilabash
+ * ZenScript by MCKLt & KilaBash
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为硅岩移相器结构内容
 */
@@ -64,7 +64,7 @@ Builder.start(loc, id)
             .where("S", controller.self())
             .where("A", CTPredicate.states(block1)
             | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
-            | CTPredicate.abilities(<mte_ability:OUTPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
+            | CTPredicate.abilities(<mte_ability:OUTPUT_ENERGY>).setMinGlobalLimited(2).setMaxGlobalLimited(1).setPreviewCount(1)
             | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
             | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1))
             .where("B", CTPredicate.states(block2))
