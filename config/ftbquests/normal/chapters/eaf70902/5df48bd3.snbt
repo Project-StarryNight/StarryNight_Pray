@@ -17,9 +17,6 @@
 			id: "astralsorcery:itemskyresonator",
 			tag: {
 				astralsorcery: {}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,
