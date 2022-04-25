@@ -222,7 +222,7 @@ ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@2", 50,
 
 ArcaneWorkbench.registerShapelessRecipe("vis_resonator", "UNLOCKAUROMANCY", 100,
     [<aspect:aer> * 2, <aspect:aqua> * 2], <thaumcraft:vis_resonator>, [
-    <ore:ringSteel>, <ore:gemFlawlessNetherQuartz>
+    <ore:foilSteel>, <ore:gemFlawlessNetherQuartz>
     ]);
 
 ArcaneWorkbench.registerShapedRecipe("caster_basic", "UNLOCKAUROMANCY", 200,
