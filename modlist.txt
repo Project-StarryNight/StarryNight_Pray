@@ -38,12 +38,6 @@
         - [JEI 应用能源支持][NotEnoughEnergistics-1.12.2-1.2.4]
 
     - [高级火箭][AdvancedRocketry-1.12.2-2.0.0-257-universal]
-    - [模块化机械][modularmachinery-1.12.2-1.11.1]
-        (附属)
-        - [模块化控制器][ModularController-1.4.2]
-        - [模块化组装][ModularAssembly-1.12.2-1.0.2]
-        - [咕咕工具][gugu-utils-0.8.1.2]
-
     - [星辉魔法][astralsorcery-1.12.2-1.10.27]
         (附属)
         - [星占魔法][astrologicalsorcery-1.12.2-1.1.3]
@@ -52,6 +46,9 @@
     - [ID 扩展][JustEnoughIDs-1.0.4-SNAPSHOT-thin]
     - [矿辞统一][UniDict-1.12.2-3.0.10]
     - [MBD][multiblocked-0.5]
+    - [龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
+        (附属)
+        - [龙之进化扩展][Draconic-Additions-1.12.2-1.17.0.45-universal]
 
 主要Mod:
     - [无尽贪婪][Avaritia-1.12.2-3.3.0.37-universal]
@@ -80,7 +77,6 @@
         - [神秘进阶][ThaumicAugmentation-1.12.2-2.1.5]
         - [神秘外饰][thaumicperiphery-0.3.1]
         - [神秘领域:重构][ThaumicAdditions-1.12.2-12.7.8]
-        - [神秘加载提速][thaumicspeedup-4.0]
         - [游戏内信息显示_神秘时代扩展][IGI-Thaumcraft-1.0a]
         - [失落魔法][lostmagic-1.0.2]
         - [TRP][ThaumcraftResearchPatcher-1.12.2-1.1.3]
@@ -128,13 +124,18 @@
     - [储物桶][YABBA-1.1.2.54]
     - [RF 工具箱][rftools-1.12-7.73]
     - [建筑师工艺][architecturecraft-1.12-3.98]
-    - [龙之进化][Draconic-Evolution-1.12.2-2.3.28.354-universal]
-    - [龙之进化扩展][Draconic-Additions-1.12.2-1.17.0.45-universal]
     - [末影存储][EnderStorage-1.12.2-2.4.6.137-universal]
     - [潘马斯农场][Pam's+HarvestCraft+1.12.2zg]
     - [量瓶][volumetricflask-0.18]
     - [计算器][JustEnoughCalculation-1.12.2-3.2.7]
     - [垃圾桶][GarbageBins-1.1.1]
+    - [Portality][portality-1.12.2-1.2.3-15]
+    - [TOP Fix][topfix-1.1]
+    - [模块化机械][modularmachinery-1.12.2-1.11.1]
+        (附属)
+        - [模块化控制器][ModularController-1.4.2]
+        - [模块化组装][ModularAssembly-1.12.2-1.0.2]
+        - [咕咕工具][gugu-utils-0.8.1.2]
 
 前置Mod:
     - [前置][BrandonsCore-1.12.2-2.4.20.162-universal]
@@ -315,6 +316,7 @@
     - [合成冲突消除][YARCF-0.14(1.12.2)]
     - [掉落物拾取提示][PickUpNotifier-v1.1.5-1.12.2]
     - [提示][Tips-1.12.2-1.0.9]
+    - [时装盔甲重置版][CosmeticArmorReworked-1.12.2-v5a]
 
     修复:
     - [更大的发包][biggerpacketsplz-since1.8-1.2]
