@@ -1,6 +1,7 @@
 {
 	x: 5.0d,
 	y: -1.0d,
+	description: "嘿嘿一下去到更多方向！",
 	dependencies: [
 		"06a1aa8b"
 	],

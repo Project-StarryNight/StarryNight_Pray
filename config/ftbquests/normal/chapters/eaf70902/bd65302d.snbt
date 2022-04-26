@@ -1,13 +1,19 @@
 {
-	title: "{stp.quests.bd65302d.title}",
+	title: "电力聚星缸",
 	x: 1.5d,
 	y: 2.0d,
 	description: "{stp.quests.bd65302d.description}",
+	text: [
+		"更有效的榨取星能液，并且能得到天体能量！"
+	],
 	dependencies: [
 		"e580f143"
 	],
 	tasks: [{
-		uid: "5108f4b0",
-		type: "checkmark"
+		uid: "d82efb0c",
+		type: "item",
+		items: [{
+			item: "stp:mechanized_polystar_cylinder"
+		}]
 	}]
 }

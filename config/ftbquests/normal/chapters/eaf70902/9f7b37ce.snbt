@@ -1,0 +1,16 @@
+{
+	title: "星能浸渍机",
+	x: -0.5d,
+	y: 2.0d,
+	description: "让我们将它们丢进去泡一泡",
+	dependencies: [
+		"0af3b304"
+	],
+	tasks: [{
+		uid: "93b1553e",
+		type: "item",
+		items: [{
+			item: "stp:star_energy_impregnation_machine"
+		}]
+	}]
+}

@@ -1,5 +1,5 @@
 {
-	title: "{stp.quests.92197c64.title}",
+	title: "星能结晶器",
 	x: 5.0d,
 	y: 2.0d,
 	description: "{stp.quests.92197c64.description}",
@@ -7,7 +7,10 @@
 		"06a1aa8b"
 	],
 	tasks: [{
-		uid: "b1a93f18",
-		type: "checkmark"
+		uid: "1e9bf082",
+		type: "item",
+		items: [{
+			item: "stp:star_energy_crystallizer"
+		}]
 	}]
 }

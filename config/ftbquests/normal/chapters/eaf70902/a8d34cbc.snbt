@@ -1,6 +1,7 @@
 {
 	x: 7.5d,
 	y: 1.0d,
+	description: "只能给一点点，不能给多了",
 	dependencies: [
 		"d423df47",
 		"b3309650"

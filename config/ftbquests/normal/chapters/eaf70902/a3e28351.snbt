@@ -14,12 +14,20 @@
 			}
 		}
 	},
-	x: -1.0d,
+	x: -2.0d,
 	y: 1.0d,
 	description: "{stp.quests.a3e28351.description}",
 	text: [
 		"{stp.quests.a3e28351.text.1}",
 		"{stp.quests.a3e28351.text.2}",
 		"{stp.quests.a3e28351.text.3}"
-	]
+	],
+	dependencies: [
+		"b4a79ca8"
+	],
+	tasks: [{
+		uid: "f8ba2d50",
+		type: "checkmark",
+		icon: "botania:cosmetic 1 31"
+	}]
 }

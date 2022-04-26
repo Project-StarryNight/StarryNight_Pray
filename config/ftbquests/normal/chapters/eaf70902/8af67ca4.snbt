@@ -1,0 +1,16 @@
+{
+	title: "星力组装台",
+	x: 0.0d,
+	y: 0.0d,
+	description: "这..这不对吧？",
+	dependencies: [
+		"b4a79ca8"
+	],
+	tasks: [{
+		uid: "159d52ca",
+		type: "item",
+		items: [{
+			item: "stp:star_force_assembly_table"
+		}]
+	}]
+}

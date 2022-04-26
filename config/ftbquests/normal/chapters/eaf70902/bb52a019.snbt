@@ -1,0 +1,19 @@
+{
+	title: "关于星辉魔法机械化多方块",
+	icon: "botania:cosmetic 1 31",
+	x: -2.0d,
+	y: 0.0d,
+	description: "我们一起上吧！",
+	text: [
+		"大部分星辉魔法的多方块都会保留原始功能",
+		"也就是说可以在机器运作的同时也能作为正常时那样用"
+	],
+	dependencies: [
+		"b4a79ca8"
+	],
+	tasks: [{
+		uid: "8d2e5bed",
+		type: "checkmark",
+		title: "点我一下！"
+	}]
+}

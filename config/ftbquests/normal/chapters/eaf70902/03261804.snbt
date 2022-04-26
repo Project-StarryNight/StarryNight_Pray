@@ -1,6 +1,7 @@
 {
 	x: 2.5d,
 	y: -2.0d,
+	description: "天体魔法....易位！",
 	dependencies: [
 		"7b91e4b1"
 	],

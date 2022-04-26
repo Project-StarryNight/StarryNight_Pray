@@ -1,13 +1,16 @@
 {
-	title: "{stp.quests.1eaf9a6a.title}",
-	x: 8.5d,
-	y: -0.5d,
-	description: "{stp.quests.1eaf9a6a.description}",
+	title: "五彩组装台",
+	x: 7.5d,
+	y: 0.0d,
+	description: "这下所有星星都是我的！",
 	dependencies: [
 		"b3309650"
 	],
 	tasks: [{
-		uid: "c6ccdb30",
-		type: "checkmark"
+		uid: "1ebeab0f",
+		type: "item",
+		items: [{
+			item: "stp:multicolored_assembly_table"
+		}]
 	}]
 }
