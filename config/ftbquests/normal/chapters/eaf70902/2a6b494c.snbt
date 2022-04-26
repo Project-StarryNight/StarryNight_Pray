@@ -1,11 +1,11 @@
 {
-	title: "星能凝聚器",
+	title: "{stp.quests.2a6b494c.title}",
 	x: -1.0d,
 	y: 1.0d,
-	description: "从星能到星能？（暂时没做请用电力聚星缸）",
+	description: "{stp.quests.2a6b494c.description}",
 	text: [
-		"将星能变为液态星能，使机器运作并无需晚上",
-		"所有机械化装置都需要此机器制作液化星能来供能"
+		"{stp.quests.2a6b494c.text.1}",
+		"{stp.quests.2a6b494c.text.2}"
 	],
 	dependencies: [
 		"b4a79ca8"
