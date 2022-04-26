@@ -1,8 +1,8 @@
 {
-	title: "星辉组装台",
+	title: "{stp.quests.6bebc01e.title}",
 	x: 2.5d,
 	y: 0.0d,
-	description: "机械...但是有灵魂！",
+	description: "{stp.quests.6bebc01e.description}",
 	dependencies: [
 		"7b91e4b1"
 	],

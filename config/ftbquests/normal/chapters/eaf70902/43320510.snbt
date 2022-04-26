@@ -1,8 +1,8 @@
 {
-	title: "天辉组装台",
+	title: "{stp.quests.43320510.title}",
 	x: 5.0d,
 	y: 0.0d,
-	description: "我相信星星们会喜欢他的",
+	description: "{stp.quests.43320510.description}",
 	dependencies: [
 		"06a1aa8b"
 	],

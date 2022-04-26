@@ -1,7 +1,7 @@
 {
 	x: 2.5d,
 	y: -2.0d,
-	description: "天体魔法....易位！",
+	description: "{stp.quests.03261804.description}",
 	dependencies: [
 		"7b91e4b1"
 	],
