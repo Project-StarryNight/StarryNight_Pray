@@ -1,0 +1,11 @@
+{
+	x: 17.0d,
+	y: 16.0d,
+	tasks: [{
+		uid: "75ad01e7",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2042"
+		}]
+	}]
+}

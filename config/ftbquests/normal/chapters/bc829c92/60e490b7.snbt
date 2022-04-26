@@ -1,7 +1,7 @@
 {
 	title: "{stp.quests.60e490b7.title}",
 	x: 8.5d,
-	y: 6.0d,
+	y: 6.5d,
 	description: "{stp.quests.60e490b7.description}",
 	dependencies: [
 		"2ce2c1de",

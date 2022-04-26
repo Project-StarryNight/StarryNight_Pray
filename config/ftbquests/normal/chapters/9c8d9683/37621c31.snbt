@@ -1,0 +1,14 @@
+{
+	x: 26.5d,
+	y: 6.0d,
+	dependencies: [
+		"30315d1d"
+	],
+	tasks: [{
+		uid: "32d12644",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 32005"
+		}]
+	}]
+}

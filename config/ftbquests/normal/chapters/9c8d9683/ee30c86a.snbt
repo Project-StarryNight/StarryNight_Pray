@@ -1,0 +1,22 @@
+{
+	title: "{stp.quests.ee30c86a.title}",
+	icon: "botania:cosmetic 1 31",
+	x: -3.0d,
+	y: -2.5d,
+	shape: "diamond",
+	description: "{stp.quests.ee30c86a.description}",
+	text: [
+		"{stp.quests.ee30c86a.text.1}",
+		"{stp.quests.ee30c86a.text.2}",
+		"{stp.quests.ee30c86a.text.3}",
+		"{stp.quests.ee30c86a.text.4}",
+		"{stp.quests.ee30c86a.text.5}",
+		"{stp.quests.ee30c86a.text.6}"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f1629acf",
+		type: "checkmark",
+		title: "{stp.quests.ee30c86a.title}"
+	}]
+}

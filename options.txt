@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -95,6 +95,7 @@ key_key.toggle_shaders:0
 key_bloodmagic.keybind.open_holding:38
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
+key_cos.key.opencosarmorinventory:0
 key_enderutilities.key.activate_unselected:34
 key_enderutilities.key.togglemode:34
 key_key.ftbultimine:41

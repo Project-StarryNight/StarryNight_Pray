@@ -1,6 +1,6 @@
 {
 	x: 7.0d,
-	y: 7.5d,
+	y: 9.5d,
 	description: "{stp.quests.f486ff61.description}",
 	text: [
 		"{stp.quests.f486ff61.text.1}"

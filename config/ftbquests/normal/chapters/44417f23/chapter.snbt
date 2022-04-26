@@ -9,5 +9,16 @@
 	},
 	always_invisible: false,
 	group: 2087384099,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 2.0d,
+		y: -6.5d,
+		width: 25.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "stp:textures/bot_title-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

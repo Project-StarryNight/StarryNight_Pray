@@ -1,8 +1,8 @@
 {
 	title: "{stp.quests.182d3ea3.title}",
 	icon: "botania:cosmetic 1 31",
-	x: 5.5d,
-	y: -1.0d,
+	x: 3.5d,
+	y: -0.5d,
 	shape: "diamond",
 	description: "{stp.quests.182d3ea3.description}",
 	text: [

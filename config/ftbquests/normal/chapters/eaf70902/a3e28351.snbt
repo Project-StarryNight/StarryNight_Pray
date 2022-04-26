@@ -16,6 +16,7 @@
 	},
 	x: -2.0d,
 	y: 1.0d,
+	shape: "diamond",
 	description: "{stp.quests.a3e28351.description}",
 	text: [
 		"{stp.quests.a3e28351.text.1}",

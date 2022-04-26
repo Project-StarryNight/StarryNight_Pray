@@ -1,11 +1,8 @@
 {
 	title: "{stp.quests.8c4ea901.title}",
-	x: 2.5d,
+	x: 2.0d,
 	y: -4.5d,
 	description: "{stp.quests.8c4ea901.description}",
-	dependencies: [
-		"fe61b527"
-	],
 	tasks: [{
 		uid: "6e9aa62a",
 		type: "item",

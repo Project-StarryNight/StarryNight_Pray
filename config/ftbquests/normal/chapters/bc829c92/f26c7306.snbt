@@ -1,7 +1,7 @@
 {
 	title: "{stp.quests.f26c7306.title}",
 	icon: "minecraft:furnace",
-	x: 1.0d,
+	x: 0.5d,
 	y: -0.5d,
 	description: "{stp.quests.f26c7306.description}",
 	tasks: [{

@@ -304,12 +304,13 @@
     - TODO:添加觉醒龙锭与觉醒龙素的转换
     - 模组变动
         - 新模组
-            - [TODO:Portality]
-            - [TODO:时装]
-            - [TODO:Together Forever]
-            - [TODO:TOP Fix]
+            - [Portality][portality-1.12.2-1.2.3-15]
+            - [时装盔甲重置版][CosmeticArmorReworked-1.12.2-v5a]
+            - [TOP Fix][topfix-1.1]
         - 更新模组
             - [Multiblocked][0.3] -> [0.5]
+        - 删除模组
+            - [神秘加速][thaumicspeedup-4.0]
     - 任务更新
         - 格雷科技
             - LV
@@ -323,3 +324,6 @@
 TODO:后续版本的预备工作:
 - 完善 Tips 的内容
 - 纠正 DE 的配方内容
+
+stp:textures/circuits_lv-1.png
+stp:textures/bg_length_1-1.png

@@ -13,7 +13,9 @@
 		"{stp.quests.25533577.text.6}"
 	],
 	dependencies: [
-		"4a6489ed"
+		"4a6489ed",
+		"27bab39c",
+		"f486ff61"
 	],
 	tasks: [{
 		uid: "714802d3",
