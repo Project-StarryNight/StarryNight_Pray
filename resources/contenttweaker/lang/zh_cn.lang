@@ -2,3 +2,5 @@ item.contenttweaker.dragon_cell.name=龙细胞
 tile.contenttweaker.light_emitting_panel_0.name=太阳能光辐射吸收板 (WIP)
 tile.contenttweaker.light_emitting_panel_1.name=高级太阳能光辐射吸收板 (WIP)
 tile.contenttweaker.light_emitting_panel_2.name=终极太阳能光辐射吸收板 (WIP)
+tile.contenttweaker.void_casing.name=虚空金属机械方块
+tile.contenttweaker.thaumium_casing.name=神秘机械方块

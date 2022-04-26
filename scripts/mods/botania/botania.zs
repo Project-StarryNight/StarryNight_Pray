@@ -73,6 +73,8 @@ var items as IItemStack[] = [
     <botania:terraplate>
 ];
 
+recipes.removeShaped(<botania:terrasteelhelmreveal>);
+
 //循环移除
 for i, item in items {
     recipes.remove(item);
@@ -440,6 +442,9 @@ Infusion.registerRecipe("terrasteellegs", "", <botania:terrasteellegs>, 8,
 Infusion.registerRecipe("terrasteelboots", "", <botania:terrasteelboots>, 8,
     [<aspect:herba> * 40, <aspect:terra> * 25, <aspect:praemunio> * 15, <aspect:motus> * 15], <botania:manasteelboots>,
     [<thaumcraft:salis_mundus>, <ore:runeWinterB>, <thaumcraft:salis_mundus>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>]);
+Infusion.registerRecipe("<botania:terrasteelhelmreveal>", "", <botania:terrasteelhelmreveal>, 8,
+    [<aspect:herba> * 50, <aspect:terra> * 35, <aspect:praemunio> * 20, <aspect:motus> * 15, <aspect:sensus> * 15], <botania:manasteelhelmreveal>,
+    [<thaumcraft:salis_mundus>, <ore:runeSpringB>, <thaumcraft:salis_mundus>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>, <ore:livingwoodTwig>, <ore:ingotTerrasteel>]);
 
 //泰拉凝聚板
 

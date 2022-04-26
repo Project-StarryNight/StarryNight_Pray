@@ -50,6 +50,15 @@ for i, item in items {
     recipes.remove(item);
 }
 
+var RecipeNames as string[] = [
+"thaumcraft:cinderpearltoblazepowder",
+"thaumcraft:shimmerleaftoquicksilver"
+];
+
+for i, RecipeName in RecipeNames {
+ var RecipeName = RecipeNames[i];
+ recipes.removeByRecipeName(RecipeName);
+}
 //移除奥术工作台合成
 var arcaneItems as IItemStack[] = [
     <thaumcraft:thaumometer>,
@@ -193,7 +202,7 @@ recipes.addShaped(<thaumcraft:jar_brace> * 4,[
     [<ore:boltWood>, <ore:gtceScrewdrivers>, <ore:boltWood>],
     [<ore:screwBrass>, <ore:boltWood>, <ore:screwBrass>]
     ]);
-recipes.addShaped(<thaumcraft:phial>,[
+recipes.addShaped(<thaumcraft:phial> * 4,[
     [<minecraft:glass_bottle>, <ore:boltRubber>],
     [<thaumcraft:salis_mundus>, <ore:gtceSoftHammers>]
     ]);
@@ -211,10 +220,9 @@ ArcaneWorkbench.registerShapedRecipe("thaumometer", "FIRSTSTEPS@2", 50,
     [<ore:screwGold>, <ore:plateGold>, <ore:screwGold>]
     ]);
 
-ArcaneWorkbench.registerShapedRecipe("vis_resonator", "UNLOCKAUROMANCY", 100,
+ArcaneWorkbench.registerShapelessRecipe("vis_resonator", "UNLOCKAUROMANCY", 100,
     [<aspect:aer> * 2, <aspect:aqua> * 2], <thaumcraft:vis_resonator>, [
-    [<ore:ringSteel>, <ore:gtceFiles>],
-    [<ore:gtceWrenches>, <ore:gemFlawlessNetherQuartz>]
+    <ore:foilSteel>, <ore:gemFlawlessNetherQuartz>
     ]);
 
 ArcaneWorkbench.registerShapedRecipe("caster_basic", "UNLOCKAUROMANCY", 200,
@@ -270,9 +278,9 @@ ArcaneWorkbench.registerShapedRecipe("condenser", "FLUXCLEANUP", 500,
 
 ArcaneWorkbench.registerShapedRecipe("Filter", "BASEALCHEMY", 30,
     [<aspect:aqua> * 2], <thaumcraft:filter> * 2, [
-    [<ore:screwSteel>, <ore:gtceSaws>, <ore:screwSteel>],
-    [<ore:ringGold>, <thaumcraft:log_silverwood>, <ore:ringGold>],
-    [<ore:screwSteel>,<ore:gtceScrewdrivers>,<ore:screwSteel>]
+    [<ore:springSmallGold>, <ore:foilSteel>, <ore:springSmallGold>],
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
+    [<ore:springSmallGold>,<ore:foilSteel>,<ore:springSmallGold>]
     ]);
 
 ArcaneWorkbench.registerShapedRecipe("MorphicResonator", "BASEALCHEMY", 100,
