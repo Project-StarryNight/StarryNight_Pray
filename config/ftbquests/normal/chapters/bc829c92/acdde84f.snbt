@@ -1,6 +1,6 @@
 {
 	title: "{stp.quests.acdde84f.title}",
-	x: 5.5d,
+	x: 3.5d,
 	y: 1.0d,
 	description: "{stp.quests.acdde84f.description}",
 	text: [

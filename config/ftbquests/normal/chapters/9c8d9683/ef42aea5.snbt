@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 20.0d,
+	dependencies: [
+		"e1f80053"
+	],
+	tasks: [{
+		uid: "6125d00c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1248"
+		}]
+	}]
+}

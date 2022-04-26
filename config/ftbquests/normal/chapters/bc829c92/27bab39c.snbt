@@ -1,7 +1,7 @@
 {
 	title: "{stp.quests.27bab39c.title}",
-	x: 6.5d,
-	y: 6.5d,
+	x: 5.5d,
+	y: 5.5d,
 	text: [
 		"{stp.quests.27bab39c.text.1}"
 	],

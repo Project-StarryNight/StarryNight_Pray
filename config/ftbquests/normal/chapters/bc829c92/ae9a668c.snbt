@@ -1,6 +1,6 @@
 {
 	title: "{stp.quests.ae9a668c.title}",
-	x: 2.5d,
+	x: 2.0d,
 	y: -2.5d,
 	description: "{stp.quests.ae9a668c.description}",
 	dependencies: [

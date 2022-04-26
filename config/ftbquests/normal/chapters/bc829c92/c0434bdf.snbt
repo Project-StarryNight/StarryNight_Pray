@@ -1,7 +1,7 @@
 {
 	title: "{stp.quests.c0434bdf.title}",
 	icon: "gregtech:meta_ingot 1 260",
-	x: 2.5d,
+	x: 2.0d,
 	y: -0.5d,
 	description: "{stp.quests.c0434bdf.description}",
 	text: [

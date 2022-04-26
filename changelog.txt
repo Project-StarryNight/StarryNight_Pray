@@ -324,3 +324,6 @@
 TODO:后续版本的预备工作:
 - 完善 Tips 的内容
 - 纠正 DE 的配方内容
+
+stp:textures/circuits_lv-1.png
+stp:textures/bg_length_1-1.png

@@ -5,7 +5,7 @@ fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:3
+guiScale:4
 particles:1
 bobView:false
 anaglyph3d:false
@@ -95,6 +95,7 @@ key_key.toggle_shaders:0
 key_bloodmagic.keybind.open_holding:38
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
+key_cos.key.opencosarmorinventory:0
 key_enderutilities.key.activate_unselected:34
 key_enderutilities.key.togglemode:34
 key_key.ftbultimine:41

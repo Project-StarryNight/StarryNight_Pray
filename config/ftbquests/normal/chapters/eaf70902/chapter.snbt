@@ -8,5 +8,16 @@
 	},
 	always_invisible: false,
 	group: 2087384099,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 3.5d,
+		y: -4.0d,
+		width: 12.5d,
+		height: 2.5d,
+		rotation: 0.0d,
+		image: "stp:textures/as_title-1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }
