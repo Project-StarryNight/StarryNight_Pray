@@ -313,7 +313,7 @@ MaterialBuilder(32101, "amber")
     .components([
     <material:carbon> * 10,
     <material:hydrogen> * 10,
-    <material:oxygen> * 10
+    <material:oxygen> * 16
     ])
     .iconSet("RUBY")
     .flags(["generate_rod","generate_long_rod","no_smelting", "crystallizable", "generate_plate", "generate_bolt_screw"])
