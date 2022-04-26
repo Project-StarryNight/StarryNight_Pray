@@ -183,6 +183,14 @@
       },
       "any": {
         "type": "any"
+      },
+      "O": {
+        "blocks": [
+          {
+            "id": "astralsorcery:blockmarble"
+          }
+        ],
+        "type": "blocks"
       }
     },
     "symbolMap": {
@@ -202,7 +210,8 @@
         "C"
       ],
       "D": [
-        "D"
+        "D",
+        "O"
       ],
       "E": [
         "E"

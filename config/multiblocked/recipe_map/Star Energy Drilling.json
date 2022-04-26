@@ -4,7 +4,7 @@
   "recipes": [
     {
       "uid": "5c7e39fe-2252-4a80-aaf1-92fffc492fc7",
-      "duration": 200,
+      "duration": 80,
       "inputs": {
         "gtce_energy": [
           {

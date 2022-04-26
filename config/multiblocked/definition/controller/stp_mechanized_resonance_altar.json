@@ -1,32 +1,28 @@
 {
   "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
   "consumeCatalyst": false,
-  "location": "stp:starlight_assembly_table",
+  "location": "stp:mechanized_resonance_altar",
   "traits": {},
   "allowRotate": true,
   "showInJei": true,
   "baseRenderer": {
     "state": {
-      "id": "astralsorcery:blockcollectorcrystal",
-      "meta": 0
+      "id": "astralsorcery:blockmarble",
+      "meta": 5
     },
     "type": "blockstate"
   },
   "formedRenderer": {
-    "state": {
-      "id": "astralsorcery:blockcollectorcrystal",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "baseTexture": "multiblocked:6",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
   },
   "workingRenderer": {
-    "state": {
-      "id": "astralsorcery:blockcollectorcrystal",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "baseTexture": "multiblocked:6",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
   },
-  "isOpaqueCube": false,
+  "isOpaqueCube": true,
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -35,86 +31,37 @@
     ],
     "pattern": [
       [
-        "ABBBBBBBA",
-        "         ",
-        "         ",
-        "         ",
-        "         "
+        "ABBBA",
+        "C   C",
+        "C   C",
+        "D   D"
       ],
       [
-        "BCDDDDDCB",
-        " E     E ",
-        " E     E ",
-        " C     C ",
-        "         "
+        "BEEEB",
+        "     ",
+        "     ",
+        "     "
       ],
       [
-        "BDFFDFFDB",
-        "         ",
-        "         ",
-        "         ",
-        "  DD DD  "
+        "BEFEB",
+        "  @  ",
+        "  G  ",
+        "     "
       ],
       [
-        "BDFFFFFDB",
-        "         ",
-        "         ",
-        "         ",
-        "  D   D  "
+        "BEEEB",
+        "     ",
+        "     ",
+        "     "
       ],
       [
-        "BDDFFFDDB",
-        "    G    ",
-        "         ",
-        "         ",
-        "    @    "
-      ],
-      [
-        "BDFFFFFDB",
-        "         ",
-        "         ",
-        "         ",
-        "  D   D  "
-      ],
-      [
-        "BDFFDFFDB",
-        "         ",
-        "         ",
-        "         ",
-        "  DD DD  "
-      ],
-      [
-        "BCDDDDDCB",
-        " E     E ",
-        " E     E ",
-        " C     C ",
-        "         "
-      ],
-      [
-        "ABBBBBBBA",
-        "         ",
-        "         ",
-        "         ",
-        "         "
+        "ABBBA",
+        "C   C",
+        "C   C",
+        "D   D"
       ]
     ],
     "aisleRepetitions": [
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
       [
         1,
         1
@@ -140,21 +87,21 @@
       "A": {
         "states": [
           {
-            "id": "astralsorcery:blockinfusedwood",
-            "meta": 4
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
           }
         ],
         "type": "states"
       },
       "controller": {
-        "location": "stp:starlight_assembly_table",
+        "location": "stp:mechanized_resonance_altar",
         "type": "component"
       },
       "B": {
         "states": [
           {
             "id": "astralsorcery:blockmarble",
-            "meta": 3
+            "meta": 1
           }
         ],
         "type": "states"
@@ -163,7 +110,7 @@
         "states": [
           {
             "id": "astralsorcery:blockmarble",
-            "meta": 4
+            "meta": 2
           }
         ],
         "type": "states"
@@ -172,7 +119,7 @@
         "states": [
           {
             "id": "astralsorcery:blockmarble",
-            "meta": 1
+            "meta": 4
           }
         ],
         "type": "states"
@@ -181,7 +128,7 @@
         "states": [
           {
             "id": "astralsorcery:blockmarble",
-            "meta": 2
+            "meta": 0
           }
         ],
         "type": "states"
@@ -189,7 +136,7 @@
       "F": {
         "states": [
           {
-            "id": "astralsorcery:blockblackmarble",
+            "id": "minecraft:diamond_block",
             "meta": 0
           }
         ],
@@ -198,8 +145,8 @@
       "G": {
         "states": [
           {
-            "id": "astralsorcery:blockaltar",
-            "meta": 1
+            "id": "astralsorcery:blockattunementaltar",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -237,11 +184,7 @@
         "any"
       ],
       "A": [
-        "A",
-        "J",
-        "K",
-        "L",
-        "any"
+        "A"
       ],
       "B": [
         "B"
@@ -250,7 +193,10 @@
         "C"
       ],
       "D": [
-        "D"
+        "D",
+        "J",
+        "K",
+        "L"
       ],
       "E": [
         "E"
@@ -263,5 +209,5 @@
       ]
     }
   },
-  "recipeMap": "Starlight assembly table"
+  "recipeMap": "Mechanical resonance altar"
 }

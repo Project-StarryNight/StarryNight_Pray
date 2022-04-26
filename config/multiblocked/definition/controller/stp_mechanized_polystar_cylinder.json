@@ -20,7 +20,7 @@
       "width": 128,
       "height": 32,
       "texture": "multiblocked:textures/star_energy_bar.png",
-      "capacity": 10000
+      "capacity": 500000
     },
     "fluid": [
       {

@@ -1,174 +1,91 @@
 {
-  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
   "consumeCatalyst": false,
   "location": "stp:mechanical_resonance_altar",
-  "traits": {},
+  "traits": {
+    "background": "multiblocked:textures/custom_gui2.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 55,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 108,
+        "y": 85,
+        "autoIO": true
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 50,
+        "y": 86,
+        "autoIO": true,
+        "tC": 10000
+      }
+    ],
+    "gtce_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 26,
+      "y": 139,
+      "width": 128,
+      "height": 32,
+      "texture": "multiblocked:textures/star_energy_bar.png",
+      "capacity": 500000
+    }
+  },
   "allowRotate": true,
   "showInJei": true,
   "baseRenderer": {
-    "baseTexture": "multiblocked:5",
-    "frontTexture": "multiblocked:blocks/gregtech_front",
-    "type": "gregtech"
+    "modelLocation": "multiblocked:maa",
+    "type": "imodel"
   },
   "formedRenderer": {
-    "baseTexture": "multiblocked:5",
-    "frontTexture": "multiblocked:off",
-    "type": "gregtech"
+    "modelLocation": "multiblocked:maa",
+    "type": "imodel"
   },
   "workingRenderer": {
-    "baseTexture": "multiblocked:5",
-    "frontTexture": "multiblocked:on",
-    "type": "gregtech"
+    "modelLocation": "multiblocked:maa",
+    "type": "imodel"
   },
-  "isOpaqueCube": true,
+  "isOpaqueCube": false,
   "basePattern": {
     "structureDir": [
-      "LEFT",
+      "BACK",
       "UP",
-      "BACK"
+      "RIGHT"
     ],
     "pattern": [
       [
-        "ABBBA",
-        "C   C",
-        "C   C",
-        "D   D"
-      ],
-      [
-        "BEEEB",
-        "     ",
-        "     ",
-        "     "
-      ],
-      [
-        "BEFEB",
-        "  @  ",
-        "  G  ",
-        "     "
-      ],
-      [
-        "BEEEB",
-        "     ",
-        "     ",
-        "     "
-      ],
-      [
-        "ABBBA",
-        "C   C",
-        "C   C",
-        "D   D"
+        "@"
       ]
     ],
     "aisleRepetitions": [
       [
         1,
         1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
       ]
     ],
     "predicates": {
-      "A": {
-        "states": [
-          {
-            "id": "astralsorcery:blockmarble",
-            "meta": 6
-          }
-        ],
-        "type": "states"
-      },
       "controller": {
         "location": "stp:mechanical_resonance_altar",
         "type": "component"
       },
-      "B": {
-        "states": [
-          {
-            "id": "astralsorcery:blockmarble",
-            "meta": 1
-          }
-        ],
-        "type": "states"
-      },
-      "C": {
-        "states": [
-          {
-            "id": "astralsorcery:blockmarble",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "D": {
-        "states": [
-          {
-            "id": "astralsorcery:blockmarble",
-            "meta": 4
-          }
-        ],
-        "type": "states"
-      },
-      "E": {
-        "states": [
-          {
-            "id": "astralsorcery:blockmarble",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "F": {
-        "states": [
-          {
-            "id": "minecraft:diamond_block",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "G": {
-        "states": [
-          {
-            "id": "astralsorcery:blockattunementaltar",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "J": {
-        "capability": "item",
-        "type": "capability",
-        "minCount": 1,
-        "maxCount": 1,
-        "previewCount": 1
-      },
-      "K": {
-        "capability": "gtce_energy",
-        "type": "capability",
-        "minCount": 1,
-        "maxCount": 1,
-        "previewCount": 1
-      },
-      "L": {
-        "capability": "fluid",
-        "type": "capability",
-        "minCount": 1,
-        "maxCount": 1,
-        "previewCount": 1
+      "air": {
+        "type": "air"
       },
       "any": {
         "type": "any"
@@ -181,30 +98,8 @@
       " ": [
         "any"
       ],
-      "A": [
-        "A"
-      ],
-      "B": [
-        "B"
-      ],
-      "C": [
-        "C"
-      ],
-      "D": [
-        "D",
-        "J",
-        "K",
-        "L",
-        "any"
-      ],
-      "E": [
-        "E"
-      ],
-      "F": [
-        "F"
-      ],
-      "G": [
-        "G"
+      "-": [
+        "air"
       ]
     }
   },
