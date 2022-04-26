@@ -1,0 +1,205 @@
+{
+  "name": "Star energy impregnation machine",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "d3146009-1c47-4dcf-89ca-8306e5778ed7",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"minecraft:stone\",Count:10b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 1280,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:100}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"astralsorcery:blockmarble\",Count:10b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "27df539a-afaa-4320-81bb-bb5f80e36086",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"astralsorcery:blockmarble\",Count:10b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,Damage:436s}",
+                "{id:\"botania:dye\",Count:1b,Damage:15s}",
+                "{id:\"actuallyadditions:item_misc\",Count:1b,Damage:17s}",
+                "{id:\"minecraft:dye\",Count:1b,Damage:0s}",
+                "{id:\"gregtech:meta_dust\",Count:1b,Damage:18s}",
+                "{id:\"gregtech:meta_dust\",Count:1b,Damage:271s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 1280,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:100}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"astralsorcery:blockblackmarble\",Count:10b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "381e098c-da29-4066-809b-ed93499371df",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_gem\",Count:1b,Damage:314s}",
+                "{id:\"gregtech:meta_gem\",Count:1b,Damage:281s}",
+                "{id:\"gregtech:meta_gem\",Count:1b,Damage:311s}",
+                "{id:\"minecraft:emerald\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 1280,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:125}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "77d3842c-af8d-4f1b-ba5a-7acffe0da9cc",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"thaumcraft:log_greatwood\",Count:10b,Damage:0s}",
+                "{id:\"thaumcraft:log_silverwood\",Count:10b,Damage:0s}",
+                "{id:\"minecraft:log\",Count:10b,Damage:3s}",
+                "{id:\"minecraft:log\",Count:10b,Damage:1s}",
+                "{id:\"minecraft:log\",Count:10b,Damage:0s}",
+                "{id:\"gregtech:rubber_log\",Count:10b,Damage:0s}",
+                "{id:\"minecraft:log\",Count:10b,Damage:2s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 640,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"astralsorcery:blockinfusedwood\",Count:10b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

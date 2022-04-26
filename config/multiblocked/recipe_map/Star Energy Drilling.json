@@ -1,0 +1,38 @@
+{
+  "name": "Star Energy Drilling",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "5c7e39fe-2252-4a80-aaf1-92fffc492fc7",
+      "duration": 80,
+      "inputs": {
+        "gtce_energy": [
+          {
+            "content": 12800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}",
+            "chance": 1.0
+          },
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:2000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": "{FluidName:\"oil\",Amount:4000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

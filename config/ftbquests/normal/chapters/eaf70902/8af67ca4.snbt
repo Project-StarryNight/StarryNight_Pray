@@ -1,0 +1,16 @@
+{
+	title: "{stp.quests.8af67ca4.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{stp.quests.8af67ca4.description}",
+	dependencies: [
+		"b4a79ca8"
+	],
+	tasks: [{
+		uid: "159d52ca",
+		type: "item",
+		items: [{
+			item: "stp:star_force_assembly_table"
+		}]
+	}]
+}

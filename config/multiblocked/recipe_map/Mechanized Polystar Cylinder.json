@@ -1,0 +1,117 @@
+{
+  "name": "Mechanized Polystar Cylinder",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "8881f6a0-5e48-4bcb-87bc-1cc2c7fdb9a8",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemrockcrystalsimple\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:400,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 0.25
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 102400,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          },
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:500}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "a5b5104d-4556-4d96-9bcb-c1cd83549f82",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 0.25
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 25600,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:500}",
+            "chance": 1.0
+          },
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:250}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "b8d3a026-0a2d-49c8-8024-768a08226897",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:4s}"
+              ]
+            },
+            "chance": 0.25
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1500}",
+            "chance": 1.0
+          },
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:725}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

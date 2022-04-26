@@ -1,0 +1,93 @@
+{
+  "consumeCatalyst": false,
+  "location": "stp:mechanized_polystar_cylinder",
+  "traits": {
+    "background": "multiblocked:textures/custom_gui4.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 44,
+        "y": 54,
+        "autoIO": true
+      }
+    ],
+    "gtce_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 25,
+      "y": 96,
+      "width": 128,
+      "height": 32,
+      "texture": "multiblocked:textures/star_energy_bar.png",
+      "capacity": 500000
+    },
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 114,
+        "y": 55,
+        "autoIO": true,
+        "tC": 10000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:mpc",
+    "type": "imodel"
+  },
+  "formedRenderer": {
+    "modelLocation": "multiblocked:mpc",
+    "type": "imodel"
+  },
+  "workingRenderer": {
+    "modelLocation": "multiblocked:mpc",
+    "type": "imodel"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "stp:mechanized_polystar_cylinder",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "Mechanized Polystar Cylinder"
+}

@@ -1,0 +1,267 @@
+{
+  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "stp:starlight_assembly_table",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "astralsorcery:blockcollectorcrystal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "astralsorcery:blockcollectorcrystal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "astralsorcery:blockcollectorcrystal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABBBBBBBA",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "BCDDDDDCB",
+        " E     E ",
+        " E     E ",
+        " C     C ",
+        "         "
+      ],
+      [
+        "BDFFDFFDB",
+        "         ",
+        "         ",
+        "         ",
+        "  DD DD  "
+      ],
+      [
+        "BDFFFFFDB",
+        "         ",
+        "         ",
+        "         ",
+        "  D   D  "
+      ],
+      [
+        "BDDFFFDDB",
+        "    G    ",
+        "         ",
+        "         ",
+        "    @    "
+      ],
+      [
+        "BDFFFFFDB",
+        "         ",
+        "         ",
+        "         ",
+        "  D   D  "
+      ],
+      [
+        "BDFFDFFDB",
+        "         ",
+        "         ",
+        "         ",
+        "  DD DD  "
+      ],
+      [
+        "BCDDDDDCB",
+        " E     E ",
+        " E     E ",
+        " C     C ",
+        "         "
+      ],
+      [
+        "ABBBBBBBA",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "stp:starlight_assembly_table",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "astralsorcery:blockblackmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "astralsorcery:blockaltar",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "capability": "item",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "K": {
+        "capability": "gtce_energy",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "L": {
+        "capability": "fluid",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A",
+        "J",
+        "K",
+        "L",
+        "any"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  },
+  "recipeMap": "Starlight assembly table"
+}
