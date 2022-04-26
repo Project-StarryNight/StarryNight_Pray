@@ -1,8 +1,8 @@
 {
-	title: "{stp.quests.8af67ca4.title}",
+	title: "星力组装台",
 	x: 0.0d,
 	y: 0.0d,
-	description: "{stp.quests.8af67ca4.description}",
+	description: "这..这不对吧？",
 	dependencies: [
 		"b4a79ca8"
 	],

@@ -1,7 +1,7 @@
 {
 	x: 4.0d,
 	y: -1.0d,
-	description: "{stp.quests.5e225bc2.description}",
+	description: "烽火戏诸侯？",
 	dependencies: [
 		"06a1aa8b"
 	],

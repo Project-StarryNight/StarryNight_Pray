@@ -1,7 +1,7 @@
 {
 	x: 3.0d,
 	y: -1.0d,
-	description: "{stp.quests.818c2c14.description}",
+	description: "群星啊！赐予我力量吧！",
 	dependencies: [
 		"06a1aa8b"
 	],

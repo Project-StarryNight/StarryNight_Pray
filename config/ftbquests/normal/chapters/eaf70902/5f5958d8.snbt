@@ -2,11 +2,11 @@
 	title: "{stp.quests.5f5958d8.title}",
 	x: 8.0d,
 	y: -1.0d,
-	description: "{stp.quests.5f5958d8.description}",
+	description: "再进去一点！再深入一点！",
 	text: [
-		"{stp.quests.5f5958d8.text.1}",
-		"{stp.quests.5f5958d8.text.2}",
-		"{stp.quests.5f5958d8.text.3}"
+		"使用星能液与天体能量深入虚空",
+		"抽取虚空中的液体，但事实上并非从虚空中抽取",
+		"而是直接使用天体能量中的物质使其凝聚"
 	],
 	dependencies: [
 		"33b54181"

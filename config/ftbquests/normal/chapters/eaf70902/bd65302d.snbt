@@ -1,10 +1,10 @@
 {
-	title: "{stp.quests.bd65302d.title}",
+	title: "电力聚星缸",
 	x: 1.5d,
 	y: 2.0d,
 	description: "{stp.quests.bd65302d.description}",
 	text: [
-		"{stp.quests.bd65302d.text.1}"
+		"更有效的榨取星能液，并且能得到天体能量！"
 	],
 	dependencies: [
 		"e580f143"

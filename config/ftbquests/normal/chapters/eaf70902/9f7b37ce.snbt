@@ -1,8 +1,8 @@
 {
-	title: "{stp.quests.9f7b37ce.title}",
+	title: "星能浸渍机",
 	x: -0.5d,
 	y: 2.0d,
-	description: "{stp.quests.9f7b37ce.description}",
+	description: "让我们将它们丢进去泡一泡",
 	dependencies: [
 		"0af3b304"
 	],
