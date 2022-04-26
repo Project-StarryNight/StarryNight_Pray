@@ -1,0 +1,102 @@
+{
+  "name": "Star energy crystallizer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "643d9f18-c140-473e-9d65-f329b5e27c6f",
+      "duration": 2400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 0.25
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 307200,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:6000}",
+            "chance": 1.0
+          },
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:4000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "e75ef554-39eb-47cc-bb6c-9c4b008eda4e",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemrockcrystalsimple\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:400,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 0.25
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 153600,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:3000}",
+            "chance": 1.0
+          },
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:2000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemrockcrystalsimple\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:400,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}
