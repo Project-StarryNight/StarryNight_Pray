@@ -1,6 +1,14 @@
 multiblocktweaker.machine.mnreactor.name=Magic Naquadah Reactor
 multiblocktweaker.machine.napcontroller.name=Naquadah Phaser
 multiblocktweaker.machine.starry_universe_cultivation_cabin.name=Starry Universe Cultivation Cabin
+multiblocktweaker.machine.greenhouse.name=Mana Greenhouse Reactor
+multiblocktweaker.machine.magicreactor0.name=Magic Reactor Tier1
+multiblocktweaker.machine.magicreactor1.name=Magic Reactor Tier2
+multiblocktweaker.machine.magicreactor2.name=Magic Reactor Tier3
+recipemap.magicreactor0.name=Low Magic Raction
+recipemap.magicreactor1.name=Higher Magic Raction
+recipemap.magicreactor2.name=Highest Magic Raction
 recipemap.npcontroller.name=Plasma Phase Shift
 recipemap.mnreactor.name=High Energy Magic Reaction
 recipemap.succontroller.name=Dragon Cultivation
+recipemap.greenhouse.name=Mana Reaction

@@ -1,6 +1,14 @@
 multiblocktweaker.machine.mnreactor.name=魔力硅岩反应堆
 multiblocktweaker.machine.napcontroller.name=硅岩移相器
 multiblocktweaker.machine.starry_universe_cultivation_cabin.name=星空宇宙培育仓
+multiblocktweaker.machine.greenhouse.name=Mana温室反应仪
+multiblocktweaker.machine.magicreactor0.name=新手魔力发电机
+multiblocktweaker.machine.magicreactor1.name=学徒魔力发电机
+multiblocktweaker.machine.magicreactor2.name=大师魔力发电机
+recipemap.magicreactor0.name=初等魔力反应
+recipemap.magicreactor1.name=进阶魔力反应
+recipemap.magicreactor2.name=高等魔力反应
 recipemap.npcontroller.name=等离子移相
-recipemap.mnreactor.name=高能魔力反应
+recipemap.mnreactor.name=极限魔力反应
 recipemap.succontroller.name=龙之培养
+recipemap.greenhouse.name=Mana反应

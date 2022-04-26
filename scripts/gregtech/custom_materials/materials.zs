@@ -23,14 +23,14 @@ MaterialBuilder(32001, "magic")
 MaterialBuilder(32002, "thaumium")
     .ingot()
     .color(0x473B6D).iconSet("INGOT")
-    .flags(["generate_plate", "generate_bolt_screw","generate_rod", "generate_ring"])
+    .flags(["generate_plate", "generate_bolt_screw","generate_rod", "generate_ring","generate_frame"])
     .build();
 
 //注册现有的虚空物质
 MaterialBuilder(32003, "void")
     .ingot()
     .color(0x2A1248).iconSet("INGOT")
-    .flags(["generate_plate", "generate_bolt_screw","generate_rod"])
+    .flags(["generate_plate", "generate_bolt_screw","generate_rod","generate_frame"])
     .build();
 
 //末影接口合金
@@ -305,7 +305,21 @@ MaterialBuilder(32163, "mythicalsteel")
     "generate_spring_small", "generate_small_gear"
     ])
     .build();
-
+    
+//琥珀
+MaterialBuilder(32101, "amber")
+    .gem()
+    .color(0xDA803D)
+    .components([
+    <material:carbon> * 10,
+    <material:hydrogen> * 10,
+    <material:oxygen> * 16
+    ])
+    .iconSet("RUBY")
+    .flags(["generate_rod","generate_long_rod","no_smelting", "crystallizable", "generate_plate", "generate_bolt_screw"])
+    .ore(2, 1)
+    .build();
+    
 //Novanium
 MaterialBuilder(32699, "novanium")
     .ingot()

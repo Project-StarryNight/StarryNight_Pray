@@ -2,3 +2,5 @@ item.contenttweaker.dragon_cell.name=Dragon Cell
 tile.contenttweaker.light_emitting_panel_0.name=Solar Light Absorption Panel (WIP)
 tile.contenttweaker.light_emitting_panel_1.name=Advanced Solar Light Absorption Panel (WIP)
 tile.contenttweaker.light_emitting_panel_2.name=Ultimate Solar Light Absorption Panel (WIP)
+tile.contenttweaker.void_casing.name=Void Casing
+tile.contenttweaker.thaumium_casing.name=Thaumium Casing

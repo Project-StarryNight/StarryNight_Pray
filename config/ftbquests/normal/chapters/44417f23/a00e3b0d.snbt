@@ -1,0 +1,18 @@
+{
+	title: "{stp.quests.a00e3b0d.title}",
+	x: -7.0d,
+	y: 4.0d,
+	text: [
+		"{stp.quests.a00e3b0d.text.1}"
+	],
+	dependencies: [
+		"dd35e1bc"
+	],
+	tasks: [{
+		uid: "8f7e4af4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sapling_greatwood"
+		}]
+	}]
+}
