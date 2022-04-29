@@ -19,10 +19,4 @@ for ench in oreDict.entries {
             recipes.remove(enchNugget);
         }
     }
-};
-
-//删除星辉锭配方
-recipes.remove(<astralsorcery:itemcraftingcomponent:1>);
-
-//删除焦黑大理石配方
-recipes.remove(<astralsorcery:blockblockmarble>);
+}
