@@ -12,7 +12,7 @@ import crafttweaker.data.IData;
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
     var player as IPlayer =event.player;
     player.sendMessage(game.localize("events_loggedin_1")+"§1"+player.name);
-    player.sendMessage(game.localize("events_loggedin_2")+"§2"+"664266845");
+    player.sendMessage(game.localize("events_loggedin_2")+game.localize("events_loggedin_6"));
     player.sendMessage(game.localize("events_loggedin_3")+"§2"+"https://github.com/Project-StarryNight/StarryNight_Pray");
     player.sendMessage(game.localize("events_loggedin_4")+"§2"+"https://www.mcbbs.net/thread-1323610-1-1.html");
     player.sendMessage(game.localize("events_loggedin_5")+"§2"+"https://www.mcmod.cn/modpack/397.html");
