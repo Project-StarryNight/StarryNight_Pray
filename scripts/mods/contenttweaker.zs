@@ -10,6 +10,7 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.AxisAlignedBB;
+import mods.contenttweaker.ItemFood;
 
 //龙细胞
 var dragon_cell = VanillaFactory.createItem("dragon_cell");
@@ -34,18 +35,17 @@ for i in 0 to 3 {
     addLEP(i);
 }
 
-//添加神秘机械方块
-var voidcasing = VanillaFactory.createBlock("void_casing", <blockmaterial:iron>);
-voidcasing.entitySpawnable = false;
-voidcasing.fullBlock = false;
-voidcasing.setToolClass("pickaxe");
-voidcasing.setToolLevel(2);
-voidcasing.register();
-
-//添加神秘机械方块
-var thaumiumcasing = VanillaFactory.createBlock("thaumium_casing", <blockmaterial:iron>);
-thaumiumcasing.entitySpawnable = false;
-thaumiumcasing.fullBlock = false;
-thaumiumcasing.setToolClass("pickaxe");
-thaumiumcasing.setToolLevel(2);
-thaumiumcasing.register();
+var sleeptea as ItemFood =VanillaFactory.createItemFood("sleeptea",0);
+sleeptea.healAmount = 0;
+sleeptea.saturation = 0;
+sleeptea.alwaysEdible = true;
+sleeptea.onItemFoodEaten = function(stack, world, player){
+    if(!world.remote){
+        player.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(100,5));
+        player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(100,5));
+        player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(100,5));
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(300,2));
+        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(200,4));
+    }
+};
+sleeptea.register();
