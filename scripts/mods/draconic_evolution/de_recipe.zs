@@ -21,11 +21,9 @@ furnace.remove(<gregtech:meta_ingot:32022>);
 //循环隐藏jei
 var jeiItems as IItemStack[] = [
     <draconicevolution:draconium_ingot>,
-    <draconicevolution:draconic_ingot>,
     <draconicevolution:draconium_dust>,
-    <draconicevolution:nugget:*>,
+    <draconicevolution:nugget:0>,
     <draconicevolution:draconium_block>,
-    <draconicevolution:draconic_block>,
     <draconicevolution:draconium_ore:*>
 ];
 

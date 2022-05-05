@@ -6,9 +6,7 @@
 
 //陨石粉
 macerator.recipeBuilder()
-    .inputs([
-        <ore:blockSkyStone> * 1
-    ])
+    .inputs(<appliedenergistics2:sky_stone_block> * 1)
     .outputs(<appliedenergistics2:material:45> * 1)
     .chancedOutput(<appliedenergistics2:material:45> * 1, 5000, 1000)
     .chancedOutput(<appliedenergistics2:material:45> * 1, 2500, 500)
