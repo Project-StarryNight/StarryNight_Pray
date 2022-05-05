@@ -3,7 +3,7 @@
 	y: 2.0d,
 	description: "{stp.quests.15c30760.description}",
 	dependencies: [
-		"0af3b304"
+		"9f7b37ce"
 	],
 	tasks: [{
 		uid: "b20cdc8c",

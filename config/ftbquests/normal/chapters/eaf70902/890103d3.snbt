@@ -4,10 +4,14 @@
 	y: 2.0d,
 	description: "{stp.quests.890103d3.description}",
 	dependencies: [
-		"d423df47"
+		"d423df47",
+		"a8d34cbc"
 	],
 	tasks: [{
-		uid: "40e805ba",
-		type: "checkmark"
+		uid: "546efdb3",
+		type: "item",
+		items: [{
+			item: "stp:mechanical_aggregator"
+		}]
 	}]
 }

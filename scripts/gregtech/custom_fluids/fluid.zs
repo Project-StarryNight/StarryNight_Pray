@@ -178,3 +178,10 @@ MaterialBuilder(32721, "enchanted_biomass_liquid")
     .fluidTemp(273)
     .color(0x66FFCC)
     .build();
+	
+//天体能量
+MaterialBuilder(32722, "celestial_energy")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(273)
+    .color(0x0A0F49)
+    .build();

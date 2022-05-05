@@ -1,0 +1,389 @@
+{
+  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "stp:mechanical_aggregator",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "astralsorcery:blockmarble",
+      "meta": 5
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "astralsorcery:blockmarble",
+      "meta": 5
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "astralsorcery:blockmarble",
+      "meta": 5
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "         ",
+        " AAAAAAA ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "  BBBBB  ",
+        "ACDDDDDCA",
+        " E  F  E ",
+        " E  G  E ",
+        " H     H ",
+        "  D   D  ",
+        "   DDD   ",
+        "         "
+      ],
+      [
+        " BIJJJIB ",
+        "ADKLLLKDA",
+        "         ",
+        "         ",
+        "         ",
+        " D     D ",
+        "  M   M  ",
+        "         "
+      ],
+      [
+        " BJ   JB ",
+        "ADLKKKLDA",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        " D     D ",
+        "   MMM   "
+      ],
+      [
+        " BJ   JB ",
+        "ADLKNKLDA",
+        " F  O  F ",
+        " G     G ",
+        "         ",
+        "         ",
+        " D     D ",
+        "   M@M   "
+      ],
+      [
+        " BJ   JB ",
+        "ADLKKKLDA",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        " D     D ",
+        "   MMM   "
+      ],
+      [
+        " BIJJJIB ",
+        "ADKLLLKDA",
+        "         ",
+        "         ",
+        "         ",
+        " D     D ",
+        "  M   M  ",
+        "         "
+      ],
+      [
+        "  BBBBB  ",
+        "ACDDDDDCA",
+        " E  F  E ",
+        " E  G  E ",
+        " H     H ",
+        "  D   D  ",
+        "   DDD   ",
+        "         "
+      ],
+      [
+        "         ",
+        " AAAAAAA ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "stp:mechanical_aggregator",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "astralsorcery:blockchalice",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "astralsorcery:blockchalice",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "astralsorcery:fluidblockliquidstarlight",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "minecraft:lapis_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "O": {
+        "states": [
+          {
+            "id": "astralsorcery:blockstarlightinfuser",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "P": {
+        "capability": "gtce_energy",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "U": {
+        "capability": "item",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "Y": {
+        "capability": "fluid",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "P",
+        "A",
+        "U",
+        "Y"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "O": [
+        "O"
+      ]
+    }
+  },
+  "recipeMap": "Mechanical Aggregator"
+}

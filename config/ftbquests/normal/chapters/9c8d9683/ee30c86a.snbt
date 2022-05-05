@@ -1,22 +1,22 @@
 {
-	title: "&e注意！",
+	title: "{stp.quests.ee30c86a.title}",
 	icon: "botania:cosmetic 1 31",
 	x: -3.0d,
 	y: -2.5d,
 	shape: "diamond",
-	description: "用低等级能源仓堆叠电压等级！",
+	description: "{stp.quests.ee30c86a.description}",
 	text: [
-		"如果你处于低等级阶段，遇到了更高等级的阶段配方时，那么这个提示将会很有用！",
-		"大部分的多方块结构都支持&e多个能源仓方块&r，你可以在结构中放置多个能源仓以增加最大能量消耗。",
-		"如 &bMV &r电压为 128，LV 能源仓电压为 32，安培为 2A，则单个 LV 能源仓可提供 64 EU (32x2) 的能量，两个即为 128 EU。",
-		"&8ULV&r 电压为 8，&cLV&r 为 32，&bMV&r 为 128，以此类推。",
-		"除此之外，到达 &5EV &r阶段后，还有超过 4A 以上的能源仓。",
-		"Tips: &4动力仓不可以堆叠数量。"
+		"{stp.quests.ee30c86a.text.1}",
+		"{stp.quests.ee30c86a.text.2}",
+		"{stp.quests.ee30c86a.text.3}",
+		"{stp.quests.ee30c86a.text.4}",
+		"{stp.quests.ee30c86a.text.5}",
+		"{stp.quests.ee30c86a.text.6}"
 	],
 	size: 2.0d,
 	tasks: [{
 		uid: "f1629acf",
 		type: "checkmark",
-		title: "&e注意！"
+		title: "{stp.quests.ee30c86a.title}"
 	}]
 }

@@ -7,7 +7,10 @@
 		"06a1aa8b"
 	],
 	tasks: [{
-		uid: "b1a93f18",
-		type: "checkmark"
+		uid: "1e9bf082",
+		type: "item",
+		items: [{
+			item: "stp:star_energy_crystallizer"
+		}]
 	}]
 }

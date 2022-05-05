@@ -1,0 +1,886 @@
+{
+  "name": "Mechanical Aggregator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "bbf08452-fbd9-4d18-977d-f365ba918b45",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:gunpowder\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "92ca9f78-e2ad-44f1-aadb-98890b6ba37e",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:emerald_ore\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:emerald\",Count:4b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "ec6e4b4d-d87a-4337-99d0-8ba263e5fde2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:sand\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:clay\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "349dc726-27b7-4d63-bee2-6f27d3604158",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:4s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "5b27acdb-c836-46a7-bc0a-06175222ab24",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:diamond_ore\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:diamond\",Count:4b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "7f0f25cc-6177-4a80-b21a-c32fc2992fd2",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:blaze_rod\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:blaze_powder\",Count:4b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "f74dc4ca-1d91-4adb-a923-87cdb68e11ba",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:gunpowder\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:glowstone_dust\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "94ad984d-c0dd-4188-8401-48574bba78b9",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:gold_ore\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"minecraft:gold_ingot\",Count:3b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "2599f0cb-32be-4ecc-a711-afce6fd44d58",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:iron_ore\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:3b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "39710c54-f87d-4639-9475-fc41d698bd00",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:redstone_ore\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:redstone_block\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "06c91f2c-6cca-4571-bb9a-0a2dafef57d1",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_eye\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "3a2a5516-4ffe-4644-8f97-2b50c3a790dc",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockinfusedwood\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockinfusedwood\",Count:1b,Damage:6s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "688a4ead-63cf-4f2b-9fa8-8cb85c247c43",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:glass\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ice\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "af9dc850-b352-4ac0-a847-0fadea362c33",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:grass\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "00807ba7-17a2-49aa-aa69-5b3040b780c9",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:melon\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:speckled_melon\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "31fffaca-0d13-46a1-8d30-bd16178d26b3",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:glass_pane\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:3s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "2d59ee1f-f77f-4228-8803-390ff1bf4207",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:carrot\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:golden_carrot\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "f23f4173-4c7b-4e9c-af6d-689e32775ed4",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:bone\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:dye\",Count:4b,Damage:15s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "53ba1fc3-ddeb-4719-a6d2-699dabd33a04",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:slime_ball\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:magma_cream\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "fb8022f8-9a7e-443d-887e-11a053fd5f96",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:lapis_ore\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 5120,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:300}",
+            "chance": 0.5
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:lapis_block\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

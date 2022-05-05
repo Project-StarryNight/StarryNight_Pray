@@ -1,0 +1,464 @@
+{
+  "name": "Star force assembly table",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "76d24c6e-fb46-424d-b9ac-6a1ca0bd0228",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:machine\",Count:1b,Damage:986s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,Damage:187s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockmarble\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,Damage:157s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 640,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}",
+            "chance": 1.0
+          },
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"stp:starlight_assembly_table\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "c2334198-0d47-4c8d-adc0-e7383ef9c202",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"minecraft:gold_nugget\",Count:2b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:3s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockmarble\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:planks\",Count:1b,Damage:0s}",
+                "{id:\"gregtech:meta_plate\",Count:1b,Damage:1617s}",
+                "{id:\"gregtech:planks\",Count:1b,Damage:0s}",
+                "{id:\"thaumcraft:plank_greatwood\",Count:1b,Damage:0s}",
+                "{id:\"thaumcraft:plank_silverwood\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 640,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:100}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"astralsorcery:blockattunementrelay\",Count:2b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "664c5a15-a40c-4446-8a25-d3e10880dcce",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:2b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:dye\",Count:1b,Damage:4s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemusabledust\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:dye\",Count:1b,Damage:0s}",
+                "{id:\"gregtech:meta_item_1\",Count:1b,Damage:428s}",
+                "{id:\"botania:dye\",Count:1b,Damage:7s}",
+                "{id:\"gregtech:meta_dust\",Count:1b,Damage:18s}",
+                "{id:\"gregtech:meta_dust\",Count:1b,Damage:271s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 640,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:100}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"astralsorcery:itemusabledust\",Count:8b,Damage:1s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "d19046e2-bada-4e25-b4c3-65b333086e12",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockwell\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:machine_casing\",Count:1b,Damage:1s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,Damage:331s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 640,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"stp:mechanized_polystar_cylinder\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "240ed4e5-466f-4827-97bc-5e3bb53ce8e6",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:machine\",Count:1b,Damage:200s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockmarble\",Count:1b,Damage:3s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,Damage:127s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_rotor\",Count:1b,Damage:112s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 640,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:100}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"stp:star_energy_impregnation_machine\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "b905caf4-4aee-47da-bafe-7e5a1554bb31",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:glowstone_dust\",Count:4b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 640,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:100}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"astralsorcery:itemusabledust\",Count:32b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "b7f08772-5076-4fe1-b59e-d411db5ff558",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:glass_pane\",Count:4b,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 640,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:100}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:2b,Damage:3s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

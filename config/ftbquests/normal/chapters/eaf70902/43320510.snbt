@@ -1,0 +1,16 @@
+{
+	title: "{stp.quests.43320510.title}",
+	x: 5.0d,
+	y: 0.0d,
+	description: "{stp.quests.43320510.description}",
+	dependencies: [
+		"06a1aa8b"
+	],
+	tasks: [{
+		uid: "6691768c",
+		type: "item",
+		items: [{
+			item: "stp:radiant_assembly_table"
+		}]
+	}]
+}

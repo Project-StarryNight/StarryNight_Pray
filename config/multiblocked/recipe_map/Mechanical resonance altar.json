@@ -1,0 +1,642 @@
+{
+  "name": "Mechanical resonance altar",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "6fdec233-3fbb-43a2-9afb-a45defd4e98d",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.discidia\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.discidia\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "23cf0d7f-bdb9-4526-8f0a-b79b0e8d787c",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.armara\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.armara\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "d763ec24-6511-408a-a10f-482f2a12375c",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.pelotrio\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.pelotrio\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "76871d32-6af7-42f1-96fe-372ece519a7a",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.mineralis\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.mineralis\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "b8a7c542-1262-4ffb-842f-ce46a64bdb90",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.lucerna\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.lucerna\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "d34cd32f-a583-432b-9a88-2dd67917807d",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.vicio\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.vicio\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "92c3e083-a6ff-4468-9bcd-2c25d877e6d1",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.evorsio\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.evorsio\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "52681e0e-ecfc-4265-b6b7-2bb6c621c1c9",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemrockcrystalsimple\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:400,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.vicio\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 51200,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:500}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedrockcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:400,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.vicio\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "bd4ba1eb-339f-4a64-bef0-07245875e34c",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.fornax\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.fornax\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "9ced8332-7595-4690-a25d-4bd993e990a7",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.octans\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.octans\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "c3d01545-2ca7-4d78-9b0c-97f3f309c349",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.bootes\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.bootes\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "35d21be4-32cd-4f5c-b4d4-3bcef13b558a",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemconstellationpaper\",Count:1b,Damage:0s,tag:{astralsorcery:{constellationName:\"astralsorcery.constellation.aevitas\"}}}"
+              ]
+            },
+            "chance": 0.0
+          }
+        ],
+        "gtce_energy": [
+          {
+            "content": 204800,
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"celestial_energy\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1b,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.aevitas\"}}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

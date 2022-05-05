@@ -1,0 +1,16 @@
+{
+	title: "{stp.quests.9f7b37ce.title}",
+	x: -0.5d,
+	y: 2.0d,
+	description: "{stp.quests.9f7b37ce.description}",
+	dependencies: [
+		"0af3b304"
+	],
+	tasks: [{
+		uid: "93b1553e",
+		type: "item",
+		items: [{
+			item: "stp:star_energy_impregnation_machine"
+		}]
+	}]
+}

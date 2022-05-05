@@ -1,0 +1,16 @@
+{
+	title: "{stp.quests.6bebc01e.title}",
+	x: 2.5d,
+	y: 0.0d,
+	description: "{stp.quests.6bebc01e.description}",
+	dependencies: [
+		"7b91e4b1"
+	],
+	tasks: [{
+		uid: "be667623",
+		type: "item",
+		items: [{
+			item: "stp:starlight_assembly_table"
+		}]
+	}]
+}

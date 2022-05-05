@@ -1,13 +1,21 @@
 {
 	title: "{stp.quests.5f5958d8.title}",
 	x: 8.0d,
-	y: -1.5d,
+	y: -1.0d,
 	description: "{stp.quests.5f5958d8.description}",
+	text: [
+		"{stp.quests.5f5958d8.text.1}",
+		"{stp.quests.5f5958d8.text.2}",
+		"{stp.quests.5f5958d8.text.3}"
+	],
 	dependencies: [
 		"33b54181"
 	],
 	tasks: [{
-		uid: "cc88025c",
-		type: "checkmark"
+		uid: "f1c048e9",
+		type: "item",
+		items: [{
+			item: "stp:star_energy_drilling"
+		}]
 	}]
 }

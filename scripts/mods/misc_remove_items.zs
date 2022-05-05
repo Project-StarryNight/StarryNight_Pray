@@ -75,6 +75,7 @@ var recipeItems as IItemStack[] = [
     <enderio:block_solar_panel:5>,#旋律光伏板
     <enderio:block_solar_panel:6>,#恒星光伏板
     <deepmoblearning:data_model_dragon>#龙数据模型
+    <astralsorcery:blockblackmarble>*8#熏黑大理石
 ];
 
 for i, item in recipeItems {
@@ -150,3 +151,6 @@ var jeiItems as IItemStack[] = [
 for i, item in jeiItems {
     JEI.removeAndHide(item,false);
 }
+
+//删除星辉锭配方
+furnace.remove(<astralsorcery:itemcraftingcomponent:1>);

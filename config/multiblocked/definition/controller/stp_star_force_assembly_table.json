@@ -1,0 +1,231 @@
+{
+  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "stp:star_force_assembly_table",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:6",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "multiblocked:6",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "workingRenderer": {
+    "baseTexture": "multiblocked:6",
+    "frontTexture": "multiblocked:on",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "   A   ",
+        "   B   ",
+        "   B   ",
+        "   @   "
+      ],
+      [
+        "  ACA  ",
+        "  G G  ",
+        "       ",
+        "       "
+      ],
+      [
+        " ACDCA ",
+        " G   G ",
+        "       ",
+        "       "
+      ],
+      [
+        "ACDDDCA",
+        "B  E  B",
+        "B     B",
+        "F     F"
+      ],
+      [
+        " ACDCA ",
+        " G   G ",
+        "       ",
+        "       "
+      ],
+      [
+        "  ACA  ",
+        "  G G  ",
+        "       ",
+        "       "
+      ],
+      [
+        "   A   ",
+        "   B   ",
+        "   B   ",
+        "   F   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "stp:star_force_assembly_table",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "astralsorcery:blockblackmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockaltar",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "capability": "item",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "K": {
+        "capability": "gtce_energy",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "L": {
+        "capability": "fluid",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "any": {
+        "type": "any"
+      },
+      "O": {
+        "blocks": [
+          {
+            "id": "astralsorcery:blockmarble"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D",
+        "O"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "J",
+        "K",
+        "L",
+        "any"
+      ]
+    }
+  },
+  "recipeMap": "Star force assembly table"
+}

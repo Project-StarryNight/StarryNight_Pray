@@ -5,6 +5,9 @@
 */
 
 import mods.gregtech.recipe.RecipeMap;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 //共振宝石
 chemical_bath.recipeBuilder()
@@ -14,3 +17,13 @@ chemical_bath.recipeBuilder()
     .duration(200)
     .EUt(48)
     .buildAndRegister();
+
+//星辉锭
+electric_blast_furnace.recipeBuilder()
+	.inputs(<ore:dustAstralStarmetal> * 1)
+	.fluidInputs(<liquid:celestial_energy> * 500)
+	.outputs(<astralsorcery:itemcraftingcomponent:1>)
+	.duration(550)
+	.EUt(240)
+	.property("temperature", 1700)
+	.buildAndRegister();

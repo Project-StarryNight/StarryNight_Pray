@@ -1,0 +1,383 @@
+{
+  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "stp:multicolored_assembly_table",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "astralsorcery:blockcelestialcollectorcrystal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "astralsorcery:blockcelestialcollectorcrystal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "astralsorcery:blockcelestialcollectorcrystal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABBB     BBBB",
+        "C           C",
+        "C           C",
+        "D           D",
+        "E           E",
+        "             "
+      ],
+      [
+        "BFFFBBBBBFFFB",
+        "             ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        "BFGGFFFFFGGFB",
+        "  H       H  ",
+        "  I       I  ",
+        "  I       I  ",
+        "  JF     FJ  ",
+        "             "
+      ],
+      [
+        "BFGKKKKKKKGFB",
+        "             ",
+        "             ",
+        "             ",
+        "  F       F  ",
+        "   FFF FFF   "
+      ],
+      [
+        " BFKKKKKKKFB ",
+        "             ",
+        "             ",
+        "             ",
+        "             ",
+        "   F     F   "
+      ],
+      [
+        " BFKKKKKKKFB ",
+        "             ",
+        "             ",
+        "             ",
+        "             ",
+        "   F     F   "
+      ],
+      [
+        " BFKKKKKKKFB ",
+        "      L      ",
+        "             ",
+        "             ",
+        "             ",
+        "      @      "
+      ],
+      [
+        " BFKKKKKKKFB ",
+        "             ",
+        "             ",
+        "             ",
+        "             ",
+        "   F     F   "
+      ],
+      [
+        " BFKKKKKKKFB ",
+        "             ",
+        "             ",
+        "             ",
+        "             ",
+        "   F     F   "
+      ],
+      [
+        "BFGKKKKKKKGFB",
+        "             ",
+        "             ",
+        "             ",
+        "  F       F  ",
+        "   FFF FFF   "
+      ],
+      [
+        "BFGGFFFFFGGFB",
+        "  H       H  ",
+        "  I       I  ",
+        "  I       I  ",
+        "  JF     FJ  ",
+        "             "
+      ],
+      [
+        "BFFFBBBBBFFFB",
+        "             ",
+        "             ",
+        "             ",
+        "             ",
+        "             "
+      ],
+      [
+        "ABBB     BBBA",
+        "C           C",
+        "C           C",
+        "D           D",
+        "E           E",
+        "             "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "stp:multicolored_assembly_table",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockattunementrelay",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "astralsorcery:blockblackmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "astralsorcery:blockaltar",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "O": {
+        "capability": "fluid",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "P": {
+        "capability": "gtce_energy",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "U": {
+        "capability": "item",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "P",
+        "B",
+        "U",
+        "O"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ]
+    }
+  },
+  "recipeMap": "Multicolored assembly table"
+}

@@ -1,0 +1,33 @@
+#星辉魔法多方块
+mechanical_aggregator.name=星力聚合器
+mechanical_resonance_altar.name=机械化共鸣祭坛
+mechanized_polystar_cylinder.name=电力聚星缸
+multicolored_assembly_table.name=五彩组装台
+radiant_assembly_table.name=天辉组装台
+starlight_assembly_table.name=星辉组装台
+star_energy_crystallizer.name=星能结晶器
+star_energy_drilling.name=星能钻井
+star_energy_impregnation_machine.name=星能浸渍机
+star_force_assembly_table.name=星力组装台
+
+multiblocked:multiblock_info=多方块信息
+mechanical_aggregator.description=机械化后的聚合器。大大提升效率和星能液利用率，方便自动化。
+multiblocked:recupe_map.Mechanical Aggregator=聚合
+mechanical_resonance_altar.description=机械化的共鸣祭坛。即使不是在晚上和没有星座的情况下都能正常使用。
+multiblocked.recupe_map.Mechanical resonance altar=共鸣
+mechanized_polystar_cylinder.description=机械化聚星缸。完全压榨星能，并能产出天体能量。
+multiblocked.recupe_map.Mechanized Polystar Cylinder=电力聚星
+multicolored_assembly_table.description=机械化五彩祭坛，无视是否为夜间与是否有星座，更高效的制作物品。
+multiblocked.recupe_map.Multicolored assembly table=五彩组装
+radiant_assembly_table.description=机械化天辉祭坛，无视是否为夜间与是否有星座，更高效的制作物品。
+multiblocked.recupe_map.Radiant assembly table=天辉组装
+starlight_assembly_table.description=机械化星辉组装台，无视是否为夜间与是否有星座，更高效的制作物品。
+multiblocked.recupe_map.Starlight assembly table=星辉组装
+star_energy_drilling.description=由星能液与天体能量供能，产出液体的魔法钻井。
+multiblocked.recupe_map.Star Energy Drilling=星能钻探
+star_energy_impregnation_machine.description=将物品放入其中让星能浸渍使其转化。
+multiblocked.recupe_map.Star energy impregnation machine=星能浸渍
+star_force_assembly_table.description=你的第一台星辉组装机，使用星能组装物品。
+multiblocked.recupe_map.Star force assembly table=星力组装
+multiblocked.recupe_map.Star energy crystallizer=星能结晶
+star_energy_crystallizer.description=以一块完美的水晶为晶种，"种"出另一块完美的水晶。

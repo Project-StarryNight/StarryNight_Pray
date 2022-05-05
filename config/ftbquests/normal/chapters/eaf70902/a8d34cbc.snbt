@@ -1,6 +1,7 @@
 {
 	x: 7.5d,
 	y: 1.0d,
+	description: "{stp.quests.a8d34cbc.description}",
 	dependencies: [
 		"d423df47",
 		"b3309650"

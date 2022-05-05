@@ -1,0 +1,107 @@
+{
+  "consumeCatalyst": false,
+  "location": "stp:mechanical_resonance_altar",
+  "traits": {
+    "background": "multiblocked:textures/custom_gui2.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 55,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 108,
+        "y": 85,
+        "autoIO": true
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 50,
+        "y": 86,
+        "autoIO": true,
+        "tC": 10000
+      }
+    ],
+    "gtce_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 26,
+      "y": 139,
+      "width": 128,
+      "height": 32,
+      "texture": "multiblocked:textures/star_energy_bar.png",
+      "capacity": 500000
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:maa",
+    "type": "imodel"
+  },
+  "formedRenderer": {
+    "modelLocation": "multiblocked:maa",
+    "type": "imodel"
+  },
+  "workingRenderer": {
+    "modelLocation": "multiblocked:maa",
+    "type": "imodel"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "stp:mechanical_resonance_altar",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "Mechanical resonance altar"
+}

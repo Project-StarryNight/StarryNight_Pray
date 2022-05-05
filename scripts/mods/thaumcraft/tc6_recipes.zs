@@ -86,13 +86,16 @@ for i, item in arcaneItems {
     Crucible.removeRecipe(<thaumcraft:alumentum>);
 
 //移除奥术注魔合成
-
-    Infusion.removeRecipe(<thaumcraft:elemental_shovel:*>);
-    Infusion.removeRecipe(<thaumcraft:elemental_sword:*>);
-    Infusion.removeRecipe(<thaumcraft:elemental_pick:*>);
-    Infusion.removeRecipe(<thaumcraft:elemental_axe:*>);
-    Infusion.removeRecipe(<thaumcraft:elemental_hoe:*>);
-
+var removeInfusionItem as IItemStack[] = [
+    <thaumcraft:elemental_shovel:*>, 
+    <thaumcraft:elemental_sword:*>, 
+    <thaumcraft:elemental_pick:*>, 
+    <thaumcraft:elemental_axe:*>, 
+    <thaumcraft:elemental_hoe:*>
+];
+for removeInfusion in removeInfusionItem{
+    Infusion.removeRecipe(removeInfusion);
+}
 
 recipes.addShaped(<thaumcraft:thaumium_helm>, [
     [<ore:plateThaumium>, <ore:plateThaumium>, <ore:plateThaumium>],
@@ -489,6 +492,9 @@ Crucible.registerRecipe("alumentum1", "ALUMENTUM",<thaumcraft:alumentum>, <ore:d
 
 Crucible.registerRecipe("nitor", "UNLOCKALCHEMY",<thaumcraft:nitor_yellow>, <ore:plateGlowstone>,
     [<aspect:ignis>*10,<aspect:potentia>*10,<aspect:lux>*10]);
+
+Crucible.registerRecipe("prismarine_shard", "", <minecraft:prismarine_shard>, <ore:gemNetherQuartz>, 
+    [<aspect:aqua>*5, <aspect:terra>*5]);
 
 //注魔合成
 Infusion.registerRecipe("mirror", "MIRROR", <thaumcraft:mirror>, 4,

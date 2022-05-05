@@ -1,0 +1,146 @@
+{
+  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "stp:star_energy_impregnation_machine",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:4",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "multiblocked:4",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "workingRenderer": {
+    "baseTexture": "multiblocked:4",
+    "frontTexture": "multiblocked:on",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "BBB",
+        "AAA"
+      ],
+      [
+        "ACA",
+        "@DB",
+        "ACA"
+      ],
+      [
+        "AAA",
+        "BBB",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "stp:star_energy_impregnation_machine",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "astralsorcery:fluidblockliquidstarlight",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "capability": "item",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "J": {
+        "capability": "gtce_energy",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      },
+      "K": {
+        "capability": "fluid",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B",
+        "H",
+        "J",
+        "K"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ]
+    }
+  },
+  "recipeMap": "Star energy impregnation machine"
+}
