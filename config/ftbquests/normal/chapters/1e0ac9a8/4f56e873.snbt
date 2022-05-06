@@ -5,7 +5,8 @@
 	description: "{stp.quests.4f56e873.description}",
 	dependencies: [
 		"97d0f780",
-		"51685547"
+		"51685547",
+		"30aa7239"
 	],
 	tasks: [{
 		uid: "d3abe148",

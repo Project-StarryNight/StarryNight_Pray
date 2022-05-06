@@ -74,8 +74,10 @@ var recipeItems as IItemStack[] = [
     <enderio:block_solar_panel:4>,#晶化光伏板
     <enderio:block_solar_panel:5>,#旋律光伏板
     <enderio:block_solar_panel:6>,#恒星光伏板
-    <deepmoblearning:data_model_dragon>#龙数据模型
-    <astralsorcery:blockblackmarble>*8#熏黑大理石
+    <deepmoblearning:data_model_dragon>,#龙数据模型
+    <astralsorcery:blockblackmarble> * 8,#熏黑大理石
+    <thermalfoundation:material:103> * 4,#末影粉
+    <thermalfoundation:material:101> * 4,#信素粉
 ];
 
 for i, item in recipeItems {
@@ -144,7 +146,8 @@ var jeiItems as IItemStack[] = [
     <enderutilities:enderpart:71>,#储物桶升级
     <enderutilities:enderpart:72>,#储物桶升级
     <enderutilities:enderpart:73>,#储物桶升级
-    <enderutilities:msu:0>#EnU 大型存储单元
+    <enderutilities:msu:0>,#EnU 大型存储单元
+    <enderio:item_material:5>#EIO 硅
 
 ];
 

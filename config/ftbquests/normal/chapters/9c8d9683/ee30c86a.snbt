@@ -13,6 +13,9 @@
 		"{stp.quests.ee30c86a.text.5}",
 		"{stp.quests.ee30c86a.text.6}"
 	],
+	dependencies: [
+		"19ab6bb9"
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "f1629acf",

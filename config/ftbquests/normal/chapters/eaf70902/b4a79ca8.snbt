@@ -12,7 +12,10 @@
 		uid: "69ccd079",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockaltar"
+			id: "astralsorcery:blockaltar",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -23,6 +26,9 @@
 			id: "astralsorcery:itemwand",
 			tag: {
 				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,

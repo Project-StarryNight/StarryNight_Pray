@@ -118,6 +118,20 @@ MaterialBuilder(32014, "stellar_alloy")
     .blastTemp(9000,"HIGH",7680,1030)
     .build();
 
+//琥珀
+MaterialBuilder(32015, "amber")
+    .gem()
+    .color(0xDA803D)
+    .components([
+    <material:carbon> * 10,
+    <material:hydrogen> * 10,
+    <material:oxygen> * 16
+    ])
+    .iconSet("RUBY")
+    .flags(["generate_rod","generate_long_rod","no_smelting", "crystallizable", "generate_plate", "generate_bolt_screw"])
+    .ore(2, 1)
+    .build();
+
 //钛铝合金
 MaterialBuilder(32020, "titanium_aluminide")
     .ingot()
@@ -225,28 +239,37 @@ MaterialBuilder(32036, "essential_draconium_awakened")
     .build();
 
 //TE5 合金
+# 末影锭
 MaterialBuilder(32100, "enderium")
     .ingot()
     .color(0x1D7E8C).iconSet("shiny")
-    .flags(["generate_plate", "genrate_gear"])
+    .flags(["generate_plate", "generate_gear"])
+    .build();
+
+# 信素锭
+MaterialBuilder(32101, "signalum")
+    .ingot()
+    .color(0xFB6114).iconSet("shiny")
+    .flags(["generate_plate", "generate_gear"])
+    .components([<material:copper> * 3, <material:silver> * 1, <material:redstone> * 1])
     .build();
 
 //EnderUtilities 合金
-#基础末影合金
+# 基础末影合金
 MaterialBuilder(32150, "ender_alloy_basic")
     .ingot()
     .color(0x6FA276).iconSet("shiny")
     .blastTemp(1200,"LOW",128,400)
     .flags(["generate_long_rod","generate_plate"])
     .build();
-#增强末影合金
+# 增强末影合金
 MaterialBuilder(32151, "ender_alloy_enhancement")
     .ingot()
     .color(0xA1DEAA).iconSet("shiny")
     .blastTemp(2000,"MID",768,600)
     .flags(["generate_rod","generate_long_rod","generate_plate"])
     .build();
-#高级末影合金
+# 高级末影合金
 MaterialBuilder(32152, "ender_alloy_advanced")
     .ingot()
     .color(0xAEECED).iconSet("shiny")
@@ -255,7 +278,7 @@ MaterialBuilder(32152, "ender_alloy_advanced")
     .build();
 
 //植物魔法材料
-//活石
+# 活石
 MaterialBuilder(32160, "livingrock")
     .ingot()
     .color(0xFDF5E6)
@@ -267,7 +290,7 @@ MaterialBuilder(32160, "livingrock")
     ])
     .build();
 
-//魔力钢
+# 魔力钢
 MaterialBuilder(32161, "manasteel")
     .ingot()
     .color(0x00BFFF)
@@ -280,7 +303,7 @@ MaterialBuilder(32161, "manasteel")
     ])
     .build();
 
-//源质钢锭
+# 源质钢锭
 MaterialBuilder(32162, "elven_elementium")
     .ingot()
     .color(0xFF69B4)
@@ -293,7 +316,7 @@ MaterialBuilder(32162, "elven_elementium")
     ])
     .build();
 
-//神话钢锭
+# 神话钢锭
 MaterialBuilder(32163, "mythicalsteel")
     .ingot()
     .color(0xFFD700)
@@ -305,21 +328,7 @@ MaterialBuilder(32163, "mythicalsteel")
     "generate_spring_small", "generate_small_gear"
     ])
     .build();
-    
-//琥珀
-MaterialBuilder(32101, "amber")
-    .gem()
-    .color(0xDA803D)
-    .components([
-    <material:carbon> * 10,
-    <material:hydrogen> * 10,
-    <material:oxygen> * 16
-    ])
-    .iconSet("RUBY")
-    .flags(["generate_rod","generate_long_rod","no_smelting", "crystallizable", "generate_plate", "generate_bolt_screw"])
-    .ore(2, 1)
-    .build();
-    
+
 //Novanium
 MaterialBuilder(32699, "novanium")
     .ingot()
