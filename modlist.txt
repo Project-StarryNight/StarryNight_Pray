@@ -6,7 +6,6 @@
         (附属)
         - [CoT][ContentTweaker-1.12.2-4.10.0]
         - [MoT][modtweaker-4.0.20.5]
-        - [脚本同步][CrT_自动同步ZS]
         - [CrT VSC工具][probe-0.1.24]
         - [MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.0]
 
@@ -112,7 +111,6 @@
 
     - [在线相框][OnlinePicFrame_v1.5.0-pre1_mc1.12.2]
     - [家具][furniture-6.3.1-1.12.2]
-    - [各种物品][VariedCommodities_1.12.2(27oct19)]
     - [通量网络][FluxNetworks-1.12.2-4.1.1.34]
     - [凿子][Chisel-MC1.12.2-1.0.2.45]
     - [更好的建筑手杖][BetterBuildersWands-1.12.2-0.13.2.271+5997513]
@@ -246,7 +244,7 @@
 
     - [前置][CodeChickenLib-1.12.2-3.2.3.358-universal]
         使用该前置的Mod:
-        - [格雷科技社区版非官方][gregtech-1.12.2-2.1.4-beta]
+        - [格雷科技社区版非官方][gregtech-1.12.2-2.2.1-beta]
         - [末影存储][EnderStorage-1.12.2-2.4.6.137-universal]
 
     - [资源加载器][ResourceLoader-MC1.12.1-1.5.3]
