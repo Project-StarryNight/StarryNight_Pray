@@ -1,8 +1,8 @@
 {
-	title: "EV你最讨厌的！",
+	title: "{stp.quests.b85259f0.title}",
 	x: 0.0d,
 	y: -1.0d,
-	description: "好吧~好吧~",
+	description: "{stp.quests.b85259f0.description}",
 	dependencies: [
 		"519560b4"
 	],

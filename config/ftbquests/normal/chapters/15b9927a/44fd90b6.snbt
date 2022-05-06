@@ -1,7 +1,7 @@
 {
 	x: 1.5d,
 	y: 3.5d,
-	description: "也被称作：量子之眼",
+	description: "{stp.quests.44fd90b6.description}",
 	dependencies: [
 		"a402b2e0"
 	],
