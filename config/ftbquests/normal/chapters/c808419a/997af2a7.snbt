@@ -1,6 +1,8 @@
 {
-	x: -1.0d,
+	title: "四氯化钛",
+	x: -1.5d,
 	y: -0.5d,
+	description: "是我没收你钛不好，桶就送你了",
 	dependencies: [
 		"e3109314",
 		"3f30438f"
@@ -8,7 +10,17 @@
 	tasks: [{
 		uid: "868463c8",
 		type: "fluid",
-		fluid: "titanium_tetrachloride",
-		amount: 32000
+		fluid: "titanium_tetrachloride"
+	}],
+	rewards: [{
+		uid: "65e2134e",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "titanium_tetrachloride",
+				Amount: 1000
+			}
+		}
 	}]
 }

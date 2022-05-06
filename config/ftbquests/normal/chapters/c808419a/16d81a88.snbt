@@ -1,11 +1,11 @@
 {
-	x: 3.0d,
+	x: -0.5d,
 	y: -1.5d,
 	tasks: [{
-		uid: "49a7e8bc",
+		uid: "a6184aab",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 570"
+			item: "gregtech:meta_dust 1 286"
 		}]
 	}]
 }

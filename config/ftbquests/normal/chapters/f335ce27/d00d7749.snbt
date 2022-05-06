@@ -1,6 +1,7 @@
 {
-	x: 0.0d,
+	x: -1.5d,
 	y: 1.5d,
+	description: "我来组成头部！",
 	dependencies: [
 		"13d6d01e"
 	],

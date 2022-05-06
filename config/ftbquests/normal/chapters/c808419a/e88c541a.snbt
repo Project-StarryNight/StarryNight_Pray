@@ -1,11 +1,9 @@
 {
-	x: -4.0d,
-	y: -0.5d,
+	x: -5.5d,
+	y: -4.5d,
 	text: [
-		"{stp.quests.e88c541a.text.1}"
-	],
-	dependencies: [
-		"e73b613a"
+		"可以使用聚四氟乙烯来节省材料",
+		"但通常还是建议聚氯乙烯"
 	],
 	dependency_requirement: "all_started",
 	tasks: [{
