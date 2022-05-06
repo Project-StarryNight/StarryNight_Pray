@@ -1,0 +1,16 @@
+{
+	title: "抽取自然的油泉",
+	x: -1.5d,
+	y: 7.5d,
+	description: "通过泵抽取喷涌而出的油泉",
+	dependencies: [
+		"3b9267af"
+	],
+	tasks: [{
+		uid: "035df76a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1531"
+		}]
+	}]
+}

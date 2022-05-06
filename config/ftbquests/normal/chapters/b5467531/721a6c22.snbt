@@ -1,0 +1,20 @@
+{
+	title: "重度蒸汽裂化轻燃料",
+	x: 1.5d,
+	y: 7.5d,
+	description: "化学反应釜，模式三！",
+	dependencies: [
+		"44edd934",
+		"be36ba71"
+	],
+	tasks: [{
+		uid: "9a8b791c",
+		type: "fluid",
+		fluid: "steam"
+	},
+	{
+		uid: "693e767d",
+		type: "fluid",
+		fluid: "light_fuel"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "离心！",
+	x: -0.5d,
+	y: 8.5d,
+	description: "通过离心机获得岩层里蕴含着的原油",
+	dependencies: [
+		"3b9267af"
+	],
+	tasks: [{
+		uid: "e86707a1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 186"
+		}]
+	},
+	{
+		uid: "de3fdcda",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1597"
+		}]
+	}]
+}

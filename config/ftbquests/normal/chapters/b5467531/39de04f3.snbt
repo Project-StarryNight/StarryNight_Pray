@@ -1,0 +1,15 @@
+{
+	title: "提示2！",
+	icon: "botania:cosmetic 1 31",
+	x: 0.5d,
+	y: 6.5d,
+	description: "我要逃避他！",
+	text: [
+		"此时你还是能逃避走石化线的",
+		"但是早做早享受啊骚年"
+	],
+	tasks: [{
+		uid: "04f0b97d",
+		type: "checkmark"
+	}]
+}

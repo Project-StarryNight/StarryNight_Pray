@@ -9,6 +9,7 @@
 		"{stp.quests.c0434bdf.text.2}"
 	],
 	dependencies: [
+		"f8a5a33c",
 		"f26c7306"
 	],
 	tasks: [{

@@ -1,0 +1,24 @@
+{
+	title: "停下！锤子时间！",
+	x: -1.5d,
+	y: -1.5d,
+	description: "砸砸砸！吧唧吧唧！",
+	tasks: [{
+		uid: "cf336a12",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceHardHammers"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "always_true"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

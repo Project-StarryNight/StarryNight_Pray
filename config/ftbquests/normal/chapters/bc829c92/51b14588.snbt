@@ -1,14 +1,14 @@
 {
 	title: "{stp.quests.51b14588.title}",
-	x: -1.5d,
-	y: 2.5d,
+	x: 2.5d,
+	y: 2.0d,
 	description: "{stp.quests.51b14588.description}",
 	text: [
 		"{stp.quests.51b14588.text.1}",
 		"{stp.quests.51b14588.text.2}"
 	],
 	dependencies: [
-		"54c7e9a3"
+		"acdde84f"
 	],
 	tasks: [{
 		uid: "ae351dc5",

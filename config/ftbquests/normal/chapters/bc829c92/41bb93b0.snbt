@@ -1,0 +1,15 @@
+{
+	title: "高级的蒸汽时代外壳！",
+	x: 2.5d,
+	y: 15.5d,
+	dependencies: [
+		"feebbcff"
+	],
+	tasks: [{
+		uid: "9b77ef41",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 3"
+		}]
+	}]
+}

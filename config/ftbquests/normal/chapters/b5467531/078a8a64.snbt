@@ -1,0 +1,13 @@
+{
+	title: "乙烯的另一种来法",
+	x: 2.5d,
+	y: 7.5d,
+	dependencies: [
+		"721a6c22"
+	],
+	tasks: [{
+		uid: "819af679",
+		type: "fluid",
+		fluid: "ethylene"
+	}]
+}

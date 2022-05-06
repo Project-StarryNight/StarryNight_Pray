@@ -1,0 +1,15 @@
+{
+	title: "柴油",
+	x: 1.5d,
+	y: 8.5d,
+	description: "好耶！是柴油！",
+	dependencies: [
+		"44edd934",
+		"412ef5f8"
+	],
+	tasks: [{
+		uid: "253f7ec1",
+		type: "fluid",
+		fluid: "diesel"
+	}]
+}
