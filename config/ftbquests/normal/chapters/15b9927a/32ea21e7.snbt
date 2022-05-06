@@ -1,7 +1,7 @@
 {
 	title: "{stp.quests.32ea21e7.title}",
 	x: 0.0d,
-	y: 7.0d,
+	y: 6.25d,
 	shape: "hexagon",
 	description: "{stp.quests.32ea21e7.description}",
 	dependencies: [

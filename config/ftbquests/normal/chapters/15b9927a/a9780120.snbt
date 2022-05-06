@@ -1,8 +1,8 @@
 {
 	title: "{stp.quests.a9780120.title}",
 	icon: "gregtech:machine 1 2001",
-	x: 9.0d,
-	y: 2.5d,
+	x: 7.0d,
+	y: 3.0d,
 	description: "{stp.quests.a9780120.description}",
 	text: [
 		"{stp.quests.a9780120.text.1}",

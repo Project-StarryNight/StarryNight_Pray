@@ -1,6 +1,7 @@
 {
 	x: 1.5d,
 	y: 3.5d,
+	description: "也被称作：量子之眼",
 	dependencies: [
 		"a402b2e0"
 	],
