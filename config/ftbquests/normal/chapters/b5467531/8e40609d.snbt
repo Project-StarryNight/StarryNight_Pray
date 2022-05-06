@@ -1,8 +1,8 @@
 {
-	title: "抽取自然的油泉",
+	title: "{stp.quests.8e40609d.title}",
 	x: -1.5d,
 	y: 7.5d,
-	description: "通过泵抽取喷涌而出的油泉",
+	description: "{stp.quests.8e40609d.description}",
 	dependencies: [
 		"3b9267af"
 	],

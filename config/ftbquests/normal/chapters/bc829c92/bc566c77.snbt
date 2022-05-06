@@ -1,7 +1,7 @@
 {
 	x: 2.5d,
 	y: 14.5d,
-	description: "哼哼~我无敌的太阳能！",
+	description: "{stp.quests.bc566c77.description}",
 	dependencies: [
 		"41bb93b0"
 	],

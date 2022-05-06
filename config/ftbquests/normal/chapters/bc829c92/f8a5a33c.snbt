@@ -1,8 +1,8 @@
 {
-	title: "研钵",
+	title: "{stp.quests.f8a5a33c.title}",
 	x: 2.0d,
 	y: -1.5d,
-	description: "史蒂夫当然不能徒手捏合金",
+	description: "{stp.quests.f8a5a33c.description}",
 	tasks: [{
 		uid: "957ff360",
 		type: "item",

@@ -1,8 +1,8 @@
 {
-	title: "轻燃料",
+	title: "{stp.quests.44edd934.title}",
 	x: 0.5d,
 	y: 7.5d,
-	description: "逃不开的石化处理",
+	description: "{stp.quests.44edd934.description}",
 	dependencies: [
 		"0500db88",
 		"39de04f3",

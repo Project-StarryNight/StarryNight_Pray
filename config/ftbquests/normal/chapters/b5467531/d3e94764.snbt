@@ -2,7 +2,7 @@
 	title: "{stp.quests.d3e94764.title}",
 	x: -0.5d,
 	y: 4.0d,
-	description: "化学反应釜买一送一咯！",
+	description: "{stp.quests.d3e94764.description}",
 	dependencies: [
 		"d896f31c"
 	],

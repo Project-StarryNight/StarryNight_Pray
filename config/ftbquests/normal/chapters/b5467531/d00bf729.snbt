@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: 7.5d,
-	description: "只要一方完成即可",
+	description: "{stp.quests.d00bf729.description}",
 	dependencies: [
 		"8e40609d",
 		"f9ee6d30"

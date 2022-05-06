@@ -1,12 +1,12 @@
 {
-	title: "提示2！",
+	title: "{stp.quests.39de04f3.title}",
 	icon: "botania:cosmetic 1 31",
 	x: 0.5d,
 	y: 6.5d,
-	description: "我要逃避他！",
+	description: "{stp.quests.39de04f3.description}",
 	text: [
-		"此时你还是能逃避走石化线的",
-		"但是早做早享受啊骚年"
+		"{stp.quests.39de04f3.text.1}",
+		"{stp.quests.39de04f3.text.2}"
 	],
 	tasks: [{
 		uid: "04f0b97d",

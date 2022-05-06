@@ -1,8 +1,8 @@
 {
-	title: "停下！锤子时间！",
+	title: "{stp.quests.fe61b527.title}",
 	x: -1.5d,
 	y: -1.5d,
-	description: "砸砸砸！吧唧吧唧！",
+	description: "{stp.quests.fe61b527.description}",
 	tasks: [{
 		uid: "cf336a12",
 		type: "item",

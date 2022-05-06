@@ -1,8 +1,8 @@
 {
-	title: "重度蒸汽裂化轻燃料",
+	title: "{stp.quests.721a6c22.title}",
 	x: 1.5d,
 	y: 7.5d,
-	description: "化学反应釜，模式三！",
+	description: "{stp.quests.721a6c22.description}",
 	dependencies: [
 		"44edd934",
 		"be36ba71"

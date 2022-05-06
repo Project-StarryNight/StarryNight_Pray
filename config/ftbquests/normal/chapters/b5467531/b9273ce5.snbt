@@ -1,8 +1,8 @@
 {
-	title: "柴油",
+	title: "{stp.quests.b9273ce5.title}",
 	x: 1.5d,
 	y: 8.5d,
-	description: "好耶！是柴油！",
+	description: "{stp.quests.b9273ce5.description}",
 	dependencies: [
 		"44edd934",
 		"412ef5f8"

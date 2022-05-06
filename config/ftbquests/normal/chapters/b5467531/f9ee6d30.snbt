@@ -1,8 +1,8 @@
 {
-	title: "离心！",
+	title: "{stp.quests.f9ee6d30.title}",
 	x: -0.5d,
 	y: 8.5d,
-	description: "通过离心机获得岩层里蕴含着的原油",
+	description: "{stp.quests.f9ee6d30.description}",
 	dependencies: [
 		"3b9267af"
 	],
