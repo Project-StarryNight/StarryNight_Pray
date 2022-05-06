@@ -27,3 +27,23 @@ electric_blast_furnace.recipeBuilder()
 	.EUt(240)
 	.property("temperature", 1700)
 	.buildAndRegister();
+	
+//熏黑大理石
+chemical_bath.recipeBuilder()
+    .inputs([
+        <astralsorcery:blockmarble> * 8, <gregtech:meta_dust:18> * 1
+    ])
+    .outputs(<astralsorcery:blockblackmarble> * 8)
+    .duration(200)
+    .EUt(30)
+    .buildAndRegister();
+	
+//星力组装台
+assembler.recipeBuilder()
+    .inputs([
+        <astralsorcery:blockmarble:5> * 1, <gregtech:machine:985> * 1
+    ])
+    .outputs(<stp:star_force_assembly_table> * 1)
+    .duration(200)
+    .EUt(30)
+    .buildAndRegister();
