@@ -2,7 +2,7 @@
 	title: "{stp.quests.e73b613a.title}",
 	x: -2.5d,
 	y: -1.5d,
-	description: "为了效率而制作",
+	description: "{stp.quests.e73b613a.description}",
 	text: [
 		"{stp.quests.e73b613a.text.1}"
 	],

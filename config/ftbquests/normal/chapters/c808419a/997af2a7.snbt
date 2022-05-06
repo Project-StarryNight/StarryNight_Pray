@@ -1,8 +1,8 @@
 {
-	title: "四氯化钛",
+	title: "{stp.quests.997af2a7.title}",
 	x: -1.5d,
 	y: -0.5d,
-	description: "是我没收你钛不好，桶就送你了",
+	description: "{stp.quests.997af2a7.description}",
 	dependencies: [
 		"e3109314",
 		"3f30438f"

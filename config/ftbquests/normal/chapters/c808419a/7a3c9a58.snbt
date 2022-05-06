@@ -1,8 +1,8 @@
 {
-	title: "HV你最讨厌的",
+	title: "{stp.quests.7a3c9a58.title}",
 	x: -4.0d,
 	y: -3.0d,
-	description: "永远不会缺席！",
+	description: "{stp.quests.7a3c9a58.description}",
 	dependencies: [
 		"30315d1d"
 	],

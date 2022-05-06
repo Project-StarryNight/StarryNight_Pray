@@ -1,7 +1,7 @@
 {
 	x: -4.5d,
 	y: 0.0d,
-	description: "杜老八：嗨嗨嗨！来了！",
+	description: "{stp.quests.30bd2b5c.description}",
 	dependencies: [
 		"3d1e3a03"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -3.5d,
 	y: 0.5d,
-	description: "升温！",
+	description: "{stp.quests.9905c12b.description}",
 	dependencies: [
 		"84e1f4d2"
 	],
