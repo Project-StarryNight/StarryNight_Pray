@@ -1,7 +1,7 @@
 {
 	title: "{stp.quests.0946b0b7.title}",
 	icon: "gregtech:machine 1 1007",
-	x: -1.5d,
+	x: 1.5d,
 	y: -1.5d,
 	description: "{stp.quests.0946b0b7.description}",
 	text: [
@@ -9,9 +9,6 @@
 		"{stp.quests.0946b0b7.text.2}",
 		"{stp.quests.0946b0b7.text.3}",
 		"{stp.quests.0946b0b7.text.4}"
-	],
-	dependencies: [
-		"13d6d01e"
 	],
 	tasks: [{
 		uid: "0c52db23",

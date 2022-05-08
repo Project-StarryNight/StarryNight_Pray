@@ -1,0 +1,16 @@
+{
+	title: "{stp.quests.8e40609d.title}",
+	x: -1.5d,
+	y: 7.5d,
+	description: "{stp.quests.8e40609d.description}",
+	dependencies: [
+		"3b9267af"
+	],
+	tasks: [{
+		uid: "035df76a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1531"
+		}]
+	}]
+}

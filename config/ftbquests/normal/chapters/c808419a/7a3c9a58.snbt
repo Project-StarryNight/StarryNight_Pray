@@ -1,0 +1,47 @@
+{
+	title: "{stp.quests.7a3c9a58.title}",
+	x: -4.0d,
+	y: -3.0d,
+	description: "{stp.quests.7a3c9a58.description}",
+	dependencies: [
+		"30315d1d"
+	],
+	tasks: [{
+		uid: "0e6b4a03",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 189"
+		}],
+		count: 4L
+	},
+	{
+		uid: "d68833b3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 159"
+		}],
+		count: 8L
+	},
+	{
+		uid: "8f9dca80",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 219"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8fa73173",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 234"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a4288ab3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 129",
+		count: 24
+	}]
+}

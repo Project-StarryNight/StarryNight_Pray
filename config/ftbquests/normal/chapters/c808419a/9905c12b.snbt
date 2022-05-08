@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 0.5d,
+	description: "{stp.quests.9905c12b.description}",
+	dependencies: [
+		"84e1f4d2"
+	],
+	tasks: [{
+		uid: "42f8c4a6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 288"
+		}]
+	}]
+}

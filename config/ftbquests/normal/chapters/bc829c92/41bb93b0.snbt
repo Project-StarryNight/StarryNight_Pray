@@ -1,0 +1,15 @@
+{
+	title: "{stp.quests.41bb93b0.title}",
+	x: 2.5d,
+	y: 15.5d,
+	dependencies: [
+		"feebbcff"
+	],
+	tasks: [{
+		uid: "9b77ef41",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 3"
+		}]
+	}]
+}

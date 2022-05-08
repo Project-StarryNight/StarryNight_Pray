@@ -1,13 +1,15 @@
 {
-	x: 0.5d,
+	x: -0.5d,
 	y: -0.5d,
+	dependencies: [
+		"16d81a88"
+	],
 	hide_text_until_complete: true,
 	tasks: [{
 		uid: "9edb7ff8",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_dust 1 285"
-		}],
-		count: 32L
+		}]
 	}]
 }

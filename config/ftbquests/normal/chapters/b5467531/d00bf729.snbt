@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: 7.5d,
+	description: "{stp.quests.d00bf729.description}",
+	dependencies: [
+		"8e40609d",
+		"f9ee6d30"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "aeb45e59",
+		type: "fluid",
+		fluid: "oil_medium"
+	}]
+}

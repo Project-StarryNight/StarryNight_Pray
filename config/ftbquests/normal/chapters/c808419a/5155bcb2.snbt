@@ -1,7 +1,7 @@
 {
 	title: "{stp.quests.5155bcb2.title}",
-	x: -3.75d,
-	y: 2.0d,
+	x: -1.875d,
+	y: 2.5d,
 	shape: "pentagon",
 	description: "{stp.quests.5155bcb2.description}",
 	dependencies: [
