@@ -168,23 +168,23 @@ for i ,mysticFlowerInput in mysticFlowerInputs {
     }
 
 
-    centrifuge.recipeBuilder()
-        .inputs(mysticFlowerInput)
-        .fluidInputs([<liquid:sulfuric_gas> * 30])
-        .outputs(mysticFlowerOutput * 2)
-        .chancedOutput(<witchery:wispy_cotton>, 1000, 1000)
-        .duration(100)
-        .EUt(10)
-        .buildAndRegister();
+centrifuge.recipeBuilder()
+    .inputs(mysticFlowerInput)
+    .fluidInputs([<liquid:sulfuric_gas> * 30])
+    .outputs(mysticFlowerOutput * 2)
+    .chancedOutput(<witchery:wispy_cotton>, 1000, 1000)
+    .duration(100)
+    .EUt(10)
+    .buildAndRegister();
 
-    centrifuge.recipeBuilder()
-        .inputs(mysticFlowerInput1)
-        .fluidInputs([<liquid:sulfuric_gas> * 30])
-        .outputs(mysticFlowerOutput * 4)
-        .chancedOutput(<witchery:wispy_cotton>, 1000, 1000)
-        .duration(100)
-        .EUt(10)
-        .buildAndRegister();
+centrifuge.recipeBuilder()
+    .inputs(mysticFlowerInput1)
+    .fluidInputs([<liquid:sulfuric_gas> * 30])
+    .outputs(mysticFlowerOutput * 4)
+    .chancedOutput(<witchery:wispy_cotton>, 1000, 1000)
+    .duration(100)
+    .EUt(10)
+    .buildAndRegister();
 }
 
 //花肥
@@ -288,7 +288,7 @@ ArcaneWorkbench.registerShapedRecipe("spreader", "", 20, [<aspect:aer>, <aspect:
         [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>],
         [<ore:plateGold>, <ore:plateLivingrock>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})],
         [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]
-    ]);
+]);
 
 //水绣球
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "hydroangeas"}));
@@ -306,7 +306,7 @@ ArcaneWorkbench.registerShapedRecipe("pool", "", 20, [<aspect:aer>, <aspect:ordo
         [null, <botania:pool:2>, null],
         [<ore:plateLivingrock>, <ore:ingotThaumium>, <ore:plateLivingrock>],
         [null, <botania:pool:2>, null]
-    ]);
+]);
 
 //火红莲
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "endoflame"}));
@@ -320,7 +320,7 @@ ArcaneWorkbench.registerShapedRecipe("runealtar", "", 20, [<aspect:aer>, <aspect
         [<gregtech:meta_stick:32160>, <gregtech:meta_plate:32160>, <gregtech:meta_stick:32160>],
         [<gregtech:meta_plate:32160>, <ore:blockLivingrock>, <gregtech:meta_plate:32160>],
         [<ore:manaDiamond>, <gregtech:meta_plate:32160>, <enderio:block_tank:1>]
-    ]);
+]);
 
 //符文
 # 移除符文

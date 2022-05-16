@@ -88,6 +88,7 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:34
+key_key.craftpresence.config_keycode.name:0
 key_Reload Menu | CTRL + ALT + :0
 key_Toggle Customization Overlay | CTRL + ALT + :61
 key_keybind.baublesinventory:48
@@ -102,7 +103,6 @@ key_key.ftbultimine:41
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
-key_key.fart.desc:34
 key_gregtech.key.armor_mode_switch:50
 key_gregtech.key.armor_hover:35
 key_gregtech.key.armor_charging:49
@@ -166,14 +166,6 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_Camera left:203
-key_Camera right:205
-key_Camera closer:200
-key_Camera farther:208
-key_Camera up:201
-key_Camera down:209
-key_Swap shoulder:24
-key_Toggle perspective:0
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_开关喷气背包:45

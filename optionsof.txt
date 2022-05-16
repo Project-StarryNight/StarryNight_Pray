@@ -40,7 +40,7 @@ ofVignette:1
 ofChunkUpdates:1
 ofChunkUpdatesDynamic:false
 ofTime:0
-ofClearWater:true
+ofClearWater:false
 ofAaLevel:0
 ofAfLevel:1
 ofProfiler:false
