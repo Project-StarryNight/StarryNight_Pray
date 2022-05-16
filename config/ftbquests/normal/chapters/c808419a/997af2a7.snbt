@@ -1,6 +1,8 @@
 {
-	x: -1.0d,
+	title: "{stp.quests.997af2a7.title}",
+	x: -1.5d,
 	y: -0.5d,
+	description: "{stp.quests.997af2a7.description}",
 	dependencies: [
 		"e3109314",
 		"3f30438f"
@@ -8,7 +10,17 @@
 	tasks: [{
 		uid: "868463c8",
 		type: "fluid",
-		fluid: "titanium_tetrachloride",
-		amount: 32000
+		fluid: "titanium_tetrachloride"
+	}],
+	rewards: [{
+		uid: "65e2134e",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "titanium_tetrachloride",
+				Amount: 1000
+			}
+		}
 	}]
 }

@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: 14.5d,
+	description: "{stp.quests.bc566c77.description}",
+	dependencies: [
+		"41bb93b0"
+	],
+	tasks: [{
+		uid: "10c03e86",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4"
+		}]
+	}]
+}

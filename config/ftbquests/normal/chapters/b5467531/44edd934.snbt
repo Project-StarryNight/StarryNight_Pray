@@ -1,0 +1,21 @@
+{
+	title: "{stp.quests.44edd934.title}",
+	x: 0.5d,
+	y: 7.5d,
+	description: "{stp.quests.44edd934.description}",
+	dependencies: [
+		"0500db88",
+		"39de04f3",
+		"d00bf729"
+	],
+	tasks: [{
+		uid: "cd3f9917",
+		type: "fluid",
+		fluid: "sulfuric_light_fuel"
+	},
+	{
+		uid: "450d1c63",
+		type: "fluid",
+		fluid: "hydrogen"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "{stp.quests.f8a5a33c.title}",
+	x: 2.0d,
+	y: -1.5d,
+	description: "{stp.quests.f8a5a33c.description}",
+	tasks: [{
+		uid: "957ff360",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolMortar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "always_true"
+				}
+			}
+		}]
+	}]
+}

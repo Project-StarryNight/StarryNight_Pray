@@ -1,0 +1,13 @@
+{
+	title: "{stp.quests.078a8a64.title}",
+	x: 2.5d,
+	y: 7.5d,
+	dependencies: [
+		"721a6c22"
+	],
+	tasks: [{
+		uid: "819af679",
+		type: "fluid",
+		fluid: "ethylene"
+	}]
+}

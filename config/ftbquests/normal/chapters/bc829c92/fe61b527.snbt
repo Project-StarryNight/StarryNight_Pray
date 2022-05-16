@@ -1,0 +1,24 @@
+{
+	title: "{stp.quests.fe61b527.title}",
+	x: -1.5d,
+	y: -1.5d,
+	description: "{stp.quests.fe61b527.description}",
+	tasks: [{
+		uid: "cf336a12",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceHardHammers"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "always_true"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

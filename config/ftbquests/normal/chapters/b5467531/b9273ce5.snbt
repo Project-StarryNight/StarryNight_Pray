@@ -1,0 +1,15 @@
+{
+	title: "{stp.quests.b9273ce5.title}",
+	x: 1.5d,
+	y: 8.5d,
+	description: "{stp.quests.b9273ce5.description}",
+	dependencies: [
+		"44edd934",
+		"412ef5f8"
+	],
+	tasks: [{
+		uid: "253f7ec1",
+		type: "fluid",
+		fluid: "diesel"
+	}]
+}

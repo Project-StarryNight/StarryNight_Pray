@@ -1,0 +1,20 @@
+{
+	title: "{stp.quests.721a6c22.title}",
+	x: 1.5d,
+	y: 7.5d,
+	description: "{stp.quests.721a6c22.description}",
+	dependencies: [
+		"44edd934",
+		"be36ba71"
+	],
+	tasks: [{
+		uid: "9a8b791c",
+		type: "fluid",
+		fluid: "steam"
+	},
+	{
+		uid: "693e767d",
+		type: "fluid",
+		fluid: "light_fuel"
+	}]
+}

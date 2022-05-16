@@ -1,7 +1,7 @@
 {
 	title: "{stp.quests.84e1f4d2.title}",
-	x: -3.75d,
-	y: 0.5d,
+	x: -5.014880952380942d,
+	y: 0.5089285714285694d,
 	shape: "gear",
 	description: "{stp.quests.84e1f4d2.description}",
 	text: [

@@ -4,10 +4,10 @@
 	text: [
 		"{stp.quests.359c7ae0.text.1}"
 	],
+	min_required_dependencies: 1,
 	dependencies: [
 		"519560b4"
 	],
-	dependency_requirement: "one_completed",
 	or_tasks: true,
 	tasks: [{
 		uid: "83a2c3c2",

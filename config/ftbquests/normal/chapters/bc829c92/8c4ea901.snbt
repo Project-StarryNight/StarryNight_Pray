@@ -1,0 +1,27 @@
+{
+	title: "{stp.quests.8c4ea901.title}",
+	x: -1.5d,
+	y: -0.5d,
+	description: "{stp.quests.8c4ea901.description}",
+	dependencies: [
+		"fe61b527"
+	],
+	tasks: [{
+		uid: "6e9aa62a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed 1 25"
+		}],
+		count: 16L,
+		consume_items: false
+	},
+	{
+		uid: "ae54bd34",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed 1 112"
+		}],
+		count: 16L,
+		consume_items: false
+	}]
+}

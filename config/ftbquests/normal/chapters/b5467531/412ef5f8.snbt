@@ -1,0 +1,18 @@
+{
+	title: "{stp.quests.412ef5f8.title}",
+	x: 0.5d,
+	y: 8.5d,
+	dependencies: [
+		"d00bf729"
+	],
+	tasks: [{
+		uid: "cc6b4f38",
+		type: "fluid",
+		fluid: "sulfuric_heavy_fuel"
+	},
+	{
+		uid: "3632170f",
+		type: "fluid",
+		fluid: "hydrogen"
+	}]
+}

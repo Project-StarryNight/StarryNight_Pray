@@ -1,11 +1,12 @@
 {
 	title: "{stp.quests.0240aa33.title}",
-	x: -1.0d,
-	y: 2.0d,
+	x: -4.014880952380949d,
+	y: 1.5089285714285694d,
 	shape: "pentagon",
 	description: "{stp.quests.0240aa33.description}",
 	dependencies: [
-		"9cfbd0a5"
+		"9cfbd0a5",
+		"84e1f4d2"
 	],
 	size: 1.25d,
 	tasks: [{
@@ -13,7 +14,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_ingot 1 113"
-		}],
-		count: 32L
+		}]
 	}]
 }

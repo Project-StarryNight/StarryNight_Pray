@@ -1,9 +1,18 @@
 {
-	x: 0.5d,
+	x: 1.5d,
 	y: 5.0d,
+	dependencies: [
+		"be36ba71",
+		"35cf294c"
+	],
 	tasks: [{
 		uid: "d28af757",
 		type: "fluid",
 		fluid: "sulfuric_acid"
+	},
+	{
+		uid: "c7bbb1af",
+		type: "fluid",
+		fluid: "ethanol"
 	}]
 }

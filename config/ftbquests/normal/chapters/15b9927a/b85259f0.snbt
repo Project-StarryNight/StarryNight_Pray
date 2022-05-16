@@ -1,6 +1,8 @@
 {
+	title: "{stp.quests.b85259f0.title}",
 	x: 0.0d,
 	y: -1.0d,
+	description: "{stp.quests.b85259f0.description}",
 	dependencies: [
 		"519560b4"
 	],
@@ -16,20 +18,29 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 160"
-		}]
+		}],
+		count: 4L
 	},
 	{
 		uid: "e785c329",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 175"
-		}]
+		}],
+		count: 8L
 	},
 	{
 		uid: "a993377f",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 190"
-		}]
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "58c48266",
+		type: "item",
+		item: "gregtech:meta_item_1 1 130",
+		count: 16
 	}]
 }

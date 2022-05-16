@@ -1,0 +1,15 @@
+{
+	title: "{stp.quests.39de04f3.title}",
+	icon: "botania:cosmetic 1 31",
+	x: 0.5d,
+	y: 6.5d,
+	description: "{stp.quests.39de04f3.description}",
+	text: [
+		"{stp.quests.39de04f3.text.1}",
+		"{stp.quests.39de04f3.text.2}"
+	],
+	tasks: [{
+		uid: "04f0b97d",
+		type: "checkmark"
+	}]
+}

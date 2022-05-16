@@ -1,0 +1,35 @@
+{
+	title: "{stp.quests.ae9a668c.title}",
+	x: -1.5d,
+	y: 0.5d,
+	description: "{stp.quests.ae9a668c.description}",
+	dependencies: [
+		"8c4ea901"
+	],
+	tasks: [{
+		uid: "ca373de8",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "0977a444",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_impure 1 25"
+		}],
+		count: 16L,
+		consume_items: false
+	},
+	{
+		uid: "5ab2a00b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_impure 1 112"
+		}],
+		count: 16L,
+		consume_items: false
+	}]
+}
