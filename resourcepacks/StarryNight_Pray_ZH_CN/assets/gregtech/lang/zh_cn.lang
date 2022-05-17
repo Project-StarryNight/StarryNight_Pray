@@ -1,16 +1,17 @@
 # Chinese translate by rentommy & 落樱之鱼 & Kasumi_Nova.
 # 中文翻译由 rentommy & 落樱之鱼 & Kasumi_Nova 翻译。
-# Corresponding Version: 2.2.1 - beta
-# 对应版本: 2.2.1 - beta
+# Corresponding Version: 2.2.3 - beta
+# 对应版本: 2.2.3 - beta
 
-death.attack.heat=%s 被煮熟了.
-death.attack.frost=%s 被冻死了.
-death.attack.electric=%s 被电死了.
-death.attack.radiation=%s 被辐射致死.
-death.attack.turbine=%s 将他的头伸进了涡轮机里.
-death.attack.explosion=%s 爆炸了.
-death.attack.explosion.player=%s 被 %s 炸死了.
-death.attack.heat.player=%s 被 %s煮熟了.
+death.attack.heat=%s 被煮熟了
+death.attack.frost=%s 被冻死了
+death.attack.chemical=%s 发生了化学事故
+death.attack.electric=%s 被电死了
+death.attack.radiation=%s 被辐射致死
+death.attack.turbine=%s 将他的头伸进了涡轮机里
+death.attack.explosion=%s 爆炸了
+death.attack.explosion.player=%s 被 %s 炸死了
+death.attack.heat.player=%s 被 %s煮熟了
 
 enchantment.disjunction=末影离析
 
@@ -88,6 +89,7 @@ item.invalid.name=无效物品
 fluid.empty=空
 
 gregtech.tooltip.hold_shift=按住 §aShift§7 获得更多信息
+gregtech.tooltip.fluid_pipe_hold_shift=按住 §aShift§7 以获取流体信息
 
 metaitem.generic.fluid_container.tooltip=%,d/%,dL %s
 metaitem.generic.electric_item.tooltip=%,d/%,d EU - 等级 %s
@@ -239,6 +241,7 @@ metaitem.fluid_cell.empty=空
 metaitem.fluid_cell.name=%s单元
 metaitem.fluid_cell.universal.empty=空
 metaitem.fluid_cell.universal.name=%s通用单元
+metaitem.fluid_cell.glass_vial.name=%s玻璃单元
 metaitem.large_fluid_cell.steel.name=%s钢单元
 metaitem.large_fluid_cell.aluminium.name=%s铝单元
 metaitem.large_fluid_cell.stainless_steel.name=%s不锈钢单元
@@ -292,6 +295,9 @@ metaitem.battery.hull.uv.tooltip=一个空的 §3UV §7电池外壳
 
 metaitem.battery.charge_time=§a可以持续供电 %,d%s
 metaitem.battery.charge_detailed=%,d/%,d EU - 等级 %s §7(§%c%,d%s 剩余§7)
+metaitem.battery.charge_unit.second=秒
+metaitem.battery.charge_unit.minute=分
+metaitem.battery.charge_unit.hour=时
 
 metaitem.battery.re.ulv.tantalum.name=钽电容
 metaitem.battery.re.ulv.tantalum.tooltip=可充电电池
@@ -2276,12 +2282,13 @@ metaitem.debug_scanner.name=调试扫描仪
 metaitem.debug_scanner.tooltip=三录仪
 behavior.tricorder.position=----- X: %s Y: %s Z: %s D: %s -----
 behavior.tricorder.block_hardness=硬度: %s 防爆抗性: %s
-behavior.tricorder.block_name=Name: %s 元数据: %s
+behavior.tricorder.block_name=名称: %s 元数据: %s
+behavior.tricorder.state=%s: %s
 behavior.tricorder.divider==========================
 behavior.tricorder.tank=储罐 %s: %s L / %s L %s
 behavior.tricorder.tanks_empty=所有储罐空
-behavior.tricorder.muffled=抑爆.
-behavior.tricorder.machine_disabled=禁用.
+behavior.tricorder.muffled=防爆。
+behavior.tricorder.machine_disabled=禁用。
 behavior.tricorder.machine_power_loss=由于停电而关闭。
 behavior.tricorder.machine_progress=进度/加载: %s / %s
 behavior.tricorder.energy_container_in=最大输入: %s (%s) EU 在 %s A
@@ -2372,7 +2379,21 @@ tile.warning_sign.acid_hazard.name=强酸危险警示方块
 tile.warning_sign.magic_hazard.name=魔力危险警示方块
 tile.warning_sign.frost_hazard.name=低温危险警示方块
 tile.warning_sign.noise_hazard.name=噪声危险警示方块
-
+tile.warning_sign.generic_hazard.name=通用危险警示方块
+tile.warning_sign.high_voltage_hazard.name=高压危险警示方块
+tile.warning_sign.magnetic_hazard.name=磁性危险警示方块
+tile.warning_sign.antimatter_hazard.name=反物质危险警示方块
+tile.warning_sign.high_temperature_hazard.name=高温危险警示方块
+tile.warning_sign.void_hazard.name=虚空危险警示方块
+tile.warning_sign_1.mob_spawner_hazard.name=刷怪笼危险警示方块
+tile.warning_sign_1.spatial_storage_hazard.name=空间存储警示方块
+tile.warning_sign_1.laser_hazard.name=激光危险警示方块
+tile.warning_sign_1.mob_hazard.name=怪物侵扰警示方块
+tile.warning_sign_1.boss_hazard.name=BOSS 危险警示方块
+tile.warning_sign_1.gregification_hazard.name=Gregification 警示方块
+tile.warning_sign_1.causality_hazard.name=非标准因果关系警示方块
+tile.warning_sign_1.automated_defenses_hazard.name=自动防御警示方块
+tile.warning_sign_1.high_pressure_hazard.name=高压危险警示方块
 # Boiler casing blocks
 tile.boiler_casing.bronze_pipe.name=青铜管道方块
 tile.boiler_casing.steel_pipe.name=钢管道方块
@@ -4699,6 +4720,7 @@ gregtech.fluid.plasma=%s 等离子
 gregtech.fluid.empty=空
 gregtech.fluid.amount=§9总量: %,d/%,d L
 gregtech.fluid.temperature=§c温度: %,d K
+gregtech.fluid.temperature.cryogenic=§b低温！小心轻放！
 gregtech.fluid.state_gas=§a状态：气态
 gregtech.fluid.state_liquid=§a状态：液态
 gregtech.fluid.state_plasma=§a状态: 等离子态
@@ -4757,9 +4779,14 @@ gregtech.cable.loss_per_block=线损: §c%d§7 EU-V
 gregtech.cable.superconductor=§d%s 超导体
 
 gregtech.fluid_pipe.throughput=§9传输效率: %,d L/s
-gregtech.fluid_pipe.max_temperature=§c温度范围: %,dK
-gregtech.fluid_pipe.non_gas_proof=§a不能传输气体。
-gregtech.fluid_pipe.channels=§e频道: %d
+gregtech.fluid_pipe.capacity=§9内容物: %,d L
+gregtech.fluid_pipe.max_temperature=§c温度范围: %,d K
+gregtech.fluid_pipe.channels=§ee频道: %d
+gregtech.fluid_pipe.gas_proof=§6可以传输气体
+gregtech.fluid_pipe.acid_proof=§6可以传输酸性液体
+gregtech.fluid_pipe.cryo_proof=§6可以传输低温液体
+gregtech.fluid_pipe.plasma_proof=§6可以传输等离子体
+gregtech.fluid_pipe.not_gas_proof=§4气体可能泄漏！
 
 gregtech.item_pipe.rate_items=§9传输效率: %d 物品/s
 gregtech.item_pipe.rate_stacks=§9传输效率: %d 组/s
@@ -4947,6 +4974,8 @@ gregtech.terminal.app_name.world_prospector=世界勘探
 gregtech.terminal.app_name.vtank_viewer=虚拟容器查看器
 gregtech.terminal.app_name.cape_selector=披风选择器
 
+gregtech.terminal.app_name.teleport=传送器
+
 
 terminal.app_name.description=.没有描述
 terminal.app_name.tier=等级 %d
@@ -5017,6 +5046,10 @@ terminal.settings.description=GTOS的系统设置
 terminal.settings.theme=主题
 terminal.settings.theme.color=主题颜色设置
 terminal.settings.theme.wallpaper=壁纸设置
+terminal.settings.theme.wallpaper.resource=资源
+terminal.settings.theme.wallpaper.url=网址
+terminal.settings.theme.wallpaper.color=单色
+terminal.settings.theme.wallpaper.file=文件
 terminal.settings.theme.select=选择
 terminal.settings.theme.image=图像文件
 terminal.settings.home=主页按钮
@@ -5121,6 +5154,27 @@ terminal.world_prospector.color=颜色选择框
 terminal.vtank_viewer.description=永远不要再次失去任何末影流体连接覆盖板！这是一个可滚动的列表，列出了你在自己的世界中所有已连接的流体容器。
 terminal.vtank_viewer.title=虚拟容器查看器
 terminal.vtank_viewer.refresh=刷新容器指数
+
+terminal.teleporter.dimension=维度:
+terminal.teleporter.spawn_portal=建立传送门
+
+terminal.maze.title=提修斯的逃跑
+terminal.maze.play=开始
+terminal.maze.continue=继续
+terminal.maze.pause=暂停
+terminal.maze.death.1=天啊! 你被弥诺陶洛斯吃掉了！
+terminal.maze.death.2=你在死之前破解了%s个迷宫。
+terminal.maze.death.3=再玩一次？
+terminal.maze.retry=重试
+
+terminal.minesweeper.time=%s秒经过
+terminal.minesweeper.lose=你输了。游戏将在%s秒后重新开始.
+terminal.minesweeper.win.1=你在%s秒内赢了!
+terminal.minesweeper.win.2=游戏将在%s秒后重新开始.
+
+terminal.cape_selector.empty=看来你还没有开放任何披风!
+terminal.cape_selector.select=点击已开放的披风以选择!
+terminal.cape_selector.tip=你可以经过获得困难的进度以开放披风。
 
 metaitem.cover.digital.title.mode=模式:
 metaitem.cover.digital.title.spin=自旋:
