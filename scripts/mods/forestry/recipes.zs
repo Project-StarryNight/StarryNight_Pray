@@ -15,9 +15,8 @@ recipes.addShaped(<forestry:soldering_iron>, [
     [null, null, <ore:stickIron>]
 ]);
 
-
 //伐木机，收割机，沼泽，加湿器，榨汁机，发酵机，蒸馏器，离心机，装瓶机，木工机，热电子加工台
-#移除
+# 移除
 var machines as IItemStack[] = [
     <forestry:arboretum>,
     <forestry:farm_crops>,
@@ -44,7 +43,7 @@ for i, machine in machines {
     recipes.remove(machine);
 }
 
-#添加
+# 添加
     recipes.addShaped(<forestry:peat_bog>, [
         [<forestry:thermionic_tubes:6>,<gregtech:meta_item_1:127>, <forestry:thermionic_tubes:6>],
         [<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],

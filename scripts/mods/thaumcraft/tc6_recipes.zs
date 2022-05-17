@@ -56,8 +56,8 @@ var RecipeNames as string[] = [
 ];
 
 for i, RecipeName in RecipeNames {
- var RecipeName = RecipeNames[i];
- recipes.removeByRecipeName(RecipeName);
+    var RecipeName = RecipeNames[i];
+    recipes.removeByRecipeName(RecipeName);
 }
 //移除奥术工作台合成
 var arcaneItems as IItemStack[] = [
@@ -86,17 +86,18 @@ for i, item in arcaneItems {
     Crucible.removeRecipe(<thaumcraft:alumentum>);
 
 //移除奥术注魔合成
-var removeInfusionItem as IItemStack[] = [
-    <thaumcraft:elemental_shovel:*>, 
-    <thaumcraft:elemental_sword:*>, 
-    <thaumcraft:elemental_pick:*>, 
-    <thaumcraft:elemental_axe:*>, 
+var removeInfusionItems as IItemStack[] = [
+    <thaumcraft:elemental_shovel:*>,
+    <thaumcraft:elemental_sword:*>,
+    <thaumcraft:elemental_pick:*>,
+    <thaumcraft:elemental_axe:*>,
     <thaumcraft:elemental_hoe:*>
 ];
-for removeInfusion in removeInfusionItem{
-    Infusion.removeRecipe(removeInfusion);
+for removeInfusionItem in removeInfusionItems{
+    Infusion.removeRecipe(removeInfusionItem);
 }
 
+//神秘套装
 recipes.addShaped(<thaumcraft:thaumium_helm>, [
     [<ore:plateThaumium>, <ore:plateThaumium>, <ore:plateThaumium>],
     [<ore:plateThaumium>, <ore:gtceHardHammers>, <ore:plateThaumium>]
@@ -119,6 +120,7 @@ recipes.addShaped(<thaumcraft:thaumium_boots>, [
     [<ore:plateThaumium>, <ore:gtceHardHammers>, <ore:plateThaumium>]
     ]);
 
+//虚空套装
 recipes.addShaped(<thaumcraft:void_helm>, [
     [<ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>],
     [<ore:plateVoid>, <ore:gtceHardHammers>, <ore:plateVoid>]
@@ -141,6 +143,7 @@ recipes.addShaped(<thaumcraft:void_boots>, [
     [<ore:plateVoid>, <ore:gtceHardHammers>, <ore:plateVoid>]
     ]);
 
+//神秘工具
 recipes.addShaped(<thaumcraft:thaumium_sword>, [
     [null, <ore:plateThaumium>, null],
     [<ore:gtceFiles>, <ore:plateThaumium>, <ore:gtceHardHammers>],
@@ -171,6 +174,7 @@ recipes.addShaped(<thaumcraft:thaumium_hoe>, [
     [null, <ore:stickWood>, null]
     ]);
 
+//虚空工具
 recipes.addShaped(<thaumcraft:void_sword>, [
     [null, <ore:plateVoid>, null],
     [<ore:gtceFiles>, <ore:plateVoid>, <ore:gtceHardHammers>],
@@ -200,15 +204,18 @@ recipes.addShaped(<thaumcraft:void_hoe>, [
     [<ore:gtceFiles>, <ore:stickWood>, null],
     [null, <ore:stickWood>, null]
     ]);
+
 recipes.addShaped(<thaumcraft:jar_brace> * 4,[
     [<ore:screwBrass>, <ore:boltWood>, <ore:screwBrass>],
     [<ore:boltWood>, <ore:gtceScrewdrivers>, <ore:boltWood>],
     [<ore:screwBrass>, <ore:boltWood>, <ore:screwBrass>]
     ]);
+
 recipes.addShaped(<thaumcraft:phial> * 4,[
     [<minecraft:glass_bottle>, <ore:boltRubber>],
     [<thaumcraft:salis_mundus>, <ore:gtceSoftHammers>]
     ]);
+
 recipes.addShaped(<thaumcraft:stone_arcane> * 9,[
     [<ore:stone>, <ore:stone>, <ore:stone>],
     [<ore:stone>, <thaumadditions:crystal_block:*>, <ore:stone>],
@@ -568,5 +575,4 @@ Infusion.registerRecipe("JarBrain", "JARBRAIN", <thaumcraft:jar_brain>, 4,
 Infusion.registerRecipe("VoidSiphon", "VOIDSIPHON", <thaumcraft:void_siphon>, 6,
     [<aspect:vacuos> * 100, <aspect:alienis> * 50, <aspect:perditio> * 50, <aspect:fabrico> * 50], <gregtech:machine:306>,
     [<ore:blockVoid>, <gregtech:meta_item_1:233>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <ore:plateBrass>, <ore:plateBrass>, <ore:netherStar>, <gregtech:meta_item_1:233>]);
-
 

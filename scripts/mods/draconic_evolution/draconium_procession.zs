@@ -15,9 +15,16 @@ import crafttweaker.item.IItemStack;
 starry_universe_cultivation_cabin.recipeBuilder()
     .inputs(<draconicevolution:dragon_heart>)
     .fluidInputs([<liquid:sterilized_growth_medium> * 8000])
-    .outputs(
-        <contenttweaker:dragon_cell> * 512
-    )
+    .outputs([
+        <contenttweaker:dragon_cell> * 64,
+        <contenttweaker:dragon_cell> * 64,
+        <contenttweaker:dragon_cell> * 64,
+        <contenttweaker:dragon_cell> * 64,
+        <contenttweaker:dragon_cell> * 64,
+        <contenttweaker:dragon_cell> * 64,
+        <contenttweaker:dragon_cell> * 64,
+        <contenttweaker:dragon_cell> * 64
+    ])
     .fluidOutputs([<liquid:dragon_blood> * 128000])
     .circuit(4)
     .EUt(7680)
@@ -202,7 +209,6 @@ vacuum_freezer.recipeBuilder()
     .EUt(122880)
     .duration(430)
     .buildAndRegister();
-
 
 //亚稳态觉醒龙素混合物粉处理
 mixer.recipeBuilder()

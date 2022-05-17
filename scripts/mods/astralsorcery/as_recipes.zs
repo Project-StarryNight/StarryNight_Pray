@@ -27,9 +27,9 @@ electric_blast_furnace.recipeBuilder()
 	.EUt(240)
 	.property("temperature", 1700)
 	.buildAndRegister();
-	
+
 //熏黑大理石
-chemical_bath.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([
         <astralsorcery:blockmarble> * 8, <gregtech:meta_dust:18> * 1
     ])
@@ -37,7 +37,7 @@ chemical_bath.recipeBuilder()
     .duration(200)
     .EUt(30)
     .buildAndRegister();
-	
+
 //星力组装台
 assembler.recipeBuilder()
     .inputs([

@@ -113,8 +113,8 @@ recipes.addShapedMirrored(<enderio:item_material:0>,[
 //脉冲水晶
 fluid_solidifier.recipeBuilder()
     .inputs(<ore:gemFlawlessEmerald>)
-    .outputs(<enderio:item_material:15>)
     .fluidInputs(<liquid:pulsating_iron> * 144)
+    .outputs(<enderio:item_material:15>)
     .duration(430)
     .EUt(480)
     .buildAndRegister();
@@ -129,8 +129,8 @@ macerator.recipeBuilder()
 //充能水晶
 fluid_solidifier.recipeBuilder()
     .inputs(<ore:gemFlawlessDiamond>)
-    .outputs(<enderio:item_material:14>)
     .fluidInputs(<liquid:vibrant_alloy> * 144)
+    .outputs(<enderio:item_material:14>)
     .duration(550)
     .EUt(120)
     .buildAndRegister();
@@ -184,8 +184,8 @@ mixer.recipeBuilder()
 //充能合金
 mixer.recipeBuilder()
     .inputs([<ore:dustRedAlloy> * 2,<ore:dustGold> * 2])
-    .outputs(<ore:dustEnergeticAlloy>.firstItem * 4)
     .fluidInputs([<liquid:glowstone> * 576])
+    .outputs(<ore:dustEnergeticAlloy>.firstItem * 4)
     .duration(320)
     .EUt(120)
     .buildAndRegister();
@@ -201,9 +201,9 @@ mixer.recipeBuilder()
 
 mixer.recipeBuilder()
     .inputs([<ore:dustEnergeticAlloy> * 2,<ore:dustPulsatingIron> * 2,<ore:dustEnderPearl> * 2])
+    .fluidInputs([<liquid:titanium_tetrachloride> * 1000])
     .outputs(<ore:dustVibrantAlloy>.firstItem * 8)
     .circuit(2)
-    .fluidInputs([<liquid:titanium_tetrachloride> * 1000])
     .duration(120)
     .EUt(480)
     .buildAndRegister();
@@ -244,9 +244,9 @@ mixer.recipeBuilder()
 
 mixer.recipeBuilder()
     .inputs([<ore:dustEndSteel> * 4,<ore:itemVibrantPowder>])
+    .fluidInputs([<liquid:tritium> * 1000])
     .outputs(<gregtech:meta_dust:32012> * 4)
     .circuit(2)
-    .fluidInputs([<liquid:tritium> * 1000])
     .duration(45)
     .EUt(7680)
     .buildAndRegister();
@@ -254,8 +254,8 @@ mixer.recipeBuilder()
 //旋律合金
 mixer.recipeBuilder()
     .inputs([<ore:dustEndSteel> * 4,<ore:itemPulsatingPowder> * 2,<ore:dustIndium>])
-    .outputs(<gregtech:meta_dust:32013> * 4)
     .fluidInputs([<liquid:radon> * 400])
+    .outputs(<gregtech:meta_dust:32013> * 4)
     .duration(100)
     .EUt(30720)
     .buildAndRegister();
@@ -277,7 +277,7 @@ mixer.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-//魂金
+//液态灵魂
 extractor.recipeBuilder()
     .inputs(<ore:soulSand>)
     .fluidOutputs([<liquid:liquid_spirit> * 250])
@@ -286,6 +286,7 @@ extractor.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
+//魂金
 fluid_solidifier.recipeBuilder()
     .inputs(<ore:ingotRedSteel>)
     .fluidInputs([<liquid:liquid_spirit> * 250])
@@ -324,17 +325,17 @@ for i in 0 to 8 {
     var cable2x = oreDict["wireGtDouble"~name].firstItem;
     var conduit = conduits[i];
     recipes.addShaped(conduit,[
-        [<enderio:item_material:4>,<enderio:item_material:4>,<enderio:item_material:4>],
-        [cable1x,cable2x,cable1x],
-        [<enderio:item_material:4>,<enderio:item_material:4>,<enderio:item_material:4>]]);
+        [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+        [cable1x, cable2x, cable1x],
+        [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 
 }
 
 //工业涂料
 mixer.recipeBuilder()
-    .inputs([<ore:itemPulsatingPowder>*2,<gregtech:meta_item_1:430>*4,<gregtech:meta_item_1:429>*4])
+    .inputs([<ore:itemPulsatingPowder> * 2,<gregtech:meta_item_1:430> * 4,<gregtech:meta_item_1:429> * 4])
     .fluidInputs([<liquid:polytetrafluoroethylene> * 576])
-    .outputs(<enderio:item_material:51>*4)
+    .outputs(<enderio:item_material:51> * 4)
     .duration(750)
     .EUt(480)
     .buildAndRegister();
@@ -350,9 +351,9 @@ chemical_bath.recipeBuilder()
 
 //强化涂料
 mixer.recipeBuilder()
-    .inputs([<ore:itemVibrantPowder>*2,<gregtech:meta_item_1:430>*4,<gregtech:meta_item_1:428>*4])
+    .inputs([<ore:itemVibrantPowder> * 2,<gregtech:meta_item_1:430> * 4,<gregtech:meta_item_1:428> * 4])
     .fluidInputs([<liquid:reinforced_epoxy_resin> * 576])
-    .outputs(<enderio:item_material:67>*2)
+    .outputs(<enderio:item_material:67> * 2)
     .duration(1130)
     .EUt(1920)
     .buildAndRegister();

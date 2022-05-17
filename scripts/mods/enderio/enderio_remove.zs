@@ -7,8 +7,7 @@
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
-
-#仅隐藏jei
+# 仅隐藏 JEI
 var jeiItems as IItemStack[] = [
     <enderio:item_alloy_ingot:*>,#末影接口合金
     <enderio:item_alloy_endergy_ingot:*>,
@@ -46,7 +45,7 @@ for i, item in jeiItems {
     JEI.removeAndHide(item,true);
 }
 
-//隐藏jei并删除配方
+//隐藏 JEI 并删除配方
 
 var items as IItemStack[] = [
     <enderio:block_simple_alloy_smelter>,#合金炉

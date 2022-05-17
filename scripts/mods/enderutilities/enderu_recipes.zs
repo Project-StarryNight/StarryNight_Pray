@@ -14,7 +14,7 @@ import crafttweaker.oredict.IOreDictEntry;
 recipes.removeByMod("enderutilities");
 
 //添加合金粉配方
-# 基础末影合金
+# 基础末影合金粉
 mixer.recipeBuilder()
     .inputs([
         <ore:dustSteel>,
@@ -24,7 +24,7 @@ mixer.recipeBuilder()
     .duration(100)
     .EUt(16)
     .buildAndRegister();
-# 增强末影合金
+# 增强末影合金粉
 mixer.recipeBuilder()
     .inputs([
         <ore:dustAluminium> * 2,
@@ -36,7 +36,7 @@ mixer.recipeBuilder()
     .duration(100)
     .EUt(16)
     .buildAndRegister();
-# 高级末影合金
+# 高级末影合金粉
 mixer.recipeBuilder()
     .inputs([
         <ore:itemPulsatingPowder>,
@@ -134,7 +134,7 @@ recipes.addShaped(<enderutilities:enderpart:40>, [
 
 //狱卒模块
 recipes.addShaped(<enderutilities:enderpart:45>, [
-    [<enderio:block_dark_iron_bars>,enderPlates[0], <enderio:block_dark_iron_bars>],
+    [<enderio:block_dark_iron_bars>, enderPlates[0], <enderio:block_dark_iron_bars>],
     [<enderutilities:enderpart:21>, <thermalfoundation:security>, <enderutilities:enderpart:21>],
     [<enderio:block_dark_iron_bars>, enderPlates[0], <enderio:block_dark_iron_bars>]
 ]);

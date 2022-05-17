@@ -18,7 +18,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 global starry_universe_cultivation_cabin as RecipeMap = FactoryRecipeMap.start("succontroller")
     .maxInputs(2)
-    .maxOutputs(4)
+    .maxOutputs(8)
     .maxFluidInputs(2)
     .maxFluidOutputs(2)
     .build();

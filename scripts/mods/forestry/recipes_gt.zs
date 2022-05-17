@@ -9,7 +9,7 @@ import crafttweaker.item.IItemStack;
 import mods.forestry.Carpenter;
 
 //电子板
-#移除
+# 移除
 var items as IItemStack[] = [
     <forestry:chipsets>.withTag({T: 0 as short}),
     <forestry:chipsets:1>.withTag({T: 1 as short}),
@@ -21,8 +21,8 @@ for i, item in items {
     var item = items[i];
     Carpenter.removeRecipe(item);
 }
-#添加
-#小型
+# 添加
+# 小型
 laser_engraver.recipeBuilder()
     .inputs([
         <ore:plateTin> * 2
@@ -32,7 +32,7 @@ laser_engraver.recipeBuilder()
     .EUt(32)
     .duration(80)
     .buildAndRegister();
-#中型
+# 中型
 laser_engraver.recipeBuilder()
     .inputs([
         <ore:plateBronze> * 4
@@ -42,7 +42,7 @@ laser_engraver.recipeBuilder()
     .EUt(64)
     .duration(160)
     .buildAndRegister();
-#大型
+# 大型
 laser_engraver.recipeBuilder()
     .inputs([
         <ore:plateNickel> * 4
@@ -52,7 +52,7 @@ laser_engraver.recipeBuilder()
     .EUt(128)
     .duration(160)
     .buildAndRegister();
-#先进
+# 先进
 laser_engraver.recipeBuilder()
     .inputs([
         <ore:plateElectrum> * 2
@@ -64,7 +64,7 @@ laser_engraver.recipeBuilder()
     .buildAndRegister();
 
 //便携式多用分析仪
-#添加
+# 添加
 assembler.recipeBuilder()
     .inputs([
         <gregtech:meta_item_1:218>,
