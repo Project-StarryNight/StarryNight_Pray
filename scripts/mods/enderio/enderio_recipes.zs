@@ -155,128 +155,134 @@ macerator.recipeBuilder()
     .inputs(<ore:itemPrecientCrystal>)
     .outputs(<enderio:item_material:34>)
     .duration(20)
-    .EUt(256)
+    .EUt(480)
     .buildAndRegister();
 
 //脉冲铁锭
 alloy_smelter.recipeBuilder()
-    .inputs([<ore:ingotIron>,<ore:dustEnderPearl>])
+    .inputs(<ore:ingotIron>|<ore:dustIron>,<ore:dustEnderPearl>)
     .outputs(<gregtech:meta_ingot:32004>)
-    .EUt(16)
     .duration(30)
-    .buildAndRegister();
-
-mixer.recipeBuilder()
-    .inputs([<ore:dustIron>,<ore:dustEnderPearl>])
-    .outputs(<gregtech:meta_dust:32004>)
     .EUt(16)
-    .duration(17)
     .buildAndRegister();
 
-//导电铁锭
 mixer.recipeBuilder()
-    .inputs([<ore:dustIron>,<ore:dustSilicon>,<ore:dustRedstone>])
-    .outputs(<gregtech:meta_dust:32008> * 2)
-    .duration(200)
-    .EUt(30)
+    .inputs(<ore:dustIron>,<ore:dustEnderPearl>)
+    .outputs(<gregtech:meta_dust:32004>)
+    .duration(10)
+    .EUt(16)
+    .buildAndRegister();
+
+//导电铁
+alloy_smelter.recipeBuilder()
+    .inputs(<ore:ingotIron>,<ore:crystalRedstone>)
+    .outputs(<gregtech:meta_ingot:32008>)
+    .duration(80)
+    .EUt(16)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<ore:dustIron>,<ore:crystalRedstone>)
+    .outputs(<gregtech:meta_dust:32008>)
+    .duration(30)
+    .EUt(16)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs(<ore:crystalRestonia>,<ore:gemQuartz>)
+    .outputs(<thermalfoundation:material:893>)
+    .duration(10)
+    .EUt(16)
+    .buildAndRegister();
+
+//磁钢
+alloy_smelter.recipeBuilder()
+    .inputs(<ore:ingotVanadiumSteel>|<ore:dustVanadiumSteel>,<ore:dustSilicon>*2|<ore:ingotSilicon>*2)
+    .outputs(<gregtech:meta_ingot:32011>)
+    .duration(110)
+    .EUt(120)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<ore:dustVanadiumSteel>,<ore:dustSilicon>*2)
+    .outputs(<gregtech:meta_dust:32011>)
+    .duration(45)
+    .EUt(120)
     .buildAndRegister();
 
 //充能合金
 mixer.recipeBuilder()
-    .inputs([<ore:dustRedAlloy> * 2,<ore:dustGold> * 2])
-    .fluidInputs([<liquid:glowstone> * 576])
-    .outputs(<ore:dustEnergeticAlloy>.firstItem * 4)
-    .duration(320)
+    .inputs(<gregtech:meta_dust:301>*5,<ore:dustRedAlloy>)
+    .fluidInputs(<liquid:glowstone>*576)
+    .outputs(<gregtech:meta_dust:32006>*4)
+    .duration(200)
     .EUt(120)
     .buildAndRegister();
 
 //脉冲合金
 mixer.recipeBuilder()
-    .inputs([<ore:dustEnergeticAlloy>,<ore:dustPulsatingIron>,<ore:dustEnderPearl> * 2])
-    .outputs(<ore:dustVibrantAlloy>.firstItem * 4)
-    .circuit(1)
-    .duration(70)
-    .EUt(480)
-    .buildAndRegister();
-
-mixer.recipeBuilder()
-    .inputs([<ore:dustEnergeticAlloy> * 2,<ore:dustPulsatingIron> * 2,<ore:dustEnderPearl> * 2])
-    .fluidInputs([<liquid:titanium_tetrachloride> * 1000])
-    .outputs(<ore:dustVibrantAlloy>.firstItem * 8)
-    .circuit(2)
-    .duration(120)
-    .EUt(480)
+    .inputs(<gregtech:meta_dust:32006>*2,<ore:dustEnderPearl>)
+    .outputs(<gregtech:meta_dust:32005>*2)
+    .duration(270)
+    .EUt(120)
     .buildAndRegister();
 
 //玄钢
 alloy_smelter.recipeBuilder()
-    .inputs([<ore:ingotSteel>,<ore:obsidian>])
+    .inputs(<ore:ingotSteel>|<ore:dustSteel>,<ore:obsidian>|<ore:dustObsidian>)
     .outputs(<gregtech:meta_ingot:32009>)
-    .duration(210)
+    .duration(200)
     .EUt(120)
     .buildAndRegister();
 
 mixer.recipeBuilder()
-    .inputs([<ore:dustSteel>,<ore:dustObsidian>])
+    .inputs(<ore:dustSteel>,<ore:dustObsidian>)
     .outputs(<gregtech:meta_dust:32009>)
-    .duration(180)
+    .duration(50)
     .EUt(120)
     .buildAndRegister();
 
-//末影钢
+//末地钢
+alloy_smelter.recipeBuilder()
+    .inputs(<ore:ingotDarkSteel>|<ore:dustDarkSteel>,<ore:endstone>|<ore:dustEndstone>)
+    .outputs(<gregtech:meta_ingot:32010>)
+    .duration(320)
+    .EUt(480)
+    .buildAndRegister();
+
 mixer.recipeBuilder()
-    .inputs([<ore:dustDarkSteel> * 2,<ore:dustEndstone> * 2])
-    .fluidInputs([<liquid:helium> * 240])
-    .outputs(<gregtech:meta_dust:32010> * 2)
-    .duration(60)
-    .EUt(1920)
+    .inputs(<ore:dustDarkSteel>,<ore:dustEndstone>)
+    .outputs(<gregtech:meta_dust:32006>)
+    .duration(170)
+    .EUt(120)
     .buildAndRegister();
 
 //晶化合金
 mixer.recipeBuilder()
-    .inputs([<ore:dustEndSteel> * 2,<ore:itemVibrantPowder>])
-    .outputs(<gregtech:meta_dust:32012> * 2)
-    .circuit(1)
-    .fluidInputs([<liquid:deuterium> * 1000])
-    .duration(30)
-    .EUt(7680)
-    .buildAndRegister();
-
-mixer.recipeBuilder()
-    .inputs([<ore:dustEndSteel> * 4,<ore:itemVibrantPowder>])
-    .fluidInputs([<liquid:tritium> * 1000])
-    .outputs(<gregtech:meta_dust:32012> * 4)
-    .circuit(2)
-    .duration(45)
-    .EUt(7680)
+    .inputs(<ore:dustCrystaltine>,<ore:dustEndSteel>*4,<ore:itemVibrantPowder>)
+    .outputs(<gregtech:meta_dust:32012>*4)
+    .duration(900)
+    .EUt(480)
     .buildAndRegister();
 
 //旋律合金
 mixer.recipeBuilder()
-    .inputs([<ore:dustEndSteel> * 4,<ore:itemPulsatingPowder> * 2,<ore:dustIndium>])
-    .fluidInputs([<liquid:radon> * 400])
-    .outputs(<gregtech:meta_dust:32013> * 4)
-    .duration(100)
+    .inputs(<ore:dustCrystaltine>*12,<ore:dustNaquadahEnriched>*2,<ore:dustRhodium>*3,<ore:dustLanthanum>*6,<ore:dustIndium>)
+    .outputs(<gregtech:meta_dust:32013>*8)
+    .duration(1400)
     .EUt(30720)
     .buildAndRegister();
 
 //恒星合金
 mixer.recipeBuilder()
-    .inputs([<ore:dustNaquadah>,<ore:dustNetherStar>,<ore:dustMelodicAlloy>,<ore:dustCrystallineAlloy>])
-    .fluidInputs([<liquid:palladium> * 144])
-    .outputs(<gregtech:meta_dust:32014> * 4)
-    .duration(100)
+    .inputs(<contenttweaker:stellar_debris>,<ore:dustMelodicAlloy>*16,<ore:dustNaquadahAlloy>*6,<ore:dustEnderium>*3,<ore:dustEuropium>*2)
+    .outputs(<gregtech:meta_dust:32014>*12)
+    .duration(1950)
     .EUt(122880)
     .buildAndRegister();
 
-//磁钢
-mixer.recipeBuilder()
-    .inputs([<ore:dustVanadiumSteel>,<ore:dustSilicon>,<ore:dustRedstone>*2,<ore:dustBlueSteel>])
-    .outputs(<gregtech:meta_dust:32011>*4)
-    .duration(170)
-    .EUt(480)
-    .buildAndRegister();
-
+<contenttweaker:artificial_sun>.addTooltip("§c「难以驾驭的神之火」");
+<contenttweaker:artificial_sun>.addTooltip("§c「熱かい悩む神の火」");
 //液态灵魂
 extractor.recipeBuilder()
     .inputs(<ore:soulSand>)
@@ -289,7 +295,7 @@ extractor.recipeBuilder()
 //魂金
 fluid_solidifier.recipeBuilder()
     .inputs(<ore:ingotRedSteel>)
-    .fluidInputs([<liquid:liquid_spirit> * 250])
+    .fluidInputs([<liquid:liquid_spirit> * 1000])
     .outputs(<gregtech:meta_ingot:32007>)
     .duration(330)
     .EUt(480)
@@ -303,6 +309,7 @@ var cableMaterials as string[]= [
     "VibrantAlloy",
     "EndSteel",
     "CrystallineAlloy",
+    "SignalumFluorescent",
     "MelodicAlloy",
     "StellarAlloy"
 ];
@@ -314,6 +321,7 @@ var conduits as IItemStack[]= [
     <enderio:item_power_conduit:2>,
     <enderio:item_endergy_conduit:6>,
     <enderio:item_endergy_conduit:8>,
+    <enderio:item_endergy_conduit:4>,
     <enderio:item_endergy_conduit:10>,
     <enderio:item_endergy_conduit:11>
 ];
@@ -324,7 +332,7 @@ for i in 0 to 8 {
     var cable1x = oreDict["wireGtSingle"~name].firstItem;
     var cable2x = oreDict["wireGtDouble"~name].firstItem;
     var conduit = conduits[i];
-    recipes.addShaped(conduit,[
+    recipes.addShaped(conduit*4,[
         [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
         [cable1x, cable2x, cable1x],
         [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
@@ -416,15 +424,3 @@ recipes.addShaped(<enderio:block_soul_binder>,[
     [<enderio:item_material:56>,<enderio:item_soul_vial>,<enderio:block_enderman_skull:2>],
     [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
-
-//酿液桶
-recipes.addShaped(<enderio:block_vat>,[
-    [<enderio:item_material:73>,<gregtech:machine:337>,<enderio:item_material:73>],
-    [<gregtech:boiler_casing:4>,<enderio:item_material:1>,<gregtech:boiler_casing:4>],
-    [<ore:plateDarkSteel>,<ore:blockElectricalSteel>,<ore:plateDarkSteel>]]);
-
-//强化酿液桶
-recipes.addShaped(<enderio:block_enhanced_vat>,[
-    [<enderio:item_material:13>,<gregtech:machine:338>,<enderio:item_material:13>],
-    [<gregtech:boiler_casing:4>,<enderio:item_material:54>,<gregtech:boiler_casing:4>],
-    [<ore:plateVibrantAlloy>,<ore:blockEndSteel>,<ore:plateVibrantAlloy>]]);

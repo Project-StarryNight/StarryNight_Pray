@@ -35,7 +35,6 @@ var jeiItems as IItemStack[] = [
     <enderio:item_endergy_conduit:1>,
     <enderio:item_endergy_conduit:2>,
     <enderio:item_endergy_conduit:3>,
-    <enderio:item_endergy_conduit:4>,
     <enderio:item_endergy_conduit:5>,
     <enderio:item_endergy_conduit:7>
 
