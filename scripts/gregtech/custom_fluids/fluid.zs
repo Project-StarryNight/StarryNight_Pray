@@ -72,24 +72,6 @@ MaterialBuilder(32704, "liquid_spirit")
     .build();
 
 //龙素处理
-MaterialBuilder(32705, "draconium_oxide_compound_slurry")
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(300)
-    .color(0x42205a)
-    .build();
-
-MaterialBuilder(32706, "fluoantimonate_draconium_solution")
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(300)
-    .color(0x5D5980)
-    .build();
-
-MaterialBuilder(32707, "precipitated_draconium_residue_solution")
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(300)
-    .color(0x483A3B)
-    .build();
-
 MaterialBuilder(32708, "dragon_breath_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
@@ -108,54 +90,54 @@ MaterialBuilder(32710, "activated_dragon_tissue_mixture")
     .color(0x905F83)
     .build();
 
-MaterialBuilder(32711, "critical_dragon_tissue_mixture")
+MaterialBuilder(32711, "mutated_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(3200)
     .color(0x4e3278)
     .build();
 
-MaterialBuilder(32712, "excited_dragon_tissue_mixture")
+MaterialBuilder(32712, "excited_mutated_dragon_tissue_mixture")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(7800)
     .color(0x4D579A)
     .build();
 
-MaterialBuilder(32713, "inactivated_dragon_tissue_mixture")
+MaterialBuilder(32713,"space_coolant")
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1600)
-    .color(0x363B5C)
+    .fluidTemp(5)
+    .color(0x034970)
     .build();
 
-//觉醒龙素
-MaterialBuilder(32714, "hyper_draconium_awakened_mixture_solution")
+MaterialBuilder(32714,"mana_coolant")
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(300)
-    .color(0xCC6633)
+    .fluidTemp(100)
+    .color(0x37388E)
     .build();
 
-MaterialBuilder(32715, "precipitated_draconium_awakened_residue_solution")
+MaterialBuilder(32715,"acidic_draconium_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
-    .color(0x666633)
+    .color(0x361E46)
     .build();
 
-MaterialBuilder(32716, "hyper_slurry")
+MaterialBuilder(32716,"nquadriaic_acid")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
-    .color(0x6B4924)
+    .components([<material:hydrogen>*3,<material:naquadria>*1,<material:oxygen>*4])
+    .flags(["disable_decomposition"])
+    .color(0x636C3E)
     .build();
 
-MaterialBuilder(32717, "cosmic_matter_solution")
+MaterialBuilder(32717,"depleted_draconium_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
-    .color(0x262538)
+    .color(0x1F203C)
     .build();
 
-//含杂氟锑酸
-MaterialBuilder(32718, "impure_fluoroantimonic_acid")
+MaterialBuilder(32718,"enriched_draconium_solution")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(300)
-    .color(0x717A75)
+    .color(0x333366)
     .build();
 
 //液态魔力聚合体
@@ -184,4 +166,11 @@ MaterialBuilder(32722, "celestial_energy")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(273)
     .color(0x0A0F49)
+    .build();
+
+//过氧化氢
+MaterialBuilder(32723, "hydrogen_peroxide")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xACD0D0)
     .build();

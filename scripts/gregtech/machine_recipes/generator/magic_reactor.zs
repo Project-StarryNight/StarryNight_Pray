@@ -3,17 +3,17 @@ import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.RecipeMap;
 
 var inputs as IIngredient[] = [
-<gregtech:meta_crushed:32101>,
-<gregtech:meta_dust:32101>,
-<gregtech:meta_plate:32101>,
+<gregtech:meta_crushed:32015>,
+<gregtech:meta_dust:32015>,
+<gregtech:meta_plate:32015>,
 <thaumcraft:tallow>,
-<gregtech:meta_gem:32101>,
+<gregtech:meta_gem:32015>,
 <thaumcraft:amber>,
 <minecraft:experience_bottle>,
 <gregtech:meta_dust:2508>,
-<gregtech:meta_gem_flawless:32101>,
+<gregtech:meta_gem_flawless:32015>,
 <minecraft:ender_eye>,
-<gregtech:meta_gem_exquisite:32101>,
+<gregtech:meta_gem_exquisite:32015>,
 <gregtech:meta_item_1:78>.withTag({Fluid: {FluidName: "fluid_quicksilver", Amount: 1000}}),
 <minecraft:ghast_tear>,
 <thaumcraft:quicksilver>,
