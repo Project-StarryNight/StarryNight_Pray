@@ -10,3 +10,5 @@ game.setLocalization("en_us","enderio.item_endergy_conduit_pink_slime.name","Pul
 game.setLocalization("zh_cn","enderio.item_endergy_conduit_pink_slime.name","脉冲铁能量导管");
 game.setLocalization("en_us","enderio.item_endergy_conduit_electrum.name","Ender Steel Energy Conduit");
 game.setLocalization("zh_cn","enderio.item_endergy_conduit_electrum.name","末影钢能量导管");
+game.setLocalization("en_us","enderio.item_endergy_conduit_copper.name","Signalum Fluorescent Energy Conduit");
+game.setLocalization("zh_cn","enderio.item_endergy_conduit_copper.name","荧光信素能量导管");

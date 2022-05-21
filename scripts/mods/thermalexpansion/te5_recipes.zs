@@ -48,13 +48,30 @@ for i, item in items {
 //信素粉
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustCopper> * 3,
-        <ore:dustSilver>
+        <ore:dustTitaniumCarbide>* 4,
+        <ore:dustSterlingSilver> * 4,
+        <ore:dustGalliumArsenide> * 2,
+        <deepmoblearning:pristine_matter_blaze> * 1
     ])
-    .fluidInputs(<liquid:redstone> * 1000)
-    .outputs(<gregtech:meta_dust:32099> * 4)
-    .EUt(256)
-    .duration(80)
+    .fluidInputs([<liquid:redstone> * 1000,<liquid:liquid_magic_polymer> * 1000])
+    .outputs(<gregtech:meta_dust:32101> * 10)
+    .EUt(1536)
+    .duration(200)
+    .buildAndRegister();
+
+//流明粉
+
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustFerriteMixture>* 5,
+        <ore:dustElectrum>* 3,
+        <ore:dustRedSteel> * 2,
+        <deepmoblearning:pristine_matter_witch> * 1
+    ])
+    .fluidInputs([<liquid:redstone> * 1000,<liquid:liquid_magic_polymer> * 1000])
+    .outputs(<gregtech:meta_dust:32101> * 10)
+    .EUt(1536)
+    .duration(200)
     .buildAndRegister();
 
 //末影粉
@@ -68,8 +85,8 @@ mixer.recipeBuilder()
     ])
     .fluidInputs(<liquid:liquid_magic_polymer> * 1000)
     .outputs(<gregtech:meta_dust:32100> * 10)
-    .EUt(1536)
-    .duration(80)
+    .EUt(24576)
+    .duration(200)
     .buildAndRegister();
 
 //信素_谐振转换套件
