@@ -16,3 +16,11 @@ alloy_smelter.recipeBuilder()
     .duration(400)
     .EUt(16)
     .buildAndRegister();
+
+//硼铁合金
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustBoron>,<ore:dustIron>|<ore:ingotIron>])
+    .outputs(<gregtech:meta_ingot:32028>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();

@@ -25,3 +25,13 @@ centrifuge.recipeBuilder()
     .duration(200)
     .EUt(10)
     .buildAndRegister();
+
+//未知金属残渣粉
+centrifuge.recipeBuilder()
+    .inputs([<ore:dustCompactStone>*2])
+    .outputs([<gregtech:meta_dust:417>*32,<gregtech:meta_dust:304>*14,<gregtech:meta_dust:376>*14,<gregtech:meta_dust:316>*8,<gregtech:meta_dust:2022>*4,<gregtech:meta_dust:32037>*1])
+    .fluidInputs([<liquid:hydrofluoric_acid>*19200])
+    .fluidOutputs([<liquid:depleted_uranium_hexafluoride>*3200])
+    .EUt(1920)
+    .duration(200)
+    .buildAndRegister();
