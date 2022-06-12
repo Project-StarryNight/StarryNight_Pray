@@ -109,7 +109,7 @@ chemical_reactor.recipeBuilder()
 //超能硅岩酸
 chemical_reactor.recipeBuilder()
     .inputs(<ore:dustNaquadriaHydroxide>*3,<ore:dustTinyPotassiumDichromate>)
-    .fluidInputs([<liquid:hydrogen_peroxide>*1000])
+    .fluidInputs([<liquid:hydrogen_peroxide>*1000,<liquid:petrotheum>*4000])
     .fluidOutputs([<liquid:water>*1000,<liquid:nquadriaic_acid>*1000])
     .EUt(30720)
     .duration(90)
