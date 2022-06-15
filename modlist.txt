@@ -3,6 +3,7 @@
     - [HEI][HadEnoughItems_1.12.2-4.18.2][默认禁用]
 核心Mod:
     - [Mixin兼容][[___MixinCompat-0.8___]]
+    - [星夜核心][StP-Core-1.0-SNAPSHOT]
     - [CrT][CraftTweaker2-1.12-4.1.20.674]
         (附属)
         - [CoT][ContentTweaker-1.12.2-4.10.0]
@@ -10,11 +11,11 @@
         - [CrT VSC工具][probe-0.1.24]
         - [MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.0]
 
-    - [格雷科技社区版非官方][gregtech-1.12.2-2.2.3-beta]
+    - [格雷科技社区版非官方][gregtech-1.12.2-2.3.1-beta]
         (附属)
         - [GT TOP扩展][GregicProbe-1.1]
-        - [MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.0]
-        - [GCYM][GregicalityMultiblocks-1.12.2-1.1.2]
+        - [MultiblockTweaker][multiblocktweaker-1.12.2-stable-gtceu-1.7.1]
+        - [GCYM][GregicalityMultiblocks-1.12.2-1.1.2][实际版本 1.1.3]
 
     - [应用能源 2 非官方延长寿命版][appliedenergistics2-rv6-stable-7-extended_life-v0.52.3]
         (附属)
