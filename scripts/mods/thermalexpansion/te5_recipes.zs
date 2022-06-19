@@ -35,7 +35,15 @@ var items as IItemStack[] = [
     <thermalfoundation:material:229>,
     <thermalfoundation:material:293>,
     <thermalfoundation:material:165>,
-    <thermalfoundation:material:101>
+    <thermalfoundation:material:101>,
+    <thermalfoundation:material:26>,
+    <thermalfoundation:material:27>,
+    <thermalfoundation:material:260>,
+    <thermalfoundation:material:262>,
+    <thermalfoundation:material:264>,
+    <thermalfoundation:material:294>,
+    <thermalfoundation:upgrade:2>,
+    <thermalfoundation:upgrade:3>
 ];
 
 #循环移除
@@ -45,12 +53,36 @@ for i, item in items {
     JEI.removeAndHide(item,true);
 }
 
+//仅移除配方
+var item_recipe as IItemStack[] = [
+    <thermalfoundation:material:25>,
+    <thermalfoundation:material:256>,
+    <thermalfoundation:material:257>,
+    <thermalfoundation:material:259>,
+    <thermalfoundation:material:261>,
+    <thermalfoundation:material:292>
+
+];
+
+for i, item in item_recipe {
+    var item = items[i];
+    recipes.remove(item);
+}
+//康铜齿轮
+extruder.recipeBuilder()
+    .inputs(<ore:ingotCupronickel>*4)
+    .notConsumable(<gregtech:meta_item_1:52>)
+    .outputs(<thermalfoundation:material:292>)
+    .EUt(56)
+    .duration(280)
+    .buildAndRegister();
 //信素粉
 mixer.recipeBuilder()
     .inputs([
         <ore:dustTitaniumCarbide>* 4,
         <ore:dustSterlingSilver> * 4,
         <ore:dustGalliumArsenide> * 2,
+        <ore:dustCadmium> * 10 ,
         <deepmoblearning:pristine_matter_blaze> * 1
     ])
     .fluidInputs([<liquid:redstone> * 1000,<liquid:liquid_magic_polymer> * 1000])
@@ -60,16 +92,15 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 //流明粉
-
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustFerriteMixture>* 5,
+        <ore:dustRedSteel>* 5,
         <ore:dustElectrum>* 3,
-        <ore:dustRedSteel> * 2,
+        <ore:dustTungsten> * 2,
         <deepmoblearning:pristine_matter_witch> * 1
     ])
-    .fluidInputs([<liquid:redstone> * 1000,<liquid:liquid_magic_polymer> * 1000])
-    .outputs(<gregtech:meta_dust:32101> * 10)
+    .fluidInputs([<liquid:glowstone> * 1000,<liquid:liquid_magic_polymer> * 1000])
+    .outputs(<gregtech:meta_dust:32102> * 10)
     .EUt(1536)
     .duration(200)
     .buildAndRegister();
@@ -78,9 +109,10 @@ mixer.recipeBuilder()
 mixer.recipeBuilder()
     .inputs([
         <ore:dustEnderAlloyAdvanced> * 4,
-        <ore:dustPlatinum> * 2,
+        <ore:dustPlatinum> * 5,
         <ore:itemEnderCrystalPowder> * 2,
         <ore:dustEnderEye> * 2,
+        <ore:dustOsmium>,
         <deepmoblearning:pristine_matter_enderman> * 1
     ])
     .fluidInputs(<liquid:liquid_magic_polymer> * 1000)

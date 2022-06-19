@@ -26,3 +26,25 @@ combustion_generator.recipeBuilder()
     .duration(25)
     .EUt(32)
     .buildAndRegister();
+
+//航空煤油#3
+combustion_generator.recipeBuilder()
+    .fluidInputs(<liquid:jet_fuel_no_3> * 1)
+    .duration(90)
+    .EUt(32)
+    .buildAndRegister();
+
+//航空煤油A
+combustion_generator.recipeBuilder()
+    .fluidInputs(<liquid:jet_fuel_a> * 1)
+    .duration(150)
+    .EUt(32)
+    .buildAndRegister();
+
+//EIO火箭燃料
+combustion_generator.findRecipe(-32, null, [<liquid:rocket_fuel> * 16]).remove();
+combustion_generator.recipeBuilder()
+    .fluidInputs(<liquid:rocket_fuel> * 1)
+    .duration(20)
+    .EUt(32)
+    .buildAndRegister();

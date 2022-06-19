@@ -98,3 +98,16 @@ recipes.addShaped(<gregtech:machine:2019>,[
     [<gregtech:meta_item_1:221>,<gregtech:machine:564>,<gregtech:meta_item_1:221>],
     [<gregtech:machine:564>,<contenttweaker:high_energy_flow_circuit>,<gregtech:machine:564>],
     [<gregtech:meta_item_1:221>,<gregtech:machine:564>,<gregtech:meta_item_1:221>]]);
+
+recipes.addShaped(<contenttweaker:extreme_casing>,[
+    [<ore:plateExtremeAlloy>,<ore:gtceHardHammers>,<ore:plateExtremeAlloy>],
+    [<ore:plateExtremeAlloy>,<ore:frameGtThermoconductingAlloy>,<ore:plateExtremeAlloy>],
+    [<ore:plateExtremeAlloy>,<ore:gtceWrenches>,<ore:plateExtremeAlloy>]]);
+
+assembler.recipeBuilder()
+    .inputs(<ore:plateExtremeAlloy>*6,<ore:frameGtThermoconductingAlloy>)
+    .circuit(6)
+    .outputs(<contenttweaker:extreme_casing>)
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();

@@ -261,14 +261,25 @@ mixer.recipeBuilder()
 mixer.recipeBuilder()
     .inputs(<ore:dustCrystaltine>,<ore:dustEndSteel>*4,<ore:itemVibrantPowder>)
     .outputs(<gregtech:meta_dust:32012>*4)
+    .fluidInputs(<liquid:uranium_235> * 144)
     .duration(900)
+    .EUt(480)
+    .buildAndRegister();
+
+//紫颂果汁
+extractor.recipeBuilder()
+    .inputs(<minecraft:chorus_fruit_popped>* 4)
+    .fluidOutputs(<liquid:chorus_juice> * 1000)
+    .chancedOutput(<gregtech:meta_dust:416>, 2500, 1000)
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
 
 //旋律合金
 mixer.recipeBuilder()
-    .inputs(<ore:dustCrystaltine>*12,<ore:dustNaquadahEnriched>*2,<ore:dustRhodium>*3,<ore:dustLanthanum>*6,<ore:dustIndium>)
-    .outputs(<gregtech:meta_dust:32013>*8)
+    .inputs(<ore:dustCrystaltine>*12,<ore:dustRhodium>*3,<ore:dustNaquadahEnriched>*2,<ore:dustLanthanum>*6,<ore:dustIndium>)
+    .outputs(<gregtech:meta_dust:32013>*12)
+    .fluidInputs(<liquid:chorus_juice> * 4000,<liquid:enchanted_biomass_liquid> * 4000)
     .duration(1400)
     .EUt(30720)
     .buildAndRegister();
@@ -277,6 +288,7 @@ mixer.recipeBuilder()
 mixer.recipeBuilder()
     .inputs(<contenttweaker:stellar_debris>,<ore:dustMelodicAlloy>*16,<ore:dustNaquadahAlloy>*6,<ore:dustEnderium>*3,<ore:dustEuropium>*2)
     .outputs(<gregtech:meta_dust:32014>*12)
+    .fluidInputs(<liquid:neon> * 6000)
     .duration(1950)
     .EUt(122880)
     .buildAndRegister();
@@ -286,7 +298,7 @@ mixer.recipeBuilder()
 //液态灵魂
 extractor.recipeBuilder()
     .inputs(<ore:soulSand>)
-    .fluidOutputs([<liquid:liquid_spirit> * 250])
+    .fluidOutputs(<liquid:liquid_spirit> * 250)
     .chancedOutput(<minecraft:sand>, 9001, 333)
     .duration(50)
     .EUt(120)
@@ -295,7 +307,7 @@ extractor.recipeBuilder()
 //魂金
 fluid_solidifier.recipeBuilder()
     .inputs(<ore:ingotRedSteel>)
-    .fluidInputs([<liquid:liquid_spirit> * 1000])
+    .fluidInputs(<liquid:liquid_spirit> * 1000)
     .outputs(<gregtech:meta_ingot:32007>)
     .duration(330)
     .EUt(480)
@@ -408,13 +420,13 @@ recipes.addShaped(<enderio:block_powered_spawner>,[
     [<ore:circuitZpm>,<ore:itemUnsouledMachineChassi>,<ore:circuitZpm>]]);
 
 //头颅装配机
-recipes.addShaped(<enderio:block_farm_station>,[
+recipes.addShaped(<enderio:block_slice_and_splice>,[
     [<ore:itemSkull>,<ore:toolHeadBuzzSawTungstenCarbide>,<ore:itemSkull>],
     [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
 
 //种植站
-recipes.addShaped(<enderio:block_slice_and_splice>,[
+recipes.addShaped(<enderio:block_farm_station>,[
     [<enderio:item_material:44>,<enderio:item_material:17>,<enderio:item_material:45>],
     [<ore:circuitIv>,<enderio:item_material:53>,<ore:circuitIv>],
     [<ore:plateSoularium>,<ore:blockSoularium>,<ore:plateSoularium>]]);
