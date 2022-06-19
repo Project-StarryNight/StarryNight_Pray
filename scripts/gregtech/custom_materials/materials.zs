@@ -131,7 +131,7 @@ MaterialBuilder(32015, "amber")
 MaterialBuilder(32020, "titanium_aluminide")
     .ingot().fluid()
     .color(0xABBFDA).iconSet("shiny")
-    .flags(["generate_plate","generate_rod","generate_gear"])
+    .flags(["generate_plate","generate_rod","generate_gear","generate_foil"])
     .components([<material:titanium> * 1, <material:aluminium> * 1])
     .blastTemp(2400,"MID",768,800)
     .build();
@@ -140,7 +140,7 @@ MaterialBuilder(32020, "titanium_aluminide")
 MaterialBuilder(32021, "titanium_iridium")
     .ingot().fluid()
     .color(0xD4DBE0).iconSet("shiny")
-    .flags(["generate_plate","generate_rod","generate_gear"])
+    .flags(["generate_plate","generate_rod","generate_gear","generate_foil"])
     .components([<material:titanium> * 1, <material:iridium> * 1])
     .blastTemp(4750,"HIGHER",7680,850)
     .build();
@@ -154,16 +154,12 @@ MaterialBuilder(32022, "draconium")
     .fluidPipeProperties(6000,400,true)
     .build();
 
-Elements.add(500, 500, -1, null, "Draconium", "Dr", false);
-
 MaterialBuilder(32023, "draconium_awakened")
     .ingot().fluid()
     .color(0xFF9C00).iconSet("shiny")
     .flags(["generate_plate","generate_rod","generate_frame","generate_dense","generate_foil","generate_gear"])
     .blastTemp(9000,"HIGHEST",491520,1200)
     .build();
-
-Elements.add(500, 1000, -1, null, "Draconium Awakened", "*Dr*", true);
 
 //水晶矩阵
 MaterialBuilder(32024, "crystal_matrix")
@@ -222,8 +218,6 @@ MaterialBuilder(32035,"adamantine")
     .blastTemp(6100,"HIGH",7680,600)
     .build();
 
-Elements.add(79, 200, -1, null, "Adamantine", "Ad", true);
-
 //山铜处理
 MaterialBuilder(32036,"compact_stone")
     .dust()
@@ -246,8 +240,6 @@ MaterialBuilder(32039,"orichalcum")
     .flags(["generate_plate","generate_rod","generate_frame"])
     .blastTemp(4000,"MID",480,800)
     .build();
-
-Elements.add(29, 200, -1, null, "Orichalcum", "Or", true);
 
 //硼铁合金
 MaterialBuilder(32028,"ferroboron")
@@ -280,7 +272,7 @@ MaterialBuilder(32041,"thermoconducting_alloy")
     .ingot().fluid()
     .color(0x6E293C).iconSet("shiny")
     .blastTemp(5000,"HIGH",1920,500)
-    .flags(["generate_plate","generate_rod","generate_frame"])
+    .flags(["generate_plate","generate_rod","generate_frame","generate_foil"])
     .build();
 
 //基岩合金
@@ -295,6 +287,18 @@ MaterialBuilder(32042,"bedrock_alloy")
 MaterialBuilder(32043,"bedrock_essence")
     .dust()
     .color(0x202E1F)
+    .build();
+
+//二茂铁
+MaterialBuilder(32144, "ferrocene")
+    .dust()
+    .color(0xF18F2B).iconSet("shiny")
+    .build();
+
+//氟石
+MaterialBuilder(32145, "fluorite")
+    .ore().dust()
+    .color(0xD3DD87)
     .build();
 
 //TE5 合金
@@ -385,24 +389,6 @@ MaterialBuilder(32152, "ender_alloy_advanced")
     .color(0xAEECED).iconSet("shiny")
     .blastTemp(4200,"HIGH",4608,900)
     .flags(["generate_plate"])
-    .build();
-
-//氟化钠
-MaterialBuilder(32153, "sodium_fluoride")
-    .dust()
-    .color(0x7171B5)
-    .build();
-
-//硝酸铵
-MaterialBuilder(32154, "ammonium_nitrate")
-    .dust()
-    .color(0x518100)
-    .build();
-
-//二茂铁
-MaterialBuilder(32155, "ferrocene")
-    .dust()
-    .color(0xD78026).iconSet("shiny")
     .build();
 
 //植物魔法材料

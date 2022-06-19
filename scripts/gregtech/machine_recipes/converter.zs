@@ -1,5 +1,5 @@
 /*
- * ZenScript by Hikari_Nova & shang_jun
+ * ZenScript by Hikari_Nova & shang_jun_
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为格雷科技能量转换器内容
 */

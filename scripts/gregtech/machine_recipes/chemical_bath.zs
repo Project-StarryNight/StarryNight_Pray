@@ -50,3 +50,36 @@ chemical_bath.recipeBuilder()
     .duration(40)
     .EUt(7680)
     .buildAndRegister();
+
+//氟石矿石
+chemical_bath.recipeBuilder()
+    .inputs(<ore:sandstone>*64)
+    .fluidInputs(<liquid:nitric_acid>*4000)
+    .outputs(<gregtech:ore_fluorite_0>*4)
+    .chancedOutput(<gregtech:ore_fluorite_0>*2,2500,0)
+    .chancedOutput(<gregtech:ore_fluorite_0>*2,2000,0)
+    .chancedOutput(<gregtech:ore_fluorite_0>*2,1500,0)
+    .duration(100)
+    .EUt(1024)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<ore:sand>*64)
+    .fluidInputs(<liquid:nitric_acid>*5000)
+    .outputs(<gregtech:ore_fluorite_0>*2)
+    .chancedOutput(<gregtech:ore_fluorite_0>*1,1500,0)
+    .chancedOutput(<gregtech:ore_fluorite_0>*1,1000,0)
+    .chancedOutput(<gregtech:ore_fluorite_0>*1,500,0)
+    .duration(100)
+    .EUt(1024)
+    .buildAndRegister();
+
+//氟石处理
+chemical_bath.recipeBuilder()
+    .inputs(<ore:dustFluorite>*37)
+    .fluidInputs(<liquid:sulfuric_acid>*8000)
+    .outputs(<gregtech:meta_dust:2032>*15,<gregtech:meta_dust:100>,<gregtech:meta_dust:41>*2,<gregtech:meta_dust:112>,<gregtech:meta_dust:25>*2)
+    .fluidOutputs(<liquid:hydrofluoric_acid>*16000)
+    .duration(600)
+    .EUt(1920)
+    .buildAndRegister();
