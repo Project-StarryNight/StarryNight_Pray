@@ -29,6 +29,6 @@ NaP.addTooltip(game.localize("naquadah_phaser_controller_tooltip_3"));
 //星空宇宙培育仓
 var SUCC as IItemStack = <gregtech:machine:32002>;
 
-SUCC.addTooltip(game.localize("voltage_level") + "§rLUV");
+SUCC.addTooltip(game.localize("voltage_level") + "§rLuV");
 SUCC.addTooltip(game.localize("starry_universe_cultivation_cabin_tooltip_1"));
 SUCC.addTooltip(game.localize("starry_universe_cultivation_cabin_tooltip_2"));

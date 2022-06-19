@@ -269,7 +269,14 @@ PureDaisy.addRecipe(<minecraft:sapling>, <thaumcraft:sapling_greatwood>, 30);
 
 //活木
 PureDaisy.removeRecipe(<botania:livingwood>);
-PureDaisy.addRecipe(<thaumcraft:log_greatwood>, <botania:livingwood>, 30);
+var greatWoods as IItemStack[] = [
+    <thaumcraft:log_greatwood:0>,
+    <thaumcraft:log_greatwood:1>,
+    <thaumcraft:log_greatwood:1>
+];
+for greatWood in greatWoods {
+    PureDaisy.addRecipe(greatWood, <botania:livingwood>, 30);
+}
 
 //活木枝
 lathe.recipeBuilder()
