@@ -174,3 +174,147 @@ MaterialBuilder(32723, "hydrogen_peroxide")
     .fluidTemp(300)
     .color(0xACD0D0)
     .build();
+
+//紫颂果汁
+MaterialBuilder(32724, "chorus_juice")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x8B678E)
+    .build();
+
+//RP-1混合火箭燃料
+MaterialBuilder(32725,"rp_1_fuel")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xB52F30)
+    .build();
+
+MaterialBuilder(32726,"rp_1_hybrid_rocket_fuel")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xD22E30)
+    .build();
+
+MaterialBuilder(32727,"kerosene")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x7C227C)
+    .build();
+
+//肼
+MaterialBuilder(32728,"hydrazine")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x8C0809)
+    .build();
+
+//浓缩肼混合火箭燃料
+MaterialBuilder(32729,"dense_hydrazine_hybrid_rocket_fuel")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x9C496E)
+    .build();
+
+//一甲基肼
+MaterialBuilder(32730,"monomethylhydrazine")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xC34B04)
+    .build();
+
+//CN3H7O3火箭燃料
+MaterialBuilder(32731,"purple_rocket_fuel")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x6E449F)
+    .build();
+
+//偏二甲肼
+MaterialBuilder(32732,"formaldehyde")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x23A061)
+    .build();
+
+MaterialBuilder(32733,"unsymmetrical_dimethylhydrazine")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x600601)
+    .build();
+
+MaterialBuilder(32734,"acetylhydrazine")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x9D4646)
+    .build();
+
+//H8N4C2O4火箭燃料
+MaterialBuilder(32735,"green_rocket_fuel")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x2EBE30)
+    .build();
+
+//助燃剂
+MaterialBuilder(32736,"combustion_promotor")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x39979B)
+    .build();
+
+//航空煤油A
+MaterialBuilder(32737,"jet_fuel_a")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xD17D03)
+    .build();
+
+MaterialBuilder(32738,"ferrocene_solution")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xA45E18)
+    .build();
+
+MaterialBuilder(32739,"ether")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xAD8A26)
+    .build();
+
+MaterialBuilder(32740,"impure_ferrocene_mixture")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x5A3F0A)
+    .build();
+
+MaterialBuilder(32741,"diethylamine")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x505896)
+    .build();
+
+MaterialBuilder(32742,"cyclopentadiene")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0xCEC79A)
+    .build();
+
+MaterialBuilder(32743,"ferrocene_waste")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x2B1806)
+    .build();
+
+//航空煤油#3
+MaterialBuilder(32744,"jet_fuel_no_3")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x6F0348)
+    .build();
+
+//氯化亚铁
+MaterialBuilder(32745,"ferrous_chloride")
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(300)
+    .color(0x484848)
+    .build();

@@ -1,5 +1,5 @@
 /*
- * ZenScript by Hikari_Nova & shang_jun
+ * ZenScript by Hikari_Nova & shang_jun_
  * 未经过授权，禁止用于其他整合包或服务器内容。
  * 此脚本为格雷科技能量转换器内容
 */
@@ -31,12 +31,12 @@ while(meta3 <=1673){
 }
 //定义 EIO 导管数组
 var eioConduits as IItemStack[] = [
-    <enderio:item_endergy_conduit:9>,
     <enderio:item_power_conduit:0>,
     <enderio:item_power_conduit:1>,
     <enderio:item_power_conduit:2>,
     <enderio:item_endergy_conduit:6>,
     <enderio:item_endergy_conduit:8>,
+    <enderio:item_endergy_conduit:4>,
     <enderio:item_endergy_conduit:10>,
     <enderio:item_endergy_conduit:11>
 ];

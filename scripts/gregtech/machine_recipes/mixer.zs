@@ -92,3 +92,44 @@ mixer.recipeBuilder()
     .EUt(256)
     .duration(50)
     .buildAndRegister();
+
+//硼铁合金
+mixer.recipeBuilder()
+    .inputs([<ore:dustBoron>,<ore:dustIron>])
+    .outputs(<gregtech:meta_dust:32028>)
+    .duration(40)
+    .EUt(120)
+    .buildAndRegister();
+
+//高强合金
+mixer.recipeBuilder()
+    .inputs([<ore:dustFerroboron>*2,<ore:dustSilicon>,<ore:dustChrome>,<ore:dustCarbon>,<ore:dustLithium>*4])
+    .outputs([<gregtech:meta_dust:32029>*2])
+    .duration(30)
+    .EUt(1920)
+    .buildAndRegister();
+
+//热引合金
+mixer.recipeBuilder()
+    .inputs([<ore:dustToughAlloy>*6,<ore:dustTantalumCarbide>*4,<ore:dustMolybdenumDisilicide>*9,<ore:dustCaesium>*9])
+    .outputs([<gregtech:meta_dust:32041>*6])
+    .duration(200)
+    .EUt(7680)
+    .buildAndRegister();
+
+//基岩合金
+mixer.recipeBuilder()
+    .inputs([<ore:dustExtremeAlloy>*7,<ore:dustOrichalcum>*3,<ore:dustBedrockEssence>*1,<ore:dustTrinium>*2,<ore:dustEuropium>*1])
+    .outputs([<gregtech:meta_dust:32042>*10])
+    .duration(450)
+    .EUt(30720)
+    .buildAndRegister();
+
+//高能合金
+mixer.recipeBuilder()
+    .inputs([<ore:dustEnderiumCryotheum>,<ore:dustSignalumFluorescent>,<ore:dustLumiumPyrotheum>,<ore:dustElectrumFlux>])
+    .fluidInputs([<liquid:astralsorcery.liquidstarlight>*16000])
+    .outputs(<gregtech:meta_dust:32107>*2)
+    .duration(1000)
+    .EUt(30720)
+    .buildAndRegister();

@@ -7,6 +7,7 @@
 //凿子_自动雕凿机
 
 import mods.gregtech.recipe.RecipeMap;
+import mods.jei.JEI;
 
 recipes.remove(<chisel:auto_chisel>);
 recipes.addShaped(<chisel:auto_chisel>, [
@@ -34,3 +35,6 @@ implosion_compressor.recipeBuilder()
 
 //附魔金苹果
 chemical_reactor.findRecipe(30, [<minecraft:apple:0>, <minecraft:gold_block:0> * 8], null).remove();
+
+mods.jei.JEI.addItem(<gregtech:meta_dust:41>);
+mods.jei.JEI.addItem(<gregtech:meta_dust:51>);

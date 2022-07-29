@@ -134,3 +134,33 @@ import crafttweaker.item.IIngredient;
         .EUt(256)
         .property("temperature", 1400)
         .buildAndRegister();
+
+//山铜锭
+electric_blast_furnace.recipeBuilder()
+    .inputs([<ore:dustManaInfusedResidue>*2,<ore:dustPyrotheum>*8])
+    .fluidInputs([<liquid:rocket_fuel>*4000])
+    .outputs([<gregtech:meta_ingot_hot:32039>*3,<gregtech:meta_dust:2522>*6])
+    .EUt(7680)
+    .duration(950)
+    .property("temperature", 4000)
+    .buildAndRegister();
+
+//极限合金
+electric_blast_furnace.recipeBuilder()
+    .inputs([<ore:ingotToughAlloy>,<ore:ingotHardCarbonAlloy>])
+    .fluidInputs([<liquid:deuterium>*2000])
+    .outputs([<gregtech:meta_ingot_hot:32040>*2])
+    .EUt(7680)
+    .duration(500)
+    .property("temperature", 5100)
+    .buildAndRegister();
+
+//晶素锭
+electric_blast_furnace.recipeBuilder()
+    .inputs([<ore:blockEnderAlloyAdvanced>,<ore:gemExquisiteDiamond>*2,<ore:gemNetherStar>])
+    .fluidInputs([<liquid:argon>*1000])
+    .outputs([<gregtech:meta_ingot_hot:32025>*2])
+    .EUt(480)
+    .duration(3000)
+    .property("temperature", 5000)
+    .buildAndRegister();

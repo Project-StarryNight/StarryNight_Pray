@@ -91,3 +91,11 @@ thaumiumcasing.fullBlock = false;
 thaumiumcasing.setToolClass("pickaxe");
 thaumiumcasing.setToolLevel(2);
 thaumiumcasing.register();
+
+//添加极限机械方块
+var extremecasing = VanillaFactory.createBlock("extreme_casing", <blockmaterial:iron>);
+extremecasing.entitySpawnable = false;
+extremecasing.fullBlock = false;
+extremecasing.setToolClass("pickaxe");
+extremecasing.setToolLevel(3);
+extremecasing.register();
