@@ -4,20 +4,23 @@
 	y: -1.5d,
 	description: "{stp.quests.f8a5a33c.description}",
 	tasks: [{
-		uid: "957ff360",
+		uid: "ec9dae8a",
 		type: "item",
 		items: [{
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any craftingToolMortar"
+					Name: "Any gtceMortars"
 				}
 			},
 			ForgeCaps: {
 				Parent: {
-					id: "always_true"
+					id: "ore",
+					data: "gtceMortars"
 				}
 			}
-		}]
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

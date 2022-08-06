@@ -17,7 +17,7 @@ import crafttweaker.event.PlayerRespawnEvent;
 import crafttweaker.data.IData;
 
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
-    var player as IPlayer =event.player;
+    var player as IPlayer = event.player;
     player.sendMessage(game.localize("events_loggedin_1")+ " §1"+player.name);
     player.sendMessage(game.localize("events_loggedin_2")+ " " + game.localize("events_loggedin_6"));
     player.sendMessage(game.localize("events_loggedin_3")+ " §2"+"https://github.com/Project-StarryNight/StarryNight_Pray");

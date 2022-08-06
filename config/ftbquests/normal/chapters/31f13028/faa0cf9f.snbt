@@ -12,8 +12,7 @@
 				RSControl: 0b,
 				Energy: 0,
 				Level: 0b
-			},
-			Count: 1b
+			}
 		}]
 	}]
 }

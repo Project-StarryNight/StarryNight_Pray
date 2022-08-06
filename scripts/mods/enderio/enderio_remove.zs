@@ -77,3 +77,8 @@ for i, item in items {
     recipes.remove(item);
     JEI.removeAndHide(item,true);
 }
+
+//移除 EnderCore 自带配方
+recipes.removeShaped(<minecraft:hopper>, [[<minecraft:iron_ingot>, <ore:logWood>, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <ore:logWood>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
+recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.removeShaped(<minecraft:stick> * 16, [[null, <minecraft:log>, null],[null, <minecraft:log>, null], [null, null, null]]);

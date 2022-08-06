@@ -53,12 +53,12 @@ var times as int[] = [
 16000,
 64000,
 72000,
-50000000,
-50000000,
-100000000,
-100000000,
-100000000,
-1000000000,
+40000000,
+40000000,
+75000000,
+75000000,
+75000000,
+750000000,
 400000,
 1000000,
 8000000,
@@ -81,37 +81,37 @@ var time = times[i];
 
 if(i <= 23){
     <recipemap:magicreactor0>.recipeBuilder()
-        .inputs(input*1)
+        .inputs(input * 1)
         .EUt(-64)
         .duration(time / 70)
         .buildAndRegister();
     <recipemap:magicreactor1>.recipeBuilder()
-        .inputs(input*1)
+        .inputs(input * 1)
         .EUt(-128)
         .duration(time / 150 )
         .buildAndRegister();
     <recipemap:magicreactor2>.recipeBuilder()
-        .inputs(input*1)
+        .inputs(input * 1)
         .EUt(-512)
         .duration(time / 640)
         .buildAndRegister();}
 else if(i >= 24){
     var output = outputs[i - 24];
     <recipemap:magicreactor0>.recipeBuilder()
-        .inputs(input*1)
-        .outputs(output*1)
+        .inputs(input * 1)
+        .outputs(output * 1)
         .EUt(-64)
         .duration(time / 70)
         .buildAndRegister();
     <recipemap:magicreactor1>.recipeBuilder()
-        .inputs(input*1)
-        .outputs(output*1)
+        .inputs(input * 1)
+        .outputs(output * 1)
         .EUt(-128)
         .duration(time / 150 )
         .buildAndRegister();
     <recipemap:magicreactor2>.recipeBuilder()
-        .inputs(input*1)
-        .outputs(output*1)
+        .inputs(input * 1)
+        .outputs(output * 1)
         .EUt(-512)
         .duration(time / 640)
         .buildAndRegister();}

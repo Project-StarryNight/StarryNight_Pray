@@ -36,5 +36,13 @@ implosion_compressor.recipeBuilder()
 //附魔金苹果
 chemical_reactor.findRecipe(30, [<minecraft:apple:0>, <minecraft:gold_block:0> * 8], null).remove();
 
+//UHV 电池箱
+# 16A
+recipes.addShaped(<gregtech:machine:1344>, [[null, null, null],[<gregtech:wire_hex:33>, <ore:chest>, <gregtech:wire_hex:33>], [<gregtech:wire_hex:33>, <gregtech:machine:994>, <gregtech:wire_hex:33>]]);
+# 8A
+recipes.addShaped(<gregtech:machine:1334>, [[null, null, null],[<gregtech:wire_octal:33>, <ore:chest>, <gregtech:wire_octal:33>], [<gregtech:wire_octal:33>, <gregtech:machine:994>, <gregtech:wire_octal:33>]]);
+# 4A
+recipes.addShaped(<gregtech:machine:1324>, [[null, null, null],[<gregtech:wire_quadruple:33>, <ore:chest>, <gregtech:wire_quadruple:33>], [<gregtech:wire_quadruple:33>, <gregtech:machine:994>, <gregtech:wire_quadruple:33>]]);
+
 mods.jei.JEI.addItem(<gregtech:meta_dust:41>);
 mods.jei.JEI.addItem(<gregtech:meta_dust:51>);

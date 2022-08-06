@@ -14,11 +14,11 @@ naquadah_phaser_controller_tooltip_3=§r§o少量投入，大量产出，简直�
 starry_universe_cultivation_cabin_tooltip_1=§7一个先进的生物科技机械，用来培育强大的生物。
 starry_universe_cultivation_cabin_tooltip_2=§7需要§a无菌培养基。
 ## 事件提示
-events_loggedin_1=欢迎你游玩StP,
-events_loggedin_2=StP官方交流群:
-events_loggedin_3=StP的Github页面:
-events_loggedin_4=StP的MCBBS页面:
-events_loggedin_5=StP的MCMOD页面:
+events_loggedin_1=欢迎游玩 StP ModPack,
+events_loggedin_2=StP 官方交流群:
+events_loggedin_3=StP 的 Github 页面:
+events_loggedin_4=StP 的 MCBBS 页面:
+events_loggedin_5=StP 的 MCMOD 页面:
 events_loggedin_6=§2664266845
 events_wakeup_1=§6又一个美好的早晨呢§f
 events_respawn_1=§c死亡提示:

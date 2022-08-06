@@ -30,3 +30,6 @@ mixer.recipeBuilder()
     .EUt(64)
     .duration(30)
     .buildAndRegister();
+
+//移除自带配方
+recipes.removeShaped(<minecraft:paper> * 3, [[<actuallyadditions:item_food:16>, null, null],[null, <actuallyadditions:item_food:16>, null], [null, null, <actuallyadditions:item_food:16>]]);

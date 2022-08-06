@@ -60,12 +60,12 @@
             <operation>
                 <str>GT</str>
                 <var>entitiestotal</var>
+                <num>150</num>
                 <num>100</num>
                 <num>75</num>
                 <num>50</num>
                 <num>30</num>
                 <num>20</num>
-                <num>15</num>
                 <num>10</num>
                 <num>5</num>
                 <str>$4{entitiestotal}</str>
@@ -98,6 +98,80 @@
             </operation>
 
             <str>$7丨$9Day:{day}$7丨$9Time:{mctime24}</str>
+        </line>
+
+        <line>
+            <str>$9MSPT: $9$l[</str>
+            <operation>
+                <str>GE</str>
+                <var>mspt</var>
+                    <num>75</num>
+                    <num>70</num>
+                    <num>65</num>
+                    <num>60</num>
+                    <num>55</num>
+                    <num>50</num>
+                    <num>45</num>
+                    <num>40</num>
+                    <num>35</num>
+                    <num>30</num>
+                    <num>25</num>
+                    <num>20</num>
+                    <num>15</num>
+                    <num>10</num>
+                    <num>5</num>
+                    <num>0</num>
+                        <str>$4$l$m||||||||||||||||</str>
+                        <str>$c$l$m|||||||||||||||$7$l|</str>
+                        <str>$c$l$m||||||||||||||$7$l||</str>
+                        <str>$c$l$m|||||||||||||$7$l|||</str>
+                        <str>$c$l$m||||||||||||$7$l||||</str>
+                        <str>$c$l$m|||||||||||$7$l|||||</str>
+                        <str>$6$l$m||||||||||$7$l||||||</str>
+                        <str>$6$l$m|||||||||$7$l|||||||</str>
+                        <str>$6$l$m||||||||$7$l||||||||</str>
+                        <str>$e$l$m|||||||$7$l|||||||||</str>
+                        <str>$e$l$m||||||$7$l||||||||||</str>
+                        <str>$e$l$m|||||$7$l|||||||||||</str>
+                        <str>$a$l$m||||$7$l||||||||||||</str>
+                        <str>$a$l$m|||$7$l|||||||||||||</str>
+                        <str>$2$l$m||$7$l||||||||||||||</str>
+                        <str>$2$l$m|$7$l|||||||||||||||</str>
+            </operation>
+            <str>$9$l] </str>
+            <operation>
+                <str>GT</str>
+                <var>mspt</var>
+                    <num>75</num>
+                    <num>50</num>
+                    <num>35</num>
+                    <num>20</num>
+                    <num>10</num>
+                    <num>0</num>
+                        <str>$7($4{mspt}ms$7)</str>
+                        <str>$7($c{mspt}ms$7)</str>
+                        <str>$7($6{mspt}ms$7)</str>
+                        <str>$7($e{mspt}ms$7)</str>
+                        <str>$7($a{mspt}ms$7)</str>
+                        <str>$7($2{mspt}ms$7)</str>
+            </operation>
+            <str>$7丨</str>
+            <operation>
+                <str>GE</str>
+                <var>tps</var>
+                    <num>20</num>
+                    <num>19</num>
+                    <num>17</num>
+                    <num>15</num>
+                    <num>13</num>
+                    <num>0</num>
+                        <str>$9TPS:$2{tps}</str>
+                        <str>$9TPS:$a{tps}</str>
+                        <str>$9TPS:$e{tps}</str>
+                        <str>$9TPS:$6{tps}</str>
+                        <str>$9TPS:$c{tps}</str>
+                        <str>$9TPS:$4{tps}</str>
+            </operation>
         </line>
 
         <line>
@@ -149,7 +223,7 @@
                 <str>$4$l$m|||||||||||||||||||$7$l|</str>
                 <str>$4$l$m||||||||||||||||||||</str>
             </op>
-            <str>$9$l] $f(</str>
+            <str>$9$l] $7(</str>
             <op>
                 <str>le</str>
                 <pct>
@@ -164,16 +238,40 @@
                 <str>$e</str>
                 <str>$c</str>
                 <str>$4</str>
-                <str />
+                <str/>
             </op>
             <round>
                 <div>
                     <var>memused</var>
-                    <num>1048576000</num>
+                    <num>1073741824</num>
                 </div>
                 <num>1</num>
             </round>
-            <str>G$f)</str>
+            <str>G $7/ </str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>85</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </op>
+            <round>
+                <div>
+                    <var>memmax</var>
+                    <num>1073741824</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G$7)</str>
         </line>
 
         <line>

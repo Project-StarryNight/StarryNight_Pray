@@ -4,7 +4,7 @@
 	y: -1.5d,
 	description: "{stp.quests.fe61b527.description}",
 	tasks: [{
-		uid: "cf336a12",
+		uid: "484c0c56",
 		type: "item",
 		items: [{
 			id: "itemfilters:filter",
@@ -15,10 +15,12 @@
 			},
 			ForgeCaps: {
 				Parent: {
-					id: "always_true"
+					id: "ore",
+					data: "gtceHardHammers"
 				}
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

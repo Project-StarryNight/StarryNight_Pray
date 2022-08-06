@@ -2,11 +2,11 @@
 	x: 3.0d,
 	y: -1.0d,
 	text: [
-<<<<<<< HEAD"{stp.quests.6f633b39.text.1}"<<<<<<< HEAD
-		"{stp.quests.6f633b39.text.2}"
-======="{stp.quests.6f633b39.text.3}"=======
-		"{stp.quests.6f633b39.text.4}"
->>>>>>> 4fe4d65eb361c7b76f7d43213765e7d899ef0a53"{stp.quests.6f633b39.text.5}">>>>>>> 4fe4d65eb361c7b76f7d43213765e7d899ef0a53
+		"{stp.quests.6f633b39.text.1}",
+		"{stp.quests.6f633b39.text.2}",
+		"{stp.quests.6f633b39.text.3}",
+		"{stp.quests.6f633b39.text.4}",
+		"{stp.quests.6f633b39.text.5}"
 	],
 	dependencies: [
 		"359c7ae0"
