@@ -390,7 +390,7 @@
             - [拼音搜索][hecharacters-1.12.2-1.1.0]
             - [简单联机][ServerPropertiesLAN-2.65]
             - [闭嘴！模型加载器！][shutupmodelloader-1.12.2-1.0.0]
-            - [日志过滤器][StuffASockInIt-1.12.2-1.1.32]
+            - [3D 皮肤层][3dSkinLayers-forge-mc1.12.2-1.2.0]
         - 更新模组
             - [格雷科技社区版非官方][2.2.3-beta] -> [2.3.4-beta]
             - [应用能源 2 非官方延长寿命版][v0.52.3] -> [v0.52.10]

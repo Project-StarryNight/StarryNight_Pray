@@ -319,7 +319,6 @@
     - [Discord 兼容][DiscordSuite-2.2.4]
     - [简单联机][ServerPropertiesLAN-2.65]
     - [闭嘴！模型加载器！][shutupmodelloader-1.12.2-1.0.0]
-    - [日志过滤器][StuffASockInIt-1.12.2-1.1.32]
 
     修复:
     - [更大的发包][biggerpacketsplz-since1.8-1.2]
@@ -336,3 +335,4 @@
     - [精美菜单][fancymenu_forge_2.6.4_MC_1.12-1.12.2]
     - [平滑字体][SmoothFont-mc1.12.2-2.1.1]
     - [平滑滚动][smooth-scrolling-everywhere-1.1]
+    - [3D 皮肤层][3dSkinLayers-forge-mc1.12.2-1.2.0]
