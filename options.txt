@@ -5,13 +5,13 @@ fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:3
+guiScale:4
 particles:1
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
